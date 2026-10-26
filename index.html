@@ -646,11 +646,11 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     ownerLogin(em,pw).then(function(j){saveSession(j);$('apass').value='';loadAdmin()}).catch(function(){er.textContent='That email or password did not work.';er.hidden=false});
   });
   function refreshAdmin(){
-    return Promise.all([get('/rest/v1/signups?select=*&order=created_at.desc&limit=2000'),get('/rest/v1/members?select=*&order=added_at.desc'),get('/rest/v1/profiles?select=email,display_name'),get('/rest/v1/messages?select=*&order=created_at'),get('/rest/v1/groups?select=*&order=id')]).then(function(a){A.signups=a[0];A.members=a[1];A.names={};a[2].forEach(function(p){A.names[p.email.toLowerCase()]=p.display_name});A.msgs=a[3];A.groups=a[4]});
+    return Promise.all([get('/rest/v1/signups?select=*&order=created_at.desc&limit=2000'),get('/rest/v1/members?select=*&order=added_at.desc'),get('/rest/v1/profiles?select=email,display_name'),get('/rest/v1/messages?select=*&order=created_at'),get('/rest/v1/groups?select=*&order=id'),get('/rest/v1/planner?select=data&id=eq.1').catch(function(){return null})]).then(function(a){A.plan=a[5]&&a[5][0]?a[5][0].data:A.plan;A.planOk=a[5]!==null;A.signups=a[0];A.members=a[1];A.names={};a[2].forEach(function(p){A.names[p.email.toLowerCase()]=p.display_name});A.msgs=a[3];A.groups=a[4].sort(function(x,y){return ['tue','thu','sat'].indexOf(x.id)-['tue','thu','sat'].indexOf(y.id)})});
   }
-  var ATABS=[['signups','Signups'],['members','Members'],['messages','Messages'],['account','Account']];
+  var ATABS=[['planner','Planner'],['signups','Signups'],['members','Members'],['messages','Messages'],['account','Account']];
   function drawATabs(){var t=$('atabs');t.textContent='';ATABS.forEach(function(x){var n=x[0]==='messages'?unanswered().length:0;t.appendChild(h('button',{class:'tab',type:'button',role:'tab','aria-selected':String(A.tab===x[0]),onclick:function(){A.tab=x[0];drawATabs();drawATab()},text:x[1]+(n?' ('+n+')':'')}))})}
-  function drawATab(){var m=$('atab');m.textContent='';({signups:aSignups,members:aMembers,messages:aMsgs,account:aAccount})[A.tab](m)}
+  function drawATab(){var m=$('atab');m.textContent='';({planner:aPlanner,signups:aSignups,members:aMembers,messages:aMsgs,account:aAccount})[A.tab](m)}
   function dt(s){return new Date(s).toLocaleString(undefined,{month:'short',day:'numeric',year:'numeric',hour:'numeric',minute:'2-digit'})}
   function aSignups(m){
     var by={},week=Date.now()-7*864e5,w=0;
@@ -698,6 +698,51 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
         if(p1.value.length<8){msg.textContent='Use at least 8 characters.';return}
         api('/auth/v1/user',{token:D.tok,method:'PUT',body:{password:p1.value}}).then(function(r){if(!r.ok)throw 0;p1.value='';msg.textContent='Password saved. You can log in with it next time.'}).catch(function(){msg.textContent='Could not save. Please try again.'});
       }})]),msg])]));
+  }
+
+  /* ---------- Planner (price, class size, teacher pay) ---------- */
+  var PD={price:46,feepct:2.9,feefix:0.3,aff:0,tools:50,g:{tue:{people:10,rate:75,classes:4},thu:{people:10,rate:75,classes:4},sat:{people:10,rate:60,classes:4}}};
+  function money(n){return (n<0?'-':'')+'$'+Math.abs(Math.round(n)).toLocaleString('en-US')}
+  function pctf(n){return (isFinite(n)?n:0).toFixed(1)+'%'}
+  function aPlanner(m){
+    var P=JSON.parse(JSON.stringify(PD)),sv=A.plan||{};
+    ['price','feepct','feefix','aff','tools'].forEach(function(k){if(typeof sv[k]==='number')P[k]=sv[k]});
+    A.groups.forEach(function(g){var d=P.g[g.id]||{people:10,rate:60,classes:4},o=(sv.g||{})[g.id]||{};P.g[g.id]={people:typeof o.people==='number'?o.people:d.people,rate:typeof o.rate==='number'?o.rate:d.rate,classes:typeof o.classes==='number'?o.classes:d.classes}});
+    var ins={},status=h('p',{class:'fine',role:'status',text:A.planOk?'Changes save automatically.':'Saving is not set up yet. Numbers will reset when you leave this page.'}),timer=null;
+    function inp(label,val,step,onch){var i=h('input',{type:'number',min:'0',step:step||'1',value:String(val),style:'width:100%'});i.addEventListener('input',function(){onch(parseFloat(i.value)||0);calc();queue()});return h('label',{text:label},[i])}
+    function queue(){clearTimeout(timer);status.textContent='Saving.';timer=setTimeout(function(){
+      post('/rest/v1/planner?on_conflict=id',{id:1,data:P,updated_at:new Date().toISOString()},'resolution=merge-duplicates,return=minimal').then(function(){A.plan=JSON.parse(JSON.stringify(P));status.textContent='Saved.'}).catch(function(){status.textContent='Could not save. Your numbers are still on screen.'});
+    },700)}
+    var out=h('div');
+    m.appendChild(h('p',{class:'fine',text:'Try different prices, class sizes and teacher pay to see what is left over. These numbers are a plan, separate from your real members.',style:'margin-bottom:1rem'}));
+    m.appendChild(h('div',{class:'card',style:'margin-bottom:1.4rem'},[h('div',{class:'kind',text:'Money in and out'}),h('div',{class:'tiles',style:'margin:1rem 0 0'},[
+      inp('Monthly price ($)',P.price,'1',function(v){P.price=v}),inp('Payment fee (%)',P.feepct,'0.1',function(v){P.feepct=v}),inp('Fee per charge ($)',P.feefix,'0.05',function(v){P.feefix=v}),inp('Affiliate payouts (% of income)',P.aff,'0.1',function(v){P.aff=v}),inp('Zoom and tools ($ a month)',P.tools,'1',function(v){P.tools=v})])]));
+    var t=h('table',{class:'tbl'},[h('tr',{},['Class','Teacher','People (now)','People (plan)','Pay per class ($)','Classes a month','Income','Teacher pay','Pay as % of income','Left over'].map(function(x){return h('th',{text:x})}))]);
+    A.groups.forEach(function(g){
+      var now=A.members.filter(function(x){return x.group_id===g.id}).length,gp=P.g[g.id],c={};
+      function cell(id){c[id]=h('td');return c[id]}
+      var mk=function(k,st){var i=h('input',{type:'number',min:'0',step:st||'1',value:String(gp[k]),style:'width:5.5rem','aria-label':g.name+' '+k});i.addEventListener('input',function(){gp[k]=parseFloat(i.value)||0;calc();queue()});return h('td',{},[i])};
+      t.appendChild(h('tr',{},[h('td',{},[h('b',{text:g.name}),h('br'),h('span',{class:'fine',text:g.slot})]),h('td',{text:g.instructor}),h('td',{text:String(now)}),mk('people'),mk('rate'),mk('classes'),cell('inc'),cell('pay'),cell('pct'),cell('left')]));
+      ins[g.id]=c;
+    });
+    var tot=h('tr',{},[h('td',{},[h('b',{text:'Total'})]),h('td'),h('td'),h('td'),h('td'),h('td'),h('td'),h('td'),h('td'),h('td')]);
+    t.appendChild(tot);
+    m.appendChild(h('div',{class:'card',style:'margin-bottom:1.4rem'},[h('div',{class:'kind',text:'Classes and teacher pay'}),h('div',{class:'scroll',style:'margin-top:.8rem'},[t])]));
+    m.appendChild(out);status.style.marginTop='1rem';m.appendChild(status);
+    function calc(){
+      var tm=0,ti=0,tp=0;
+      A.groups.forEach(function(g){var gp=P.g[g.id],inc=gp.people*P.price,pay=gp.rate*gp.classes,c=ins[g.id];tm+=gp.people;ti+=inc;tp+=pay;
+        c.inc.textContent=money(inc);c.pay.textContent=money(pay);c.pct.textContent=pctf(inc?pay/inc*100:0);c.left.textContent=money(inc-pay)});
+      var cells=tot.children;cells[3].textContent=String(tm);cells[6].textContent=money(ti);cells[7].textContent=money(tp);cells[8].textContent=pctf(ti?tp/ti*100:0);cells[9].textContent=money(ti-tp);
+      [3,6,7,8,9].forEach(function(i){cells[i].style.fontWeight='700'});
+      var fee=ti*P.feepct/100+tm*P.feefix,aff=ti*P.aff/100,left=ti-tp-fee-aff-P.tools,Pc=function(x){return ti?x/ti*100:0};
+      out.textContent='';
+      out.appendChild(h('div',{class:'tiles'},[tile(tm,'people in plan'),tile(money(ti),'income a month'),tile(money(tp),'teacher pay'),tile(money(left),'left over (profit)'),tile(pctf(Pc(left)),'profit margin'),tile(pctf(Pc(tp)),'of income to teachers')]));
+      var b=h('table',{class:'tbl'},[h('tr',{},['Where the money goes','This month','% of income'].map(function(x){return h('th',{text:x})}))]);
+      [['Income from members',ti],['Teacher pay',-tp],['Payment fees',-fee],['Affiliate payouts',-aff],['Zoom and tools',-P.tools],['Left over (profit)',left]].forEach(function(r){b.appendChild(h('tr',{},[h('td',{text:r[0]}),h('td',{text:money(r[1])}),h('td',{text:pctf(Pc(Math.abs(r[1])))})]))});
+      out.appendChild(h('div',{class:'card'},[h('div',{class:'kind',text:'Breakdown'}),h('div',{class:'scroll',style:'margin-top:.8rem'},[b])]));
+    }
+    calc();
   }
   function threads(){var t={};A.msgs.forEach(function(x){(t[x.thread_email]=t[x.thread_email]||[]).push(x)});return Object.keys(t).map(function(k){return {email:k,list:t[k],last:t[k][t[k].length-1]}}).sort(function(a,b){return new Date(b.last.created_at)-new Date(a.last.created_at)})}
   function unanswered(){return threads().filter(function(t){return t.last.sender==='member'})}
