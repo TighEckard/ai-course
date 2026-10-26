@@ -81,7 +81,7 @@ alter table public.events enable row level security;
 
 create policy "anyone can sign up" on public.signups for insert to anon, authenticated with check (true);
 create policy "see own membership" on public.members for select to authenticated using (lower(email) = lower(auth.jwt() ->> 'email'));
-create policy "members read groups" on public.groups for select to authenticated using (public.is_member());
+create policy "members read own group" on public.groups for select to authenticated using (id = public.my_group());
 create policy "own profile read" on public.profiles for select to authenticated using (lower(email) = lower(auth.jwt() ->> 'email'));
 create policy "own profile add" on public.profiles for insert to authenticated with check (lower(email) = lower(auth.jwt() ->> 'email') and public.is_member());
 create policy "own profile edit" on public.profiles for update to authenticated using (lower(email) = lower(auth.jwt() ->> 'email')) with check (lower(email) = lower(auth.jwt() ->> 'email'));
