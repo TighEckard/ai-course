@@ -292,13 +292,13 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     </section>
   </main>
 
-  <footer><span>AI Coffee Club · <span class="ce">hello@aicoffeeclub.com</span> · <a href="#privacy">Privacy</a> · <a href="#terms">Terms</a> · <a href="#login">Member log in</a></span><span>Photos are stock photos. Teacher names and bios are samples.</span></footer>
+  <footer><span>AI Coffee Club · <span class="ce">admin@ovoa.ai</span> · <a href="#privacy">Privacy</a> · <a href="#terms">Terms</a> · <a href="#login">Member log in</a></span><span>Photos are stock photos. Teacher names and bios are samples.</span></footer>
 </div>
 
 <div class="wrap" id="join-view" hidden>
   <header>
     <a class="logo" href="#top">AI Coffee Club</a>
-    <nav><a class="cl" href="mailto:hello@aicoffeeclub.com">Need help?</a></nav>
+    <nav><a class="cl" href="mailto:admin@ovoa.ai">Need help?</a></nav>
   </header>
   <main class="join">
     <a class="back" href="#top">&larr; Back to the class page</a>
@@ -333,8 +333,8 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     <p class="fine" style="margin-top:.7rem">You can pay with your PayPal balance, or with a card as a PayPal guest.</p>
     <div class="paynote">
       <p><b>Your card details never touch our site.</b> You enter them on paypal.com, over an encrypted https connection. We never see or store them.</p>
-      <p><b>Cancel any time.</b> Cancel from your PayPal account, or email  <span class="ce">hello@aicoffeeclub.com</span> and we will cancel it for you. No fees. See our <a href="#terms">terms</a> and <a href="#privacy">privacy</a>.</p>
-      <p><b>Questions?</b> Email <span class="ce">hello@aicoffeeclub.com</span>. A real person replies.</p>
+      <p><b>Cancel any time.</b> Cancel from your PayPal account, or email  <span class="ce">admin@ovoa.ai</span> and we will cancel it for you. No fees. See our <a href="#terms">terms</a> and <a href="#privacy">privacy</a>.</p>
+      <p><b>Questions?</b> Email <span class="ce">admin@ovoa.ai</span>. A real person replies.</p>
     </div>
   </main>
 </div>
@@ -355,7 +355,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
       <h3>Who sees it</h3>
       <p>Our hosting and database provider stores your details securely for us. Zoom processes your name and email when you join a class. Class recordings may include your voice or image if you speak or turn on your camera.</p>
       <h3>Your choices</h3>
-      <p>Email us at <span class="ce">hello@aicoffeeclub.com</span> to see, correct or delete your details, or to stop receiving class emails. We reply within a few days.</p>
+      <p>Email us at <span class="ce">admin@ovoa.ai</span> to see, correct or delete your details, or to stop receiving class emails. We reply within a few days.</p>
       <h3>We will never</h3>
       <p>Ask for your passwords, bank details or card number by email, phone or in class.</p>
     </div>
@@ -384,7 +384,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
       <h3>Recordings and your account</h3>
       <p>Recordings and sheets are for your own use and may not be shared or sold. Your sign-in is for you alone.</p>
       <h3>Contact</h3>
-      <p><span class="ce">hello@aicoffeeclub.com</span></p>
+      <p><span class="ce">admin@ovoa.ai</span></p>
     </div>
   </main>
 </div>
@@ -402,7 +402,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
       <button type="button" class="alt" id="lcreate">Create my account</button>
       <p class="err" id="lerr" role="alert" hidden></p>
     </form>
-    <p class="fine" style="margin-top:1.2rem">Not a member yet? <a href="#join">Become a member</a>. Forgot your password? Email <span class="ce">hello@aicoffeeclub.com</span> and we will reset it.</p>
+    <p class="fine" style="margin-top:1.2rem">Not a member yet? <a href="#join">Become a member</a>. <a href="#" id="forgot">Forgot your password?</a></p><p class="fine" id="fnote" role="status" hidden></p>
   </main>
 </div>
 
@@ -417,6 +417,17 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     </div>
   </main>
 </div>
+<div class="wrap" id="reset-view" hidden>
+  <header><a class="logo" href="#top">AI Coffee Club</a><nav><a href="#login">Log in</a></nav></header>
+  <main class="join">
+    <h1>Choose a new password</h1>
+    <form id="resetform" novalidate style="max-width:none">
+      <label for="rpass">New password<input id="rpass" type="password" autocomplete="new-password" minlength="8"></label>
+      <button type="submit">Save password</button>
+      <p class="err" id="rerr" role="alert" hidden></p>
+    </form>
+  </main>
+</div>
 <div class="wrap" id="thanks-view" hidden>
   <header><a class="logo" href="#top">AI Coffee Club</a><nav><a href="#login">Log in</a></nav></header>
   <main class="join">
@@ -424,7 +435,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     <h1>Thank you.</h1>
     <p class="sub">Your payment went through PayPal. PayPal emails you a receipt.</p>
     <div class="done" style="max-width:none"><b>What happens next</b><p>We match your payment to your email within one business day. Create your account with that email and your classes will be waiting. Your free-class seat is not affected.</p><a class="btn" href="#login">Create your account</a></div>
-    <p class="fine" style="margin-top:1.2rem">Questions? <span class="ce">hello@aicoffeeclub.com</span></p>
+    <p class="fine" style="margin-top:1.2rem">Questions? <span class="ce">admin@ovoa.ai</span></p>
   </main>
 </div>
 
@@ -451,10 +462,10 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
   var SB_URL='https://yhsxxblilclylzgejehk.supabase.co', SB_KEY='sb_publishable_9BiONVmj8Ht4k7lBsxGkkA_Yajbl8Rj';
   // Paste your Zoom registration link here (optional).
   var REGISTER_URL='';
-  var CONTACT='hello@aicoffeeclub.com';
+  var CONTACT='admin@ovoa.ai';
   var $=function(id){return document.getElementById(id)};
   var base=location.origin+location.pathname;
-  var VIEWS=['join','privacy','terms','login','members','thanks','admin'];
+  var VIEWS=['join','privacy','terms','login','members','thanks','admin','reset'];
   var st={get:function(k){try{return localStorage.getItem(k)}catch(e){return null}},set:function(k,v){try{localStorage.setItem(k,v)}catch(e){}},del:function(k){try{localStorage.removeItem(k)}catch(e){}}};
   function api(path,opt){
     opt=opt||{};
@@ -469,6 +480,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
       var p=new URLSearchParams(h.slice(1));
       if(p.get('access_token')){st.set('acc_token',p.get('access_token'))}
       var nx=st.get('next')==='#admin'?'#admin':'#members';st.del('next');
+      if(p.get('type')==='recovery')nx='#reset';
       history.replaceState(null,'',base+nx);h=nx;
     }
     var v=h.slice(1);if(VIEWS.indexOf(v)<0)v='';
@@ -488,7 +500,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     b.addEventListener('click',function(){var show=input.type==='password';input.type=show?'text':'password';b.innerHTML=show?EYEOFF:EYE;b.setAttribute('aria-label',show?'Hide password':'Show password')});
     wrap.appendChild(b);return input;
   }
-  addEye($('lpass'));addEye($('apass'));
+  addEye($('lpass'));addEye($('apass'));addEye($('rpass'));
   function h(tag,attrs,kids){var e=document.createElement(tag);for(var k in (attrs||{})){if(k==='text')e.textContent=attrs[k];else if(k==='class')e.className=attrs[k];else if(k.slice(0,2)==='on')e.addEventListener(k.slice(2),attrs[k]);else e.setAttribute(k,attrs[k])}(kids||[]).forEach(function(c){if(c)e.appendChild(typeof c==='string'?document.createTextNode(c):c)});return e}
   function safeUrl(u){return /^https:\/\//.test(u||'')}
   function avatar(name,src,big){var c='av'+(big?' big':'');if(src&&/^data:image\/jpeg;base64,/.test(src))return h('img',{class:c,src:src,alt:name});return h('div',{class:c,'aria-hidden':'true',text:(name||'?').charAt(0).toUpperCase()})}
@@ -535,7 +547,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     var card=h('div',{class:'card'},[h('div',{class:'kind',text:'Next class'})]);
     if(nx){var d=new Date(nx.starts_at);card.appendChild(h('h2',{text:fmtDay(d)}));card.appendChild(h('p',{class:'fine',text:nx.title+' · '+fmtTime(d)}))}
     else card.appendChild(h('p',{text:'New dates will appear here soon.'}));
-    if(safeUrl(z))card.appendChild(h('p',{style:'margin-top:1rem'},[h('a',{class:'btn',href:z,rel:'noopener',target:'_blank',text:'Join on Zoom'})]));
+    if(safeUrl(z)&&z!=='https://zoom.us/')card.appendChild(h('p',{style:'margin-top:1rem'},[h('a',{class:'btn',href:z,rel:'noopener',target:'_blank',text:'Join on Zoom'})]));else card.appendChild(h('p',{class:'fine',style:'margin-top:1rem',text:'Your Zoom link will appear here before class.'}));
     var rec=D.acts.filter(function(a){return a.kind==='recording'}).slice(0,3);
     var left=h('div',{class:'card'},[h('div',{class:'kind',text:'Latest recordings'})]);
     if(!rec.length)left.appendChild(h('p',{class:'fine',text:'Recordings appear here after each class.'}));
@@ -693,6 +705,11 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
   function aMembers(m){
     var em=h('input',{id:'newm',type:'email',autocomplete:'off'}),gs=h('select',{id:'newg'});
     A.groups.forEach(function(g){gs.appendChild(h('option',{value:g.id,text:g.name+' ('+g.slot+')'}))});
+    var zmsg=h('p',{class:'fine',role:'status'}),zrow=h('div',{class:'inline'});
+    A.groups.forEach(function(g){var zi=h('input',{type:'url',placeholder:'https://zoom.us/j/...',value:g.zoom_link&&g.zoom_link!=='https://zoom.us/'?g.zoom_link:'','aria-label':'Zoom link for '+g.name});
+      zrow.appendChild(h('label',{text:g.name+' Zoom link'},[zi,h('button',{type:'button',class:'btn sm alt',style:'margin-top:.4rem',text:'Save',onclick:function(){var v=zi.value.trim();if(v&&!/^https:\/\//.test(v)){zmsg.textContent='The link must start with https://';return}
+        api('/rest/v1/groups?id=eq.'+encodeURIComponent(g.id),{token:D.tok,method:'PATCH',body:{zoom_link:v||'https://zoom.us/'},prefer:'return=minimal'}).then(function(r){if(!r.ok)throw 0;g.zoom_link=v;zmsg.textContent=g.name+' link saved. Members see it on their Home tab.'}).catch(function(){zmsg.textContent='Could not save.'})}})]))});
+    m.appendChild(h('div',{class:'card',style:'margin-bottom:1.4rem'},[h('div',{class:'kind',text:'Class Zoom links'}),zrow,zmsg]));
     var msg=h('p',{class:'fine',role:'status'});
     m.appendChild(h('div',{class:'inline'},[h('label',{for:'newm',text:'Add a member (email they paid with)'},[em]),h('label',{for:'newg',text:'Class'},[gs]),h('button',{type:'button',class:'btn sm',text:'Add',onclick:function(){
       var e=em.value.trim().toLowerCase();if(!/^\S+@\S+\.\S+$/.test(e)){msg.textContent='Enter a full email address.';return}
@@ -812,6 +829,16 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     });
   }
   if(SB_URL){}
+  $('forgot').addEventListener('click',function(e){
+    e.preventDefault();var em=$('lemail').value.trim(),n=$('fnote');
+    if(!/^\S+@\S+\.\S+$/.test(em)){n.textContent='Type your email address above first, then press this again.';n.hidden=false;return}
+    api('/auth/v1/recover?redirect_to='+encodeURIComponent(base),{method:'POST',body:{email:em}}).then(function(r){n.textContent=r.ok?'If that email has an account, we have sent a link to choose a new password. Check your inbox and spam folder.':'We could not send that just now. Please email '+CONTACT+' and we will help.';n.hidden=false}).catch(function(){n.textContent='We could not send that just now. Please email '+CONTACT+'.';n.hidden=false});
+  });
+  $('resetform').addEventListener('submit',function(e){
+    e.preventDefault();var er=$('rerr'),pw=$('rpass').value;er.hidden=true;
+    if(pw.length<8){er.textContent='Use a password of at least 8 characters.';er.hidden=false;return}
+    api('/auth/v1/user',{token:st.get('acc_token'),method:'PUT',body:{password:pw}}).then(function(r){if(!r.ok)throw 0;$('rpass').value='';location.hash='#members'}).catch(function(){er.textContent='That link has expired. Go to Log in and press "Forgot your password?" again.';er.hidden=false});
+  });
   $('loginform').addEventListener('submit',function(e){e.preventDefault();memberAuth('login')});
   $('lcreate').addEventListener('click',function(){memberAuth('create')});
   window.addEventListener('hashchange',route);route();
