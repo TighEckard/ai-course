@@ -427,6 +427,13 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
   <header><a class="logo" href="#top">AI Coffee Club · Admin</a><nav><span id="awho" class="fine"></span><a href="#" id="aout">Sign out</a></nav></header>
   <main class="mem">
     <p id="astate" class="sub">Checking access.</p>
+    <form id="adminlogin" novalidate hidden>
+      <h1>Admin log in</h1>
+      <label for="aemail">Email<input id="aemail" type="email" autocomplete="username" value="admin@ovoa.ai"></label>
+      <label for="apass">Password<input id="apass" type="password" autocomplete="current-password"></label>
+      <button type="submit">Log in</button>
+      <p class="err" id="aerr" role="alert" hidden></p>
+    </form>
     <div id="abody" hidden>
       <div class="tabs" role="tablist" id="atabs"></div>
       <div id="atab"></div>
@@ -600,17 +607,30 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
   var A={tab:'signups',thread:null};
   function loadAdmin(){
     var state=$('astate'),body=$('abody');body.hidden=true;state.hidden=false;
+    $('adminlogin').hidden=true;
     D.tok=st.get('acc_token');
-    if(!D.tok){st.set('next','#admin');state.innerHTML='Please <a href="#login">log in</a> with the owner email to open the admin page.';return}
+    if(!D.tok){showAdminLogin();return}
     state.textContent='Checking access.';
-    api('/auth/v1/user',{token:D.tok}).then(function(r){if(!r.ok)throw 401;return r.json()}).then(function(u){
+    api('/auth/v1/user',{token:D.tok}).then(function(r){if(r.ok)return r;return refreshSession().then(function(){return api('/auth/v1/user',{token:D.tok})})}).then(function(r){if(!r.ok)throw 401;return r.json()}).then(function(u){
       D.email=u.email;
       return get('/rest/v1/admins?select=email').then(function(rows){
         if(!rows.length){state.textContent=u.email+' is not an admin.';return}
         return refreshAdmin().then(function(){state.hidden=true;body.hidden=false;$('awho').textContent=u.email;drawATabs();drawATab()});
       });
-    }).catch(function(){st.del('acc_token');st.set('next','#admin');state.innerHTML='Your sign-in has ended. Please <a href="#login">log in again</a>.'});
+    }).catch(function(){st.del('acc_token');st.del('ref_token');showAdminLogin()});
   }
+  function showAdminLogin(){$('astate').hidden=true;$('abody').hidden=true;$('adminlogin').hidden=false}
+  function saveSession(j){st.set('acc_token',j.access_token);if(j.refresh_token)st.set('ref_token',j.refresh_token);D.tok=j.access_token}
+  function refreshSession(){
+    var rt=st.get('ref_token');if(!rt)return Promise.reject(401);
+    return api('/auth/v1/token?grant_type=refresh_token',{method:'POST',body:{refresh_token:rt}}).then(function(r){if(!r.ok)throw 401;return r.json()}).then(saveSession);
+  }
+  $('adminlogin').addEventListener('submit',function(e){
+    e.preventDefault();var er=$('aerr');er.hidden=true;
+    var em=$('aemail').value.trim(),pw=$('apass').value;
+    if(!em||!pw){er.textContent='Enter your email and password.';er.hidden=false;return}
+    api('/auth/v1/token?grant_type=password',{method:'POST',body:{email:em,password:pw}}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(j){saveSession(j);$('apass').value='';loadAdmin()}).catch(function(){er.textContent='That email or password did not work.';er.hidden=false});
+  });
   function refreshAdmin(){
     return Promise.all([get('/rest/v1/signups?select=*&order=created_at.desc&limit=2000'),get('/rest/v1/members?select=*&order=added_at.desc'),get('/rest/v1/profiles?select=email,display_name'),get('/rest/v1/messages?select=*&order=created_at'),get('/rest/v1/groups?select=*&order=id')]).then(function(a){A.signups=a[0];A.members=a[1];A.names={};a[2].forEach(function(p){A.names[p.email.toLowerCase()]=p.display_name});A.msgs=a[3];A.groups=a[4]});
   }
@@ -677,7 +697,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     m.appendChild(h('div',{class:'thr'},[list,pane]));
     box.scrollTop=box.scrollHeight;
   }
-  $('aout').addEventListener('click',function(e){e.preventDefault();st.del('acc_token');location.hash='#login'});
+  $('aout').addEventListener('click',function(e){e.preventDefault();st.del('acc_token');st.del('ref_token');$('abody').hidden=true;showAdminLogin()});
   $('mout').addEventListener('click',function(e){e.preventDefault();st.del('acc_token');location.hash='#login'});
   $('loginform').addEventListener('submit',function(e){
     e.preventDefault();var em=$('lemail').value.trim(),er=$('lerr');
