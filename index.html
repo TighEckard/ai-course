@@ -347,7 +347,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     <p class="sub">Plain-language summary. Last updated October 26, 2026.</p>
     <div class="doc">
       <h3>What we collect</h3>
-      <p>When you reserve a free class we collect your first name, email address and the class time you chose. When you sign in, we use your email address to send you a sign-in link.</p>
+      <p>When you reserve a free class we collect your first name, email address and the class time you chose. When you create a member account, we store your email and a password (kept scrambled, never readable by us).</p>
       <h3>How we use it</h3>
       <p>We use it to send class details and run your membership. We do not sell your information and we do not share it for advertising.</p>
       <h3>Payments</h3>
@@ -394,7 +394,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
   <main class="join">
     <a class="back" href="#top">&larr; Back to the class page</a>
     <h1>Member log in</h1>
-    <p class="sub">New here? Choose a password to create your account, using the email you paid with. No email code.</p>
+    <p class="sub">First time? Type the email you paid with, choose a password, and press <b>Create my account</b>. Been here before? Type your email and password and press <b>Log in</b>.</p>
     <form id="loginform" novalidate style="max-width:none">
       <label for="lemail">Email address<input id="lemail" type="email" autocomplete="username"></label>
       <label for="lpass">Password<input id="lpass" type="password" autocomplete="current-password" minlength="8"></label>
@@ -402,7 +402,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
       <button type="button" class="alt" id="lcreate">Create my account</button>
       <p class="err" id="lerr" role="alert" hidden></p>
     </form>
-    <p class="fine" style="margin-top:1.2rem">Not a member yet? <a href="#join">Become a member</a>.</p>
+    <p class="fine" style="margin-top:1.2rem">Not a member yet? <a href="#join">Become a member</a>. Forgot your password? Email <span class="ce">hello@aicoffeeclub.com</span> and we will reset it.</p>
   </main>
 </div>
 
@@ -804,7 +804,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     if(!ok)return;
     function finish(){
       $('done-h').textContent='See you there, '+n+'.';
-      $('done-p').textContent=REGISTER_URL?($('when').value+'. One last step: confirm on Zoom to get your link.'):($('when').value+'. We will email your Zoom link to '+em+' before class.');
+      $('done-p').textContent=REGISTER_URL?($('when').value+'. One last step: confirm on Zoom to get your link.'):('Your seat is saved for '+$('when').value+' Eastern. Nothing else to do now. We will email your Zoom link to '+em+' before class, so please check your inbox (and spam folder). On class day, click the link a few minutes early and bring a coffee.');
       if(REGISTER_URL){$('zoom').href=REGISTER_URL;$('zoom').hidden=false}
       $('signup').hidden=true;$('done').hidden=false;
     }
