@@ -573,12 +573,24 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     img.src=url;
   }
   var SYL=[['Free intro class','Ask AI a real question and get a useful answer.'],['Get set up and ask well','open ChatGPT, Claude and Gemini and ask a question that works first time.'],['Email and everyday writing','write, polish and summarize emails in a couple of minutes.'],['Spot scams and stay safe','use AI as a second opinion on a suspicious message.'],['Health, Medicare and paperwork','understand a bill, a lab result or a plan and prepare good questions.'],['Trips, money and shopping','plan a trip, compare products and find charges to cancel.'],['Photos, work and your toolkit','ask about photos, handle a work task and build your five favorite prompts.']];
+  var TRACKS=[
+    ['Track 2: Build (8 weeks, 90 minutes)','Build simple apps with AI that replace paid subscriptions.',['Your first app in thirty minutes','Steer, fix and undo','Replace a subscription: trackers','Saving data, logins and what not to build','Replace a subscription: work and club tools','Put it on the internet','Give your app a brain and connect it','Capstone: build anything']],
+    ['Track 3: How AI works (5 weeks)','Understand what is going on inside the tools you use.',['What a language model really does','How AI is trained','Why it works, and where it fails','Images, voice and video','The economics: chips, power and who pays']],
+    ['Track 4: The future (4 weeks)','Think clearly about where this is heading, and keep a prediction log.',['Forecasting from the fundamentals','Work, money and retirement','Daily life, health and family','The big questions']]];
   function tCover(m){
     var wk=D.added?Math.floor((Date.now()-new Date(D.added).getTime())/6048e5)+1:1;wk=Math.max(1,Math.min(6,wk));
     m.appendChild(h('h2',{text:"What we'll cover",style:'font-size:1.3rem'}));
-    m.appendChild(h('p',{class:'fine',text:'Six weekly sessions, one topic each. After that, new sessions every week on what is new.'}));
+    m.appendChild(h('p',{class:'fine',text:'Start with Track 1. After that, pick what interests you. Everything is included in your membership.'}));
+    m.appendChild(h('h3',{text:'Track 1: Beginner (6 weeks)',style:'font-size:1.1rem;margin-top:1.4rem'}));
     SYL.slice(1).forEach(function(x,i){var on=i+1===wk;
       m.appendChild(h('div',{class:'item',style:on?'background:var(--tint);padding:1.1rem;border-radius:12px;border-bottom:0;margin-bottom:.4rem':''},[h('b',{text:'Week '+(i+1)+': '+x[0]+(on?'  (up next)':'')}),h('span',{class:'fine',text:'You will learn to '+x[1]})]))});
+    TRACKS.forEach(function(t){
+      m.appendChild(h('h3',{text:t[0],style:'font-size:1.1rem;margin-top:1.8rem'}));
+      m.appendChild(h('p',{class:'fine',text:t[1]}));
+      var ol=h('ol',{style:'margin:.6rem 0 0;padding-left:1.4rem;line-height:1.8'});t[2].forEach(function(x){ol.appendChild(h('li',{text:x}))});m.appendChild(ol);
+    });
+    m.appendChild(h('h3',{text:'Ongoing: every week, no end date',style:'font-size:1.1rem;margin-top:1.8rem'}));
+    m.appendChild(h('p',{class:'fine',text:'A four-week rotation: what is new, a new skill, your requests, and a safety update.'}));
   }
   function tCal(m){
     var y=D.month.getFullYear(),mo=D.month.getMonth(),first=new Date(y,mo,1),days=new Date(y,mo+1,0).getDate(),pad=first.getDay();
