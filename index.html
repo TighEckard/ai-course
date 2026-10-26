@@ -134,6 +134,23 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
 .btn.sm{min-height:2.6rem;font-size:1rem;padding:.4rem 1.1rem;width:auto}
 .btn.alt,button.alt{background:var(--tint);color:var(--ink)}
 @media(max-width:760px){.two{grid-template-columns:1fr}.cal td{height:2.8rem}.cal td small{display:none}}
+.tbl{width:100%;border-collapse:collapse;font-size:.95rem}
+.tbl th{text-align:left;font-size:.8rem;color:var(--soft);font-weight:700;padding:.6rem .6rem;border-bottom:2px solid var(--line)}
+.tbl td{padding:.7rem .6rem;border-bottom:1px solid var(--line);vertical-align:middle}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(9rem,1fr));gap:1rem;margin-bottom:1.6rem}
+.tile{border:1px solid var(--line);border-radius:14px;padding:1rem 1.2rem}
+.tile b{display:block;font-size:2rem;line-height:1.1;letter-spacing:-.02em}
+.tile span{color:var(--soft);font-size:.85rem}
+.scroll{overflow-x:auto}
+.inline{display:flex;gap:.7rem;flex-wrap:wrap;align-items:end;margin-bottom:1.2rem}
+.inline label{flex:1;min-width:12rem}
+.thr{display:grid;grid-template-columns:16rem 1fr;gap:1.4rem}
+.thr .list{display:grid;gap:.4rem;align-content:start}
+.thr .list button{display:block;text-align:left;background:#fff;color:var(--ink);border:1px solid var(--line);font-size:.95rem;font-weight:500;min-height:0;padding:.7rem .9rem}
+.thr .list button.on{border-color:var(--accent);background:#E9F4F1}
+.thr .list small{display:block;color:var(--soft)}
+.dot{display:inline-block;width:.6rem;height:.6rem;border-radius:50%;background:#E08A00;margin-right:.4rem}
+@media(max-width:760px){.thr{grid-template-columns:1fr}}
 [hidden]{display:none!important}
 @media(max-width:760px){
   html{font-size:16px}
@@ -405,6 +422,17 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     <p class="fine" style="margin-top:1.2rem">Questions? <span class="ce">hello@aicoffeeclub.com</span></p>
   </main>
 </div>
+
+<div class="wrap" id="admin-view" hidden>
+  <header><a class="logo" href="#top">AI Coffee Club · Admin</a><nav><span id="awho" class="fine"></span><a href="#" id="aout">Sign out</a></nav></header>
+  <main class="mem">
+    <p id="astate" class="sub">Checking access.</p>
+    <div id="abody" hidden>
+      <div class="tabs" role="tablist" id="atabs"></div>
+      <div id="atab"></div>
+    </div>
+  </main>
+</div>
 <script>
 (function(){
   // Backend settings (public values). Filled in once the database is created.
@@ -414,7 +442,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
   var CONTACT='hello@aicoffeeclub.com';
   var $=function(id){return document.getElementById(id)};
   var base=location.origin+location.pathname;
-  var VIEWS=['join','privacy','terms','login','members','thanks'];
+  var VIEWS=['join','privacy','terms','login','members','thanks','admin'];
   var st={get:function(k){try{return localStorage.getItem(k)}catch(e){return null}},set:function(k,v){try{localStorage.setItem(k,v)}catch(e){}},del:function(k){try{localStorage.removeItem(k)}catch(e){}}};
   function api(path,opt){
     opt=opt||{};
@@ -428,7 +456,8 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     if(h.indexOf('access_token=')>-1){
       var p=new URLSearchParams(h.slice(1));
       if(p.get('access_token')){st.set('acc_token',p.get('access_token'))}
-      history.replaceState(null,'',base+'#members');h='#members';
+      var nx=st.get('next')==='#admin'?'#admin':'#members';st.del('next');
+      history.replaceState(null,'',base+nx);h=nx;
     }
     var v=h.slice(1);if(VIEWS.indexOf(v)<0)v='';
     VIEWS.forEach(function(n){$(n+'-view').hidden=n!==v});
@@ -436,6 +465,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     if(v)window.scrollTo(0,0);
     if(v==='join'){$('pp-return').value=base+'#thanks';$('pp-cancel').value=base+'#join'}
     if(v==='members')loadMembers();
+    if(v==='admin')loadAdmin();
   }
   var D={};
   function h(tag,attrs,kids){var e=document.createElement(tag);for(var k in (attrs||{})){if(k==='text')e.textContent=attrs[k];else if(k==='class')e.className=attrs[k];else if(k.slice(0,2)==='on')e.addEventListener(k.slice(2),attrs[k]);else e.setAttribute(k,attrs[k])}(kids||[]).forEach(function(c){if(c)e.appendChild(typeof c==='string'?document.createTextNode(c):c)});return e}
@@ -565,6 +595,89 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     }})])]));
     box.scrollTop=box.scrollHeight;
   }
+
+  /* ---------- Admin ---------- */
+  var A={tab:'signups',thread:null};
+  function loadAdmin(){
+    var state=$('astate'),body=$('abody');body.hidden=true;state.hidden=false;
+    D.tok=st.get('acc_token');
+    if(!D.tok){st.set('next','#admin');state.innerHTML='Please <a href="#login">log in</a> with the owner email to open the admin page.';return}
+    state.textContent='Checking access.';
+    api('/auth/v1/user',{token:D.tok}).then(function(r){if(!r.ok)throw 401;return r.json()}).then(function(u){
+      D.email=u.email;
+      return get('/rest/v1/admins?select=email').then(function(rows){
+        if(!rows.length){state.textContent=u.email+' is not an admin.';return}
+        return refreshAdmin().then(function(){state.hidden=true;body.hidden=false;$('awho').textContent=u.email;drawATabs();drawATab()});
+      });
+    }).catch(function(){st.del('acc_token');st.set('next','#admin');state.innerHTML='Your sign-in has ended. Please <a href="#login">log in again</a>.'});
+  }
+  function refreshAdmin(){
+    return Promise.all([get('/rest/v1/signups?select=*&order=created_at.desc&limit=2000'),get('/rest/v1/members?select=*&order=added_at.desc'),get('/rest/v1/profiles?select=email,display_name'),get('/rest/v1/messages?select=*&order=created_at'),get('/rest/v1/groups?select=*&order=id')]).then(function(a){A.signups=a[0];A.members=a[1];A.names={};a[2].forEach(function(p){A.names[p.email.toLowerCase()]=p.display_name});A.msgs=a[3];A.groups=a[4]});
+  }
+  var ATABS=[['signups','Signups'],['members','Members'],['messages','Messages']];
+  function drawATabs(){var t=$('atabs');t.textContent='';ATABS.forEach(function(x){var n=x[0]==='messages'?unanswered().length:0;t.appendChild(h('button',{class:'tab',type:'button',role:'tab','aria-selected':String(A.tab===x[0]),onclick:function(){A.tab=x[0];drawATabs();drawATab()},text:x[1]+(n?' ('+n+')':'')}))})}
+  function drawATab(){var m=$('atab');m.textContent='';({signups:aSignups,members:aMembers,messages:aMsgs})[A.tab](m)}
+  function dt(s){return new Date(s).toLocaleString(undefined,{month:'short',day:'numeric',year:'numeric',hour:'numeric',minute:'2-digit'})}
+  function aSignups(m){
+    var by={},week=Date.now()-7*864e5,w=0;
+    A.signups.forEach(function(s){by[s.slot]=(by[s.slot]||0)+1;if(new Date(s.created_at).getTime()>=week)w++});
+    var tiles=h('div',{class:'tiles'},[tile(A.signups.length,'free-class signups'),tile(w,'in the last 7 days'),tile(A.members.length,'paying members')]);
+    Object.keys(by).sort().forEach(function(k){tiles.appendChild(tile(by[k],k))});
+    m.appendChild(tiles);
+    m.appendChild(h('div',{class:'inline'},[h('button',{type:'button',class:'btn sm alt',text:'Download CSV',onclick:exportCsv})]));
+    var t=h('table',{class:'tbl'},[h('tr',{},['Name','Email','Class chosen','Signed up'].map(function(x){return h('th',{text:x})}))]);
+    A.signups.forEach(function(s){t.appendChild(h('tr',{},[h('td',{text:s.name}),h('td',{},[h('a',{href:'mailto:'+s.email,text:s.email})]),h('td',{text:s.slot}),h('td',{text:dt(s.created_at)})]))});
+    if(!A.signups.length)m.appendChild(h('p',{class:'fine',text:'No signups yet.'}));else m.appendChild(h('div',{class:'scroll'},[t]));
+  }
+  function tile(n,l){return h('div',{class:'tile'},[h('b',{text:String(n)}),h('span',{text:l})])}
+  function exportCsv(){
+    var q=function(x){return '"'+String(x).replace(/"/g,'""')+'"'};
+    var rows=[['Name','Email','Class chosen','Signed up']].concat(A.signups.map(function(s){return [s.name,s.email,s.slot,s.created_at]}));
+    var blob=new Blob([rows.map(function(r){return r.map(q).join(',')}).join('\n')],{type:'text/csv'});
+    var a=h('a',{href:URL.createObjectURL(blob),download:'signups.csv'});document.body.appendChild(a);a.click();a.remove();
+  }
+  function aMembers(m){
+    var em=h('input',{id:'newm',type:'email',autocomplete:'off'}),gs=h('select',{id:'newg'});
+    A.groups.forEach(function(g){gs.appendChild(h('option',{value:g.id,text:g.name+' ('+g.slot+')'}))});
+    var msg=h('p',{class:'fine',role:'status'});
+    m.appendChild(h('div',{class:'inline'},[h('label',{for:'newm',text:'Add a member (email they paid with)'},[em]),h('label',{for:'newg',text:'Class'},[gs]),h('button',{type:'button',class:'btn sm',text:'Add',onclick:function(){
+      var e=em.value.trim().toLowerCase();if(!/^\S+@\S+\.\S+$/.test(e)){msg.textContent='Enter a full email address.';return}
+      post('/rest/v1/members?on_conflict=email',{email:e,group_id:gs.value},'resolution=merge-duplicates,return=minimal').then(refreshAdmin).then(function(){drawATabs();drawATab()}).catch(function(){msg.textContent='Could not add. Please try again.'});
+    }})]));
+    m.appendChild(msg);
+    var t=h('table',{class:'tbl'},[h('tr',{},['Name','Email','Class','Added',''].map(function(x){return h('th',{text:x})}))]);
+    A.members.forEach(function(x){
+      var sel=h('select',{'aria-label':'Class for '+x.email,onchange:function(){post('/rest/v1/members?on_conflict=email',{email:x.email,group_id:sel.value},'resolution=merge-duplicates,return=minimal').then(refreshAdmin).then(drawATab).catch(function(){msg.textContent='Could not change class.'})}});
+      A.groups.forEach(function(g){var o=h('option',{value:g.id,text:g.name});if(g.id===x.group_id)o.selected=true;sel.appendChild(o)});
+      t.appendChild(h('tr',{},[h('td',{text:A.names[x.email.toLowerCase()]||'(no profile yet)'}),h('td',{text:x.email}),h('td',{},[sel]),h('td',{text:dt(x.added_at)}),h('td',{},[h('button',{type:'button',class:'btn sm alt',text:'Remove',onclick:function(){
+        if(!confirm('Remove '+x.email+'? They lose access to the members area.'))return;
+        api('/rest/v1/members?email=eq.'+encodeURIComponent(x.email),{token:D.tok,method:'DELETE'}).then(function(r){if(!r.ok)throw 0}).then(refreshAdmin).then(function(){drawATabs();drawATab()}).catch(function(){msg.textContent='Could not remove.'});
+      }})])]));
+    });
+    if(!A.members.length)m.appendChild(h('p',{class:'fine',text:'No members yet. Add someone above once their PayPal payment arrives.'}));else m.appendChild(h('div',{class:'scroll'},[t]));
+  }
+  function threads(){var t={};A.msgs.forEach(function(x){(t[x.thread_email]=t[x.thread_email]||[]).push(x)});return Object.keys(t).map(function(k){return {email:k,list:t[k],last:t[k][t[k].length-1]}}).sort(function(a,b){return new Date(b.last.created_at)-new Date(a.last.created_at)})}
+  function unanswered(){return threads().filter(function(t){return t.last.sender==='member'})}
+  function aMsgs(m){
+    var ts=threads();
+    if(!ts.length){m.appendChild(h('p',{class:'fine',text:'No messages from members yet.'}));return}
+    if(!A.thread||!ts.some(function(t){return t.email===A.thread}))A.thread=ts[0].email;
+    var list=h('div',{class:'list'}),pane=h('div');
+    ts.forEach(function(t){list.appendChild(h('button',{type:'button',class:t.email===A.thread?'on':'',onclick:function(){A.thread=t.email;drawATab()}},[h('b',{},[t.last.sender==='member'?h('span',{class:'dot','aria-label':'Needs reply'}):null,A.names[t.email.toLowerCase()]||t.email]),h('small',{text:t.last.body.slice(0,50)})]))});
+    var cur=ts.filter(function(t){return t.email===A.thread})[0];
+    pane.appendChild(h('p',{class:'fine',text:(A.names[cur.email.toLowerCase()]?A.names[cur.email.toLowerCase()]+' · ':'')+cur.email}));
+    var box=h('div',{class:'msgs',role:'log'});
+    cur.list.forEach(function(x){var mine=x.sender==='instructor';box.appendChild(h('div',{class:'bub'+(mine?' me':'')},[h('span',{text:x.body}),h('small',{text:(mine?'You':'Member')+' · '+dt(x.created_at)})]))});
+    pane.appendChild(box);
+    var ta=h('textarea',{'aria-label':'Your reply',maxlength:'2000'}),er=h('p',{class:'err',role:'alert',hidden:''});
+    pane.appendChild(h('div',{style:'display:grid;gap:.7rem'},[ta,er,h('div',{},[h('button',{type:'button',class:'btn sm',text:'Send reply',onclick:function(){
+      var t=ta.value.trim();if(!t)return;er.hidden=true;
+      post('/rest/v1/messages',{thread_email:cur.email,sender:'instructor',body:t},'return=minimal').then(refreshAdmin).then(function(){drawATabs();drawATab()}).catch(function(){er.textContent='Could not send. Please try again.';er.hidden=false});
+    }})])]));
+    m.appendChild(h('div',{class:'thr'},[list,pane]));
+    box.scrollTop=box.scrollHeight;
+  }
+  $('aout').addEventListener('click',function(e){e.preventDefault();st.del('acc_token');location.hash='#login'});
   $('mout').addEventListener('click',function(e){e.preventDefault();st.del('acc_token');location.hash='#login'});
   $('loginform').addEventListener('submit',function(e){
     e.preventDefault();var em=$('lemail').value.trim(),er=$('lerr');
