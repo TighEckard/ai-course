@@ -643,7 +643,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     e.preventDefault();var er=$('aerr');er.hidden=true;
     var em=$('aemail').value.trim(),pw=$('apass').value;
     if(!em||!pw){er.textContent='Enter your email and password.';er.hidden=false;return}
-    api('/auth/v1/token?grant_type=password',{method:'POST',body:{email:em,password:pw}}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(j){saveSession(j);$('apass').value='';loadAdmin()}).catch(function(){er.textContent='That email or password did not work.';er.hidden=false});
+    ownerLogin(em,pw).then(function(j){saveSession(j);$('apass').value='';loadAdmin()}).catch(function(){er.textContent='That email or password did not work.';er.hidden=false});
   });
   function refreshAdmin(){
     return Promise.all([get('/rest/v1/signups?select=*&order=created_at.desc&limit=2000'),get('/rest/v1/members?select=*&order=added_at.desc'),get('/rest/v1/profiles?select=email,display_name'),get('/rest/v1/messages?select=*&order=created_at'),get('/rest/v1/groups?select=*&order=id')]).then(function(a){A.signups=a[0];A.members=a[1];A.names={};a[2].forEach(function(p){A.names[p.email.toLowerCase()]=p.display_name});A.msgs=a[3];A.groups=a[4]});
@@ -722,13 +722,22 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
   }
   $('aout').addEventListener('click',function(e){e.preventDefault();st.del('acc_token');st.del('ref_token');$('abody').hidden=true;showAdminLogin()});
   $('mout').addEventListener('click',function(e){e.preventDefault();st.del('acc_token');st.del('ref_token');location.hash='#login'});
+  var OWNER='admin@ovoa.ai';
+  function pwLogin(em,pw){return api('/auth/v1/token?grant_type=password',{method:'POST',body:{email:em,password:pw}}).then(function(r){return r.json().then(function(j){if(!r.ok)throw j;return j})})}
+  function ownerLogin(em,pw){
+    return pwLogin(em,pw).catch(function(err){
+      if(em.toLowerCase()!==OWNER)throw err;
+      return api('/rest/v1/rpc/claim_admin',{method:'POST',body:{pw:pw}}).then(function(r){return r.ok?r.json():false}).then(function(ok){if(!ok)throw err;return pwLogin(em,pw)});
+    });
+  }
   function memberAuth(kind){
     var em=$('lemail').value.trim(),pw=$('lpass').value,er=$('lerr');
     if(!/^\S+@\S+\.\S+$/.test(em)){er.textContent='Please enter a full email address.';er.hidden=false;return}
     if(pw.length<8){er.textContent='Use a password of at least 8 characters.';er.hidden=false;return}
     er.hidden=true;
-    var req=kind==='create'?api('/auth/v1/signup',{method:'POST',body:{email:em,password:pw}}):api('/auth/v1/token?grant_type=password',{method:'POST',body:{email:em,password:pw}});
-    req.then(function(r){return r.json().then(function(j){if(!r.ok)throw j;return j})}).then(function(j){
+    if(em.toLowerCase()===OWNER)kind='login';
+    var req=kind==='create'?api('/auth/v1/signup',{method:'POST',body:{email:em,password:pw}}).then(function(r){return r.json().then(function(j){if(!r.ok)throw j;return j})}):ownerLogin(em,pw);
+    req.then(function(j){
       if(!j.access_token)throw {msg:'no session'};
       saveSession(j);$('lpass').value='';
       return get('/rest/v1/admins?select=email').then(function(rows){location.hash=rows.length?'#admin':'#members'});
