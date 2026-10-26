@@ -93,6 +93,40 @@ footer{padding-block:2rem 3rem;border-top:1px solid var(--line);color:var(--soft
 .paynote{display:grid;gap:.7rem;margin-top:1.4rem;color:var(--soft);font-size:.95rem}
 .paynote b{color:var(--ink)}
 .doc{display:grid;gap:.5rem;margin-top:1.6rem}.doc h3{margin-top:1rem}.doc p{color:var(--soft)}
+.mem{padding-block:1.5rem 5rem}
+.mem h1{font-size:2.2rem}
+.mhead{display:grid;gap:.3rem;margin-bottom:1.4rem}
+.tabs{display:flex;gap:.4rem;border-bottom:1px solid var(--line);margin-bottom:1.8rem;overflow-x:auto}
+.tab{background:none;color:var(--soft);min-height:2.8rem;padding:.4rem 1rem;border-radius:0;font-size:1rem;font-weight:700;border-bottom:3px solid transparent;white-space:nowrap}
+.tab:hover{background:none;color:var(--ink)}
+.tab[aria-selected=true]{color:var(--accent);border-bottom-color:var(--accent)}
+.card{border:1px solid var(--line);border-radius:16px;padding:1.4rem 1.6rem;background:#fff}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(10rem,1fr));gap:1.2rem}
+.person{display:grid;justify-items:center;gap:.5rem;text-align:center;padding:1.2rem .8rem}
+.av{width:4.5rem;height:4.5rem;border-radius:50%;object-fit:cover;background:var(--tint);border:1px solid var(--line);display:grid;place-items:center;font-weight:800;font-size:1.5rem;color:var(--soft);overflow:hidden}
+.av.big{width:6rem;height:6rem;font-size:2rem}
+.you{font-size:.8rem;font-weight:700;color:var(--accent)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:1.4rem}
+.cal{width:100%;border-collapse:collapse;table-layout:fixed}
+.cal th{font-size:.8rem;color:var(--soft);font-weight:700;padding:.4rem 0;text-align:center}
+.cal td{height:3.4rem;text-align:center;vertical-align:top;padding:.3rem;border:1px solid var(--line);font-size:.95rem;position:relative}
+.cal td.out{color:#B9C1CC}
+.cal td.has{background:#E9F4F1;font-weight:700;color:var(--accent-dark)}
+.cal td.today{outline:2px solid var(--accent);outline-offset:-2px}
+.cal td small{display:block;font-size:.65rem;font-weight:700}
+.calbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:.8rem}
+.calbar button{min-height:2.4rem;padding:.2rem .9rem;font-size:1rem;background:var(--tint);color:var(--ink)}
+.calbar button:hover{background:var(--line)}
+.msgs{display:grid;gap:.7rem;margin-block:1rem;max-height:26rem;overflow:auto}
+.bub{max-width:80%;padding:.7rem 1rem;border-radius:14px;background:var(--tint);justify-self:start}
+.bub.me{background:#E3F1EE;justify-self:end}
+.bub small{display:block;color:var(--soft);font-size:.75rem;margin-top:.2rem}
+textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid #B9C1CC;border-radius:10px;width:100%;min-height:6rem;resize:vertical}
+.item{display:grid;gap:.3rem;padding:1.1rem 0;border-bottom:1px solid var(--line)}
+.kind{font-size:.75rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+.btn.sm{min-height:2.6rem;font-size:1rem;padding:.4rem 1.1rem;width:auto}
+.btn.alt,button.alt{background:var(--tint);color:var(--ink)}
+@media(max-width:760px){.two{grid-template-columns:1fr}.cal td{height:2.8rem}.cal td small{display:none}}
 [hidden]{display:none!important}
 @media(max-width:760px){
   html{font-size:16px}
@@ -344,20 +378,16 @@ footer{padding-block:2rem 3rem;border-top:1px solid var(--line);color:var(--soft
 </div>
 
 <div class="wrap" id="members-view" hidden>
-  <header><a class="logo" href="#top">AI Coffee Club</a><nav><a href="#login">Log in</a></nav></header>
-  <main class="join">
-    <a class="back" href="#top">&larr; Back to the class page</a>
-    <h1 id="mh">Members</h1>
+  <header><a class="logo" href="#top">AI Coffee Club</a><nav><span id="who" class="fine"></span><a href="#" id="mout">Sign out</a></nav></header>
+  <main class="mem">
     <p id="mstate" class="sub">Checking your membership.</p>
     <div id="mbody" hidden>
-      <div class="order"><div class="row"><b>Next class</b><span id="mnext"></span></div><div class="row"><span>Zoom link</span><span><a id="mzoom" href="#" rel="noopener">Join on Zoom</a></span></div></div>
-      <h2 style="font-size:1.3rem;margin-top:2rem">Recordings</h2>
-      <div class="spec" id="mrec"></div>
-      <p class="fine" style="margin-top:1.5rem"><a href="#" id="mout">Sign out</a> · Questions? <span class="ce">hello@aicoffeeclub.com</span></p>
+      <div class="mhead"><h1 id="mh">Welcome back.</h1><p class="fine" id="mgroup"></p></div>
+      <div class="tabs" role="tablist" id="tabs"></div>
+      <div id="mtab"></div>
     </div>
   </main>
 </div>
-
 <div class="wrap" id="thanks-view" hidden>
   <header><a class="logo" href="#top">AI Coffee Club</a><nav><a href="#login">Log in</a></nav></header>
   <main class="join">
@@ -399,29 +429,134 @@ footer{padding-block:2rem 3rem;border-top:1px solid var(--line);color:var(--soft
     if(v==='join'){$('pp-return').value=base+'#thanks';$('pp-cancel').value=base+'#join'}
     if(v==='members')loadMembers();
   }
+  var D={};
+  function h(tag,attrs,kids){var e=document.createElement(tag);for(var k in (attrs||{})){if(k==='text')e.textContent=attrs[k];else if(k==='class')e.className=attrs[k];else if(k.slice(0,2)==='on')e.addEventListener(k.slice(2),attrs[k]);else e.setAttribute(k,attrs[k])}(kids||[]).forEach(function(c){if(c)e.appendChild(typeof c==='string'?document.createTextNode(c):c)});return e}
+  function safeUrl(u){return /^https:\/\//.test(u||'')}
+  function avatar(name,src,big){var c='av'+(big?' big':'');if(src&&/^data:image\/jpeg;base64,/.test(src))return h('img',{class:c,src:src,alt:name});return h('div',{class:c,'aria-hidden':'true',text:(name||'?').charAt(0).toUpperCase()})}
+  function fmtDay(d){return d.toLocaleDateString(undefined,{weekday:'long',month:'long',day:'numeric'})}
+  function fmtTime(d){return d.toLocaleTimeString(undefined,{hour:'numeric',minute:'2-digit',timeZoneName:'short'})}
+  function get(path){return api(path,{token:D.tok}).then(function(r){if(!r.ok)throw r.status;return r.json()})}
+  function post(path,body,prefer){return api(path,{token:D.tok,method:'POST',body:body,prefer:prefer}).then(function(r){if(!r.ok)throw r.status;return r})}
   function loadMembers(){
-    var state=$('mstate'),body=$('mbody');body.hidden=true;
+    var state=$('mstate'),body=$('mbody');body.hidden=true;state.hidden=false;
     if(!SB_URL){state.textContent='The members area opens when the club launches.';return}
-    var tok=st.get('acc_token');
-    if(!tok){state.innerHTML='Please <a href="#login">log in</a> to see your classes.';return}
+    D.tok=st.get('acc_token');
+    if(!D.tok){state.innerHTML='Please <a href="#login">log in</a> to see your classes.';return}
     state.textContent='Checking your membership.';
-    api('/auth/v1/user',{token:tok}).then(function(r){if(!r.ok)throw 401;return r.json()}).then(function(u){
-      return api('/rest/v1/members?select=email',{token:tok}).then(function(r){return r.json()}).then(function(rows){
-        if(!rows.length){state.innerHTML='We do not see a membership for '+esc(u.email)+' yet. If you just paid, we match payments within one business day. Questions? Email '+esc(CONTACT)+'.';return}
-        return api('/rest/v1/content?select=key,value',{token:tok}).then(function(r){return r.json()}).then(function(c){
-          var m={};c.forEach(function(x){m[x.key]=x.value});
-          $('mh').textContent='Welcome back.';state.textContent='You are signed in as '+u.email+'.';
-          $('mnext').textContent=m.next_class||'See the schedule';
-          var z=$('mzoom');if(/^https:\/\//.test(m.zoom_link||'')){z.href=m.zoom_link}else{z.removeAttribute('href');z.textContent='Link coming soon'}
-          var rec=$('mrec');rec.textContent='';var list=[];try{list=JSON.parse(m.recordings||'[]')}catch(e){}
-          if(!list.length){var d=document.createElement('p');d.className='fine';d.textContent='Recordings appear here after each class.';rec.appendChild(d)}
-          list.forEach(function(x){if(!/^https:\/\//.test(x.url))return;var row=document.createElement('div');row.className='row';var a=document.createElement('a');a.href=x.url;a.rel='noopener';a.textContent=x.title;row.appendChild(a);rec.appendChild(row)});
-          body.hidden=false;
+    api('/auth/v1/user',{token:D.tok}).then(function(r){if(!r.ok)throw 401;return r.json()}).then(function(u){
+      D.email=u.email;
+      return get('/rest/v1/members?select=email,group_id').then(function(rows){
+        if(!rows.length){state.textContent='We do not see a membership for '+u.email+' yet. If you just paid, we match payments within one business day. Questions? Email '+CONTACT+'.';return}
+        D.group=rows[0].group_id;
+        return Promise.all([
+          get('/rest/v1/groups?select=*&id=eq.'+encodeURIComponent(D.group)),
+          post('/rest/v1/rpc/roster',{}).then(function(r){return r.json()}),
+          get('/rest/v1/profiles?select=display_name,avatar'),
+          get('/rest/v1/events?select=*&order=starts_at'),
+          get('/rest/v1/activities?select=*&order=created_at.desc'),
+          get('/rest/v1/messages?select=*&order=created_at')
+        ]).then(function(a){
+          D.g=a[0][0]||{};D.roster=a[1];D.profile=a[2][0]||null;D.events=a[3];D.acts=a[4];D.msgs=a[5];
+          D.tab=D.tab||'home';D.month=new Date();
+          state.hidden=true;body.hidden=false;
+          $('who').textContent=u.email;
+          $('mh').textContent=D.profile?'Welcome back, '+D.profile.display_name.split(' ')[0]+'.':'Welcome back.';
+          $('mgroup').textContent=(D.g.name||'')+' with '+(D.g.instructor||'your teacher')+' · '+(D.g.slot||'');
+          drawTabs();drawTab();
         });
       });
     }).catch(function(){st.del('acc_token');state.innerHTML='Your sign-in has ended. Please <a href="#login">log in again</a>.'});
   }
-  function esc(t){var d=document.createElement('div');d.textContent=t;return d.innerHTML}
+  var TABS=[['home','Home'],['class','My class'],['calendar','Calendar'],['activities','Activities'],['messages','Messages']];
+  function drawTabs(){var t=$('tabs');t.textContent='';TABS.forEach(function(x){t.appendChild(h('button',{class:'tab',type:'button',role:'tab','aria-selected':String(D.tab===x[0]),onclick:function(){D.tab=x[0];drawTabs();drawTab()},text:x[1]}))})}
+  function drawTab(){var m=$('mtab');m.textContent='';({home:tHome,class:tClass,calendar:tCal,activities:tActs,messages:tMsgs})[D.tab](m)}
+  function upcoming(){var n=Date.now()-3600000;return D.events.filter(function(e){return new Date(e.starts_at).getTime()>=n})}
+  function tHome(m){
+    var nx=upcoming()[0],z=D.g.zoom_link;
+    var card=h('div',{class:'card'},[h('div',{class:'kind',text:'Next class'})]);
+    if(nx){var d=new Date(nx.starts_at);card.appendChild(h('h2',{text:fmtDay(d)}));card.appendChild(h('p',{class:'fine',text:nx.title+' · '+fmtTime(d)}))}
+    else card.appendChild(h('p',{text:'New dates will appear here soon.'}));
+    if(safeUrl(z))card.appendChild(h('p',{style:'margin-top:1rem'},[h('a',{class:'btn',href:z,rel:'noopener',target:'_blank',text:'Join on Zoom'})]));
+    var rec=D.acts.filter(function(a){return a.kind==='recording'}).slice(0,3);
+    var left=h('div',{class:'card'},[h('div',{class:'kind',text:'Latest recordings'})]);
+    if(!rec.length)left.appendChild(h('p',{class:'fine',text:'Recordings appear here after each class.'}));
+    rec.forEach(function(a){left.appendChild(h('div',{class:'item'},[safeUrl(a.url)?h('a',{href:a.url,rel:'noopener',target:'_blank',text:a.title}):h('b',{text:a.title})]))});
+    var act=D.acts.filter(function(a){return a.kind==='activity'})[0];
+    var ac=h('div',{class:'card'},[h('div',{class:'kind',text:'Try this week'})]);
+    if(act){ac.appendChild(h('h3',{text:act.title}));ac.appendChild(h('p',{class:'fine',text:act.body||''}))}else ac.appendChild(h('p',{class:'fine',text:'New activities appear here.'}));
+    m.appendChild(h('div',{class:'two'},[card,ac]));m.appendChild(h('div',{style:'margin-top:1.4rem'},[left]));
+  }
+  function tClass(m){
+    var me=h('div',{class:'card',style:'margin-bottom:1.6rem'},[h('div',{class:'kind',text:'Your profile'})]);
+    var name=h('input',{id:'pname',type:'text',maxlength:'60',autocomplete:'name',value:D.profile?D.profile.display_name:''});
+    var pic=D.profile?D.profile.avatar:null,prev=h('div',{id:'pprev'},[avatar(name.value||'?',pic,true)]);
+    var file=h('input',{type:'file',accept:'image/*',id:'pfile',style:'display:none'});
+    file.addEventListener('change',function(){var f=file.files[0];if(!f)return;resize(f,function(u){pic=u;prev.textContent='';prev.appendChild(avatar(name.value||'?',pic,true))})});
+    var msg=h('p',{class:'fine',role:'status',text:D.saved?'Saved.':''});D.saved=false;
+    var save=h('button',{type:'button',class:'btn sm',text:'Save',onclick:function(){
+      var n=name.value.trim();if(!n){msg.textContent='Please add your name.';return}
+      post('/rest/v1/profiles?on_conflict=email',{email:D.email,display_name:n,avatar:pic,updated_at:new Date().toISOString()},'resolution=merge-duplicates,return=minimal').then(function(){
+        D.profile={display_name:n,avatar:pic};D.saved=true;return post('/rest/v1/rpc/roster',{}).then(function(r){return r.json()}).then(function(r){D.roster=r;$('mh').textContent='Welcome back, '+n.split(' ')[0]+'.';drawTab();})
+      }).catch(function(){msg.textContent='Could not save. Please try again.'});
+    }});
+    me.appendChild(h('div',{style:'display:flex;gap:1.4rem;align-items:center;flex-wrap:wrap;margin-top:.8rem'},[prev,h('div',{style:'display:grid;gap:.7rem;flex:1;min-width:14rem'},[h('label',{for:'pname',text:'Name shown to your class'},[]),name,h('div',{style:'display:flex;gap:.7rem;flex-wrap:wrap'},[h('button',{type:'button',class:'btn sm alt',text:D.profile&&D.profile.avatar?'Change picture':'Add a picture',onclick:function(){file.click()}}),save]),file,msg])]));
+    m.appendChild(me);
+    m.appendChild(h('h2',{text:'Your class',style:'font-size:1.3rem;margin-bottom:.3rem'}));
+    m.appendChild(h('p',{class:'fine',style:'margin-bottom:1rem',text:(D.g.name||'')+' with '+(D.g.instructor||'')+' · '+D.roster.length+' member'+(D.roster.length===1?'':'s')}));
+    var grid=h('div',{class:'cards'});
+    D.roster.forEach(function(p){grid.appendChild(h('div',{class:'card person'},[avatar(p.display_name,p.avatar),h('b',{text:p.display_name}),p.is_me?h('span',{class:'you',text:'You'}):null]))});
+    m.appendChild(grid);
+  }
+  function resize(file,cb){
+    var img=new Image(),url=URL.createObjectURL(file);
+    img.onload=function(){var s=Math.min(img.width,img.height),c=document.createElement('canvas');c.width=c.height=192;
+      c.getContext('2d').drawImage(img,(img.width-s)/2,(img.height-s)/2,s,s,0,0,192,192);URL.revokeObjectURL(url);cb(c.toDataURL('image/jpeg',.82))};
+    img.src=url;
+  }
+  function tCal(m){
+    var y=D.month.getFullYear(),mo=D.month.getMonth(),first=new Date(y,mo,1),days=new Date(y,mo+1,0).getDate(),pad=first.getDay();
+    var byDay={};D.events.forEach(function(e){var d=new Date(e.starts_at);if(d.getFullYear()===y&&d.getMonth()===mo)(byDay[d.getDate()]=byDay[d.getDate()]||[]).push(d)});
+    var bar=h('div',{class:'calbar'},[h('button',{type:'button','aria-label':'Previous month',text:'‹',onclick:function(){D.month=new Date(y,mo-1,1);drawTab()}}),h('b',{text:first.toLocaleDateString(undefined,{month:'long',year:'numeric'})}),h('button',{type:'button','aria-label':'Next month',text:'›',onclick:function(){D.month=new Date(y,mo+1,1);drawTab()}})]);
+    var t=h('table',{class:'cal'}),hr=h('tr');['S','M','T','W','T','F','S'].forEach(function(x){hr.appendChild(h('th',{text:x}))});t.appendChild(hr);
+    var tr=h('tr'),today=new Date();
+    for(var i=0;i<pad;i++)tr.appendChild(h('td',{class:'out'}));
+    for(var d=1;d<=days;d++){
+      if((pad+d-1)%7===0&&d>1){t.appendChild(tr);tr=h('tr')}
+      var cls=byDay[d]?'has':'';if(today.getFullYear()===y&&today.getMonth()===mo&&today.getDate()===d)cls+=' today';
+      tr.appendChild(h('td',{class:cls},[String(d),byDay[d]?h('small',{text:byDay[d][0].toLocaleTimeString(undefined,{hour:'numeric',minute:'2-digit'})}):null]));
+    }
+    t.appendChild(tr);
+    m.appendChild(h('div',{class:'card'},[bar,t]));
+    var up=upcoming().slice(0,5),list=h('div',{class:'card',style:'margin-top:1.4rem'},[h('div',{class:'kind',text:'Coming up'})]);
+    up.forEach(function(e){var d=new Date(e.starts_at);list.appendChild(h('div',{class:'item'},[h('b',{text:fmtDay(d)}),h('span',{class:'fine',text:e.title+' · '+fmtTime(d)})]))});
+    if(!up.length)list.appendChild(h('p',{class:'fine',text:'New dates will appear here soon.'}));
+    m.appendChild(list);
+  }
+  function tActs(m){
+    [['activity','Activities','Short things to try at home between classes.'],['demo','Demonstrations','Watch your teacher do it, step by step.'],['recording','Recordings','Every class, sorted by date.']].forEach(function(k){
+      var items=D.acts.filter(function(a){return a.kind===k[0]});
+      m.appendChild(h('h2',{text:k[1],style:'font-size:1.3rem'}));m.appendChild(h('p',{class:'fine',text:k[2]}));
+      var box=h('div',{style:'margin-bottom:2rem'});
+      if(!items.length)box.appendChild(h('p',{class:'fine',style:'margin-top:.8rem',text:'Nothing here yet.'}));
+      items.forEach(function(a){box.appendChild(h('div',{class:'item'},[h('b',{text:a.title}),a.body?h('span',{class:'fine',text:a.body}):null,safeUrl(a.url)?h('a',{href:a.url,rel:'noopener',target:'_blank',text:k[0]==='activity'?'Open':'Watch'}):null]))});
+      m.appendChild(box);
+    });
+  }
+  function tMsgs(m){
+    var inst=D.g.instructor||'your teacher';
+    m.appendChild(h('h2',{text:'Message '+inst,style:'font-size:1.3rem'}));
+    m.appendChild(h('p',{class:'fine',text:'Ask anything. Replies show up here.'}));
+    var box=h('div',{class:'msgs',role:'log'});
+    if(!D.msgs.length)box.appendChild(h('p',{class:'fine',text:'No messages yet.'}));
+    D.msgs.forEach(function(x){var me=x.sender==='member';box.appendChild(h('div',{class:'bub'+(me?' me':'')},[h('span',{text:x.body}),h('small',{text:(me?'You':inst)+' · '+new Date(x.created_at).toLocaleString(undefined,{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'})})]))});
+    m.appendChild(box);
+    var ta=h('textarea',{id:'mtext',maxlength:'2000','aria-label':'Your message'}),er=h('p',{class:'err',role:'alert',hidden:''});
+    m.appendChild(h('div',{style:'display:grid;gap:.7rem'},[ta,er,h('div',{},[h('button',{type:'button',class:'btn sm',text:'Send',onclick:function(){
+      var t=ta.value.trim();if(!t)return;er.hidden=true;
+      post('/rest/v1/messages',{thread_email:D.email,sender:'member',body:t}).then(function(){D.msgs.push({sender:'member',body:t,created_at:new Date().toISOString()});drawTab()}).catch(function(){er.textContent='Could not send. Please try again.';er.hidden=false});
+    }})])]));
+    box.scrollTop=box.scrollHeight;
+  }
   $('mout').addEventListener('click',function(e){e.preventDefault();st.del('acc_token');location.hash='#login'});
   $('loginform').addEventListener('submit',function(e){
     e.preventDefault();var em=$('lemail').value.trim(),er=$('lerr');
