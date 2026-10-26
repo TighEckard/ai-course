@@ -151,6 +151,10 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
 .thr .list small{display:block;color:var(--soft)}
 .dot{display:inline-block;width:.6rem;height:.6rem;border-radius:50%;background:#E08A00;margin-right:.4rem}
 @media(max-width:760px){.thr{grid-template-columns:1fr}}
+.pw{position:relative;display:block}
+.pw input{padding-right:3rem}
+.eye{position:absolute;right:.35rem;top:50%;transform:translateY(-50%);min-height:2.4rem;width:2.4rem;padding:0;background:none;color:var(--soft);border-radius:8px}
+.eye:hover{background:var(--tint);color:var(--ink)}
 [hidden]{display:none!important}
 @media(max-width:760px){
   html{font-size:16px}
@@ -476,6 +480,15 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     if(v==='admin')loadAdmin();
   }
   var D={};
+  var EYE='<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg>';
+  var EYEOFF='<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.9 17.9A10.9 10.9 0 0 1 12 19C5 19 1 12 1 12a18.5 18.5 0 0 1 5.1-5.9M9.9 5.1A9.7 9.7 0 0 1 12 5c7 0 11 7 11 7a18.6 18.6 0 0 1-2.2 3.2M1 1l22 22"/><path d="M14.1 14.1a3 3 0 1 1-4.2-4.2"/></svg>';
+  function addEye(input){
+    var wrap=document.createElement('span');wrap.className='pw';input.parentNode.insertBefore(wrap,input);wrap.appendChild(input);
+    var b=document.createElement('button');b.type='button';b.className='eye';b.setAttribute('aria-label','Show password');b.innerHTML=EYE;
+    b.addEventListener('click',function(){var show=input.type==='password';input.type=show?'text':'password';b.innerHTML=show?EYEOFF:EYE;b.setAttribute('aria-label',show?'Hide password':'Show password')});
+    wrap.appendChild(b);return input;
+  }
+  addEye($('lpass'));addEye($('apass'));
   function h(tag,attrs,kids){var e=document.createElement(tag);for(var k in (attrs||{})){if(k==='text')e.textContent=attrs[k];else if(k==='class')e.className=attrs[k];else if(k.slice(0,2)==='on')e.addEventListener(k.slice(2),attrs[k]);else e.setAttribute(k,attrs[k])}(kids||[]).forEach(function(c){if(c)e.appendChild(typeof c==='string'?document.createTextNode(c):c)});return e}
   function safeUrl(u){return /^https:\/\//.test(u||'')}
   function avatar(name,src,big){var c='av'+(big?' big':'');if(src&&/^data:image\/jpeg;base64,/.test(src))return h('img',{class:c,src:src,alt:name});return h('div',{class:c,'aria-hidden':'true',text:(name||'?').charAt(0).toUpperCase()})}
@@ -677,10 +690,11 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     });
     if(!A.members.length)m.appendChild(h('p',{class:'fine',text:'No members yet. Add someone above once their PayPal payment arrives.'}));else m.appendChild(h('div',{class:'scroll'},[t]));
   }
+  function addEyeLater(inp){var w=h('span',{class:'pw'}),b=h('button',{type:'button',class:'eye','aria-label':'Show password'});b.innerHTML=EYE;b.addEventListener('click',function(){var sh=inp.type==='password';inp.type=sh?'text':'password';b.innerHTML=sh?EYEOFF:EYE;b.setAttribute('aria-label',sh?'Hide password':'Show password')});w.appendChild(inp);w.appendChild(b);return w}
   function aAccount(m){
     var p1=h('input',{id:'np',type:'password',autocomplete:'new-password',minlength:'8'}),msg=h('p',{class:'fine',role:'status'});
     m.appendChild(h('div',{class:'card',style:'max-width:30rem'},[h('div',{class:'kind',text:'Password'}),h('p',{class:'fine',text:'Signed in as '+D.email+'. Choose a password of at least 8 characters, then use it to log in next time.'}),
-      h('div',{style:'display:grid;gap:.8rem;margin-top:1rem'},[h('label',{for:'np',text:'New password'},[p1]),h('div',{},[h('button',{type:'button',class:'btn sm',text:'Save password',onclick:function(){
+      h('div',{style:'display:grid;gap:.8rem;margin-top:1rem'},[h('label',{for:'np',text:'New password'},[addEyeLater(p1)]),h('div',{},[h('button',{type:'button',class:'btn sm',text:'Save password',onclick:function(){
         if(p1.value.length<8){msg.textContent='Use at least 8 characters.';return}
         api('/auth/v1/user',{token:D.tok,method:'PUT',body:{password:p1.value}}).then(function(r){if(!r.ok)throw 0;p1.value='';msg.textContent='Password saved. You can log in with it next time.'}).catch(function(){msg.textContent='Could not save. Please try again.'});
       }})]),msg])]));
@@ -716,7 +730,8 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     var req=kind==='create'?api('/auth/v1/signup',{method:'POST',body:{email:em,password:pw}}):api('/auth/v1/token?grant_type=password',{method:'POST',body:{email:em,password:pw}});
     req.then(function(r){return r.json().then(function(j){if(!r.ok)throw j;return j})}).then(function(j){
       if(!j.access_token)throw {msg:'no session'};
-      saveSession(j);$('lpass').value='';location.hash='#members';
+      saveSession(j);$('lpass').value='';
+      return get('/rest/v1/admins?select=email').then(function(rows){location.hash=rows.length?'#admin':'#members'});
     }).catch(function(j){
       var m=(j&&(j.msg||j.error_description||j.message))||'';
       er.textContent=/already|registered/i.test(m)?'That email already has an account. Please log in instead.':kind==='create'?'Could not create the account. '+(m||'Please try again.'):'That email or password did not work.';er.hidden=false;
