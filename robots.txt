@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /members/
+Disallow: /login/
+
+Sitemap: https://riside.com/sitemap.xml
