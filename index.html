@@ -390,13 +390,14 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
   <main class="join">
     <a class="back" href="#top">&larr; Back to the class page</a>
     <h1>Member log in</h1>
-    <p class="sub">Enter the email you paid with. We email you a sign-in link. No password needed.</p>
+    <p class="sub">New here? Choose a password to create your account, using the email you paid with. No email code.</p>
     <form id="loginform" novalidate style="max-width:none">
-      <label for="lemail">Email address<input id="lemail" type="email" autocomplete="email"></label>
-      <button type="submit">Email me a sign-in link</button>
+      <label for="lemail">Email address<input id="lemail" type="email" autocomplete="username"></label>
+      <label for="lpass">Password<input id="lpass" type="password" autocomplete="current-password" minlength="8"></label>
+      <button type="submit">Log in</button>
+      <button type="button" class="alt" id="lcreate">Create my account</button>
       <p class="err" id="lerr" role="alert" hidden></p>
     </form>
-    <div class="done" id="ldone" role="status" hidden style="max-width:none"><b>Check your email.</b><p>We sent a sign-in link. Open it on this device. It can take a minute to arrive, so also look in spam.</p></div>
     <p class="fine" style="margin-top:1.2rem">Not a member yet? <a href="#join">Become a member</a>.</p>
   </main>
 </div>
@@ -418,7 +419,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     <a class="back" href="#top">&larr; Back to the class page</a>
     <h1>Thank you.</h1>
     <p class="sub">Your payment went through PayPal. PayPal emails you a receipt.</p>
-    <div class="done" style="max-width:none"><b>What happens next</b><p>We match your payment to your email within one business day, then you can sign in below. Your free-class seat is not affected.</p><a class="btn" href="#login">Member log in</a></div>
+    <div class="done" style="max-width:none"><b>What happens next</b><p>We match your payment to your email within one business day. Create your account with that email and your classes will be waiting. Your free-class seat is not affected.</p><a class="btn" href="#login">Create your account</a></div>
     <p class="fine" style="margin-top:1.2rem">Questions? <span class="ce">hello@aicoffeeclub.com</span></p>
   </main>
 </div>
@@ -433,8 +434,6 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
       <label for="apass">Password<input id="apass" type="password" autocomplete="current-password"></label>
       <button type="submit">Log in</button>
       <p class="err" id="aerr" role="alert" hidden></p>
-      <p class="fine">No password yet, or forgot it? <a href="#" id="alink">Email me a sign-in link</a>, then set a password in Account.</p>
-      <p class="fine" id="asent" role="status" hidden>Check your email and open the link on this device.</p>
     </form>
     <div id="abody" hidden>
       <div class="tabs" role="tablist" id="atabs"></div>
@@ -490,7 +489,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     D.tok=st.get('acc_token');
     if(!D.tok){state.innerHTML='Please <a href="#login">log in</a> to see your classes.';return}
     state.textContent='Checking your membership.';
-    api('/auth/v1/user',{token:D.tok}).then(function(r){if(!r.ok)throw 401;return r.json()}).then(function(u){
+    api('/auth/v1/user',{token:D.tok}).then(function(r){if(r.ok)return r;return refreshSession().then(function(){return api('/auth/v1/user',{token:D.tok})})}).then(function(r){if(!r.ok)throw 401;return r.json()}).then(function(u){
       D.email=u.email;
       return get('/rest/v1/members?select=email,group_id').then(function(rows){
         if(!rows.length){state.textContent='We do not see a membership for '+u.email+' yet. If you just paid, we match payments within one business day. Questions? Email '+CONTACT+'.';return}
@@ -512,7 +511,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
           drawTabs();drawTab();
         });
       });
-    }).catch(function(){st.del('acc_token');state.innerHTML='Your sign-in has ended. Please <a href="#login">log in again</a>.'});
+    }).catch(function(){st.del('acc_token');st.del('ref_token');state.innerHTML='Your sign-in has ended. Please <a href="#login">log in again</a>.'});
   }
   var TABS=[['home','Home'],['class','My class'],['calendar','Calendar'],['activities','Activities'],['messages','Messages']];
   function drawTabs(){var t=$('tabs');t.textContent='';TABS.forEach(function(x){t.appendChild(h('button',{class:'tab',type:'button',role:'tab','aria-selected':String(D.tab===x[0]),onclick:function(){D.tab=x[0];drawTabs();drawTab()},text:x[1]}))})}
@@ -633,11 +632,6 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     if(!em||!pw){er.textContent='Enter your email and password.';er.hidden=false;return}
     api('/auth/v1/token?grant_type=password',{method:'POST',body:{email:em,password:pw}}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(j){saveSession(j);$('apass').value='';loadAdmin()}).catch(function(){er.textContent='That email or password did not work.';er.hidden=false});
   });
-  $('alink').addEventListener('click',function(e){
-    e.preventDefault();var em=$('aemail').value.trim();if(!/^\S+@\S+\.\S+$/.test(em)){$('aerr').textContent='Enter your email first.';$('aerr').hidden=false;return}
-    st.set('next','#admin');
-    api('/auth/v1/otp?redirect_to='+encodeURIComponent(base+'#admin'),{method:'POST',body:{email:em,create_user:false}}).then(function(r){if(!r.ok)throw 0;$('aerr').hidden=true;$('asent').hidden=false}).catch(function(){$('aerr').textContent='Could not send. Please try again.';$('aerr').hidden=false});
-  });
   function refreshAdmin(){
     return Promise.all([get('/rest/v1/signups?select=*&order=created_at.desc&limit=2000'),get('/rest/v1/members?select=*&order=added_at.desc'),get('/rest/v1/profiles?select=email,display_name'),get('/rest/v1/messages?select=*&order=created_at'),get('/rest/v1/groups?select=*&order=id')]).then(function(a){A.signups=a[0];A.members=a[1];A.names={};a[2].forEach(function(p){A.names[p.email.toLowerCase()]=p.display_name});A.msgs=a[3];A.groups=a[4]});
   }
@@ -713,16 +707,24 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     box.scrollTop=box.scrollHeight;
   }
   $('aout').addEventListener('click',function(e){e.preventDefault();st.del('acc_token');st.del('ref_token');$('abody').hidden=true;showAdminLogin()});
-  $('mout').addEventListener('click',function(e){e.preventDefault();st.del('acc_token');location.hash='#login'});
-  $('loginform').addEventListener('submit',function(e){
-    e.preventDefault();var em=$('lemail').value.trim(),er=$('lerr');
+  $('mout').addEventListener('click',function(e){e.preventDefault();st.del('acc_token');st.del('ref_token');location.hash='#login'});
+  function memberAuth(kind){
+    var em=$('lemail').value.trim(),pw=$('lpass').value,er=$('lerr');
     if(!/^\S+@\S+\.\S+$/.test(em)){er.textContent='Please enter a full email address.';er.hidden=false;return}
-    if(!SB_URL){er.textContent='Member log in opens when the club launches.';er.hidden=false;return}
+    if(pw.length<8){er.textContent='Use a password of at least 8 characters.';er.hidden=false;return}
     er.hidden=true;
-    api('/auth/v1/otp?redirect_to='+encodeURIComponent(base+'#members'),{method:'POST',body:{email:em,create_user:true}}).then(function(r){
-      if(!r.ok)throw 0;$('loginform').hidden=true;$('ldone').hidden=false;
-    }).catch(function(){er.textContent='Something went wrong. Please try again, or email '+CONTACT+'.';er.hidden=false});
-  });
+    var req=kind==='create'?api('/auth/v1/signup',{method:'POST',body:{email:em,password:pw}}):api('/auth/v1/token?grant_type=password',{method:'POST',body:{email:em,password:pw}});
+    req.then(function(r){return r.json().then(function(j){if(!r.ok)throw j;return j})}).then(function(j){
+      if(!j.access_token)throw {msg:'no session'};
+      saveSession(j);$('lpass').value='';location.hash='#members';
+    }).catch(function(j){
+      var m=(j&&(j.msg||j.error_description||j.message))||'';
+      er.textContent=/already|registered/i.test(m)?'That email already has an account. Please log in instead.':kind==='create'?'Could not create the account. '+(m||'Please try again.'):'That email or password did not work.';er.hidden=false;
+    });
+  }
+  if(SB_URL){}
+  $('loginform').addEventListener('submit',function(e){e.preventDefault();memberAuth('login')});
+  $('lcreate').addEventListener('click',function(){memberAuth('create')});
   window.addEventListener('hashchange',route);route();
   $('signup').addEventListener('submit',function(e){
     e.preventDefault();
