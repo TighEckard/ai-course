@@ -92,6 +92,7 @@ footer{padding-block:2rem 3rem;border-top:1px solid var(--line);color:var(--soft
 .back{display:inline-block;margin-bottom:1.5rem;color:var(--soft);text-decoration:none;font-weight:500}
 .paynote{display:grid;gap:.7rem;margin-top:1.4rem;color:var(--soft);font-size:.95rem}
 .paynote b{color:var(--ink)}
+.doc{display:grid;gap:.5rem;margin-top:1.6rem}.doc h3{margin-top:1rem}.doc p{color:var(--soft)}
 [hidden]{display:none!important}
 @media(max-width:760px){
   html{font-size:16px}
@@ -109,7 +110,7 @@ footer{padding-block:2rem 3rem;border-top:1px solid var(--line);color:var(--soft
 <div class="wrap" id="page">
   <header>
     <a class="logo" href="#top">AI Coffee Club</a>
-    <nav><a href="#join">Join</a><a href="#how">How it works</a><a href="#schedule">Schedule</a><a href="#teachers">Teachers</a><a href="#faq">FAQ</a><a class="btn" href="#reserve">Reserve a seat</a></nav>
+    <nav><a href="#login">Log in</a><a href="#how">How it works</a><a href="#schedule">Schedule</a><a href="#teachers">Teachers</a><a href="#faq">FAQ</a><a class="btn" href="#reserve">Reserve a seat</a></nav>
   </header>
 
   <main id="top">
@@ -182,7 +183,7 @@ footer{padding-block:2rem 3rem;border-top:1px solid var(--line);color:var(--soft
         <div class="row"><b>Thursday</b><span>7:00 PM · Everyday Helpers</span></div>
         <div class="row"><b>Saturday</b><span>10:00 AM · Open Table</span></div>
       </div>
-      <p class="fine" style="margin-top:1rem">Each class runs about an hour. Example times for this prototype.</p>
+      <p class="fine" style="margin-top:1rem">Each class runs about an hour.</p>
     </section>
 
     <section id="teachers" class="tint">
@@ -229,13 +230,13 @@ footer{padding-block:2rem 3rem;border-top:1px solid var(--line);color:var(--soft
     </section>
   </main>
 
-  <footer><span>AI Coffee Club · hello@aicoffeeclub.com</span><span>Prototype. Photos are stock photos. Names and bios are samples.</span></footer>
+  <footer><span>AI Coffee Club · <span class="ce">hello@aicoffeeclub.com</span> · <a href="#privacy">Privacy</a> · <a href="#terms">Terms</a> · <a href="#login">Member log in</a></span><span>Photos are stock photos. Teacher names and bios are samples.</span></footer>
 </div>
 
 <div class="wrap" id="join-view" hidden>
   <header>
     <a class="logo" href="#top">AI Coffee Club</a>
-    <nav><a href="mailto:hello@aicoffeeclub.com">Need help?</a></nav>
+    <nav><a class="cl" href="mailto:hello@aicoffeeclub.com">Need help?</a></nav>
   </header>
   <main class="join">
     <a class="back" href="#top">&larr; Back to the class page</a>
@@ -261,38 +262,194 @@ footer{padding-block:2rem 3rem;border-top:1px solid var(--line);color:var(--soft
       <input type="hidden" name="t3" value="M">
       <input type="hidden" name="src" value="1">
       <input type="hidden" name="no_note" value="1">
+      <input type="hidden" name="return" id="pp-return" value="">
+      <input type="hidden" name="cancel_return" id="pp-cancel" value="">
+      <input type="hidden" name="rm" value="1">
       <input type="hidden" name="no_shipping" value="1">
       <button class="paybtn" type="submit">Continue to PayPal</button>
     </form>
     <p class="fine" style="margin-top:.7rem">You can pay with your PayPal balance, or with a card as a PayPal guest.</p>
     <div class="paynote">
       <p><b>Your card details never touch our site.</b> You enter them on paypal.com, over an encrypted https connection. We never see or store them.</p>
-      <p><b>Cancel any time.</b> Cancel from your PayPal account, or email hello@aicoffeeclub.com and we will cancel it for you. No fees.</p>
-      <p><b>Questions?</b> Email hello@aicoffeeclub.com. A real person replies.</p>
+      <p><b>Cancel any time.</b> Cancel from your PayPal account, or email  <span class="ce">hello@aicoffeeclub.com</span> and we will cancel it for you. No fees. See our <a href="#terms">terms</a> and <a href="#privacy">privacy</a>.</p>
+      <p><b>Questions?</b> Email <span class="ce">hello@aicoffeeclub.com</span>. A real person replies.</p>
     </div>
+  </main>
+</div>
+
+<div class="wrap" id="privacy-view" hidden>
+  <header><a class="logo" href="#top">AI Coffee Club</a><nav><a href="#login">Log in</a></nav></header>
+  <main class="join">
+    <a class="back" href="#top">&larr; Back to the class page</a>
+    <h1>Privacy</h1>
+    <p class="sub">Plain-language summary. Last updated October 26, 2026.</p>
+    <div class="doc">
+      <h3>What we collect</h3>
+      <p>When you reserve a free class we collect your first name, email address and the class time you chose. When you sign in, we use your email address to send you a sign-in link.</p>
+      <h3>How we use it</h3>
+      <p>We use it to send class details and run your membership. We do not sell your information and we do not share it for advertising.</p>
+      <h3>Payments</h3>
+      <p>Payments are handled by PayPal. Your card or bank details are entered on paypal.com and are never seen or stored by us. We receive your name, email and payment status from PayPal so we can give you member access.</p>
+      <h3>Who sees it</h3>
+      <p>Our hosting and database provider stores your details securely for us. Zoom processes your name and email when you join a class. Class recordings may include your voice or image if you speak or turn on your camera.</p>
+      <h3>Your choices</h3>
+      <p>Email us at <span class="ce">hello@aicoffeeclub.com</span> to see, correct or delete your details, or to stop receiving class emails. We reply within a few days.</p>
+      <h3>We will never</h3>
+      <p>Ask for your passwords, bank details or card number by email, phone or in class.</p>
+    </div>
+  </main>
+</div>
+
+<div class="wrap" id="terms-view" hidden>
+  <header><a class="logo" href="#top">AI Coffee Club</a><nav><a href="#login">Log in</a></nav></header>
+  <main class="join">
+    <a class="back" href="#top">&larr; Back to the class page</a>
+    <h1>Terms</h1>
+    <p class="sub">Plain-language terms. Last updated October 26, 2026.</p>
+    <div class="doc">
+      <h3>Free first class</h3>
+      <p>Your first class is free. No card is needed and there is no obligation to join.</p>
+      <h3>Membership</h3>
+      <p>Membership is $46 USD per month, billed monthly through PayPal until you cancel. It includes the weekly live classes and access to recordings and how-to sheets.</p>
+      <h3>Cancelling</h3>
+      <p>Cancel any time from your PayPal account, or email us and we will cancel it for you. Cancelling stops future charges. You keep access until the end of the month you have paid for. We do not give refunds for part of a month.</p>
+      <h3>Classes</h3>
+      <p>Classes are live on Zoom with small groups. Times can change, and we will tell you by email. If we cancel a class, we will offer another one.</p>
+      <h3>Using AI</h3>
+      <p>Classes teach general skills. AI tools can make mistakes, so please check important answers, especially about health, money or legal matters. Nothing taught here is professional advice.</p>
+      <h3>Being kind</h3>
+      <p>Please be respectful to teachers and other members. We may remove anyone who is not, with a refund of the current month.</p>
+      <h3>Recordings and your account</h3>
+      <p>Recordings and sheets are for your own use and may not be shared or sold. Your sign-in is for you alone.</p>
+      <h3>Contact</h3>
+      <p><span class="ce">hello@aicoffeeclub.com</span></p>
+    </div>
+  </main>
+</div>
+
+<div class="wrap" id="login-view" hidden>
+  <header><a class="logo" href="#top">AI Coffee Club</a><nav><a href="#login">Log in</a></nav></header>
+  <main class="join">
+    <a class="back" href="#top">&larr; Back to the class page</a>
+    <h1>Member log in</h1>
+    <p class="sub">Enter the email you paid with. We email you a sign-in link. No password needed.</p>
+    <form id="loginform" novalidate style="max-width:none">
+      <label for="lemail">Email address<input id="lemail" type="email" autocomplete="email"></label>
+      <button type="submit">Email me a sign-in link</button>
+      <p class="err" id="lerr" role="alert" hidden></p>
+    </form>
+    <div class="done" id="ldone" role="status" hidden style="max-width:none"><b>Check your email.</b><p>We sent a sign-in link. Open it on this device. It can take a minute to arrive, so also look in spam.</p></div>
+    <p class="fine" style="margin-top:1.2rem">Not a member yet? <a href="#join">Become a member</a>.</p>
+  </main>
+</div>
+
+<div class="wrap" id="members-view" hidden>
+  <header><a class="logo" href="#top">AI Coffee Club</a><nav><a href="#login">Log in</a></nav></header>
+  <main class="join">
+    <a class="back" href="#top">&larr; Back to the class page</a>
+    <h1 id="mh">Members</h1>
+    <p id="mstate" class="sub">Checking your membership.</p>
+    <div id="mbody" hidden>
+      <div class="order"><div class="row"><b>Next class</b><span id="mnext"></span></div><div class="row"><span>Zoom link</span><span><a id="mzoom" href="#" rel="noopener">Join on Zoom</a></span></div></div>
+      <h2 style="font-size:1.3rem;margin-top:2rem">Recordings</h2>
+      <div class="spec" id="mrec"></div>
+      <p class="fine" style="margin-top:1.5rem"><a href="#" id="mout">Sign out</a> · Questions? <span class="ce">hello@aicoffeeclub.com</span></p>
+    </div>
+  </main>
+</div>
+
+<div class="wrap" id="thanks-view" hidden>
+  <header><a class="logo" href="#top">AI Coffee Club</a><nav><a href="#login">Log in</a></nav></header>
+  <main class="join">
+    <a class="back" href="#top">&larr; Back to the class page</a>
+    <h1>Thank you.</h1>
+    <p class="sub">Your payment went through PayPal. PayPal emails you a receipt.</p>
+    <div class="done" style="max-width:none"><b>What happens next</b><p>We match your payment to your email within one business day, then you can sign in below. Your free-class seat is not affected.</p><a class="btn" href="#login">Member log in</a></div>
+    <p class="fine" style="margin-top:1.2rem">Questions? <span class="ce">hello@aicoffeeclub.com</span></p>
   </main>
 </div>
 <script>
 (function(){
-  // Paste your Zoom registration link here. Until then, the page shows a confirmation only.
+  // Backend settings (public values). Filled in once the database is created.
+  var SB_URL='', SB_KEY='';
+  // Paste your Zoom registration link here (optional).
   var REGISTER_URL='';
+  var CONTACT='hello@aicoffeeclub.com';
   var $=function(id){return document.getElementById(id)};
-  function route(){
-    var j=location.hash==='#join';
-    $('join-view').hidden=!j;$('page').hidden=j;
-    if(j)window.scrollTo(0,0);
+  var base=location.origin+location.pathname;
+  var VIEWS=['join','privacy','terms','login','members','thanks'];
+  var st={get:function(k){try{return localStorage.getItem(k)}catch(e){return null}},set:function(k,v){try{localStorage.setItem(k,v)}catch(e){}},del:function(k){try{localStorage.removeItem(k)}catch(e){}}};
+  function api(path,opt){
+    opt=opt||{};var tok=opt.token||SB_KEY;
+    var h={apikey:SB_KEY,Authorization:'Bearer '+tok,'Content-Type':'application/json'};
+    if(opt.prefer)h.Prefer=opt.prefer;
+    return fetch(SB_URL+path,{method:opt.method||'GET',headers:h,body:opt.body?JSON.stringify(opt.body):undefined});
   }
+  function route(){
+    var h=location.hash;
+    if(h.indexOf('access_token=')>-1){
+      var p=new URLSearchParams(h.slice(1));
+      if(p.get('access_token')){st.set('acc_token',p.get('access_token'))}
+      history.replaceState(null,'',base+'#members');h='#members';
+    }
+    var v=h.slice(1);if(VIEWS.indexOf(v)<0)v='';
+    VIEWS.forEach(function(n){$(n+'-view').hidden=n!==v});
+    $('page').hidden=!!v;
+    if(v)window.scrollTo(0,0);
+    if(v==='join'){$('pp-return').value=base+'#thanks';$('pp-cancel').value=base+'#join'}
+    if(v==='members')loadMembers();
+  }
+  function loadMembers(){
+    var state=$('mstate'),body=$('mbody');body.hidden=true;
+    if(!SB_URL){state.textContent='The members area opens when the club launches.';return}
+    var tok=st.get('acc_token');
+    if(!tok){state.innerHTML='Please <a href="#login">log in</a> to see your classes.';return}
+    state.textContent='Checking your membership.';
+    api('/auth/v1/user',{token:tok}).then(function(r){if(!r.ok)throw 401;return r.json()}).then(function(u){
+      return api('/rest/v1/members?select=email',{token:tok}).then(function(r){return r.json()}).then(function(rows){
+        if(!rows.length){state.innerHTML='We do not see a membership for '+esc(u.email)+' yet. If you just paid, we match payments within one business day. Questions? Email '+esc(CONTACT)+'.';return}
+        return api('/rest/v1/content?select=key,value',{token:tok}).then(function(r){return r.json()}).then(function(c){
+          var m={};c.forEach(function(x){m[x.key]=x.value});
+          $('mh').textContent='Welcome back.';state.textContent='You are signed in as '+u.email+'.';
+          $('mnext').textContent=m.next_class||'See the schedule';
+          var z=$('mzoom');if(/^https:\/\//.test(m.zoom_link||'')){z.href=m.zoom_link}else{z.removeAttribute('href');z.textContent='Link coming soon'}
+          var rec=$('mrec');rec.textContent='';var list=[];try{list=JSON.parse(m.recordings||'[]')}catch(e){}
+          if(!list.length){var d=document.createElement('p');d.className='fine';d.textContent='Recordings appear here after each class.';rec.appendChild(d)}
+          list.forEach(function(x){if(!/^https:\/\//.test(x.url))return;var row=document.createElement('div');row.className='row';var a=document.createElement('a');a.href=x.url;a.rel='noopener';a.textContent=x.title;row.appendChild(a);rec.appendChild(row)});
+          body.hidden=false;
+        });
+      });
+    }).catch(function(){st.del('acc_token');state.innerHTML='Your sign-in has ended. Please <a href="#login">log in again</a>.'});
+  }
+  function esc(t){var d=document.createElement('div');d.textContent=t;return d.innerHTML}
+  $('mout').addEventListener('click',function(e){e.preventDefault();st.del('acc_token');location.hash='#login'});
+  $('loginform').addEventListener('submit',function(e){
+    e.preventDefault();var em=$('lemail').value.trim(),er=$('lerr');
+    if(!/^\S+@\S+\.\S+$/.test(em)){er.textContent='Please enter a full email address.';er.hidden=false;return}
+    if(!SB_URL){er.textContent='Member log in opens when the club launches.';er.hidden=false;return}
+    er.hidden=true;
+    api('/auth/v1/otp?redirect_to='+encodeURIComponent(base+'#members'),{method:'POST',body:{email:em,create_user:true}}).then(function(r){
+      if(!r.ok)throw 0;$('loginform').hidden=true;$('ldone').hidden=false;
+    }).catch(function(){er.textContent='Something went wrong. Please try again, or email '+CONTACT+'.';er.hidden=false});
+  });
   window.addEventListener('hashchange',route);route();
   $('signup').addEventListener('submit',function(e){
     e.preventDefault();
     var n=$('name').value.trim(),em=$('email').value.trim();
     var ok=n&&/^\S+@\S+\.\S+$/.test(em);
+    $('err').textContent='Please enter your name and a full email address.';
     $('err').hidden=!!ok;
     if(!ok)return;
-    $('done-h').textContent='See you there, '+n+'.';
-    $('done-p').textContent=$('when').value+'. Zoom link sent to '+em+'.';
-    if(REGISTER_URL){$('zoom').href=REGISTER_URL;$('zoom').hidden=false}
-    $('signup').hidden=true;$('done').hidden=false;
+    function finish(){
+      $('done-h').textContent='See you there, '+n+'.';
+      $('done-p').textContent=REGISTER_URL?($('when').value+'. One last step: confirm on Zoom to get your link.'):($('when').value+'. We will email your Zoom link to '+em+' before class.');
+      if(REGISTER_URL){$('zoom').href=REGISTER_URL;$('zoom').hidden=false}
+      $('signup').hidden=true;$('done').hidden=false;
+    }
+    if(!SB_URL){finish();return}
+    api('/rest/v1/signups',{method:'POST',prefer:'return=minimal',body:{name:n,email:em,slot:$('when').value}}).then(function(r){
+      if(!r.ok)throw 0;finish();
+    }).catch(function(){$('err').textContent='Something went wrong. Please try again, or email '+CONTACT+'.';$('err').hidden=false});
   });
 })();
 </script>
