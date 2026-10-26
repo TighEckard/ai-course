@@ -433,6 +433,8 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
       <label for="apass">Password<input id="apass" type="password" autocomplete="current-password"></label>
       <button type="submit">Log in</button>
       <p class="err" id="aerr" role="alert" hidden></p>
+      <p class="fine">No password yet, or forgot it? <a href="#" id="alink">Email me a sign-in link</a>, then set a password in Account.</p>
+      <p class="fine" id="asent" role="status" hidden>Check your email and open the link on this device.</p>
     </form>
     <div id="abody" hidden>
       <div class="tabs" role="tablist" id="atabs"></div>
@@ -631,12 +633,17 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     if(!em||!pw){er.textContent='Enter your email and password.';er.hidden=false;return}
     api('/auth/v1/token?grant_type=password',{method:'POST',body:{email:em,password:pw}}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(j){saveSession(j);$('apass').value='';loadAdmin()}).catch(function(){er.textContent='That email or password did not work.';er.hidden=false});
   });
+  $('alink').addEventListener('click',function(e){
+    e.preventDefault();var em=$('aemail').value.trim();if(!/^\S+@\S+\.\S+$/.test(em)){$('aerr').textContent='Enter your email first.';$('aerr').hidden=false;return}
+    st.set('next','#admin');
+    api('/auth/v1/otp?redirect_to='+encodeURIComponent(base+'#admin'),{method:'POST',body:{email:em,create_user:false}}).then(function(r){if(!r.ok)throw 0;$('aerr').hidden=true;$('asent').hidden=false}).catch(function(){$('aerr').textContent='Could not send. Please try again.';$('aerr').hidden=false});
+  });
   function refreshAdmin(){
     return Promise.all([get('/rest/v1/signups?select=*&order=created_at.desc&limit=2000'),get('/rest/v1/members?select=*&order=added_at.desc'),get('/rest/v1/profiles?select=email,display_name'),get('/rest/v1/messages?select=*&order=created_at'),get('/rest/v1/groups?select=*&order=id')]).then(function(a){A.signups=a[0];A.members=a[1];A.names={};a[2].forEach(function(p){A.names[p.email.toLowerCase()]=p.display_name});A.msgs=a[3];A.groups=a[4]});
   }
-  var ATABS=[['signups','Signups'],['members','Members'],['messages','Messages']];
+  var ATABS=[['signups','Signups'],['members','Members'],['messages','Messages'],['account','Account']];
   function drawATabs(){var t=$('atabs');t.textContent='';ATABS.forEach(function(x){var n=x[0]==='messages'?unanswered().length:0;t.appendChild(h('button',{class:'tab',type:'button',role:'tab','aria-selected':String(A.tab===x[0]),onclick:function(){A.tab=x[0];drawATabs();drawATab()},text:x[1]+(n?' ('+n+')':'')}))})}
-  function drawATab(){var m=$('atab');m.textContent='';({signups:aSignups,members:aMembers,messages:aMsgs})[A.tab](m)}
+  function drawATab(){var m=$('atab');m.textContent='';({signups:aSignups,members:aMembers,messages:aMsgs,account:aAccount})[A.tab](m)}
   function dt(s){return new Date(s).toLocaleString(undefined,{month:'short',day:'numeric',year:'numeric',hour:'numeric',minute:'2-digit'})}
   function aSignups(m){
     var by={},week=Date.now()-7*864e5,w=0;
@@ -675,6 +682,14 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
       }})])]));
     });
     if(!A.members.length)m.appendChild(h('p',{class:'fine',text:'No members yet. Add someone above once their PayPal payment arrives.'}));else m.appendChild(h('div',{class:'scroll'},[t]));
+  }
+  function aAccount(m){
+    var p1=h('input',{id:'np',type:'password',autocomplete:'new-password',minlength:'8'}),msg=h('p',{class:'fine',role:'status'});
+    m.appendChild(h('div',{class:'card',style:'max-width:30rem'},[h('div',{class:'kind',text:'Password'}),h('p',{class:'fine',text:'Signed in as '+D.email+'. Choose a password of at least 8 characters, then use it to log in next time.'}),
+      h('div',{style:'display:grid;gap:.8rem;margin-top:1rem'},[h('label',{for:'np',text:'New password'},[p1]),h('div',{},[h('button',{type:'button',class:'btn sm',text:'Save password',onclick:function(){
+        if(p1.value.length<8){msg.textContent='Use at least 8 characters.';return}
+        api('/auth/v1/user',{token:D.tok,method:'PUT',body:{password:p1.value}}).then(function(r){if(!r.ok)throw 0;p1.value='';msg.textContent='Password saved. You can log in with it next time.'}).catch(function(){msg.textContent='Could not save. Please try again.'});
+      }})]),msg])]));
   }
   function threads(){var t={};A.msgs.forEach(function(x){(t[x.thread_email]=t[x.thread_email]||[]).push(x)});return Object.keys(t).map(function(k){return {email:k,list:t[k],last:t[k][t[k].length-1]}}).sort(function(a,b){return new Date(b.last.created_at)-new Date(a.last.created_at)})}
   function unanswered(){return threads().filter(function(t){return t.last.sender==='member'})}
