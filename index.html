@@ -150,7 +150,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
   <main id="top">
     <div class="hero">
       <div id="reserve">
-        <h1>Learn AI over coffee.</h1>
+        <h1>Learn to use AI, live, in a small group.</h1>
         <p class="sub">Small live classes on Zoom, led by a patient teacher. Your first class is free.</p>
         <form id="signup" novalidate>
           <label for="name">First name<input id="name" type="text" autocomplete="given-name"></label>
@@ -401,7 +401,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
 <script>
 (function(){
   // Backend settings (public values). Filled in once the database is created.
-  var SB_URL='', SB_KEY='';
+  var SB_URL='https://yhsxxblilclylzgejehk.supabase.co', SB_KEY='sb_publishable_9BiONVmj8Ht4k7lBsxGkkA_Yajbl8Rj';
   // Paste your Zoom registration link here (optional).
   var REGISTER_URL='';
   var CONTACT='hello@aicoffeeclub.com';
@@ -410,8 +410,9 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
   var VIEWS=['join','privacy','terms','login','members','thanks'];
   var st={get:function(k){try{return localStorage.getItem(k)}catch(e){return null}},set:function(k,v){try{localStorage.setItem(k,v)}catch(e){}},del:function(k){try{localStorage.removeItem(k)}catch(e){}}};
   function api(path,opt){
-    opt=opt||{};var tok=opt.token||SB_KEY;
-    var h={apikey:SB_KEY,Authorization:'Bearer '+tok,'Content-Type':'application/json'};
+    opt=opt||{};
+    var h={apikey:SB_KEY,'Content-Type':'application/json'};
+    if(opt.token)h.Authorization='Bearer '+opt.token;
     if(opt.prefer)h.Prefer=opt.prefer;
     return fetch(SB_URL+path,{method:opt.method||'GET',headers:h,body:opt.body?JSON.stringify(opt.body):undefined});
   }
