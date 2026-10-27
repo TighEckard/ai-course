@@ -64,6 +64,7 @@ button,.btn{font:inherit;font-weight:700;font-size:1.1rem;min-height:3.2rem;padd
 button:hover,.btn:hover{background:var(--accent-dark)}
 .fine{font-size:.9rem;color:var(--soft)}
 .err{color:var(--bad);font-weight:700;font-size:.95rem}
+.by{display:flex;gap:.8rem;align-items:center;margin-top:1.2rem;font-size:.92rem;color:var(--soft);max-width:30rem}.by img{width:44px;height:44px;border-radius:50%;object-fit:cover;flex:none}.by b{color:var(--ink)}
 .people{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1.4rem}.ph{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:14px;display:block}
 .photo{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:18px;display:block}
 .done{margin-top:1.8rem;max-width:26rem;border:1.5px solid var(--good);background:#EDF7F0;border-radius:14px;padding:1.2rem 1.4rem}
@@ -214,6 +215,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
           <button type="submit">Reserve a free seat</button>
           <p class="err" id="err" role="alert" hidden>Please enter your name and a full email address.</p>
           <p class="fine">No credit card. We only use your email to send class details.</p>
+        <div class="by"><img src="/images/holden-eckard.jpg" width="44" height="44" alt="" loading="lazy"><span><b>Taught live by Holden Eckard.</b> Secure payment through PayPal when you decide to join. Cancel any time.</span></div>
         </form>
         <div class="done" id="done" role="status" hidden>
           <b id="done-h"></b>
@@ -258,7 +260,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
       </div>
     </section>
 
-    <section id="people" style="padding-top:1rem">
+    <section id="people" style="padding-block:1rem 0">
       <h2>For adults of every age</h2>
       <p class="intro">Classes are made for adults of every age and every level of experience. If you can join a video call, you can take a class.</p>
       <div class="people"><img class="ph" src="https://images.unsplash.com/photo-1573878741117-1653384427db?w=960&q=80&auto=format&fit=crop" srcset="https://images.unsplash.com/photo-1573878741117-1653384427db?w=640&q=80&auto=format&fit=crop 640w, https://images.unsplash.com/photo-1573878741117-1653384427db?w=960&q=80&auto=format&fit=crop 960w, https://images.unsplash.com/photo-1573878741117-1653384427db?w=1400&q=80&auto=format&fit=crop 1400w" sizes="(max-width:800px) 100vw, 520px" width="1600" height="1067" loading="lazy" decoding="async" alt="A smiling woman typing on her laptop"><img class="ph" src="https://images.unsplash.com/photo-1603575448878-868a20723f5d?w=960&q=80&auto=format&fit=crop" srcset="https://images.unsplash.com/photo-1603575448878-868a20723f5d?w=640&q=80&auto=format&fit=crop 640w, https://images.unsplash.com/photo-1603575448878-868a20723f5d?w=960&q=80&auto=format&fit=crop 960w, https://images.unsplash.com/photo-1603575448878-868a20723f5d?w=1400&q=80&auto=format&fit=crop 1400w" sizes="(max-width:800px) 100vw, 520px" width="1600" height="1067" loading="lazy" decoding="async" alt="A man in his thirties working on a laptop at a table"><img class="ph" src="https://images.unsplash.com/photo-1713865473216-b48201bb40ce?w=960&q=80&auto=format&fit=crop" srcset="https://images.unsplash.com/photo-1713865473216-b48201bb40ce?w=640&q=80&auto=format&fit=crop 640w, https://images.unsplash.com/photo-1713865473216-b48201bb40ce?w=960&q=80&auto=format&fit=crop 960w, https://images.unsplash.com/photo-1713865473216-b48201bb40ce?w=1400&q=80&auto=format&fit=crop 1400w" sizes="(max-width:800px) 100vw, 520px" width="1600" height="1067" loading="lazy" decoding="async" alt="A woman in a green blouse working on a laptop"></div>
