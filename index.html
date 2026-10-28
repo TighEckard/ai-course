@@ -67,6 +67,7 @@ button:hover,.btn:hover{background:var(--accent-dark)}
 .err{color:var(--bad);font-weight:700;font-size:.95rem}
 .by{display:flex;gap:.8rem;align-items:center;margin-top:1.2rem;font-size:.92rem;color:var(--soft);max-width:30rem}.by img{width:44px;height:44px;border-radius:50%;object-fit:cover;flex:none}.by b{color:var(--ink)}
 .row2{display:grid;grid-template-columns:1fr 1fr;gap:.75rem}@media(max-width:520px){.row2{grid-template-columns:1fr}}
+.fhead h2{font-size:1.15rem;margin:0 0 .4rem}.fhead p{margin:0 0 .8rem;font-size:.95rem;color:var(--soft)}.fhead details{border-bottom:1px solid var(--line);padding:.35rem 0}.fhead summary{cursor:pointer;font-weight:600;font-size:.95rem}.fhead details p{margin:.3rem 0 0}
 .next{font-weight:700;color:var(--accent-dark);background:#FBEBCB;border-radius:10px;padding:.5rem .9rem;display:inline-block;margin-top:1rem;font-size:.95rem}
 .stick{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--navy);color:#fff;text-align:center;font-weight:700;padding:1rem;text-decoration:none;box-shadow:0 -4px 16px rgba(0,0,0,.12)}
 .stick[hidden]{display:none}
@@ -202,16 +203,17 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
 <div class="wrap" id="page">
   <header>
     <a class="logo" href="#top" aria-label="Riside Learning">riside<i class="sun"></i><small>learning</small></a>
-    <nav><a href="#login">Log in</a><a href="#how">How it works</a><a href="#schedule">Schedule</a><a href="#teachers">Your teacher</a><a href="#faq">FAQ</a><a class="btn" href="#reserve">Reserve a seat</a></nav>
+    <nav><a href="#login">Log in</a><a href="#how">How it works</a><a href="#schedule">Schedule</a><a href="#teachers">Your teacher</a><a href="#faq">FAQ</a><a class="btn" href="#reserve" id="hbtn">Reserve a seat</a></nav>
   </header>
 
   <main id="top">
     <div class="hero">
       <div id="reserve">
-        <h1>Learn to use AI, live, in a small group.</h1>
-        <p class="sub">Live AI classes for beginners on Zoom, in groups of 12 or fewer. Learn ChatGPT, Claude and Gemini with no experience. Your first class is free.</p>
+        <h1 id="hh">Learn to use AI, live, in a small group.</h1>
+        <p class="sub" id="hs">Live AI classes for beginners on Zoom, in groups of 12 or fewer. Learn ChatGPT, Claude and Gemini with no experience. Your first class is free.</p>
         <p class="next" id="nextclass" hidden></p>
         <form id="signup" novalidate>
+          <div id="fhead" class="fhead"></div>
           <div class="row2"><label for="name">First name<input id="name" type="text" autocomplete="given-name"></label>
           <label for="email">Email address<input id="email" type="email" autocomplete="email"></label></div>
           <label for="when">When
@@ -221,9 +223,9 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
               <option value="Saturday, 10:00 AM">Saturday, 10:00 AM</option>
             </select>
           </label>
-          <button type="submit">Reserve a free seat</button>
+          <button type="submit" id="sbtn">Reserve a free seat</button>
           <p class="err" id="err" role="alert" hidden>Please enter your name and a full email address.</p>
-          <p class="fine">No credit card. We only use your email to send class details.</p>
+          <p class="fine" id="fsmall">No credit card. We only use your email to send class details.</p>
         <div class="by"><img src="/images/holden-eckard.jpg?v=2" width="44" height="44" alt="" loading="lazy"><span><b>Taught live by Holden Eckard.</b> Secure payment through PayPal when you decide to join. Cancel any time.</span></div>
         </form>
         <div class="done" id="done" role="status" hidden>
@@ -1027,6 +1029,19 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
   $('loginform').addEventListener('submit',function(e){e.preventDefault();memberAuth('login')});
   $('lcreate').addEventListener('click',function(){memberAuth('create')});
 
+  // A/B copy tests (g2-v-hero a1/a4, g2-v-form a1/a2): 50/50, sticky per visitor, stored with the signup
+  var VAR=(function(){var o=null;try{o=JSON.parse(localStorage.getItem('rv')||'null')}catch(e){}
+    if(!o||!o.hero||!o.form){o={hero:Math.random()<.5?'a1':'a4',form:Math.random()<.5?'a1':'a2'};try{localStorage.setItem('rv',JSON.stringify(o))}catch(e){}}
+    return o})();
+  var VARTAG='g2-v-hero-'+VAR.hero+',g2-v-form-'+VAR.form;
+  (function(){
+    function set(id,t){var e=document.getElementById(id);if(e)e.textContent=t}
+    if(VAR.hero==='a1'){set('hh','Never touched AI and not sure where to begin?');set('hs','Good. That is who our classes are for. Join a live Zoom class with Holden in a small group of up to 12, ask anything, and go at a human pace. Your first class is free.');set('hbtn','Try a free class')}
+    else{set('hh','Ask it to plan a trip, draft a letter, or check a strange email.');set('hs','In a Riside class you try AI yourself, live on Zoom, with Holden and a small group (12 at most). No jargon, no experience needed. Your first class is free.');set('hbtn','See it in a free class')}
+    var fh=document.getElementById('fhead');
+    if(VAR.form==='a1'){fh.innerHTML='<h2>Your first class is free.</h2><p>No card needed. You will not be charged for anything today. Classes are live on Zoom with a small group of 12 and a patient teacher, Holden. Tell us where to send your seat.</p>';set('sbtn','Save my free seat');set('fsmall','Try the class. Decide afterwards. If you like it, it is $46 a month.')}
+    else{fh.innerHTML='<h2>Never touched this before? Good. That is who the class is for.</h2><details><summary>Do I need to know anything first?</summary><p>No. We start from the very beginning.</p></details><details><summary>What if I fall behind?</summary><p>Only 12 people, and Holden slows down for questions.</p></details><details><summary>What do I need?</summary><p>A computer, tablet or phone, and the Zoom link we email you.</p></details>';set('sbtn','Save my free seat')}
+  })();
   var SRC=(function(){try{var q=new URLSearchParams(location.search).get('src');if(q)return q.slice(0,60);var r=document.referrer;if(r){var h=new URL(r).hostname.replace(/^www\./,'');if(h&&h!=='riside.com')return ('ref:'+h).slice(0,60)}}catch(e){}return 'direct'})();
 
   // free Scam or Not? class signup
@@ -1086,7 +1101,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
       $('signup').hidden=true;$('done').hidden=false;
     }
     if(!SB_URL){finish();return}
-    api('/rest/v1/signups',{method:'POST',prefer:'return=minimal',body:{name:n,email:em,slot:$('when').value,source:SRC}}).then(function(r){
+    api('/rest/v1/signups',{method:'POST',prefer:'return=minimal',body:{name:n,email:em,slot:$('when').value,source:SRC,variant:VARTAG}}).then(function(r){
       if(!r.ok)throw 0;if(window.AT)AT.signup();finish();
     }).catch(function(){$('err').textContent='Something went wrong. Please try again, or email '+CONTACT+'.';$('err').hidden=false});
   });
