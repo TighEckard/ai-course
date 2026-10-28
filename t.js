@@ -27,7 +27,7 @@
     ss('s_src',JSON.stringify(r));return r;
   }
   var path,depth,start,shown,vis=true,q=[],timer,geo=null,clicks=+ss('s_n')||0;
-  function curPath(){var h=location.hash.slice(1);if(h.indexOf('access_token=')>-1)return '/members';return VIEWS.indexOf(h)>-1?'/'+h:h==='admin'?null:'/'}
+  function curPath(){if(/^\/guides\//.test(location.pathname))return location.pathname.replace(/index\.html$/,'');var h=location.hash.slice(1);if(h.indexOf('access_token=')>-1)return '/members';return VIEWS.indexOf(h)>-1?'/'+h:h==='admin'?null:'/'}
   function push(ev){q.push(ev);clearTimeout(timer);timer=setTimeout(flush,3000)}
   function flush(){
     if(!q.length)return;var b=q;q=[];
