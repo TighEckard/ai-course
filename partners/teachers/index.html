@@ -1,0 +1,63 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap">
+<title>Free AI class for educators | Riside Learning</title>
+<meta name="description" content="A free live AI intro class for your members, taught on Zoom by Riside Learning. Nothing to prepare, nothing to pay.">
+<link rel="canonical" href="https://riside.com/partners/teachers/"><style>
+:root{--bg:#FAF7F2;--tint:#F2EDE3;--ink:#2B2F36;--soft:#5A606B;--line:#E4DDD0;--navy:#143059;--amber:#E9A23B;--bad:#B23A1E;--serif:'Source Serif 4',Georgia,serif;--font:'Inter',system-ui,sans-serif}
+*{box-sizing:border-box}html{font-size:18px}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);line-height:1.65}
+.wrap{max-width:46rem;margin:0 auto;padding:1.2rem 1.2rem 3rem}
+.logo{font-weight:700;font-size:1.5rem;letter-spacing:-.03em;color:var(--navy);text-decoration:none;display:inline-flex;align-items:baseline}
+.logo i{display:inline-block;width:.38em;height:.38em;border-radius:50%;background:var(--amber);margin:0 .08em 0 .04em}
+.logo small{font-size:.62em;font-weight:500;margin-left:.4em;color:var(--soft);letter-spacing:0}
+h1,h2{font-family:var(--serif);color:var(--navy);line-height:1.2}h1{font-size:2rem;margin:1.6rem 0 .6rem}h2{font-size:1.4rem;margin:2rem 0 .5rem}
+a{color:var(--navy)}
+.card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:1.2rem 1.3rem;margin:1rem 0}
+label{display:block;font-weight:600;margin:.9rem 0 .25rem}
+input,textarea,select{width:100%;font:inherit;padding:.65rem .75rem;border:1px solid #c9c1b2;border-radius:8px;background:#fff;color:var(--ink)}
+textarea{min-height:5rem}
+.btn{display:inline-block;width:100%;margin-top:1.2rem;padding:.85rem 1.2rem;background:var(--navy);color:#fff;font:inherit;font-weight:600;border:0;border-radius:8px;cursor:pointer;text-align:center;text-decoration:none}
+.btn.alt{background:#fff;color:var(--navy);border:1.5px solid var(--navy);width:auto;margin:.3rem .4rem .3rem 0}
+.fine{color:var(--soft);font-size:.85rem}.err{color:var(--bad);font-weight:600}
+ol.steps{padding-left:1.2rem}ol.steps li{margin:.5rem 0}
+.hp{position:absolute;left:-9999px}
+</style></head><body><div class="wrap">
+<a class="logo" href="/" aria-label="Riside Learning">riside<i></i><small>learning</small></a>
+<h1>A free live AI class for your educators</h1>
+<p>We teach a one-hour intro to AI over Zoom, in plain English, for teachers and retired teachers. It costs your group nothing and there is nothing to prepare. We bring the teacher, the Zoom room and the handouts.</p>
+<div class="card"><b>What you get</b>
+<ol class="steps"><li>Pick a date below. We confirm within one business day.</li>
+<li>We send a ready flyer, a newsletter blurb and a sign-up link made for your members.</li>
+<li>Your educators register in about 30 seconds. No accounts, no payment.</li>
+<li>Holden teaches the class live. Questions are welcome from the first minute.</li></ol></div>
+<h2>Book a class</h2>
+<form id="f" class="card" novalidate>
+<label for="org">Teacher group or association</label><input id="org" autocomplete="organization" required>
+<label for="nm">Your name</label><input id="nm" autocomplete="name" required>
+<label for="em">Your email</label><input id="em" type="email" autocomplete="email" required>
+<label for="d1">Preferred date and time</label><input id="d1" placeholder="For example: a Wednesday afternoon in November" required>
+<label for="d2">A backup date or time (optional)</label><input id="d2">
+<label for="note">Anything we should know (optional)</label><textarea id="note" placeholder="Room size, how many members usually attend, topics they ask about"></textarea>
+<input class="hp" id="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+<p class="err" id="err" hidden></p>
+<button class="btn" type="submit">Request this class</button>
+<p class="fine">We use your details only to schedule the class. See our <a href="/#privacy">privacy policy</a>.</p></form>
+<div class="card" id="done" hidden><b id="dh"></b><p>We will email you within one business day to confirm the date and send your kit.</p></div>
+<h2>Your kit</h2>
+<p><a class="btn alt" href="flyer/">Printable flyer</a><a class="btn alt" href="join/">Member sign-up page</a></p>
+<p class="fine">Questions? <a href="mailto:admin@ovoa.ai">admin@ovoa.ai</a></p>
+</div><script>var SB_URL='https://yhsxxblilclylzgejehk.supabase.co',SB_KEY='sb_publishable_9BiONVmj8Ht4k7lBsxGkkA_Yajbl8Rj';
+function api(body){return fetch(SB_URL+'/rest/v1/signups',{method:'POST',headers:{apikey:SB_KEY,'Content-Type':'application/json',Prefer:'return=minimal'},body:JSON.stringify(body)})}
+function slug(s){return s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,40)}
+var Q=new URLSearchParams(location.search);
+document.getElementById('f').addEventListener('submit',function(e){e.preventDefault();
+var v=function(i){return document.getElementById(i).value.trim()},er=document.getElementById('err');
+if(v('hp'))return;
+if(!v('org')||!v('nm')||!v('d1')||!/^\S+@\S+\.\S+$/.test(v('em'))){er.textContent='Please fill in your organization, name, a valid email and a preferred date.';er.hidden=false;return}
+er.hidden=true;
+var slot=('Educator partner host request: '+v('org')+' | '+v('d1')+(v('d2')?' / '+v('d2'):'')+(v('note')?' | '+v('note'):'')).slice(0,480);
+api({name:v('nm'),email:v('em'),slot:slot,source:'partner-host-edu'}).then(function(r){if(!r.ok)throw 0;
+document.getElementById('f').hidden=true;document.getElementById('dh').textContent='Thank you, '+v('nm')+'. Your request is in.';document.getElementById('done').hidden=false})
+.catch(function(){er.textContent='Something went wrong. Please try again, or email admin@ovoa.ai.';er.hidden=false})});
+</script></body></html>
