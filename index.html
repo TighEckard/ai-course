@@ -43,7 +43,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);line
   padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 .wrap{max-width:60rem;margin-inline:auto}
 h1,h2,h3{margin:0;line-height:1.15;letter-spacing:-.02em;font-weight:800;text-wrap:balance}
-h1{font-size:clamp(2.4rem,6vw,3.8rem)}
+h1{font-size:clamp(2.2rem,4.6vw,3.3rem)}
 h2{font-size:1.6rem}
 h3{font-size:1.05rem;letter-spacing:-.01em}
 p{margin:0}
@@ -55,9 +55,9 @@ nav{display:flex;gap:1.6rem;align-items:center}
 nav a{color:var(--soft);text-decoration:none;font-weight:500;font-size:.95rem}
 nav a:hover{color:var(--ink)}
 nav .btn{min-height:2.6rem;padding:.4rem 1.1rem;font-size:.95rem;color:#fff}
-.hero{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start;padding-block:3.5rem 4rem}
+.hero{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start;padding-block:2rem 3.5rem}
 .sub{font-size:1.15rem;color:var(--soft);margin-top:1rem;max-width:30rem}
-form{display:grid;gap:.9rem;margin-top:1.8rem;max-width:26rem}
+form{display:grid;gap:.75rem;margin-top:1.2rem;max-width:30rem}
 label{display:grid;gap:.3rem;font-weight:700;font-size:.95rem}
 input,select{font:inherit;font-size:1.05rem;padding:.75rem .9rem;min-height:3rem;border:1.5px solid #B9C1CC;border-radius:10px;background:#fff;color:var(--ink);width:100%}
 button,.btn{font:inherit;font-weight:700;font-size:1.1rem;min-height:3.2rem;padding:.8rem 1.4rem;border:0;border-radius:10px;background:var(--accent);color:#fff;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center}
@@ -65,6 +65,12 @@ button:hover,.btn:hover{background:var(--accent-dark)}
 .fine{font-size:.9rem;color:var(--soft)}
 .err{color:var(--bad);font-weight:700;font-size:.95rem}
 .by{display:flex;gap:.8rem;align-items:center;margin-top:1.2rem;font-size:.92rem;color:var(--soft);max-width:30rem}.by img{width:44px;height:44px;border-radius:50%;object-fit:cover;flex:none}.by b{color:var(--ink)}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:.75rem}@media(max-width:520px){.row2{grid-template-columns:1fr}}
+.next{font-weight:700;color:var(--accent-dark);background:#EAF4F1;border-radius:10px;padding:.5rem .9rem;display:inline-block;margin-top:1rem;font-size:.95rem}
+.stick{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--accent);color:#fff;text-align:center;font-weight:700;padding:1rem;text-decoration:none;box-shadow:0 -4px 16px rgba(0,0,0,.12)}
+.stick[hidden]{display:none}
+@media(min-width:801px){.stick{display:none}}
+.plans{border:0;padding:0;margin:0;display:grid;gap:.6rem}.plans legend{font-weight:700;margin-bottom:.4rem}.plan{display:flex;gap:.8rem;align-items:center;border:1.5px solid #B9C1CC;border-radius:10px;padding:.8rem 1rem;font-weight:400;cursor:pointer}.plan input{width:1.2rem;min-height:0}.plan em{font-style:normal;color:var(--soft);margin-left:.6rem}
 .people{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1.4rem}.ph{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:14px;display:block}
 .photo{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:18px;display:block}
 .done{margin-top:1.8rem;max-width:26rem;border:1.5px solid var(--good);background:#EDF7F0;border-radius:14px;padding:1.2rem 1.4rem}
@@ -201,15 +207,16 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     <div class="hero">
       <div id="reserve">
         <h1>Learn to use AI, live, in a small group.</h1>
-        <p class="sub">Live AI classes for beginners, taught on Zoom by a patient teacher in groups of 10 or fewer. Learn ChatGPT, Claude and Gemini with no experience. Your first class is free.</p>
+        <p class="sub">Live AI classes for beginners on Zoom, in groups of 10 or fewer. Learn ChatGPT, Claude and Gemini with no experience. Your first class is free.</p>
+        <p class="next" id="nextclass" hidden></p>
         <form id="signup" novalidate>
-          <label for="name">First name<input id="name" type="text" autocomplete="given-name"></label>
-          <label for="email">Email address<input id="email" type="email" autocomplete="email"></label>
+          <div class="row2"><label for="name">First name<input id="name" type="text" autocomplete="given-name"></label>
+          <label for="email">Email address<input id="email" type="email" autocomplete="email"></label></div>
           <label for="when">When
             <select id="when">
-              <option>Tuesday, 7:00 PM</option>
-              <option>Thursday, 7:00 PM</option>
-              <option>Saturday, 10:00 AM</option>
+              <option value="Tuesday, 7:00 PM">Tuesday, 7:00 PM</option>
+              <option value="Thursday, 7:00 PM">Thursday, 7:00 PM</option>
+              <option value="Saturday, 10:00 AM">Saturday, 10:00 AM</option>
             </select>
           </label>
           <button type="submit">Reserve a free seat</button>
@@ -221,6 +228,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
           <b id="done-h"></b>
           <p id="done-p"></p>
           <a class="btn" id="zoom" href="#" hidden>Finish on Zoom</a>
+          <p class="fine" style="margin-top:1rem">Meet other members before class: <a href="https://www.facebook.com/groups/2561940717613867" target="_blank" rel="noopener">join our Facebook group</a>.</p>
         </div>
       </div>
       <img class="photo" src="https://images.unsplash.com/photo-1758686254493-7b3e49a8f325?w=960&q=80&auto=format&fit=crop" srcset="https://images.unsplash.com/photo-1758686254493-7b3e49a8f325?w=640&q=80&auto=format&fit=crop 640w, https://images.unsplash.com/photo-1758686254493-7b3e49a8f325?w=960&q=80&auto=format&fit=crop 960w, https://images.unsplash.com/photo-1758686254493-7b3e49a8f325?w=1400&q=80&auto=format&fit=crop 1400w" sizes="(max-width:800px) 100vw, 520px" width="1600" height="900" fetchpriority="high" alt="An older couple looking at a laptop together at home">
@@ -280,7 +288,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     <section id="teachers" class="tint">
       <h2>Your teacher</h2>
       <p class="intro">Every class is led live by the same person, so you get to know him and the people beside you.</p>
-      <ul class="team" style="grid-template-columns:minmax(0,22rem)"><li><img style="width:10rem;height:10rem" src="/images/holden-eckard.jpg?v=2" width="720" height="720" loading="lazy" decoding="async" alt="Holden Eckard, instructor at AI Coffee Club"><h3>Holden Eckard</h3><span class="role">Your instructor</span><p>Holden leads every class live on Zoom. He shares his screen, goes at your pace and answers questions as you go.</p></li></ul>
+      <ul class="team" style="grid-template-columns:minmax(0,22rem)"><li><img style="width:10rem;height:10rem" src="/images/holden-eckard.jpg?v=2" width="720" height="720" loading="lazy" decoding="async" alt="Holden Eckard, instructor at AI Coffee Club"><h3>Holden Eckard</h3><span class="role">Your instructor</span><p>Hi, I am Holden. I teach every class myself, live on Zoom. I keep the groups small so nobody gets left behind, I go at your pace, and no question is too basic. If you would like to ask me something before you sign up, email me and I will answer it personally.</p></li></ul>
     </section>
 
     <section id="price">
@@ -293,6 +301,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
           <div class="amount">$46 <small>a month</small></div>
           <ul class="ticks"><li>A live class every week</li><li>Every recording, sorted by topic</li><li>Printable how-to sheets</li><li>Cancel any time</li></ul>
           <a class="btn" href="#reserve">Start with a free class</a>
+          <p class="fine" style="margin-top:.8rem;text-align:center"><b>Founding members:</b> 10 seats per class, and $46 a month stays the same for as long as you stay.</p>
           <p class="fine" style="margin-top:.8rem;text-align:center">Already tried a class? <a href="#join">Become a member</a>. Secure payment through PayPal.</p>
         </div>
       </div>
@@ -318,10 +327,12 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     <section class="cta">
       <h2>Come to a free class</h2>
       <a class="btn" href="#reserve" style="min-width:14rem">Reserve a free seat</a>
+    <p class="fine" style="margin-top:1rem">Worried about scams? Try our free <a href="#scamcheck">Scam or Not? class</a>.</p>
     </section>
   </main>
 
-  <footer><span>AI Coffee Club · <span class="ce">admin@ovoa.ai</span> · <a href="#privacy">Privacy</a> · <a href="#terms">Terms</a> · <a href="#login">Member log in</a></span><span><a href="https://www.facebook.com/profile.php?id=61596105652894" rel="noopener me" target="_blank">Facebook page</a> · <a href="https://www.facebook.com/groups/2561940717613867" rel="noopener me" target="_blank">Facebook group</a> · Stock photos via Unsplash, except our teacher.</span></footer>
+  <a class="stick" id="stick" href="#reserve" hidden>Reserve a free seat</a>
+  <footer><span>AI Coffee Club · <span class="ce">admin@ovoa.ai</span> · <a href="#gift">Give a membership</a> · <a href="#privacy">Privacy</a> · <a href="#terms">Terms</a> · <a href="#login">Member log in</a></span><span><a href="https://www.facebook.com/profile.php?id=61596105652894" rel="noopener me" target="_blank">Facebook page</a> · <a href="https://www.facebook.com/groups/2561940717613867" rel="noopener me" target="_blank">Facebook group</a> · Stock photos via Unsplash, except our teacher.</span></footer>
 </div>
 
 <div class="wrap" id="join-view" hidden>
@@ -457,6 +468,49 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     </form>
   </main>
 </div>
+<div class="wrap" id="scamcheck-view" hidden>
+  <header><a class="logo" href="#top">AI Coffee Club</a><nav><a href="#login">Log in</a></nav></header>
+  <main class="join">
+    <a class="back" href="#top">&larr; Back to the class page</a>
+    <h1>Scam or Not?</h1>
+    <p class="sub">A free 45-minute class. Learn how to check a suspicious text, email or phone call in a minute, using AI as a second opinion.</p>
+    <form id="scamform" novalidate style="max-width:none">
+      <label for="sname">First name<input id="sname" type="text" autocomplete="given-name"></label>
+      <label for="semail">Email address<input id="semail" type="email" autocomplete="email"></label>
+      <button type="submit">Save my free seat</button>
+      <p class="err" id="serr" role="alert" hidden>Please enter your name and a full email address.</p>
+      <p class="fine">No credit card. We will email you the date and your Zoom link.</p>
+    </form>
+    <div class="done" id="sdone" role="status" hidden><b id="sdone-h"></b><p>You are on the list for the free Scam or Not? class. We will email the date and your Zoom link. <a href="#top">See the full class schedule</a>.</p></div>
+  </main>
+</div>
+
+<div class="wrap" id="gift-view" hidden>
+  <header><a class="logo" href="#top">AI Coffee Club</a><nav><a href="#login">Log in</a></nav></header>
+  <main class="join">
+    <a class="back" href="#top">&larr; Back to the class page</a>
+    <h1>Give a membership</h1>
+    <p class="sub">Give someone live AI classes in a small group. We email them a welcome and their access once your payment arrives.</p>
+    <form id="giftform" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" novalidate style="max-width:none">
+      <fieldset class="plans"><legend>Choose a gift</legend>
+        <label class="plan"><input type="radio" name="plan" value="1" checked> <span><b>1 month</b> <em>$46</em></span></label>
+        <label class="plan"><input type="radio" name="plan" value="3"> <span><b>3 months</b> <em>$129</em></span></label>
+      </fieldset>
+      <label for="gfrom">Your name<input id="gfrom" type="text" autocomplete="name"></label>
+      <label for="gfemail">Your email<input id="gfemail" type="email" autocomplete="email"></label>
+      <label for="gto">Their name<input id="gto" type="text"></label>
+      <label for="gtemail">Their email<input id="gtemail" type="email"></label>
+      <input type="hidden" name="cmd" value="_xclick"><input type="hidden" name="business" value="hleckard@icloud.com"><input type="hidden" name="currency_code" value="USD">
+      <input type="hidden" name="item_name" id="gitem" value=""><input type="hidden" name="amount" id="gamt" value="46.00"><input type="hidden" name="custom" id="gcustom" value="">
+      <input type="hidden" name="no_shipping" value="1"><input type="hidden" name="no_note" value="1"><input type="hidden" name="rm" value="1">
+      <input type="hidden" name="return" id="gret" value=""><input type="hidden" name="cancel_return" id="gcan" value="">
+      <p class="err" id="gerr" role="alert" hidden>Please fill in all four boxes with full email addresses.</p>
+      <button class="paybtn" type="submit">Continue to PayPal</button>
+      <p class="fine">Secure payment through PayPal. One-time payment, no subscription. Their first class is free as always.</p>
+    </form>
+  </main>
+</div>
+
 <div class="wrap" id="thanks-view" hidden>
   <header><a class="logo" href="#top">AI Coffee Club</a><nav><a href="#login">Log in</a></nav></header>
   <main class="join">
@@ -464,7 +518,8 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     <h1>Thank you.</h1>
     <p class="sub">Your payment went through PayPal. PayPal emails you a receipt.</p>
     <div class="done" style="max-width:none"><b>What happens next</b><p>We match your payment to your email within one business day. Create your account with that email and your classes will be waiting. Your free-class seat is not affected.</p><a class="btn" href="#login">Create your account</a></div>
-    <p class="fine" style="margin-top:1.2rem">Questions? <span class="ce">admin@ovoa.ai</span></p>
+    <p class="fine" style="margin-top:1.2rem">Know someone who would enjoy a class? <a href="mailto:?subject=A%20free%20AI%20class%20I%20think%20you%20would%20like&body=Take%20a%20look%3A%20https%3A%2F%2Friside.com%2F">Send them the link</a> or <a href="#gift">give them a membership</a>.</p>
+    <p class="fine">Questions? <span class="ce">admin@ovoa.ai</span></p>
   </main>
 </div>
 
@@ -494,7 +549,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
   var CONTACT='admin@ovoa.ai';
   var $=function(id){return document.getElementById(id)};
   var base=location.origin+location.pathname;
-  var VIEWS=['join','privacy','terms','login','members','thanks','admin','reset'];
+  var VIEWS=['join','privacy','terms','login','members','thanks','admin','reset','scamcheck','gift'];
   var st={get:function(k){try{return localStorage.getItem(k)}catch(e){return null}},set:function(k,v){try{localStorage.setItem(k,v)}catch(e){}},del:function(k){try{localStorage.removeItem(k)}catch(e){}}};
   function api(path,opt){
     opt=opt||{};
@@ -715,20 +770,21 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
   function drawATab(){var m=$('atab');m.textContent='';({planner:aPlanner,signups:aSignups,members:aMembers,messages:aMsgs,account:aAccount})[A.tab](m)}
   function dt(s){return new Date(s).toLocaleString(undefined,{month:'short',day:'numeric',year:'numeric',hour:'numeric',minute:'2-digit'})}
   function aSignups(m){
-    var by={},week=Date.now()-7*864e5,w=0;
-    A.signups.forEach(function(s){by[s.slot]=(by[s.slot]||0)+1;if(new Date(s.created_at).getTime()>=week)w++});
+    var by={},src={},week=Date.now()-7*864e5,w=0;
+    A.signups.forEach(function(s){by[s.slot]=(by[s.slot]||0)+1;src[s.source||'unknown']=(src[s.source||'unknown']||0)+1;if(new Date(s.created_at).getTime()>=week)w++});
     var tiles=h('div',{class:'tiles'},[tile(A.signups.length,'free-class signups'),tile(w,'in the last 7 days'),tile(A.members.length,'paying members')]);
     Object.keys(by).sort().forEach(function(k){tiles.appendChild(tile(by[k],k))});
+    Object.keys(src).sort().forEach(function(k){tiles.appendChild(tile(src[k],'from '+k))});
     m.appendChild(tiles);
     m.appendChild(h('div',{class:'inline'},[h('button',{type:'button',class:'btn sm alt',text:'Download CSV',onclick:exportCsv})]));
-    var t=h('table',{class:'tbl'},[h('tr',{},['Name','Email','Class chosen','Signed up'].map(function(x){return h('th',{text:x})}))]);
-    A.signups.forEach(function(s){t.appendChild(h('tr',{},[h('td',{text:s.name}),h('td',{},[h('a',{href:'mailto:'+s.email,text:s.email})]),h('td',{text:s.slot}),h('td',{text:dt(s.created_at)})]))});
+    var t=h('table',{class:'tbl'},[h('tr',{},['Name','Email','Class chosen','Source','Signed up'].map(function(x){return h('th',{text:x})}))]);
+    A.signups.forEach(function(s){t.appendChild(h('tr',{},[h('td',{text:s.name}),h('td',{},[h('a',{href:'mailto:'+s.email,text:s.email})]),h('td',{text:s.slot}),h('td',{text:s.source||''}),h('td',{text:dt(s.created_at)})]))});
     if(!A.signups.length)m.appendChild(h('p',{class:'fine',text:'No signups yet.'}));else m.appendChild(h('div',{class:'scroll'},[t]));
   }
   function tile(n,l){return h('div',{class:'tile'},[h('b',{text:String(n)}),h('span',{text:l})])}
   function exportCsv(){
     var q=function(x){return '"'+String(x).replace(/"/g,'""')+'"'};
-    var rows=[['Name','Email','Class chosen','Signed up']].concat(A.signups.map(function(s){return [s.name,s.email,s.slot,s.created_at]}));
+    var rows=[['Name','Email','Class chosen','Source','Signed up']].concat(A.signups.map(function(s){return [s.name,s.email,s.slot,s.source||'',s.created_at]}));
     var blob=new Blob([rows.map(function(r){return r.map(q).join(',')}).join('\n')],{type:'text/csv'});
     var a=h('a',{href:URL.createObjectURL(blob),download:'signups.csv'});document.body.appendChild(a);a.click();a.remove();
   }
@@ -871,6 +927,41 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
   });
   $('loginform').addEventListener('submit',function(e){e.preventDefault();memberAuth('login')});
   $('lcreate').addEventListener('click',function(){memberAuth('create')});
+
+  var SRC=(function(){try{var q=new URLSearchParams(location.search).get('src');if(q)return q.slice(0,60);var r=document.referrer;if(r){var h=new URL(r).hostname.replace(/^www\./,'');if(h&&h!=='riside.com')return ('ref:'+h).slice(0,60)}}catch(e){}return 'direct'})();
+
+  // free Scam or Not? class signup
+  $('scamform').addEventListener('submit',function(e){
+    e.preventDefault();var n=$('sname').value.trim(),em=$('semail').value.trim(),er=$('serr');
+    if(!n||!/^\S+@\S+\.\S+$/.test(em)){er.hidden=false;return}
+    er.hidden=true;
+    api('/rest/v1/signups',{method:'POST',prefer:'return=minimal',body:{name:n,email:em,slot:'Scam or Not? free class',source:'scamcheck'}}).then(function(r){
+      if(!r.ok)throw 0;$('scamform').hidden=true;$('sdone-h').textContent='You are in, '+n+'.';$('sdone').hidden=false;
+    }).catch(function(){er.textContent='Something went wrong. Please try again, or email '+CONTACT+'.';er.hidden=false});
+  });
+  // gift purchase: record who it is for in the PayPal payment, then go to PayPal
+  $('giftform').addEventListener('submit',function(e){
+    var f=$('giftform'),pl=f.querySelector('input[name=plan]:checked').value,from=$('gfrom').value.trim(),fe=$('gfemail').value.trim(),to=$('gto').value.trim(),te=$('gtemail').value.trim(),ok=/^\S+@\S+\.\S+$/;
+    if(!from||!to||!ok.test(fe)||!ok.test(te)){e.preventDefault();$('gerr').hidden=false;return}
+    $('gerr').hidden=true;
+    $('gamt').value=pl==='3'?'129.00':'46.00';
+    $('gitem').value=('AI Coffee Club gift, '+(pl==='3'?'3 months':'1 month')+', for '+to+' <'+te+'> from '+from).slice(0,127);
+    $('gcustom').value=('gift|'+pl+'|'+te+'|'+fe).slice(0,255);
+    $('gret').value=base+'#thanks';$('gcan').value=base+'#gift';
+  });
+  // next class banner, real dates, and a sticky signup button on phones
+  (function(){
+    var SL=[[2,19,0,'Tuesday, 7:00 PM'],[4,19,0,'Thursday, 7:00 PM'],[6,10,0,'Saturday, 10:00 AM']];
+    function et(d){var p={};new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',year:'numeric',month:'numeric',day:'numeric',hour:'numeric',minute:'numeric',hour12:false,weekday:'short'}).formatToParts(d).forEach(function(x){p[x.type]=x.value});return p}
+    var W={Sun:0,Mon:1,Tue:2,Wed:3,Thu:4,Fri:5,Sat:6},now=new Date(),n=et(now),nowMin=(parseInt(n.hour)%24)*60+parseInt(n.minute);
+    var best=null;
+    SL.forEach(function(sl){for(var k=0;k<8;k++){var dd=new Date(now.getTime()+k*864e5),e=et(dd);if(W[e.weekday]!==sl[0])continue;if(k===0&&nowMin>=sl[1]*60-0)continue;var key=k*1440+sl[1]*60;if(!best||key<best.key)best={key:key,sl:sl,d:dd,e:e};break}});
+    var sel=$('when');
+    SL.forEach(function(sl,i){for(var k=0;k<8;k++){var dd=new Date(now.getTime()+k*864e5),e=et(dd);if(W[e.weekday]===sl[0]&&!(k===0&&nowMin>=sl[1]*60)){var lbl=new Date(dd).toLocaleDateString('en-US',{timeZone:'America/New_York',weekday:'long',month:'short',day:'numeric'});sel.options[i].textContent=lbl+', '+sl[3].split(', ')[1];break}}});
+    if(best){var lab=best.d.toLocaleDateString('en-US',{timeZone:'America/New_York',weekday:'long',month:'long',day:'numeric'});var t=best.sl[3].split(', ')[1];var nc=$('nextclass');nc.textContent='Next free class: '+lab.replace(/^(\w{3})\w*/,'$1').replace('October','Oct').replace('November','Nov').replace('December','Dec')+', '+t+' ET';nc.hidden=false;sel.value=best.sl[3]}
+    var f=$('signup'),st2=$('stick');
+    if(st2&&'IntersectionObserver' in window){new IntersectionObserver(function(en){st2.hidden=en[0].isIntersecting||!!$('page').hidden},{threshold:0}).observe(f)}
+  })();
   window.addEventListener('hashchange',route);route();
   $('signup').addEventListener('submit',function(e){
     e.preventDefault();
@@ -886,7 +977,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
       $('signup').hidden=true;$('done').hidden=false;
     }
     if(!SB_URL){finish();return}
-    api('/rest/v1/signups',{method:'POST',prefer:'return=minimal',body:{name:n,email:em,slot:$('when').value}}).then(function(r){
+    api('/rest/v1/signups',{method:'POST',prefer:'return=minimal',body:{name:n,email:em,slot:$('when').value,source:SRC}}).then(function(r){
       if(!r.ok)throw 0;finish();
     }).catch(function(){$('err').textContent='Something went wrong. Please try again, or email '+CONTACT+'.';$('err').hidden=false});
   });
