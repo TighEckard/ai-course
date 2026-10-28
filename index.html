@@ -392,6 +392,8 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
       <p>We use it to send class details and run your membership. We do not sell your information and we do not share it for advertising.</p>
       <h3>Payments</h3>
       <p>Payments are handled by PayPal. Your card or bank details are entered on paypal.com and are never seen or stored by us. We receive your name, email and payment status from PayPal so we can give you member access.</p>
+      <h3>Visitor statistics</h3>
+      <p>We count visits to this site with our own simple tool: which page you open, roughly where you are (city or region), your device type and how you found us. It uses no cookies, never stores your IP address, name or email, and is skipped if your browser sends Do Not Track.</p>
       <h3>Who sees it</h3>
       <p>Our hosting and database provider stores your details securely for us. Zoom processes your name and email when you join a class. Class recordings may include your voice or image if you speak or turn on your camera.</p>
       <h3>Your choices</h3>
@@ -765,9 +767,14 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
   function refreshAdmin(){
     return Promise.all([get('/rest/v1/signups?select=*&order=created_at.desc&limit=2000'),get('/rest/v1/members?select=*&order=added_at.desc'),get('/rest/v1/profiles?select=email,display_name'),get('/rest/v1/messages?select=*&order=created_at'),get('/rest/v1/groups?select=*&order=id'),get('/rest/v1/planner?select=data&id=eq.1').catch(function(){return null})]).then(function(a){A.plan=a[5]&&a[5][0]?a[5][0].data:A.plan;A.planOk=a[5]!==null;A.signups=a[0];A.members=a[1];A.names={};a[2].forEach(function(p){A.names[p.email.toLowerCase()]=p.display_name});A.msgs=a[3];A.groups=a[4].sort(function(x,y){return ['tue','thu','sat'].indexOf(x.id)-['tue','thu','sat'].indexOf(y.id)})});
   }
-  var ATABS=[['planner','Planner'],['signups','Signups'],['members','Members'],['messages','Messages'],['account','Account']];
+  var ATABS=[['planner','Planner'],['analytics','Analytics'],['signups','Signups'],['members','Members'],['messages','Messages'],['account','Account']];
   function drawATabs(){var t=$('atabs');t.textContent='';ATABS.forEach(function(x){var n=x[0]==='messages'?unanswered().length:0;t.appendChild(h('button',{class:'tab',type:'button',role:'tab','aria-selected':String(A.tab===x[0]),onclick:function(){A.tab=x[0];drawATabs();drawATab()},text:x[1]+(n?' ('+n+')':'')}))})}
-  function drawATab(){var m=$('atab');m.textContent='';({planner:aPlanner,signups:aSignups,members:aMembers,messages:aMsgs,account:aAccount})[A.tab](m)}
+  function drawATab(){var m=$('atab');m.textContent='';({planner:aPlanner,analytics:aAnalytics,signups:aSignups,members:aMembers,messages:aMsgs,account:aAccount})[A.tab](m)}
+  function aAnalytics(m){
+    var go=function(){window.AAdraw(m,{h:h,api:api,tok:D.tok})};
+    if(window.AAdraw)return go();
+    m.textContent='Loading.';var sc=document.createElement('script');sc.src='/analytics.js?v=1';sc.onload=go;sc.onerror=function(){m.textContent='Could not load analytics.'};document.head.appendChild(sc);
+  }
   function dt(s){return new Date(s).toLocaleString(undefined,{month:'short',day:'numeric',year:'numeric',hour:'numeric',minute:'2-digit'})}
   function aSignups(m){
     var by={},src={},week=Date.now()-7*864e5,w=0;
@@ -936,7 +943,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     if(!n||!/^\S+@\S+\.\S+$/.test(em)){er.hidden=false;return}
     er.hidden=true;
     api('/rest/v1/signups',{method:'POST',prefer:'return=minimal',body:{name:n,email:em,slot:'Scam or Not? free class',source:'scamcheck'}}).then(function(r){
-      if(!r.ok)throw 0;$('scamform').hidden=true;$('sdone-h').textContent='You are in, '+n+'.';$('sdone').hidden=false;
+      if(!r.ok)throw 0;if(window.AT)AT.signup();$('scamform').hidden=true;$('sdone-h').textContent='You are in, '+n+'.';$('sdone').hidden=false;
     }).catch(function(){er.textContent='Something went wrong. Please try again, or email '+CONTACT+'.';er.hidden=false});
   });
   // gift purchase: record who it is for in the PayPal payment, then go to PayPal
@@ -978,10 +985,11 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     }
     if(!SB_URL){finish();return}
     api('/rest/v1/signups',{method:'POST',prefer:'return=minimal',body:{name:n,email:em,slot:$('when').value,source:SRC}}).then(function(r){
-      if(!r.ok)throw 0;finish();
+      if(!r.ok)throw 0;if(window.AT)AT.signup();finish();
     }).catch(function(){$('err').textContent='Something went wrong. Please try again, or email '+CONTACT+'.';$('err').hidden=false});
   });
 })();
 </script>
+<script src="/t.js" defer></script>
 </body>
 </html>
