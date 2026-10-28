@@ -196,6 +196,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
   button,.btn{width:100%}
 }
 </style>
+<style>.guide h2{margin-top:2rem}.guide h3{margin:1.2rem 0 .2rem;font-size:1.1em}.guide blockquote{border-left:4px solid var(--amber,#e8a33d);margin:1rem 0;padding:.4rem 1rem;background:#fbf6ee}.card-print{border:2px dashed #999;padding:1rem 1.2rem;margin:1rem 0}@media print{header,.back,.noprint,#guideform,footer,#stick{display:none!important}.guide{font-size:12pt}.guide h2{break-after:avoid}.card-print{break-inside:avoid}}</style>
 </head>
 <body><a class="skip" href="#top">Skip to content</a>
 <div class="wrap" id="page">
@@ -328,7 +329,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     <section class="cta">
       <h2>Come to a free class</h2>
       <a class="btn" href="#reserve" style="min-width:14rem">Reserve a free seat</a>
-    <p class="fine" style="margin-top:1rem">Worried about scams? Try our free <a href="#scamcheck">Scam or Not? class</a>.</p>
+    <p class="fine" style="margin-top:1rem">Worried about scams? Try our free <a href="#scamcheck">Scam or Not? class</a> or get the free <a href="#scamguide">AI Scam Survival Guide</a>.</p>
     </section>
   </main>
 
@@ -488,6 +489,94 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
   </main>
 </div>
 
+<div class="wrap" id="scamguide-view" hidden>
+  <header><a class="logo" href="#top" aria-label="Riside Learning">riside<i class="sun"></i><small>learning</small></a><nav><a href="#login">Log in</a></nav></header>
+  <main class="join" id="guide-main">
+    <a class="back" href="#top">&larr; Back to the class page</a>
+    <h1>The AI Scam Survival Guide</h1>
+    <p class="sub">A free, plain-English guide to the scams going around right now, including the new ones that use AI. How to spot them, what to do, and how to use AI as a second opinion. Four pages, easy to print.</p>
+    <form id="guideform" novalidate style="max-width:none">
+      <label for="gname">First name<input id="gname" type="text" autocomplete="given-name"></label>
+      <label for="gemail">Email address<input id="gemail" type="email" autocomplete="email"></label>
+      <button type="submit">Show me the free guide</button>
+      <p class="err" id="gerr2" role="alert" hidden>Please enter your name and a full email address.</p>
+      <p class="fine">Free. No credit card. We will also send a short 5-day email series with one scam lesson a day. Stop it any time.</p>
+    </form>
+    <article id="guidebody" class="guide" hidden>
+      <p class="done" role="status" id="guidehi"></p>
+      <p class="noprint"><button type="button" id="guideprint">Print this guide</button></p>
+
+      <h2>1. The five warning signs</h2>
+      <p>Almost every scam has at least one of these. If you notice even one, slow down.</p>
+      <ol>
+        <li><b>It is urgent.</b> "Act now," "your account will be closed," "your grandson is in trouble." Scammers want you to act before you think.</li>
+        <li><b>It is secret.</b> "Do not tell anyone," "do not tell the bank teller." Real organizations never ask this.</li>
+        <li><b>It asks for odd payment.</b> Gift cards, wire transfers, cryptocurrency, or cash in an envelope. No real company or government office asks for these.</li>
+        <li><b>It came to you.</b> You did not call them, they called, texted or emailed you. Be most careful with surprise contact.</li>
+        <li><b>It plays on emotion.</b> Fear, love, loneliness, excitement about a prize. A scam wants you feeling, not thinking.</li>
+      </ol>
+
+      <h2>2. The 60-second check</h2>
+      <ol>
+        <li><b>Stop.</b> Do not click, call back the number given, or reply.</li>
+        <li><b>Hang up and look it up yourself.</b> Call the number on the back of your card or on the company's real website, never the one in the message.</li>
+        <li><b>Ask someone.</b> A family member, a friend, or an AI helper (see section 5). A second opinion takes one minute.</li>
+        <li><b>Wait one hour.</b> Real emergencies can survive a phone call to a person you trust.</li>
+      </ol>
+
+      <h2>3. Scams going around right now</h2>
+      <h3>"Your bank account has a problem" texts and calls</h3>
+      <p>A message says there is fraud on your account and you must call or click. Your real bank will not text you a link to fix it. Call the number on your card.</p>
+      <h3>The grandchild in trouble</h3>
+      <p>A call from a "grandchild" or "lawyer" saying there has been an accident or arrest and money is needed fast. Today, scammers can copy a real voice from a few seconds of video. If the voice sounds right, that proves nothing. Hang up and call your family member on their own number.</p>
+      <h3>Tech support pop-ups</h3>
+      <p>A loud warning on your screen says your computer is infected and gives a phone number. Microsoft and Apple never do this. Close the window or restart the computer, and do not call.</p>
+      <h3>Package delivery texts</h3>
+      <p>"Your package could not be delivered, click here to reschedule." If you were not expecting a package, ignore it. If you were, go to the store's own website.</p>
+      <h3>Medicare, Social Security and IRS calls</h3>
+      <p>These agencies write letters first. They do not threaten arrest by phone and they do not take gift cards.</p>
+      <h3>Fake invoices and renewals</h3>
+      <p>An email says your antivirus, Amazon Prime or Geek Squad plan renewed for $400 and to call to cancel. Check your actual bank statement. If you did not buy it, do not call.</p>
+      <h3>Romance and investment scams</h3>
+      <p>Someone you only know online, who is very warm and never can meet in person, then needs money or recommends a "sure thing" investment. Be cautious about anyone who moves you to a private chat app.</p>
+
+      <h2>4. Protect yourself from AI voice and video fakes</h2>
+      <ul>
+        <li>Agree on a <b>family safe word</b> that only your family knows. If someone calls in an emergency, ask for it.</li>
+        <li>Ask a question only the real person would know, such as the name of a childhood pet.</li>
+        <li>Be wary of any call or video where you are rushed. Hang up and call back on a number you already have.</li>
+        <li>Keep social media settings private so fewer videos of your voice are public.</li>
+      </ul>
+
+      <h2>5. Using AI as a second opinion</h2>
+      <p>AI tools such as ChatGPT or Claude are good at spotting the patterns of a scam. Copy the suspicious message into the chat and ask:</p>
+      <blockquote>"I got this message. Is it likely a scam? List the warning signs you see, and tell me the safest thing to do next."</blockquote>
+      <p><b>Never paste</b> passwords, full account numbers, your Social Security number or verification codes. Remove them first. AI can be wrong, so treat the answer as a helpful opinion, then confirm by contacting the real company yourself.</p>
+
+      <h2>6. If you already clicked, shared or paid</h2>
+      <p>It happens to smart people every day. Do not be embarrassed, and act quickly.</p>
+      <ol>
+        <li><b>Call your bank or card company</b> right away, using the number on your card. Ask them to stop or reverse the payment.</li>
+        <li><b>Change passwords</b> for any account you gave away, starting with email and banking.</li>
+        <li><b>Freeze your credit</b> for free at Equifax, Experian and TransUnion if you shared personal details.</li>
+        <li><b>Report it</b> at reportfraud.ftc.gov (FTC). For money lost online, also report at ic3.gov (FBI). For identity theft, visit identitytheft.gov.</li>
+        <li><b>Talk to someone.</b> The AARP Fraud Watch Network Helpline is free at 1-877-908-3360.</li>
+      </ol>
+
+      <h2>Keep this small card by your phone</h2>
+      <div class="card-print">
+        <b>Before I act on any message:</b>
+        <ol><li>Is it urgent, secret, or asking for odd payment?</li><li>Did they contact me first?</li><li>Can I hang up and call the real number myself?</li><li>Can I ask someone I trust or an AI helper?</li></ol>
+        <b>If yes to any, I stop.</b>
+      </div>
+
+      <h2>Want to practice this live?</h2>
+      <p>Our free <a href="#scamcheck">Scam or Not? class</a> is a friendly 45 minutes in a small group where you try the checks together. <a href="#top">See all classes</a>.</p>
+      <p class="fine">This guide is general information, not legal or financial advice. Riside Learning is not affiliated with the organizations named.</p>
+    </article>
+  </main>
+</div>
+
 <div class="wrap" id="gift-view" hidden>
   <header><a class="logo" href="#top" aria-label="Riside Learning">riside<i class="sun"></i><small>learning</small></a><nav><a href="#login">Log in</a></nav></header>
   <main class="join">
@@ -552,7 +641,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
   var CONTACT='admin@ovoa.ai';
   var $=function(id){return document.getElementById(id)};
   var base=location.origin+location.pathname;
-  var VIEWS=['join','privacy','terms','login','members','thanks','admin','reset','scamcheck','gift'];
+  var VIEWS=['join','privacy','terms','login','members','thanks','admin','reset','scamcheck','scamguide','gift'];
   var st={get:function(k){try{return localStorage.getItem(k)}catch(e){return null}},set:function(k,v){try{localStorage.setItem(k,v)}catch(e){}},del:function(k){try{localStorage.removeItem(k)}catch(e){}}};
   function api(path,opt){
     opt=opt||{};
@@ -947,6 +1036,16 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
       if(!r.ok)throw 0;if(window.AT)AT.signup();$('scamform').hidden=true;$('sdone-h').textContent='You are in, '+n+'.';$('sdone').hidden=false;
     }).catch(function(){er.textContent='Something went wrong. Please try again, or email '+CONTACT+'.';er.hidden=false});
   });
+  // free AI Scam Survival Guide: email capture, then show the guide
+  $('guideform').addEventListener('submit',function(e){
+    e.preventDefault();var n=$('gname').value.trim(),em=$('gemail').value.trim(),er=$('gerr2');
+    if(!n||!/^\S+@\S+\.\S+$/.test(em)){er.hidden=false;return}
+    er.hidden=true;
+    api('/rest/v1/signups',{method:'POST',prefer:'return=minimal',body:{name:n,email:em,slot:'Scam guide and mini-course',source:'scamguide'}}).then(function(r){
+      if(!r.ok)throw 0;$('guideform').hidden=true;$('guidehi').textContent='Thank you, '+n+'. Here is your guide. Our short email lessons will follow by email.';$('guidebody').hidden=false;window.scrollTo(0,0);
+    }).catch(function(){er.textContent='Something went wrong. Please try again, or email '+CONTACT+'.';er.hidden=false});
+  });
+  $('guideprint').addEventListener('click',function(){window.print()});
   // gift purchase: record who it is for in the PayPal payment, then go to PayPal
   $('giftform').addEventListener('submit',function(e){
     var f=$('giftform'),pl=f.querySelector('input[name=plan]:checked').value,from=$('gfrom').value.trim(),fe=$('gfemail').value.trim(),to=$('gto').value.trim(),te=$('gtemail').value.trim(),ok=/^\S+@\S+\.\S+$/;
