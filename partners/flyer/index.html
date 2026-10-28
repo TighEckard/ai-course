@@ -1,0 +1,53 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap">
+<title>Free AI class flyer | Riside Learning</title><meta name="robots" content="noindex">
+<style>
+:root{--navy:#143059;--amber:#E9A23B;--ink:#2B2F36;--soft:#5A606B;--serif:'Source Serif 4',Georgia,serif;--font:'Inter',system-ui,sans-serif}
+*{box-sizing:border-box}body{margin:0;background:#e9e5dc;font-family:var(--font);color:var(--ink)}
+.bar{max-width:8.5in;margin:.8rem auto;padding:0 .5rem;font-size:15px}
+.bar input{font:inherit;padding:.4rem;margin:.2rem .3rem .2rem 0;border:1px solid #bbb;border-radius:6px;width:13rem}
+.bar button{font:inherit;padding:.45rem 1rem;background:var(--navy);color:#fff;border:0;border-radius:6px;cursor:pointer}
+.page{width:8.5in;height:11in;margin:0 auto 2rem;background:#FAF7F2;padding:.7in .75in;display:flex;flex-direction:column;box-shadow:0 2px 12px #0003}
+.logo{font-weight:700;font-size:34px;letter-spacing:-.03em;color:var(--navy);display:flex;align-items:baseline}
+.logo i{width:.38em;height:.38em;border-radius:50%;background:var(--amber);margin:0 .08em 0 .04em}
+.logo small{font-size:.5em;font-weight:500;margin-left:.4em;color:var(--soft);letter-spacing:0}
+.kick{margin-top:.55in;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#a96d0c;font-size:15px}
+h1{font-family:var(--serif);color:var(--navy);font-size:58px;line-height:1.08;margin:.12in 0 .2in}
+.lede{font-size:22px;line-height:1.5;max-width:6in;margin:0}
+.box{margin:.4in 0;border:2px solid var(--navy);border-radius:14px;padding:.25in .3in;background:#fff;font-size:24px;line-height:1.5}
+.box b{color:var(--navy)}.box .l{display:flex;gap:.2in}.box .l span:first-child{width:1.1in;color:var(--soft);font-size:18px;padding-top:.04in}
+ul{font-size:21px;line-height:1.6;padding-left:1.2em;margin:0}li{margin:.04in 0}
+.foot{margin-top:auto;display:flex;gap:.3in;align-items:center;border-top:2px solid #E4DDD0;padding-top:.25in}
+.qr{width:1.5in;height:1.5in;flex:none}
+.foot p{margin:0;font-size:20px;line-height:1.45}.foot .u{font-weight:700;color:var(--navy);font-size:26px}
+.fine{font-size:14px;color:var(--soft);margin-top:.1in!important}
+@media print{body{background:#fff}.bar{display:none}.page{margin:0;box-shadow:none}@page{size:letter;margin:0}}
+</style></head><body>
+<div class="bar"><b>Fill in your details, then Print.</b><br>
+<input id="o" placeholder="Organization name"><input id="d" placeholder="Date"><input id="t" placeholder="Time and time zone"><input id="w" placeholder="Where (room or Zoom)"><button onclick="print()">Print flyer</button></div>
+<div class="page">
+<div class="logo">riside<i></i><small>learning</small></div>
+<div class="kick" id="host">Free class for our members</div>
+<h1>Understand AI in one friendly hour.</h1>
+<p class="lede">A live class on Zoom, in plain English, with a real teacher. Bring your questions. No experience needed.</p>
+<div class="box">
+<div class="l"><span>When</span><b id="fd">Date to be announced</b></div>
+<div class="l"><span>Time</span><b id="ft">Time to be announced</b></div>
+<div class="l"><span>Where</span><b id="fw">Online, on Zoom</b></div>
+<div class="l"><span>Cost</span><b>Free</b></div></div>
+<ul><li>What AI is, and what it is not</li><li>Try it live: write an email, plan a trip, check a suspicious text</li><li>How to stay safe from AI scams</li><li>Your questions answered by Holden Eckard, your teacher</li></ul>
+<div class="foot"><svg class="qr" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29" shape-rendering="crispEdges" class="segno"><path class="qrline" stroke="#143059" d="M0 0.5h7m1 0h2m5 0h3m4 0h7m-29 1h1m5 0h1m1 0h1m1 0h2m4 0h1m2 0h2m1 0h1m5 0h1m-29 1h1m1 0h3m1 0h1m1 0h1m1 0h2m3 0h2m1 0h1m3 0h1m1 0h3m1 0h1m-29 1h1m1 0h3m1 0h1m2 0h1m6 0h2m4 0h1m1 0h3m1 0h1m-29 1h1m1 0h3m1 0h1m1 0h1m2 0h2m1 0h3m1 0h2m2 0h1m1 0h3m1 0h1m-29 1h1m5 0h1m2 0h1m2 0h1m2 0h2m3 0h1m1 0h1m5 0h1m-29 1h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7m-19 1h1m1 0h2m1 0h2m1 0h3m-21 1h1m2 0h7m2 0h2m2 0h2m1 0h1m1 0h1m2 0h1m1 0h3m-25 1h2m4 0h1m1 0h2m2 0h1m1 0h2m3 0h2m1 0h2m-27 1h1m2 0h1m1 0h1m2 0h1m1 0h1m1 0h1m1 0h1m1 0h1m2 0h1m3 0h1m1 0h1m-25 1h1m1 0h2m2 0h1m1 0h1m1 0h2m2 0h2m4 0h2m1 0h1m2 0h1m-29 1h1m2 0h1m1 0h2m2 0h3m1 0h1m1 0h2m2 0h1m2 0h2m4 0h1m-25 1h1m2 0h1m1 0h2m2 0h2m7 0h7m-29 1h1m3 0h3m3 0h1m1 0h2m1 0h1m1 0h4m1 0h2m2 0h1m1 0h1m-29 1h1m2 0h1m1 0h1m2 0h1m1 0h3m2 0h1m2 0h2m1 0h2m1 0h1m1 0h1m1 0h1m-28 1h2m1 0h1m1 0h2m2 0h3m1 0h1m4 0h3m3 0h1m-26 1h2m2 0h1m3 0h4m1 0h5m1 0h1m4 0h1m1 0h2m-28 1h8m2 0h2m3 0h2m1 0h2m4 0h2m2 0h1m-29 1h3m2 0h1m1 0h2m1 0h2m2 0h3m2 0h1m2 0h1m2 0h2m-27 1h2m2 0h3m4 0h4m1 0h3m1 0h8m-20 1h1m2 0h2m1 0h2m1 0h2m1 0h1m3 0h2m-26 1h7m1 0h3m3 0h3m2 0h2m1 0h1m1 0h2m-26 1h1m5 0h1m1 0h4m2 0h1m1 0h2m1 0h2m3 0h1m2 0h2m-29 1h1m1 0h3m1 0h1m1 0h3m1 0h3m1 0h1m2 0h7m1 0h2m-29 1h1m1 0h3m1 0h1m1 0h1m2 0h1m3 0h4m2 0h1m6 0h1m-29 1h1m1 0h3m1 0h1m3 0h1m2 0h3m1 0h2m1 0h2m1 0h2m1 0h3m-29 1h1m5 0h1m3 0h2m1 0h3m2 0h1m3 0h1m2 0h2m1 0h1m-29 1h7m1 0h2m1 0h1m1 0h1m5 0h2m1 0h4"/></svg>
+
+<p><span class="u">riside.com/partners/join</span><br>Scan or type the address to save your seat. It takes 30 seconds.<br><span class="fine" id="fp">Questions? admin@ovoa.ai</span></p></div>
+</div>
+<script>
+var Q=new URLSearchParams(location.search),m={o:'org',d:'date',t:'time',w:'where'};
+function ap(){var o=document.getElementById('o').value.trim(),d=document.getElementById('d').value.trim(),t=document.getElementById('t').value.trim(),w=document.getElementById('w').value.trim();
+document.getElementById('host').textContent=o?'Free class at '+o:'Free class for our members';
+document.getElementById('fd').textContent=d||'Date to be announced';
+document.getElementById('ft').textContent=t||'Time to be announced';
+document.getElementById('fw').textContent=w||'Online, on Zoom'}
+for(var k in m){var v=Q.get(m[k]);if(v)document.getElementById(k).value=v.slice(0,80)}
+['o','d','t','w'].forEach(function(i){document.getElementById(i).addEventListener('input',ap)});ap();
+</script></body></html>

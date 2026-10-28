@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex"><title>Riside Learning gift cards</title>
+<style>
+:root{--navy:#143059;--amber:#E9A23B;--ink:#2B2F36;--bg:#FAF7F2}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);font-family:Georgia,'Times New Roman',serif;color:var(--ink)}
+.bar{padding:16px;text-align:center;font:16px system-ui,sans-serif}
+.bar button{font:inherit;padding:10px 20px;background:var(--navy);color:#fff;border:0;border-radius:6px;cursor:pointer}
+.sheet{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;max-width:8.5in;margin:0 auto;padding:16px}
+.card{background:#fff;border:2px solid var(--navy);border-radius:12px;padding:22px 24px;min-height:3.6in;display:flex;flex-direction:column;justify-content:space-between;break-inside:avoid}
+.card .top{display:flex;align-items:center;gap:10px;font:700 15px system-ui,sans-serif;color:var(--navy)}
+.wm{font:700 28px Inter,system-ui,sans-serif;letter-spacing:-.03em;color:var(--navy)}.wm i{display:inline-block;width:.38em;height:.38em;border-radius:50%;background:var(--amber);margin:0 .06em}.wm small{font-size:.55em;font-weight:500;color:#5A606B}
+.card h2{font-size:26px;line-height:1.2;margin:14px 0 8px;color:var(--navy)}
+.card p{font:15px/1.5 system-ui,sans-serif;margin:0 0 8px}
+.line{border-bottom:1px solid #888;height:26px;font:13px system-ui,sans-serif;color:#555;margin-top:8px}
+.foot{font:13px/1.5 system-ui,sans-serif;color:#444;border-top:3px solid var(--amber);padding-top:10px}
+@media(max-width:640px){.sheet{grid-template-columns:1fr}}
+@media print{.bar{display:none}body{background:#fff}.sheet{gap:10px;padding:0}.card{min-height:4.6in}}
+</style></head><body>
+<div class="bar"><button onclick="window.print()">Print these cards</button></div>
+<div class="sheet" id="s"></div>
+<script>
+var v=[
+ ["A seat in a live AI class, just for you","Small live Zoom classes, 12 people at most, with a patient teacher who answers every question. No jargon, no homework."],
+ ["Someone patient to ask about AI","Weekly live classes on Zoom, taught by a real person. Learn to use AI for everyday things and spot scams."]
+];
+var h="";
+for(var i=0;i<4;i++){var t=v[i%2];
+h+='<div class="card"><div><div class="top"><span class="wm">riside<i></i> <small>learning</small></span></div><h2>'+t[0]+'</h2><p>'+t[1]+'</p><p><b>Your first class is free.</b> Classes are Tuesday and Thursday at 7 pm ET.</p>'+
+'<div class="line">To:</div><div class="line">From:</div><div class="line">Note:</div></div>'+
+'<div class="foot">Claim this gift at <b>riside.com</b> and tell us the name of the person who gave it. Questions: admin@ovoa.ai</div></div>';}
+document.getElementById('s').innerHTML=h;
+</script></body></html>
