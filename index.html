@@ -330,7 +330,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     <section class="cta">
       <h2>Come to a free class</h2>
       <a class="btn" href="#reserve" style="min-width:14rem">Reserve a free seat</a>
-    <p class="fine" style="margin-top:1rem">Worried about scams? Try our free <a href="#scamcheck">Scam or Not? class</a> or get the free <a href="#scamguide">AI Scam Survival Guide</a>.</p>
+    <p class="fine" style="margin-top:1rem">Worried about scams? Join our free <a href="#scamcheck">Scam or Not? class on Saturday, November 7</a> or get the free <a href="#scamguide">AI Scam Survival Guide</a>.</p>
     </section>
   </main>
 
@@ -478,6 +478,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
   <main class="join">
     <a class="back" href="#top">&larr; Back to the class page</a>
     <h1>Scam or Not?</h1>
+    <p class="next" style="margin-top:0">Saturday, November 7, 10:00 AM ET &middot; on Zoom &middot; 12 seats</p>
     <p class="sub">A free 45-minute class. Learn how to check a suspicious text, email or phone call in a minute, using AI as a second opinion.</p>
     <form id="scamform" novalidate style="max-width:none">
       <label for="sname">First name<input id="sname" type="text" autocomplete="given-name"></label>
@@ -1033,7 +1034,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     e.preventDefault();var n=$('sname').value.trim(),em=$('semail').value.trim(),er=$('serr');
     if(!n||!/^\S+@\S+\.\S+$/.test(em)){er.hidden=false;return}
     er.hidden=true;
-    api('/rest/v1/signups',{method:'POST',prefer:'return=minimal',body:{name:n,email:em,slot:'Scam or Not? free class',source:'scamcheck'}}).then(function(r){
+    api('/rest/v1/signups',{method:'POST',prefer:'return=minimal',body:{name:n,email:em,slot:'Scam or Not? free class, Sat Nov 7, 10:00 AM ET',source:'scamcheck'}}).then(function(r){
       if(!r.ok)throw 0;if(window.AT)AT.signup();$('scamform').hidden=true;$('sdone-h').textContent='You are in, '+n+'.';$('sdone').hidden=false;
     }).catch(function(){er.textContent='Something went wrong. Please try again, or email '+CONTACT+'.';er.hidden=false});
   });
