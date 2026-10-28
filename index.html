@@ -49,6 +49,7 @@ h3{font-size:1.05rem;letter-spacing:-.01em}
 p{margin:0}
 a{color:var(--accent)}
 :focus-visible{outline:3px solid #E08A00;outline-offset:3px;border-radius:6px}
+.skip{position:absolute;left:-999px;top:0;background:var(--navy);color:#fff;padding:.6rem 1rem;z-index:50}.skip:focus{left:0}
 header{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding-block:1.2rem}
 .logo{font-weight:700;font-size:1.5rem;letter-spacing:-.03em;color:var(--navy);text-decoration:none;display:inline-flex;align-items:baseline;gap:0}.logo .sun{display:inline-block;width:.38em;height:.38em;border-radius:50%;background:var(--amber);margin:0 .08em 0 .04em}.logo small{font-size:.62em;font-weight:500;letter-spacing:.02em;color:var(--soft);margin-left:.15em}.logo small.adm{margin-left:.5em;padding:.1em .5em;border:1px solid var(--line);border-radius:99px}
 nav{display:flex;gap:1.6rem;align-items:center}
@@ -196,7 +197,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
 }
 </style>
 </head>
-<body>
+<body><a class="skip" href="#top">Skip to content</a>
 <div class="wrap" id="page">
   <header>
     <a class="logo" href="#top" aria-label="Riside Learning">riside<i class="sun"></i><small>learning</small></a>
