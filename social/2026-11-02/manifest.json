@@ -1,0 +1,68 @@
+{
+ "videos": [
+  {
+   "id": "slang12a",
+   "file": "slang12a.mp4",
+   "format": "slang translator",
+   "slot": "am",
+   "platforms": [
+    "yt"
+   ],
+   "yt_title": "Nana, that was so valid? Translated #Shorts",
+   "caption_yt": "Grandkid texts translated into plain English. Free live AI classes: riside.com #Shorts #grandparents #AI",
+   "caption_meta": "Nana, that was so valid? Translated\nTell us the slang your grandkid uses \ud83d\udc47 Free live AI classes: riside.com #grandparents #grandkids",
+   "pin_title": "Nana, that was so valid? Translated",
+   "caption_pin": "Nana, that was so valid? Translated",
+   "link": "https://riside.com/?src=slang12a",
+   "board": "Riside"
+  },
+  {
+   "id": "slang12b",
+   "file": "slang12b.mp4",
+   "format": "slang translator",
+   "slot": "am",
+   "platforms": [
+    "meta"
+   ],
+   "yt_title": "My grandma is lowkey iconic (translated) #Shorts",
+   "caption_yt": "Grandkid texts translated into plain English. Free live AI classes: riside.com #Shorts #grandparents #AI",
+   "caption_meta": "My grandma is lowkey iconic (translated)\nTell us the slang your grandkid uses \ud83d\udc47 Free live AI classes: riside.com #grandparents #grandkids",
+   "pin_title": "My grandma is lowkey iconic (translated)",
+   "caption_pin": "My grandma is lowkey iconic (translated)",
+   "link": "https://riside.com/?src=slang12b",
+   "board": "Riside"
+  },
+  {
+   "id": "slang13a",
+   "file": "slang13a.mp4",
+   "format": "slang translator",
+   "slot": "pm",
+   "platforms": [
+    "yt"
+   ],
+   "yt_title": "Grandpa, you ate that? Translated #Shorts",
+   "caption_yt": "Grandkid texts translated into plain English. Free live AI classes: riside.com #Shorts #grandparents #AI",
+   "caption_meta": "Grandpa, you ate that? Translated\nTell us the slang your grandkid uses \ud83d\udc47 Free live AI classes: riside.com #grandparents #grandkids",
+   "pin_title": "Grandpa, you ate that? Translated",
+   "caption_pin": "Grandpa, you ate that? Translated",
+   "link": "https://riside.com/?src=slang13a",
+   "board": "Riside"
+  },
+  {
+   "id": "slang13b",
+   "file": "slang13b.mp4",
+   "format": "slang translator",
+   "slot": "pm",
+   "platforms": [
+    "meta"
+   ],
+   "yt_title": "He lives in my head rent free (translated) #Shorts",
+   "caption_yt": "Grandkid texts translated into plain English. Free live AI classes: riside.com #Shorts #grandparents #AI",
+   "caption_meta": "He lives in my head rent free (translated)\nTell us the slang your grandkid uses \ud83d\udc47 Free live AI classes: riside.com #grandparents #grandkids",
+   "pin_title": "He lives in my head rent free (translated)",
+   "caption_pin": "He lives in my head rent free (translated)",
+   "link": "https://riside.com/?src=slang13b",
+   "board": "Riside"
+  }
+ ]
+}
