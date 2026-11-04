@@ -1,0 +1,148 @@
+{
+ "note": "Post times used by the Analytics Traffic tab. UTC. scheduled=true means queued time, actual may differ.",
+ "posts": [
+  {
+   "t": "2026-10-28T23:59:00Z",
+   "platform": "facebook",
+   "label": "FB group: Retired teachers (4.3K) - AI study buddy tip"
+  },
+  {
+   "t": "2026-10-29T00:45:00Z",
+   "platform": "facebook",
+   "label": "FB group: Retired teachers Association (1.2K) - trip planning tip"
+  },
+  {
+   "t": "2026-10-29T05:12:00Z",
+   "platform": "facebook",
+   "label": "FB group: AI for Small Business Owners (10K) - review-summary tip"
+  },
+  {
+   "t": "2026-10-29T07:30:00Z",
+   "platform": "facebook",
+   "label": "FB group: Caring for Your Aging Parents and Loved Ones (3.5K - doctor-visit questions tip"
+  },
+  {
+   "t": "2026-10-29T09:50:00Z",
+   "platform": "facebook",
+   "label": "FB group: Grandparents Love Their Grandchildren - bedtime story tip (text)"
+  },
+  {
+   "t": "2026-10-30T22:42:00Z",
+   "platform": "facebook",
+   "label": "FB group: Our own group, AI Coffee Club: Everyday AI, Made S - \"If you want to learn AI, leave a heart\" image"
+  },
+  {
+   "t": "2026-10-30T22:50:00Z",
+   "platform": "facebook",
+   "label": "FB group: Grandparents Love Their Grandchildren (74.7K) - \"If you love your grandkids, leave a pink or blue "
+  },
+  {
+   "t": "2026-10-31T02:10:00Z",
+   "platform": "facebook",
+   "label": "FB group: Retired Friends (21.8K) - same grandkids pink-or-blue heart image, caption \""
+  },
+  {
+   "t": "2026-10-31T16:00:00Z",
+   "platform": "youtube",
+   "label": "YouTube: Got a scam text? Try this 10-second check #Shorts",
+   "scheduled": true
+  },
+  {
+   "t": "2026-10-31T19:30:00Z",
+   "platform": "facebook",
+   "label": "FB group: Retired teachers (4.4K) - same grandkids pink-or-blue heart image (went live"
+  },
+  {
+   "t": "2026-10-31T22:05:00Z",
+   "platform": "facebook",
+   "label": "FB group: Retired teachers Association (1.2K) - same grandkids pink-or-blue heart image (waiting f"
+  },
+  {
+   "t": "2026-11-01T12:00:00Z",
+   "platform": "facebook",
+   "label": "FB Reel: grandkid slang translated"
+  },
+  {
+   "t": "2026-11-01T12:00:00Z",
+   "platform": "instagram",
+   "label": "IG Reel: grandkid slang translated"
+  },
+  {
+   "t": "2026-11-01T12:00:00Z",
+   "platform": "youtube",
+   "label": "YouTube Short: grandkid slang translated"
+  },
+  {
+   "t": "2026-11-01T16:00:00Z",
+   "platform": "youtube",
+   "label": "YouTube: Scam or not? Can you tell? #Shorts",
+   "scheduled": true
+  },
+  {
+   "t": "2026-11-01T16:00:00Z",
+   "platform": "youtube",
+   "label": "YouTube: Grandkid slang, translated by AI #Shorts",
+   "scheduled": true
+  },
+  {
+   "t": "2026-11-02T16:00:00Z",
+   "platform": "youtube",
+   "label": "YouTube: 3 things never to tell an AI #Shorts",
+   "scheduled": true
+  },
+  {
+   "t": "2026-11-02T16:00:00Z",
+   "platform": "youtube",
+   "label": "YouTube: Grandkid slang: bussin, lowkey dead, rizz #Shorts",
+   "scheduled": true
+  },
+  {
+   "t": "2026-11-02T23:00:00Z",
+   "platform": "youtube",
+   "label": "YouTube: Grandkid slang: that recipe slaps, based, shook #Shorts",
+   "scheduled": true
+  },
+  {
+   "t": "2026-11-03T16:00:00Z",
+   "platform": "youtube",
+   "label": "YouTube: What is a prompt? Simple answer #Shorts",
+   "scheduled": true
+  },
+  {
+   "t": "2026-11-03T16:00:00Z",
+   "platform": "youtube",
+   "label": "YouTube: Grandkid slang: bet, mid, giving cozy #Shorts",
+   "scheduled": true
+  },
+  {
+   "t": "2026-11-03T17:00:00Z",
+   "platform": "youtube",
+   "label": "YouTube: Grandma texted LOL on bad news #Shorts",
+   "scheduled": true
+  },
+  {
+   "t": "2026-11-03T23:00:00Z",
+   "platform": "youtube",
+   "label": "YouTube: Scam or not? Package on hold text #Shorts",
+   "scheduled": true
+  },
+  {
+   "t": "2026-11-04T16:00:00Z",
+   "platform": "youtube",
+   "label": "YouTube: The five-word AI trick #Shorts",
+   "scheduled": true
+  },
+  {
+   "t": "2026-11-04T16:00:00Z",
+   "platform": "youtube",
+   "label": "YouTube: Scam or not? Grandma, I lost my phone #Shorts",
+   "scheduled": true
+  },
+  {
+   "t": "2026-11-04T17:00:00Z",
+   "platform": "youtube",
+   "label": "YouTube: Scammer called the wrong grandma #Shorts",
+   "scheduled": true
+  }
+ ]
+}

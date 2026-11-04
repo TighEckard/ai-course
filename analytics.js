@@ -1,7 +1,8 @@
 /* Admin > Analytics tab. Loaded only when the tab is opened. */
 (function(){
-  var S={days:7,path:'/',mobile:false,real:true};
+  var S={days:7,path:'/',mobile:false,real:true,tab:'overview'};
   var $$=function(n){return n.toLocaleString()};
+  var FL=function(c){return window.AAXU?window.AAXU.flag(c):''};
   var CSS='.aa-ctl{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1.2rem}.aa-b{min-height:2.4rem;padding:.3rem .9rem;font-size:.95rem;background:#fff;color:var(--ink);border:1px solid var(--line)}.aa-b:hover{background:var(--tint)}.aa-b.on{background:var(--accent);color:#fff;border-color:var(--accent)}.aa-ctl select{font:inherit;min-height:2.4rem;padding:.2rem .6rem;border:1px solid var(--line);border-radius:8px;background:#fff}.aa-sec{margin-bottom:2rem}.aa-sec h3{margin:0 0 .4rem}.aa-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(18rem,1fr));gap:0 2rem}.aa-row{display:grid;grid-template-columns:minmax(5rem,9rem) 1fr auto;gap:.6rem;align-items:center;padding:.25rem 0;font-size:.95rem}.aa-l{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.aa-t{background:var(--tint);border-radius:6px;height:.8rem;display:block}.aa-t i{display:block;height:100%;background:var(--accent);border-radius:6px}.aa-row b{font-size:.9rem;white-space:nowrap}.aa-chart{width:100%;height:auto;max-width:720px}.aa-hw{overflow-x:auto}.aa-box{position:relative;overflow:hidden;border:1px solid var(--line);border-radius:10px;background:#fff}@media(max-width:600px){.aa-row{grid-template-columns:5.5rem 1fr auto}}';
 
   window.AAdraw=function(m,c){
@@ -46,7 +47,7 @@
     function recentTable(rows){
       if(!rows.length)return h('p',{class:'fine',text:'Nothing yet.'});
       var t=h('table',{class:'tbl'},[h('tr',{},['When','From','Where','Device','Pages','Result'].map(function(x){return h('th',{text:x})}))]);
-      rows.forEach(function(r){var loc=[r.city,r.region,r.country].filter(Boolean).join(', ')||'Unknown';
+      rows.forEach(function(r){var loc=FL(r.country)+' '+([r.city,r.region,r.country].filter(Boolean).join(', ')||'Unknown');
         t.appendChild(h('tr',{},[h('td',{text:new Date(r.t).toLocaleString(undefined,{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'})}),h('td',{text:r.src}),h('td',{text:loc}),h('td',{text:(r.device||'')+(r.browser?' · '+r.browser:'')}),h('td',{text:String(r.pages)}),h('td',{text:r.signed?'Reserved a class':r.joined?'Opened join':''})]))});
       return h('div',{class:'scroll'},[t]);
     }
@@ -96,8 +97,8 @@
     // Real-vs-all filter. Bot = the data-center crawler signature; test = our own selftest/internal visits.
     function isBotRow(e){return e.city==='San Jose'&&e.os==='Android'&&e.device==='mobile'&&(e.vw===412||e.vw===1024)}
     function fetchEvents(){
-      var cols='created_at,vid,sid,type,path,src,utm_campaign,new_visitor,device,browser,os,country,region,city,vw,depth,dur,x,y,el',since=new Date(Date.now()-S.days*864e5).toISOString(),all=[];
-      function page(o){return c.api('/rest/v1/analytics_events?select='+cols+'&created_at=gte.'+encodeURIComponent(since)+'&order=id&limit=1000&offset='+o,{token:c.tok}).then(function(r){if(!r.ok)throw r.status;return r.json()}).then(function(j){all=all.concat(j);return(j.length===1000&&all.length<30000)?page(o+1000):all})}
+      var cols='id,created_at,vid,sid,type,path,src,ref_host,utm_medium,utm_campaign,new_visitor,device,browser,os,country,region,city,vw,vh,depth,dur,x,y,el',since=new Date(Date.now()-S.days*2*864e5).toISOString(),all=[];
+      function page(o){return c.api('/rest/v1/analytics_events?select='+cols+'&created_at=gte.'+encodeURIComponent(since)+'&order=id&limit=1000&offset='+o,{token:c.tok}).then(function(r){if(!r.ok)throw r.status;return r.json()}).then(function(j){all=all.concat(j);return(j.length===1000&&all.length<80000)?page(o+1000):all})}
       return page(0);
     }
     function classify(ev){
@@ -127,9 +128,9 @@
         funnel:{sessions:S2.length,joined:S2.filter(function(s){return s.joined}).length,signed:S2.filter(function(s){return s.signed}).length,signups_total:j.funnel.signups_total,members_total:j.funnel.members_total},
         sources:Object.keys(srcs).map(function(k){return srcs[k]}).sort(function(a,b){return b.sessions-a.sessions}).slice(0,15),
         campaigns:Object.keys(camps).map(function(k){return camps[k]}).sort(function(a,b){return b.sessions-a.sessions}).slice(0,15),
-        countries:top(S2,function(s){return s.country||'Unknown'}),
-        regions:top(S2,function(s){return s.region?s.region+(s.country?', '+s.country:''):null}),
-        cities:top(S2,function(s){return s.city?s.city+(s.region?', '+s.region:''):null}),
+        countries:top(S2,function(s){return s.country?FL(s.country)+' '+s.country:'Unknown'}),
+        regions:top(S2,function(s){return s.region?FL(s.country)+' '+s.region+(s.country?', '+s.country:''):null}),
+        cities:top(S2,function(s){return s.city?FL(s.country)+' '+s.city+(s.region?', '+s.region:''):null}),
         devices:top(S2,function(s){return s.device||'Unknown'}),browsers:top(S2,function(s){return s.browser||'Other'},8),systems:top(S2,function(s){return s.os||'Other'},8),
         pages:pages,
         recent:S2.sort(function(a,b){return a.t<b.t?1:-1}).slice(0,25).map(function(s){return {t:s.t,src:s.src,country:s.country,region:s.region,city:s.city,device:s.device,browser:s.browser,pages:s.pages,joined:s.joined,signed:s.signed}})};
@@ -147,19 +148,35 @@
       m.appendChild(h('div',{class:'aa-ctl'},[h('button',{type:'button',class:'aa-b'+(S.real?' on':''),onclick:function(){S.real=true;render(DATA.j)},text:'Real people only ('+$$(nAll-nBad)+' visits)'}),h('button',{type:'button',class:'aa-b'+(S.real?'':' on'),onclick:function(){S.real=false;render(DATA.j)},text:'All traffic incl. bots and testing ('+$$(nAll)+' visits)'})]));
       m.appendChild(h('p',{class:'fine',text:$$(nBad)+' visits are bots or our own testing (data-center crawler, selftest links). Everything below follows the button you picked.'}));
       m.appendChild(h('div',{class:'aa-ctl'},[1,7,30,90].map(function(d){return h('button',{type:'button',class:'aa-b'+(S.days===d?' on':''),onclick:function(){S.days=d;go()},text:d===1?'Today':'Last '+d+' days'})}).concat([h('button',{type:'button',class:'aa-b',onclick:function(){go()},text:'Refresh'})])));
-      m.appendChild(h('div',{class:'tiles'},[tile(j.live,'on the site now'),tile(t.visitors,'visitors'),tile(t.sessions,'visits'),tile(t.views,'page views'),tile(t.bounce_pct+'%','left after one page'),tile(t.avg_sec+'s','avg. time per visit')]));
-      m.appendChild(sec('Visits per day',[chart(j.daily),h('p',{class:'fine',text:'Dark bars are visits, light bars are page views.'})]));
-      m.appendChild(sec('From visit to signup',[funnel(j.funnel)]));
-      m.appendChild(sec('Where visitors come from',[srcTable(j.sources)],'Facebook, Google and so on. To tell your own posts apart, end links with ?utm_source=name&utm_campaign=post, for example riside.com/?utm_source=facebook&utm_campaign=group-oct.'));
-      if(j.campaigns.length)m.appendChild(sec('Campaigns',[bars(j.campaigns.map(function(c){return {name:c.name,n:c.sessions}}))]));
-      m.appendChild(h('div',{class:'aa-grid'},[sec('Countries',[bars(j.countries,'n',t.sessions)]),sec('States and regions',[bars(j.regions,'n',t.sessions)]),sec('Cities',[bars(j.cities,'n',t.sessions)]),sec('Devices',[bars(j.devices,'n',t.sessions)]),sec('Browsers',[bars(j.browsers,'n',t.sessions)]),sec('Systems',[bars(j.systems,'n',t.sessions)])]));
-      m.appendChild(sec('Pages and scrolling',[pagesTable(j.pages)],'How far down people scroll on each page.'));
-      m.appendChild(sec('Click heatmap',[heat(j.pages.length?j.pages:[{name:'/'}])],'Red is where people click most. Shown on a live preview of the page.'));
-      m.appendChild(sec('Latest visits',[recentTable(j.recent)]));
+      var AX=window.AAX({h:h,S:S,$$:$$,sec:sec,bars:bars}),REND=function(){render(DATA.j)};
+      var tabs=[['overview','Overview'],['locations','Locations & map'],['replays','Replays'],['traffic','What drives traffic'],['pages','Pages & heatmap'],['raw','Raw data']];
+      m.appendChild(h('div',{class:'aa-ctl'},tabs.map(function(t){return h('button',{type:'button',class:'aa-b'+(S.tab===t[0]?' on':''),onclick:function(){S.tab=t[0];REND()},text:t[1]})})));
+      var cur=S.real?real:DATA.ev,SS=window.AAXU.sessions(cur);
+      if(S.tab==='overview'){
+        var pv=S.real?DATA.prev.filter(function(e){return !classify(DATA.prev)[e.sid]}):DATA.prev,PS=window.AAXU.sessions(pv);
+        m.appendChild(h('div',{class:'tiles'},[tile(j.live,'on the site now'),tile(t.visitors,'visitors'),tile(t.sessions,'visits',dl(t.sessions,PS.length)),tile(t.views,'page views',dl(t.views,pv.filter(function(e){return e.type==='view'}).length)),tile(t.bounce_pct+'%','left after one page'),tile(t.avg_sec+'s','avg. time per visit'),tile(j.funnel.signed,'free-class signups',dl(j.funnel.signed,PS.filter(function(s){return s.signed}).length))]));
+        m.appendChild(sec('Visits per day',[chart(j.daily),h('p',{class:'fine',text:'Dark bars are visits, light bars are page views. Arrows on the tiles compare with the previous '+S.days+' days.'})]));
+        AX.overview(SS,cur,PS).forEach(function(n){m.appendChild(n)});
+        m.appendChild(sec('From visit to signup',[funnel(j.funnel)]));
+        m.appendChild(sec('Where visitors come from',[srcTable(j.sources)],'Facebook, Google and so on. The "What drives traffic" tab also infers which posts and videos brought people in, with no tracking links needed.'));
+        if(j.campaigns.length)m.appendChild(sec('Campaigns',[bars(j.campaigns.map(function(c){return {name:c.name,n:c.sessions}}))]));
+        m.appendChild(h('div',{class:'aa-grid'},[sec('Countries',[bars(j.countries,'n',t.sessions)]),sec('States and regions',[bars(j.regions,'n',t.sessions)]),sec('Cities',[bars(j.cities,'n',t.sessions)]),sec('Devices',[bars(j.devices,'n',t.sessions)]),sec('Browsers',[bars(j.browsers,'n',t.sessions)]),sec('Systems',[bars(j.systems,'n',t.sessions)])]));
+        m.appendChild(sec('Latest visits',[recentTable(j.recent)]));
+      }
+      if(S.tab==='locations')AX.locations(SS,REND).forEach(function(n){m.appendChild(n)});
+      if(S.tab==='replays')AX.replays(SS,REND).forEach(function(n){m.appendChild(n)});
+      if(S.tab==='traffic')AX.traffic(SS,REND).forEach(function(n){m.appendChild(n)});
+      if(S.tab==='raw')AX.raw(cur,SS,REND).forEach(function(n){m.appendChild(n)});
+      if(S.tab==='pages'){
+        m.appendChild(sec('Pages and scrolling',[pagesTable(j.pages)],'How far down people scroll on each page.'));
+        m.appendChild(sec('Click heatmap',[heat(j.pages.length?j.pages:[{name:'/'}])],'Red is where people click most. Shown on a live preview of the page.'));
+      }
       m.appendChild(h('p',{class:'fine',text:'Location is approximate and comes from the visitor’s network. No IP address, name or email is stored. Your own visits from this browser are not counted. Visitors who turn on Do Not Track are skipped.'}));
     }
-    function tile(n,l){return h('div',{class:'tile'},[h('b',{text:String(n)}),h('span',{text:l})])}
-    function go(){m.textContent='Loading.';Promise.all([rpc('analytics_summary',{p_days:S.days}),fetchEvents()]).then(function(r){var ev=r[1],first={};ev.forEach(function(e){if(e.type==='view')first[e.sid]=1});DATA={j:r[0],ev:ev,first:first};render(r[0])}).catch(function(e){m.textContent='';m.appendChild(h('p',{class:'fine',text:e===404||e===400?'Analytics is not set up yet. Run analytics-setup.sql in Supabase.':'Could not load analytics.'}))})}
-    go();
+    function dl(a,b){if(!b)return a?'new':'';var p=Math.round((a-b)/b*100);return (p>=0?'▲ ':'▼ ')+Math.abs(p)+'%'}
+    function tile(n,l,d){return h('div',{class:'tile'},[h('b',{text:String(n)}),h('span',{text:l+(d?' ('+d+')':'')})])}
+    function go(){m.textContent='Loading.';Promise.all([rpc('analytics_summary',{p_days:S.days}),fetchEvents()]).then(function(r){var cut=new Date(Date.now()-S.days*864e5).toISOString(),all=r[1],ev=all.filter(function(e){return e.created_at>=cut}),prev=all.filter(function(e){return e.created_at<cut}),first={};ev.forEach(function(e){if(e.type==='view')first[e.sid]=1});DATA={j:r[0],ev:ev,prev:prev,first:first};render(r[0])}).catch(function(e){m.textContent='';m.appendChild(h('p',{class:'fine',text:e===404||e===400?'Analytics is not set up yet. Run analytics-setup.sql in Supabase.':'Could not load analytics.'}))})}
+    function boot(){var n=0,need=['/analytics-map.js?v=1','/analytics-extra.js?v=1'];(function nx(){if(n>=need.length)return go();var sc=document.createElement('script');sc.src=need[n++];sc.onload=nx;sc.onerror=function(){m.textContent='Could not load analytics.'};document.head.appendChild(sc)})()}
+    if(window.AAX)go();else boot();
   };
 })();
