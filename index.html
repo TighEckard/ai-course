@@ -880,7 +880,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
   function aAnalytics(m){
     var go=function(){window.AAdraw(m,{h:h,api:api,tok:D.tok})};
     if(window.AAdraw)return go();
-    m.textContent='Loading.';var sc=document.createElement('script');sc.src='/analytics.js?v=2';sc.onload=go;sc.onerror=function(){m.textContent='Could not load analytics.'};document.head.appendChild(sc);
+    m.textContent='Loading.';var sc=document.createElement('script');sc.src='/analytics.js?v=3';sc.onload=go;sc.onerror=function(){m.textContent='Could not load analytics.'};document.head.appendChild(sc);
   }
   function dt(s){return new Date(s).toLocaleString(undefined,{month:'short',day:'numeric',year:'numeric',hour:'numeric',minute:'2-digit'})}
   function aSignups(m){

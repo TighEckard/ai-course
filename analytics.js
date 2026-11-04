@@ -57,7 +57,7 @@
       var info=h('p',{class:'fine',text:'Loading.'}),wrap=h('div',{class:'aa-hw'});
       function load(){
         info.textContent='Loading.';wrap.textContent='';
-        rpc('analytics_clicks',{p_path:S.path,p_days:S.days,p_mobile:S.mobile}).then(function(r){
+        Promise.resolve(localClicks()).then(function(r){
           if(!r.total){info.textContent='No clicks recorded for this page and device yet.';return}
           info.textContent=$$(r.total)+' clicks. Most clicked: '+(r.top.map(function(t){return t.name+' ('+t.n+')'}).join(', ')||'n/a');
           var W=S.mobile?390:1200,avail=Math.max(280,Math.min(wrap.parentNode.clientWidth||720,W)),k=avail/W;
@@ -71,6 +71,14 @@
             fr.style.height=H+'px';box.style.height=H*k+'px';cv.width=W;cv.height=H;paint(cv,r.pts,W);
           },900)});
         }).catch(function(){info.textContent='Could not load clicks.'});
+      }
+      function localClicks(){
+        var bad=classify(DATA.ev),pts=[],tops={},maxy=0;
+        DATA.ev.forEach(function(e){
+          if(e.type!=='click'||e.path!==S.path||e.x==null||e.y==null||((e.vw<700)!==!!S.mobile))return;
+          if(S.real&&bad[e.sid])return;
+          pts.push([e.x,e.y]);if(e.y>maxy)maxy=e.y;if(e.el)tops[e.el]=(tops[e.el]||0)+1});
+        return {total:pts.length,maxy:maxy,pts:pts.slice(0,5000),top:Object.keys(tops).map(function(k){return {name:k,n:tops[k]}}).sort(function(a,b){return b.n-a.n}).slice(0,10)};
       }
       function paint(cv,pts,W){
         var x=cv.getContext('2d'),rad=S.mobile?26:34;x.globalAlpha=1;
@@ -88,7 +96,7 @@
     // Real-vs-all filter. Bot = the data-center crawler signature; test = our own selftest/internal visits.
     function isBotRow(e){return e.city==='San Jose'&&e.os==='Android'&&e.device==='mobile'&&(e.vw===412||e.vw===1024)}
     function fetchEvents(){
-      var cols='created_at,vid,sid,type,path,src,utm_campaign,new_visitor,device,browser,os,country,region,city,vw,depth,dur',since=new Date(Date.now()-S.days*864e5).toISOString(),all=[];
+      var cols='created_at,vid,sid,type,path,src,utm_campaign,new_visitor,device,browser,os,country,region,city,vw,depth,dur,x,y,el',since=new Date(Date.now()-S.days*864e5).toISOString(),all=[];
       function page(o){return c.api('/rest/v1/analytics_events?select='+cols+'&created_at=gte.'+encodeURIComponent(since)+'&order=id&limit=1000&offset='+o,{token:c.tok}).then(function(r){if(!r.ok)throw r.status;return r.json()}).then(function(j){all=all.concat(j);return(j.length===1000&&all.length<30000)?page(o+1000):all})}
       return page(0);
     }
@@ -131,7 +139,10 @@
       m.textContent='';
       var bad=classify(DATA.ev),nAll=0,nBad=0;Object.keys(DATA.first).forEach(function(k){nAll++;if(bad[k])nBad++});
       var real=DATA.ev.filter(function(e){return !bad[e.sid]});
-      j=build(S.real?real:DATA.ev,j);
+      var cut=new Date(Date.now()-3e5).toISOString(),lv={};
+      (S.real?real:DATA.ev).forEach(function(e){if(e.created_at>=cut)lv[e.sid]=1});
+      var live=Object.keys(lv).length;
+      j=build(S.real?real:DATA.ev,j);j.live=live;
       var t=j.totals;
       m.appendChild(h('div',{class:'aa-ctl'},[h('button',{type:'button',class:'aa-b'+(S.real?' on':''),onclick:function(){S.real=true;render(DATA.j)},text:'Real people only ('+$$(nAll-nBad)+' visits)'}),h('button',{type:'button',class:'aa-b'+(S.real?'':' on'),onclick:function(){S.real=false;render(DATA.j)},text:'All traffic incl. bots and testing ('+$$(nAll)+' visits)'})]));
       m.appendChild(h('p',{class:'fine',text:$$(nBad)+' visits are bots or our own testing (data-center crawler, selftest links). Everything below follows the button you picked.'}));
