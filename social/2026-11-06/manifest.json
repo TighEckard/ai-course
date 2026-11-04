@@ -1,0 +1,68 @@
+{
+ "date": "2026-11-06",
+ "videos": [
+  {
+   "id": "slang17a",
+   "file": "slang17a.mp4",
+   "format": "slang translator",
+   "slot": "am",
+   "platforms": [
+    "yt"
+   ],
+   "yt_title": "Grandpa said it slaps?! Slang translated #Shorts",
+   "caption_yt": "Grandpa says it slaps and has drip. Translated for grandma. Ask AI to translate any slang. Free live AI classes: riside.com #Shorts",
+   "link": "https://riside.com/?src=yt_slang17a",
+   "board": "Riside"
+  },
+  {
+   "id": "slang17b",
+   "file": "slang17b.mp4",
+   "format": "slang translator",
+   "slot": "am",
+   "platforms": [
+    "meta"
+   ],
+   "caption_meta": "Nana is the GOAT, no cap. Do you know what that means? Tell us below! Free live AI classes: riside.com",
+   "link": "https://riside.com/?src=meta_slang17b",
+   "board": "Riside"
+  },
+  {
+   "id": "pin21",
+   "file": "pin21.png",
+   "format": "pin tall tips graphic",
+   "slot": "am",
+   "platforms": [
+    "pin"
+   ],
+   "pin_title": "How to Spot a Fake Email (5 Easy Warning Signs)",
+   "caption_pin": "Easy checklist for spotting a fake email: odd sender address, urgent threats, requests for passwords or cards, spelling mistakes and links that do not match. Paste any email into an AI assistant and ask is this real. Free live AI classes at riside.com",
+   "link": "https://riside.com/guides?src=pin_pin21",
+   "board": "Riside"
+  },
+  {
+   "id": "slang18a",
+   "file": "slang18a.mp4",
+   "format": "slang translator",
+   "slot": "pm",
+   "platforms": [
+    "yt"
+   ],
+   "yt_title": "Nana took an L? Grandma learns slang #Shorts",
+   "caption_yt": "Big L, ratio, W grandma: slang translated for grandma. Free live AI classes: riside.com #Shorts",
+   "link": "https://riside.com/?src=yt_slang18a",
+   "board": "Riside"
+  },
+  {
+   "id": "slang18b",
+   "file": "slang18b.mp4",
+   "format": "slang translator",
+   "slot": "pm",
+   "platforms": [
+    "meta"
+   ],
+   "caption_meta": "My grandkid called grandpa a simp. Should he be offended? Tell us below! Free live AI classes: riside.com",
+   "link": "https://riside.com/?src=meta_slang18b",
+   "board": "Riside"
+  }
+ ]
+}

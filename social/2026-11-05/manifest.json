@@ -1,6 +1,68 @@
-{"date":"2026-11-05","videos":[
-{"id":"slang16a","file":"slang16a.mp4","format":"slang translator","slot":"am","platforms":["yt"],"yt_title":"Grandma, it's a vibe? Gen Z slang translated #Shorts","caption_yt":"Gen Z slang translated for grandma: vibe, bet, rizz. Ask AI to translate any slang. Free live AI classes: riside.com #Shorts","link":"https://riside.com/?src=yt_slang16a","board":"Riside"},
-{"id":"slang16b","file":"slang16b.mp4","format":"slang translator","slot":"am","platforms":["meta"],"caption_meta":"My grandkid said the dinner was 'bussin.' Any guesses? Tell us below! Free live AI classes: riside.com","link":"https://riside.com/?src=meta_slang16b","board":"Riside"},
-{"id":"voice19a","file":"voice19a.mp4","format":"skit voice typing","slot":"pm","platforms":["yt"],"yt_title":"Stop typing on your phone. Just talk. #Shorts","caption_yt":"Tap the microphone on your keyboard and talk instead of typing. Free live AI classes: riside.com #Shorts","link":"https://riside.com/?src=yt_voice19a","board":"Riside"},
-{"id":"voice19b","file":"voice19b.mp4","format":"skit voice typing","slot":"pm","platforms":["meta"],"caption_meta":"Did you know your phone can type for you while you talk? Comment if you try it! Free live AI classes: riside.com","link":"https://riside.com/?src=meta_voice19b","board":"Riside"}
-]}
+{
+ "date": "2026-11-05",
+ "videos": [
+  {
+   "id": "slang16a",
+   "file": "slang16a.mp4",
+   "format": "slang translator",
+   "slot": "am",
+   "platforms": [
+    "yt"
+   ],
+   "yt_title": "Grandma, it's a vibe? Gen Z slang translated #Shorts",
+   "caption_yt": "Gen Z slang translated for grandma: vibe, bet, rizz. Ask AI to translate any slang. Free live AI classes: riside.com #Shorts",
+   "link": "https://riside.com/?src=yt_slang16a",
+   "board": "Riside"
+  },
+  {
+   "id": "slang16b",
+   "file": "slang16b.mp4",
+   "format": "slang translator",
+   "slot": "am",
+   "platforms": [
+    "meta"
+   ],
+   "caption_meta": "My grandkid said the dinner was 'bussin.' Any guesses? Tell us below! Free live AI classes: riside.com",
+   "link": "https://riside.com/?src=meta_slang16b",
+   "board": "Riside"
+  },
+  {
+   "id": "voice19a",
+   "file": "voice19a.mp4",
+   "format": "skit voice typing",
+   "slot": "pm",
+   "platforms": [
+    "yt"
+   ],
+   "yt_title": "Stop typing on your phone. Just talk. #Shorts",
+   "caption_yt": "Tap the microphone on your keyboard and talk instead of typing. Free live AI classes: riside.com #Shorts",
+   "link": "https://riside.com/?src=yt_voice19a",
+   "board": "Riside"
+  },
+  {
+   "id": "voice19b",
+   "file": "voice19b.mp4",
+   "format": "skit voice typing",
+   "slot": "pm",
+   "platforms": [
+    "meta"
+   ],
+   "caption_meta": "Did you know your phone can type for you while you talk? Comment if you try it! Free live AI classes: riside.com",
+   "link": "https://riside.com/?src=meta_voice19b",
+   "board": "Riside"
+  },
+  {
+   "id": "pin20",
+   "file": "pin20.png",
+   "format": "pin tall tips graphic",
+   "slot": "am",
+   "platforms": [
+    "pin"
+   ],
+   "pin_title": "5 Ways to Use AI in the Kitchen (Easy Beginner Tips)",
+   "caption_pin": "Simple ways to use an AI assistant in your kitchen: make dinner from what's in your fridge, scale a recipe, swap ingredients, plan a week of easy meals and build a grocery list. Beginner-friendly AI tips for adults. Free live AI classes at riside.com",
+   "link": "https://riside.com/guides?src=pin_pin20",
+   "board": "Riside"
+  }
+ ]
+}
