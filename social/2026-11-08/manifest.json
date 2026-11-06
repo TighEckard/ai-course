@@ -1,0 +1,73 @@
+{
+ "date": "2026-11-08",
+ "videos": [
+  {
+   "id": "kin21a",
+   "file": "kin21a.mp4",
+   "format": "kinetic typography",
+   "look": "kinetic",
+   "slot": "am",
+   "platforms": [
+    "yt"
+   ],
+   "board": "Riside",
+   "yt_title": "4 scam text words to watch for #Shorts",
+   "caption_yt": "Urgent, gift card, verify, winner: the words in scam texts. Paste any text into AI and ask if it is a scam. Free live AI classes: riside.com #Shorts",
+   "link": "https://riside.com/?src=yt_kin21a"
+  },
+  {
+   "id": "kin21b",
+   "file": "kin21b.mp4",
+   "format": "kinetic typography",
+   "look": "kinetic",
+   "slot": "am",
+   "platforms": [
+    "meta"
+   ],
+   "board": "Riside",
+   "caption_meta": "Got a weird text lately? Act now, suspended, refund, package: know these 4 words. Comment SAFE if you want more scam tips! Free live AI classes: riside.com",
+   "link": "https://riside.com/?src=meta_kin21b"
+  },
+  {
+   "id": "pin23",
+   "file": "pin23.png",
+   "format": "pin tall tips graphic",
+   "look": "tips",
+   "slot": "am",
+   "platforms": [
+    "pin"
+   ],
+   "pin_title": "7 Easy Ways to Spot a Scam Text (Plain-English Tips)",
+   "caption_pin": "Seven warning signs of a scam text, plus a simple trick: paste it into AI and ask if it is a scam. Free live AI classes in small groups at riside.com",
+   "link": "https://riside.com/?src=pin_pin23",
+   "board": "Riside"
+  },
+  {
+   "id": "kin22a",
+   "file": "kin22a.mp4",
+   "format": "kinetic typography",
+   "look": "kinetic",
+   "slot": "pm",
+   "platforms": [
+    "yt"
+   ],
+   "board": "Riside",
+   "yt_title": "4 easy things to ask AI today #Shorts",
+   "caption_yt": "Explain a letter, plan dinner, write a thank you note, check a scam. Free live AI classes: riside.com #Shorts",
+   "link": "https://riside.com/?src=yt_kin22a"
+  },
+  {
+   "id": "kin22b",
+   "file": "kin22b.mp4",
+   "format": "kinetic typography",
+   "look": "kinetic",
+   "slot": "pm",
+   "platforms": [
+    "meta"
+   ],
+   "board": "Riside",
+   "caption_meta": "What would you ask AI first? Medicine label, trip plan, sorry note, tonight's dinner. Comment your first question! Free live AI classes: riside.com",
+   "link": "https://riside.com/?src=meta_kin22b"
+  }
+ ]
+}
