@@ -1,0 +1,73 @@
+{
+ "date": "2026-11-09",
+ "videos": [
+  {
+   "id": "kin23a",
+   "file": "kin23a.mp4",
+   "format": "kinetic typography",
+   "look": "kinetic",
+   "slot": "am",
+   "platforms": [
+    "yt"
+   ],
+   "board": "Riside",
+   "yt_title": "4 text codes decoded: SMH, IDK, BRB, TBH #Shorts",
+   "caption_yt": "SMH, IDK, BRB, TBH: what your family texts actually mean. Ask AI to decode any message. Free live AI classes: riside.com #Shorts",
+   "link": "https://riside.com/?src=yt_kin23a"
+  },
+  {
+   "id": "kin23b",
+   "file": "kin23b.mp4",
+   "format": "kinetic typography",
+   "look": "kinetic",
+   "slot": "am",
+   "platforms": [
+    "meta"
+   ],
+   "board": "Riside",
+   "caption_meta": "Do you know FYI, OMG, IMO and NP? Comment the one you use most! Free live AI classes: riside.com",
+   "link": "https://riside.com/?src=meta_kin23b"
+  },
+  {
+   "id": "pin24",
+   "file": "pin24.png",
+   "format": "pin tall tips graphic",
+   "look": "tips",
+   "slot": "am",
+   "platforms": [
+    "pin"
+   ],
+   "pin_title": "6 Things to Ask AI Before Bed (Easy Ideas)",
+   "caption_pin": "Six calm, easy things to ask AI in the evening: a bedtime story, tomorrow's weather, a stretch routine and more. Free live AI classes in small groups at riside.com",
+   "link": "https://riside.com/?src=pin_pin24",
+   "board": "Riside"
+  },
+  {
+   "id": "kin24a",
+   "file": "kin24a.mp4",
+   "format": "kinetic typography",
+   "look": "kinetic",
+   "slot": "pm",
+   "platforms": [
+    "yt"
+   ],
+   "board": "Riside",
+   "yt_title": "AI words that sound scary but are not #Shorts",
+   "caption_yt": "Prompt, chatbot, hallucination, model: explained simply. Free live AI classes: riside.com #Shorts",
+   "link": "https://riside.com/?src=yt_kin24a"
+  },
+  {
+   "id": "kin24b",
+   "file": "kin24b.mp4",
+   "format": "kinetic typography",
+   "look": "kinetic",
+   "slot": "pm",
+   "platforms": [
+    "meta"
+   ],
+   "board": "Riside",
+   "caption_meta": "Cloud, app, download, update: tech words made simple. Comment the tech word that confuses you most! Free live AI classes: riside.com",
+   "link": "https://riside.com/?src=meta_kin24b"
+  }
+ ]
+}
