@@ -14,6 +14,60 @@
    "caption_pin": "Simple ways to use an AI assistant for health questions: explain a medical word, prepare questions for your doctor, read a label in plain words and plan healthy meals. Not medical advice, always check with a professional. Free live AI classes at riside.com",
    "link": "https://riside.com/guides?src=pin_pin22",
    "board": "Riside"
+  },
+  {
+   "id": "wbletter",
+   "file": "wbletter.mp4",
+   "format": "whiteboard doodle",
+   "look": "whiteboard doodle",
+   "slot": "am",
+   "platforms": [
+    "yt"
+   ],
+   "board": "Riside",
+   "link": "https://riside.com/?src=yt_wbletter",
+   "yt_title": "Decode any confusing letter with AI in 3 steps #Shorts",
+   "caption_yt": "Photo, ask for plain words, ask what to do by when. Free live AI classes: riside.com #Shorts"
+  },
+  {
+   "id": "ba1b",
+   "file": "ba1b.mp4",
+   "format": "before-after",
+   "look": "before-after",
+   "slot": "am",
+   "platforms": [
+    "meta"
+   ],
+   "board": "Riside",
+   "link": "https://riside.com/?src=meta_ba1b",
+   "caption_meta": "Bills should not read like this. Ask AI to say it in plain English. Comment BILL if you want more! Free live AI classes: riside.com"
+  },
+  {
+   "id": "quiz1",
+   "file": "quiz1.mp4",
+   "format": "scam-or-safe quiz",
+   "look": "scam-or-safe quiz",
+   "slot": "pm",
+   "platforms": [
+    "yt"
+   ],
+   "board": "Riside",
+   "link": "https://riside.com/?src=yt_quiz1",
+   "yt_title": "Scam or safe? Can you spot it? #Shorts",
+   "caption_yt": "Package fee text vs pharmacy refill text: which is the scam? Free live AI classes: riside.com #Shorts"
+  },
+  {
+   "id": "wbmed",
+   "file": "wbmed.mp4",
+   "format": "whiteboard doodle",
+   "look": "whiteboard doodle",
+   "slot": "pm",
+   "platforms": [
+    "meta"
+   ],
+   "board": "Riside",
+   "link": "https://riside.com/?src=meta_wbmed",
+   "caption_meta": "Tiny medicine print? Here is how AI can help (and always confirm with your pharmacist). Comment PILL for more tips! Free live AI classes: riside.com"
   }
  ]
 }

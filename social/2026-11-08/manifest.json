@@ -14,6 +14,60 @@
    "caption_pin": "Seven warning signs of a scam text, plus a simple trick: paste it into AI and ask if it is a scam. Free live AI classes in small groups at riside.com",
    "link": "https://riside.com/?src=pin_pin23",
    "board": "Riside"
+  },
+  {
+   "id": "wbtrip",
+   "file": "wbtrip.mp4",
+   "format": "whiteboard doodle",
+   "look": "whiteboard doodle",
+   "slot": "am",
+   "platforms": [
+    "yt"
+   ],
+   "board": "Riside",
+   "link": "https://riside.com/?src=yt_wbtrip",
+   "yt_title": "Plan a whole trip with AI in a minute #Shorts",
+   "caption_yt": "Say where, add what you like, ask for a day by day plan. Free live AI classes: riside.com #Shorts"
+  },
+  {
+   "id": "quiz2",
+   "file": "quiz2.mp4",
+   "format": "scam-or-safe quiz",
+   "look": "scam-or-safe quiz",
+   "slot": "am",
+   "platforms": [
+    "meta"
+   ],
+   "board": "Riside",
+   "link": "https://riside.com/?src=meta_quiz2",
+   "caption_meta": "Your grandson calls from jail and needs money. Scam or safe? Comment your answer! Free live AI classes: riside.com"
+  },
+  {
+   "id": "ba2",
+   "file": "ba2.mp4",
+   "format": "before-after",
+   "look": "before-after",
+   "slot": "pm",
+   "platforms": [
+    "yt"
+   ],
+   "board": "Riside",
+   "link": "https://riside.com/?src=yt_ba2",
+   "yt_title": "Insurance letter in plain English with AI #Shorts",
+   "caption_yt": "Before: confusing jargon. After: what it really says. Free live AI classes: riside.com #Shorts"
+  },
+  {
+   "id": "wbdinner",
+   "file": "wbdinner.mp4",
+   "format": "whiteboard doodle",
+   "look": "whiteboard doodle",
+   "slot": "pm",
+   "platforms": [
+    "meta"
+   ],
+   "board": "Riside",
+   "link": "https://riside.com/?src=meta_wbdinner",
+   "caption_meta": "Nothing for dinner? Tell AI what is in your fridge. Comment FRIDGE if you want the steps! Free live AI classes: riside.com"
   }
  ]
 }
