@@ -2,33 +2,6 @@
  "date": "2026-11-07",
  "videos": [
   {
-   "id": "kin20a",
-   "file": "kin20a.mp4",
-   "format": "kinetic typography",
-   "look": "kinetic",
-   "slot": "am",
-   "platforms": [
-    "yt"
-   ],
-   "yt_title": "4 slang words your grandkids say, translated #Shorts",
-   "caption_yt": "Bet, rizz, cap, mid: what they actually mean. Ask AI to translate any slang. Free live AI classes: riside.com #Shorts",
-   "link": "https://riside.com/?src=yt_kin20a",
-   "board": "Riside"
-  },
-  {
-   "id": "kin20b",
-   "file": "kin20b.mp4",
-   "format": "kinetic typography",
-   "look": "kinetic",
-   "slot": "am",
-   "platforms": [
-    "meta"
-   ],
-   "caption_meta": "Do you know these 4 words your grandkids use? Slay, ghosted, salty, drip. Comment the one you didn't know! Free live AI classes: riside.com",
-   "link": "https://riside.com/?src=meta_kin20b",
-   "board": "Riside"
-  },
-  {
    "id": "pin22",
    "file": "pin22.png",
    "format": "pin tall tips graphic",
@@ -40,33 +13,6 @@
    "pin_title": "5 Easy Things to Ask AI About Health (Plain-English Tips)",
    "caption_pin": "Simple ways to use an AI assistant for health questions: explain a medical word, prepare questions for your doctor, read a label in plain words and plan healthy meals. Not medical advice, always check with a professional. Free live AI classes at riside.com",
    "link": "https://riside.com/guides?src=pin_pin22",
-   "board": "Riside"
-  },
-  {
-   "id": "slang19a",
-   "file": "slang19a.mp4",
-   "format": "slang translator",
-   "look": "grandma-bubble",
-   "slot": "pm",
-   "platforms": [
-    "yt"
-   ],
-   "yt_title": "Grandpa is cooking?! Slang translated #Shorts",
-   "caption_yt": "He's cooking, rent free, main character: slang translated for grandma. Free live AI classes: riside.com #Shorts",
-   "link": "https://riside.com/?src=yt_slang19a",
-   "board": "Riside"
-  },
-  {
-   "id": "slang19b",
-   "file": "slang19b.mp4",
-   "format": "slang translator",
-   "look": "grandma-bubble",
-   "slot": "pm",
-   "platforms": [
-    "meta"
-   ],
-   "caption_meta": "Nana woke up and chose violence. Do you know what that means? Tell us below! Free live AI classes: riside.com",
-   "link": "https://riside.com/?src=meta_slang19b",
    "board": "Riside"
   }
  ]
