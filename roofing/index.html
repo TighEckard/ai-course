@@ -7,47 +7,50 @@
 <meta property="og:description" content="Free, no obligation. A local roofer calls to book your inspection.">
 <meta property="og:url" content="https://riside.com/roofing/">
 <link rel="preconnect" href="https://images.unsplash.com">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-:root{--navy:#0f2342;--navy2:#1d4170;--amber:#f59e0b;--ink:#1a2233;--mut:#5a6577;--line:#cbd3e1;--bg:#f4f6fa}
+:root{--navy:#0f2342;--ink:#16202e;--mut:#5b6676;--line:#d5dbe4;--bg:#f5f7fa}
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
-body{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--bg);line-height:1.45}
-header{background:var(--navy);color:#fff;padding:12px 16px;font-weight:800;letter-spacing:.3px;display:flex;justify-content:space-between;align-items:center}
-header span{color:var(--amber)}header small{font-weight:600;color:#c9d6ee;font-size:13px}
-.hero{background:linear-gradient(180deg,rgba(15,35,66,.55) 0%,rgba(15,35,66,.88) 100%),url('https://images.unsplash.com/photo-1755114203680-d39d95efa82c?auto=format&fit=crop&q=70&w=900') center 50%/cover no-repeat,var(--navy);color:#fff;padding:34px 16px 84px;text-shadow:0 1px 8px rgba(0,0,0,.35)}
-@media(min-width:700px){.hero{background-image:linear-gradient(180deg,rgba(15,35,66,.5),rgba(15,35,66,.85)),url('https://images.unsplash.com/photo-1755114203680-d39d95efa82c?auto=format&fit=crop&q=70&w=1800');padding:64px 16px 96px}}
+body{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--bg);line-height:1.5;-webkit-font-smoothing:antialiased}
+header{background:#fff;border-bottom:1px solid #e6eaf0;padding:14px 20px}
+.brand{max-width:1080px;margin:0 auto;font-weight:700;font-size:18px;letter-spacing:-.2px;color:var(--navy)}
+.brand span{font-weight:500;color:var(--mut)}
+.hero{background:linear-gradient(180deg,rgba(15,35,66,.45) 0%,rgba(15,35,66,.82) 100%),url('https://images.unsplash.com/photo-1755114203680-d39d95efa82c?auto=format&fit=crop&q=70&w=900') center 50%/cover no-repeat,var(--navy);color:#fff;padding:44px 20px 96px}
+@media(min-width:700px){.hero{background-image:linear-gradient(180deg,rgba(15,35,66,.4),rgba(15,35,66,.8)),url('https://images.unsplash.com/photo-1755114203680-d39d95efa82c?auto=format&fit=crop&q=70&w=1800');padding:80px 20px 112px}}
 .w{max-width:520px;margin:0 auto}
-h1{font-size:30px;line-height:1.12;margin:0 0 8px;letter-spacing:-.3px}
-.hero p{margin:0;font-size:17px;color:#d3ddee}
-.card{background:#fff;max-width:520px;margin:-56px 16px 0;padding:20px;border-radius:16px;box-shadow:0 14px 40px rgba(15,35,66,.2)}
-@media(min-width:552px){.card{margin:-56px auto 0}}
-.card h2{margin:0 0 4px;font-size:19px}.sub{margin:0 0 6px;color:var(--mut);font-size:14px}
-label{display:block;font-weight:600;font-size:14px;margin:12px 0 5px}.opt{font-weight:400;color:var(--mut)}
-input{width:100%;padding:15px;font-size:18px;border:1.5px solid var(--line);border-radius:10px;background:#fff;color:var(--ink)}
-input:focus{outline:0;border-color:var(--amber);box-shadow:0 0 0 3px #fde6b8}
-button{width:100%;margin-top:18px;padding:18px;font-size:19px;font-weight:800;border:0;border-radius:10px;background:var(--amber);color:#111;cursor:pointer}
-button:disabled{opacity:.6}
-.fine{margin-top:12px;font-size:12px;color:#6b7686;line-height:1.4}
-.pills{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
-.pills div{background:#eef3fa;padding:7px 11px;border-radius:20px;font-size:13px;font-weight:600;color:#2c4a6e}
-#ok{display:none;text-align:center;padding:18px 0}#ok h2{font-size:26px;margin:0 0 8px}
-footer{text-align:center;color:#8a94a6;font-size:12px;padding:28px 16px 28px}
+h1{font-size:34px;line-height:1.1;margin:0 0 10px;letter-spacing:-.8px;font-weight:700}
+@media(min-width:700px){h1{font-size:44px}}
+.hero p{margin:0;font-size:17px;color:rgba(255,255,255,.88);max-width:30em}
+.card{background:#fff;max-width:520px;margin:-64px 16px 0;padding:28px 24px 24px;border-radius:14px;box-shadow:0 20px 50px rgba(15,35,66,.16),0 2px 6px rgba(15,35,66,.06)}
+@media(min-width:552px){.card{margin:-64px auto 0;padding:32px}}
+.card h2{margin:0 0 4px;font-size:20px;font-weight:600;letter-spacing:-.3px}
+.card .lead{margin:0 0 8px;color:var(--mut);font-size:15px}
+label{display:block;font-weight:500;font-size:14px;margin:16px 0 6px;color:#2a3442}.opt{font-weight:400;color:#8a94a3}
+input{width:100%;padding:14px 15px;font:inherit;font-size:17px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--ink);transition:border-color .15s,box-shadow .15s}
+input::placeholder{color:#a3acb9}
+input:focus{outline:0;border-color:var(--navy);box-shadow:0 0 0 3px rgba(15,35,66,.12)}
+button{width:100%;margin-top:22px;padding:16px;font:inherit;font-size:17px;font-weight:600;border:0;border-radius:8px;background:var(--navy);color:#fff;cursor:pointer;transition:background .15s}
+button:hover{background:#1b355e}button:disabled{opacity:.6}
+.fine{margin-top:14px;font-size:12px;color:#8a94a3;line-height:1.5}
+#ok{display:none;text-align:center;padding:24px 0 8px}#ok h2{font-size:24px;margin:0 0 8px}#ok p{color:var(--mut);margin:0}
+footer{text-align:center;color:#9aa3b0;font-size:12px;padding:32px 16px}
 </style></head><body>
-<header><div>RISIDE <span>ROOFING</span></div><small>Free inspections</small></header>
+<header><div class="brand">Riside <span>Roofing</span></div></header>
 <div class="hero"><div class="w"><h1>Need a new roof?</h1><p>Get a free, no-obligation inspection and written quote from a local roofer.</p></div></div>
 <div class="card">
 <form id="f" novalidate>
-<h2>Request your free inspection</h2>
+<h2>Request your free inspection</h2><p class="lead">A local roofer will call or text you to schedule.</p>
 <label for="n">Name</label><input id="n" required maxlength="40" autocomplete="name" placeholder="Jane Smith">
 <label for="p">Mobile phone</label><input id="p" required type="tel" inputmode="tel" maxlength="20" autocomplete="tel" placeholder="(555) 555-5555">
 <label for="a">ZIP code</label><input id="a" required inputmode="numeric" maxlength="10" autocomplete="postal-code" placeholder="12345">
 <label for="m">What's going on with your roof? <span class="opt">(optional)</span></label><input id="m" maxlength="45" autocomplete="off" placeholder="e.g. leak, storm damage, old roof">
 <button id="b" type="submit">Request free inspection</button>
-<div class="pills"><div>&#10003; 100% free</div><div>&#10003; No obligation</div><div>&#10003; Local roofers</div></div>
 <div class="fine">By tapping the button you agree that a roofing company may call or text you about your roof, possibly with automated technology. Consent is not required to purchase anything. Msg &amp; data rates may apply. We do not sell your info. This page uses cookieless analytics to measure visits.</div>
 </form>
 <div id="ok"><h2>Thank you!</h2><p>We got your request. A local roofer will call you soon.</p></div>
 </div>
-<footer>Riside &middot; Free roof inspection referral service<br>Photo via Unsplash</footer>
+<footer>&copy; Riside &middot; Free roof inspection referral service</footer>
 <script>
 /* Roofing page visitor stats, same cookieless first-party format as /t.js, logged under path /roofing.
    Records views, source (UTM, fbclid, referrer), device, browser, OS, city/region/country, scroll depth, time, clicks, form start and submit. No IP stored. */
