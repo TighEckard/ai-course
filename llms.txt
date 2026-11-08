@@ -20,3 +20,4 @@ Founded 2026. Taught live by Holden Eckard. Classes run Tuesday and Thursday at 
 
 ## Sitemap
 - https://riside.com/sitemap.xml
+- [Creator program](https://riside.com/creators/): creators and influencers paid per 1,000 verified views plus a cut of each paying member
