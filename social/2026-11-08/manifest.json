@@ -68,6 +68,60 @@
    "board": "Riside",
    "link": "https://riside.com/?src=meta_wbdinner",
    "caption_meta": "Nothing for dinner? Tell AI what is in your fridge. Comment FRIDGE if you want the steps! Free live AI classes: riside.com"
+  },
+  {
+   "id": "intern",
+   "file": "intern.mp4",
+   "format": "personal-hook story",
+   "look": "personal-hook story",
+   "slot": "am",
+   "platforms": [
+    "yt"
+   ],
+   "board": "Riside",
+   "link": "https://riside.com/?src=yt_intern",
+   "yt_title": "The intern got promoted. He's 22. #Shorts",
+   "caption_yt": "He did not work harder. Nobody ever showed you. One live class closes the gap. Free live AI classes: riside.com #Shorts"
+  },
+  {
+   "id": "dentist",
+   "file": "dentist.mp4",
+   "format": "personal-hook story",
+   "look": "personal-hook story",
+   "slot": "am",
+   "platforms": [
+    "meta"
+   ],
+   "board": "Riside",
+   "link": "https://riside.com/?src=meta_dentist",
+   "caption_meta": "POV: you find out the dentist's receptionist is not a person. Feeling overwhelmed by AI? Comment YES if so, you are not alone. Free live AI classes: riside.com"
+  },
+  {
+   "id": "raise",
+   "file": "raise.mp4",
+   "format": "personal-hook story",
+   "look": "personal-hook story",
+   "slot": "pm",
+   "platforms": [
+    "yt"
+   ],
+   "board": "Riside",
+   "link": "https://riside.com/?src=yt_raise",
+   "yt_title": "The email that could get you a $14k raise #Shorts",
+   "caption_yt": "Tell AI your wins and it writes the email. Nobody ever taught most people this. Free live AI classes: riside.com #Shorts"
+  },
+  {
+   "id": "bankcall",
+   "file": "bankcall.mp4",
+   "format": "personal-hook story",
+   "look": "personal-hook story",
+   "slot": "pm",
+   "platforms": [
+    "meta"
+   ],
+   "board": "Riside",
+   "link": "https://riside.com/?src=meta_bankcall",
+   "caption_meta": "Stop. Do not answer that call from your bank. Scams are everywhere and the defense is education. Comment SAFE for more. Free live AI classes: riside.com"
   }
  ]
 }
