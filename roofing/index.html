@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Free Roof Inspection &amp; Quote | Roof Check</title>
+<title>Free Roof Inspection &amp; Quote | Riside</title>
 <meta name="description" content="Get a free roof inspection and quote from a local roofer. Name, phone and ZIP, takes 20 seconds.">
 <meta name="robots" content="noindex,nofollow">
 <meta property="og:type" content="website"><meta property="og:title" content="Need a new roof? Get a free inspection and quote">
@@ -19,7 +19,7 @@ h1{font-size:30px;line-height:1.12;margin:0 0 8px;letter-spacing:-.3px}
 .card{background:#fff;max-width:520px;margin:-56px 16px 0;padding:20px;border-radius:16px;box-shadow:0 14px 40px rgba(15,35,66,.2)}
 @media(min-width:552px){.card{margin:-56px auto 0}}
 .card h2{margin:0 0 4px;font-size:19px}.sub{margin:0 0 6px;color:var(--mut);font-size:14px}
-label{display:block;font-weight:600;font-size:14px;margin:12px 0 5px}
+label{display:block;font-weight:600;font-size:14px;margin:12px 0 5px}.opt{font-weight:400;color:var(--mut)}
 input{width:100%;padding:15px;font-size:18px;border:1.5px solid var(--line);border-radius:10px;background:#fff;color:var(--ink)}
 input:focus{outline:0;border-color:var(--amber);box-shadow:0 0 0 3px #fde6b8}
 button{width:100%;margin-top:18px;padding:18px;font-size:19px;font-weight:800;border:0;border-radius:10px;background:var(--amber);color:#111;cursor:pointer}
@@ -33,14 +33,15 @@ button:disabled{opacity:.6}
 .steps b{color:#d97706}
 footer{text-align:center;color:#8a94a6;font-size:12px;padding:18px 16px 28px}
 </style></head><body>
-<header><div>ROOF<span>CHECK</span></div><small>Free inspections</small></header>
+<header><div>RISIDE <span>ROOFING</span></div><small>Free inspections</small></header>
 <div class="hero"><div class="w"><h1>Need a new roof? Get a free inspection and quote.</h1><p>Tell us where. A local roofer calls to book it.</p></div></div>
 <div class="card">
 <form id="f" novalidate>
-<h2>Get your free quote</h2><p class="sub">3 quick fields. Takes 20 seconds.</p>
+<h2>Get your free quote</h2><p class="sub">Takes 20 seconds.</p>
 <label for="n">Name</label><input id="n" required maxlength="40" autocomplete="name" placeholder="Jane Smith">
 <label for="p">Mobile phone</label><input id="p" required type="tel" inputmode="tel" maxlength="20" autocomplete="tel" placeholder="(555) 555-5555">
 <label for="a">ZIP code</label><input id="a" required inputmode="numeric" maxlength="10" autocomplete="postal-code" placeholder="12345">
+<label for="m">What's going on with your roof? <span class="opt">(optional)</span></label><input id="m" maxlength="45" autocomplete="off" placeholder="e.g. leak, storm damage, old roof">
 <button id="b" type="submit">Get my free quote</button>
 <div class="pills"><div>&#10003; 100% free</div><div>&#10003; No obligation</div><div>&#10003; Local roofers</div></div>
 <div class="fine">By tapping the button you agree that a roofing company may call or text you about your roof, possibly with automated technology. Consent is not required to purchase anything. Msg &amp; data rates may apply. We do not sell your info.</div>
@@ -48,16 +49,16 @@ footer{text-align:center;color:#8a94a6;font-size:12px;padding:18px 16px 28px}
 <div id="ok"><h2>Thank you!</h2><p>We got your request. A local roofer will call you soon.</p></div>
 </div>
 <div class="steps"><div><b>1.</b> Tell us your name, phone and ZIP.</div><div><b>2.</b> A local pro calls to schedule a free inspection.</div><div><b>3.</b> You get a clear written quote, no pressure.</div></div>
-<footer>Roof Check &middot; Free roof inspection referral service</footer>
+<footer>Riside &middot; Free roof inspection referral service</footer>
 <script>
 var U='https://yhsxxblilclylzgejehk.supabase.co/rest/v1/signups',K='sb_publishable_9BiONVmj8Ht4k7lBsxGkkA_Yajbl8Rj';
 var src=(new URLSearchParams(location.search)).get('src')||'roofing';
 document.getElementById('f').onsubmit=function(e){e.preventDefault();
 var v=function(i){return document.getElementById(i).value.trim()};
-var ph=v('p').replace(/\D/g,''),zip=v('a');
+var ph=v('p').replace(/\D/g,''),zip=v('a'),note=v('m');
 if(!v('n')||ph.length<10||zip.length<5){alert('Please enter your name, a 10 digit phone number and ZIP code.');return}
 var b=document.getElementById('b');b.disabled=true;b.textContent='Sending...';
 fetch(U,{method:'POST',headers:{apikey:K,'Content-Type':'application/json',Prefer:'return=minimal'},
-body:JSON.stringify({name:(v('n')+' | ZIP '+zip).slice(0,100),email:ph+'@roofing.lead',slot:'roofing',source:('roofing-'+src).slice(0,79)})}).then(function(r){
+body:JSON.stringify({name:(v('n')+' | ZIP '+zip+(note?' | '+note:'')).slice(0,100),email:ph+'@roofing.lead',slot:'roofing',source:('roofing-'+src).slice(0,79)})}).then(function(r){
 if(!r.ok)throw 0;document.getElementById('f').style.display='none';document.getElementById('ok').style.display='block'}).catch(function(){b.disabled=false;b.textContent='Get my free quote';alert('Something went wrong, please try again.')})};
 </script></body></html>
