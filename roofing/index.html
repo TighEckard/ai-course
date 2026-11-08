@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Free Roof Inspection Quote</title><meta name="robots" content="noindex">
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,sans-serif;background:#f7f4ee;color:#222;display:flex;min-height:100vh;align-items:center;justify-content:center;padding:20px}
+.c{background:#fff;max-width:440px;width:100%;padding:32px 26px;border-radius:14px;box-shadow:0 6px 28px rgba(0,0,0,.09)}
+h1{font-size:28px;margin:0 0 8px;line-height:1.15;color:#16294a}p{margin:0 0 20px;color:#555;line-height:1.45}
+label{display:block;font-weight:600;font-size:14px;margin:14px 0 6px}
+input{width:100%;padding:14px;font-size:17px;border:1.5px solid #ccc;border-radius:8px}
+button{width:100%;margin-top:22px;padding:16px;font-size:18px;font-weight:700;border:0;border-radius:8px;background:#e8920c;color:#fff;cursor:pointer}
+button:disabled{opacity:.6}small{display:block;margin-top:14px;color:#888;font-size:12px;text-align:center}#ok{display:none;text-align:center}
+</style></head><body><div class="c">
+<form id="f"><h1>Get your free roof inspection</h1><p>Enter your address and phone number and a local roofer will call you with a free quote.</p>
+<label for="a">Property address</label><input id="a" required maxlength="95" autocomplete="street-address" placeholder="123 Main St, City, State">
+<label for="p">Phone number</label><input id="p" required type="tel" maxlength="20" autocomplete="tel" placeholder="(555) 555-5555">
+<button id="b">Get my free quote</button><small>No spam. No obligation. By submitting you agree to be contacted by phone or text about your roof.</small></form>
+<div id="ok"><h1>Thank you!</h1><p>We got your request and will call you soon.</p></div></div>
+<script>
+var U='https://yhsxxblilclylzgejehk.supabase.co/rest/v1/signups',K='sb_publishable_9BiONVmj8Ht4k7lBsxGkkA_Yajbl8Rj';
+document.getElementById('f').onsubmit=function(e){e.preventDefault();var b=document.getElementById('b');b.disabled=true;
+var ph=document.getElementById('p').value.trim(),ad=document.getElementById('a').value.trim();
+fetch(U,{method:'POST',headers:{apikey:K,'Content-Type':'application/json',Prefer:'return=minimal'},
+body:JSON.stringify({name:ad,email:ph+'@roofing.lead',slot:'roofing',source:'roofing'})}).then(function(r){
+if(!r.ok)throw 0;document.getElementById('f').style.display='none';document.getElementById('ok').style.display='block'}).catch(function(){b.disabled=false;alert('Something went wrong, please try again.')})};
+</script></body></html>
