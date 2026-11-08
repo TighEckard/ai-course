@@ -14,6 +14,60 @@
    "caption_pin": "Six calm, easy things to ask AI in the evening: a bedtime story, tomorrow's weather, a stretch routine and more. Free live AI classes in small groups at riside.com",
    "link": "https://riside.com/?src=pin_pin24",
    "board": "Riside"
+  },
+  {
+   "id": "meeting",
+   "file": "meeting.mp4",
+   "format": "viral-hook story",
+   "look": "viral-hook story",
+   "slot": "am",
+   "platforms": [
+    "yt"
+   ],
+   "board": "Riside",
+   "link": "https://riside.com/?src=yt_meeting",
+   "yt_title": "POV: everyone in the meeting is using AI #Shorts",
+   "caption_yt": "You are not behind. You are untaught. One live class closes the gap. Free live AI classes: riside.com #Shorts"
+  },
+  {
+   "id": "dictate",
+   "file": "dictate.mp4",
+   "format": "viral-hook story",
+   "look": "viral-hook story",
+   "slot": "am",
+   "platforms": [
+    "meta"
+   ],
+   "board": "Riside",
+   "link": "https://riside.com/?src=meta_dictate",
+   "caption_meta": "POV: you are 58 and just found out you never had to type. Comment MIC if you did not know! Free live AI classes: riside.com"
+  },
+  {
+   "id": "silence",
+   "file": "silence.mp4",
+   "format": "viral-hook story",
+   "look": "viral-hook story",
+   "slot": "pm",
+   "platforms": [
+    "yt"
+   ],
+   "board": "Riside",
+   "link": "https://riside.com/?src=yt_silence",
+   "yt_title": "One phone setting that stops scam calls #Shorts",
+   "caption_yt": "iPhone and Android steps in 20 seconds. Nobody shows you this stuff. Free live AI classes: riside.com #Shorts"
+  },
+  {
+   "id": "voiceclone",
+   "file": "voiceclone.mp4",
+   "format": "viral-hook story",
+   "look": "viral-hook story",
+   "slot": "pm",
+   "platforms": [
+    "meta"
+   ],
+   "board": "Riside",
+   "link": "https://riside.com/?src=meta_voiceclone",
+   "caption_meta": "That is not your grandson on the phone. Pick a family safe word today. Comment SAFE WORD if you will! Free live AI classes: riside.com"
   }
  ]
 }
