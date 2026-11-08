@@ -1,0 +1,522 @@
+[
+{
+"key": "b29273a739fd",
+"voice": "en-US-AndrewNeural",
+"text": "Got a letter you cannot understand? Do this."
+},
+{
+"key": "c03114d5725f",
+"voice": "en-US-AvaNeural",
+"text": "Step one. Take a clear photo of it."
+},
+{
+"key": "bffdca91d542",
+"voice": "en-US-BrianNeural",
+"text": "Step two. Ask the AI: explain this like I am a friend."
+},
+{
+"key": "7623d9760272",
+"voice": "en-US-AvaNeural",
+"text": "Step three. Ask: what do I need to do, and by when?"
+},
+{
+"key": "a78173bfe096",
+"voice": "en-US-BrianNeural",
+"text": "Free live AI classes. Rye side dot com."
+},
+{
+"key": "d14070d077de",
+"voice": "en-US-AndrewNeural",
+"text": "Tiny medicine print? Make AI read it for you."
+},
+{
+"key": "d4259b6e15e3",
+"voice": "en-US-AvaNeural",
+"text": "One. Photograph the label."
+},
+{
+"key": "8c0d9a31f3a8",
+"voice": "en-US-BrianNeural",
+"text": "Two. Ask: what does this say, in big simple words?"
+},
+{
+"key": "b0baa03d677f",
+"voice": "en-US-AvaNeural",
+"text": "Three. Always confirm with your pharmacist."
+},
+{
+"key": "a4408470b08f",
+"voice": "en-US-AndrewNeural",
+"text": "Planning a trip? Let AI do the boring part."
+},
+{
+"key": "cd57692b581c",
+"voice": "en-US-AvaNeural",
+"text": "One. Tell it where and for how many days."
+},
+{
+"key": "af557c1ffbc5",
+"voice": "en-US-BrianNeural",
+"text": "Two. Add what you like. Slow walks, good food, no stairs."
+},
+{
+"key": "cc74b566a5ed",
+"voice": "en-US-AvaNeural",
+"text": "Three. Ask for a day by day plan you can print."
+},
+{
+"key": "0d818d47a8d1",
+"voice": "en-US-AndrewNeural",
+"text": "Nothing for dinner? Try this in thirty seconds."
+},
+{
+"key": "b5594a8b404a",
+"voice": "en-US-AvaNeural",
+"text": "One. List what you already have."
+},
+{
+"key": "58904d6910cc",
+"voice": "en-US-BrianNeural",
+"text": "Two. Say how long you have, and who is eating."
+},
+{
+"key": "003e133fd7f1",
+"voice": "en-US-AvaNeural",
+"text": "Three. Ask for one easy recipe. Then cook it."
+},
+{
+"key": "a34391823f18",
+"voice": "en-US-AndrewNeural",
+"text": "This text says your bank account is locked. Do not tap it. Do this instead."
+},
+{
+"key": "dcbc134d0d96",
+"voice": "en-US-AvaNeural",
+"text": "One. Do not tap the link. Just look at it."
+},
+{
+"key": "8a6cd4a75bbd",
+"voice": "en-US-BrianNeural",
+"text": "Two. Paste the words into AI and ask: is this a scam?"
+},
+{
+"key": "7fdb7324f8c2",
+"voice": "en-US-AvaNeural",
+"text": "Three. Call the number on your real card. Not the one in the text."
+},
+{
+"key": "cefe690176ac",
+"voice": "en-US-AndrewNeural",
+"text": "You need to write a thank you note and you are staring at a blank page. Fix it in two minutes."
+},
+{
+"key": "e8e916dbe2f6",
+"voice": "en-US-AvaNeural",
+"text": "One. Tell AI who it is for and why."
+},
+{
+"key": "0c352bed18b5",
+"voice": "en-US-BrianNeural",
+"text": "Two. Ask it to keep it warm, short and in your voice."
+},
+{
+"key": "49f7746045f1",
+"voice": "en-US-AvaNeural",
+"text": "Three. Read it, change a word or two, and send it."
+},
+{
+"key": "42e588c40f9c",
+"voice": "en-US-AndrewNeural",
+"text": "You have eight seconds before a scammer on the phone gets what they want. Say this sentence."
+},
+{
+"key": "d23e1fd4333a",
+"voice": "en-US-AvaNeural",
+"text": "One. Say: I will call you back on the number I already have."
+},
+{
+"key": "cab2ebf15c01",
+"voice": "en-US-BrianNeural",
+"text": "Two. Hang up. Do not wait for them to answer."
+},
+{
+"key": "5ba072be41bb",
+"voice": "en-US-AvaNeural",
+"text": "Three. Call the real number from your card or the official website."
+},
+{
+"key": "7d5bf0863022",
+"voice": "en-US-AndrewNeural",
+"text": "The pharmacist said a word you did not catch. You nodded anyway. Fix it from the car."
+},
+{
+"key": "011037ea1e22",
+"voice": "en-US-AvaNeural",
+"text": "One. Type the word, or take a photo of the paper."
+},
+{
+"key": "1e8186eaada3",
+"voice": "en-US-BrianNeural",
+"text": "Two. Ask: explain this like I am twelve, and what should I ask my doctor?"
+},
+{
+"key": "bdb2ca13314e",
+"voice": "en-US-AvaNeural",
+"text": "Three. Write down the three questions and call the pharmacist back."
+},
+{
+"key": "7edb3345d7df",
+"voice": "en-US-AndrewNeural",
+"text": "Scam or safe? Four seconds each. Go."
+},
+{
+"key": "d05a0092f73f",
+"voice": "en-US-AvaNeural",
+"text": "Round one. A text says: your package is held. Tap this link to pay one dollar. Scam or safe?"
+},
+{
+"key": "6de8b69695e2",
+"voice": "en-US-BrianNeural",
+"text": "Scam! Real carriers do not text you payment links."
+},
+{
+"key": "03cea88ec97c",
+"voice": "en-US-AvaNeural",
+"text": "Round two. Your pharmacy texts: your refill is ready. No link. Scam or safe?"
+},
+{
+"key": "46c3343897af",
+"voice": "en-US-BrianNeural",
+"text": "Safe! No link, no payment, and it is from a number you know."
+},
+{
+"key": "154f6876faab",
+"voice": "en-US-AndrewNeural",
+"text": "Not sure? Paste it into AI and ask: is this a scam?"
+},
+{
+"key": "fba5d4b7707c",
+"voice": "en-US-AndrewNeural",
+"text": "One wrong tap and a scammer gets your money. Can you spot the scam?"
+},
+{
+"key": "c826d1cd2e4c",
+"voice": "en-US-AvaNeural",
+"text": "Round one. A pop up says: your computer has a virus, call this number now. Scam or safe?"
+},
+{
+"key": "17726bab2bf6",
+"voice": "en-US-BrianNeural",
+"text": "Scam! Close the window. Real warnings never give a phone number."
+},
+{
+"key": "5d4ff010cd0b",
+"voice": "en-US-AvaNeural",
+"text": "Round two. A friend texts: are we still on for lunch Thursday? Scam or safe?"
+},
+{
+"key": "58fb02b8f1f1",
+"voice": "en-US-BrianNeural",
+"text": "Safe! Known friend, normal question, no link and no money."
+},
+{
+"key": "d9b2fe3fae85",
+"voice": "en-US-AndrewNeural",
+"text": "Not sure? Ask AI before you click."
+},
+{
+"key": "61a4bcb9079d",
+"voice": "en-US-AndrewNeural",
+"text": "Scammers took over ten billion dollars from Americans in one year. Which of these texts is one of them?"
+},
+{
+"key": "7e6e2020cba6",
+"voice": "en-US-AvaNeural",
+"text": "Round one. A text says: you owe one dollar ninety nine for a package. Pay here. Scam or safe?"
+},
+{
+"key": "6dbddc7b183e",
+"voice": "en-US-BrianNeural",
+"text": "Scam! The one ninety nine is bait. They want your card number."
+},
+{
+"key": "784ef6d0cd73",
+"voice": "en-US-AvaNeural",
+"text": "Round two. A text from your pharmacy: your prescription is ready. Reply C to confirm. Scam or safe?"
+},
+{
+"key": "fa1c12f49a76",
+"voice": "en-US-BrianNeural",
+"text": "Safe. No link, no payment, and it matches a number you already use."
+},
+{
+"key": "b9384e17a491",
+"voice": "en-US-AndrewNeural",
+"text": "Not sure? Paste it into AI and ask if it is a scam."
+},
+{
+"key": "57d97d527a44",
+"voice": "en-US-AndrewNeural",
+"text": "Scam or safe? Quick fire. Go."
+},
+{
+"key": "78823be4a85f",
+"voice": "en-US-AvaNeural",
+"text": "Round one. Your grandson calls and says: I am in jail, send money, do not tell mom. Scam or safe?"
+},
+{
+"key": "1259b02df9e4",
+"voice": "en-US-BrianNeural",
+"text": "Scam! Hang up and call him on his real number."
+},
+{
+"key": "164a6ac4f01c",
+"voice": "en-US-AvaNeural",
+"text": "Round two. Your bank app shows a notice that you opened yourself. Scam or safe?"
+},
+{
+"key": "4a0090c8149a",
+"voice": "en-US-BrianNeural",
+"text": "Safe! You opened it yourself, not through a link."
+},
+{
+"key": "2ad540681461",
+"voice": "en-US-AndrewNeural",
+"text": "When in doubt, ask AI before you click."
+},
+{
+"key": "a89b8206d14b",
+"voice": "en-US-AndrewNeural",
+"text": "This is what a bill can look like. Watch."
+},
+{
+"key": "f51036b24f73",
+"voice": "en-US-BrianNeural",
+"text": "Now ask AI: say this in plain English. Done."
+},
+{
+"key": "716999d4031c",
+"voice": "en-US-AndrewNeural",
+"text": "Paste any confusing paragraph, then ask: say this in plain English."
+},
+{
+"key": "229bd29767eb",
+"voice": "en-US-AndrewNeural",
+"text": "You nodded like you understood your test results. You did not. Watch this."
+},
+{
+"key": "7561b613e98a",
+"voice": "en-US-BrianNeural",
+"text": "Ask AI to say it plainly. Your average blood sugar is a little high. Ask your doctor what to do next."
+},
+{
+"key": "209a4771492e",
+"voice": "en-US-AndrewNeural",
+"text": "Ask the second question too: what should I ask my doctor?"
+},
+{
+"key": "7fc3968f8219",
+"voice": "en-US-AndrewNeural",
+"text": "Insurance letters are written to confuse. Watch this."
+},
+{
+"key": "193b3c7a2e18",
+"voice": "en-US-BrianNeural",
+"text": "Ask AI to say it simply. They paid part. You owe the rest."
+},
+{
+"key": "a75452d1992b",
+"voice": "en-US-AndrewNeural",
+"text": "Always ask: what does this mean, and what do I do next?"
+},
+{
+"key": "e0772e23a1e5",
+"voice": "en-US-AndrewNeural",
+"text": "You clicked agree without reading. Here is what you actually agreed to."
+},
+{
+"key": "102d3dc3eaf7",
+"voice": "en-US-BrianNeural",
+"text": "Ask AI for the short version. They can change or cancel it any time."
+},
+{
+"key": "bc7b0bab6a7f",
+"voice": "en-US-AndrewNeural",
+"text": "Paste the fine print. Ask: what should I watch out for?"
+},
+{
+"key": "a52209d74c30",
+"voice": "en-US-AndrewNeural",
+"text": "The intern got promoted. He is twenty two. And he has been hiding one thing."
+},
+{
+"key": "c561271763eb",
+"voice": "en-US-AvaNeural",
+"text": "Everyone clapped. You clapped too. You have been here eleven years."
+},
+{
+"key": "f1d2e8a5fb26",
+"voice": "en-US-BrianNeural",
+"text": "His secret? Every report, every email, every deadline. He asks an AI first."
+},
+{
+"key": "96de4bb44458",
+"voice": "en-US-AndrewNeural",
+"text": "He did not work harder than you. Nobody ever showed you. That is the only gap."
+},
+{
+"key": "13892e28ea30",
+"voice": "en-US-AvaNeural",
+"text": "One live class, in plain English, with real people. It is not too late."
+},
+{
+"key": "95061f5b1979",
+"voice": "en-US-BrianNeural",
+"text": "Free live AI classes in small groups. Rye side dot com."
+},
+{
+"key": "50d1fa97395a",
+"voice": "en-US-AndrewNeural",
+"text": "This is the email that could get you a fourteen thousand dollar raise. Anyone can write it in two minutes."
+},
+{
+"key": "d32909827566",
+"voice": "en-US-BrianNeural",
+"text": "A sixty one year old can do it. You tell AI your wins. It writes the email."
+},
+{
+"key": "0cc748330a5f",
+"voice": "en-US-AvaNeural",
+"text": "Most people never ask. Not because they do not deserve it. Because nobody taught them this."
+},
+{
+"key": "5c892c6c82f6",
+"voice": "en-US-AndrewNeural",
+"text": "It is a skill, like typing once was. And you can learn it live, in a small group."
+},
+{
+"key": "ae282b86215a",
+"voice": "en-US-AndrewNeural",
+"text": "Point of view. You find out your dentist's receptionist is not a person."
+},
+{
+"key": "cf0408a05294",
+"voice": "en-US-AvaNeural",
+"text": "She booked you, checked your insurance, and said hope your day goes great. All a program."
+},
+{
+"key": "f06b5d5db546",
+"voice": "en-US-BrianNeural",
+"text": "It is in your phone, your bank, your doctor's office, your grandkids' homework. AI is everywhere."
+},
+{
+"key": "e6365a3d3d29",
+"voice": "en-US-AvaNeural",
+"text": "Does that make you feel a little overwhelmed? That is normal. Nobody explained it to you."
+},
+{
+"key": "450d2cd85dce",
+"voice": "en-US-AndrewNeural",
+"text": "It is not about being smart. It is one friendly class, in plain English."
+},
+{
+"key": "1a906b99f421",
+"voice": "en-US-AndrewNeural",
+"text": "Stop. Do not answer that call from your bank."
+},
+{
+"key": "aa3a3b56680a",
+"voice": "en-US-AvaNeural",
+"text": "It sounds exactly like them. Same voice. Same hold music. A computer can copy a voice from a few seconds of audio."
+},
+{
+"key": "107a80c7b1e1",
+"voice": "en-US-BrianNeural",
+"text": "If you answer, they say your account is hacked and ask you to move money. Hang up. Call the number on your card."
+},
+{
+"key": "735293a56a48",
+"voice": "en-US-AndrewNeural",
+"text": "Scams are everywhere, and with AI, older folks are getting left behind. The defense is not luck. It is education."
+},
+{
+"key": "f05ef57c9bc6",
+"voice": "en-US-AndrewNeural",
+"text": "Point of view. You are fifty eight, and you just found out you did not have to type any of this."
+},
+{
+"key": "0c501b58d6a6",
+"voice": "en-US-AvaNeural",
+"text": "Thirty years of typing with one finger. And the mic on your keyboard was right there."
+},
+{
+"key": "6bbc9a7c8f4b",
+"voice": "en-US-BrianNeural",
+"text": "Tap the mic and talk. Then ask AI to make it sound polite. Done."
+},
+{
+"key": "53fc5c9e0eb3",
+"voice": "en-US-AndrewNeural",
+"text": "You are not slow. Nobody ever showed you. That is the whole gap."
+},
+{
+"key": "1cfc1c66279e",
+"voice": "en-US-AndrewNeural",
+"text": "That is not your grandson on the phone. A voice can be copied for almost nothing."
+},
+{
+"key": "90448966dfe8",
+"voice": "en-US-AvaNeural",
+"text": "A few seconds of audio from a video is enough. It sounds exactly like family, and it is crying."
+},
+{
+"key": "c4112d8fdeee",
+"voice": "en-US-BrianNeural",
+"text": "Here is the one thing that stops it. Pick a family safe word today. If they cannot say it, hang up."
+},
+{
+"key": "0e4bb09a2ebc",
+"voice": "en-US-AndrewNeural",
+"text": "Scams are everywhere, and with AI, older folks are getting left behind. The defense is education, not luck."
+},
+{
+"key": "f284161dd84d",
+"voice": "en-US-AndrewNeural",
+"text": "Your phone is letting scammers ring you all day, and there is one setting that stops it."
+},
+{
+"key": "9a1f550cbd89",
+"voice": "en-US-AvaNeural",
+"text": "On an iPhone, open Settings, Phone, and turn on Silence Unknown Callers."
+},
+{
+"key": "b2b2d6f4eaa2",
+"voice": "en-US-BrianNeural",
+"text": "On Android, open your Phone app, tap Settings, and turn on Caller ID and spam protection."
+},
+{
+"key": "add48729d467",
+"voice": "en-US-AndrewNeural",
+"text": "Nobody shows you this stuff. It is not you. It is education, and it is free."
+},
+{
+"key": "5f959863c70c",
+"voice": "en-US-AndrewNeural",
+"text": "Point of view. Everyone in the meeting is using AI, and you are pretending to take notes."
+},
+{
+"key": "245dbbcd8773",
+"voice": "en-US-BrianNeural",
+"text": "They are not smarter than you. They typed one sentence and got a summary in four seconds."
+},
+{
+"key": "42c37867d017",
+"voice": "en-US-AndrewNeural",
+"text": "Everyone under thirty got shown how. Nobody showed you. That is the whole gap."
+},
+{
+"key": "e2c01518e60e",
+"voice": "en-US-AvaNeural",
+"text": "One live class, in plain English, closes it. You are not behind. You are untaught."
+}
+]
