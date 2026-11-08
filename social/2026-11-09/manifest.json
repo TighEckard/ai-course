@@ -14,6 +14,60 @@
    "caption_pin": "Six calm, easy things to ask AI in the evening: a bedtime story, tomorrow's weather, a stretch routine and more. Free live AI classes in small groups at riside.com",
    "link": "https://riside.com/?src=pin_pin24",
    "board": "Riside"
+  },
+  {
+   "id": "ba3",
+   "file": "ba3.mp4",
+   "format": "before-after",
+   "look": "before-after",
+   "slot": "am",
+   "platforms": [
+    "yt"
+   ],
+   "board": "Riside",
+   "link": "https://riside.com/?src=yt_ba3",
+   "yt_title": "Terms and conditions in plain English with AI #Shorts",
+   "caption_yt": "Before: the fine print nobody reads. After: what it really says. Free live AI classes: riside.com #Shorts"
+  },
+  {
+   "id": "wbscam",
+   "file": "wbscam.mp4",
+   "format": "whiteboard doodle",
+   "look": "whiteboard doodle",
+   "slot": "am",
+   "platforms": [
+    "meta"
+   ],
+   "board": "Riside",
+   "link": "https://riside.com/?src=meta_wbscam",
+   "caption_meta": "Weird text from your bank? Do these 3 things first. Comment CHECK if you want more scam tips! Free live AI classes: riside.com"
+  },
+  {
+   "id": "quiz3",
+   "file": "quiz3.mp4",
+   "format": "scam-or-safe quiz",
+   "look": "scam-or-safe quiz",
+   "slot": "pm",
+   "platforms": [
+    "yt"
+   ],
+   "board": "Riside",
+   "link": "https://riside.com/?src=yt_quiz3",
+   "yt_title": "Scam or safe? Virus pop-up vs a friend's text #Shorts",
+   "caption_yt": "Can you tell which one is the scam? Free live AI classes: riside.com #Shorts"
+  },
+  {
+   "id": "wbnote",
+   "file": "wbnote.mp4",
+   "format": "whiteboard doodle",
+   "look": "whiteboard doodle",
+   "slot": "pm",
+   "platforms": [
+    "meta"
+   ],
+   "board": "Riside",
+   "link": "https://riside.com/?src=meta_wbnote",
+   "caption_meta": "Need the right words for a thank you note? AI can help. Comment NOTE for the steps! Free live AI classes: riside.com"
   }
  ]
 }
