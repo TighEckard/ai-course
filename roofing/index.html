@@ -86,7 +86,10 @@ function ev(name){var e=base('click');e.el=name.slice(0,80);e.vw=w.innerWidth;pu
 function measure(){var de=d.documentElement,H=Math.max(de.scrollHeight,d.body.scrollHeight);depth=Math.max(depth,Math.min(100,(w.pageYOffset+w.innerHeight)/H*100))}
 function leave(){var t=shown+(vis?Date.now()-start:0);var e=base('scroll');e.depth=Math.round(depth);e.dur=Math.min(t,36e5);push(e);flush()}
 w.addEventListener('scroll',function(){if(!w._at){w._at=1;requestAnimationFrame(function(){w._at=0;measure()})}},{passive:true});
-d.addEventListener('focusin',function(e){if(!started&&e.target.tagName==='INPUT'){started=true;ev('form:started '+e.target.id)}});
+var fseen={};
+d.addEventListener('focusin',function(e){var t=e.target;if(t.tagName!=='INPUT')return;if(!started){started=true;ev('form:started '+t.id)}if(!fseen['f'+t.id]){fseen['f'+t.id]=1;ev('form:focus '+t.id)}});
+d.addEventListener('input',function(e){var t=e.target;if(t.tagName==='INPUT'&&!fseen['t'+t.id]){fseen['t'+t.id]=1;ev('form:typing '+t.id)}});
+d.addEventListener('focusout',function(e){var t=e.target;if(t.tagName==='INPUT'&&t.value.trim()&&!fseen['d'+t.id]){fseen['d'+t.id]=1;ev('form:filled '+t.id)}});
 d.addEventListener('click',function(x){if(clicks>=60)return;clicks++;var el=x.target.closest&&x.target.closest('a,button,label,input');var de=d.documentElement,W=Math.max(de.scrollWidth,de.clientWidth);var e=base('click');e.x=Math.max(0,Math.min(1000,Math.round(x.pageX/W*1000)));e.y=Math.round(x.pageY);e.vw=w.innerWidth;e.el=el?(el.tagName.toLowerCase()+':'+(el.id||(el.textContent||'').trim())).slice(0,60):null;push(e)},true);
 d.addEventListener('visibilitychange',function(){if(d.visibilityState==='hidden'){if(vis){shown+=Date.now()-start;vis=false}leave();shown=0}else if(!vis){vis=true;start=Date.now()}});
 w.addEventListener('pagehide',flush);
@@ -103,9 +106,10 @@ var RT=window.RT||{src:'direct',vid:''};
 document.getElementById('f').onsubmit=function(e){e.preventDefault();
 var v=function(i){return document.getElementById(i).value.trim()};
 var ph=v('p').replace(/\D/g,''),zip=v('a'),note=v('m');
-if(!v('n')||ph.length<10||zip.length<5){alert('Please enter your name, a 10 digit phone number and ZIP code.');return}
+if(!v('n')||ph.length<10||zip.length<5){if(RT.ev)RT.ev('form:invalid '+(!v('n')?'n ':'')+(ph.length<10?'p ':'')+(zip.length<5?'a':''));alert('Please enter your name, a 10 digit phone number and ZIP code.');return}
+if(RT.ev)RT.ev('form:submit_attempt');
 var b=document.getElementById('b');b.disabled=true;b.textContent='Sending...';
 fetch(U,{method:'POST',headers:{apikey:K,'Content-Type':'application/json',Prefer:'return=minimal'},
 body:JSON.stringify({name:(v('n')+' | ZIP '+zip+(note?' | '+note:'')).slice(0,100),email:ph+'@roofing.lead',slot:'roofing',source:('roofing-'+RT.src+'|'+RT.vid.slice(0,12)).slice(0,79)})}).then(function(r){
-if(!r.ok)throw 0;if(RT.ev)RT.ev('form:submitted');document.getElementById('f').style.display='none';document.getElementById('ok').style.display='block'}).catch(function(){b.disabled=false;b.textContent='Request free inspection';alert('Something went wrong, please try again.')})};
+if(!r.ok)throw 0;if(RT.ev)RT.ev('form:submitted');document.getElementById('f').style.display='none';document.getElementById('ok').style.display='block'}).catch(function(){if(RT.ev)RT.ev('form:submit_failed');b.disabled=false;b.textContent='Request free inspection';alert('Something went wrong, please try again.')})};
 </script></body></html>
