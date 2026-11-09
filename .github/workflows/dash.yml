@@ -1,5 +1,8 @@
 name: Refresh dashboard
 on:
+  push:
+    branches: [main]
+    paths: [scripts/dash_build.py, .github/workflows/dash.yml, dash/feed/social.json]
   schedule: [{cron: '7 * * * *'}]
   workflow_dispatch:
 permissions:

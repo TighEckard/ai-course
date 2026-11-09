@@ -9,11 +9,11 @@ KEY = 'sb_publishable_9BiONVmj8Ht4k7lBsxGkkA_Yajbl8Rj'
 def get(url, data=None, headers=None):
     req = urllib.request.Request(url, data=data, headers=headers or {'User-Agent': 'Mozilla/5.0'})
     return urllib.request.urlopen(req, timeout=30).read().decode()
-d = {'generated_at': datetime.datetime.utcnow().isoformat() + 'Z', 'errors': {}}
+d = {'generated_at': datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None).isoformat() + 'Z', 'errors': {}}
 try:
     d['site'] = json.loads(get(SB, b'{}', {'apikey': KEY, 'Content-Type': 'application/json'}))
 except Exception as e:
-    d['site'] = None; d['errors']['site'] = 'Run dash-setup.sql in Supabase (%s)' % e
+    d['site'] = None; d['errors']['site'] = 'Site numbers need the one-time dash-setup.sql paste in Supabase'
 try:
     html = get('https://www.youtube.com/@risidelearning', headers={'User-Agent': 'Mozilla/5.0', 'Cookie': 'CONSENT=YES+1'})
     cid = re.search(r'"channelId":"(UC[\w-]{22})"', html) or re.search(r'channel_id=(UC[\w-]{22})', html)
@@ -31,7 +31,7 @@ except Exception as e:
     d['youtube'] = None; d['errors']['youtube'] = str(e)[:120]
 try:
     posts = json.load(open(os.path.join(ROOT, 'posts.json')))['posts']
-    now = datetime.datetime.utcnow()
+    now = datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None)
     last = {}; n7 = {}
     for p in posts:
         t = datetime.datetime.strptime(p['t'], '%Y-%m-%dT%H:%M:%SZ')
