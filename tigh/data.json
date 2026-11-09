@@ -1,6 +1,8 @@
 {
- "generated_at": "2026-11-09T23:36:37.798600Z",
- "errors": {},
+ "generated_at": "2026-11-09T23:39:24.283607Z",
+ "errors": {
+  "youtube": "HTTP Error 404: Not Found"
+ },
  "site": {
   "real_rule": "scrolled 25%+, stayed 10s+ or clicked; bots and testing removed",
   "roofing_7d": 0,
@@ -20,7 +22,7 @@
   },
   "all_views_7d": 2206,
   "bot_views_7d": 2191,
-  "generated_at": "2026-11-09T23:36:37.985928+00:00",
+  "generated_at": "2026-11-09T23:39:24.855956+00:00",
   "paid_members": 1,
   "real_views_7d": 15,
   "roofing_total": 0,
@@ -78,225 +80,10 @@
   "real_visitors_total": 21,
   "roofing_real_visitors_7d": 3
  },
- "youtube": {
-  "total_views": 8494,
-  "videos": 29,
-  "likes": 39,
-  "top": [
-   {
-    "id": "9mRzsVeSNn4",
-    "title": "9mRzsVeSNn4",
-    "url": "https://youtube.com/shorts/9mRzsVeSNn4",
-    "views": 1200,
-    "exact": false
-   },
-   {
-    "id": "j_O46JtdC34",
-    "title": "j_O46JtdC34",
-    "url": "https://youtube.com/shorts/j_O46JtdC34",
-    "views": 1100,
-    "exact": false
-   },
-   {
-    "id": "hjJIzapOj24",
-    "title": "hjJIzapOj24",
-    "url": "https://youtube.com/shorts/hjJIzapOj24",
-    "views": 962,
-    "exact": false
-   }
-  ],
-  "recent": [
-   {
-    "title": "One phone setting that stops scam calls #Shorts",
-    "url": "https://www.youtube.com/shorts/1L9U100WIN0",
-    "published": "2026-11-09T20:59:54+00:00",
-    "views": 0,
-    "likes": 0
-   },
-   {
-    "title": "POV: everyone in the meeting is using AI #Shorts",
-    "url": "https://www.youtube.com/shorts/1Z8d6CqPQHU",
-    "published": "2026-11-09T20:56:29+00:00",
-    "views": 0,
-    "likes": 0
-   },
-   {
-    "title": "The email that could get you a $14k raise #Shorts",
-    "url": "https://www.youtube.com/shorts/-4fKye0-VjE",
-    "published": "2026-11-08T04:28:34+00:00",
-    "views": 1,
-    "likes": 0
-   },
-   {
-    "title": "The email that could get you a $14k raise #Shorts",
-    "url": "https://www.youtube.com/shorts/o-Cm_xmLloU",
-    "published": "2026-11-08T03:37:08+00:00",
-    "views": 1,
-    "likes": 0
-   },
-   {
-    "title": "The intern got promoted. He's 22. #Shorts",
-    "url": "https://www.youtube.com/shorts/tCjX_vTzg9I",
-    "published": "2026-11-08T00:25:01+00:00",
-    "views": 0,
-    "likes": 0
-   }
-  ],
-  "all": [
-   {
-    "title": "One phone setting that stops scam calls #Shorts",
-    "url": "https://www.youtube.com/shorts/1L9U100WIN0",
-    "published": "2026-11-09T20:59:54+00:00",
-    "views": 0,
-    "likes": 0
-   },
-   {
-    "title": "POV: everyone in the meeting is using AI #Shorts",
-    "url": "https://www.youtube.com/shorts/1Z8d6CqPQHU",
-    "published": "2026-11-09T20:56:29+00:00",
-    "views": 0,
-    "likes": 0
-   },
-   {
-    "title": "The email that could get you a $14k raise #Shorts",
-    "url": "https://www.youtube.com/shorts/-4fKye0-VjE",
-    "published": "2026-11-08T04:28:34+00:00",
-    "views": 1,
-    "likes": 0
-   },
-   {
-    "title": "The email that could get you a $14k raise #Shorts",
-    "url": "https://www.youtube.com/shorts/o-Cm_xmLloU",
-    "published": "2026-11-08T03:37:08+00:00",
-    "views": 1,
-    "likes": 0
-   },
-   {
-    "title": "The intern got promoted. He's 22. #Shorts",
-    "url": "https://www.youtube.com/shorts/tCjX_vTzg9I",
-    "published": "2026-11-08T00:25:01+00:00",
-    "views": 0,
-    "likes": 0
-   },
-   {
-    "title": "Insurance letter in plain English with AI #Shorts",
-    "url": "https://www.youtube.com/shorts/aHFCFhbCeZk",
-    "published": "2026-11-07T23:59:23+00:00",
-    "views": 0,
-    "likes": 0
-   },
-   {
-    "title": "Plan a whole trip with AI in a minute #Shorts",
-    "url": "https://www.youtube.com/shorts/O0DxIt_fQjA",
-    "published": "2026-11-07T23:55:33+00:00",
-    "views": 1,
-    "likes": 0
-   },
-   {
-    "title": "Scam or safe? Can you spot it? #Shorts",
-    "url": "https://www.youtube.com/shorts/wr1wnbtk9EM",
-    "published": "2026-11-07T23:36:24+00:00",
-    "views": 0,
-    "likes": 0
-   },
-   {
-    "title": "Decode any confusing letter with AI in 3 steps #Shorts",
-    "url": "https://www.youtube.com/shorts/O0v42Pppyxo",
-    "published": "2026-11-07T19:11:32+00:00",
-    "views": 1,
-    "likes": 0
-   },
-   {
-    "title": "4 slang words your grandkids say, translated #Shorts",
-    "url": "https://www.youtube.com/shorts/lRXGM46vjpk",
-    "published": "2026-11-07T12:35:38+00:00",
-    "views": 935,
-    "likes": 15
-   },
-   {
-    "title": "Nana took an L? Grandma learns slang #Shorts",
-    "url": "https://www.youtube.com/shorts/B0h7mqzcssY",
-    "published": "2026-11-06T21:28:35+00:00",
-    "views": 479,
-    "likes": 7
-   },
-   {
-    "title": "Grandpa said it slaps?! Slang translated #Shorts",
-    "url": "https://www.youtube.com/shorts/QtHsxWyALPQ",
-    "published": "2026-11-06T05:12:00+00:00",
-    "views": 71,
-    "likes": 4
-   },
-   {
-    "title": "Stop typing on your phone. Just talk. #Shorts",
-    "url": "https://www.youtube.com/shorts/Khk-oMwNaQQ",
-    "published": "2026-11-06T00:03:41+00:00",
-    "views": 337,
-    "likes": 5
-   },
-   {
-    "title": "Grandma, it's a vibe? Gen Z slang translated #Shorts",
-    "url": "https://www.youtube.com/shorts/sF0OHgEgq9E",
-    "published": "2026-11-05T20:20:27+00:00",
-    "views": 310,
-    "likes": 7
-   },
-   {
-    "title": "Grandma, he ghosted me? Gen Z slang translated #Shorts",
-    "url": "https://www.youtube.com/shorts/EqSk3xo9tTg",
-    "published": "2026-11-04T18:45:12+00:00",
-    "views": 2,
-    "likes": 1
-   }
-  ],
-  "catalog": true,
-  "exact_videos": 11
- },
- "checks": [
-  {
-   "name": "YouTube views",
-   "ok": true,
-   "detail": "29 videos on the channel, 11 with exact counts (rest from the channel page, rounded) = 8494 views"
-  },
-  {
-   "name": "Website visitors",
-   "ok": true,
-   "detail": "15 real people this week; 2191 of 2206 page views were bots, crawlers or testing and are excluded"
-  },
-  {
-   "name": "Signups",
-   "ok": true,
-   "detail": "3 Riside signups and 0 roofing leads counted straight from the database"
-  },
-  {
-   "name": "Posting",
-   "ok": true,
-   "detail": "YouTube 2/2 planned posts found live on the channel today"
-  },
-  {
-   "name": "Cozy Crochet Club",
-   "ok": true,
-   "detail": "numbers last refreshed 2h ago"
-  },
-  {
-   "name": "Ovoa",
-   "ok": true,
-   "detail": "numbers last refreshed 1h ago"
-  },
-  {
-   "name": "Roofing (Riside)",
-   "ok": true,
-   "detail": "numbers last refreshed 0h ago"
-  },
-  {
-   "name": "Study creators",
-   "ok": true,
-   "detail": "numbers last refreshed 1h ago"
-  }
- ],
+ "youtube": null,
  "posting": {
   "date": "2026-11-09",
-  "now_et": "6:37 PM",
+  "now_et": "6:39 PM",
   "today": {
    "pinterest": {
     "planned": 1,
@@ -326,17 +113,17 @@
    },
    "youtube": {
     "planned": 2,
-    "done": 2,
-    "verified": true,
-    "overdue": 0,
+    "done": 0,
+    "verified": false,
+    "overdue": 1,
     "items": [
      {
       "title": "POV: everyone in the meeting is using AI #Shorts",
       "id": "meeting",
       "when": "2026-11-09T07:30:00-05:00",
       "slot": "am",
-      "done": true,
-      "verified": true,
+      "done": false,
+      "verified": false,
       "due": true
      },
      {
@@ -344,12 +131,20 @@
       "id": "silence",
       "when": "2026-11-09T22:30:00-05:00",
       "slot": "pm",
-      "done": true,
-      "verified": true,
+      "done": false,
+      "verified": false,
       "due": false
      }
     ],
-    "next": null
+    "next": {
+     "title": "POV: everyone in the meeting is using AI #Shorts",
+     "id": "meeting",
+     "when": "2026-11-09T07:30:00-05:00",
+     "slot": "am",
+     "done": false,
+     "verified": false,
+     "due": true
+    }
    },
    "facebook": {
     "planned": 2,
@@ -422,14 +217,7 @@
     }
    }
   },
-  "yt_by_day": {
-   "2026-11-09": 2,
-   "2026-11-08": 3,
-   "2026-11-07": 5,
-   "2026-11-06": 3,
-   "2026-11-05": 1,
-   "2026-11-04": 1
-  },
+  "yt_by_day": {},
   "comments_by_day": {}
  },
  "social": {
@@ -439,5 +227,42 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-09T23:36:37.798600Z"
+ "checks": [
+  {
+   "name": "Website visitors",
+   "ok": true,
+   "detail": "15 real people this week; 2191 of 2206 page views were bots, crawlers or testing and are excluded"
+  },
+  {
+   "name": "Signups",
+   "ok": true,
+   "detail": "3 Riside signups and 0 roofing leads counted straight from the database"
+  },
+  {
+   "name": "Posting",
+   "ok": false,
+   "detail": "YouTube 0/2 planned posts found live on the channel today"
+  },
+  {
+   "name": "Cozy Crochet Club",
+   "ok": true,
+   "detail": "numbers last refreshed 2h ago"
+  },
+  {
+   "name": "Ovoa",
+   "ok": true,
+   "detail": "numbers last refreshed 1h ago"
+  },
+  {
+   "name": "Roofing",
+   "ok": true,
+   "detail": "numbers last refreshed 0h ago"
+  },
+  {
+   "name": "Study creators",
+   "ok": true,
+   "detail": "numbers last refreshed 1h ago"
+  }
+ ],
+ "checked_at": "2026-11-09T23:39:24.283607Z"
 }
