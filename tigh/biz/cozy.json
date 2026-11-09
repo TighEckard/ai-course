@@ -1,6 +1,6 @@
 {
  "name": "Cozy Crochet Club",
- "updated": "2026-11-09T22:02:30Z",
+ "updated": "2026-11-09T23:43:17Z",
  "notes": "Sender is PAUSED in its settings | Downloads/trials/paid need App Store Connect login (not connected). Reply counts de-duplicated by thread (unverified).",
  "headline": [
   {
@@ -62,7 +62,32 @@
  ],
  "sections": [
   {
-   "title": "Cold email outreach",
+   "title": "APP: downloads, trials, paid",
+   "tiles": [
+    {
+     "label": "Downloads",
+     "value": "n/a",
+     "sub": "needs App Store Connect login"
+    },
+    {
+     "label": "Trials started",
+     "value": "n/a",
+     "sub": "needs App Store Connect login"
+    },
+    {
+     "label": "Paid subscribers",
+     "value": "n/a",
+     "sub": "needs App Store Connect login"
+    },
+    {
+     "label": "Last updated",
+     "value": "never",
+     "sub": "no app data source connected yet"
+    }
+   ]
+  },
+  {
+   "title": "EMAIL OUTREACH (creator cold email)",
    "tiles": [
     {
      "label": "Sent total",
@@ -96,6 +121,11 @@
     {
      "label": "Last send",
      "value": "2026-11-08"
+    },
+    {
+     "label": "Last updated",
+     "value": "11-09 21:43Z",
+     "sub": "sender log last written"
     },
     {
      "label": "Inbox sync",
@@ -255,6 +285,26 @@
      "label": "Downloads / trials / paid",
      "value": "n/a",
      "sub": "needs App Store Connect login"
+    }
+   ]
+  },
+  {
+   "title": "SOCIAL: TikTok and Instagram",
+   "tiles": [
+    {
+     "label": "TikTok views",
+     "value": "n/a",
+     "sub": "@cozycrochet.club, not collected yet"
+    },
+    {
+     "label": "Instagram views",
+     "value": "n/a",
+     "sub": "not collected yet"
+    },
+    {
+     "label": "Last updated",
+     "value": "never",
+     "sub": "no social data source connected yet"
     }
    ]
   }
