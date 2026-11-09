@@ -1,34 +1,111 @@
 {
- "generated_at": "2026-11-09T22:08:19.949482Z",
- "errors": {
-  "site": "Site numbers need the one-time dash-setup.sql paste in Supabase"
+ "generated_at": "2026-11-09T22:40:33.138791Z",
+ "errors": {},
+ "site": {
+  "real_rule": "scrolled 25%+, stayed 10s+ or clicked; bots and testing removed",
+  "roofing_7d": 0,
+  "signups_1d": 0,
+  "signups_7d": 1,
+  "messages_7d": 0,
+  "real_by_day": {
+   "2026-10-28": 1,
+   "2026-10-29": 1,
+   "2026-11-01": 2,
+   "2026-11-02": 2,
+   "2026-11-03": 2,
+   "2026-11-04": 1,
+   "2026-11-05": 6,
+   "2026-11-08": 1,
+   "2026-11-09": 5
+  },
+  "all_views_7d": 2207,
+  "bot_views_7d": 2191,
+  "generated_at": "2026-11-09T22:40:33.601402+00:00",
+  "paid_members": 1,
+  "real_views_7d": 16,
+  "roofing_total": 0,
+  "signups_total": 3,
+  "messages_total": 0,
+  "real_pages_30d": {
+   "/": 19,
+   "/roofing": 3
+  },
+  "recent_signups": [
+   {
+    "slot": "Thursday, 7:00 PM",
+    "source": "ref:com.google.android.googlequicksearchbox",
+    "roofing": false,
+    "created_at": "2026-11-05T23:00:08.345942+00:00",
+    "first_name": "Rayon",
+    "email_domain": "***@gmail.com"
+   },
+   {
+    "slot": "Thursday, 7:00 PM",
+    "source": "funneltest",
+    "roofing": false,
+    "created_at": "2026-10-28T20:53:24.204032+00:00",
+    "first_name": "TEST",
+    "email_domain": "***@example.com"
+   },
+   {
+    "slot": "Tuesday, 7:00 PM",
+    "source": "direct",
+    "roofing": false,
+    "created_at": "2026-10-26T05:56:42.248841+00:00",
+    "first_name": "Tigh",
+    "email_domain": "***@ovoa.ai"
+   }
+  ],
+  "signups_by_day": {
+   "2026-10-26": 1,
+   "2026-10-28": 1,
+   "2026-11-05": 1
+  },
+  "real_sources_30d": {
+   "direct": 8,
+   "google": 9,
+   "facebook": 3,
+   "pinterest": 1
+  },
+  "real_visitors_1d": 5,
+  "real_visitors_7d": 16,
+  "signups_by_source": {
+   "direct": 1,
+   "funneltest": 1,
+   "ref:com.google.android.googlequicksearchbox": 1
+  },
+  "messages_unanswered": 0,
+  "real_visitors_total": 21,
+  "roofing_real_visitors_7d": 3
  },
- "site": null,
  "youtube": {
-  "total_views": 2138,
-  "videos": 15,
-  "likes": 39,
+  "total_views": 2637,
+  "videos": 16,
+  "likes": 47,
   "top": [
    {
-    "title": "4 slang words your grandkids say, translated #Shorts",
-    "url": "https://www.youtube.com/shorts/lRXGM46vjpk",
-    "published": "2026-11-07T12:35:38+00:00",
+    "id": "lRXGM46vjpk",
+    "title": "15",
+    "url": "https://youtube.com/shorts/lRXGM46vjpk",
     "views": 935,
-    "likes": 15
+    "likes": 15,
+    "published": null
    },
    {
-    "title": "Nana took an L? Grandma learns slang #Shorts",
-    "url": "https://www.youtube.com/shorts/B0h7mqzcssY",
-    "published": "2026-11-06T21:28:35+00:00",
-    "views": 479,
-    "likes": 7
+    "id": "FtxyGZ_771Q",
+    "title": "13",
+    "url": "https://youtube.com/shorts/FtxyGZ_771Q",
+    "views": 933,
+    "likes": 13,
+    "published": null
    },
    {
-    "title": "Stop typing on your phone. Just talk. #Shorts",
-    "url": "https://www.youtube.com/shorts/Khk-oMwNaQQ",
-    "published": "2026-11-06T00:03:41+00:00",
+    "id": "Khk-oMwNaQQ",
+    "title": "5",
+    "url": "https://youtube.com/shorts/Khk-oMwNaQQ",
     "views": 337,
-    "likes": 5
+    "likes": 5,
+    "published": null
    }
   ],
   "recent": [
@@ -174,11 +251,59 @@
     "views": 2,
     "likes": 1
    }
-  ]
+  ],
+  "catalog": true
  },
+ "checks": [
+  {
+   "name": "YouTube views",
+   "ok": true,
+   "detail": "16 videos read one by one = 2637 views (latest-15 feed alone: 2138)"
+  },
+  {
+   "name": "Website visitors",
+   "ok": true,
+   "detail": "16 real people this week; 2191 of 2207 page views were bots, crawlers or testing and are excluded"
+  },
+  {
+   "name": "Signups",
+   "ok": true,
+   "detail": "3 Riside signups and 0 roofing leads counted straight from the database"
+  },
+  {
+   "name": "Posting",
+   "ok": true,
+   "detail": "YouTube 2/2 planned posts found live on the channel today"
+  },
+  {
+   "name": "Cozy Crochet Club",
+   "ok": true,
+   "detail": "numbers last refreshed 1h ago"
+  },
+  {
+   "name": "Ovoa",
+   "ok": true,
+   "detail": "numbers last refreshed 0h ago"
+  },
+  {
+   "name": "Roofing (Riside)",
+   "ok": true,
+   "detail": "numbers last refreshed 0h ago"
+  },
+  {
+   "name": "Study creators",
+   "ok": true,
+   "detail": "numbers last refreshed -0h ago"
+  },
+  {
+   "name": "Tanner Facebook",
+   "ok": true,
+   "detail": "numbers last refreshed -0h ago"
+  }
+ ],
  "posting": {
   "date": "2026-11-09",
-  "now_et": "5:08 PM",
+  "now_et": "5:40 PM",
   "today": {
    "pinterest": {
     "planned": 1,
@@ -320,5 +445,6 @@
   "facebook": {},
   "instagram": {},
   "pinterest": {}
- }
+ },
+ "checked_at": "2026-11-09T22:40:33.138791Z"
 }
