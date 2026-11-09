@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T22:43:20.149206Z",
+ "generated_at": "2026-11-09T22:45:23.674932Z",
  "errors": {},
  "site": {
   "real_rule": "scrolled 25%+, stayed 10s+ or clicked; bots and testing removed",
@@ -20,7 +20,7 @@
   },
   "all_views_7d": 2207,
   "bot_views_7d": 2191,
-  "generated_at": "2026-11-09T22:43:20.393734+00:00",
+  "generated_at": "2026-11-09T22:45:23.926494+00:00",
   "paid_members": 1,
   "real_views_7d": 16,
   "roofing_total": 0,
@@ -102,8 +102,7 @@
     "title": "hjJIzapOj24",
     "url": "https://youtube.com/shorts/hjJIzapOj24",
     "views": 962,
-    "published": null,
-    "exact": true
+    "exact": false
    }
   ],
   "recent": [
@@ -251,13 +250,13 @@
    }
   ],
   "catalog": true,
-  "exact_videos": 14
+  "exact_videos": 16
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "29 videos on the channel, 14 with exact counts (rest from the channel page, rounded) = 8494 views"
+   "detail": "29 videos on the channel, 16 with exact counts (rest from the channel page, rounded) = 8494 views"
   },
   {
    "name": "Website visitors",
@@ -292,17 +291,17 @@
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed -0h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Tanner Facebook",
    "ok": true,
-   "detail": "numbers last refreshed -0h ago"
+   "detail": "numbers last refreshed 0h ago"
   }
  ],
  "posting": {
   "date": "2026-11-09",
-  "now_et": "5:43 PM",
+  "now_et": "5:45 PM",
   "today": {
    "pinterest": {
     "planned": 1,
@@ -445,5 +444,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-09T22:43:20.149206Z"
+ "checked_at": "2026-11-09T22:45:23.674932Z"
 }
