@@ -1,1 +1,98 @@
-{"generated_at":null,"errors":{}}
+{
+ "generated_at": "2026-11-09T21:09:29.378926Z",
+ "errors": {
+  "site": "Site numbers need the one-time dash-setup.sql paste in Supabase"
+ },
+ "site": null,
+ "youtube": {
+  "total_views": 2138,
+  "videos": 15,
+  "likes": 39,
+  "top": [
+   {
+    "title": "4 slang words your grandkids say, translated #Shorts",
+    "url": "https://www.youtube.com/shorts/lRXGM46vjpk",
+    "published": "2026-11-07T12:35:38+00:00",
+    "views": 935,
+    "likes": 15
+   },
+   {
+    "title": "Nana took an L? Grandma learns slang #Shorts",
+    "url": "https://www.youtube.com/shorts/B0h7mqzcssY",
+    "published": "2026-11-06T21:28:35+00:00",
+    "views": 479,
+    "likes": 7
+   },
+   {
+    "title": "Stop typing on your phone. Just talk. #Shorts",
+    "url": "https://www.youtube.com/shorts/Khk-oMwNaQQ",
+    "published": "2026-11-06T00:03:41+00:00",
+    "views": 337,
+    "likes": 5
+   }
+  ],
+  "recent": [
+   {
+    "title": "One phone setting that stops scam calls #Shorts",
+    "url": "https://www.youtube.com/shorts/1L9U100WIN0",
+    "published": "2026-11-09T20:59:54+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
+    "title": "POV: everyone in the meeting is using AI #Shorts",
+    "url": "https://www.youtube.com/shorts/1Z8d6CqPQHU",
+    "published": "2026-11-09T20:56:29+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
+    "title": "The email that could get you a $14k raise #Shorts",
+    "url": "https://www.youtube.com/shorts/-4fKye0-VjE",
+    "published": "2026-11-08T04:28:34+00:00",
+    "views": 1,
+    "likes": 0
+   },
+   {
+    "title": "The email that could get you a $14k raise #Shorts",
+    "url": "https://www.youtube.com/shorts/o-Cm_xmLloU",
+    "published": "2026-11-08T03:37:08+00:00",
+    "views": 1,
+    "likes": 0
+   },
+   {
+    "title": "The intern got promoted. He's 22. #Shorts",
+    "url": "https://www.youtube.com/shorts/tCjX_vTzg9I",
+    "published": "2026-11-08T00:25:01+00:00",
+    "views": 0,
+    "likes": 0
+   }
+  ]
+ },
+ "posting": {
+  "last": {
+   "facebook": {
+    "t": "2026-11-01T12:00:00Z",
+    "label": "FB Reel: grandkid slang translated"
+   },
+   "youtube": {
+    "t": "2026-11-04T17:00:00Z",
+    "label": "YouTube: Scammer called the wrong grandma #Shorts"
+   },
+   "instagram": {
+    "t": "2026-11-01T12:00:00Z",
+    "label": "IG Reel: grandkid slang translated"
+   }
+  },
+  "posts_7d": {
+   "youtube": 8
+  }
+ },
+ "social": {
+  "note": "Written by the PC collector. Per platform: followers, views_7d, engagement (likes+comments+shares 7d), comments_7d, top:[{title,url,views,likes,comments}] (best 3), recent_comments:[{who,text,url}]",
+  "updated": null,
+  "facebook": {},
+  "instagram": {},
+  "pinterest": {}
+ }
+}
