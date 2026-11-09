@@ -3,7 +3,7 @@
 import json, os, re, sys, urllib.request, datetime, glob
 import xml.etree.ElementTree as ET
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-out_dir = glob.glob(os.path.join(ROOT, 'dash', '*', 'index.html'))[0].rsplit('/', 1)[0]
+out_dir = os.path.join(ROOT, 'tigh')
 SB = 'https://yhsxxblilclylzgejehk.supabase.co/rest/v1/rpc/dash_stats'
 KEY = 'sb_publishable_9BiONVmj8Ht4k7lBsxGkkA_Yajbl8Rj'
 def get(url, data=None, headers=None):
@@ -80,4 +80,12 @@ try:
 except Exception as e:
     d['social'] = None
 json.dump(d, open(os.path.join(out_dir, 'data.json'), 'w'), indent=1)
+biz = []
+for f in sorted(glob.glob(os.path.join(out_dir, 'biz', '*.json'))):
+    if f.endswith('index.json'): continue
+    try:
+        b = json.load(open(f)); biz.append({'slug': os.path.basename(f)[:-5], 'name': b.get('name') or os.path.basename(f)[:-5], 'updated': b.get('updated')})
+    except Exception as e:
+        print('bad biz file', f, e)
+json.dump(biz, open(os.path.join(out_dir, 'biz', 'index.json'), 'w'), indent=1)
 print('ok', list(d['errors']))

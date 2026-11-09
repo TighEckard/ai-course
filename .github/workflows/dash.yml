@@ -2,7 +2,7 @@ name: Refresh dashboard
 on:
   push:
     branches: [main]
-    paths: [scripts/dash_build.py, .github/workflows/dash.yml, dash/feed/social.json, dash/feed/schedule.json, 'social/*/manifest.json']
+    paths: [scripts/dash_build.py, .github/workflows/dash.yml, dash/feed/social.json, dash/feed/schedule.json, 'tigh/biz/*.json', 'social/*/manifest.json']
   schedule: [{cron: '7 * * * *'}]
   workflow_dispatch:
 permissions:
@@ -12,9 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with: {fetch-depth: 1, sparse-checkout: "dash\nscripts\nsocial/*/manifest.json", sparse-checkout-cone-mode: false}
+        with: {fetch-depth: 1, sparse-checkout: "dash\ntigh\nscripts\nsocial/*/manifest.json", sparse-checkout-cone-mode: false}
       - run: python3 scripts/dash_build.py
       - name: Commit
         run: |
           git config user.name dash-bot; git config user.email dash-bot@users.noreply.github.com
-          git add dash && (git diff --cached --quiet || (git commit -m "Refresh dashboard" && git pull --rebase origin main && git push)) || true
+          git add dash tigh && (git diff --cached --quiet || (git commit -m "Refresh dashboard" && git pull --rebase origin main && git push)) || true

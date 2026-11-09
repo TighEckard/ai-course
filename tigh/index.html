@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#0f1420"><title>Tigh dashboard</title>
+<style>
+:root{--bg:#f4f1ea;--panel:#fff;--ink:#141a28;--mut:#6a7385;--line:#e7e2d6;--soft:#f8f6f1;--amber:#e8a317;--navy:#1d3266;--ok:#1f9d6a;--bad:#d64545;--shadow:0 1px 2px rgba(20,26,40,.05),0 6px 20px rgba(20,26,40,.04)}
+@media(prefers-color-scheme:dark){:root{--bg:#0c111b;--panel:#151c2b;--ink:#eef1f7;--mut:#8f99ad;--line:#232c3f;--soft:#1a2335;--navy:#8fb0ff;--shadow:none}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 Inter,-apple-system,Segoe UI,system-ui,sans-serif}
+.wrap{max-width:1120px;margin:auto;padding:0 16px 60px}
+header{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.hd{max-width:1120px;margin:auto;padding:12px 16px 0}
+.top{display:flex;align-items:center;gap:10px;justify-content:space-between}
+.brand{font:700 20px Georgia,serif;letter-spacing:-.02em}.brand i{color:var(--amber);font-style:normal}
+.stat{display:flex;align-items:center;gap:7px;font-size:12px;color:var(--mut)}.dot{width:8px;height:8px;border-radius:50%;background:var(--ok);box-shadow:0 0 0 3px color-mix(in srgb,var(--ok) 25%,transparent)}
+nav{display:flex;gap:4px;overflow-x:auto;margin-top:8px;scrollbar-width:none}nav::-webkit-scrollbar{display:none}
+nav button{border:0;background:none;color:var(--mut);font:600 13px inherit;padding:9px 12px;cursor:pointer;border-bottom:2px solid transparent;white-space:nowrap}
+nav button.on{color:var(--ink);border-color:var(--amber)}
+section{display:none;padding-top:18px}section.on{display:block}
+h2{font:700 12px inherit;letter-spacing:.09em;text-transform:uppercase;color:var(--mut);margin:26px 0 10px}
+.g{display:grid;gap:12px}.k{grid-template-columns:repeat(auto-fit,minmax(170px,1fr))}.c2{grid-template-columns:repeat(auto-fit,minmax(310px,1fr))}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:16px;box-shadow:var(--shadow);min-width:0}
+.lab{font-size:12px;color:var(--mut);font-weight:500}.val{font:700 30px Georgia,serif;letter-spacing:-.02em;margin:2px 0}
+.sm{font-size:12px;color:var(--mut)}.up{color:var(--ok);font-weight:600}.dn{color:var(--bad);font-weight:600}
+.spark{height:34px;width:100%;margin-top:6px}svg{display:block;width:100%}
+table{width:100%;border-collapse:collapse}td{padding:9px 0;border-top:1px solid var(--line);vertical-align:top}tr:first-child td{border-top:0}td:last-child{text-align:right;white-space:nowrap;color:var(--mut);font-variant-numeric:tabular-nums}
+a{color:inherit;text-decoration:none;border-bottom:1px solid var(--line)}a:hover{border-color:var(--amber)}
+.bar{height:6px;border-radius:4px;background:var(--soft);margin-top:5px;overflow:hidden}.bar i{display:block;height:100%;background:var(--amber);border-radius:4px}
+.row{display:flex;justify-content:space-between;gap:10px;font-size:13px}
+.pill{display:inline-block;font-size:11px;font-weight:600;border-radius:99px;padding:2px 8px;background:var(--soft);color:var(--mut)}
+.pill.ok{background:color-mix(in srgb,var(--ok) 15%,transparent);color:var(--ok)}.pill.am{background:color-mix(in srgb,var(--amber) 22%,transparent);color:#a06d00}
+.plat{display:flex;align-items:center;gap:10px;margin-bottom:12px}.badge{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;color:#fff;font-weight:700;font-size:14px}
+.empty{padding:16px;border:1px dashed var(--line);border-radius:12px;color:var(--mut);font-size:13px;background:var(--soft)}
+.alert{background:color-mix(in srgb,var(--amber) 16%,var(--panel));border:1px solid color-mix(in srgb,var(--amber) 40%,var(--line));border-radius:12px;padding:10px 14px;font-size:13px;margin-top:14px}
+.tip{position:relative;cursor:help}.tip .pop{display:none;position:absolute;left:0;top:100%;z-index:9;margin-top:6px;width:290px;max-width:80vw;background:#141a28;color:#eef1f7;border-radius:12px;padding:10px 12px;font-size:12px;line-height:1.5;box-shadow:0 10px 30px rgba(0,0,0,.3);text-align:left}.tip:hover .pop,.tip:focus .pop,.tip:focus-within .pop{display:block}.pop b{color:#fff}.pop .ok{color:#5fd6a0}.pop .no{color:#ff9a9a}.pop .nx{color:#ffd37a}
+.spark svg{height:100%}.alert{margin-bottom:12px}.chart{height:150px}.chart svg{height:100%}.card h2{font-size:11px}td:only-child{text-align:left;color:inherit}.legend{display:flex;gap:14px;font-size:12px;color:var(--mut);margin-top:6px}
+@media(max-width:520px){.val{font-size:26px}}
+</style></head><body>
+<header><div class="hd"><div class="top"><div class="brand">tigh<i>.</i> dashboard</div><div class="stat"><span class="dot" id="dot"></span><span id="upd">Loading</span></div></div>
+<nav id="nav"><button data-t="o" class="on">Riside</button><button data-t="w">Website</button><button data-t="s">Social</button><button data-t="p">Signups</button><button data-t="r">Recordings</button></nav></div></header>
+<div class="wrap" id="app"></div>
+<script>
+const SB='https://yhsxxblilclylzgejehk.supabase.co/rest/v1/rpc/dash_stats',KEY='sb_publishable_9BiONVmj8Ht4k7lBsxGkkA_Yajbl8Rj';
+const CLARITY='';/* Microsoft Clarity project id goes here */
+const $=s=>document.querySelector(s),fmt=n=>n==null?'–':n>=1e4?(n/1e3).toFixed(n>=1e5?0:1)+'k':Number(n).toLocaleString();
+const ago=t=>{const m=(Date.now()-new Date(t))/6e4;return m<2?'just now':m<60?Math.round(m)+'m ago':m<2880?Math.round(m/60)+'h ago':Math.round(m/1440)+'d ago'};
+const days=n=>[...Array(n)].map((_,i)=>new Date(Date.now()-(n-1-i)*864e5).toISOString().slice(0,10));
+const series=(o,n)=>days(n).map(d=>(o||{})[d]||0);
+const sum=a=>a.reduce((x,y)=>x+y,0);
+function delta(a){const h=Math.floor(a.length/2),p=sum(a.slice(0,h)),c=sum(a.slice(h));if(!p&&!c)return '';if(!p)return '<span class="up">new</span>';const r=Math.round((c-p)/p*100);return `<span class="${r>=0?'up':'dn'}">${r>=0?'▲':'▼'} ${Math.abs(r)}%</span> <span class="sm">vs prior ${h}d</span>`}
+function area(v,h=40,color='var(--amber)',lbl){const m=Math.max(1,...v),w=100,st=w/Math.max(1,v.length-1);
+ const pts=v.map((n,i)=>[i*st,h-2-n/m*(h-6)]);const l=pts.map(p=>p.join(',')).join(' ');
+ return `<svg viewBox="0 0 100 ${h}" preserveAspectRatio="none"><defs><linearGradient id="g${color.length}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${color}" stop-opacity=".35"/><stop offset="1" stop-color="${color}" stop-opacity="0"/></linearGradient></defs><polygon points="0,${h} ${l} 100,${h}" fill="url(#g${color.length})"/><polyline points="${l}" fill="none" stroke="${color}" stroke-width="1.6" vector-effect="non-scaling-stroke" stroke-linejoin="round"/></svg>`}
+function kpi(l,v,sub,sp){return `<div class="card"><div class="lab">${l}</div><div class="val">${fmt(v)}</div><div class="sm">${sub||''}</div>${sp?`<div class="spark">${area(sp,34)}</div>`:''}</div>`}
+function rank(o,n=8){const e=Object.entries(o||{}).sort((a,b)=>b[1]-a[1]).slice(0,n),m=Math.max(1,...e.map(x=>x[1]));return e.length?e.map(([k,v])=>`<div style="margin:9px 0"><div class="row"><span>${k||'direct'}</span><b>${fmt(v)}</b></div><div class="bar"><i style="width:${v/m*100}%"></i></div></div>`).join(''):'<div class="empty">No data yet</div>'}
+const BRAND={Facebook:['#1877f2','f'],Instagram:['#d6249f','Ig'],Pinterest:['#e60023','P'],YouTube:['#ff0000','▶']};
+function plat(name,o,extra){o=o||{};const [c,l]=BRAND[name];const has=['followers','views_7d','engagement','comments_7d','likes'].some(k=>o[k]!=null);
+ const stat=[['followers','Followers'],['views_7d','Views, 7d'],['engagement','Engagement, 7d'],['comments_7d','Comments, 7d'],['likes','Likes'],['views','Total views']].filter(([k])=>o[k]!=null);
+ return `<div class="card"><div class="plat"><div class="badge" style="background:${c}">${l}</div><div><b>${name}</b><div class="sm">${has?'Connected':'Waiting for first sync'}</div></div></div>
+ ${stat.length?`<div class="g k" style="grid-template-columns:repeat(2,1fr)">${stat.map(([k,t])=>`<div><div class="lab">${t}</div><div style="font:700 22px Georgia,serif">${fmt(o[k])}</div></div>`).join('')}</div>`:'<div class="empty">Followers, views, engagement and comments appear here after the first sync.</div>'}
+ <h2 style="margin:16px 0 4px">Top 3 videos</h2>${(o.top||[]).length?'<table>'+o.top.slice(0,3).map((v,i)=>`<tr><td><b>${i+1}.</b> <a href="${v.url}" target="_blank">${v.title}</a></td><td>${fmt(v.views)} views${v.likes!=null?' · '+fmt(v.likes)+' ♥':''}${v.comments!=null?' · '+fmt(v.comments)+' 💬':''}</td></tr>`).join('')+'</table>':'<div class="sm">None yet</div>'}
+ <h2 style="margin:16px 0 4px">Latest comments</h2>${(o.recent_comments||[]).length?'<table>'+o.recent_comments.slice(0,5).map(c=>`<tr><td><a href="${c.url||'#'}" target="_blank"><b>${c.who}</b></a> ${c.text}</td></tr>`).join('')+'</table>':'<div class="sm">None yet</div>'}</div>`}
+const TABS={};let BIZ=[];
+function draw(d){
+ const s=d.site||{},y=d.youtube,p=d.posting,so=d.social||{};
+ const vd=series(s.views_by_day,30),sd=series(s.signups_by_day,30);
+ $('#upd').textContent=(d.live?'Live · ':'Cached · ')+ago(d.generated_at);$('#dot').style.background=d.live?'var(--ok)':'var(--amber)';
+ const al=Object.values(d.errors||{}).map(e=>`<div class="alert">⚠ ${e}</div>`).join('');
+ const ytO=y?{views:y.total_views,likes:y.likes,top:y.top.map(v=>({...v,comments:null}))}:{};
+ const w7=sum(vd.slice(-7));
+ TABS.o=`${al}<h2>Right now</h2><div class="g k">
+  ${kpi('Visitors, 24h',s.views_1d,fmt(s.views_7d)+' views this week',vd.slice(-14))}
+  ${kpi('Signups',s.signups_total,fmt(s.signups_1d)+' in last 24h',sd.slice(-14))}
+  ${kpi('Paid members',s.paid_members,'founding $46/mo')}
+  ${kpi('Roofing leads',s.roofing_total,fmt(s.roofing_7d)+' this week')}
+  ${kpi('YouTube views',y&&y.total_views,y?y.videos+' Shorts · '+fmt(y.likes)+' likes':'')}
+  ${kpi('Member messages',s.messages_total,fmt(s.messages_unanswered)+' unanswered')}</div>
+ <h2>Today's posting</h2>${postToday(p)}<h2>Traffic, last 30 days</h2><div class="card"><div class="row"><b>Page views</b>${delta(vd)}</div><div class="chart">${area(vd,60)}</div></div>
+ <h2>Where it comes from</h2><div class="g c2"><div class="card"><div class="lab">Traffic sources</div>${rank(s.views_by_source_30d,6)}</div><div class="card"><div class="lab">Latest signups</div>${signupList(s,5)}</div></div>
+`;
+ TABS.w=`<div class="g k">${kpi('Views, 24h',s.views_1d,'',vd.slice(-14))}${kpi('Views, 7d',w7,delta(vd))}${kpi('Visitors, 7d',s.visitors_7d)}${kpi('All-time views',s.views_total)}</div>
+ <h2>Page views, 30 days</h2><div class="card"><div class="chart">${area(vd,60)}</div></div>
+ <div class="g c2"><div><h2>Traffic sources</h2><div class="card">${rank(s.views_by_source_30d,10)}</div></div><div><h2>Top pages</h2><div class="card">${rank(s.top_pages_30d,10)}</div></div></div>`;
+ TABS.s=`<h2>Every platform</h2><div class="g c2">${plat('YouTube',ytO)}${plat('Facebook',so.facebook)}${plat('Instagram',so.instagram)}${plat('Pinterest',so.pinterest)}</div>${so.updated?`<div class="sm" style="margin-top:10px">Social synced ${ago(so.updated)}</div>`:''}`;
+ TABS.p=`<div class="g k">${kpi('Signups',s.signups_total,fmt(s.signups_7d)+' this week',sd.slice(-14))}${kpi('Paid',s.paid_members)}${kpi('Roofing leads',s.roofing_total,fmt(s.roofing_7d)+' this week')}${kpi('Messages in',s.messages_total,fmt(s.messages_7d)+' this week')}${kpi('Unanswered',s.messages_unanswered,'threads waiting')}</div>
+ <div class="g c2"><div><h2>Latest signups</h2><div class="card">${signupList(s,10)}</div></div><div><h2>Signups by source</h2><div class="card">${rank(s.signups_by_source)}</div></div></div>`;
+ TABS.r=`<div class="card"><b>Visitor recordings</b><p class="sm">Your riside.com admin already records real visits. Open it, go to the Analytics tab, then Session replays.</p><p><a href="https://riside.com/admin/" target="_blank"><b>Open recordings in admin →</b></a></p><span class="pill ok">Already built in</span></div>`;
+ BIZ.forEach(b=>{TABS['b_'+b.slug]=b.data?bizHtml(b.data):'<div class="empty">Waiting for first data push</div>'});
+ navBiz();render();
+}
+function bizHtml(b){const stale=b.updated&&(Date.now()-new Date(b.updated))>36e5*30;
+ const tiles=a=>(a||[]).length?'<div class="g k">'+a.map(t=>kpi(t.label,t.value,t.sub,t.trend)).join('')+'</div>':'';
+ let h=`<div class="sm" style="margin-bottom:6px">${b.updated?'Updated '+ago(b.updated):'No update time'} ${stale?'<span class="pill am">Stale, over 30h</span>':''}</div>`;
+ if(b.notes)h+=`<div class="alert">${b.notes}</div>`;
+ h+=tiles(b.headline);
+ (b.sections||[]).forEach(sec=>{h+=`<h2>${sec.title}</h2>`+tiles(sec.tiles);
+  if((sec.series||[]).length)h+='<div class="g c2" style="margin-top:12px">'+sec.series.map(x=>{const v=series(x.data,x.days||30);return `<div class="card"><div class="row"><b>${x.title}</b>${delta(v)}</div><div class="chart" style="height:90px">${area(v,40)}</div></div>`}).join('')+'</div>';
+  if((sec.funnel||[]).length){const m=Math.max(1,...sec.funnel.map(f=>f.value));h+='<div class="card" style="margin-top:12px">'+sec.funnel.map((f,i)=>`<div style="margin:9px 0"><div class="row"><span>${f.label}</span><b>${fmt(f.value)}${i&&sec.funnel[i-1].value?' <span class="sm">'+Math.round(f.value/sec.funnel[i-1].value*100)+'%</span>':''}</b></div><div class="bar"><i style="width:${f.value/m*100}%"></i></div></div>`).join('')+'</div>'}
+  if((sec.tables||[]).length)h+='<div class="g c2" style="margin-top:12px">'+sec.tables.map(t=>`<div class="card"><div class="lab">${t.title}</div><table>${t.rows.map(r=>'<tr>'+r.map(c=>'<td>'+c+'</td>').join('')+'</tr>').join('')}</table></div>`).join('')+'</div>'});
+ return h||'<div class="empty">No data pushed yet</div>'}
+function signupList(s,n){const a=(s.recent_signups||[]).slice(0,n);return a.length?'<table>'+a.map(x=>`<tr><td><b>${x.first_name}</b> <span class="sm">${x.email_domain}</span><br><span class="pill ${x.roofing?'am':''}">${x.roofing?'roofing':x.slot}</span> <span class="pill">${x.source}</span></td><td>${ago(x.created_at)}</td></tr>`).join('')+'</table>':'<div class="empty">No signups yet</div>'}
+function postToday(p){if(!p||!p.today)return '<div class="empty">No posting data yet</div>';
+ const names={youtube:'YouTube',facebook:'Facebook',instagram:'Instagram',pinterest:'Pinterest'},cols={youtube:'#ff0000',facebook:'#1877f2',instagram:'#d6249f',pinterest:'#e60023'};
+ const et=t=>new Date(t).toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit',timeZone:'America/New_York'})+' ET';
+ const cards=Object.entries(p.today).map(([k,v])=>{const ok=v.verified&&v.done>=v.planned&&v.planned>0;
+  const status=!v.verified?'<span class="pill am">Not verified</span>':v.overdue?'<span class="pill" style="background:#fde8e8;color:#c53030">'+v.overdue+' overdue</span>':ok?'<span class="pill ok">All out</span>':'<span class="pill">On track</span>';
+  const lines=v.items.map(x=>`<div class="${x.done?'ok':x.done===false&&x.due?'no':''}">${x.done?'✔':x.done===false&&x.due?'✖ missed':x.done===null?'? unverified':'○'} <b>${et(x.when)}</b> ${x.title}</div>`).join('');
+  const nx=v.next?`<div class="nx" style="margin-top:6px">Next: ${et(v.next.when)}<br>${v.next.title}</div>`:'<div style="margin-top:6px">Nothing else scheduled today</div>';
+  return `<div class="card tip" tabindex="0"><div class="lab"><span style="color:${cols[k]}">●</span> ${names[k]||k}</div><div class="val">${v.done}/${v.planned}</div><div class="sm">posted today ${status}</div><div class="pop">${lines||'No posts planned'}${nx}</div></div>`}).join('');
+ const yd=series(p.yt_by_day,14),cd=series(p.comments_by_day,14);
+ return `<div class="sm" style="margin-bottom:8px">Checked against what is really live (YouTube is verified directly). Hover a card for details. It is ${p.now_et} ET.</div><div class="g k">${cards||'<div class="empty">No posts planned today</div>'}</div>
+ <div class="g c2" style="margin-top:12px"><div class="card"><div class="lab">YouTube posts per day (verified live)</div><div class="chart" style="height:80px">${area(yd,40)}</div></div><div class="card"><div class="lab">Comments per day</div>${sum(cd)?'<div class="chart" style="height:80px">'+area(cd,40,"#1877f2")+'</div>':'<div class="sm" style="margin-top:8px">Appears once the social collector syncs comment counts.</div>'}</div></div>`}
+function navBiz(){const n=$('#nav');n.querySelectorAll('[data-b]').forEach(x=>x.remove());BIZ.forEach(b=>{const e=document.createElement('button');e.dataset.t='b_'+b.slug;e.dataset.b=1;e.textContent=b.name;n.appendChild(e)})}
+let cur=location.hash.slice(1)||'o';
+function render(){document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('on',b.dataset.t===cur));$('#app').innerHTML='<section class="on">'+(TABS[cur]||'')+'</section>'}
+$('#nav').onclick=e=>{const t=e.target.dataset&&e.target.dataset.t;if(t){cur=t;location.hash=t;render();scrollTo(0,0)}};
+function loadBiz(){return fetch('biz/index.json?'+Date.now()).then(r=>r.json()).then(l=>Promise.all(l.map(b=>fetch('biz/'+b.slug+'.json?'+Date.now()).then(r=>r.json()).then(x=>({...b,data:x})).catch(()=>b)))).catch(()=>[])}
+function load(){return fetch('data.json?'+Date.now()).then(r=>r.json()).then(async d=>{BIZ=await loadBiz();return d}).then(d=>fetch(SB,{method:'POST',headers:{apikey:KEY,'Content-Type':'application/json'},body:'{}'}).then(r=>r.ok?r.json():Promise.reject()).then(s=>{d.site=s;d.live=true;delete d.errors.site;d.generated_at=new Date().toISOString();return d}).catch(()=>d))}
+const go=()=>load().then(draw).catch(()=>{$('#upd').textContent='Waiting for first refresh'});go();setInterval(go,60000);
+</script></body></html>
