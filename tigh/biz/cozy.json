@@ -1,22 +1,22 @@
 {
  "name": "Cozy Crochet Club",
- "updated": "2026-11-09T23:43:17Z",
- "notes": "Sender is PAUSED in its settings | Downloads/trials/paid need App Store Connect login (not connected). Reply counts de-duplicated by thread (unverified).",
+ "updated": "2026-11-09T23:51:42Z",
+ "notes": "Sender is PAUSED in its settings | App numbers pulled by hand from App Store Connect, 30 days to Nov 8 UTC (refreshed when someone re-pulls). Reply counts de-duplicated by thread (unverified).",
  "headline": [
   {
-   "label": "Downloads",
-   "value": "n/a",
-   "sub": "needs App Store login"
+   "label": "Downloads (30d)",
+   "value": 512,
+   "sub": "App Store Connect"
   },
   {
-   "label": "Trials",
-   "value": "n/a",
-   "sub": "needs App Store login"
+   "label": "Trials (30d)",
+   "value": 70,
+   "sub": "6 in trial now"
   },
   {
-   "label": "Paid",
-   "value": "n/a",
-   "sub": "needs App Store login"
+   "label": "Paid plans",
+   "value": 33,
+   "sub": "40 active"
   },
   {
    "label": "Emails sent",
@@ -66,23 +66,48 @@
    "tiles": [
     {
      "label": "Downloads",
-     "value": "n/a",
-     "sub": "needs App Store Connect login"
+     "value": 512,
+     "sub": "first-time, 30 days to Nov 8 (UTC); 31 redownloads"
     },
     {
      "label": "Trials started",
-     "value": "n/a",
-     "sub": "needs App Store Connect login"
+     "value": 70,
+     "sub": "offer starts, same period"
     },
     {
-     "label": "Paid subscribers",
-     "value": "n/a",
-     "sub": "needs App Store Connect login"
+     "label": "In trial now",
+     "value": 6,
+     "sub": "active 3-day trials"
+    },
+    {
+     "label": "Paid plans",
+     "value": 33,
+     "sub": "40 active plans"
+    },
+    {
+     "label": "Proceeds",
+     "value": "$89",
+     "sub": "30 days, after Apple's cut"
+    },
+    {
+     "label": "MRR",
+     "value": "$12",
+     "sub": "as shown by Apple (looks low vs paid plans, unverified)"
+    },
+    {
+     "label": "Download to paid",
+     "value": "4.55%",
+     "sub": "day 35; day 7 4.21%"
+    },
+    {
+     "label": "Impressions / page views",
+     "value": "12.4K",
+     "sub": "813 page views, 5.6% conversion"
     },
     {
      "label": "Last updated",
-     "value": "never",
-     "sub": "no app data source connected yet"
+     "value": "11-09 23:58Z",
+     "sub": "pulled from App Store Connect"
     }
    ]
   },
@@ -282,9 +307,8 @@
      "value": "12.3%"
     },
     {
-     "label": "Downloads / trials / paid",
-     "value": "n/a",
-     "sub": "needs App Store Connect login"
+     "label": "Download to paid (day 35)",
+     "value": "4.55%"
     }
    ]
   },
