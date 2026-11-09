@@ -63,24 +63,24 @@ function plat(name,o,extra){o=o||{};const [c,l]=BRAND[name];const has=['follower
 const TABS={};let BIZ=[];
 function draw(d){
  const s=d.site||{},y=d.youtube,p=d.posting,so=d.social||{};
- const vd=series(s.views_by_day,30),sd=series(s.signups_by_day,30);
+ const vd=series(s.real_by_day||s.views_by_day,30),sd=series(s.signups_by_day,30);
  $('#upd').textContent=(d.live?'Live · ':'Cached · ')+ago(d.generated_at);$('#dot').style.background=d.live?'var(--ok)':'var(--amber)';
  const al=Object.values(d.errors||{}).map(e=>`<div class="alert">⚠ ${e}</div>`).join('');
  const ytO=y?{views:y.total_views,likes:y.likes,top:y.top.map(v=>({...v,comments:null}))}:{};
  const w7=sum(vd.slice(-7));
  TABS.o=`${al}<h2>Right now</h2><div class="g k">
-  ${kpi('Visitors, 24h',s.views_1d,fmt(s.views_7d)+' views this week',vd.slice(-14))}
+  ${kpi('Real visitors, 24h',s.real_visitors_1d,fmt(s.real_visitors_7d)+' this week',vd.slice(-14))}
   ${kpi('Signups',s.signups_total,fmt(s.signups_1d)+' in last 24h',sd.slice(-14))}
   ${kpi('Paid members',s.paid_members,'founding $46/mo')}
   ${kpi('Roofing leads',s.roofing_total,fmt(s.roofing_7d)+' this week')}
   ${kpi('YouTube views',y&&y.total_views,y?y.videos+' Shorts · '+fmt(y.likes)+' likes':'')}
   ${kpi('Member messages',s.messages_total,fmt(s.messages_unanswered)+' unanswered')}</div>
- <h2>Today's posting</h2>${postToday(p)}<h2>Traffic, last 30 days</h2><div class="card"><div class="row"><b>Page views</b>${delta(vd)}</div><div class="chart">${area(vd,60)}</div></div>
- <h2>Where it comes from</h2><div class="g c2"><div class="card"><div class="lab">Traffic sources</div>${rank(s.views_by_source_30d,6)}</div><div class="card"><div class="lab">Latest signups</div>${signupList(s,5)}</div></div>
+ <h2>Today's posting</h2>${postToday(p)}<h2>Traffic, last 30 days</h2><div class="card"><div class="row"><b>Real visitors per day</b>${delta(vd)}</div><div class="chart">${area(vd,60)}</div></div>
+ <h2>Where it comes from</h2><div class="g c2"><div class="card"><div class="lab">Traffic sources</div>${rank((s.real_sources_30d||s.views_by_source_30d),6)}</div><div class="card"><div class="lab">Latest signups</div>${signupList(s,5)}</div></div>
 `;
- TABS.w=`<div class="g k">${kpi('Views, 24h',s.views_1d,'',vd.slice(-14))}${kpi('Views, 7d',w7,delta(vd))}${kpi('Visitors, 7d',s.visitors_7d)}${kpi('All-time views',s.views_total)}</div>
- <h2>Page views, 30 days</h2><div class="card"><div class="chart">${area(vd,60)}</div></div>
- <div class="g c2"><div><h2>Traffic sources</h2><div class="card">${rank(s.views_by_source_30d,10)}</div></div><div><h2>Top pages</h2><div class="card">${rank(s.top_pages_30d,10)}</div></div></div>`;
+ TABS.w=`<div class="g k">${kpi('Real visitors, 24h',s.real_visitors_1d,'',vd.slice(-14))}${kpi('Real visitors, 7d',s.real_visitors_7d,delta(vd))}${kpi('Real visitors, all time',s.real_visitors_total)}${kpi('Bot/test views, 7d',s.bot_views_7d,'excluded from everything')}</div><div class="sm" style="margin-top:8px">Real = ${s.real_rule||''}. Your own visits are never tracked.</div>
+ <h2>Real visitors per day, 30 days</h2><div class="card"><div class="chart">${area(vd,60)}</div></div>
+ <div class="g c2"><div><h2>Traffic sources</h2><div class="card">${rank((s.real_sources_30d||s.views_by_source_30d),10)}</div></div><div><h2>Top pages</h2><div class="card">${rank((s.real_pages_30d||s.top_pages_30d),10)}</div></div></div>`;
  TABS.s=`<h2>Every platform</h2><div class="g c2">${plat('YouTube',ytO)}${plat('Facebook',so.facebook)}${plat('Instagram',so.instagram)}${plat('Pinterest',so.pinterest)}</div>${so.updated?`<div class="sm" style="margin-top:10px">Social synced ${ago(so.updated)}</div>`:''}`;
  TABS.p=`<div class="g k">${kpi('Signups',s.signups_total,fmt(s.signups_7d)+' this week',sd.slice(-14))}${kpi('Paid',s.paid_members)}${kpi('Roofing leads',s.roofing_total,fmt(s.roofing_7d)+' this week')}${kpi('Messages in',s.messages_total,fmt(s.messages_7d)+' this week')}${kpi('Unanswered',s.messages_unanswered,'threads waiting')}</div>
  <div class="g c2"><div><h2>Latest signups</h2><div class="card">${signupList(s,10)}</div></div><div><h2>Signups by source</h2><div class="card">${rank(s.signups_by_source)}</div></div></div>`;
@@ -103,11 +103,12 @@ function allNums(d){const s=d.site||{},y=d.youtube||{},t=(d.posting||{}).today||
  const n=(l,v,sub)=>`<div class="n"><div class="l">${l}</div><div class="v">${fmt(v)}</div>${sub?`<div class="s">${sub}</div>`:''}</div>`;
  const pd=Object.values(t).reduce((a,v)=>a+(v.done||0),0),pp=Object.values(t).reduce((a,v)=>a+(v.planned||0),0);
  let h=`<div class="card biz"><h3>Riside <span class="sm">${d.live?'live':'updated '+ago(d.generated_at)}</span></h3><div class="nums">
-  ${n('Visitors today',s.views_1d,fmt(s.views_7d)+' this week')}${n('Signups',s.signups_total,fmt(s.signups_1d)+' today')}${n('Paid members',s.paid_members)}
-  ${n('Messages',s.messages_total,fmt(s.messages_unanswered)+' unanswered')}${n('YouTube views',y.total_views,fmt(y.likes)+' likes')}${n('Posts today',pp?pd+'/'+pp:null,'all platforms')}</div></div>
-  <div class="card biz"><h3>Roofing</h3><div class="nums">${n('Leads',s.roofing_total,fmt(s.roofing_7d)+' this week')}${n('Page views, 7d',s.roofing_views_7d)}</div></div>`;
+  ${n('Real visitors today',s.real_visitors_1d,fmt(s.real_visitors_7d)+' this week, bots removed')}${n('Signups',s.signups_total,fmt(s.signups_1d)+' today')}${n('Paid members',s.paid_members)}
+  ${n('Messages',s.messages_total,fmt(s.messages_unanswered)+' unanswered')}${n('YouTube views',y.total_views,(y.videos||0)+' videos'+(y.catalog?'':' (partial)'))}${n('Posts today',pp?pd+'/'+pp:null,'all platforms')}</div></div>
+  <div class="card biz"><h3>Roofing</h3><div class="nums">${n('Leads',s.roofing_total,fmt(s.roofing_7d)+' this week')}${n('Real visitors, 7d',s.roofing_real_visitors_7d)}</div></div>`;
  BIZ.forEach(b=>{const x=b.data||{};const all=[...(x.headline||[]),...(x.sections||[]).flatMap(q=>q.tiles||[])];
   h+=`<div class="card biz"><h3>${b.name} <span class="sm">${x.updated?'updated '+ago(x.updated):'waiting for data'}</span></h3>${all.length?'<div class="nums">'+all.map(q=>n(q.label,q.value,q.sub)).join('')+'</div>':'<div class="sm">No numbers yet</div>'}</div>`});
+ const ck=(d.checks||[]);h+=`<div class="card biz"><h3>Data checks <span class="sm">${d.checked_at?'last full check '+ago(d.checked_at):''}</span></h3>${ck.map(c=>`<div class="row" style="padding:5px 0;border-top:1px solid var(--line)"><span>${c.ok?'✅':'⚠️'} <b>${c.name}</b></span><span class="sm" style="text-align:right">${c.detail}</span></div>`).join('')||'<div class="sm">No checks yet</div>'}</div>`;
  return (Object.values(d.errors||{}).map(e=>`<div class="alert">⚠ ${e}</div>`).join(''))+h}
 function signupList(s,n){const a=(s.recent_signups||[]).slice(0,n);return a.length?'<table>'+a.map(x=>`<tr><td><b>${x.first_name}</b> <span class="sm">${x.email_domain}</span><br><span class="pill ${x.roofing?'am':''}">${x.roofing?'roofing':x.slot}</span> <span class="pill">${x.source}</span></td><td>${ago(x.created_at)}</td></tr>`).join('')+'</table>':'<div class="empty">No signups yet</div>'}
 function postToday(p){if(!p||!p.today)return '<div class="empty">No posting data yet</div>';
