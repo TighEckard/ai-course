@@ -17,10 +17,14 @@ except Exception as e:
 try:
     html = get('https://www.youtube.com/@risidelearning', headers={'User-Agent': 'Mozilla/5.0', 'Cookie': 'CONSENT=YES+1'})
     cid = re.search(r'"channelId":"(UC[\w-]{22})"', html) or re.search(r'channel_id=(UC[\w-]{22})', html)
-    xml = get('https://www.youtube.com/feeds/videos.xml?channel_id=' + cid.group(1))
     ns = {'a': 'http://www.w3.org/2005/Atom', 'm': 'http://search.yahoo.com/mrss/', 'y': 'http://www.youtube.com/xml/schemas/2015'}
     vids = []
-    for e in ET.fromstring(xml).findall('a:entry', ns):
+    try:
+        xml = get('https://www.youtube.com/feeds/videos.xml?channel_id=' + cid.group(1))
+        entries = ET.fromstring(xml).findall('a:entry', ns)
+    except Exception as e:
+        entries = []; print('rss failed', e)
+    for e in entries:
         st = e.find('m:group/m:community/m:statistics', ns)
         vids.append({'title': e.find('a:title', ns).text, 'url': e.find('a:link', ns).get('href'),
                      'published': e.find('a:published', ns).text, 'views': int(st.get('views')) if st is not None else 0,
@@ -68,13 +72,23 @@ try:
     if cat:
         rss_sum = d['youtube']['total_views']
         d['youtube'].update({'total_views': sum(v['views'] for v in cat), 'videos': len(cat), 'catalog': True,
-                             'likes': d['youtube']['likes'], 'exact_videos': exact, 'top': sorted(cat, key=lambda v: -v['views'])[:3]})
+                             'likes': d['youtube']['likes'], 'exact_videos': exact, 'list': sorted(cat, key=lambda v: v.get('published') or '', reverse=True), 'top': sorted(cat, key=lambda v: -v['views'])[:3]})
         d.setdefault('checks', []).append({'name': 'YouTube views', 'ok': d['youtube']['total_views'] >= rss_sum,
             'detail': '%d videos on the channel, %d with exact counts%s = %d views' % (len(cat), exact, '' if exact == len(cat) else ' (rest from the channel page, rounded)', d['youtube']['total_views'])})
     else:
         d['errors']['youtube_catalog'] = 'Could only read the latest 15 videos; total views is too low'
 except Exception as e:
-    d['youtube'] = None; d['errors']['youtube'] = str(e)[:120]
+    d['youtube'] = None; print('youtube failed', e)
+if not d.get('youtube') or not d['youtube'].get('catalog'):
+    try:
+        prev = json.load(open(os.path.join(out_dir, 'data.json'))).get('youtube')
+        if prev and prev.get('catalog'):
+            prev['stale_from'] = prev.get('checked_at') or prev.get('stale_from'); d['youtube'] = prev
+            d['errors']['youtube'] = 'YouTube did not answer this hour; showing the last good numbers'
+    except Exception:
+        pass
+if d.get('youtube') and d['youtube'].get('catalog') and not d['youtube'].get('stale_from'):
+    d['youtube']['checked_at'] = d['generated_at']
 try:
     from zoneinfo import ZoneInfo
     sch = json.load(open(os.path.join(ROOT, 'dash', 'feed', 'schedule.json')))
@@ -115,7 +129,27 @@ try:
                      'overdue': sum(1 for x in lst if x['due'] and x['done'] is False), 'items': lst, 'next': nxt}
     if 'youtube' not in plan and yt_today:
         out['youtube'] = {'planned': 0, 'done': len(yt_today), 'verified': True, 'overdue': 0, 'items': [], 'next': None}
-    d['posting'] = {'date': today, 'now_et': now.strftime('%-I:%M %p'), 'today': out,
+    hist = []
+    ytl = (d.get('youtube') or {}).get('list') or (d.get('youtube') or {}).get('all') or []
+    for k in range(0, 8):
+        day = (now - datetime.timedelta(days=k)).date().isoformat()
+        mf2 = os.path.join(ROOT, 'social', day, 'manifest.json')
+        if not os.path.exists(mf2): continue
+        for it in json.load(open(mf2))['videos']:
+            title = it.get('yt_title') or it.get('pin_title') or (it.get('caption_meta') or it['id']).split('. ')[0][:70]
+            plats = []
+            for pf in it['platforms']:
+                for plat in sch['platform_of'].get(pf, []):
+                    link = None; st = 'unverified'
+                    if plat == 'youtube' and ytl:
+                        hit = next((v for v in ytl if norm(it.get('yt_title') or it['id'])[:25] in norm(v['title']) or norm(it['id']) in norm(v['title'])), None)
+                        link = hit and hit['url']; st = 'live' if hit else ('missing' if day < today or datetime.datetime.fromisoformat(now.replace(hour=int(sch['slots'].get(it.get('slot'),'12:00')[:2])).isoformat()) <= now else 'scheduled')
+                        if hit: plats.append({'p': plat, 'status': st, 'url': link, 'views': hit['views']}); continue
+                    elif plat in ((soc.get('posted_by_day') or {}).get(day) or {}):
+                        st = 'live' if it['id'] in soc['posted_by_day'][day][plat] else 'missing'
+                    plats.append({'p': plat, 'status': st, 'url': link})
+            hist.append({'date': day, 'slot': it.get('slot'), 'title': title, 'format': it.get('format'), 'platforms': plats})
+    d['posting'] = {'date': today, 'now_et': now.strftime('%-I:%M %p'), 'today': out, 'history': hist,
                     'yt_by_day': {}, 'comments_by_day': soc.get('comments_by_day', {})}
     for v in (d.get('youtube') or {}).get('all', []):
         k = v['published'][:10]; d['posting']['yt_by_day'][k] = d['posting']['yt_by_day'].get(k, 0) + 1
