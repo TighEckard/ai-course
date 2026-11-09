@@ -21,8 +21,11 @@ function bars(obj,days=30){const k=[];for(let i=days-1;i>=0;i--){k.push(new Date
  return `<svg viewBox="0 0 100 40" preserveAspectRatio="none">${v.map((n,i)=>`<rect x="${i*w+.3}" width="${w-.6}" y="${40-n/m*38}" height="${n/m*38}" fill="#e8a317"><title>${k[i]}: ${n}</title></rect>`).join('')}</svg>`}
 const list=o=>'<table>'+Object.entries(o||{}).sort((a,b)=>b[1]-a[1]).slice(0,8).map(([k,v])=>`<tr><td>${k}</td><td>${fmt(v)}</td></tr>`).join('')+'</table>';
 const ago=t=>{const h=(Date.now()-new Date(t))/36e5;return h<1?'just now':h<48?Math.round(h)+'h ago':Math.round(h/24)+'d ago'};
-fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{
- $('upd').textContent='Updated '+ago(d.generated_at)+' (refreshes every 3 hours)';
+const SB='https://yhsxxblilclylzgejehk.supabase.co/rest/v1/rpc/dash_stats',KEY='sb_publishable_9BiONVmj8Ht4k7lBsxGkkA_Yajbl8Rj';
+const CLARITY='';/* paste Clarity project id after signing up at clarity.microsoft.com */
+function load(){return fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>fetch(SB,{method:'POST',headers:{apikey:KEY,'Content-Type':'application/json'},body:'{}'}).then(r=>r.ok?r.json():Promise.reject()).then(s=>{d.site=s;d.live=true;delete d.errors.site;d.generated_at=new Date().toISOString();return d}).catch(()=>d))}
+function draw(d){
+ $('upd').textContent=(d.live?'Live site numbers, ':'Site numbers from ')+'updated '+ago(d.generated_at)+'. Social numbers refresh hourly.';
  let h='';const s=d.site,y=d.youtube,p=d.posting,so=d.social||{};
  Object.values(d.errors||{}).forEach(e=>h+=`<div class="warn">⚠ ${e}</div>`);
  h+='<h2>Today at a glance</h2><div class="grid">';
@@ -31,12 +34,14 @@ fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>{
  h+='</div>';
  if(s){h+='<h2>riside.com traffic and signups (30 days)</h2><div class="grid"><div class="card wide"><div class="lab">Page views per day</div>'+bars(s.views_by_day)+'</div><div class="card wide"><div class="lab">Signups per day</div>'+bars(s.signups_by_day)+'</div>'+
   `<div class="card"><div class="lab">Traffic sources</div>${list(s.views_by_source_30d)}</div><div class="card"><div class="lab">Signups by source</div>${list(s.signups_by_source)}</div><div class="card"><div class="lab">Top pages</div>${list(s.top_pages_30d)}</div></div>`}
- if(y)h+='<h2>YouTube</h2><div class="card"><table>'+y.top.map(v=>`<tr><td><a href="${v.url}">${v.title}</a></td><td>${fmt(v.views)}</td></tr>`).join('')+'</table></div>';
+ if(y)h+='<h2>YouTube</h2><div class="card"><div class="lab">'+fmt(y.total_views)+' views, '+fmt(y.likes)+' likes. Top 3:</div><table>'+y.top.map(v=>`<tr><td><a href="${v.url}">${v.title}</a></td><td>${fmt(v.views)} views, ${fmt(v.likes)} likes</td></tr>`).join('')+'</table></div>';
+ if(s&&s.recent_signups)h+='<h2>Real signups and messages</h2><div class="grid">'+tile('Messages from members',s.messages_total,fmt(s.messages_7d)+' this week')+tile('Unanswered threads',s.messages_unanswered)+'</div><div class="card" style="margin-top:10px"><table>'+(s.recent_signups.length?s.recent_signups.map(x=>`<tr><td>${x.first_name} (${x.email_domain}) ${x.roofing?'roofing lead':x.slot}, ${x.source}</td><td>${ago(x.created_at)}</td></tr>`).join(''):'<tr><td>No signups yet</td><td></td></tr>')+'</table></div>';
+ h+='<h2>Visitor recordings</h2><div class="card">'+(CLARITY?'<a href="https://clarity.microsoft.com/projects/view/'+CLARITY+'/impressions">Open session recordings and heatmaps</a>':'<div class="lab">Not connected yet. Needs a free Microsoft Clarity project.</div>')+'</div>';
  h+='<h2>Facebook, Instagram, Pinterest</h2><div class="grid">';
  const sl=[['Facebook',so.facebook],['Instagram',so.instagram],['Pinterest',so.pinterest]];
- sl.forEach(([n,o])=>{o=o||{};const e=Object.entries(o);h+=`<div class="card"><div class="lab">${n}</div>${e.length?e.map(([k,v])=>`<div>${k.replace(/_/g,' ')}: <b>${fmt(v)}</b></div>`).join(''):'<div class="lab">No data yet</div>'}</div>`});
+ sl.forEach(([n,o])=>{o=o||{};const ks=['followers','views_7d','engagement','comments_7d'].filter(k=>o[k]!=null);h+=`<div class="card wide"><div class="lab"><b>${n}</b></div>${ks.length?'<div class="grid">'+ks.map(k=>tile(k.replace(/_/g,' '),o[k])).join('')+'</div>':'<div class="lab">No data yet</div>'}${(o.top||[]).length?'<div class="lab" style="margin-top:8px">Top 3 videos</div><table>'+o.top.slice(0,3).map(v=>`<tr><td><a href="${v.url}">${v.title}</a></td><td>${fmt(v.views)} views, ${fmt(v.likes)} likes, ${fmt(v.comments)} comments</td></tr>`).join('')+'</table>':''}${(o.recent_comments||[]).length?'<div class="lab" style="margin-top:8px">Latest comments</div><table>'+o.recent_comments.slice(0,5).map(c=>`<tr><td><a href="${c.url}">${c.who}</a>: ${c.text}</td><td></td></tr>`).join('')+'</table>':''}</div>`});
  h+='</div>';
  if(p){h+='<h2>Posting</h2><div class="card"><table>'+Object.entries(p.last).map(([k,v])=>`<tr><td>${k}: ${v.label}</td><td>${ago(v.t)}</td></tr>`).join('')+'</table><div class="lab" style="margin-top:6px">Posts in last 7 days: '+Object.entries(p.posts_7d).map(([k,v])=>k+' '+v).join(', ')+'</div></div>'}
- $('app').innerHTML=h;
-}).catch(e=>{$('upd').textContent='No data yet. First refresh is pending.'});
+ $('app').innerHTML=h;}
+load().then(draw).catch(e=>{$('upd').textContent='No data yet. First refresh is pending.'});setInterval(()=>load().then(draw).catch(()=>{}),60000);
 </script></body></html>

@@ -23,9 +23,10 @@ try:
     for e in ET.fromstring(xml).findall('a:entry', ns):
         st = e.find('m:group/m:community/m:statistics', ns)
         vids.append({'title': e.find('a:title', ns).text, 'url': e.find('a:link', ns).get('href'),
-                     'published': e.find('a:published', ns).text, 'views': int(st.get('views')) if st is not None else 0})
+                     'published': e.find('a:published', ns).text, 'views': int(st.get('views')) if st is not None else 0,
+                     'likes': int(e.find('m:group/m:community/m:starRating', ns).get('count'))})
     d['youtube'] = {'total_views': sum(v['views'] for v in vids), 'videos': len(vids),
-                    'top': sorted(vids, key=lambda v: -v['views'])[:5], 'recent': vids[:5]}
+                    'likes': sum(v['likes'] for v in vids), 'top': sorted(vids, key=lambda v: -v['views'])[:3], 'recent': vids[:5]}
 except Exception as e:
     d['youtube'] = None; d['errors']['youtube'] = str(e)[:120]
 try:
