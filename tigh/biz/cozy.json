@@ -1,6 +1,6 @@
 {
  "name": "Cozy Crochet Club",
- "updated": "2026-11-09T22:00:43Z",
+ "updated": "2026-11-09T22:02:30Z",
  "notes": "Sender is PAUSED in its settings | Downloads/trials/paid need App Store Connect login (not connected). Reply counts de-duplicated by thread (unverified).",
  "headline": [
   {
@@ -62,7 +62,47 @@
  ],
  "sections": [
   {
-   "title": "Last 30 days",
+   "title": "Cold email outreach",
+   "tiles": [
+    {
+     "label": "Sent total",
+     "value": 269,
+     "sub": "unique creators, from sender log"
+    },
+    {
+     "label": "Sent last 7d",
+     "value": 59,
+     "sub": "269 last 30d"
+    },
+    {
+     "label": "Sent today",
+     "value": 0,
+     "sub": "of 100 sender cap"
+    },
+    {
+     "label": "Replies",
+     "value": 33,
+     "sub": "12.3% of sent"
+    },
+    {
+     "label": "Replies today",
+     "value": 4
+    },
+    {
+     "label": "Bounced",
+     "value": 0,
+     "sub": "matched by address in bounce text (unverified)"
+    },
+    {
+     "label": "Last send",
+     "value": "2026-11-08"
+    },
+    {
+     "label": "Inbox sync",
+     "value": "11-09 21:43Z",
+     "sub": "last time replies were read"
+    }
+   ],
    "series": [
     {
      "title": "Emails sent per day",
@@ -137,6 +177,65 @@
      "days": 30
     }
    ],
+   "tables": [
+    {
+     "title": "Templates by reply rate (top 5)",
+     "rows": [
+      [
+       "Cozy Crochet Club x <creator>",
+       "59 sent, 10 replies, 16.9%"
+      ],
+      [
+       "Founding creator spot",
+       "144 sent, 19 replies, 13.2%"
+      ],
+      [
+       "Congrats on N followers",
+       "17 sent, 1 replies, 5.9%"
+      ],
+      [
+       "Other",
+       "47 sent, 1 replies, 2.1%"
+      ],
+      [
+       "Partnering on Cozy Crochet Club",
+       "2 sent, 0 replies, 0.0%"
+      ]
+     ]
+    },
+    {
+     "title": "Creators emailed by platform",
+     "rows": [
+      [
+       "unknown",
+       178
+      ],
+      [
+       "YouTube",
+       61
+      ],
+      [
+       "TikTok",
+       22
+      ],
+      [
+       "Instagram",
+       5
+      ],
+      [
+       "blog",
+       2
+      ],
+      [
+       "Facebook (blog)",
+       1
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Funnel",
    "funnel": [
     {
      "label": "Emailed",
@@ -147,23 +246,15 @@
      "value": 33
     }
    ],
-   "tables": [
+   "tiles": [
     {
-     "title": "Best templates",
-     "rows": [
-      [
-       "Cozy Crochet Club x <creator>",
-       "10/59 replied, 16.9%"
-      ],
-      [
-       "Founding creator spot",
-       "19/144 replied, 13.2%"
-      ],
-      [
-       "Congrats on N followers",
-       "1/17 replied, 5.9%"
-      ]
-     ]
+     "label": "Reply rate",
+     "value": "12.3%"
+    },
+    {
+     "label": "Downloads / trials / paid",
+     "value": "n/a",
+     "sub": "needs App Store Connect login"
     }
    ]
   }
