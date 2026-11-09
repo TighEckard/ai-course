@@ -1,6 +1,6 @@
 {
  "name": "Ovoa",
- "updated": "2026-11-09T22:30:00Z",
+ "updated": "2026-11-09T22:40:00Z",
  "notes": "Sender is PAUSED in its settings. Sales, signups, app and site traffic need Stripe / admin.ovoa.ai / App Store logins (not connected yet). Replies are unique senders+subjects in the Sender inbox (unverified).",
  "headline": [
   {
@@ -128,6 +128,111 @@
        203
       ]
      ]
+    }
+   ]
+  },
+  {
+   "title": "Per inbox",
+   "tables": [
+    {
+     "title": "Sent per inbox",
+     "rows": [
+      [
+       "t@tryovoa.com",
+       433
+      ],
+      [
+       "sarah@tryovoa.com",
+       415
+      ],
+      [
+       "thomas@tryovoa.com",
+       408
+      ],
+      [
+       "ugc@tryovoa.com",
+       408
+      ],
+      [
+       "chloe@tryovoa.com",
+       345
+      ],
+      [
+       "tigh@ovoateam.com",
+       44
+      ],
+      [
+       "thomas@ovoateam.com",
+       42
+      ],
+      [
+       "chloe@ovoateam.com",
+       42
+      ],
+      [
+       "ty@ovoateam.com",
+       41
+      ],
+      [
+       "thomas.lancheros@ovoateam.com",
+       34
+      ]
+     ]
+    },
+    {
+     "title": "Inbox messages per inbox (incl. replies and bounces)",
+     "rows": [
+      [
+       "t@tryovoa.com",
+       68
+      ],
+      [
+       "thomas@tryovoa.com",
+       66
+      ],
+      [
+       "ugc@tryovoa.com",
+       63
+      ],
+      [
+       "sarah@tryovoa.com",
+       59
+      ],
+      [
+       "tigh@ovoateam.com",
+       58
+      ],
+      [
+       "chloe@tryovoa.com",
+       45
+      ],
+      [
+       "thomas@ovoateam.com",
+       5
+      ],
+      [
+       "thomas.lancheros@ovoateam.com",
+       5
+      ],
+      [
+       "chloe@ovoateam.com",
+       5
+      ],
+      [
+       "ty@ovoateam.com",
+       3
+      ]
+     ]
+    }
+   ],
+   "tiles": [
+    {
+     "label": "Unconfirmed sends",
+     "value": 30
+    },
+    {
+     "label": "Landed in spam folder",
+     "value": 4
     }
    ]
   }

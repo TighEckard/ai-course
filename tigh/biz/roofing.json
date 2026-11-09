@@ -1,0 +1,109 @@
+{
+ "name": "Roofing (Riside)",
+ "updated": "2026-11-09T22:40:00Z",
+ "notes": "Lead and visitor numbers come from the last hourly check (Supabase needs a sign-in for live counts). Facebook numbers are from the comment log.",
+ "headline": [
+  {
+   "label": "Leads",
+   "value": 0,
+   "sub": "form submissions"
+  },
+  {
+   "label": "Page visits (7d)",
+   "value": 3
+  },
+  {
+   "label": "FB comments posted",
+   "value": 7,
+   "sub": "2 greyed, 5 live"
+  },
+  {
+   "label": "FB posts logged",
+   "value": 14
+  },
+  {
+   "label": "Replies to comments",
+   "value": "n/a",
+   "sub": "not tracked yet"
+  }
+ ],
+ "sections": [
+  {
+   "title": "riside.com/roofing page",
+   "tiles": [
+    {
+     "label": "Leads total",
+     "value": 0
+    },
+    {
+     "label": "Visits last 7 days",
+     "value": 3
+    },
+    {
+     "label": "Form",
+     "value": "name, phone, ZIP, notes"
+    }
+   ],
+   "funnel": [
+    {
+     "label": "Visits (7d)",
+     "value": 3
+    },
+    {
+     "label": "Leads",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "title": "Facebook comments (Tanner)",
+   "tiles": [
+    {
+     "label": "Posts logged",
+     "value": 14
+    },
+    {
+     "label": "Commented",
+     "value": 7
+    },
+    {
+     "label": "Skipped",
+     "value": 4
+    },
+    {
+     "label": "Drafted, not sent",
+     "value": 2
+    },
+    {
+     "label": "Comments per day cap",
+     "value": 5,
+     "sub": "ramps to 8 by Nov 16"
+    }
+   ],
+   "series": [
+    {
+     "title": "Posts logged per day",
+     "data": {
+      "2026-11-08": 10,
+      "2026-11-09": 4
+     },
+     "days": 30
+    }
+   ],
+   "funnel": [
+    {
+     "label": "Posts logged",
+     "value": 14
+    },
+    {
+     "label": "Commented",
+     "value": 7
+    },
+    {
+     "label": "Leads",
+     "value": 0
+    }
+   ]
+  }
+ ]
+}
