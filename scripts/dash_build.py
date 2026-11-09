@@ -121,7 +121,8 @@ try:
         lst.sort(key=lambda x: x['when'])
         for x in lst:
             if plat == 'youtube':
-                x['done'] = any(norm(x['id']) in n or norm(x['title'])[:25] in n for n, _ in yt_today)
+                cat_titles = [norm(v['title']) for v in ((d.get('youtube') or {}).get('list') or [])]
+                x['done'] = any(norm(x['id']) in n or norm(x['title'])[:25] in n for n, _ in yt_today) or any(norm(x['title'])[:25] in n for n in cat_titles)
                 x['verified'] = bool(d.get('youtube'))
             elif plat in reported:
                 x['done'] = x['id'] in reported[plat]; x['verified'] = True
