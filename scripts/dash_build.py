@@ -144,7 +144,7 @@ for f in sorted(glob.glob(os.path.join(out_dir, 'biz', '*.json'))):
         b = json.load(open(f)); biz.append({'slug': os.path.basename(f)[:-5], 'name': b.get('name') or os.path.basename(f)[:-5], 'updated': b.get('updated')})
         try: age = (datetime.datetime.now(datetime.timezone.utc) - datetime.datetime.fromisoformat(b['updated'].replace('Z', '+00:00'))).total_seconds() / 3600
         except Exception: age = 999
-        d['checks'].append({'name': biz[-1]['name'], 'ok': age <= 12, 'detail': 'numbers last refreshed %.0fh ago' % age + ('' if age <= 12 else ' (older than 12h, flagged stale)')})
+        d['checks'].append({'name': biz[-1]['name'], 'ok': age <= 12, 'detail': 'numbers last refreshed %.0fh ago' % max(age, 0) + ('' if age <= 12 else ' (older than 12h, flagged stale)')})
     except Exception as e:
         print('bad biz file', f, e)
 json.dump(biz, open(os.path.join(out_dir, 'biz', 'index.json'), 'w'), indent=1)
