@@ -71,6 +71,9 @@ try:
             rss = next((v for v in vids if vid in v['url']), None)
             row = {'id': vid, 'title': ttl or vid, 'url': 'https://youtube.com/shorts/' + vid, 'views': approx[vid][0], 'exact': False,
                    'published': rss['published'] if rss else None}
+        if row and row['title'] == vid:
+            try: row['title'] = json.loads(get('https://www.youtube.com/oembed?format=json&url=https://www.youtube.com/shorts/' + vid))['title']
+            except Exception: pass
         if row: cat.append(row)
     print('youtube ids', len(ids), 'exact', exact, 'approx-only', len(cat) - exact)
     if cat:
