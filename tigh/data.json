@@ -1,8 +1,6 @@
 {
- "generated_at": "2026-11-09T23:43:25.480287Z",
- "errors": {
-  "youtube": "HTTP Error 404: Not Found"
- },
+ "generated_at": "2026-11-09T23:45:44.316775Z",
+ "errors": {},
  "site": {
   "os_30d": {
    "?": 1,
@@ -86,7 +84,7 @@
    "Chrome": 15,
    "Safari": 5
   },
-  "generated_at": "2026-11-09T23:43:25.694233+00:00",
+  "generated_at": "2026-11-09T23:45:44.620849+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -305,10 +303,300 @@
   "returning_visitors_30d": 3,
   "roofing_real_visitors_7d": 3
  },
- "youtube": null,
+ "youtube": {
+  "total_views": 8494,
+  "videos": 29,
+  "likes": 0,
+  "top": [
+   {
+    "id": "9mRzsVeSNn4",
+    "title": "9mRzsVeSNn4",
+    "url": "https://youtube.com/shorts/9mRzsVeSNn4",
+    "views": 1200,
+    "exact": false
+   },
+   {
+    "id": "j_O46JtdC34",
+    "title": "j_O46JtdC34",
+    "url": "https://youtube.com/shorts/j_O46JtdC34",
+    "views": 1100,
+    "exact": false
+   },
+   {
+    "id": "hjJIzapOj24",
+    "title": "hjJIzapOj24",
+    "url": "https://youtube.com/shorts/hjJIzapOj24",
+    "views": 962,
+    "exact": false
+   }
+  ],
+  "recent": [],
+  "all": [],
+  "catalog": true,
+  "exact_videos": 11,
+  "list": [
+   {
+    "id": "1L9U100WIN0",
+    "title": "1L9U100WIN0",
+    "url": "https://youtube.com/shorts/1L9U100WIN0",
+    "views": 0,
+    "exact": false
+   },
+   {
+    "id": "1Z8d6CqPQHU",
+    "title": "1Z8d6CqPQHU",
+    "url": "https://youtube.com/shorts/1Z8d6CqPQHU",
+    "views": 0,
+    "exact": false
+   },
+   {
+    "id": "-4fKye0-VjE",
+    "title": "-4fKye0-VjE",
+    "url": "https://youtube.com/shorts/-4fKye0-VjE",
+    "views": 1,
+    "exact": false
+   },
+   {
+    "id": "o-Cm_xmLloU",
+    "title": "o-Cm_xmLloU",
+    "url": "https://youtube.com/shorts/o-Cm_xmLloU",
+    "views": 1,
+    "published": null,
+    "exact": true
+   },
+   {
+    "id": "tCjX_vTzg9I",
+    "title": "tCjX_vTzg9I",
+    "url": "https://youtube.com/shorts/tCjX_vTzg9I",
+    "views": 0,
+    "exact": false
+   },
+   {
+    "id": "aHFCFhbCeZk",
+    "title": "aHFCFhbCeZk",
+    "url": "https://youtube.com/shorts/aHFCFhbCeZk",
+    "views": 0,
+    "exact": false
+   },
+   {
+    "id": "O0DxIt_fQjA",
+    "title": "O0DxIt_fQjA",
+    "url": "https://youtube.com/shorts/O0DxIt_fQjA",
+    "views": 1,
+    "published": null,
+    "exact": true
+   },
+   {
+    "id": "wr1wnbtk9EM",
+    "title": "wr1wnbtk9EM",
+    "url": "https://youtube.com/shorts/wr1wnbtk9EM",
+    "views": 0,
+    "exact": false
+   },
+   {
+    "id": "O0v42Pppyxo",
+    "title": "O0v42Pppyxo",
+    "url": "https://youtube.com/shorts/O0v42Pppyxo",
+    "views": 1,
+    "exact": false
+   },
+   {
+    "id": "lRXGM46vjpk",
+    "title": "lRXGM46vjpk",
+    "url": "https://youtube.com/shorts/lRXGM46vjpk",
+    "views": 935,
+    "exact": false
+   },
+   {
+    "id": "B0h7mqzcssY",
+    "title": "B0h7mqzcssY",
+    "url": "https://youtube.com/shorts/B0h7mqzcssY",
+    "views": 479,
+    "exact": false
+   },
+   {
+    "id": "QtHsxWyALPQ",
+    "title": "QtHsxWyALPQ",
+    "url": "https://youtube.com/shorts/QtHsxWyALPQ",
+    "views": 71,
+    "exact": false
+   },
+   {
+    "id": "Khk-oMwNaQQ",
+    "title": "Khk-oMwNaQQ",
+    "url": "https://youtube.com/shorts/Khk-oMwNaQQ",
+    "views": 337,
+    "exact": false
+   },
+   {
+    "id": "sF0OHgEgq9E",
+    "title": "sF0OHgEgq9E",
+    "url": "https://youtube.com/shorts/sF0OHgEgq9E",
+    "views": 310,
+    "published": null,
+    "exact": true
+   },
+   {
+    "id": "EqSk3xo9tTg",
+    "title": "EqSk3xo9tTg",
+    "url": "https://youtube.com/shorts/EqSk3xo9tTg",
+    "views": 2,
+    "published": null,
+    "exact": true
+   },
+   {
+    "id": "DuTUAAUjx7Q",
+    "title": "DuTUAAUjx7Q",
+    "url": "https://youtube.com/shorts/DuTUAAUjx7Q",
+    "views": 77,
+    "published": null,
+    "exact": true
+   },
+   {
+    "id": "vsjOK3cLpwo",
+    "title": "vsjOK3cLpwo",
+    "url": "https://youtube.com/shorts/vsjOK3cLpwo",
+    "views": 602,
+    "published": null,
+    "exact": true
+   },
+   {
+    "id": "TGZoeTOM7mc",
+    "title": "TGZoeTOM7mc",
+    "url": "https://youtube.com/shorts/TGZoeTOM7mc",
+    "views": 123,
+    "published": null,
+    "exact": true
+   },
+   {
+    "id": "9mRzsVeSNn4",
+    "title": "9mRzsVeSNn4",
+    "url": "https://youtube.com/shorts/9mRzsVeSNn4",
+    "views": 1200,
+    "exact": false
+   },
+   {
+    "id": "j_O46JtdC34",
+    "title": "j_O46JtdC34",
+    "url": "https://youtube.com/shorts/j_O46JtdC34",
+    "views": 1100,
+    "exact": false
+   },
+   {
+    "id": "BUodsaR44Gw",
+    "title": "BUodsaR44Gw",
+    "url": "https://youtube.com/shorts/BUodsaR44Gw",
+    "views": 460,
+    "published": null,
+    "exact": true
+   },
+   {
+    "id": "ku-cxkxCR98",
+    "title": "ku-cxkxCR98",
+    "url": "https://youtube.com/shorts/ku-cxkxCR98",
+    "views": 543,
+    "published": null,
+    "exact": true
+   },
+   {
+    "id": "hjJIzapOj24",
+    "title": "hjJIzapOj24",
+    "url": "https://youtube.com/shorts/hjJIzapOj24",
+    "views": 962,
+    "exact": false
+   },
+   {
+    "id": "FtxyGZ_771Q",
+    "title": "FtxyGZ_771Q",
+    "url": "https://youtube.com/shorts/FtxyGZ_771Q",
+    "views": 933,
+    "published": null,
+    "exact": true
+   },
+   {
+    "id": "fb3EgepkM3w",
+    "title": "fb3EgepkM3w",
+    "url": "https://youtube.com/shorts/fb3EgepkM3w",
+    "views": 123,
+    "exact": false
+   },
+   {
+    "id": "eDt9NFCB3Gg",
+    "title": "eDt9NFCB3Gg",
+    "url": "https://youtube.com/shorts/eDt9NFCB3Gg",
+    "views": 135,
+    "exact": false
+   },
+   {
+    "id": "LG6Nfc2Bl5M",
+    "title": "LG6Nfc2Bl5M",
+    "url": "https://youtube.com/shorts/LG6Nfc2Bl5M",
+    "views": 20,
+    "exact": false
+   },
+   {
+    "id": "T80t5oERuVU",
+    "title": "T80t5oERuVU",
+    "url": "https://youtube.com/shorts/T80t5oERuVU",
+    "views": 64,
+    "published": null,
+    "exact": true
+   },
+   {
+    "id": "f8rEnPDi6cs",
+    "title": "f8rEnPDi6cs",
+    "url": "https://youtube.com/shorts/f8rEnPDi6cs",
+    "views": 14,
+    "exact": false
+   }
+  ],
+  "checked_at": "2026-11-09T23:45:44.316775Z"
+ },
+ "checks": [
+  {
+   "name": "YouTube views",
+   "ok": true,
+   "detail": "29 videos on the channel, 11 with exact counts (rest from the channel page, rounded) = 8494 views"
+  },
+  {
+   "name": "Website visitors",
+   "ok": true,
+   "detail": "15 real people this week; 2191 of 2206 page views were bots, crawlers or testing and are excluded"
+  },
+  {
+   "name": "Signups",
+   "ok": true,
+   "detail": "1 Riside signups and 0 roofing leads counted straight from the database"
+  },
+  {
+   "name": "Posting",
+   "ok": false,
+   "detail": "YouTube 0/2 planned posts found live on the channel today"
+  },
+  {
+   "name": "Cozy Crochet Club",
+   "ok": true,
+   "detail": "numbers last refreshed 0h ago"
+  },
+  {
+   "name": "Ovoa",
+   "ok": true,
+   "detail": "numbers last refreshed 1h ago"
+  },
+  {
+   "name": "Roofing",
+   "ok": true,
+   "detail": "numbers last refreshed 0h ago"
+  },
+  {
+   "name": "Study creators",
+   "ok": true,
+   "detail": "numbers last refreshed 1h ago"
+  }
+ ],
  "posting": {
   "date": "2026-11-09",
-  "now_et": "6:43 PM",
+  "now_et": "6:46 PM",
   "today": {
    "pinterest": {
     "planned": 1,
@@ -339,7 +627,7 @@
    "youtube": {
     "planned": 2,
     "done": 0,
-    "verified": false,
+    "verified": true,
     "overdue": 1,
     "items": [
      {
@@ -348,7 +636,7 @@
       "when": "2026-11-09T07:30:00-05:00",
       "slot": "am",
       "done": false,
-      "verified": false,
+      "verified": true,
       "due": true
      },
      {
@@ -357,7 +645,7 @@
       "when": "2026-11-09T22:30:00-05:00",
       "slot": "pm",
       "done": false,
-      "verified": false,
+      "verified": true,
       "due": false
      }
     ],
@@ -367,7 +655,7 @@
      "when": "2026-11-09T07:30:00-05:00",
      "slot": "am",
      "done": false,
-     "verified": false,
+     "verified": true,
      "due": true
     }
    },
@@ -442,6 +730,595 @@
     }
    }
   },
+  "history": [
+   {
+    "date": "2026-11-09",
+    "slot": "am",
+    "title": "6 Things to Ask AI Before Bed (Easy Ideas)",
+    "format": "pin tall tips graphic",
+    "platforms": [
+     {
+      "p": "pinterest",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-09",
+    "slot": "am",
+    "title": "POV: everyone in the meeting is using AI #Shorts",
+    "format": "viral-hook story",
+    "platforms": [
+     {
+      "p": "youtube",
+      "status": "missing",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-09",
+    "slot": "am",
+    "title": "POV: you are 58 and just found out you never had to type",
+    "format": "viral-hook story",
+    "platforms": [
+     {
+      "p": "facebook",
+      "status": "unverified",
+      "url": null
+     },
+     {
+      "p": "instagram",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-09",
+    "slot": "pm",
+    "title": "One phone setting that stops scam calls #Shorts",
+    "format": "viral-hook story",
+    "platforms": [
+     {
+      "p": "youtube",
+      "status": "scheduled",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-09",
+    "slot": "pm",
+    "title": "That is not your grandson on the phone",
+    "format": "viral-hook story",
+    "platforms": [
+     {
+      "p": "facebook",
+      "status": "unverified",
+      "url": null
+     },
+     {
+      "p": "instagram",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-08",
+    "slot": "am",
+    "title": "7 Easy Ways to Spot a Scam Text (Plain-English Tips)",
+    "format": "pin tall tips graphic",
+    "platforms": [
+     {
+      "p": "pinterest",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-08",
+    "slot": "am",
+    "title": "Plan a whole trip with AI in a minute #Shorts",
+    "format": "whiteboard doodle",
+    "platforms": [
+     {
+      "p": "youtube",
+      "status": "missing",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-08",
+    "slot": "am",
+    "title": "Your grandson calls from jail and needs money",
+    "format": "scam-or-safe quiz",
+    "platforms": [
+     {
+      "p": "facebook",
+      "status": "unverified",
+      "url": null
+     },
+     {
+      "p": "instagram",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-08",
+    "slot": "pm",
+    "title": "Insurance letter in plain English with AI #Shorts",
+    "format": "before-after",
+    "platforms": [
+     {
+      "p": "youtube",
+      "status": "missing",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-08",
+    "slot": "pm",
+    "title": "Nothing for dinner? Tell AI what is in your fridge",
+    "format": "whiteboard doodle",
+    "platforms": [
+     {
+      "p": "facebook",
+      "status": "unverified",
+      "url": null
+     },
+     {
+      "p": "instagram",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-08",
+    "slot": "am",
+    "title": "The intern got promoted. He's 22. #Shorts",
+    "format": "personal-hook story",
+    "platforms": [
+     {
+      "p": "youtube",
+      "status": "missing",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-08",
+    "slot": "am",
+    "title": "POV: you find out the dentist's receptionist is not a person",
+    "format": "personal-hook story",
+    "platforms": [
+     {
+      "p": "facebook",
+      "status": "unverified",
+      "url": null
+     },
+     {
+      "p": "instagram",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-08",
+    "slot": "pm",
+    "title": "The email that could get you a $14k raise #Shorts",
+    "format": "personal-hook story",
+    "platforms": [
+     {
+      "p": "youtube",
+      "status": "missing",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-08",
+    "slot": "pm",
+    "title": "Stop",
+    "format": "personal-hook story",
+    "platforms": [
+     {
+      "p": "facebook",
+      "status": "unverified",
+      "url": null
+     },
+     {
+      "p": "instagram",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-07",
+    "slot": "am",
+    "title": "5 Easy Things to Ask AI About Health (Plain-English Tips)",
+    "format": "pin tall tips graphic",
+    "platforms": [
+     {
+      "p": "pinterest",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-07",
+    "slot": "am",
+    "title": "Decode any confusing letter with AI in 3 steps #Shorts",
+    "format": "whiteboard doodle",
+    "platforms": [
+     {
+      "p": "youtube",
+      "status": "missing",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-07",
+    "slot": "am",
+    "title": "Bills should not read like this",
+    "format": "before-after",
+    "platforms": [
+     {
+      "p": "facebook",
+      "status": "unverified",
+      "url": null
+     },
+     {
+      "p": "instagram",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-07",
+    "slot": "pm",
+    "title": "Scam or safe? Can you spot it? #Shorts",
+    "format": "scam-or-safe quiz",
+    "platforms": [
+     {
+      "p": "youtube",
+      "status": "missing",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-07",
+    "slot": "pm",
+    "title": "Tiny medicine print? Here is how AI can help (and always confirm with ",
+    "format": "whiteboard doodle",
+    "platforms": [
+     {
+      "p": "facebook",
+      "status": "unverified",
+      "url": null
+     },
+     {
+      "p": "instagram",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-06",
+    "slot": "am",
+    "title": "How to Spot a Fake Email (5 Easy Warning Signs)",
+    "format": "pin tall tips graphic",
+    "platforms": [
+     {
+      "p": "pinterest",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-05",
+    "slot": "am",
+    "title": "Grandma, it's a vibe? Gen Z slang translated #Shorts",
+    "format": "slang translator",
+    "platforms": [
+     {
+      "p": "youtube",
+      "status": "missing",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-05",
+    "slot": "am",
+    "title": "My grandkid said the dinner was 'bussin.' Any guesses? Tell us below! ",
+    "format": "slang translator",
+    "platforms": [
+     {
+      "p": "facebook",
+      "status": "unverified",
+      "url": null
+     },
+     {
+      "p": "instagram",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-05",
+    "slot": "pm",
+    "title": "Stop typing on your phone. Just talk. #Shorts",
+    "format": "skit voice typing",
+    "platforms": [
+     {
+      "p": "youtube",
+      "status": "missing",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-05",
+    "slot": "pm",
+    "title": "Did you know your phone can type for you while you talk? Comment if yo",
+    "format": "skit voice typing",
+    "platforms": [
+     {
+      "p": "facebook",
+      "status": "unverified",
+      "url": null
+     },
+     {
+      "p": "instagram",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-05",
+    "slot": "am",
+    "title": "5 Ways to Use AI in the Kitchen (Easy Beginner Tips)",
+    "format": "pin tall tips graphic",
+    "platforms": [
+     {
+      "p": "pinterest",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-04",
+    "slot": "am",
+    "title": "Grandma, he ghosted me? Gen Z slang translated #Shorts",
+    "format": "slang translator",
+    "platforms": [
+     {
+      "p": "youtube",
+      "status": "missing",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-04",
+    "slot": "am",
+    "title": "My grandkid said this is 'lowkey fire.' Do you know what it means? Tel",
+    "format": "slang translator",
+    "platforms": [
+     {
+      "p": "facebook",
+      "status": "unverified",
+      "url": null
+     },
+     {
+      "p": "instagram",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-04",
+    "slot": "am",
+    "title": "5 Signs a Text Message Is a Scam (Easy Checklist)",
+    "format": "pin tall tips graphic",
+    "platforms": [
+     {
+      "p": "pinterest",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-04",
+    "slot": "pm",
+    "title": "Grandma asks AI what to cook (pirate chef) #Shorts",
+    "format": "skit fridge recipe",
+    "platforms": [
+     {
+      "p": "youtube",
+      "status": "missing",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-04",
+    "slot": "pm",
+    "title": "Nothing to cook? Type what's in your fridge into AI and ask for dinner",
+    "format": "skit fridge recipe",
+    "platforms": [
+     {
+      "p": "facebook",
+      "status": "unverified",
+      "url": null
+     },
+     {
+      "p": "instagram",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-03",
+    "slot": "am",
+    "title": "Grandma, that's cap? Gen Z slang translated #Shorts",
+    "format": "slang translator",
+    "platforms": [
+     {
+      "p": "youtube",
+      "status": "missing",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-03",
+    "slot": "am",
+    "title": "My grandkid texted me this",
+    "format": "slang translator",
+    "platforms": [
+     {
+      "p": "facebook",
+      "status": "unverified",
+      "url": null
+     },
+     {
+      "p": "instagram",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-03",
+    "slot": "pm",
+    "title": "Grandma almost forwarded a $500 gift card scam #Shorts",
+    "format": "skit factcheck (swipe: AI fact-checker)",
+    "platforms": [
+     {
+      "p": "youtube",
+      "status": "missing",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-03",
+    "slot": "pm",
+    "title": "Has someone in your family ever forwarded one of these? Comment YES",
+    "format": "skit factcheck (swipe: AI fact-checker)",
+    "platforms": [
+     {
+      "p": "facebook",
+      "status": "unverified",
+      "url": null
+     },
+     {
+      "p": "instagram",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-03",
+    "slot": "am",
+    "title": "5 Things to Ask AI This Week (Free Beginner Tips)",
+    "format": "pin tall tips graphic",
+    "platforms": [
+     {
+      "p": "pinterest",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-02",
+    "slot": "am",
+    "title": "Nana, that was so valid? Translated #Shorts",
+    "format": "slang translator",
+    "platforms": [
+     {
+      "p": "youtube",
+      "status": "missing",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-02",
+    "slot": "am",
+    "title": "My grandma is lowkey iconic (translated) #Shorts",
+    "format": "slang translator",
+    "platforms": [
+     {
+      "p": "facebook",
+      "status": "unverified",
+      "url": null
+     },
+     {
+      "p": "instagram",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-02",
+    "slot": "pm",
+    "title": "Grandpa, you ate that? Translated #Shorts",
+    "format": "slang translator",
+    "platforms": [
+     {
+      "p": "youtube",
+      "status": "missing",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-02",
+    "slot": "pm",
+    "title": "He lives in my head rent free (translated) #Shorts",
+    "format": "slang translator",
+    "platforms": [
+     {
+      "p": "facebook",
+      "status": "unverified",
+      "url": null
+     },
+     {
+      "p": "instagram",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   }
+  ],
   "yt_by_day": {},
   "comments_by_day": {}
  },
@@ -452,42 +1329,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checks": [
-  {
-   "name": "Website visitors",
-   "ok": true,
-   "detail": "15 real people this week; 2191 of 2206 page views were bots, crawlers or testing and are excluded"
-  },
-  {
-   "name": "Signups",
-   "ok": true,
-   "detail": "1 Riside signups and 0 roofing leads counted straight from the database"
-  },
-  {
-   "name": "Posting",
-   "ok": false,
-   "detail": "YouTube 0/2 planned posts found live on the channel today"
-  },
-  {
-   "name": "Cozy Crochet Club",
-   "ok": true,
-   "detail": "numbers last refreshed 0h ago"
-  },
-  {
-   "name": "Ovoa",
-   "ok": true,
-   "detail": "numbers last refreshed 1h ago"
-  },
-  {
-   "name": "Roofing",
-   "ok": true,
-   "detail": "numbers last refreshed 0h ago"
-  },
-  {
-   "name": "Study creators",
-   "ok": true,
-   "detail": "numbers last refreshed 1h ago"
-  }
- ],
- "checked_at": "2026-11-09T23:43:25.480287Z"
+ "checked_at": "2026-11-09T23:45:44.316775Z"
 }
