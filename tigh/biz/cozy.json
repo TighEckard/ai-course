@@ -1,6 +1,6 @@
 {
  "name": "Cozy Crochet Club",
- "updated": "2026-11-09T21:43:46Z",
+ "updated": "2026-11-09T21:57:26Z",
  "notes": "Sender is PAUSED in its settings | App downloads, trials and paid subscribers are not published yet: they need App Store Connect / Supabase access (not available to this job). | Opens/clicks are not tracked by the sender. Distinct people contacted = unique addresses; reply counts are de-duplicated by thread (unverified vs. Zoho).",
  "headline": [
   {
