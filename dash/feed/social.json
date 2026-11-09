@@ -1,2 +1,7 @@
-{"note":"Written by the PC collector. Per platform: followers, views_7d, engagement (likes+comments+shares 7d), comments_7d, top:[{title,url,views,likes,comments}] (best 3), recent_comments:[{who,text,url}]",
-"updated":null,"facebook":{},"instagram":{},"pinterest":{}}
+{
+ "note": "Written by the PC collector. Per platform: followers, views_7d, engagement (likes+comments+shares 7d), comments_7d, top:[{title,url,views,likes,comments}] (best 3), recent_comments:[{who,text,url}] Also: posted_date (YYYY-MM-DD ET) + posted_today {facebook:[manifest ids actually posted], instagram:[...], pinterest:[...]} so the dashboard can verify today's posts, and comments_by_day {YYYY-MM-DD: count}.",
+ "updated": null,
+ "facebook": {},
+ "instagram": {},
+ "pinterest": {}
+}

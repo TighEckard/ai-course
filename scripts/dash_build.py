@@ -26,20 +26,55 @@ try:
                      'published': e.find('a:published', ns).text, 'views': int(st.get('views')) if st is not None else 0,
                      'likes': int(e.find('m:group/m:community/m:starRating', ns).get('count'))})
     d['youtube'] = {'total_views': sum(v['views'] for v in vids), 'videos': len(vids),
-                    'likes': sum(v['likes'] for v in vids), 'top': sorted(vids, key=lambda v: -v['views'])[:3], 'recent': vids[:5]}
+                    'likes': sum(v['likes'] for v in vids), 'top': sorted(vids, key=lambda v: -v['views'])[:3], 'recent': vids[:5], 'all': vids}
 except Exception as e:
     d['youtube'] = None; d['errors']['youtube'] = str(e)[:120]
 try:
-    posts = json.load(open(os.path.join(ROOT, 'posts.json')))['posts']
-    now = datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None)
-    last = {}; n7 = {}
-    for p in posts:
-        t = datetime.datetime.strptime(p['t'], '%Y-%m-%dT%H:%M:%SZ')
-        if p['platform'] not in last or t > last[p['platform']][0]: last[p['platform']] = (t, p['label'])
-        if (now - t).days < 7: n7[p['platform']] = n7.get(p['platform'], 0) + 1
-    d['posting'] = {'last': {k: {'t': v[0].isoformat() + 'Z', 'label': v[1]} for k, v in last.items()}, 'posts_7d': n7}
+    from zoneinfo import ZoneInfo
+    sch = json.load(open(os.path.join(ROOT, 'dash', 'feed', 'schedule.json')))
+    tz = ZoneInfo(sch['tz']); now = datetime.datetime.now(tz); today = now.date().isoformat()
+    soc = {}
+    try: soc = json.load(open(os.path.join(ROOT, 'dash', 'feed', 'social.json')))
+    except Exception: pass
+    norm = lambda t: re.sub(r'[^a-z0-9]', '', (t or '').lower())
+    yt_today = []
+    for v in (d.get('youtube') or {}).get('all', []):
+        t = datetime.datetime.fromisoformat(v['published'].replace('Z', '+00:00')).astimezone(tz)
+        if t.date().isoformat() == today: yt_today.append((norm(v['title']), t))
+    plan = {}
+    mf = os.path.join(ROOT, 'social', today, 'manifest.json')
+    items = json.load(open(mf))['videos'] if os.path.exists(mf) else []
+    for it in items:
+        h, m = map(int, sch['slots'].get(it.get('slot'), '12:00').split(':'))
+        when = now.replace(hour=h, minute=m, second=0, microsecond=0)
+        for pf in it['platforms']:
+            for plat in sch['platform_of'].get(pf, []):
+                title = it.get('yt_title') or it.get('pin_title') or (it.get('caption_meta') or it['id']).split('. ')[0][:70]
+                plan.setdefault(plat, []).append({'title': title, 'id': it['id'], 'when': when.isoformat(), 'slot': it.get('slot')})
+    reported = (soc.get('posted_today') or {}) if soc.get('posted_date') == today else {}
+    out = {}
+    for plat, lst in plan.items():
+        lst.sort(key=lambda x: x['when'])
+        for x in lst:
+            if plat == 'youtube':
+                x['done'] = any(norm(x['id']) in n or norm(x['title'])[:25] in n for n, _ in yt_today)
+                x['verified'] = bool(d.get('youtube'))
+            elif plat in reported:
+                x['done'] = x['id'] in reported[plat]; x['verified'] = True
+            else:
+                x['done'] = None; x['verified'] = False
+            x['due'] = datetime.datetime.fromisoformat(x['when']) <= now
+        nxt = next((x for x in lst if x['done'] is not True), None)
+        out[plat] = {'planned': len(lst), 'done': sum(1 for x in lst if x['done']), 'verified': all(x['verified'] for x in lst),
+                     'overdue': sum(1 for x in lst if x['due'] and x['done'] is False), 'items': lst, 'next': nxt}
+    if 'youtube' not in plan and yt_today:
+        out['youtube'] = {'planned': 0, 'done': len(yt_today), 'verified': True, 'overdue': 0, 'items': [], 'next': None}
+    d['posting'] = {'date': today, 'now_et': now.strftime('%-I:%M %p'), 'today': out,
+                    'yt_by_day': {}, 'comments_by_day': soc.get('comments_by_day', {})}
+    for v in (d.get('youtube') or {}).get('all', []):
+        k = v['published'][:10]; d['posting']['yt_by_day'][k] = d['posting']['yt_by_day'].get(k, 0) + 1
 except Exception as e:
-    d['posting'] = None; d['errors']['posting'] = str(e)[:120]
+    d['posting'] = None; d['errors']['posting'] = 'Posting check failed: ' + str(e)[:100]
 try:
     d['social'] = json.load(open(os.path.join(ROOT, 'dash', 'feed', 'social.json')))
 except Exception as e:

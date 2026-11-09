@@ -31,6 +31,7 @@ a{color:inherit;text-decoration:none;border-bottom:1px solid var(--line)}a:hover
 .plat{display:flex;align-items:center;gap:10px;margin-bottom:12px}.badge{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;color:#fff;font-weight:700;font-size:14px}
 .empty{padding:16px;border:1px dashed var(--line);border-radius:12px;color:var(--mut);font-size:13px;background:var(--soft)}
 .alert{background:color-mix(in srgb,var(--amber) 16%,var(--panel));border:1px solid color-mix(in srgb,var(--amber) 40%,var(--line));border-radius:12px;padding:10px 14px;font-size:13px;margin-top:14px}
+.tip{position:relative;cursor:help}.tip .pop{display:none;position:absolute;left:0;top:100%;z-index:9;margin-top:6px;width:290px;max-width:80vw;background:#141a28;color:#eef1f7;border-radius:12px;padding:10px 12px;font-size:12px;line-height:1.5;box-shadow:0 10px 30px rgba(0,0,0,.3);text-align:left}.tip:hover .pop,.tip:focus .pop,.tip:focus-within .pop{display:block}.pop b{color:#fff}.pop .ok{color:#5fd6a0}.pop .no{color:#ff9a9a}.pop .nx{color:#ffd37a}
 .chart{height:150px}.chart svg{height:100%}.card h2{font-size:11px}td:only-child{text-align:left;color:inherit}.legend{display:flex;gap:14px;font-size:12px;color:var(--mut);margin-top:6px}
 @media(max-width:520px){.val{font-size:26px}}
 </style></head><body>
@@ -73,9 +74,9 @@ function draw(d){
   ${kpi('Roofing leads',s.roofing_total,fmt(s.roofing_7d)+' this week')}
   ${kpi('YouTube views',y&&y.total_views,y?y.videos+' Shorts · '+fmt(y.likes)+' likes':'')}
   ${kpi('Member messages',s.messages_total,fmt(s.messages_unanswered)+' unanswered')}</div>
- <h2>Traffic, last 30 days</h2><div class="card"><div class="row"><b>Page views</b>${delta(vd)}</div><div class="chart">${area(vd,60)}</div></div>
+ <h2>Today's posting</h2>${postToday(p)}<h2>Traffic, last 30 days</h2><div class="card"><div class="row"><b>Page views</b>${delta(vd)}</div><div class="chart">${area(vd,60)}</div></div>
  <h2>Where it comes from</h2><div class="g c2"><div class="card"><div class="lab">Traffic sources</div>${rank(s.views_by_source_30d,6)}</div><div class="card"><div class="lab">Latest signups</div>${signupList(s,5)}</div></div>
- <h2>Posting</h2><div class="card">${postList(p)}</div>`;
+`;
  TABS.w=`<div class="g k">${kpi('Views, 24h',s.views_1d,'',vd.slice(-14))}${kpi('Views, 7d',w7,delta(vd))}${kpi('Visitors, 7d',s.visitors_7d)}${kpi('All-time views',s.views_total)}</div>
  <h2>Page views, 30 days</h2><div class="card"><div class="chart">${area(vd,60)}</div></div>
  <div class="g c2"><div><h2>Traffic sources</h2><div class="card">${rank(s.views_by_source_30d,10)}</div></div><div><h2>Top pages</h2><div class="card">${rank(s.top_pages_30d,10)}</div></div></div>`;
@@ -86,7 +87,17 @@ function draw(d){
  render();
 }
 function signupList(s,n){const a=(s.recent_signups||[]).slice(0,n);return a.length?'<table>'+a.map(x=>`<tr><td><b>${x.first_name}</b> <span class="sm">${x.email_domain}</span><br><span class="pill ${x.roofing?'am':''}">${x.roofing?'roofing':x.slot}</span> <span class="pill">${x.source}</span></td><td>${ago(x.created_at)}</td></tr>`).join('')+'</table>':'<div class="empty">No signups yet</div>'}
-function postList(p){if(!p)return '<div class="empty">No posting data</div>';return '<table>'+Object.entries(p.last).map(([k,v])=>`<tr><td><span class="pill ok">${k}</span> ${v.label}</td><td>${ago(v.t)}</td></tr>`).join('')+'</table><div class="sm" style="margin-top:8px">Last 7 days: '+Object.entries(p.posts_7d).map(([k,v])=>k+' '+v).join(' · ')+'</div>'}
+function postToday(p){if(!p||!p.today)return '<div class="empty">No posting data yet</div>';
+ const names={youtube:'YouTube',facebook:'Facebook',instagram:'Instagram',pinterest:'Pinterest'},cols={youtube:'#ff0000',facebook:'#1877f2',instagram:'#d6249f',pinterest:'#e60023'};
+ const et=t=>new Date(t).toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit',timeZone:'America/New_York'})+' ET';
+ const cards=Object.entries(p.today).map(([k,v])=>{const ok=v.verified&&v.done>=v.planned&&v.planned>0;
+  const status=!v.verified?'<span class="pill am">Not verified</span>':v.overdue?'<span class="pill" style="background:#fde8e8;color:#c53030">'+v.overdue+' overdue</span>':ok?'<span class="pill ok">All out</span>':'<span class="pill">On track</span>';
+  const lines=v.items.map(x=>`<div class="${x.done?'ok':x.done===false&&x.due?'no':''}">${x.done?'✔':x.done===false&&x.due?'✖ missed':x.done===null?'? unverified':'○'} <b>${et(x.when)}</b> ${x.title}</div>`).join('');
+  const nx=v.next?`<div class="nx" style="margin-top:6px">Next: ${et(v.next.when)}<br>${v.next.title}</div>`:'<div style="margin-top:6px">Nothing else scheduled today</div>';
+  return `<div class="card tip" tabindex="0"><div class="lab"><span style="color:${cols[k]}">●</span> ${names[k]||k}</div><div class="val">${v.done}/${v.planned}</div><div class="sm">posted today ${status}</div><div class="pop">${lines||'No posts planned'}${nx}</div></div>`}).join('');
+ const yd=series(p.yt_by_day,14),cd=series(p.comments_by_day,14);
+ return `<div class="sm" style="margin-bottom:8px">Checked against what is really live (YouTube is verified directly). Hover a card for details. It is ${p.now_et} ET.</div><div class="g k">${cards||'<div class="empty">No posts planned today</div>'}</div>
+ <div class="g c2" style="margin-top:12px"><div class="card"><div class="lab">YouTube posts per day (verified live)</div><div class="chart" style="height:80px">${area(yd,40)}</div></div><div class="card"><div class="lab">Comments per day</div>${sum(cd)?'<div class="chart" style="height:80px">'+area(cd,40,"#1877f2")+'</div>':'<div class="sm" style="margin-top:8px">Appears once the social collector syncs comment counts.</div>'}</div></div>`}
 let cur=location.hash.slice(1)||'o';
 function render(){document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('on',b.dataset.t===cur));$('#app').innerHTML='<section class="on">'+(TABS[cur]||'')+'</section>'}
 $('#nav').onclick=e=>{const t=e.target.dataset&&e.target.dataset.t;if(t){cur=t;location.hash=t;render();scrollTo(0,0)}};
