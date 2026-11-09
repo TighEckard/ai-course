@@ -59,7 +59,8 @@ try:
             ch = re.search(r'"videoDetails":\{[^}]*?"channelId":"(UC[\w-]{22})"', w)
             if vc and (not ch or ch.group(1) == cid.group(1)):
                 t = re.search(r'"videoDetails":\{"videoId":"[^"]+","title":"((?:[^"\\]|\\.)*)"', w)
-                pub = re.search(r'"publishDate":"([^"]+)"', w)
+                pub = (re.search(r'"publishDate":"([^"]+)"', w) or re.search(r'"uploadDate":"([^"]+)"', w)
+                       or re.search(r'itemprop="datePublished" content="([^"]+)"', w))
                 row = {'id': vid, 'title': json.loads('"' + t.group(1) + '"') if t else vid, 'url': 'https://youtube.com/shorts/' + vid,
                        'views': int(vc.group(1)), 'published': pub.group(1) if pub else None, 'exact': True}
                 exact += 1
@@ -75,6 +76,21 @@ try:
             try: row['title'] = json.loads(get('https://www.youtube.com/oembed?format=json&url=https://www.youtube.com/shorts/' + vid))['title']
             except Exception: pass
         if row: cat.append(row)
+    try:  # fill missing publish dates from our own posting manifests (title match)
+        import glob
+        mdates = {}
+        for mf in sorted(glob.glob('social/*/manifest.json')):
+            try: md = json.load(open(mf))
+            except Exception: continue
+            for mv in md.get('videos', []):
+                for k in ('yt_title', 'title'):
+                    if mv.get(k): mdates.setdefault(re.sub(r'\W+', '', mv[k].lower()), md.get('date') or mf.split('/')[1])
+        for r in cat:
+            if not r.get('published'):
+                dt = mdates.get(re.sub(r'\W+', '', (r.get('title') or '').lower()))
+                if dt: r['published'] = dt
+    except Exception as e:
+        print('pubdate fill failed', e)
     print('youtube ids', len(ids), 'exact', exact, 'approx-only', len(cat) - exact)
     if cat:
         rss_sum = d['youtube']['total_views']
