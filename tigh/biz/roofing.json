@@ -1,7 +1,7 @@
 {
  "name": "Roofing (Riside)",
- "updated": "2026-11-09T22:40:00Z",
- "notes": "Lead and visitor numbers come from the last hourly check (Supabase needs a sign-in for live counts). Facebook numbers are from the comment log.",
+ "updated": "2026-11-09T23:45:00Z",
+ "notes": "Page and lead numbers are from the last hourly check (live counts need a Supabase sign-in). Facebook numbers are from the comment log. Friend requests and follows are paused after the Nov 8 rate limit.",
  "headline": [
   {
    "label": "Leads",
@@ -15,21 +15,26 @@
   {
    "label": "FB comments posted",
    "value": 7,
-   "sub": "2 greyed, 5 live"
+   "sub": "5 live, 2 greyed"
   },
   {
    "label": "FB posts logged",
    "value": 14
   },
   {
-   "label": "Replies to comments",
-   "value": "n/a",
-   "sub": "not tracked yet"
+   "label": "FB warnings",
+   "value": 1,
+   "sub": "Nov 8 rate limit"
+  },
+  {
+   "label": "Friend requests",
+   "value": "paused",
+   "sub": "until ~Nov 14"
   }
  ],
  "sections": [
   {
-   "title": "riside.com/roofing page",
+   "title": "1. Landing page (riside.com/roofing)",
    "tiles": [
     {
      "label": "Leads total",
@@ -56,7 +61,7 @@
    ]
   },
   {
-   "title": "Facebook comments (Tanner)",
+   "title": "2. Facebook comments (Tanner)",
    "tiles": [
     {
      "label": "Posts logged",
@@ -102,6 +107,26 @@
     {
      "label": "Leads",
      "value": 0
+    }
+   ]
+  },
+  {
+   "title": "3. Tanner account health",
+   "tiles": [
+    {
+     "label": "Auto text posts",
+     "value": "every other day",
+     "sub": "from Nov 11"
+    },
+    {
+     "label": "Warm-up",
+     "value": "2x/day",
+     "sub": "12:41 and 20:41 ET"
+    },
+    {
+     "label": "Hourly checks offline Nov 9",
+     "value": 8,
+     "sub": "PC Chrome off 13:17-19:18Z"
     }
    ]
   }
