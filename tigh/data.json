@@ -1,13 +1,72 @@
 {
- "generated_at": "2026-11-09T23:39:24.283607Z",
+ "generated_at": "2026-11-09T23:43:25.480287Z",
  "errors": {
   "youtube": "HTTP Error 404: Not Found"
  },
  "site": {
-  "real_rule": "scrolled 25%+, stayed 10s+ or clicked; bots and testing removed",
+  "os_30d": {
+   "?": 1,
+   "iOS": 7,
+   "Linux": 1,
+   "Android": 3,
+   "Windows": 9
+  },
+  "real_rule": "real = scrolled 25%+, stayed 10s+, clicked or signed up; bots, crawlers, testing and the owner removed",
+  "by_hour_et": {
+   "01": 1,
+   "05": 1,
+   "08": 1,
+   "09": 2,
+   "10": 2,
+   "13": 2,
+   "14": 1,
+   "15": 1,
+   "16": 1,
+   "17": 2,
+   "18": 1,
+   "21": 6
+  },
+  "cities_30d": {
+   "Miami, Florida": 2,
+   "Portland, Maine": 1,
+   "Rockwall, Texas": 1,
+   "Geneva, Illinois": 1,
+   "Louisville, Kentucky": 1,
+   "Milford, Connecticut": 1,
+   "Nashville, Tennessee": 1,
+   "New Castle, Delaware": 1,
+   "Indianapolis, Indiana": 1,
+   "New York City, New York": 1,
+   "Burnaby, British Columbia": 1,
+   "Washington, District of Columbia": 3
+  },
+  "clicks_30d": {
+   "a:stick": 1,
+   "input:name": 1,
+   "a:Join the free class": 1,
+   "summary:What does it cost?": 3,
+   "summary:Do I need experience?": 3,
+   "summary:Are the classes in person in Utica?": 1,
+   "summary:When are classes for people in Utica?": 1,
+   "summary:Are the classes in person in Winchester?": 1,
+   "summary:Are the classes in person in North Little Rock?": 1,
+   "summary:When are classes for people in North Little Rock?": 1
+  },
+  "funnel_30d": {
+   "paid": 0,
+   "engaged": 18,
+   "visitors": 21,
+   "signed_up": 1,
+   "opened_join": 0
+  },
   "roofing_7d": 0,
   "signups_1d": 0,
   "signups_7d": 1,
+  "devices_30d": {
+   "?": 1,
+   "mobile": 10,
+   "desktop": 10
+  },
   "messages_7d": 0,
   "real_by_day": {
    "2026-10-28": 1,
@@ -15,18 +74,189 @@
    "2026-11-01": 2,
    "2026-11-02": 2,
    "2026-11-03": 2,
-   "2026-11-04": 1,
-   "2026-11-05": 6,
-   "2026-11-08": 1,
-   "2026-11-09": 5
+   "2026-11-04": 4,
+   "2026-11-05": 3,
+   "2026-11-08": 4,
+   "2026-11-09": 2
   },
   "all_views_7d": 2206,
   "bot_views_7d": 2191,
-  "generated_at": "2026-11-09T23:39:24.855956+00:00",
-  "paid_members": 1,
-  "real_views_7d": 15,
+  "browsers_30d": {
+   "?": 1,
+   "Chrome": 15,
+   "Safari": 5
+  },
+  "generated_at": "2026-11-09T23:43:25.694233+00:00",
+  "paid_members": 0,
+  "avg_pages_30d": 1.0,
+  "campaigns_30d": {},
+  "countries_30d": {
+   "?": 1,
+   "Canada": 1,
+   "United States": 19
+  },
+  "recent_visits": [
+   {
+    "t": "2026-11-09T19:14:20.836202+00:00",
+    "dev": "desktop",
+    "src": "pinterest",
+    "land": "/",
+    "secs": 23,
+    "pages": 1,
+    "place": "Miami, Florida",
+    "scroll": 21
+   },
+   {
+    "t": "2026-11-09T13:40:08.347744+00:00",
+    "dev": null,
+    "src": "direct",
+    "land": null,
+    "secs": 10,
+    "pages": 0,
+    "place": "",
+    "scroll": 100
+   },
+   {
+    "t": "2026-11-09T02:16:23.452058+00:00",
+    "dev": "desktop",
+    "src": "facebook",
+    "land": "/roofing",
+    "secs": 31,
+    "pages": 1,
+    "place": "Washington, District of Columbia",
+    "scroll": 95
+   },
+   {
+    "t": "2026-11-09T02:16:20.809855+00:00",
+    "dev": "desktop",
+    "src": "facebook",
+    "land": "/roofing",
+    "secs": 29,
+    "pages": 1,
+    "place": "Washington, District of Columbia",
+    "scroll": 95
+   },
+   {
+    "t": "2026-11-09T02:16:20.723868+00:00",
+    "dev": "desktop",
+    "src": "facebook",
+    "land": "/roofing",
+    "secs": 32,
+    "pages": 1,
+    "place": "Washington, District of Columbia",
+    "scroll": 95
+   },
+   {
+    "t": "2026-11-08T18:04:22.629568+00:00",
+    "dev": "mobile",
+    "src": "google",
+    "land": "/",
+    "secs": 87,
+    "pages": 2,
+    "place": "Portland, Maine",
+    "scroll": 100
+   },
+   {
+    "t": "2026-11-05T23:00:00.977251+00:00",
+    "dev": "mobile",
+    "src": "direct",
+    "land": "/",
+    "secs": 0,
+    "pages": 1,
+    "place": "New York City, New York",
+    "scroll": 0
+   },
+   {
+    "t": "2026-11-05T18:05:56.717591+00:00",
+    "dev": "mobile",
+    "src": "google",
+    "land": "/",
+    "secs": 116,
+    "pages": 1,
+    "place": "Geneva, Illinois",
+    "scroll": 65
+   },
+   {
+    "t": "2026-11-05T15:09:55.452394+00:00",
+    "dev": "mobile",
+    "src": "google",
+    "land": "/",
+    "secs": 99,
+    "pages": 1,
+    "place": "New Castle, Delaware",
+    "scroll": 100
+   },
+   {
+    "t": "2026-11-05T02:55:34.456149+00:00",
+    "dev": "desktop",
+    "src": "google",
+    "land": "/",
+    "secs": 17,
+    "pages": 1,
+    "place": "Milford, Connecticut",
+    "scroll": 61
+   },
+   {
+    "t": "2026-11-05T02:42:28.01666+00:00",
+    "dev": "mobile",
+    "src": "direct",
+    "land": "/",
+    "secs": 113,
+    "pages": 1,
+    "place": "Westfield, Indiana",
+    "scroll": 100
+   },
+   {
+    "t": "2026-11-05T02:42:00.233553+00:00",
+    "dev": "mobile",
+    "src": "direct",
+    "land": "/",
+    "secs": 159,
+    "pages": 1,
+    "place": "Indianapolis, Indiana",
+    "scroll": 96
+   },
+   {
+    "t": "2026-11-04T14:56:47.78322+00:00",
+    "dev": "desktop",
+    "src": "google",
+    "land": "/",
+    "secs": 28,
+    "pages": 1,
+    "place": "Rockwall, Texas",
+    "scroll": 58
+   },
+   {
+    "t": "2026-11-03T22:18:56.315598+00:00",
+    "dev": "desktop",
+    "src": "google",
+    "land": "/",
+    "secs": 48,
+    "pages": 1,
+    "place": "Billings, Montana",
+    "scroll": 31
+   },
+   {
+    "t": "2026-11-03T20:21:47.189983+00:00",
+    "dev": "mobile",
+    "src": "google",
+    "land": "/",
+    "secs": 212,
+    "pages": 1,
+    "place": "Louisville, Kentucky",
+    "scroll": 100
+   }
+  ],
+  "referrers_30d": {
+   "(none)": 8,
+   "google.com": 9,
+   "facebook.com": 3,
+   "pinterest.com": 1
+  },
   "roofing_total": 0,
-  "signups_total": 3,
+  "signups_total": 1,
+  "avg_scroll_30d": 70,
+  "bounce_pct_30d": 71,
   "messages_total": 0,
   "real_pages_30d": {
    "/": 19,
@@ -40,29 +270,17 @@
     "created_at": "2026-11-05T23:00:08.345942+00:00",
     "first_name": "Rayon",
     "email_domain": "***@gmail.com"
-   },
-   {
-    "slot": "Thursday, 7:00 PM",
-    "source": "funneltest",
-    "roofing": false,
-    "created_at": "2026-10-28T20:53:24.204032+00:00",
-    "first_name": "TEST",
-    "email_domain": "***@example.com"
-   },
-   {
-    "slot": "Tuesday, 7:00 PM",
-    "source": "direct",
-    "roofing": false,
-    "created_at": "2026-10-26T05:56:42.248841+00:00",
-    "first_name": "Tigh",
-    "email_domain": "***@ovoa.ai"
    }
   ],
   "signups_by_day": {
-   "2026-10-26": 1,
-   "2026-10-28": 1,
    "2026-11-05": 1
   },
+  "signups_by_slot": {
+   "Thursday, 7:00 PM": 1
+  },
+  "avg_time_sec_30d": 61,
+  "new_visitors_30d": 18,
+  "real_sessions_7d": 15,
   "real_sources_30d": {
    "direct": 8,
    "google": 9,
@@ -71,19 +289,26 @@
   },
   "real_visitors_1d": 5,
   "real_visitors_7d": 15,
+  "landing_pages_30d": {
+   "/": 17,
+   "?": 1,
+   "/roofing": 3
+  },
+  "real_visitors_30d": 21,
   "signups_by_source": {
-   "direct": 1,
-   "funneltest": 1,
    "ref:com.google.android.googlequicksearchbox": 1
   },
   "messages_unanswered": 0,
   "real_visitors_total": 21,
+  "test_members_excluded": 1,
+  "test_signups_excluded": 2,
+  "returning_visitors_30d": 3,
   "roofing_real_visitors_7d": 3
  },
  "youtube": null,
  "posting": {
   "date": "2026-11-09",
-  "now_et": "6:39 PM",
+  "now_et": "6:43 PM",
   "today": {
    "pinterest": {
     "planned": 1,
@@ -236,7 +461,7 @@
   {
    "name": "Signups",
    "ok": true,
-   "detail": "3 Riside signups and 0 roofing leads counted straight from the database"
+   "detail": "1 Riside signups and 0 roofing leads counted straight from the database"
   },
   {
    "name": "Posting",
@@ -246,7 +471,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Ovoa",
@@ -264,5 +489,5 @@
    "detail": "numbers last refreshed 1h ago"
   }
  ],
- "checked_at": "2026-11-09T23:39:24.283607Z"
+ "checked_at": "2026-11-09T23:43:25.480287Z"
 }
