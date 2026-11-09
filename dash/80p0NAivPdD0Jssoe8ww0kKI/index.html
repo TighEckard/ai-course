@@ -1,47 +1,95 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex,nofollow"><title>Morning dashboard</title>
+<meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#0f1420"><title>Riside dashboard</title>
 <style>
-:root{--bg:#faf7f2;--card:#fff;--ink:#1c2230;--mut:#6b7280;--navy:#16264a;--amber:#e8a317;--ok:#2f855a;--bad:#c53030;--line:#ece6da}
-@media(prefers-color-scheme:dark){:root{--bg:#10141c;--card:#181e2a;--ink:#eef0f4;--mut:#9aa3b2;--navy:#9db4ff;--line:#262e3d}}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.4 Inter,system-ui,sans-serif;padding:16px;max-width:980px;margin:auto}
-h1{font:600 22px Georgia,serif;margin:4px 0}h2{font:600 13px Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--mut);margin:24px 0 8px}
-.sub{color:var(--mut);font-size:13px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
-.big{font:600 28px Georgia,serif;color:var(--navy)}.lab{font-size:12px;color:var(--mut)}.d{font-size:12px}.up{color:var(--ok)}.dn{color:var(--bad)}
-.wide{grid-column:1/-1}svg{width:100%;height:70px;display:block}table{width:100%;border-collapse:collapse;font-size:14px}td{padding:5px 0;border-bottom:1px solid var(--line)}td:last-child{text-align:right;font-variant-numeric:tabular-nums}
-.warn{background:#fff6e0;color:#7a5200;border-radius:8px;padding:8px 10px;font-size:13px;margin:6px 0}a{color:var(--navy)}
+:root{--bg:#f4f1ea;--panel:#fff;--ink:#141a28;--mut:#6a7385;--line:#e7e2d6;--soft:#f8f6f1;--amber:#e8a317;--navy:#1d3266;--ok:#1f9d6a;--bad:#d64545;--shadow:0 1px 2px rgba(20,26,40,.05),0 6px 20px rgba(20,26,40,.04)}
+@media(prefers-color-scheme:dark){:root{--bg:#0c111b;--panel:#151c2b;--ink:#eef1f7;--mut:#8f99ad;--line:#232c3f;--soft:#1a2335;--navy:#8fb0ff;--shadow:none}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 Inter,-apple-system,Segoe UI,system-ui,sans-serif}
+.wrap{max-width:1120px;margin:auto;padding:0 16px 60px}
+header{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.hd{max-width:1120px;margin:auto;padding:12px 16px 0}
+.top{display:flex;align-items:center;gap:10px;justify-content:space-between}
+.brand{font:700 20px Georgia,serif;letter-spacing:-.02em}.brand i{color:var(--amber);font-style:normal}
+.stat{display:flex;align-items:center;gap:7px;font-size:12px;color:var(--mut)}.dot{width:8px;height:8px;border-radius:50%;background:var(--ok);box-shadow:0 0 0 3px color-mix(in srgb,var(--ok) 25%,transparent)}
+nav{display:flex;gap:4px;overflow-x:auto;margin-top:8px;scrollbar-width:none}nav::-webkit-scrollbar{display:none}
+nav button{border:0;background:none;color:var(--mut);font:600 13px inherit;padding:9px 12px;cursor:pointer;border-bottom:2px solid transparent;white-space:nowrap}
+nav button.on{color:var(--ink);border-color:var(--amber)}
+section{display:none;padding-top:18px}section.on{display:block}
+h2{font:700 12px inherit;letter-spacing:.09em;text-transform:uppercase;color:var(--mut);margin:26px 0 10px}
+.g{display:grid;gap:12px}.k{grid-template-columns:repeat(auto-fit,minmax(170px,1fr))}.c2{grid-template-columns:repeat(auto-fit,minmax(310px,1fr))}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:16px;box-shadow:var(--shadow);min-width:0}
+.lab{font-size:12px;color:var(--mut);font-weight:500}.val{font:700 30px Georgia,serif;letter-spacing:-.02em;margin:2px 0}
+.sm{font-size:12px;color:var(--mut)}.up{color:var(--ok);font-weight:600}.dn{color:var(--bad);font-weight:600}
+.spark{height:34px;width:100%;margin-top:6px}svg{display:block;width:100%}
+table{width:100%;border-collapse:collapse}td{padding:9px 0;border-top:1px solid var(--line);vertical-align:top}tr:first-child td{border-top:0}td:last-child{text-align:right;white-space:nowrap;color:var(--mut);font-variant-numeric:tabular-nums}
+a{color:inherit;text-decoration:none;border-bottom:1px solid var(--line)}a:hover{border-color:var(--amber)}
+.bar{height:6px;border-radius:4px;background:var(--soft);margin-top:5px;overflow:hidden}.bar i{display:block;height:100%;background:var(--amber);border-radius:4px}
+.row{display:flex;justify-content:space-between;gap:10px;font-size:13px}
+.pill{display:inline-block;font-size:11px;font-weight:600;border-radius:99px;padding:2px 8px;background:var(--soft);color:var(--mut)}
+.pill.ok{background:color-mix(in srgb,var(--ok) 15%,transparent);color:var(--ok)}.pill.am{background:color-mix(in srgb,var(--amber) 22%,transparent);color:#a06d00}
+.plat{display:flex;align-items:center;gap:10px;margin-bottom:12px}.badge{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;color:#fff;font-weight:700;font-size:14px}
+.empty{padding:16px;border:1px dashed var(--line);border-radius:12px;color:var(--mut);font-size:13px;background:var(--soft)}
+.alert{background:color-mix(in srgb,var(--amber) 16%,var(--panel));border:1px solid color-mix(in srgb,var(--amber) 40%,var(--line));border-radius:12px;padding:10px 14px;font-size:13px;margin-top:14px}
+.chart{height:150px}.chart svg{height:100%}.card h2{font-size:11px}td:only-child{text-align:left;color:inherit}.legend{display:flex;gap:14px;font-size:12px;color:var(--mut);margin-top:6px}
+@media(max-width:520px){.val{font-size:26px}}
 </style></head><body>
-<h1>Morning dashboard</h1><div class="sub" id="upd">Loading…</div><div id="app"></div>
+<header><div class="hd"><div class="top"><div class="brand">riside<i>.</i> dashboard</div><div class="stat"><span class="dot" id="dot"></span><span id="upd">Loading</span></div></div>
+<nav id="nav"><button data-t="o" class="on">Overview</button><button data-t="w">Website</button><button data-t="s">Social</button><button data-t="p">Signups</button><button data-t="r">Recordings</button></nav></div></header>
+<div class="wrap" id="app"></div>
 <script>
-const $=s=>document.getElementById(s),fmt=n=>n==null?'–':Number(n).toLocaleString();
-const tile=(l,v,s)=>`<div class="card"><div class="lab">${l}</div><div class="big">${fmt(v)}</div><div class="d lab">${s||''}</div></div>`;
-function bars(obj,days=30){const k=[];for(let i=days-1;i>=0;i--){k.push(new Date(Date.now()-i*864e5).toISOString().slice(0,10))}
- const v=k.map(x=>obj[x]||0),m=Math.max(1,...v),w=100/k.length;
- return `<svg viewBox="0 0 100 40" preserveAspectRatio="none">${v.map((n,i)=>`<rect x="${i*w+.3}" width="${w-.6}" y="${40-n/m*38}" height="${n/m*38}" fill="#e8a317"><title>${k[i]}: ${n}</title></rect>`).join('')}</svg>`}
-const list=o=>'<table>'+Object.entries(o||{}).sort((a,b)=>b[1]-a[1]).slice(0,8).map(([k,v])=>`<tr><td>${k}</td><td>${fmt(v)}</td></tr>`).join('')+'</table>';
-const ago=t=>{const h=(Date.now()-new Date(t))/36e5;return h<1?'just now':h<48?Math.round(h)+'h ago':Math.round(h/24)+'d ago'};
 const SB='https://yhsxxblilclylzgejehk.supabase.co/rest/v1/rpc/dash_stats',KEY='sb_publishable_9BiONVmj8Ht4k7lBsxGkkA_Yajbl8Rj';
-const CLARITY='';/* paste Clarity project id after signing up at clarity.microsoft.com */
-function load(){return fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>fetch(SB,{method:'POST',headers:{apikey:KEY,'Content-Type':'application/json'},body:'{}'}).then(r=>r.ok?r.json():Promise.reject()).then(s=>{d.site=s;d.live=true;delete d.errors.site;d.generated_at=new Date().toISOString();return d}).catch(()=>d))}
+const CLARITY='';/* Microsoft Clarity project id goes here */
+const $=s=>document.querySelector(s),fmt=n=>n==null?'–':n>=1e4?(n/1e3).toFixed(n>=1e5?0:1)+'k':Number(n).toLocaleString();
+const ago=t=>{const m=(Date.now()-new Date(t))/6e4;return m<2?'just now':m<60?Math.round(m)+'m ago':m<2880?Math.round(m/60)+'h ago':Math.round(m/1440)+'d ago'};
+const days=n=>[...Array(n)].map((_,i)=>new Date(Date.now()-(n-1-i)*864e5).toISOString().slice(0,10));
+const series=(o,n)=>days(n).map(d=>(o||{})[d]||0);
+const sum=a=>a.reduce((x,y)=>x+y,0);
+function delta(a){const h=Math.floor(a.length/2),p=sum(a.slice(0,h)),c=sum(a.slice(h));if(!p&&!c)return '';if(!p)return '<span class="up">new</span>';const r=Math.round((c-p)/p*100);return `<span class="${r>=0?'up':'dn'}">${r>=0?'▲':'▼'} ${Math.abs(r)}%</span> <span class="sm">vs prior ${h}d</span>`}
+function area(v,h=40,color='var(--amber)',lbl){const m=Math.max(1,...v),w=100,st=w/Math.max(1,v.length-1);
+ const pts=v.map((n,i)=>[i*st,h-2-n/m*(h-6)]);const l=pts.map(p=>p.join(',')).join(' ');
+ return `<svg viewBox="0 0 100 ${h}" preserveAspectRatio="none"><defs><linearGradient id="g${color.length}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${color}" stop-opacity=".35"/><stop offset="1" stop-color="${color}" stop-opacity="0"/></linearGradient></defs><polygon points="0,${h} ${l} 100,${h}" fill="url(#g${color.length})"/><polyline points="${l}" fill="none" stroke="${color}" stroke-width="1.6" vector-effect="non-scaling-stroke" stroke-linejoin="round"/></svg>`}
+function kpi(l,v,sub,sp){return `<div class="card"><div class="lab">${l}</div><div class="val">${fmt(v)}</div><div class="sm">${sub||''}</div>${sp?`<div class="spark">${area(sp,34)}</div>`:''}</div>`}
+function rank(o,n=8){const e=Object.entries(o||{}).sort((a,b)=>b[1]-a[1]).slice(0,n),m=Math.max(1,...e.map(x=>x[1]));return e.length?e.map(([k,v])=>`<div style="margin:9px 0"><div class="row"><span>${k||'direct'}</span><b>${fmt(v)}</b></div><div class="bar"><i style="width:${v/m*100}%"></i></div></div>`).join(''):'<div class="empty">No data yet</div>'}
+const BRAND={Facebook:['#1877f2','f'],Instagram:['#d6249f','Ig'],Pinterest:['#e60023','P'],YouTube:['#ff0000','▶']};
+function plat(name,o,extra){o=o||{};const [c,l]=BRAND[name];const has=['followers','views_7d','engagement','comments_7d','likes'].some(k=>o[k]!=null);
+ const stat=[['followers','Followers'],['views_7d','Views, 7d'],['engagement','Engagement, 7d'],['comments_7d','Comments, 7d'],['likes','Likes'],['views','Total views']].filter(([k])=>o[k]!=null);
+ return `<div class="card"><div class="plat"><div class="badge" style="background:${c}">${l}</div><div><b>${name}</b><div class="sm">${has?'Connected':'Waiting for first sync'}</div></div></div>
+ ${stat.length?`<div class="g k" style="grid-template-columns:repeat(2,1fr)">${stat.map(([k,t])=>`<div><div class="lab">${t}</div><div style="font:700 22px Georgia,serif">${fmt(o[k])}</div></div>`).join('')}</div>`:'<div class="empty">Followers, views, engagement and comments appear here after the first sync.</div>'}
+ <h2 style="margin:16px 0 4px">Top 3 videos</h2>${(o.top||[]).length?'<table>'+o.top.slice(0,3).map((v,i)=>`<tr><td><b>${i+1}.</b> <a href="${v.url}" target="_blank">${v.title}</a></td><td>${fmt(v.views)} views${v.likes!=null?' · '+fmt(v.likes)+' ♥':''}${v.comments!=null?' · '+fmt(v.comments)+' 💬':''}</td></tr>`).join('')+'</table>':'<div class="sm">None yet</div>'}
+ <h2 style="margin:16px 0 4px">Latest comments</h2>${(o.recent_comments||[]).length?'<table>'+o.recent_comments.slice(0,5).map(c=>`<tr><td><a href="${c.url||'#'}" target="_blank"><b>${c.who}</b></a> ${c.text}</td></tr>`).join('')+'</table>':'<div class="sm">None yet</div>'}</div>`}
+const TABS={};
 function draw(d){
- $('upd').textContent=(d.live?'Live site numbers, ':'Site numbers from ')+'updated '+ago(d.generated_at)+'. Social numbers refresh hourly.';
- let h='';const s=d.site,y=d.youtube,p=d.posting,so=d.social||{};
- Object.values(d.errors||{}).forEach(e=>h+=`<div class="warn">⚠ ${e}</div>`);
- h+='<h2>Today at a glance</h2><div class="grid">';
- if(s){h+=tile('Signups, last 24h',s.signups_1d,fmt(s.signups_total)+' total')+tile('Paid members',s.paid_members)+tile('Page views, 24h',s.views_1d,fmt(s.views_7d)+' in 7 days')+tile('Roofing leads',s.roofing_total,fmt(s.roofing_7d)+' this week')}
- if(y)h+=tile('YouTube views',y.total_views,y.videos+' recent Shorts');
- h+='</div>';
- if(s){h+='<h2>riside.com traffic and signups (30 days)</h2><div class="grid"><div class="card wide"><div class="lab">Page views per day</div>'+bars(s.views_by_day)+'</div><div class="card wide"><div class="lab">Signups per day</div>'+bars(s.signups_by_day)+'</div>'+
-  `<div class="card"><div class="lab">Traffic sources</div>${list(s.views_by_source_30d)}</div><div class="card"><div class="lab">Signups by source</div>${list(s.signups_by_source)}</div><div class="card"><div class="lab">Top pages</div>${list(s.top_pages_30d)}</div></div>`}
- if(y)h+='<h2>YouTube</h2><div class="card"><div class="lab">'+fmt(y.total_views)+' views, '+fmt(y.likes)+' likes. Top 3:</div><table>'+y.top.map(v=>`<tr><td><a href="${v.url}">${v.title}</a></td><td>${fmt(v.views)} views, ${fmt(v.likes)} likes</td></tr>`).join('')+'</table></div>';
- if(s&&s.recent_signups)h+='<h2>Real signups and messages</h2><div class="grid">'+tile('Messages from members',s.messages_total,fmt(s.messages_7d)+' this week')+tile('Unanswered threads',s.messages_unanswered)+'</div><div class="card" style="margin-top:10px"><table>'+(s.recent_signups.length?s.recent_signups.map(x=>`<tr><td>${x.first_name} (${x.email_domain}) ${x.roofing?'roofing lead':x.slot}, ${x.source}</td><td>${ago(x.created_at)}</td></tr>`).join(''):'<tr><td>No signups yet</td><td></td></tr>')+'</table></div>';
- h+='<h2>Visitor recordings</h2><div class="card">'+(CLARITY?'<a href="https://clarity.microsoft.com/projects/view/'+CLARITY+'/impressions">Open session recordings and heatmaps</a>':'<div class="lab">Not connected yet. Needs a free Microsoft Clarity project.</div>')+'</div>';
- h+='<h2>Facebook, Instagram, Pinterest</h2><div class="grid">';
- const sl=[['Facebook',so.facebook],['Instagram',so.instagram],['Pinterest',so.pinterest]];
- sl.forEach(([n,o])=>{o=o||{};const ks=['followers','views_7d','engagement','comments_7d'].filter(k=>o[k]!=null);h+=`<div class="card wide"><div class="lab"><b>${n}</b></div>${ks.length?'<div class="grid">'+ks.map(k=>tile(k.replace(/_/g,' '),o[k])).join('')+'</div>':'<div class="lab">No data yet</div>'}${(o.top||[]).length?'<div class="lab" style="margin-top:8px">Top 3 videos</div><table>'+o.top.slice(0,3).map(v=>`<tr><td><a href="${v.url}">${v.title}</a></td><td>${fmt(v.views)} views, ${fmt(v.likes)} likes, ${fmt(v.comments)} comments</td></tr>`).join('')+'</table>':''}${(o.recent_comments||[]).length?'<div class="lab" style="margin-top:8px">Latest comments</div><table>'+o.recent_comments.slice(0,5).map(c=>`<tr><td><a href="${c.url}">${c.who}</a>: ${c.text}</td><td></td></tr>`).join('')+'</table>':''}</div>`});
- h+='</div>';
- if(p){h+='<h2>Posting</h2><div class="card"><table>'+Object.entries(p.last).map(([k,v])=>`<tr><td>${k}: ${v.label}</td><td>${ago(v.t)}</td></tr>`).join('')+'</table><div class="lab" style="margin-top:6px">Posts in last 7 days: '+Object.entries(p.posts_7d).map(([k,v])=>k+' '+v).join(', ')+'</div></div>'}
- $('app').innerHTML=h;}
-load().then(draw).catch(e=>{$('upd').textContent='No data yet. First refresh is pending.'});setInterval(()=>load().then(draw).catch(()=>{}),60000);
+ const s=d.site||{},y=d.youtube,p=d.posting,so=d.social||{};
+ const vd=series(s.views_by_day,30),sd=series(s.signups_by_day,30);
+ $('#upd').textContent=(d.live?'Live · ':'Cached · ')+ago(d.generated_at);$('#dot').style.background=d.live?'var(--ok)':'var(--amber)';
+ const al=Object.values(d.errors||{}).map(e=>`<div class="alert">⚠ ${e}</div>`).join('');
+ const ytO=y?{views:y.total_views,likes:y.likes,top:y.top.map(v=>({...v,comments:null}))}:{};
+ const w7=sum(vd.slice(-7));
+ TABS.o=`${al}<h2>Right now</h2><div class="g k">
+  ${kpi('Visitors, 24h',s.views_1d,fmt(s.views_7d)+' views this week',vd.slice(-14))}
+  ${kpi('Signups',s.signups_total,fmt(s.signups_1d)+' in last 24h',sd.slice(-14))}
+  ${kpi('Paid members',s.paid_members,'founding $46/mo')}
+  ${kpi('Roofing leads',s.roofing_total,fmt(s.roofing_7d)+' this week')}
+  ${kpi('YouTube views',y&&y.total_views,y?y.videos+' Shorts · '+fmt(y.likes)+' likes':'')}
+  ${kpi('Member messages',s.messages_total,fmt(s.messages_unanswered)+' unanswered')}</div>
+ <h2>Traffic, last 30 days</h2><div class="card"><div class="row"><b>Page views</b>${delta(vd)}</div><div class="chart">${area(vd,60)}</div></div>
+ <h2>Where it comes from</h2><div class="g c2"><div class="card"><div class="lab">Traffic sources</div>${rank(s.views_by_source_30d,6)}</div><div class="card"><div class="lab">Latest signups</div>${signupList(s,5)}</div></div>
+ <h2>Posting</h2><div class="card">${postList(p)}</div>`;
+ TABS.w=`<div class="g k">${kpi('Views, 24h',s.views_1d,'',vd.slice(-14))}${kpi('Views, 7d',w7,delta(vd))}${kpi('Visitors, 7d',s.visitors_7d)}${kpi('All-time views',s.views_total)}</div>
+ <h2>Page views, 30 days</h2><div class="card"><div class="chart">${area(vd,60)}</div></div>
+ <div class="g c2"><div><h2>Traffic sources</h2><div class="card">${rank(s.views_by_source_30d,10)}</div></div><div><h2>Top pages</h2><div class="card">${rank(s.top_pages_30d,10)}</div></div></div>`;
+ TABS.s=`<h2>Every platform</h2><div class="g c2">${plat('YouTube',ytO)}${plat('Facebook',so.facebook)}${plat('Instagram',so.instagram)}${plat('Pinterest',so.pinterest)}</div>${so.updated?`<div class="sm" style="margin-top:10px">Social synced ${ago(so.updated)}</div>`:''}`;
+ TABS.p=`<div class="g k">${kpi('Signups',s.signups_total,fmt(s.signups_7d)+' this week',sd.slice(-14))}${kpi('Paid',s.paid_members)}${kpi('Roofing leads',s.roofing_total,fmt(s.roofing_7d)+' this week')}${kpi('Messages in',s.messages_total,fmt(s.messages_7d)+' this week')}${kpi('Unanswered',s.messages_unanswered,'threads waiting')}</div>
+ <div class="g c2"><div><h2>Latest signups</h2><div class="card">${signupList(s,10)}</div></div><div><h2>Signups by source</h2><div class="card">${rank(s.signups_by_source)}</div></div></div>`;
+ TABS.r=CLARITY?`<div class="card"><b>Session recordings</b><p class="sm">Watch real visits, rage clicks and heatmaps.</p><p><a href="https://clarity.microsoft.com/projects/view/${CLARITY}/impressions" target="_blank"><b>Open recordings →</b></a> · <a href="https://clarity.microsoft.com/projects/view/${CLARITY}/heatmaps" target="_blank">Heatmaps</a></p></div>`:`<div class="card"><b>Session recordings</b><p class="sm">Not connected yet. This needs a free Microsoft Clarity project for riside.com. Once connected, this tab links straight to the recordings.</p><span class="pill am">Setup needed</span></div>`;
+ render();
+}
+function signupList(s,n){const a=(s.recent_signups||[]).slice(0,n);return a.length?'<table>'+a.map(x=>`<tr><td><b>${x.first_name}</b> <span class="sm">${x.email_domain}</span><br><span class="pill ${x.roofing?'am':''}">${x.roofing?'roofing':x.slot}</span> <span class="pill">${x.source}</span></td><td>${ago(x.created_at)}</td></tr>`).join('')+'</table>':'<div class="empty">No signups yet</div>'}
+function postList(p){if(!p)return '<div class="empty">No posting data</div>';return '<table>'+Object.entries(p.last).map(([k,v])=>`<tr><td><span class="pill ok">${k}</span> ${v.label}</td><td>${ago(v.t)}</td></tr>`).join('')+'</table><div class="sm" style="margin-top:8px">Last 7 days: '+Object.entries(p.posts_7d).map(([k,v])=>k+' '+v).join(' · ')+'</div>'}
+let cur=location.hash.slice(1)||'o';
+function render(){document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('on',b.dataset.t===cur));$('#app').innerHTML='<section class="on">'+(TABS[cur]||'')+'</section>'}
+$('#nav').onclick=e=>{const t=e.target.dataset&&e.target.dataset.t;if(t){cur=t;location.hash=t;render();scrollTo(0,0)}};
+function load(){return fetch('data.json?'+Date.now()).then(r=>r.json()).then(d=>fetch(SB,{method:'POST',headers:{apikey:KEY,'Content-Type':'application/json'},body:'{}'}).then(r=>r.ok?r.json():Promise.reject()).then(s=>{d.site=s;d.live=true;delete d.errors.site;d.generated_at=new Date().toISOString();return d}).catch(()=>d))}
+const go=()=>load().then(draw).catch(()=>{$('#upd').textContent='Waiting for first refresh'});go();setInterval(go,60000);
 </script></body></html>
