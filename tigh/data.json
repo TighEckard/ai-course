@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T23:46:49.618778Z",
+ "generated_at": "2026-11-09T23:47:44.940615Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -84,7 +84,7 @@
    "Chrome": 15,
    "Safari": 5
   },
-  "generated_at": "2026-11-09T23:46:49.764728+00:00",
+  "generated_at": "2026-11-09T23:47:45.249811+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -326,33 +326,33 @@
    },
    {
     "id": "hjJIzapOj24",
-    "title": "Grandkid said it's bussin? Translated #Shorts",
+    "title": "hjJIzapOj24",
     "url": "https://youtube.com/shorts/hjJIzapOj24",
     "views": 962,
-    "exact": false,
-    "published": null
+    "published": null,
+    "exact": true
    }
   ],
   "recent": [],
   "all": [],
   "catalog": true,
-  "exact_videos": 13,
+  "exact_videos": 10,
   "list": [
    {
     "id": "1L9U100WIN0",
-    "title": "One phone setting that stops scam calls #Shorts",
+    "title": "1L9U100WIN0",
     "url": "https://youtube.com/shorts/1L9U100WIN0",
     "views": 0,
-    "exact": false,
-    "published": null
+    "published": null,
+    "exact": true
    },
    {
     "id": "1Z8d6CqPQHU",
-    "title": "POV: everyone in the meeting is using AI #Shorts",
+    "title": "1Z8d6CqPQHU",
     "url": "https://youtube.com/shorts/1Z8d6CqPQHU",
     "views": 0,
-    "exact": false,
-    "published": null
+    "published": null,
+    "exact": true
    },
    {
     "id": "-4fKye0-VjE",
@@ -364,11 +364,11 @@
    },
    {
     "id": "o-Cm_xmLloU",
-    "title": "o-Cm_xmLloU",
+    "title": "The email that could get you a $14k raise #Shorts",
     "url": "https://youtube.com/shorts/o-Cm_xmLloU",
     "views": 1,
-    "published": null,
-    "exact": true
+    "exact": false,
+    "published": null
    },
    {
     "id": "tCjX_vTzg9I",
@@ -380,11 +380,11 @@
    },
    {
     "id": "aHFCFhbCeZk",
-    "title": "Insurance letter in plain English with AI #Shorts",
+    "title": "aHFCFhbCeZk",
     "url": "https://youtube.com/shorts/aHFCFhbCeZk",
     "views": 0,
-    "exact": false,
-    "published": null
+    "published": null,
+    "exact": true
    },
    {
     "id": "O0DxIt_fQjA",
@@ -396,27 +396,27 @@
    },
    {
     "id": "wr1wnbtk9EM",
-    "title": "wr1wnbtk9EM",
+    "title": "Scam or safe? Can you spot it? #Shorts",
     "url": "https://youtube.com/shorts/wr1wnbtk9EM",
     "views": 0,
-    "published": null,
-    "exact": true
-   },
-   {
-    "id": "O0v42Pppyxo",
-    "title": "Decode any confusing letter with AI in 3 steps #Shorts",
-    "url": "https://youtube.com/shorts/O0v42Pppyxo",
-    "views": 1,
     "exact": false,
     "published": null
    },
    {
-    "id": "lRXGM46vjpk",
-    "title": "lRXGM46vjpk",
-    "url": "https://youtube.com/shorts/lRXGM46vjpk",
-    "views": 935,
+    "id": "O0v42Pppyxo",
+    "title": "O0v42Pppyxo",
+    "url": "https://youtube.com/shorts/O0v42Pppyxo",
+    "views": 1,
     "published": null,
     "exact": true
+   },
+   {
+    "id": "lRXGM46vjpk",
+    "title": "4 slang words your grandkids say, translated #Shorts",
+    "url": "https://youtube.com/shorts/lRXGM46vjpk",
+    "views": 935,
+    "exact": false,
+    "published": null
    },
    {
     "id": "B0h7mqzcssY",
@@ -436,19 +436,19 @@
    },
    {
     "id": "Khk-oMwNaQQ",
-    "title": "Khk-oMwNaQQ",
+    "title": "Stop typing on your phone. Just talk. #Shorts",
     "url": "https://youtube.com/shorts/Khk-oMwNaQQ",
     "views": 337,
-    "published": null,
-    "exact": true
+    "exact": false,
+    "published": null
    },
    {
     "id": "sF0OHgEgq9E",
-    "title": "sF0OHgEgq9E",
+    "title": "Grandma, it's a vibe? Gen Z slang translated #Shorts",
     "url": "https://youtube.com/shorts/sF0OHgEgq9E",
     "views": 310,
-    "published": null,
-    "exact": true
+    "exact": false,
+    "published": null
    },
    {
     "id": "EqSk3xo9tTg",
@@ -460,19 +460,19 @@
    },
    {
     "id": "DuTUAAUjx7Q",
-    "title": "DuTUAAUjx7Q",
+    "title": "Grandma asks AI what to cook (pirate chef) #Shorts",
     "url": "https://youtube.com/shorts/DuTUAAUjx7Q",
     "views": 77,
-    "published": null,
-    "exact": true
+    "exact": false,
+    "published": null
    },
    {
     "id": "vsjOK3cLpwo",
-    "title": "vsjOK3cLpwo",
+    "title": "Grandma, he ghosted me? Gen Z slang translated #Shorts",
     "url": "https://youtube.com/shorts/vsjOK3cLpwo",
     "views": 602,
-    "published": null,
-    "exact": true
+    "exact": false,
+    "published": null
    },
    {
     "id": "TGZoeTOM7mc",
@@ -516,19 +516,19 @@
    },
    {
     "id": "hjJIzapOj24",
-    "title": "Grandkid said it's bussin? Translated #Shorts",
+    "title": "hjJIzapOj24",
     "url": "https://youtube.com/shorts/hjJIzapOj24",
     "views": 962,
-    "exact": false,
-    "published": null
+    "published": null,
+    "exact": true
    },
    {
     "id": "FtxyGZ_771Q",
-    "title": "FtxyGZ_771Q",
+    "title": "Grandkid said that was clutch? Translated #Shorts",
     "url": "https://youtube.com/shorts/FtxyGZ_771Q",
     "views": 933,
-    "published": null,
-    "exact": true
+    "exact": false,
+    "published": null
    },
    {
     "id": "fb3EgepkM3w",
@@ -548,19 +548,19 @@
    },
    {
     "id": "LG6Nfc2Bl5M",
-    "title": "LG6Nfc2Bl5M",
+    "title": "Is your grandkid calling you sus? Translated #Shorts",
     "url": "https://youtube.com/shorts/LG6Nfc2Bl5M",
     "views": 20,
-    "published": null,
-    "exact": true
+    "exact": false,
+    "published": null
    },
    {
     "id": "T80t5oERuVU",
-    "title": "Grandma, you're such a vibe? Translated #Shorts",
+    "title": "T80t5oERuVU",
     "url": "https://youtube.com/shorts/T80t5oERuVU",
     "views": 64,
-    "exact": false,
-    "published": null
+    "published": null,
+    "exact": true
    },
    {
     "id": "f8rEnPDi6cs",
@@ -571,13 +571,13 @@
     "published": null
    }
   ],
-  "checked_at": "2026-11-09T23:46:49.618778Z"
+  "checked_at": "2026-11-09T23:47:44.940615Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "29 videos on the channel, 13 with exact counts (rest from the channel page, rounded) = 8494 views"
+   "detail": "29 videos on the channel, 10 with exact counts (rest from the channel page, rounded) = 8494 views"
   },
   {
    "name": "Website visitors",
@@ -617,7 +617,7 @@
  ],
  "posting": {
   "date": "2026-11-09",
-  "now_et": "6:47 PM",
+  "now_et": "6:48 PM",
   "today": {
    "pinterest": {
     "planned": 1,
@@ -773,9 +773,8 @@
     "platforms": [
      {
       "p": "youtube",
-      "status": "live",
-      "url": "https://youtube.com/shorts/1Z8d6CqPQHU",
-      "views": 0
+      "status": "missing",
+      "url": null
      }
     ]
    },
@@ -805,9 +804,8 @@
     "platforms": [
      {
       "p": "youtube",
-      "status": "live",
-      "url": "https://youtube.com/shorts/1L9U100WIN0",
-      "views": 0
+      "status": "scheduled",
+      "url": null
      }
     ]
    },
@@ -882,9 +880,8 @@
     "platforms": [
      {
       "p": "youtube",
-      "status": "live",
-      "url": "https://youtube.com/shorts/aHFCFhbCeZk",
-      "views": 0
+      "status": "missing",
+      "url": null
      }
     ]
    },
@@ -991,9 +988,8 @@
     "platforms": [
      {
       "p": "youtube",
-      "status": "live",
-      "url": "https://youtube.com/shorts/O0v42Pppyxo",
-      "views": 1
+      "status": "missing",
+      "url": null
      }
     ]
    },
@@ -1023,8 +1019,9 @@
     "platforms": [
      {
       "p": "youtube",
-      "status": "missing",
-      "url": null
+      "status": "live",
+      "url": "https://youtube.com/shorts/wr1wnbtk9EM",
+      "views": 0
      }
     ]
    },
@@ -1067,8 +1064,9 @@
     "platforms": [
      {
       "p": "youtube",
-      "status": "missing",
-      "url": null
+      "status": "live",
+      "url": "https://youtube.com/shorts/sF0OHgEgq9E",
+      "views": 310
      }
     ]
    },
@@ -1098,8 +1096,9 @@
     "platforms": [
      {
       "p": "youtube",
-      "status": "missing",
-      "url": null
+      "status": "live",
+      "url": "https://youtube.com/shorts/Khk-oMwNaQQ",
+      "views": 337
      }
     ]
    },
@@ -1142,8 +1141,9 @@
     "platforms": [
      {
       "p": "youtube",
-      "status": "missing",
-      "url": null
+      "status": "live",
+      "url": "https://youtube.com/shorts/vsjOK3cLpwo",
+      "views": 602
      }
     ]
    },
@@ -1186,8 +1186,9 @@
     "platforms": [
      {
       "p": "youtube",
-      "status": "missing",
-      "url": null
+      "status": "live",
+      "url": "https://youtube.com/shorts/DuTUAAUjx7Q",
+      "views": 77
      }
     ]
    },
@@ -1360,5 +1361,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-09T23:46:49.618778Z"
+ "checked_at": "2026-11-09T23:47:44.940615Z"
 }
