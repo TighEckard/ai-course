@@ -44,10 +44,10 @@ try:
             for m in re.findall(r'/shorts/([\w-]{11})|"videoId":"([\w-]{11})"', pg):
                 i = m[0] or m[1]
                 if i not in ids: ids.append(i)
-            for i, v in re.findall(r'"reelWatchEndpoint":\{"videoId":"([\w-]{11})".{0,4000}?"accessibilityText":"[^"]*?, ([\d.,]+(?: thousand| million)?|No) views?', pg, re.S):
-                approx.setdefault(i, 0 if v == 'No' else num(v))
-            for v, i in re.findall(r'"accessibilityText":"[^"]*?, ([\d.,]+(?: thousand| million)?|No) views? - play Short".{0,3000}?"videoId":"([\w-]{11})"', pg, re.S):
-                approx.setdefault(i, 0 if v == 'No' else num(v))
+            for i, tt, v in re.findall(r'"reelWatchEndpoint":\{"videoId":"([\w-]{11})".{0,4000}?"accessibilityText":"((?:[^"\\]|\\.)*?), ([\d.,]+(?: thousand| million)?|No) views?', pg, re.S):
+                approx.setdefault(i, (0 if v == 'No' else num(v), tt))
+            for tt, v, i in re.findall(r'"accessibilityText":"((?:[^"\\]|\\.)*?), ([\d.,]+(?: thousand| million)?|No) views? - play Short".{0,3000}?"videoId":"([\w-]{11})"', pg, re.S):
+                approx.setdefault(i, (0 if v == 'No' else num(v), tt))
         except Exception as e:
             d['errors']['youtube_catalog_' + tab] = str(e)[:80]
     cat = []; exact = 0
@@ -66,7 +66,11 @@ try:
         except Exception:
             pass
         if row is None and vid in approx:
-            row = {'id': vid, 'title': vid, 'url': 'https://youtube.com/shorts/' + vid, 'views': approx[vid], 'exact': False}
+            try: ttl = json.loads('"' + approx[vid][1] + '"')
+            except Exception: ttl = approx[vid][1]
+            rss = next((v for v in vids if vid in v['url']), None)
+            row = {'id': vid, 'title': ttl or vid, 'url': 'https://youtube.com/shorts/' + vid, 'views': approx[vid][0], 'exact': False,
+                   'published': rss['published'] if rss else None}
         if row: cat.append(row)
     print('youtube ids', len(ids), 'exact', exact, 'approx-only', len(cat) - exact)
     if cat:
@@ -98,7 +102,7 @@ try:
     except Exception: pass
     norm = lambda t: re.sub(r'[^a-z0-9]', '', (t or '').lower())
     yt_today = []
-    for v in (d.get('youtube') or {}).get('all', []):
+    for v in ((d.get('youtube') or {}).get('all') or [x for x in (d.get('youtube') or {}).get('list', []) if x.get('published')]):
         t = datetime.datetime.fromisoformat(v['published'].replace('Z', '+00:00')).astimezone(tz)
         if t.date().isoformat() == today: yt_today.append((norm(v['title']), t))
     plan = {}
