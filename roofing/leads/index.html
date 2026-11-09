@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Roofing leads</title><meta name="robots" content="noindex,nofollow">
+<style>
+:root{--bg:#f6f5f2;--card:#fff;--ink:#1d1d1b;--mute:#6b6a66;--line:#e4e2dc;--acc:#c2410c;--ok:#15803d}
+@media (prefers-color-scheme:dark){:root{--bg:#141413;--card:#1e1e1c;--ink:#f1efe8;--mute:#a19f98;--line:#33322f;--acc:#fb923c;--ok:#4ade80}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding:16px}
+header{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;margin-bottom:12px}
+h1{font-size:20px;margin:0}h2{font-size:16px;margin:0 0 10px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin-bottom:14px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-bottom:14px}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px}.tile b{display:block;font-size:24px}.tile span{color:var(--mute);font-size:13px}
+button,.btn{background:var(--ink);color:var(--bg);border:0;border-radius:8px;padding:8px 12px;font:inherit;cursor:pointer;text-decoration:none;display:inline-block}
+button.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.fine{color:var(--mute);font-size:13px}.live{color:var(--ok)}
+.scroll{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:14px}th,td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--line);vertical-align:top}th{color:var(--mute);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.03em}
+tr.new td{background:rgba(194,65,12,.08)}a{color:var(--acc)}
+.pill{display:inline-block;border-radius:99px;padding:1px 8px;font-size:12px;border:1px solid var(--line)}.pill.y{border-color:var(--ok);color:var(--ok)}
+.map{position:relative;width:260px;max-width:100%;max-height:560px;overflow-y:auto;border:1px solid var(--line);border-radius:8px;background:var(--bg)}
+.map canvas{display:block;width:100%}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+select{font:inherit;padding:6px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+</style></head><body><div class="wrap">
+<header><h1>Roofing leads</h1><div class="row"><span id="status" class="fine"></span><button class="ghost" id="alerts">Turn on alerts</button><button class="ghost" id="refresh">Refresh</button></div></header>
+<div id="gate" class="card" hidden><p>Log in on the admin page first, then come back here.</p><a class="btn" href="/#admin">Open admin log in</a></div>
+<div id="app" hidden>
+<div class="tiles" id="tiles"></div>
+<div class="card"><h2>Leads</h2><div id="leads" class="scroll"></div></div>
+<div class="card"><div class="row" style="justify-content:space-between"><h2>Visitors on /roofing</h2><select id="days"><option value="1">Today</option><option value="7" selected>Last 7 days</option><option value="30">Last 30 days</option></select></div><div id="visits" class="scroll"></div></div>
+<div class="card"><h2>Where people click</h2><p class="fine">Each dot is a click on the page, top of page at the top. Phones and desktop shown separately.</p><div class="row" style="align-items:flex-start"><div><p class="fine">Mobile</p><div class="map"><canvas id="mapM" width="420" height="900"></canvas></div></div><div><p class="fine">Desktop</p><div class="map"><canvas id="mapD" width="420" height="900"></canvas></div></div></div><div id="els" style="margin-top:10px"></div></div>
+</div>
+<p class="fine">Data comes straight from riside.com's own database. Alerts work while this page is open (keep it open in a tab or on your phone's home screen).</p>
+</div>
+<script>
+(function(){
+var SB='https://yhsxxblilclylzgejehk.supabase.co',KEY='sb_publishable_9BiONVmj8Ht4k7lBsxGkkA_Yajbl8Rj';
+function $(i){return document.getElementById(i)}
+var st={get:function(k){try{return localStorage.getItem(k)}catch(e){return null}},set:function(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
+var tok=st.get('acc_token'),seen=+(st.get('roof_seen')||0),known=null,unread=0;
+function h(tag,attrs,kids){var e=document.createElement(tag);for(var k in attrs||{}){if(k==='text')e.textContent=attrs[k];else e.setAttribute(k,attrs[k])}(kids||[]).forEach(function(c){if(c!=null)e.appendChild(typeof c==='string'?document.createTextNode(c):c)});return e}
+function refreshTok(){var rt=st.get('ref_token');if(!rt)return Promise.reject(401);
+  return fetch(SB+'/auth/v1/token?grant_type=refresh_token',{method:'POST',headers:{apikey:KEY,'Content-Type':'application/json'},body:JSON.stringify({refresh_token:rt})}).then(function(r){if(!r.ok)throw 401;return r.json()}).then(function(j){st.set('acc_token',j.access_token);if(j.refresh_token)st.set('ref_token',j.refresh_token);tok=j.access_token})}
+function get(p,retry){if(!tok)return Promise.reject(401);
+  return fetch(SB+p,{headers:{apikey:KEY,Authorization:'Bearer '+tok}}).then(function(r){
+    if(r.status===401&&!retry)return refreshTok().then(function(){return get(p,true)});
+    if(!r.ok)throw r.status;return r.json()})}
+function ago(t){var s=(Date.now()-new Date(t).getTime())/1000;if(s<60)return 'just now';if(s<3600)return Math.round(s/60)+' min ago';if(s<86400)return Math.round(s/3600)+' h ago';return new Date(t).toLocaleDateString(undefined,{month:'short',day:'numeric'})+' '+new Date(t).toLocaleTimeString([],{hour:'numeric',minute:'2-digit'})}
+function parse(s){var parts=(s.name||'').split(' | '),ph=(s.email||'').split('@')[0];var src=(s.source||'').replace(/^roofing-/,'').split('|')[0];
+  return {name:parts[0]||'',zip:(parts[1]||'').replace('ZIP ',''),note:parts.slice(2).join(' | '),phone:ph,src:src,t:s.created_at,id:s.id||s.created_at}}
+function fmtPh(p){return p.length===10?'('+p.slice(0,3)+') '+p.slice(3,6)+'-'+p.slice(6):p}
+function beep(){try{var C=new (window.AudioContext||window.webkitAudioContext)();[0,0.25].forEach(function(d){var o=C.createOscillator(),g=C.createGain();o.frequency.value=880;o.connect(g);g.connect(C.destination);g.gain.setValueAtTime(0.25,C.currentTime+d);g.gain.exponentialRampToValueAtTime(0.001,C.currentTime+d+0.2);o.start(C.currentTime+d);o.stop(C.currentTime+d+0.22)})}catch(e){}}
+function notify(l){unread++;document.title='('+unread+') New roofing lead';beep();
+  try{if(window.Notification&&Notification.permission==='granted'){var n=new Notification('New roofing lead: '+l.name,{body:fmtPh(l.phone)+' · ZIP '+l.zip+(l.note?' · '+l.note:''),tag:'roof-'+l.t});n.onclick=function(){window.focus();n.close()}}}catch(e){}}
+document.addEventListener('visibilitychange',function(){if(!document.hidden){unread=0;document.title='Roofing leads'}});
+function alertsBtn(){var b=$('alerts');if(!window.Notification){b.textContent='Sound alerts on';b.disabled=true;return}
+  if(Notification.permission==='granted'){b.textContent='Alerts on';b.disabled=true}}
+$('alerts').onclick=function(){beep();if(window.Notification)Notification.requestPermission().then(alertsBtn)};
+var LEADS=[];
+function drawLeads(){var m=$('leads');m.textContent='';
+  if(!LEADS.length){m.appendChild(h('p',{class:'fine',text:'No roofing leads yet. New ones show up here within 30 seconds.'}));return}
+  var t=h('table',{},[h('tr',{},['When','Name','Phone','ZIP','Notes','Came from'].map(function(x){return h('th',{text:x})}))]);
+  LEADS.forEach(function(l){var isNew=new Date(l.t).getTime()>seen;t.appendChild(h('tr',{class:isNew?'new':''},[h('td',{text:ago(l.t)}),h('td',{text:l.name}),
+    h('td',{},[h('a',{href:'tel:'+l.phone,text:fmtPh(l.phone)}),' · ',h('a',{href:'sms:'+l.phone,text:'text'})]),h('td',{text:l.zip}),h('td',{text:l.note}),h('td',{text:l.src})]))});
+  m.appendChild(t)}
+function loadLeads(first){return get('/rest/v1/signups?select=*&slot=eq.roofing&order=created_at.desc&limit=500').then(function(rows){
+  var L=rows.map(parse);
+  if(known&&!first){L.forEach(function(l){if(!known[l.t])notify(l)})}
+  known={};L.forEach(function(l){known[l.t]=1});LEADS=L;drawLeads();
+  $('status').innerHTML='<span class="live">●</span> Live · checked '+new Date().toLocaleTimeString([],{hour:'numeric',minute:'2-digit'});
+  if(!document.hidden&&L.length){setTimeout(function(){seen=new Date(L[0].t).getTime();st.set('roof_seen',String(seen))},4000)}})}
+var EV=[];
+function loadVisits(){var d=+$('days').value,since=new Date(Date.now()-d*864e5).toISOString();
+  return get('/rest/v1/analytics_events?select=created_at,sid,vid,type,src,ref_host,utm_campaign,new_visitor,device,browser,os,country,region,city,depth,dur,x,y,vw,el&path=eq./roofing&created_at=gte.'+since+'&order=created_at.asc&limit=20000').then(function(rows){EV=rows;drawVisits();drawMaps()})}
+function drawVisits(){var S={},order=[];EV.forEach(function(e){var s=S[e.sid];if(!s){s=S[e.sid]={sid:e.sid,t:e.created_at,clicks:[],depth:0,dur:0,started:false,sent:false};order.push(s)}
+  if(e.type==='view'){s.src=e.src;s.city=[e.city,e.region].filter(Boolean).join(', ')||e.country||'';s.device=e.device;s.browser=e.browser;s.isNew=e.new_visitor}
+  if(e.type==='scroll'){s.depth=Math.max(s.depth,e.depth||0);s.dur=Math.max(s.dur,e.dur||0)}
+  if(e.type==='click'&&e.el){if(/^form:started/.test(e.el))s.started=true;else if(e.el==="form:submitted"){s.sent=true;s.started=true}else s.clicks.push(e.el)}});
+  var n=order.length,sent=order.filter(function(s){return s.sent}).length,started=order.filter(function(s){return s.started}).length,
+    fb=order.filter(function(s){return s.src==='facebook'}).length,avg=n?Math.round(order.reduce(function(a,s){return a+s.dur},0)/n/1000):0;
+  var tl=$('tiles');tl.textContent='';[[LEADS.length,'leads all time'],[n,'visits ('+$('days').selectedOptions[0].text.toLowerCase()+')'],[started,'started the form'],[sent,'sent the form'],[n?Math.round(sent/n*100)+'%':'0%','visit to lead'],[fb,'from Facebook'],[avg+'s','avg time on page']].forEach(function(x){tl.appendChild(h('div',{class:'tile'},[h('b',{text:String(x[0])}),h('span',{text:x[1]})]))});
+  var m=$('visits');m.textContent='';if(!n){m.appendChild(h('p',{class:'fine',text:'No visits in this period.'}));return}
+  var t=h('table',{},[h('tr',{},['When','From','Where','Device','Scrolled','Time','Clicked','Form'].map(function(x){return h('th',{text:x})}))]);
+  order.slice().reverse().slice(0,300).forEach(function(s){var f=s.sent?h('span',{class:'pill y',text:'sent'}):s.started?h('span',{class:'pill',text:'started'}):h('span',{class:'fine',text:'-'});
+    t.appendChild(h('tr',{},[h('td',{text:ago(s.t)}),h('td',{text:(s.src||'?')+(s.isNew===false?' (returning)':'')}),h('td',{text:s.city||''}),h('td',{text:[s.device,s.browser].filter(Boolean).join(', ')}),h('td',{text:s.depth?s.depth+'%':''}),h('td',{text:s.dur?Math.round(s.dur/1000)+'s':''}),h('td',{text:s.clicks.slice(0,4).join(', ')+(s.clicks.length>4?' +'+(s.clicks.length-4):'')}),h('td',{},[f])]))});
+  m.appendChild(t)}
+function drawMaps(){var pts={m:[],d:[]},els={};EV.forEach(function(e){if(e.type!=='click')return;if(e.el&&!/^form:/.test(e.el))els[e.el]=(els[e.el]||0)+1;if(e.x==null||e.y==null)return;(e.vw&&e.vw<768?pts.m:pts.d).push(e)});
+  [['mapM',pts.m,390],['mapD',pts.d,1280]].forEach(function(c){var cv=$(c[0]),g=cv.getContext('2d'),W=cv.width;var maxY=Math.max(2500,Math.max.apply(null,c[1].map(function(p){return p.y}).concat([0]))+200);
+    cv.height=Math.round(W*maxY/c[2]);var H=cv.height;g.clearRect(0,0,W,H);g.fillStyle='rgba(128,128,128,.12)';for(var y=0;y<H;y+=Math.round(W*800/c[2])){g.fillRect(0,y,W,1)}
+    c[1].forEach(function(p){var x=p.x/1000*W,yy=p.y/maxY*H;var gr=g.createRadialGradient(x,yy,0,x,yy,14);gr.addColorStop(0,'rgba(234,88,12,.55)');gr.addColorStop(1,'rgba(234,88,12,0)');g.fillStyle=gr;g.beginPath();g.arc(x,yy,14,0,7);g.fill()})});
+  var top=Object.keys(els).sort(function(a,b){return els[b]-els[a]}).slice(0,12),m=$('els');m.textContent='';
+  if(top.length){m.appendChild(h('p',{class:'fine',text:'Most clicked:'}));m.appendChild(h('p',{text:top.map(function(k){return k+' ('+els[k]+')'}).join(' · ')}))}}
+function boot(){if(!tok){$('gate').hidden=false;return}
+  loadLeads(true).then(function(){$('app').hidden=false;alertsBtn();return loadVisits()}).catch(function(e){$('gate').hidden=false;$('status').textContent=e===403||e===401?'Not signed in as admin.':'Could not load data.'});
+  setInterval(function(){loadLeads(false).catch(function(){$('status').textContent='Reconnecting...'})},30000);
+  setInterval(function(){loadVisits().catch(function(){})},120000)}
+$('refresh').onclick=function(){loadLeads(false);loadVisits()};$('days').onchange=loadVisits;
+boot();
+})();
+</script></body></html>
