@@ -29,34 +29,48 @@ try:
                     'likes': sum(v['likes'] for v in vids), 'top': sorted(vids, key=lambda v: -v['views'])[:3], 'recent': vids[:5], 'all': vids}
     # Full catalog: RSS only lists the latest 15, so read every Short/video id and its exact view count.
     ids = [re.search(r'v=([\w-]{11})', v['url']).group(1) for v in vids if 'v=' in v['url']]
+    approx = {}
+    H = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36', 'Cookie': 'CONSENT=YES+1; SOCS=CAI', 'Accept-Language': 'en-US,en;q=0.9'}
+    def num(t):
+        t = t.replace(',', '').strip(); m = re.match(r'([\d.]+)\s*(thousand|million|K|M)?', t)
+        return int(float(m.group(1)) * {'thousand': 1e3, 'K': 1e3, 'million': 1e6, 'M': 1e6}.get(m.group(2) or '', 1)) if m else 0
     for tab in ('shorts', 'videos'):
         try:
-            pg = get('https://www.youtube.com/@risidelearning/' + tab, headers={'User-Agent': 'Mozilla/5.0', 'Cookie': 'CONSENT=YES+1', 'Accept-Language': 'en-US'})
-            for m in re.findall(r'"(?:videoId|entityId)":"(?:shorts-shelf-item-)?([\w-]{11})"', pg):
-                if m not in ids: ids.append(m)
+            pg = get('https://www.youtube.com/@risidelearning/' + tab, headers=H)
+            for m in re.findall(r'/shorts/([\w-]{11})|"videoId":"([\w-]{11})"', pg):
+                i = m[0] or m[1]
+                if i not in ids: ids.append(i)
+            for i, v in re.findall(r'"reelWatchEndpoint":\{"videoId":"([\w-]{11})".{0,4000}?"accessibilityText":"[^"]*?, ([\d.,]+(?: thousand| million)?|No) views?', pg, re.S):
+                approx.setdefault(i, 0 if v == 'No' else num(v))
+            for v, i in re.findall(r'"accessibilityText":"[^"]*?, ([\d.,]+(?: thousand| million)?|No) views? - play Short".{0,3000}?"videoId":"([\w-]{11})"', pg, re.S):
+                approx.setdefault(i, 0 if v == 'No' else num(v))
         except Exception as e:
             d['errors']['youtube_catalog_' + tab] = str(e)[:80]
-    cat = []
-    for vid in ids[:120]:
+    cat = []; exact = 0
+    for vid in ids[:150]:
+        row = None
         try:
-            w = get('https://www.youtube.com/watch?v=' + vid, headers={'User-Agent': 'Mozilla/5.0', 'Cookie': 'CONSENT=YES+1', 'Accept-Language': 'en-US'})
+            w = get('https://www.youtube.com/watch?v=' + vid, headers=H)
             vc = re.search(r'"videoDetails":\{.*?"viewCount":"(\d+)"', w, re.S)
-            ch = re.search(r'"channelId":"(UC[\w-]{22})"', w)
-            if not vc or (ch and ch.group(1) != cid.group(1)): continue
-            t = re.search(r'"videoDetails":\{.*?"title":"(.*?)","', w, re.S)
-            pub = re.search(r'"publishDate":"([^"]+)"', w)
-            lk = re.search(r'"likeCount":"?(\d+)', w) or re.search(r'([\d,]+) likes', w)
-            cat.append({'id': vid, 'title': json.loads('"' + t.group(1) + '"') if t else vid, 'url': 'https://youtube.com/shorts/' + vid,
-                        'views': int(vc.group(1)), 'likes': int(lk.group(1).replace(',', '')) if lk else None,
-                        'published': pub.group(1) if pub else None})
+            ch = re.search(r'"videoDetails":\{[^}]*?"channelId":"(UC[\w-]{22})"', w)
+            if vc and (not ch or ch.group(1) == cid.group(1)):
+                t = re.search(r'"videoDetails":\{"videoId":"[^"]+","title":"((?:[^"\\]|\\.)*)"', w)
+                pub = re.search(r'"publishDate":"([^"]+)"', w)
+                row = {'id': vid, 'title': json.loads('"' + t.group(1) + '"') if t else vid, 'url': 'https://youtube.com/shorts/' + vid,
+                       'views': int(vc.group(1)), 'published': pub.group(1) if pub else None, 'exact': True}
+                exact += 1
         except Exception:
             pass
+        if row is None and vid in approx:
+            row = {'id': vid, 'title': vid, 'url': 'https://youtube.com/shorts/' + vid, 'views': approx[vid], 'exact': False}
+        if row: cat.append(row)
+    print('youtube ids', len(ids), 'exact', exact, 'approx-only', len(cat) - exact)
     if cat:
         rss_sum = d['youtube']['total_views']
         d['youtube'].update({'total_views': sum(v['views'] for v in cat), 'videos': len(cat), 'catalog': True,
-                             'likes': sum(v['likes'] or 0 for v in cat), 'top': sorted(cat, key=lambda v: -v['views'])[:3]})
+                             'likes': d['youtube']['likes'], 'exact_videos': exact, 'top': sorted(cat, key=lambda v: -v['views'])[:3]})
         d.setdefault('checks', []).append({'name': 'YouTube views', 'ok': d['youtube']['total_views'] >= rss_sum,
-            'detail': '%d videos read one by one = %d views (latest-15 feed alone: %d)' % (len(cat), d['youtube']['total_views'], rss_sum)})
+            'detail': '%d videos on the channel, %d with exact counts%s = %d views' % (len(cat), exact, '' if exact == len(cat) else ' (rest from the channel page, rounded)', d['youtube']['total_views'])})
     else:
         d['errors']['youtube_catalog'] = 'Could only read the latest 15 videos; total views is too low'
 except Exception as e:
