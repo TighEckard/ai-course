@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T22:40:33.138791Z",
+ "generated_at": "2026-11-09T22:43:20.149206Z",
  "errors": {},
  "site": {
   "real_rule": "scrolled 25%+, stayed 10s+ or clicked; bots and testing removed",
@@ -20,7 +20,7 @@
   },
   "all_views_7d": 2207,
   "bot_views_7d": 2191,
-  "generated_at": "2026-11-09T22:40:33.601402+00:00",
+  "generated_at": "2026-11-09T22:43:20.393734+00:00",
   "paid_members": 1,
   "real_views_7d": 16,
   "roofing_total": 0,
@@ -79,33 +79,31 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 2637,
-  "videos": 16,
-  "likes": 47,
+  "total_views": 8494,
+  "videos": 29,
+  "likes": 39,
   "top": [
    {
-    "id": "lRXGM46vjpk",
-    "title": "15",
-    "url": "https://youtube.com/shorts/lRXGM46vjpk",
-    "views": 935,
-    "likes": 15,
-    "published": null
+    "id": "9mRzsVeSNn4",
+    "title": "9mRzsVeSNn4",
+    "url": "https://youtube.com/shorts/9mRzsVeSNn4",
+    "views": 1200,
+    "exact": false
    },
    {
-    "id": "FtxyGZ_771Q",
-    "title": "13",
-    "url": "https://youtube.com/shorts/FtxyGZ_771Q",
-    "views": 933,
-    "likes": 13,
-    "published": null
+    "id": "j_O46JtdC34",
+    "title": "j_O46JtdC34",
+    "url": "https://youtube.com/shorts/j_O46JtdC34",
+    "views": 1100,
+    "exact": false
    },
    {
-    "id": "Khk-oMwNaQQ",
-    "title": "5",
-    "url": "https://youtube.com/shorts/Khk-oMwNaQQ",
-    "views": 337,
-    "likes": 5,
-    "published": null
+    "id": "hjJIzapOj24",
+    "title": "hjJIzapOj24",
+    "url": "https://youtube.com/shorts/hjJIzapOj24",
+    "views": 962,
+    "published": null,
+    "exact": true
    }
   ],
   "recent": [
@@ -252,13 +250,14 @@
     "likes": 1
    }
   ],
-  "catalog": true
+  "catalog": true,
+  "exact_videos": 14
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "16 videos read one by one = 2637 views (latest-15 feed alone: 2138)"
+   "detail": "29 videos on the channel, 14 with exact counts (rest from the channel page, rounded) = 8494 views"
   },
   {
    "name": "Website visitors",
@@ -303,7 +302,7 @@
  ],
  "posting": {
   "date": "2026-11-09",
-  "now_et": "5:40 PM",
+  "now_et": "5:43 PM",
   "today": {
    "pinterest": {
     "planned": 1,
@@ -446,5 +445,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-09T22:40:33.138791Z"
+ "checked_at": "2026-11-09T22:43:20.149206Z"
 }
