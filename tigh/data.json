@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T21:38:20.983178Z",
+ "generated_at": "2026-11-09T21:43:56.750420Z",
  "errors": {
   "site": "Site numbers need the one-time dash-setup.sql paste in Supabase"
  },
@@ -178,7 +178,7 @@
  },
  "posting": {
   "date": "2026-11-09",
-  "now_et": "4:38 PM",
+  "now_et": "4:43 PM",
   "today": {
    "pinterest": {
     "planned": 1,
