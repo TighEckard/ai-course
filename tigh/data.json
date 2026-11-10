@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T23:51:45.461907Z",
+ "generated_at": "2026-11-10T00:05:51.954163Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -77,14 +77,14 @@
    "2026-11-08": 4,
    "2026-11-09": 2
   },
-  "all_views_7d": 2206,
-  "bot_views_7d": 2191,
+  "all_views_7d": 2205,
+  "bot_views_7d": 2190,
   "browsers_30d": {
    "?": 1,
    "Chrome": 15,
    "Safari": 5
   },
-  "generated_at": "2026-11-09T23:51:45.67183+00:00",
+  "generated_at": "2026-11-10T00:05:52.405972+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -336,7 +336,7 @@
   "recent": [],
   "all": [],
   "catalog": true,
-  "exact_videos": 16,
+  "exact_videos": 19,
   "list": [
    {
     "id": "1L9U100WIN0",
@@ -351,16 +351,16 @@
     "title": "POV: everyone in the meeting is using AI #Shorts",
     "url": "https://youtube.com/shorts/1Z8d6CqPQHU",
     "views": 0,
-    "exact": false,
-    "published": "2026-11-09"
+    "published": "2026-11-09",
+    "exact": true
    },
    {
     "id": "-4fKye0-VjE",
     "title": "The email that could get you a $14k raise #Shorts",
     "url": "https://youtube.com/shorts/-4fKye0-VjE",
     "views": 1,
-    "exact": false,
-    "published": "2026-11-08"
+    "published": "2026-11-08",
+    "exact": true
    },
    {
     "id": "o-Cm_xmLloU",
@@ -375,8 +375,8 @@
     "title": "The intern got promoted. He's 22. #Shorts",
     "url": "https://youtube.com/shorts/tCjX_vTzg9I",
     "views": 0,
-    "published": "2026-11-08",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-08"
    },
    {
     "id": "aHFCFhbCeZk",
@@ -391,8 +391,8 @@
     "title": "Plan a whole trip with AI in a minute #Shorts",
     "url": "https://youtube.com/shorts/O0DxIt_fQjA",
     "views": 1,
-    "published": "2026-11-08",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-08"
    },
    {
     "id": "wr1wnbtk9EM",
@@ -415,8 +415,8 @@
     "title": "Stop typing on your phone. Just talk. #Shorts",
     "url": "https://youtube.com/shorts/Khk-oMwNaQQ",
     "views": 337,
-    "exact": false,
-    "published": "2026-11-05"
+    "published": "2026-11-05",
+    "exact": true
    },
    {
     "id": "sF0OHgEgq9E",
@@ -431,16 +431,16 @@
     "title": "Grandma, he ghosted me? Gen Z slang translated #Shorts",
     "url": "https://youtube.com/shorts/EqSk3xo9tTg",
     "views": 2,
-    "exact": false,
-    "published": "2026-11-04"
+    "published": "2026-11-04",
+    "exact": true
    },
    {
     "id": "DuTUAAUjx7Q",
     "title": "Grandma asks AI what to cook (pirate chef) #Shorts",
     "url": "https://youtube.com/shorts/DuTUAAUjx7Q",
     "views": 77,
-    "published": "2026-11-04",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-04"
    },
    {
     "id": "vsjOK3cLpwo",
@@ -455,8 +455,8 @@
     "title": "Grandma almost forwarded a $500 gift card scam #Shorts",
     "url": "https://youtube.com/shorts/TGZoeTOM7mc",
     "views": 123,
-    "exact": false,
-    "published": "2026-11-03"
+    "published": "2026-11-03",
+    "exact": true
    },
    {
     "id": "9mRzsVeSNn4",
@@ -479,16 +479,16 @@
     "title": "Grandkid called you bestie? Translated #Shorts",
     "url": "https://youtube.com/shorts/BUodsaR44Gw",
     "views": 460,
-    "exact": false,
-    "published": "2026-11-01"
+    "published": "2026-11-01",
+    "exact": true
    },
    {
     "id": "ku-cxkxCR98",
     "title": "Grandkid said you're giving legend? Translated #Shorts",
     "url": "https://youtube.com/shorts/ku-cxkxCR98",
     "views": 543,
-    "exact": false,
-    "published": "2026-11-01"
+    "published": "2026-11-01",
+    "exact": true
    },
    {
     "id": "hjJIzapOj24",
@@ -535,16 +535,16 @@
     "title": "Grandma, you're such a vibe? Translated #Shorts",
     "url": "https://youtube.com/shorts/T80t5oERuVU",
     "views": 64,
-    "published": "2026-10-31",
-    "exact": true
+    "exact": false,
+    "published": "2026-10-31"
    },
    {
     "id": "lRXGM46vjpk",
     "title": "4 slang words your grandkids say, translated #Shorts",
     "url": "https://youtube.com/shorts/lRXGM46vjpk",
     "views": 935,
-    "exact": false,
-    "published": null
+    "published": null,
+    "exact": true
    },
    {
     "id": "B0h7mqzcssY",
@@ -559,8 +559,8 @@
     "title": "Grandpa said it slaps?! Slang translated #Shorts",
     "url": "https://youtube.com/shorts/QtHsxWyALPQ",
     "views": 71,
-    "published": null,
-    "exact": true
+    "exact": false,
+    "published": null
    },
    {
     "id": "f8rEnPDi6cs",
@@ -571,18 +571,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-09T23:51:45.461907Z"
+  "checked_at": "2026-11-10T00:05:51.954163Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "29 videos on the channel, 16 with exact counts (rest from the channel page, rounded) = 8494 views"
+   "detail": "29 videos on the channel, 19 with exact counts (rest from the channel page, rounded) = 8494 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "15 real people this week; 2191 of 2206 page views were bots, crawlers or testing and are excluded"
+   "detail": "15 real people this week; 2190 of 2205 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -602,7 +602,7 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Roofing",
@@ -617,7 +617,7 @@
  ],
  "posting": {
   "date": "2026-11-09",
-  "now_et": "6:52 PM",
+  "now_et": "7:06 PM",
   "today": {
    "pinterest": {
     "planned": 1,
@@ -1357,5 +1357,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-09T23:51:45.461907Z"
+ "checked_at": "2026-11-10T00:05:51.954163Z"
 }
