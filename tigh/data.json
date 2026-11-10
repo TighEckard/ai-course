@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T04:28:10.452917Z",
+ "generated_at": "2026-11-10T05:28:08.182874Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -84,7 +84,7 @@
    "Chrome": 15,
    "Safari": 5
   },
-  "generated_at": "2026-11-10T04:28:10.908243+00:00",
+  "generated_at": "2026-11-10T05:28:08.463425+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -304,7 +304,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8499,
+  "total_views": 8501,
   "videos": 31,
   "likes": 0,
   "top": [
@@ -358,7 +358,7 @@
     "id": "1L9U100WIN0",
     "title": "One phone setting that stops scam calls #Shorts",
     "url": "https://youtube.com/shorts/1L9U100WIN0",
-    "views": 0,
+    "views": 2,
     "published": "2026-11-09",
     "exact": true
    },
@@ -587,13 +587,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-10T04:28:10.452917Z"
+  "checked_at": "2026-11-10T05:28:08.182874Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "31 videos on the channel, 29 with exact counts (rest from the channel page, rounded) = 8499 views"
+   "detail": "31 videos on the channel, 29 with exact counts (rest from the channel page, rounded) = 8501 views"
   },
   {
    "name": "Website visitors",
@@ -613,12 +613,12 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Roofing",
@@ -628,39 +628,13 @@
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 6h ago"
+   "detail": "numbers last refreshed 7h ago"
   }
  ],
  "posting": {
-  "date": "2026-11-09",
-  "now_et": "11:28 PM",
+  "date": "2026-11-10",
+  "now_et": "12:28 AM",
   "today": {
-   "pinterest": {
-    "planned": 1,
-    "done": 0,
-    "verified": false,
-    "overdue": 0,
-    "items": [
-     {
-      "title": "6 Things to Ask AI Before Bed (Easy Ideas)",
-      "id": "pin24",
-      "when": "2026-11-09T07:30:00-05:00",
-      "slot": "am",
-      "done": null,
-      "verified": false,
-      "due": true
-     }
-    ],
-    "next": {
-     "title": "6 Things to Ask AI Before Bed (Easy Ideas)",
-     "id": "pin24",
-     "when": "2026-11-09T07:30:00-05:00",
-     "slot": "am",
-     "done": null,
-     "verified": false,
-     "due": true
-    }
-   },
    "youtube": {
     "planned": 2,
     "done": 2,
@@ -668,22 +642,22 @@
     "overdue": 0,
     "items": [
      {
-      "title": "POV: everyone in the meeting is using AI #Shorts",
-      "id": "meeting",
-      "when": "2026-11-09T07:30:00-05:00",
+      "title": "What to say when a scam caller pressures you",
+      "id": "wbhangup",
+      "when": "2026-11-10T07:30:00-05:00",
       "slot": "am",
       "done": true,
       "verified": true,
-      "due": true
+      "due": false
      },
      {
-      "title": "One phone setting that stops scam calls #Shorts",
-      "id": "silence",
-      "when": "2026-11-09T22:30:00-05:00",
+      "title": "Scam or safe? Can you tell?",
+      "id": "quiz4",
+      "when": "2026-11-10T22:30:00-05:00",
       "slot": "pm",
       "done": true,
       "verified": true,
-      "due": true
+      "due": false
      }
     ],
     "next": null
@@ -695,32 +669,32 @@
     "overdue": 0,
     "items": [
      {
-      "title": "POV: you are 58 and just found out you never had to type",
-      "id": "dictate",
-      "when": "2026-11-09T07:30:00-05:00",
+      "title": "Which version would you rather get in the mail? Tell us in the comment",
+      "id": "ba4",
+      "when": "2026-11-10T07:30:00-05:00",
       "slot": "am",
       "done": null,
       "verified": false,
-      "due": true
+      "due": false
      },
      {
-      "title": "That is not your grandson on the phone",
-      "id": "voiceclone",
-      "when": "2026-11-09T22:30:00-05:00",
+      "title": "A simple trick for understanding your pharmacy paperwork",
+      "id": "wbpharm",
+      "when": "2026-11-10T22:30:00-05:00",
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": true
+      "due": false
      }
     ],
     "next": {
-     "title": "POV: you are 58 and just found out you never had to type",
-     "id": "dictate",
-     "when": "2026-11-09T07:30:00-05:00",
+     "title": "Which version would you rather get in the mail? Tell us in the comment",
+     "id": "ba4",
+     "when": "2026-11-10T07:30:00-05:00",
      "slot": "am",
      "done": null,
      "verified": false,
-     "due": true
+     "due": false
     }
    },
    "instagram": {
@@ -730,36 +704,100 @@
     "overdue": 0,
     "items": [
      {
-      "title": "POV: you are 58 and just found out you never had to type",
-      "id": "dictate",
-      "when": "2026-11-09T07:30:00-05:00",
+      "title": "Which version would you rather get in the mail? Tell us in the comment",
+      "id": "ba4",
+      "when": "2026-11-10T07:30:00-05:00",
       "slot": "am",
       "done": null,
       "verified": false,
-      "due": true
+      "due": false
      },
      {
-      "title": "That is not your grandson on the phone",
-      "id": "voiceclone",
-      "when": "2026-11-09T22:30:00-05:00",
+      "title": "A simple trick for understanding your pharmacy paperwork",
+      "id": "wbpharm",
+      "when": "2026-11-10T22:30:00-05:00",
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": true
+      "due": false
      }
     ],
     "next": {
-     "title": "POV: you are 58 and just found out you never had to type",
-     "id": "dictate",
-     "when": "2026-11-09T07:30:00-05:00",
+     "title": "Which version would you rather get in the mail? Tell us in the comment",
+     "id": "ba4",
+     "when": "2026-11-10T07:30:00-05:00",
      "slot": "am",
      "done": null,
      "verified": false,
-     "due": true
+     "due": false
     }
    }
   },
   "history": [
+   {
+    "date": "2026-11-10",
+    "slot": "am",
+    "title": "What to say when a scam caller pressures you",
+    "format": "whiteboard how-to",
+    "platforms": [
+     {
+      "p": "youtube",
+      "status": "live",
+      "url": "https://youtube.com/shorts/BMZBrj5YJGs",
+      "views": 1
+     }
+    ]
+   },
+   {
+    "date": "2026-11-10",
+    "slot": "am",
+    "title": "Which version would you rather get in the mail? Tell us in the comment",
+    "format": "before/after plain English",
+    "platforms": [
+     {
+      "p": "facebook",
+      "status": "unverified",
+      "url": null
+     },
+     {
+      "p": "instagram",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-10",
+    "slot": "pm",
+    "title": "Scam or safe? Can you tell?",
+    "format": "scam or safe quiz",
+    "platforms": [
+     {
+      "p": "youtube",
+      "status": "live",
+      "url": "https://youtube.com/shorts/yf6HJrYj3ww",
+      "views": 0
+     }
+    ]
+   },
+   {
+    "date": "2026-11-10",
+    "slot": "pm",
+    "title": "A simple trick for understanding your pharmacy paperwork",
+    "format": "whiteboard how-to",
+    "platforms": [
+     {
+      "p": "facebook",
+      "status": "unverified",
+      "url": null
+     },
+     {
+      "p": "instagram",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
    {
     "date": "2026-11-09",
     "slot": "am",
@@ -815,7 +853,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/1L9U100WIN0",
-      "views": 0
+      "views": 2
      }
     ]
    },
@@ -1297,70 +1335,6 @@
       "url": null
      }
     ]
-   },
-   {
-    "date": "2026-11-02",
-    "slot": "am",
-    "title": "Nana, that was so valid? Translated #Shorts",
-    "format": "slang translator",
-    "platforms": [
-     {
-      "p": "youtube",
-      "status": "live",
-      "url": "https://youtube.com/shorts/j_O46JtdC34",
-      "views": 1100
-     }
-    ]
-   },
-   {
-    "date": "2026-11-02",
-    "slot": "am",
-    "title": "My grandma is lowkey iconic (translated) #Shorts",
-    "format": "slang translator",
-    "platforms": [
-     {
-      "p": "facebook",
-      "status": "unverified",
-      "url": null
-     },
-     {
-      "p": "instagram",
-      "status": "unverified",
-      "url": null
-     }
-    ]
-   },
-   {
-    "date": "2026-11-02",
-    "slot": "pm",
-    "title": "Grandpa, you ate that? Translated #Shorts",
-    "format": "slang translator",
-    "platforms": [
-     {
-      "p": "youtube",
-      "status": "live",
-      "url": "https://youtube.com/shorts/9mRzsVeSNn4",
-      "views": 1200
-     }
-    ]
-   },
-   {
-    "date": "2026-11-02",
-    "slot": "pm",
-    "title": "He lives in my head rent free (translated) #Shorts",
-    "format": "slang translator",
-    "platforms": [
-     {
-      "p": "facebook",
-      "status": "unverified",
-      "url": null
-     },
-     {
-      "p": "instagram",
-      "status": "unverified",
-      "url": null
-     }
-    ]
    }
   ],
   "yt_by_day": {},
@@ -1373,5 +1347,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-10T04:28:10.452917Z"
+ "checked_at": "2026-11-10T05:28:08.182874Z"
 }
