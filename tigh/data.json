@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T06:06:01.218365Z",
+ "generated_at": "2026-11-10T06:28:04.419514Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -84,7 +84,7 @@
    "Chrome": 15,
    "Safari": 5
   },
-  "generated_at": "2026-11-10T06:06:01.592039+00:00",
+  "generated_at": "2026-11-10T06:28:04.643463+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -304,7 +304,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8502,
+  "total_views": 8501,
   "videos": 31,
   "likes": 0,
   "top": [
@@ -366,7 +366,7 @@
     "id": "1Z8d6CqPQHU",
     "title": "POV: everyone in the meeting is using AI #Shorts",
     "url": "https://youtube.com/shorts/1Z8d6CqPQHU",
-    "views": 5,
+    "views": 4,
     "published": "2026-11-09",
     "exact": true
    },
@@ -587,13 +587,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-10T06:06:01.218365Z"
+  "checked_at": "2026-11-10T06:28:04.419514Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "31 videos on the channel, 29 with exact counts (rest from the channel page, rounded) = 8502 views"
+   "detail": "31 videos on the channel, 29 with exact counts (rest from the channel page, rounded) = 8501 views"
   },
   {
    "name": "Website visitors",
@@ -613,7 +613,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 3h ago"
   },
   {
    "name": "Ovoa",
@@ -623,17 +623,17 @@
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 7h ago"
+   "detail": "numbers last refreshed 8h ago"
   }
  ],
  "posting": {
   "date": "2026-11-10",
-  "now_et": "1:06 AM",
+  "now_et": "1:28 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -821,7 +821,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/1Z8d6CqPQHU",
-      "views": 5
+      "views": 4
      }
     ]
    },
@@ -1347,5 +1347,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-10T06:06:01.218365Z"
+ "checked_at": "2026-11-10T06:28:04.419514Z"
 }
