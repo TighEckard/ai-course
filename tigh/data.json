@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T19:28:04.830873Z",
+ "generated_at": "2026-11-10T20:26:30.733157Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -77,14 +77,14 @@
    "2026-11-08": 4,
    "2026-11-09": 2
   },
-  "all_views_7d": 2175,
+  "all_views_7d": 2174,
   "bot_views_7d": 2160,
   "browsers_30d": {
    "?": 1,
    "Chrome": 15,
    "Safari": 5
   },
-  "generated_at": "2026-11-10T19:28:05.302891+00:00",
+  "generated_at": "2026-11-10T20:26:30.906488+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -278,7 +278,7 @@
   },
   "avg_time_sec_30d": 61,
   "new_visitors_30d": 18,
-  "real_sessions_7d": 15,
+  "real_sessions_7d": 14,
   "real_sources_30d": {
    "direct": 8,
    "google": 9,
@@ -286,7 +286,7 @@
    "pinterest": 1
   },
   "real_visitors_1d": 0,
-  "real_visitors_7d": 15,
+  "real_visitors_7d": 14,
   "landing_pages_30d": {
    "/": 17,
    "?": 1,
@@ -352,7 +352,7 @@
     "title": "What to say when a scam caller pressures you",
     "url": "https://www.youtube.com/shorts/BMZBrj5YJGs",
     "published": "2026-11-10T02:37:27+00:00",
-    "views": 4,
+    "views": 2,
     "likes": 0
    },
    {
@@ -389,7 +389,7 @@
     "title": "What to say when a scam caller pressures you",
     "url": "https://www.youtube.com/shorts/BMZBrj5YJGs",
     "published": "2026-11-10T02:37:27+00:00",
-    "views": 4,
+    "views": 2,
     "likes": 0
    },
    {
@@ -737,7 +737,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-10T19:28:04.830873Z"
+  "checked_at": "2026-11-10T20:26:30.733157Z"
  },
  "checks": [
   {
@@ -748,7 +748,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "15 real people this week; 2160 of 2175 page views were bots, crawlers or testing and are excluded"
+   "detail": "14 real people this week; 2160 of 2174 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -763,27 +763,27 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 21h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 22h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-10",
-  "now_et": "2:28 PM",
+  "now_et": "3:27 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1503,5 +1503,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-10T19:28:04.830873Z"
+ "checked_at": "2026-11-10T20:26:30.733157Z"
 }
