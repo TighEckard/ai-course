@@ -1,6 +1,6 @@
 {
  "name": "Ovoa",
- "updated": "2026-11-10T18:05:46Z",
+ "updated": "2026-11-10T21:05:54Z",
  "notes": "Sender is PAUSED in its settings. Sales, signups, app and site traffic need Stripe / admin.ovoa.ai / App Store logins (not connected yet). Replies are unique senders+subjects in the Sender inbox (unverified).",
  "headline": [
   {
