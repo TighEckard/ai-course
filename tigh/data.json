@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T21:44:20.554022Z",
+ "generated_at": "2026-11-10T22:28:10.269322Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -77,14 +77,14 @@
    "2026-11-08": 4,
    "2026-11-09": 2
   },
-  "all_views_7d": 2174,
+  "all_views_7d": 2173,
   "bot_views_7d": 2160,
   "browsers_30d": {
    "?": 1,
    "Chrome": 15,
    "Safari": 5
   },
-  "generated_at": "2026-11-10T21:44:20.908213+00:00",
+  "generated_at": "2026-11-10T22:28:10.610883+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -278,7 +278,7 @@
   },
   "avg_time_sec_30d": 61,
   "new_visitors_30d": 18,
-  "real_sessions_7d": 14,
+  "real_sessions_7d": 13,
   "real_sources_30d": {
    "direct": 8,
    "google": 9,
@@ -286,7 +286,7 @@
    "pinterest": 1
   },
   "real_visitors_1d": 0,
-  "real_visitors_7d": 14,
+  "real_visitors_7d": 13,
   "landing_pages_30d": {
    "/": 17,
    "?": 1,
@@ -500,7 +500,7 @@
     "id": "BMZBrj5YJGs",
     "title": "What to say when a scam caller pressures you",
     "url": "https://youtube.com/shorts/BMZBrj5YJGs",
-    "views": 5,
+    "views": 4,
     "published": "2026-11-10",
     "exact": true
    },
@@ -596,7 +596,7 @@
     "id": "EqSk3xo9tTg",
     "title": "Grandma, he ghosted me? Gen Z slang translated #Shorts",
     "url": "https://youtube.com/shorts/EqSk3xo9tTg",
-    "views": 3,
+    "views": 4,
     "published": "2026-11-04",
     "exact": true
    },
@@ -737,7 +737,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-10T21:44:20.554022Z"
+  "checked_at": "2026-11-10T22:28:10.269322Z"
  },
  "checks": [
   {
@@ -748,7 +748,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "14 real people this week; 2160 of 2174 page views were bots, crawlers or testing and are excluded"
+   "detail": "13 real people this week; 2160 of 2173 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -763,7 +763,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Ovoa",
@@ -778,12 +778,12 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 23h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 24h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-10",
-  "now_et": "4:44 PM",
+  "now_et": "5:28 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1343,7 +1343,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/EqSk3xo9tTg",
-      "views": 3
+      "views": 4
      }
     ]
    },
@@ -1503,5 +1503,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-10T21:44:20.554022Z"
+ "checked_at": "2026-11-10T22:28:10.269322Z"
 }
