@@ -1,0 +1,31 @@
+{
+ "videos": [
+  {
+   "id": "slang20a",
+   "file": "slang20a.mp4",
+   "format": "slang translator (problem angle)",
+   "look": "grandma-bubble",
+   "slot": "am",
+   "platforms": [
+    "yt"
+   ],
+   "yt_title": "Grandkid texted you 'that's lowkey sus'? Translated",
+   "caption_yt": "Your grandkid texts you slang and a scammer texts you too. Learn the difference. Free live AI classes at riside.com #Shorts #slang #scams",
+   "link": "https://riside.com/?src=yt_slang20a",
+   "board": "Riside"
+  },
+  {
+   "id": "slang20b",
+   "file": "slang20b.mp4",
+   "format": "slang translator (problem angle)",
+   "look": "grandma-bubble",
+   "slot": "pm",
+   "platforms": [
+    "meta"
+   ],
+   "caption_meta": "Did you know what 'it's giving scam' means? Comment the slang word you never understood. Free live AI classes in small groups at riside.com",
+   "link": "https://riside.com/?src=meta_slang20b",
+   "board": "Riside"
+  }
+ ]
+}
