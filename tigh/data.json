@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T21:28:41.942876Z",
+ "generated_at": "2026-11-10T21:44:20.554022Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -84,7 +84,7 @@
    "Chrome": 15,
    "Safari": 5
   },
-  "generated_at": "2026-11-10T21:28:42.104576+00:00",
+  "generated_at": "2026-11-10T21:44:20.908213+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -500,7 +500,7 @@
     "id": "BMZBrj5YJGs",
     "title": "What to say when a scam caller pressures you",
     "url": "https://youtube.com/shorts/BMZBrj5YJGs",
-    "views": 4,
+    "views": 5,
     "published": "2026-11-10",
     "exact": true
    },
@@ -596,7 +596,7 @@
     "id": "EqSk3xo9tTg",
     "title": "Grandma, he ghosted me? Gen Z slang translated #Shorts",
     "url": "https://youtube.com/shorts/EqSk3xo9tTg",
-    "views": 4,
+    "views": 3,
     "published": "2026-11-04",
     "exact": true
    },
@@ -737,7 +737,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-10T21:28:41.942876Z"
+  "checked_at": "2026-11-10T21:44:20.554022Z"
  },
  "checks": [
   {
@@ -763,12 +763,12 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Roofing",
@@ -783,7 +783,7 @@
  ],
  "posting": {
   "date": "2026-11-10",
-  "now_et": "4:29 PM",
+  "now_et": "4:44 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1343,7 +1343,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/EqSk3xo9tTg",
-      "views": 4
+      "views": 3
      }
     ]
    },
@@ -1503,5 +1503,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-10T21:28:41.942876Z"
+ "checked_at": "2026-11-10T21:44:20.554022Z"
 }
