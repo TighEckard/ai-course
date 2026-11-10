@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T10:27:50.266146Z",
+ "generated_at": "2026-11-10T11:28:07.471891Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -77,14 +77,14 @@
    "2026-11-08": 4,
    "2026-11-09": 2
   },
-  "all_views_7d": 2203,
-  "bot_views_7d": 2188,
+  "all_views_7d": 2202,
+  "bot_views_7d": 2187,
   "browsers_30d": {
    "?": 1,
    "Chrome": 15,
    "Safari": 5
   },
-  "generated_at": "2026-11-10T10:27:50.660688+00:00",
+  "generated_at": "2026-11-10T11:28:07.918822+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -438,7 +438,7 @@
     "title": "Scam or safe? Can you spot it? #Shorts",
     "url": "https://www.youtube.com/shorts/wr1wnbtk9EM",
     "published": "2026-11-07T23:36:24+00:00",
-    "views": 0,
+    "views": 2,
     "likes": 0
    },
    {
@@ -729,7 +729,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-10T10:27:50.266146Z"
+  "checked_at": "2026-11-10T11:28:07.471891Z"
  },
  "checks": [
   {
@@ -740,7 +740,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "15 real people this week; 2188 of 2203 page views were bots, crawlers or testing and are excluded"
+   "detail": "15 real people this week; 2187 of 2202 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -755,12 +755,12 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Roofing",
@@ -769,13 +769,13 @@
   },
   {
    "name": "Study creators",
-   "ok": true,
-   "detail": "numbers last refreshed 12h ago"
+   "ok": false,
+   "detail": "numbers last refreshed 13h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-10",
-  "now_et": "5:28 AM",
+  "now_et": "6:28 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1495,5 +1495,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-10T10:27:50.266146Z"
+ "checked_at": "2026-11-10T11:28:07.471891Z"
 }
