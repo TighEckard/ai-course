@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T20:26:30.733157Z",
+ "generated_at": "2026-11-10T20:27:28.722083Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -84,7 +84,7 @@
    "Chrome": 15,
    "Safari": 5
   },
-  "generated_at": "2026-11-10T20:26:30.906488+00:00",
+  "generated_at": "2026-11-10T20:27:28.93307+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -304,7 +304,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8519,
+  "total_views": 8518,
   "videos": 32,
   "likes": 27,
   "top": [
@@ -352,7 +352,7 @@
     "title": "What to say when a scam caller pressures you",
     "url": "https://www.youtube.com/shorts/BMZBrj5YJGs",
     "published": "2026-11-10T02:37:27+00:00",
-    "views": 2,
+    "views": 4,
     "likes": 0
    },
    {
@@ -389,7 +389,7 @@
     "title": "What to say when a scam caller pressures you",
     "url": "https://www.youtube.com/shorts/BMZBrj5YJGs",
     "published": "2026-11-10T02:37:27+00:00",
-    "views": 2,
+    "views": 4,
     "likes": 0
    },
    {
@@ -548,7 +548,7 @@
     "id": "aHFCFhbCeZk",
     "title": "Insurance letter in plain English with AI #Shorts",
     "url": "https://youtube.com/shorts/aHFCFhbCeZk",
-    "views": 2,
+    "views": 1,
     "published": "2026-11-08",
     "exact": true
    },
@@ -737,13 +737,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-10T20:26:30.733157Z"
+  "checked_at": "2026-11-10T20:27:28.722083Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "32 videos on the channel, 30 with exact counts (rest from the channel page, rounded) = 8519 views"
+   "detail": "32 videos on the channel, 30 with exact counts (rest from the channel page, rounded) = 8518 views"
   },
   {
    "name": "Website visitors",
@@ -773,7 +773,7 @@
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Study creators",
@@ -1080,7 +1080,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/aHFCFhbCeZk",
-      "views": 2
+      "views": 1
      }
     ]
    },
@@ -1503,5 +1503,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-10T20:26:30.733157Z"
+ "checked_at": "2026-11-10T20:27:28.722083Z"
 }
