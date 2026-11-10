@@ -1,6 +1,6 @@
 {
  "name": "Cozy Crochet Club",
- "updated": "2026-11-09T23:51:42Z",
+ "updated": "2026-11-10T00:41:40Z",
  "notes": "Sender is PAUSED in its settings | App numbers pulled by hand from App Store Connect, 30 days to Nov 8 UTC (refreshed when someone re-pulls). Reply counts de-duplicated by thread (unverified).",
  "headline": [
   {
@@ -23,7 +23,6 @@
    "value": 269,
    "sub": "0 today, 59 in 7d",
    "trend": [
-    5,
     22,
     0,
     3,
@@ -36,13 +35,14 @@
     12,
     9,
     8,
+    0,
     0
    ]
   },
   {
    "label": "Replies",
    "value": 33,
-   "sub": "12.3% reply rate, 4 today"
+   "sub": "12.3% reply rate, 0 today"
   },
   {
    "label": "Waiting on us",
@@ -136,7 +136,7 @@
     },
     {
      "label": "Replies today",
-     "value": 4
+     "value": 0
     },
     {
      "label": "Bounced",
@@ -162,7 +162,6 @@
     {
      "title": "Emails sent per day",
      "data": {
-      "2026-10-11": 0,
       "2026-10-12": 0,
       "2026-10-13": 0,
       "2026-10-14": 0,
@@ -191,14 +190,14 @@
       "2026-11-06": 12,
       "2026-11-07": 9,
       "2026-11-08": 8,
-      "2026-11-09": 0
+      "2026-11-09": 0,
+      "2026-11-10": 0
      },
      "days": 30
     },
     {
      "title": "Replies per day",
      "data": {
-      "2026-10-11": 0,
       "2026-10-12": 0,
       "2026-10-13": 0,
       "2026-10-14": 0,
@@ -227,7 +226,8 @@
       "2026-11-06": 0,
       "2026-11-07": 2,
       "2026-11-08": 1,
-      "2026-11-09": 4
+      "2026-11-09": 4,
+      "2026-11-10": 0
      },
      "days": 30
     }
@@ -316,19 +316,29 @@
    "title": "SOCIAL: TikTok and Instagram",
    "tiles": [
     {
-     "label": "TikTok views",
-     "value": "n/a",
-     "sub": "@cozycrochet.club, not collected yet"
+     "label": "TikTok followers",
+     "value": 3686,
+     "sub": "@cozycrochet.club, 64.8K likes"
     },
     {
-     "label": "Instagram views",
+     "label": "TikTok views",
+     "value": 221525,
+     "sub": "sum of latest 54 videos (public counts)"
+    },
+    {
+     "label": "Avg views per video",
+     "value": 4102,
+     "sub": "top video 54800"
+    },
+    {
+     "label": "Instagram",
      "value": "n/a",
-     "sub": "not collected yet"
+     "sub": "need Chloe's Instagram handle"
     },
     {
      "label": "Last updated",
-     "value": "never",
-     "sub": "no social data source connected yet"
+     "value": "11-10 00:50Z",
+     "sub": "read from the public TikTok profile"
     }
    ]
   }
