@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T03:27:51.605308Z",
+ "generated_at": "2026-11-10T03:33:50.121737Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -84,7 +84,7 @@
    "Chrome": 15,
    "Safari": 5
   },
-  "generated_at": "2026-11-10T03:27:51.758102+00:00",
+  "generated_at": "2026-11-10T03:33:50.575681+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -587,7 +587,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-10T03:27:51.605308Z"
+  "checked_at": "2026-11-10T03:33:50.121737Z"
  },
  "checks": [
   {
@@ -633,7 +633,7 @@
  ],
  "posting": {
   "date": "2026-11-09",
-  "now_et": "10:28 PM",
+  "now_et": "10:34 PM",
   "today": {
    "pinterest": {
     "planned": 1,
@@ -683,7 +683,7 @@
       "slot": "pm",
       "done": true,
       "verified": true,
-      "due": false
+      "due": true
      }
     ],
     "next": null
@@ -710,7 +710,7 @@
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": false
+      "due": true
      }
     ],
     "next": {
@@ -745,7 +745,7 @@
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": false
+      "due": true
      }
     ],
     "next": {
@@ -1373,5 +1373,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-10T03:27:51.605308Z"
+ "checked_at": "2026-11-10T03:33:50.121737Z"
 }
