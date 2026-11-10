@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T00:44:39.331198Z",
+ "generated_at": "2026-11-10T00:58:09.518871Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -84,7 +84,7 @@
    "Chrome": 15,
    "Safari": 5
   },
-  "generated_at": "2026-11-10T00:44:39.762875+00:00",
+  "generated_at": "2026-11-10T00:58:09.71795+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -336,7 +336,7 @@
   "recent": [],
   "all": [],
   "catalog": true,
-  "exact_videos": 22,
+  "exact_videos": 25,
   "list": [
    {
     "id": "1L9U100WIN0",
@@ -359,16 +359,16 @@
     "title": "The email that could get you a $14k raise #Shorts",
     "url": "https://youtube.com/shorts/-4fKye0-VjE",
     "views": 1,
-    "exact": false,
-    "published": "2026-11-08"
+    "published": "2026-11-08",
+    "exact": true
    },
    {
     "id": "o-Cm_xmLloU",
     "title": "The email that could get you a $14k raise #Shorts",
     "url": "https://youtube.com/shorts/o-Cm_xmLloU",
     "views": 1,
-    "exact": false,
-    "published": "2026-11-08"
+    "published": "2026-11-08",
+    "exact": true
    },
    {
     "id": "tCjX_vTzg9I",
@@ -407,8 +407,8 @@
     "title": "Decode any confusing letter with AI in 3 steps #Shorts",
     "url": "https://youtube.com/shorts/O0v42Pppyxo",
     "views": 1,
-    "published": "2026-11-07",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-07"
    },
    {
     "id": "Khk-oMwNaQQ",
@@ -423,8 +423,8 @@
     "title": "Grandma, it's a vibe? Gen Z slang translated #Shorts",
     "url": "https://youtube.com/shorts/sF0OHgEgq9E",
     "views": 310,
-    "published": "2026-11-05",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-05"
    },
    {
     "id": "EqSk3xo9tTg",
@@ -447,16 +447,16 @@
     "title": "Grandma, he ghosted me? Gen Z slang translated #Shorts",
     "url": "https://youtube.com/shorts/vsjOK3cLpwo",
     "views": 602,
-    "exact": false,
-    "published": "2026-11-04"
+    "published": "2026-11-04",
+    "exact": true
    },
    {
     "id": "TGZoeTOM7mc",
     "title": "Grandma almost forwarded a $500 gift card scam #Shorts",
     "url": "https://youtube.com/shorts/TGZoeTOM7mc",
     "views": 123,
-    "exact": false,
-    "published": "2026-11-03"
+    "published": "2026-11-03",
+    "exact": true
    },
    {
     "id": "9mRzsVeSNn4",
@@ -519,8 +519,8 @@
     "title": "Grandkid said touch grass? Translated #Shorts",
     "url": "https://youtube.com/shorts/eDt9NFCB3Gg",
     "views": 135,
-    "exact": false,
-    "published": "2026-10-31"
+    "published": "2026-10-31",
+    "exact": true
    },
    {
     "id": "LG6Nfc2Bl5M",
@@ -571,13 +571,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-10T00:44:39.331198Z"
+  "checked_at": "2026-11-10T00:58:09.518871Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "29 videos on the channel, 22 with exact counts (rest from the channel page, rounded) = 8494 views"
+   "detail": "29 videos on the channel, 25 with exact counts (rest from the channel page, rounded) = 8494 views"
   },
   {
    "name": "Website visitors",
@@ -617,7 +617,7 @@
  ],
  "posting": {
   "date": "2026-11-09",
-  "now_et": "7:45 PM",
+  "now_et": "7:58 PM",
   "today": {
    "pinterest": {
     "planned": 1,
@@ -1357,5 +1357,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-10T00:44:39.331198Z"
+ "checked_at": "2026-11-10T00:58:09.518871Z"
 }
