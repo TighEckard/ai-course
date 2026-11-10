@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T09:06:29.153576Z",
+ "generated_at": "2026-11-10T09:28:04.465276Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -84,7 +84,7 @@
    "Chrome": 15,
    "Safari": 5
   },
-  "generated_at": "2026-11-10T09:06:29.532151+00:00",
+  "generated_at": "2026-11-10T09:28:04.667164+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -304,7 +304,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8508,
+  "total_views": 8503,
   "videos": 31,
   "likes": 32,
   "top": [
@@ -345,7 +345,7 @@
     "title": "What to say when a scam caller pressures you",
     "url": "https://www.youtube.com/shorts/BMZBrj5YJGs",
     "published": "2026-11-10T02:37:27+00:00",
-    "views": 1,
+    "views": 2,
     "likes": 0
    },
    {
@@ -382,7 +382,7 @@
     "title": "What to say when a scam caller pressures you",
     "url": "https://www.youtube.com/shorts/BMZBrj5YJGs",
     "published": "2026-11-10T02:37:27+00:00",
-    "views": 1,
+    "views": 2,
     "likes": 0
    },
    {
@@ -431,21 +431,21 @@
     "title": "Plan a whole trip with AI in a minute #Shorts",
     "url": "https://www.youtube.com/shorts/O0DxIt_fQjA",
     "published": "2026-11-07T23:55:33+00:00",
-    "views": 1,
+    "views": 2,
     "likes": 0
    },
    {
     "title": "Scam or safe? Can you spot it? #Shorts",
     "url": "https://www.youtube.com/shorts/wr1wnbtk9EM",
     "published": "2026-11-07T23:36:24+00:00",
-    "views": 0,
+    "views": 2,
     "likes": 0
    },
    {
     "title": "Decode any confusing letter with AI in 3 steps #Shorts",
     "url": "https://www.youtube.com/shorts/O0v42Pppyxo",
     "published": "2026-11-07T19:11:32+00:00",
-    "views": 1,
+    "views": 4,
     "likes": 0
    },
    {
@@ -492,7 +492,7 @@
     "id": "BMZBrj5YJGs",
     "title": "What to say when a scam caller pressures you",
     "url": "https://youtube.com/shorts/BMZBrj5YJGs",
-    "views": 2,
+    "views": 1,
     "published": "2026-11-10",
     "exact": true
    },
@@ -548,7 +548,7 @@
     "id": "O0DxIt_fQjA",
     "title": "Plan a whole trip with AI in a minute #Shorts",
     "url": "https://youtube.com/shorts/O0DxIt_fQjA",
-    "views": 2,
+    "views": 1,
     "published": "2026-11-08",
     "exact": true
    },
@@ -556,7 +556,7 @@
     "id": "wr1wnbtk9EM",
     "title": "Scam or safe? Can you spot it? #Shorts",
     "url": "https://youtube.com/shorts/wr1wnbtk9EM",
-    "views": 2,
+    "views": 0,
     "published": "2026-11-07",
     "exact": true
    },
@@ -700,7 +700,7 @@
     "id": "lRXGM46vjpk",
     "title": "4 slang words your grandkids say, translated #Shorts",
     "url": "https://youtube.com/shorts/lRXGM46vjpk",
-    "views": 936,
+    "views": 935,
     "published": null,
     "exact": true
    },
@@ -729,13 +729,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-10T09:06:29.153576Z"
+  "checked_at": "2026-11-10T09:28:04.465276Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "31 videos on the channel, 29 with exact counts (rest from the channel page, rounded) = 8508 views"
+   "detail": "31 videos on the channel, 29 with exact counts (rest from the channel page, rounded) = 8503 views"
   },
   {
    "name": "Website visitors",
@@ -755,7 +755,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 3h ago"
   },
   {
    "name": "Ovoa",
@@ -765,17 +765,17 @@
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 10h ago"
+   "detail": "numbers last refreshed 11h ago"
   }
  ],
  "posting": {
   "date": "2026-11-10",
-  "now_et": "4:06 AM",
+  "now_et": "4:28 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -886,7 +886,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/BMZBrj5YJGs",
-      "views": 2
+      "views": 1
      }
     ]
    },
@@ -1040,7 +1040,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/O0DxIt_fQjA",
-      "views": 2
+      "views": 1
      }
     ]
    },
@@ -1213,7 +1213,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/wr1wnbtk9EM",
-      "views": 2
+      "views": 0
      }
     ]
    },
@@ -1495,5 +1495,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-10T09:06:29.153576Z"
+ "checked_at": "2026-11-10T09:28:04.465276Z"
 }
