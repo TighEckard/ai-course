@@ -1,6 +1,6 @@
 {
  "name": "Roofing",
- "updated": "2026-11-09T23:45:00Z",
+ "updated": "2026-11-10T02:27:04Z",
  "notes": "Page and lead numbers are from the last hourly check (live counts need a Supabase sign-in). Facebook numbers are from the comment log. Friend requests and follows are paused after the Nov 8 rate limit.",
  "headline": [
   {
@@ -14,12 +14,12 @@
   },
   {
    "label": "FB comments posted",
-   "value": 7,
-   "sub": "5 live, 2 greyed"
+   "value": 9,
+   "sub": "3 today ET"
   },
   {
    "label": "FB posts logged",
-   "value": 14
+   "value": 22
   },
   {
    "label": "FB warnings",
@@ -65,11 +65,11 @@
    "tiles": [
     {
      "label": "Posts logged",
-     "value": 14
+     "value": 22
     },
     {
      "label": "Commented",
-     "value": 7
+     "value": 9
     },
     {
      "label": "Skipped",
@@ -87,12 +87,24 @@
    ],
    "series": [
     {
-     "title": "Posts logged per day",
+     "title": "Facebook comments posted per day (ET, includes today)",
      "data": {
-      "2026-11-08": 10,
-      "2026-11-09": 4
+      "2026-10-27": 0,
+      "2026-10-28": 0,
+      "2026-10-29": 0,
+      "2026-10-30": 0,
+      "2026-10-31": 0,
+      "2026-11-01": 0,
+      "2026-11-02": 0,
+      "2026-11-03": 0,
+      "2026-11-04": 0,
+      "2026-11-05": 0,
+      "2026-11-06": 0,
+      "2026-11-07": 0,
+      "2026-11-08": 6,
+      "2026-11-09": 3
      },
-     "days": 30
+     "days": 14
     }
    ],
    "funnel": [
