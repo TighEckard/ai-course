@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T00:05:51.954163Z",
+ "generated_at": "2026-11-10T00:41:49.335957Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -77,14 +77,14 @@
    "2026-11-08": 4,
    "2026-11-09": 2
   },
-  "all_views_7d": 2205,
-  "bot_views_7d": 2190,
+  "all_views_7d": 2206,
+  "bot_views_7d": 2191,
   "browsers_30d": {
    "?": 1,
    "Chrome": 15,
    "Safari": 5
   },
-  "generated_at": "2026-11-10T00:05:52.405972+00:00",
+  "generated_at": "2026-11-10T00:41:49.733086+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -329,14 +329,14 @@
     "title": "Grandkid said it's bussin? Translated #Shorts",
     "url": "https://youtube.com/shorts/hjJIzapOj24",
     "views": 962,
-    "published": "2026-11-01",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-01"
    }
   ],
   "recent": [],
   "all": [],
   "catalog": true,
-  "exact_videos": 19,
+  "exact_videos": 18,
   "list": [
    {
     "id": "1L9U100WIN0",
@@ -383,24 +383,24 @@
     "title": "Insurance letter in plain English with AI #Shorts",
     "url": "https://youtube.com/shorts/aHFCFhbCeZk",
     "views": 0,
-    "exact": false,
-    "published": "2026-11-08"
+    "published": "2026-11-08",
+    "exact": true
    },
    {
     "id": "O0DxIt_fQjA",
     "title": "Plan a whole trip with AI in a minute #Shorts",
     "url": "https://youtube.com/shorts/O0DxIt_fQjA",
     "views": 1,
-    "exact": false,
-    "published": "2026-11-08"
+    "published": "2026-11-08",
+    "exact": true
    },
    {
     "id": "wr1wnbtk9EM",
     "title": "Scam or safe? Can you spot it? #Shorts",
     "url": "https://youtube.com/shorts/wr1wnbtk9EM",
     "views": 0,
-    "exact": false,
-    "published": "2026-11-07"
+    "published": "2026-11-07",
+    "exact": true
    },
    {
     "id": "O0v42Pppyxo",
@@ -415,24 +415,24 @@
     "title": "Stop typing on your phone. Just talk. #Shorts",
     "url": "https://youtube.com/shorts/Khk-oMwNaQQ",
     "views": 337,
-    "published": "2026-11-05",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-05"
    },
    {
     "id": "sF0OHgEgq9E",
     "title": "Grandma, it's a vibe? Gen Z slang translated #Shorts",
     "url": "https://youtube.com/shorts/sF0OHgEgq9E",
     "views": 310,
-    "published": "2026-11-05",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-05"
    },
    {
     "id": "EqSk3xo9tTg",
     "title": "Grandma, he ghosted me? Gen Z slang translated #Shorts",
     "url": "https://youtube.com/shorts/EqSk3xo9tTg",
     "views": 2,
-    "published": "2026-11-04",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-04"
    },
    {
     "id": "DuTUAAUjx7Q",
@@ -455,8 +455,8 @@
     "title": "Grandma almost forwarded a $500 gift card scam #Shorts",
     "url": "https://youtube.com/shorts/TGZoeTOM7mc",
     "views": 123,
-    "published": "2026-11-03",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-03"
    },
    {
     "id": "9mRzsVeSNn4",
@@ -479,8 +479,8 @@
     "title": "Grandkid called you bestie? Translated #Shorts",
     "url": "https://youtube.com/shorts/BUodsaR44Gw",
     "views": 460,
-    "published": "2026-11-01",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-01"
    },
    {
     "id": "ku-cxkxCR98",
@@ -495,8 +495,8 @@
     "title": "Grandkid said it's bussin? Translated #Shorts",
     "url": "https://youtube.com/shorts/hjJIzapOj24",
     "views": 962,
-    "published": "2026-11-01",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-01"
    },
    {
     "id": "FtxyGZ_771Q",
@@ -511,8 +511,8 @@
     "title": "Grandkid said you slayed? Translated #Shorts",
     "url": "https://youtube.com/shorts/fb3EgepkM3w",
     "views": 123,
-    "exact": false,
-    "published": "2026-10-31"
+    "published": "2026-10-31",
+    "exact": true
    },
    {
     "id": "eDt9NFCB3Gg",
@@ -559,8 +559,8 @@
     "title": "Grandpa said it slaps?! Slang translated #Shorts",
     "url": "https://youtube.com/shorts/QtHsxWyALPQ",
     "views": 71,
-    "exact": false,
-    "published": null
+    "published": null,
+    "exact": true
    },
    {
     "id": "f8rEnPDi6cs",
@@ -571,18 +571,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-10T00:05:51.954163Z"
+  "checked_at": "2026-11-10T00:41:49.335957Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "29 videos on the channel, 19 with exact counts (rest from the channel page, rounded) = 8494 views"
+   "detail": "29 videos on the channel, 18 with exact counts (rest from the channel page, rounded) = 8494 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "15 real people this week; 2190 of 2205 page views were bots, crawlers or testing and are excluded"
+   "detail": "15 real people this week; 2191 of 2206 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -602,22 +602,22 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   }
  ],
  "posting": {
   "date": "2026-11-09",
-  "now_et": "7:06 PM",
+  "now_et": "7:42 PM",
   "today": {
    "pinterest": {
     "planned": 1,
@@ -1357,5 +1357,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-10T00:05:51.954163Z"
+ "checked_at": "2026-11-10T00:41:49.335957Z"
 }
