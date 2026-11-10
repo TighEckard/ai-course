@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T11:28:07.471891Z",
+ "generated_at": "2026-11-10T12:06:25.943535Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -77,14 +77,14 @@
    "2026-11-08": 4,
    "2026-11-09": 2
   },
-  "all_views_7d": 2202,
-  "bot_views_7d": 2187,
+  "all_views_7d": 2200,
+  "bot_views_7d": 2185,
   "browsers_30d": {
    "?": 1,
    "Chrome": 15,
    "Safari": 5
   },
-  "generated_at": "2026-11-10T11:28:07.918822+00:00",
+  "generated_at": "2026-11-10T12:06:26.115724+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -304,7 +304,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8508,
+  "total_views": 8511,
   "videos": 31,
   "likes": 32,
   "top": [
@@ -328,7 +328,7 @@
     "id": "hjJIzapOj24",
     "title": "Grandkid said it's bussin? Translated #Shorts",
     "url": "https://youtube.com/shorts/hjJIzapOj24",
-    "views": 962,
+    "views": 963,
     "published": "2026-11-01",
     "exact": true
    }
@@ -596,7 +596,7 @@
     "id": "DuTUAAUjx7Q",
     "title": "Grandma asks AI what to cook (pirate chef) #Shorts",
     "url": "https://youtube.com/shorts/DuTUAAUjx7Q",
-    "views": 77,
+    "views": 78,
     "published": "2026-11-04",
     "exact": true
    },
@@ -636,7 +636,7 @@
     "id": "BUodsaR44Gw",
     "title": "Grandkid called you bestie? Translated #Shorts",
     "url": "https://youtube.com/shorts/BUodsaR44Gw",
-    "views": 460,
+    "views": 461,
     "published": "2026-11-01",
     "exact": true
    },
@@ -652,7 +652,7 @@
     "id": "hjJIzapOj24",
     "title": "Grandkid said it's bussin? Translated #Shorts",
     "url": "https://youtube.com/shorts/hjJIzapOj24",
-    "views": 962,
+    "views": 963,
     "published": "2026-11-01",
     "exact": true
    },
@@ -700,7 +700,7 @@
     "id": "lRXGM46vjpk",
     "title": "4 slang words your grandkids say, translated #Shorts",
     "url": "https://youtube.com/shorts/lRXGM46vjpk",
-    "views": 936,
+    "views": 935,
     "published": null,
     "exact": true
    },
@@ -724,23 +724,23 @@
     "id": "f8rEnPDi6cs",
     "title": "Now you speak fluent grandkid #shorts",
     "url": "https://youtube.com/shorts/f8rEnPDi6cs",
-    "views": 14,
+    "views": 15,
     "published": null,
     "exact": true
    }
   ],
-  "checked_at": "2026-11-10T11:28:07.471891Z"
+  "checked_at": "2026-11-10T12:06:25.943535Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "31 videos on the channel, 29 with exact counts (rest from the channel page, rounded) = 8508 views"
+   "detail": "31 videos on the channel, 29 with exact counts (rest from the channel page, rounded) = 8511 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "15 real people this week; 2187 of 2202 page views were bots, crawlers or testing and are excluded"
+   "detail": "15 real people this week; 2185 of 2200 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -760,12 +760,12 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
@@ -775,7 +775,7 @@
  ],
  "posting": {
   "date": "2026-11-10",
-  "now_et": "6:28 AM",
+  "now_et": "7:06 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1380,7 +1380,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/DuTUAAUjx7Q",
-      "views": 77
+      "views": 78
      }
     ]
    },
@@ -1495,5 +1495,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-10T11:28:07.471891Z"
+ "checked_at": "2026-11-10T12:06:25.943535Z"
 }
