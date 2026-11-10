@@ -1,146 +1,146 @@
 {
- "name": "Roofing",
- "updated": "2026-11-10T20:27:20Z",
- "notes": "Page and lead numbers are from the last hourly check (live counts need a Supabase sign-in). Facebook numbers are from the comment log. Friend requests and follows are paused after the Nov 8 rate limit.",
- "headline": [
-  {
-   "label": "Leads",
-   "value": 0,
-   "sub": "form submissions"
-  },
-  {
-   "label": "Page visits (7d)",
-   "value": 3
-  },
-  {
-   "label": "FB comments posted",
-   "value": 10,
-   "sub": "0 today ET"
-  },
-  {
-   "label": "FB posts logged",
-   "value": 24
-  },
-  {
-   "label": "FB warnings",
-   "value": 1,
-   "sub": "Nov 8 rate limit"
-  },
-  {
-   "label": "Friend requests",
-   "value": "paused",
-   "sub": "until ~Nov 14"
-  }
- ],
- "sections": [
-  {
-   "title": "1. Landing page (riside.com/roofing)",
-   "tiles": [
+  "name": "Roofing",
+  "updated": "2026-11-10T21:28:32Z",
+  "notes": "Page and lead numbers are from the last hourly check (live counts need a Supabase sign-in). Facebook numbers are from the comment log. Friend requests and follows are paused after the Nov 8 rate limit.",
+  "headline": [
     {
-     "label": "Leads total",
-     "value": 0
+      "label": "Leads",
+      "value": 0,
+      "sub": "form submissions"
     },
     {
-     "label": "Visits last 7 days",
-     "value": 3
+      "label": "Page visits (7d)",
+      "value": 3
     },
     {
-     "label": "Form",
-     "value": "name, phone, ZIP, notes"
+      "label": "FB comments posted",
+      "value": 10,
+      "sub": "0 today ET"
+    },
+    {
+      "label": "FB posts logged",
+      "value": 24
+    },
+    {
+      "label": "FB warnings",
+      "value": 1,
+      "sub": "Nov 8 rate limit"
+    },
+    {
+      "label": "Friend requests",
+      "value": "paused",
+      "sub": "until ~Nov 14"
     }
-   ],
-   "funnel": [
+  ],
+  "sections": [
     {
-     "label": "Visits (7d)",
-     "value": 3
+      "title": "1. Landing page (riside.com/roofing)",
+      "tiles": [
+        {
+          "label": "Leads total",
+          "value": 0
+        },
+        {
+          "label": "Visits last 7 days",
+          "value": 3
+        },
+        {
+          "label": "Form",
+          "value": "name, phone, ZIP, notes"
+        }
+      ],
+      "funnel": [
+        {
+          "label": "Visits (7d)",
+          "value": 3
+        },
+        {
+          "label": "Leads",
+          "value": 0
+        }
+      ]
     },
     {
-     "label": "Leads",
-     "value": 0
+      "title": "2. Facebook comments (Tanner)",
+      "tiles": [
+        {
+          "label": "Posts logged",
+          "value": 24
+        },
+        {
+          "label": "Commented",
+          "value": 10
+        },
+        {
+          "label": "Skipped",
+          "value": 4
+        },
+        {
+          "label": "Drafted, not sent",
+          "value": 2
+        },
+        {
+          "label": "Comments per day cap",
+          "value": 5,
+          "sub": "ramps to 8 by Nov 16"
+        }
+      ],
+      "series": [
+        {
+          "title": "Facebook comments posted per day (ET, includes today)",
+          "data": {
+            "2026-10-28": 0,
+            "2026-10-29": 0,
+            "2026-10-30": 0,
+            "2026-10-31": 0,
+            "2026-11-01": 0,
+            "2026-11-02": 0,
+            "2026-11-03": 0,
+            "2026-11-04": 0,
+            "2026-11-05": 0,
+            "2026-11-06": 0,
+            "2026-11-07": 0,
+            "2026-11-08": 6,
+            "2026-11-09": 4,
+            "2026-11-10": 0
+          },
+          "days": 14
+        }
+      ],
+      "funnel": [
+        {
+          "label": "Posts logged",
+          "value": 14
+        },
+        {
+          "label": "Commented",
+          "value": 7
+        },
+        {
+          "label": "Leads",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "title": "3. Tanner account health",
+      "tiles": [
+        {
+          "label": "Auto text posts",
+          "value": "every other day",
+          "sub": "from Nov 11"
+        },
+        {
+          "label": "Warm-up",
+          "value": "2x/day",
+          "sub": "12:41 and 20:41 ET"
+        },
+        {
+          "label": "Hourly checks offline Nov 9",
+          "value": 8,
+          "sub": "PC Chrome off 13:17-19:18Z"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "title": "2. Facebook comments (Tanner)",
-   "tiles": [
-    {
-     "label": "Posts logged",
-     "value": 24
-    },
-    {
-     "label": "Commented",
-     "value": 10
-    },
-    {
-     "label": "Skipped",
-     "value": 4
-    },
-    {
-     "label": "Drafted, not sent",
-     "value": 2
-    },
-    {
-     "label": "Comments per day cap",
-     "value": 5,
-     "sub": "ramps to 8 by Nov 16"
-    }
-   ],
-   "series": [
-    {
-     "title": "Facebook comments posted per day (ET, includes today)",
-     "data": {
-      "2026-10-28": 0,
-      "2026-10-29": 0,
-      "2026-10-30": 0,
-      "2026-10-31": 0,
-      "2026-11-01": 0,
-      "2026-11-02": 0,
-      "2026-11-03": 0,
-      "2026-11-04": 0,
-      "2026-11-05": 0,
-      "2026-11-06": 0,
-      "2026-11-07": 0,
-      "2026-11-08": 6,
-      "2026-11-09": 4,
-      "2026-11-10": 0
-     },
-     "days": 14
-    }
-   ],
-   "funnel": [
-    {
-     "label": "Posts logged",
-     "value": 14
-    },
-    {
-     "label": "Commented",
-     "value": 7
-    },
-    {
-     "label": "Leads",
-     "value": 0
-    }
-   ]
-  },
-  {
-   "title": "3. Tanner account health",
-   "tiles": [
-    {
-     "label": "Auto text posts",
-     "value": "every other day",
-     "sub": "from Nov 11"
-    },
-    {
-     "label": "Warm-up",
-     "value": "2x/day",
-     "sub": "12:41 and 20:41 ET"
-    },
-    {
-     "label": "Hourly checks offline Nov 9",
-     "value": 8,
-     "sub": "PC Chrome off 13:17-19:18Z"
-    }
-   ]
-  }
- ]
+  ]
 }
