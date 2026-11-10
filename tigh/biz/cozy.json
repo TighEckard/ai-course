@@ -1,6 +1,6 @@
 {
  "name": "Cozy Crochet Club",
- "updated": "2026-11-10T00:58:00Z",
+ "updated": "2026-11-10T02:25:36Z",
  "notes": "Sender is PAUSED in its settings | App numbers pulled by hand from App Store Connect, 30 days to Nov 8 UTC (refreshed when someone re-pulls). Reply counts de-duplicated by thread (unverified).",
  "headline": [
   {
@@ -62,57 +62,82 @@
  ],
  "sections": [
   {
-   "title": "APP: downloads, trials, paid",
+   "title": "TIKTOK FUNNEL (videos)",
    "tiles": [
     {
-     "label": "Downloads",
-     "value": 512,
-     "sub": "first-time, 30 days to Nov 8 (UTC); 31 redownloads"
+     "label": "Followers",
+     "value": 3686,
+     "sub": "@cozycrochet.club, 64.8K likes"
     },
     {
-     "label": "Trials started",
-     "value": 70,
-     "sub": "offer starts, same period"
+     "label": "Views",
+     "value": 221525,
+     "sub": "latest 54 videos, avg 4102"
     },
     {
-     "label": "In trial now",
-     "value": 6,
-     "sub": "active 3-day trials"
+     "label": "Top video",
+     "value": 54800,
+     "sub": "views"
     },
     {
-     "label": "Paid plans",
-     "value": 33,
-     "sub": "40 active plans"
-    },
-    {
-     "label": "Proceeds",
-     "value": "$89",
-     "sub": "30 days, after Apple's cut"
-    },
-    {
-     "label": "MRR",
-     "value": "$12",
-     "sub": "as shown by Apple (looks low vs paid plans, unverified)"
-    },
-    {
-     "label": "Download to paid",
-     "value": "4.55%",
-     "sub": "day 35; day 7 4.21%"
-    },
-    {
-     "label": "Impressions / page views",
-     "value": "12.4K",
-     "sub": "813 page views, 5.6% conversion"
+     "label": "Link clicks / installs from TikTok",
+     "value": "n/a",
+     "sub": "not tracked yet (needs UTM or Linktree stats)"
     },
     {
      "label": "Last updated",
-     "value": "11-09 23:58Z",
-     "sub": "pulled from App Store Connect"
+     "value": "11-10 01:02Z",
+     "sub": "public TikTok profile"
+    }
+   ],
+   "funnel": [
+    {
+     "label": "Views",
+     "value": 221525
+    },
+    {
+     "label": "Followers",
+     "value": 3686
     }
    ]
   },
   {
-   "title": "EMAIL OUTREACH (creator cold email)",
+   "title": "INSTAGRAM FUNNEL (reels)",
+   "tiles": [
+    {
+     "label": "Followers",
+     "value": 165,
+     "sub": "@cozy_crochet_club, 71 posts"
+    },
+    {
+     "label": "Reel views",
+     "value": 22622,
+     "sub": "latest 12 reels, avg 1885"
+    },
+    {
+     "label": "Top reel",
+     "value": 4816,
+     "sub": "views"
+    },
+    {
+     "label": "Last updated",
+     "value": "11-10 01:02Z",
+     "sub": "public Instagram profile"
+    }
+   ],
+   "funnel": [
+    {
+     "label": "Reel views",
+     "value": 22622
+    },
+    {
+     "label": "Followers",
+     "value": 165
+    }
+   ]
+  },
+  {
+   "title": "EMAIL FUNNEL (creator outreach)",
    "tiles": [
     {
      "label": "Sent total",
@@ -122,40 +147,37 @@
     {
      "label": "Sent last 7d",
      "value": 59,
-     "sub": "269 last 30d"
-    },
-    {
-     "label": "Sent today",
-     "value": 0,
-     "sub": "of 100 sender cap"
+     "sub": "269 last 30d, 0 today of 100 cap"
     },
     {
      "label": "Replies",
      "value": 33,
-     "sub": "12.3% of sent"
+     "sub": "12.3% of sent, 0 today"
     },
     {
-     "label": "Replies today",
-     "value": 0
+     "label": "Waiting on us",
+     "value": 27,
+     "sub": "(unverified)"
     },
     {
      "label": "Bounced",
      "value": 0,
-     "sub": "matched by address in bounce text (unverified)"
-    },
-    {
-     "label": "Last send",
-     "value": "2026-11-08"
+     "sub": "(unverified)"
     },
     {
      "label": "Last updated",
      "value": "11-09 21:43Z",
-     "sub": "sender log last written"
+     "sub": "sender log last written; last send 2026-11-08"
+    }
+   ],
+   "funnel": [
+    {
+     "label": "Emailed",
+     "value": 269
     },
     {
-     "label": "Inbox sync",
-     "value": "11-09 21:43Z",
-     "sub": "last time replies were read"
+     "label": "Replied",
+     "value": 33
     }
    ],
    "series": [
@@ -290,60 +312,78 @@
    ]
   },
   {
-   "title": "Funnel",
-   "funnel": [
-    {
-     "label": "Emailed",
-     "value": 269
-    },
-    {
-     "label": "Replied",
-     "value": 33
-    }
-   ],
+   "title": "ADS FUNNEL (paid)",
    "tiles": [
     {
-     "label": "Reply rate",
-     "value": "12.3%"
+     "label": "Spend / clicks / installs",
+     "value": "n/a",
+     "sub": "no ad platform connected yet"
     },
     {
-     "label": "Download to paid (day 35)",
-     "value": "4.55%"
+     "label": "Last updated",
+     "value": "never"
     }
    ]
   },
   {
-   "title": "SOCIAL: TikTok and Instagram",
+   "title": "APP STORE RESULT (all channels combined)",
    "tiles": [
     {
-     "label": "TikTok followers",
-     "value": 3686,
-     "sub": "@cozycrochet.club, 64.8K likes"
+     "label": "Downloads",
+     "value": 512,
+     "sub": "first-time, 30 days to Nov 8 (UTC); 31 redownloads"
     },
     {
-     "label": "TikTok views",
-     "value": 221525,
-     "sub": "sum of latest 54 videos (public counts)"
+     "label": "Trials started",
+     "value": 70,
+     "sub": "6 in trial now"
     },
     {
-     "label": "Avg views per video",
-     "value": 4102,
-     "sub": "top video 54800"
+     "label": "Paid plans",
+     "value": 33,
+     "sub": "40 active plans"
     },
     {
-     "label": "Instagram followers",
-     "value": 165,
-     "sub": "@cozy_crochet_club, 71 posts"
+     "label": "Proceeds",
+     "value": "$89",
+     "sub": "30 days"
     },
     {
-     "label": "Instagram reel views",
-     "value": 22622,
-     "sub": "sum of latest 12 reels, avg 1885"
+     "label": "MRR",
+     "value": "$12",
+     "sub": "as shown by Apple (looks low vs paid plans, unverified)"
+    },
+    {
+     "label": "Download to paid",
+     "value": "4.55%",
+     "sub": "day 35; day 7 4.21%"
     },
     {
      "label": "Last updated",
-     "value": "11-10 01:02Z",
-     "sub": "read from the public TikTok profile"
+     "value": "11-09 23:58Z",
+     "sub": "App Store Connect"
+    }
+   ],
+   "funnel": [
+    {
+     "label": "Impressions",
+     "value": 12400
+    },
+    {
+     "label": "Page views",
+     "value": 813
+    },
+    {
+     "label": "Downloads",
+     "value": 512
+    },
+    {
+     "label": "Trials",
+     "value": 70
+    },
+    {
+     "label": "Paid plans",
+     "value": 33
     }
    ]
   }
