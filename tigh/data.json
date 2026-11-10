@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T02:35:45.853891Z",
+ "generated_at": "2026-11-10T03:06:25.039489Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -84,7 +84,7 @@
    "Chrome": 15,
    "Safari": 5
   },
-  "generated_at": "2026-11-10T02:35:46.098694+00:00",
+  "generated_at": "2026-11-10T03:06:25.35473+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -305,8 +305,8 @@
  },
  "youtube": {
   "total_views": 8498,
-  "videos": 29,
-  "likes": 0,
+  "videos": 31,
+  "likes": 31,
   "top": [
    {
     "id": "9mRzsVeSNn4",
@@ -333,11 +333,169 @@
     "exact": true
    }
   ],
-  "recent": [],
-  "all": [],
+  "recent": [
+   {
+    "title": "Scam or safe? Can you tell?",
+    "url": "https://www.youtube.com/shorts/yf6HJrYj3ww",
+    "published": "2026-11-10T02:40:17+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
+    "title": "What to say when a scam caller pressures you",
+    "url": "https://www.youtube.com/shorts/BMZBrj5YJGs",
+    "published": "2026-11-10T02:37:27+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
+    "title": "One phone setting that stops scam calls #Shorts",
+    "url": "https://www.youtube.com/shorts/1L9U100WIN0",
+    "published": "2026-11-09T20:59:54+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
+    "title": "POV: everyone in the meeting is using AI #Shorts",
+    "url": "https://www.youtube.com/shorts/1Z8d6CqPQHU",
+    "published": "2026-11-09T20:56:29+00:00",
+    "views": 1,
+    "likes": 0
+   },
+   {
+    "title": "The email that could get you a $14k raise #Shorts",
+    "url": "https://www.youtube.com/shorts/-4fKye0-VjE",
+    "published": "2026-11-08T04:28:34+00:00",
+    "views": 1,
+    "likes": 0
+   }
+  ],
+  "all": [
+   {
+    "title": "Scam or safe? Can you tell?",
+    "url": "https://www.youtube.com/shorts/yf6HJrYj3ww",
+    "published": "2026-11-10T02:40:17+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
+    "title": "What to say when a scam caller pressures you",
+    "url": "https://www.youtube.com/shorts/BMZBrj5YJGs",
+    "published": "2026-11-10T02:37:27+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
+    "title": "One phone setting that stops scam calls #Shorts",
+    "url": "https://www.youtube.com/shorts/1L9U100WIN0",
+    "published": "2026-11-09T20:59:54+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
+    "title": "POV: everyone in the meeting is using AI #Shorts",
+    "url": "https://www.youtube.com/shorts/1Z8d6CqPQHU",
+    "published": "2026-11-09T20:56:29+00:00",
+    "views": 1,
+    "likes": 0
+   },
+   {
+    "title": "The email that could get you a $14k raise #Shorts",
+    "url": "https://www.youtube.com/shorts/-4fKye0-VjE",
+    "published": "2026-11-08T04:28:34+00:00",
+    "views": 1,
+    "likes": 0
+   },
+   {
+    "title": "The email that could get you a $14k raise #Shorts",
+    "url": "https://www.youtube.com/shorts/o-Cm_xmLloU",
+    "published": "2026-11-08T03:37:08+00:00",
+    "views": 1,
+    "likes": 0
+   },
+   {
+    "title": "The intern got promoted. He's 22. #Shorts",
+    "url": "https://www.youtube.com/shorts/tCjX_vTzg9I",
+    "published": "2026-11-08T00:25:01+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
+    "title": "Insurance letter in plain English with AI #Shorts",
+    "url": "https://www.youtube.com/shorts/aHFCFhbCeZk",
+    "published": "2026-11-07T23:59:23+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
+    "title": "Plan a whole trip with AI in a minute #Shorts",
+    "url": "https://www.youtube.com/shorts/O0DxIt_fQjA",
+    "published": "2026-11-07T23:55:33+00:00",
+    "views": 1,
+    "likes": 0
+   },
+   {
+    "title": "Scam or safe? Can you spot it? #Shorts",
+    "url": "https://www.youtube.com/shorts/wr1wnbtk9EM",
+    "published": "2026-11-07T23:36:24+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
+    "title": "Decode any confusing letter with AI in 3 steps #Shorts",
+    "url": "https://www.youtube.com/shorts/O0v42Pppyxo",
+    "published": "2026-11-07T19:11:32+00:00",
+    "views": 1,
+    "likes": 0
+   },
+   {
+    "title": "4 slang words your grandkids say, translated #Shorts",
+    "url": "https://www.youtube.com/shorts/lRXGM46vjpk",
+    "published": "2026-11-07T12:35:38+00:00",
+    "views": 935,
+    "likes": 15
+   },
+   {
+    "title": "Nana took an L? Grandma learns slang #Shorts",
+    "url": "https://www.youtube.com/shorts/B0h7mqzcssY",
+    "published": "2026-11-06T21:28:35+00:00",
+    "views": 479,
+    "likes": 7
+   },
+   {
+    "title": "Grandpa said it slaps?! Slang translated #Shorts",
+    "url": "https://www.youtube.com/shorts/QtHsxWyALPQ",
+    "published": "2026-11-06T05:12:00+00:00",
+    "views": 71,
+    "likes": 4
+   },
+   {
+    "title": "Stop typing on your phone. Just talk. #Shorts",
+    "url": "https://www.youtube.com/shorts/Khk-oMwNaQQ",
+    "published": "2026-11-06T00:03:41+00:00",
+    "views": 337,
+    "likes": 5
+   }
+  ],
   "catalog": true,
-  "exact_videos": 27,
+  "exact_videos": 29,
   "list": [
+   {
+    "id": "yf6HJrYj3ww",
+    "title": "Scam or safe? Can you tell?",
+    "url": "https://youtube.com/shorts/yf6HJrYj3ww",
+    "views": 0,
+    "published": "2026-11-10",
+    "exact": true
+   },
+   {
+    "id": "BMZBrj5YJGs",
+    "title": "What to say when a scam caller pressures you",
+    "url": "https://youtube.com/shorts/BMZBrj5YJGs",
+    "views": 0,
+    "published": "2026-11-10",
+    "exact": true
+   },
    {
     "id": "1L9U100WIN0",
     "title": "One phone setting that stops scam calls #Shorts",
@@ -571,13 +729,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-10T02:35:45.853891Z"
+  "checked_at": "2026-11-10T03:06:25.039489Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "29 videos on the channel, 27 with exact counts (rest from the channel page, rounded) = 8498 views"
+   "detail": "31 videos on the channel, 29 with exact counts (rest from the channel page, rounded) = 8498 views"
   },
   {
    "name": "Website visitors",
@@ -597,17 +755,17 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
@@ -617,7 +775,7 @@
  ],
  "posting": {
   "date": "2026-11-09",
-  "now_et": "9:36 PM",
+  "now_et": "10:06 PM",
   "today": {
    "pinterest": {
     "planned": 1,
@@ -1347,7 +1505,13 @@
     ]
    }
   ],
-  "yt_by_day": {},
+  "yt_by_day": {
+   "2026-11-10": 2,
+   "2026-11-09": 2,
+   "2026-11-08": 3,
+   "2026-11-07": 5,
+   "2026-11-06": 3
+  },
   "comments_by_day": {}
  },
  "social": {
@@ -1357,5 +1521,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-10T02:35:45.853891Z"
+ "checked_at": "2026-11-10T03:06:25.039489Z"
 }
