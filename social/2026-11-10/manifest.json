@@ -1,0 +1,58 @@
+{
+ "videos": [
+  {
+   "id": "wbhangup",
+   "file": "wbhangup.mp4",
+   "format": "whiteboard how-to",
+   "look": "whiteboard",
+   "slot": "am",
+   "platforms": [
+    "yt"
+   ],
+   "link": "https://riside.com/?src=yt_wbhangup",
+   "board": "Riside",
+   "yt_title": "What to say when a scam caller pressures you",
+   "caption_yt": "The 8 second rule for scam calls: say one sentence, then hang up. Free live AI classes at riside.com #Shorts #scams #seniorsafety"
+  },
+  {
+   "id": "ba4",
+   "file": "ba4.mp4",
+   "format": "before/after plain English",
+   "look": "before-after",
+   "slot": "am",
+   "platforms": [
+    "meta"
+   ],
+   "link": "https://riside.com/?src=meta_ba4",
+   "board": "Riside",
+   "caption_meta": "Which version would you rather get in the mail? Tell us in the comments. Free live AI classes in small groups at riside.com"
+  },
+  {
+   "id": "quiz4",
+   "file": "quiz4.mp4",
+   "format": "scam or safe quiz",
+   "look": "quiz",
+   "slot": "pm",
+   "platforms": [
+    "yt"
+   ],
+   "link": "https://riside.com/?src=yt_quiz4",
+   "board": "Riside",
+   "yt_title": "Scam or safe? Can you tell?",
+   "caption_yt": "Scam or safe quiz. Comment your score! Free live AI classes at riside.com #Shorts #scams #quiz"
+  },
+  {
+   "id": "wbpharm",
+   "file": "wbpharm.mp4",
+   "format": "whiteboard how-to",
+   "look": "whiteboard",
+   "slot": "pm",
+   "platforms": [
+    "meta"
+   ],
+   "link": "https://riside.com/?src=meta_wbpharm",
+   "board": "Riside",
+   "caption_meta": "A simple trick for understanding your pharmacy paperwork. Free live AI classes in small groups at riside.com"
+  }
+ ]
+}
