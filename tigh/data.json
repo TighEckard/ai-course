@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T16:28:06.538633Z",
+ "generated_at": "2026-11-10T17:27:37.061194Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -77,14 +77,14 @@
    "2026-11-08": 4,
    "2026-11-09": 2
   },
-  "all_views_7d": 2175,
-  "bot_views_7d": 2160,
+  "all_views_7d": 2176,
+  "bot_views_7d": 2161,
   "browsers_30d": {
    "?": 1,
    "Chrome": 15,
    "Safari": 5
   },
-  "generated_at": "2026-11-10T16:28:06.863695+00:00",
+  "generated_at": "2026-11-10T17:27:37.440738+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -304,7 +304,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8512,
+  "total_views": 8516,
   "videos": 32,
   "likes": 27,
   "top": [
@@ -516,7 +516,7 @@
     "id": "1Z8d6CqPQHU",
     "title": "POV: everyone in the meeting is using AI #Shorts",
     "url": "https://youtube.com/shorts/1Z8d6CqPQHU",
-    "views": 5,
+    "views": 8,
     "published": "2026-11-09",
     "exact": true
    },
@@ -548,7 +548,7 @@
     "id": "aHFCFhbCeZk",
     "title": "Insurance letter in plain English with AI #Shorts",
     "url": "https://youtube.com/shorts/aHFCFhbCeZk",
-    "views": 0,
+    "views": 1,
     "published": "2026-11-08",
     "exact": true
    },
@@ -737,18 +737,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-10T16:28:06.538633Z"
+  "checked_at": "2026-11-10T17:27:37.061194Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "32 videos on the channel, 30 with exact counts (rest from the channel page, rounded) = 8512 views"
+   "detail": "32 videos on the channel, 30 with exact counts (rest from the channel page, rounded) = 8516 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "15 real people this week; 2160 of 2175 page views were bots, crawlers or testing and are excluded"
+   "detail": "15 real people this week; 2161 of 2176 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -763,12 +763,12 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Roofing",
@@ -778,12 +778,12 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 18h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 19h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-10",
-  "now_et": "11:28 AM",
+  "now_et": "12:28 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -971,7 +971,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/1Z8d6CqPQHU",
-      "views": 5
+      "views": 8
      }
     ]
    },
@@ -1080,7 +1080,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/aHFCFhbCeZk",
-      "views": 0
+      "views": 1
      }
     ]
    },
@@ -1503,5 +1503,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-10T16:28:06.538633Z"
+ "checked_at": "2026-11-10T17:27:37.061194Z"
 }
