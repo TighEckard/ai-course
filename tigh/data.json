@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T10:20:08.776197Z",
+ "generated_at": "2026-11-10T10:27:50.266146Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -84,7 +84,7 @@
    "Chrome": 15,
    "Safari": 5
   },
-  "generated_at": "2026-11-10T10:20:09.026041+00:00",
+  "generated_at": "2026-11-10T10:27:50.660688+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -304,7 +304,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8512,
+  "total_views": 8508,
   "videos": 31,
   "likes": 32,
   "top": [
@@ -328,7 +328,7 @@
     "id": "hjJIzapOj24",
     "title": "Grandkid said it's bussin? Translated #Shorts",
     "url": "https://youtube.com/shorts/hjJIzapOj24",
-    "views": 963,
+    "views": 962,
     "published": "2026-11-01",
     "exact": true
    }
@@ -431,7 +431,7 @@
     "title": "Plan a whole trip with AI in a minute #Shorts",
     "url": "https://www.youtube.com/shorts/O0DxIt_fQjA",
     "published": "2026-11-07T23:55:33+00:00",
-    "views": 1,
+    "views": 2,
     "likes": 0
    },
    {
@@ -445,7 +445,7 @@
     "title": "Decode any confusing letter with AI in 3 steps #Shorts",
     "url": "https://www.youtube.com/shorts/O0v42Pppyxo",
     "published": "2026-11-07T19:11:32+00:00",
-    "views": 1,
+    "views": 4,
     "likes": 0
    },
    {
@@ -596,7 +596,7 @@
     "id": "DuTUAAUjx7Q",
     "title": "Grandma asks AI what to cook (pirate chef) #Shorts",
     "url": "https://youtube.com/shorts/DuTUAAUjx7Q",
-    "views": 78,
+    "views": 77,
     "published": "2026-11-04",
     "exact": true
    },
@@ -636,7 +636,7 @@
     "id": "BUodsaR44Gw",
     "title": "Grandkid called you bestie? Translated #Shorts",
     "url": "https://youtube.com/shorts/BUodsaR44Gw",
-    "views": 461,
+    "views": 460,
     "published": "2026-11-01",
     "exact": true
    },
@@ -652,7 +652,7 @@
     "id": "hjJIzapOj24",
     "title": "Grandkid said it's bussin? Translated #Shorts",
     "url": "https://youtube.com/shorts/hjJIzapOj24",
-    "views": 963,
+    "views": 962,
     "published": "2026-11-01",
     "exact": true
    },
@@ -724,18 +724,18 @@
     "id": "f8rEnPDi6cs",
     "title": "Now you speak fluent grandkid #shorts",
     "url": "https://youtube.com/shorts/f8rEnPDi6cs",
-    "views": 15,
+    "views": 14,
     "published": null,
     "exact": true
    }
   ],
-  "checked_at": "2026-11-10T10:20:08.776197Z"
+  "checked_at": "2026-11-10T10:27:50.266146Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "31 videos on the channel, 29 with exact counts (rest from the channel page, rounded) = 8512 views"
+   "detail": "31 videos on the channel, 29 with exact counts (rest from the channel page, rounded) = 8508 views"
   },
   {
    "name": "Website visitors",
@@ -765,7 +765,7 @@
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Study creators",
@@ -775,7 +775,7 @@
  ],
  "posting": {
   "date": "2026-11-10",
-  "now_et": "5:20 AM",
+  "now_et": "5:28 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1380,7 +1380,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/DuTUAAUjx7Q",
-      "views": 78
+      "views": 77
      }
     ]
    },
@@ -1495,5 +1495,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-10T10:20:08.776197Z"
+ "checked_at": "2026-11-10T10:27:50.266146Z"
 }
