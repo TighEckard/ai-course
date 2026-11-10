@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T12:32:35.613044Z",
+ "generated_at": "2026-11-10T12:43:59.144904Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -77,14 +77,14 @@
    "2026-11-08": 4,
    "2026-11-09": 2
   },
-  "all_views_7d": 2191,
-  "bot_views_7d": 2176,
+  "all_views_7d": 2190,
+  "bot_views_7d": 2175,
   "browsers_30d": {
    "?": 1,
    "Chrome": 15,
    "Safari": 5
   },
-  "generated_at": "2026-11-10T12:32:35.770688+00:00",
+  "generated_at": "2026-11-10T12:43:59.429043+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -304,9 +304,9 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8512,
-  "videos": 31,
-  "likes": 32,
+  "total_views": 8514,
+  "videos": 32,
+  "likes": 27,
   "top": [
    {
     "id": "9mRzsVeSNn4",
@@ -335,6 +335,13 @@
   ],
   "recent": [
    {
+    "title": "What to say when a scam caller pressures you",
+    "url": "https://www.youtube.com/shorts/3Z-cVhpVI3c",
+    "published": "2026-11-10T12:37:54+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
     "title": "Scam or safe? Can you tell?",
     "url": "https://www.youtube.com/shorts/yf6HJrYj3ww",
     "published": "2026-11-10T02:40:17+00:00",
@@ -361,16 +368,16 @@
     "published": "2026-11-09T20:56:29+00:00",
     "views": 7,
     "likes": 0
-   },
-   {
-    "title": "The email that could get you a $14k raise #Shorts",
-    "url": "https://www.youtube.com/shorts/-4fKye0-VjE",
-    "published": "2026-11-08T04:28:34+00:00",
-    "views": 1,
-    "likes": 0
    }
   ],
   "all": [
+   {
+    "title": "What to say when a scam caller pressures you",
+    "url": "https://www.youtube.com/shorts/3Z-cVhpVI3c",
+    "published": "2026-11-10T12:37:54+00:00",
+    "views": 0,
+    "likes": 0
+   },
    {
     "title": "Scam or safe? Can you tell?",
     "url": "https://www.youtube.com/shorts/yf6HJrYj3ww",
@@ -468,18 +475,19 @@
     "published": "2026-11-06T05:12:00+00:00",
     "views": 71,
     "likes": 4
-   },
-   {
-    "title": "Stop typing on your phone. Just talk. #Shorts",
-    "url": "https://www.youtube.com/shorts/Khk-oMwNaQQ",
-    "published": "2026-11-06T00:03:41+00:00",
-    "views": 337,
-    "likes": 5
    }
   ],
   "catalog": true,
-  "exact_videos": 29,
+  "exact_videos": 30,
   "list": [
+   {
+    "id": "3Z-cVhpVI3c",
+    "title": "What to say when a scam caller pressures you",
+    "url": "https://youtube.com/shorts/3Z-cVhpVI3c",
+    "views": 0,
+    "published": "2026-11-10",
+    "exact": true
+   },
    {
     "id": "yf6HJrYj3ww",
     "title": "Scam or safe? Can you tell?",
@@ -508,7 +516,7 @@
     "id": "1Z8d6CqPQHU",
     "title": "POV: everyone in the meeting is using AI #Shorts",
     "url": "https://youtube.com/shorts/1Z8d6CqPQHU",
-    "views": 5,
+    "views": 7,
     "published": "2026-11-09",
     "exact": true
    },
@@ -729,18 +737,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-10T12:32:35.613044Z"
+  "checked_at": "2026-11-10T12:43:59.144904Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "31 videos on the channel, 29 with exact counts (rest from the channel page, rounded) = 8512 views"
+   "detail": "32 videos on the channel, 30 with exact counts (rest from the channel page, rounded) = 8514 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "15 real people this week; 2176 of 2191 page views were bots, crawlers or testing and are excluded"
+   "detail": "15 real people this week; 2175 of 2190 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -755,12 +763,12 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Roofing",
@@ -775,7 +783,7 @@
  ],
  "posting": {
   "date": "2026-11-10",
-  "now_et": "7:32 AM",
+  "now_et": "7:44 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -885,8 +893,8 @@
      {
       "p": "youtube",
       "status": "live",
-      "url": "https://youtube.com/shorts/BMZBrj5YJGs",
-      "views": 2
+      "url": "https://youtube.com/shorts/3Z-cVhpVI3c",
+      "views": 0
      }
     ]
    },
@@ -963,7 +971,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/1Z8d6CqPQHU",
-      "views": 5
+      "views": 7
      }
     ]
    },
@@ -1480,11 +1488,11 @@
    }
   ],
   "yt_by_day": {
-   "2026-11-10": 2,
+   "2026-11-10": 3,
    "2026-11-09": 2,
    "2026-11-08": 3,
    "2026-11-07": 5,
-   "2026-11-06": 3
+   "2026-11-06": 2
   },
   "comments_by_day": {}
  },
@@ -1495,5 +1503,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-10T12:32:35.613044Z"
+ "checked_at": "2026-11-10T12:43:59.144904Z"
 }
