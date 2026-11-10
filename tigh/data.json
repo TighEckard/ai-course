@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T22:28:10.269322Z",
+ "generated_at": "2026-11-10T23:27:33.830543Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -84,7 +84,7 @@
    "Chrome": 15,
    "Safari": 5
   },
-  "generated_at": "2026-11-10T22:28:10.610883+00:00",
+  "generated_at": "2026-11-10T23:27:34.085914+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -304,7 +304,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8519,
+  "total_views": 8515,
   "videos": 32,
   "likes": 27,
   "top": [
@@ -572,7 +572,7 @@
     "id": "O0v42Pppyxo",
     "title": "Decode any confusing letter with AI in 3 steps #Shorts",
     "url": "https://youtube.com/shorts/O0v42Pppyxo",
-    "views": 4,
+    "views": 1,
     "published": "2026-11-07",
     "exact": true
    },
@@ -596,7 +596,7 @@
     "id": "EqSk3xo9tTg",
     "title": "Grandma, he ghosted me? Gen Z slang translated #Shorts",
     "url": "https://youtube.com/shorts/EqSk3xo9tTg",
-    "views": 4,
+    "views": 3,
     "published": "2026-11-04",
     "exact": true
    },
@@ -621,7 +621,7 @@
     "title": "Grandma almost forwarded a $500 gift card scam #Shorts",
     "url": "https://youtube.com/shorts/TGZoeTOM7mc",
     "views": 123,
-    "published": "2026-11-03",
+    "published": "2026-11-03T14:13:28-08:00",
     "exact": true
    },
    {
@@ -737,13 +737,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-10T22:28:10.269322Z"
+  "checked_at": "2026-11-10T23:27:33.830543Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "32 videos on the channel, 30 with exact counts (rest from the channel page, rounded) = 8519 views"
+   "detail": "32 videos on the channel, 30 with exact counts (rest from the channel page, rounded) = 8515 views"
   },
   {
    "name": "Website visitors",
@@ -763,12 +763,12 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Roofing",
@@ -778,12 +778,12 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 24h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 25h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-10",
-  "now_et": "5:28 PM",
+  "now_et": "6:27 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1189,7 +1189,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/O0v42Pppyxo",
-      "views": 4
+      "views": 1
      }
     ]
    },
@@ -1343,7 +1343,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/EqSk3xo9tTg",
-      "views": 4
+      "views": 3
      }
     ]
    },
@@ -1503,5 +1503,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-10T22:28:10.269322Z"
+ "checked_at": "2026-11-10T23:27:33.830543Z"
 }
