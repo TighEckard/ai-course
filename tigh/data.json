@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T14:27:43.386309Z",
+ "generated_at": "2026-11-10T15:06:22.388919Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -77,14 +77,14 @@
    "2026-11-08": 4,
    "2026-11-09": 2
   },
-  "all_views_7d": 2178,
-  "bot_views_7d": 2163,
+  "all_views_7d": 2174,
+  "bot_views_7d": 2159,
   "browsers_30d": {
    "?": 1,
    "Chrome": 15,
    "Safari": 5
   },
-  "generated_at": "2026-11-10T14:27:43.748869+00:00",
+  "generated_at": "2026-11-10T15:06:22.544785+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -304,7 +304,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8514,
+  "total_views": 8515,
   "videos": 32,
   "likes": 27,
   "top": [
@@ -516,7 +516,7 @@
     "id": "1Z8d6CqPQHU",
     "title": "POV: everyone in the meeting is using AI #Shorts",
     "url": "https://youtube.com/shorts/1Z8d6CqPQHU",
-    "views": 7,
+    "views": 8,
     "published": "2026-11-09",
     "exact": true
    },
@@ -737,18 +737,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-10T14:27:43.386309Z"
+  "checked_at": "2026-11-10T15:06:22.388919Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "32 videos on the channel, 30 with exact counts (rest from the channel page, rounded) = 8514 views"
+   "detail": "32 videos on the channel, 30 with exact counts (rest from the channel page, rounded) = 8515 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "15 real people this week; 2163 of 2178 page views were bots, crawlers or testing and are excluded"
+   "detail": "15 real people this week; 2159 of 2174 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -768,12 +768,12 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
@@ -783,7 +783,7 @@
  ],
  "posting": {
   "date": "2026-11-10",
-  "now_et": "9:28 AM",
+  "now_et": "10:06 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -971,7 +971,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/1Z8d6CqPQHU",
-      "views": 7
+      "views": 8
      }
     ]
    },
@@ -1503,5 +1503,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-10T14:27:43.386309Z"
+ "checked_at": "2026-11-10T15:06:22.388919Z"
 }
