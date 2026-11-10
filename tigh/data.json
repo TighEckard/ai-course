@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T00:41:49.335957Z",
+ "generated_at": "2026-11-10T00:44:39.331198Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -84,7 +84,7 @@
    "Chrome": 15,
    "Safari": 5
   },
-  "generated_at": "2026-11-10T00:41:49.733086+00:00",
+  "generated_at": "2026-11-10T00:44:39.762875+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -329,14 +329,14 @@
     "title": "Grandkid said it's bussin? Translated #Shorts",
     "url": "https://youtube.com/shorts/hjJIzapOj24",
     "views": 962,
-    "exact": false,
-    "published": "2026-11-01"
+    "published": "2026-11-01",
+    "exact": true
    }
   ],
   "recent": [],
   "all": [],
   "catalog": true,
-  "exact_videos": 18,
+  "exact_videos": 22,
   "list": [
    {
     "id": "1L9U100WIN0",
@@ -359,24 +359,24 @@
     "title": "The email that could get you a $14k raise #Shorts",
     "url": "https://youtube.com/shorts/-4fKye0-VjE",
     "views": 1,
-    "published": "2026-11-08",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-08"
    },
    {
     "id": "o-Cm_xmLloU",
     "title": "The email that could get you a $14k raise #Shorts",
     "url": "https://youtube.com/shorts/o-Cm_xmLloU",
     "views": 1,
-    "published": "2026-11-08",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-08"
    },
    {
     "id": "tCjX_vTzg9I",
     "title": "The intern got promoted. He's 22. #Shorts",
     "url": "https://youtube.com/shorts/tCjX_vTzg9I",
     "views": 0,
-    "exact": false,
-    "published": "2026-11-08"
+    "published": "2026-11-08",
+    "exact": true
    },
    {
     "id": "aHFCFhbCeZk",
@@ -415,40 +415,40 @@
     "title": "Stop typing on your phone. Just talk. #Shorts",
     "url": "https://youtube.com/shorts/Khk-oMwNaQQ",
     "views": 337,
-    "exact": false,
-    "published": "2026-11-05"
+    "published": "2026-11-05",
+    "exact": true
    },
    {
     "id": "sF0OHgEgq9E",
     "title": "Grandma, it's a vibe? Gen Z slang translated #Shorts",
     "url": "https://youtube.com/shorts/sF0OHgEgq9E",
     "views": 310,
-    "exact": false,
-    "published": "2026-11-05"
+    "published": "2026-11-05",
+    "exact": true
    },
    {
     "id": "EqSk3xo9tTg",
     "title": "Grandma, he ghosted me? Gen Z slang translated #Shorts",
     "url": "https://youtube.com/shorts/EqSk3xo9tTg",
     "views": 2,
-    "exact": false,
-    "published": "2026-11-04"
+    "published": "2026-11-04",
+    "exact": true
    },
    {
     "id": "DuTUAAUjx7Q",
     "title": "Grandma asks AI what to cook (pirate chef) #Shorts",
     "url": "https://youtube.com/shorts/DuTUAAUjx7Q",
     "views": 77,
-    "exact": false,
-    "published": "2026-11-04"
+    "published": "2026-11-04",
+    "exact": true
    },
    {
     "id": "vsjOK3cLpwo",
     "title": "Grandma, he ghosted me? Gen Z slang translated #Shorts",
     "url": "https://youtube.com/shorts/vsjOK3cLpwo",
     "views": 602,
-    "published": "2026-11-04",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-04"
    },
    {
     "id": "TGZoeTOM7mc",
@@ -479,8 +479,8 @@
     "title": "Grandkid called you bestie? Translated #Shorts",
     "url": "https://youtube.com/shorts/BUodsaR44Gw",
     "views": 460,
-    "exact": false,
-    "published": "2026-11-01"
+    "published": "2026-11-01",
+    "exact": true
    },
    {
     "id": "ku-cxkxCR98",
@@ -495,8 +495,8 @@
     "title": "Grandkid said it's bussin? Translated #Shorts",
     "url": "https://youtube.com/shorts/hjJIzapOj24",
     "views": 962,
-    "exact": false,
-    "published": "2026-11-01"
+    "published": "2026-11-01",
+    "exact": true
    },
    {
     "id": "FtxyGZ_771Q",
@@ -519,8 +519,8 @@
     "title": "Grandkid said touch grass? Translated #Shorts",
     "url": "https://youtube.com/shorts/eDt9NFCB3Gg",
     "views": 135,
-    "published": "2026-10-31",
-    "exact": true
+    "exact": false,
+    "published": "2026-10-31"
    },
    {
     "id": "LG6Nfc2Bl5M",
@@ -535,8 +535,8 @@
     "title": "Grandma, you're such a vibe? Translated #Shorts",
     "url": "https://youtube.com/shorts/T80t5oERuVU",
     "views": 64,
-    "exact": false,
-    "published": "2026-10-31"
+    "published": "2026-10-31",
+    "exact": true
    },
    {
     "id": "lRXGM46vjpk",
@@ -571,13 +571,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-10T00:41:49.335957Z"
+  "checked_at": "2026-11-10T00:44:39.331198Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "29 videos on the channel, 18 with exact counts (rest from the channel page, rounded) = 8494 views"
+   "detail": "29 videos on the channel, 22 with exact counts (rest from the channel page, rounded) = 8494 views"
   },
   {
    "name": "Website visitors",
@@ -617,7 +617,7 @@
  ],
  "posting": {
   "date": "2026-11-09",
-  "now_et": "7:42 PM",
+  "now_et": "7:45 PM",
   "today": {
    "pinterest": {
     "planned": 1,
@@ -1357,5 +1357,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-10T00:41:49.335957Z"
+ "checked_at": "2026-11-10T00:44:39.331198Z"
 }
