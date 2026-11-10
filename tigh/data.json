@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T06:28:04.419514Z",
+ "generated_at": "2026-11-10T06:43:48.455571Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -84,7 +84,7 @@
    "Chrome": 15,
    "Safari": 5
   },
-  "generated_at": "2026-11-10T06:28:04.643463+00:00",
+  "generated_at": "2026-11-10T06:43:48.725364+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -304,7 +304,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8501,
+  "total_views": 8502,
   "videos": 31,
   "likes": 0,
   "top": [
@@ -366,7 +366,7 @@
     "id": "1Z8d6CqPQHU",
     "title": "POV: everyone in the meeting is using AI #Shorts",
     "url": "https://youtube.com/shorts/1Z8d6CqPQHU",
-    "views": 4,
+    "views": 5,
     "published": "2026-11-09",
     "exact": true
    },
@@ -587,13 +587,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-10T06:28:04.419514Z"
+  "checked_at": "2026-11-10T06:43:48.455571Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "31 videos on the channel, 29 with exact counts (rest from the channel page, rounded) = 8501 views"
+   "detail": "31 videos on the channel, 29 with exact counts (rest from the channel page, rounded) = 8502 views"
   },
   {
    "name": "Website visitors",
@@ -613,12 +613,12 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Roofing",
@@ -633,7 +633,7 @@
  ],
  "posting": {
   "date": "2026-11-10",
-  "now_et": "1:28 AM",
+  "now_et": "1:44 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -821,7 +821,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/1Z8d6CqPQHU",
-      "views": 4
+      "views": 5
      }
     ]
    },
@@ -1347,5 +1347,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-10T06:28:04.419514Z"
+ "checked_at": "2026-11-10T06:43:48.455571Z"
 }
