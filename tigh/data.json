@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T13:27:55.748252Z",
+ "generated_at": "2026-11-10T14:27:43.386309Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -77,14 +77,14 @@
    "2026-11-08": 4,
    "2026-11-09": 2
   },
-  "all_views_7d": 2184,
-  "bot_views_7d": 2169,
+  "all_views_7d": 2178,
+  "bot_views_7d": 2163,
   "browsers_30d": {
    "?": 1,
    "Chrome": 15,
    "Safari": 5
   },
-  "generated_at": "2026-11-10T13:27:56.167171+00:00",
+  "generated_at": "2026-11-10T14:27:43.748869+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -285,7 +285,7 @@
    "facebook": 3,
    "pinterest": 1
   },
-  "real_visitors_1d": 2,
+  "real_visitors_1d": 1,
   "real_visitors_7d": 15,
   "landing_pages_30d": {
    "/": 17,
@@ -304,7 +304,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8510,
+  "total_views": 8514,
   "videos": 32,
   "likes": 27,
   "top": [
@@ -328,7 +328,7 @@
     "id": "hjJIzapOj24",
     "title": "Grandkid said it's bussin? Translated #Shorts",
     "url": "https://youtube.com/shorts/hjJIzapOj24",
-    "views": 962,
+    "views": 963,
     "published": "2026-11-01",
     "exact": true
    }
@@ -604,7 +604,7 @@
     "id": "DuTUAAUjx7Q",
     "title": "Grandma asks AI what to cook (pirate chef) #Shorts",
     "url": "https://youtube.com/shorts/DuTUAAUjx7Q",
-    "views": 77,
+    "views": 78,
     "published": "2026-11-04",
     "exact": true
    },
@@ -644,7 +644,7 @@
     "id": "BUodsaR44Gw",
     "title": "Grandkid called you bestie? Translated #Shorts",
     "url": "https://youtube.com/shorts/BUodsaR44Gw",
-    "views": 460,
+    "views": 461,
     "published": "2026-11-01",
     "exact": true
    },
@@ -660,7 +660,7 @@
     "id": "hjJIzapOj24",
     "title": "Grandkid said it's bussin? Translated #Shorts",
     "url": "https://youtube.com/shorts/hjJIzapOj24",
-    "views": 962,
+    "views": 963,
     "published": "2026-11-01",
     "exact": true
    },
@@ -732,23 +732,23 @@
     "id": "f8rEnPDi6cs",
     "title": "Now you speak fluent grandkid #shorts",
     "url": "https://youtube.com/shorts/f8rEnPDi6cs",
-    "views": 14,
+    "views": 15,
     "published": null,
     "exact": true
    }
   ],
-  "checked_at": "2026-11-10T13:27:55.748252Z"
+  "checked_at": "2026-11-10T14:27:43.386309Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "32 videos on the channel, 30 with exact counts (rest from the channel page, rounded) = 8510 views"
+   "detail": "32 videos on the channel, 30 with exact counts (rest from the channel page, rounded) = 8514 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "15 real people this week; 2169 of 2184 page views were bots, crawlers or testing and are excluded"
+   "detail": "15 real people this week; 2163 of 2178 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -763,12 +763,12 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Roofing",
@@ -778,12 +778,12 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 15h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 16h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-10",
-  "now_et": "8:28 AM",
+  "now_et": "9:28 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1388,7 +1388,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/DuTUAAUjx7Q",
-      "views": 77
+      "views": 78
      }
     ]
    },
@@ -1503,5 +1503,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-10T13:27:55.748252Z"
+ "checked_at": "2026-11-10T14:27:43.386309Z"
 }
