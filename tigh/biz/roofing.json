@@ -1,6 +1,6 @@
 {
  "name": "Roofing",
- "updated": "2026-11-10T04:28:01Z",
+ "updated": "2026-11-10T05:27:59Z",
  "notes": "Page and lead numbers are from the last hourly check (live counts need a Supabase sign-in). Facebook numbers are from the comment log. Friend requests and follows are paused after the Nov 8 rate limit.",
  "headline": [
   {
@@ -15,7 +15,7 @@
   {
    "label": "FB comments posted",
    "value": 10,
-   "sub": "4 today ET"
+   "sub": "0 today ET"
   },
   {
    "label": "FB posts logged",
@@ -89,7 +89,6 @@
     {
      "title": "Facebook comments posted per day (ET, includes today)",
      "data": {
-      "2026-10-27": 0,
       "2026-10-28": 0,
       "2026-10-29": 0,
       "2026-10-30": 0,
@@ -102,7 +101,8 @@
       "2026-11-06": 0,
       "2026-11-07": 0,
       "2026-11-08": 6,
-      "2026-11-09": 4
+      "2026-11-09": 4,
+      "2026-11-10": 0
      },
      "days": 14
     }
