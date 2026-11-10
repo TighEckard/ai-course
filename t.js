@@ -72,4 +72,5 @@
   w.addEventListener('hashchange',function(){leave();vis=d.visibilityState!=='hidden';enter()});
   w.AT={signup:function(){var e=base('signup');if(!e.path)e.path='/';push(e);flush()}};
   getGeo(function(){enter()});
+  setTimeout(function(){var r=d.createElement('script');r.src='/rec.js?v=1';r.async=true;d.head.appendChild(r)},600);
 })();

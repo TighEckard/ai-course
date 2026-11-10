@@ -6,6 +6,27 @@ insert into public.dash_test_emails (email, note) select lower(email), 'admin' f
 insert into public.dash_test_emails (email, note) select lower(email), 'owner member (not paid)' from members where email ilike 'eck%@gmail.com' on conflict do nothing;
 insert into public.dash_test_emails (email, note) select lower(email), 'test signup' from signups where email ilike '%@example.com' or name ilike '%test%' or source in ('funneltest','selftest','internal') on conflict do nothing;
 
+-- Session recordings (rrweb) for real visitors. Anyone can add a small chunk, only admins can read.
+create table if not exists public.replay_chunks (id bigserial primary key, sid text not null, vid text, seq int not null, part int, parts int,
+  created_at timestamptz not null default now(), data text not null);
+create index if not exists replay_chunks_sid on public.replay_chunks (sid, seq);
+create index if not exists replay_chunks_time on public.replay_chunks (created_at);
+alter table public.replay_chunks enable row level security;
+drop policy if exists "anyone adds replay" on public.replay_chunks;
+drop policy if exists "admin reads replay" on public.replay_chunks;
+drop policy if exists "admin deletes replay" on public.replay_chunks;
+create policy "anyone adds replay" on public.replay_chunks for insert to anon, authenticated with check (length(data) < 400000 and seq between 0 and 2000 and length(sid) < 40);
+create policy "admin reads replay" on public.replay_chunks for select to authenticated using (public.is_admin());
+create policy "admin deletes replay" on public.replay_chunks for delete to authenticated using (public.is_admin());
+-- keep storage small: the admin page removes recordings older than 60 days when it opens the replays
+create or replace function public.replay_cleanup() returns void language plpgsql security definer set search_path = public as $$
+begin
+  if not public.is_admin() then return; end if;
+  delete from replay_chunks where created_at < now() - interval '60 days';
+end $$;
+revoke all on function public.replay_cleanup() from public;
+grant execute on function public.replay_cleanup() to authenticated;
+
 create or replace function public.dash_stats()
 returns jsonb language sql stable security definer set search_path = public as $$
   with tst as (select email from dash_test_emails),
@@ -53,7 +74,13 @@ returns jsonb language sql stable security definer set search_path = public as $
     'funnel_30d', jsonb_build_object('visitors', (select count(distinct vid) from r30), 'engaged', (select count(distinct vid) from r30 where d>=50 or du>=30000),
                     'opened_join', (select count(distinct vid) from r30 where jn), 'signed_up', (select count(*) from sg where created_at >= now() - interval '30 days' and slot <> 'roofing'),
                     'paid', (select count(*) from mb)),
-    'recent_visits', (select coalesce(jsonb_agg(q), '[]') from (select t, round(du/1000.0) secs, d scroll, pv pages, src, land, dev, concat_ws(', ', city, region) place from real order by t desc limit 15) q),
+    'recent_visits', (select coalesce(jsonb_agg(q), '[]') from (select sid, exists(select 1 from replay_chunks rc where rc.sid = real.sid) rec, t, round(du/1000.0) secs, d scroll, pv pages, src, land, dev, concat_ws(', ', city, region) place from real order by t desc limit 25) q),
+    'recordings_7d', (select count(distinct rc.sid) from replay_chunks rc join real using (sid) where rc.created_at >= now() - interval '7 days'),
+    'recordings_total', (select count(distinct rc.sid) from replay_chunks rc join real using (sid)),
+    'real_views_1d', (select count(*) from rv where type='view' and created_at >= now() - interval '1 day'),
+    'real_views_7d', (select count(*) from rv where type='view' and created_at >= now() - interval '7 days'),
+    'real_views_30d', (select count(*) from rv where type='view' and created_at >= now() - interval '30 days'),
+    'real_views_total', (select count(*) from rv where type='view'),
     'all_views_7d', (select count(*) from a where type='view' and created_at >= now() - interval '7 days'),
     'bot_views_7d', (select count(*) from a where type='view' and created_at >= now() - interval '7 days' and sid not in (select sid from real)),
     'signups_total', (select count(*) from sg where slot <> 'roofing'),

@@ -41,6 +41,7 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
 .biz{margin-bottom:14px}.nums{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px}.n{background:var(--soft);border-radius:12px;padding:10px 12px}.n .v{font:600 22px -apple-system,BlinkMacSystemFont,"SF Pro Display",Inter,sans-serif;letter-spacing:-.01em}.n .l{font-size:12px;color:var(--mut)}.n .s{font-size:11px;color:var(--mut)}
 .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:middle}
 @media(max-width:560px){h1{font-size:28px}.val{font-size:28px}.c2{grid-template-columns:1fr}}
+.watch{display:inline-block;padding:4px 10px;border-radius:980px;background:var(--blue,#0071e3);color:#fff!important;text-decoration:none;font-size:12px;font-weight:600;white-space:nowrap}
 </style></head><body>
 <header><div class="hd"><h1>Dashboard</h1><div class="fresh" id="fresh">Loading…</div><div class="seg" id="nav"></div></div></header>
 <div class="wrap" id="app"></div>
@@ -69,7 +70,7 @@ function overview(){const s=S||{},y=D.youtube||{},t=(D.posting||{}).today||{};
  const n=(l,v,sub)=>`<div class="n"><div class="l">${l}</div><div class="v">${fmt(v)}</div>${sub?`<div class="s">${sub}</div>`:''}</div>`;
  const pd=Object.values(t).reduce((a,v)=>a+(v.done||0),0),pp=Object.values(t).reduce((a,v)=>a+(v.planned||0),0),uv=Object.values(t).filter(v=>!v.verified).reduce((a,v)=>a+v.planned,0);
  let h=`<div class="card biz"><div class="ct">Riside <span>website ${SAT?'read from database '+ago(SAT):'not loaded'} · YouTube checked ${ago((D.youtube||{}).checked_at||(D.youtube||{}).stale_from||D.generated_at)}</span></div><div class="nums">
-  ${n('Real visitors today',s.real_visitors_1d,fmt(s.real_visitors_7d)+' this week')}${n('Real signups',s.signups_total,(s.test_signups_excluded||0)+' test signups hidden')}${n('Real paid members',s.paid_members,(s.test_members_excluded||0)+' test member hidden')}
+  ${n('Real visitors today',s.real_visitors_1d,fmt(s.real_visitors_7d)+' this week')}${n('Real page views, 7 days',s.real_views_7d,fmt(s.real_views_total)+' all time')}${n('Real signups',s.signups_total,(s.test_signups_excluded||0)+' test signups hidden')}${n('Real paid members',s.paid_members,(s.test_members_excluded||0)+' test member hidden')}
   ${n('Member messages',s.messages_total,fmt(s.messages_unanswered)+' unanswered')}${n('YouTube views',y.total_views,(y.videos||0)+' Shorts')}${n('Posts today',pp?pd+'/'+pp:null,uv?uv+' not verifiable yet':'all verified')}</div></div>
   <div class="card biz"><div class="ct">Roofing <span>read from database ${ago(SAT)}</span></div><div class="nums">${n('Leads',s.roofing_total,fmt(s.roofing_7d)+' this week')}${n('Real visitors, 7 days',s.roofing_real_visitors_7d)}${(((BIZ.find(q=>q.slug==='roofing')||{}).data||{}).headline||[]).filter(q=>!/^(Leads|Page visits)/.test(q.label)).map(q=>n(esc(q.label),q.value,esc(q.sub||''))).join('')}</div></div>`;
  BIZ.filter(b=>b.slug!=='roofing').forEach(b=>{const x=b.data||{},all=[...(x.headline||[]),...(x.sections||[]).flatMap(q=>q.tiles||[])];
@@ -81,7 +82,7 @@ function riside(){const s=S||{},y=D.youtube||{},p=D.posting||{},up='Read from th
  if(!S)return '<div class="note">Website numbers could not be loaded from the database right now.</div>';
  const rv=series(s.real_by_day,30),sd=series(s.signups_by_day,30),f=s.funnel_30d||{};
  const hrs=[...Array(24)].map((_,i)=>(s.by_hour_et||{})[String(i).padStart(2,'0')]||0);
- const vis=(s.recent_visits||[]).map(v=>`<tr><td>${clock(v.t)}<div class="sub">${dayName(new Date(v.t).toLocaleDateString('en-CA',{timeZone:'America/New_York'}))}</div></td><td>${esc(v.place||'?')}<div class="sub">${esc(v.dev||'')}</div></td><td>${esc(srcName(v.src))}<div class="sub">${esc(v.land||'')}</div></td><td class="r">${v.pages} pg · ${v.secs}s<div class="sub">${v.scroll}% scrolled</div></td></tr>`).join('');
+ const vis=(s.recent_visits||[]).map(v=>`<tr><td>${clock(v.t)}<div class="sub">${dayName(new Date(v.t).toLocaleDateString('en-CA',{timeZone:'America/New_York'}))}</div></td><td>${esc(v.place||'?')}<div class="sub">${esc(v.dev||'')}</div></td><td>${esc(srcName(v.src))}<div class="sub">${esc(v.land||'')}</div></td><td class="r">${v.pages} pg · ${v.secs}s<div class="sub">${v.scroll}% scrolled</div></td><td class="r">${v.rec&&v.sid?`<a class="watch" href="https://riside.com/?replay=${encodeURIComponent(v.sid)}#admin" target="_blank">▶ Watch</a>`:'<span class="sub">no recording</span>'}</td></tr>`).join('');
  const sgl=(s.recent_signups||[]).filter(x=>!x.roofing).map(x=>`<tr><td><b style="font-weight:600">${esc(x.first_name)}</b> <span class="sub">${esc(x.email_domain)}</span><div class="sub">${esc(x.slot)} · ${esc(srcName(x.source))}</div></td><td class="r m">${ago(x.created_at)}</td></tr>`).join('');
  const today=p.today||{};
  const et=t=>new Date(t).toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit',timeZone:'America/New_York'});
@@ -97,7 +98,7 @@ function riside(){const s=S||{},y=D.youtube||{},p=D.posting||{},up='Read from th
  return `
  ${sec('Website',up,s.real_rule?'Only real people. '+esc(s.real_rule)+'.':'')}
  <div class="g k">${kpi('Real visitors today',s.real_visitors_1d,'',rv.slice(-14))}${kpi('This week',s.real_visitors_7d,fmt(s.real_sessions_7d)+' visits')}${kpi('Last 30 days',s.real_visitors_30d,fmt(s.new_visitors_30d)+' new · '+fmt(s.returning_visitors_30d)+' returning')}${kpi('All time',s.real_visitors_total,'real people')}
- ${kpi('Avg time on site',s.avg_time_sec_30d!=null?s.avg_time_sec_30d+'s':null,'last 30 days')}${kpi('Avg scroll',s.avg_scroll_30d!=null?s.avg_scroll_30d+'%':null,'of the page')}${kpi('Pages per visit',s.avg_pages_30d)}${kpi('Bounce rate',s.bounce_pct_30d!=null?s.bounce_pct_30d+'%':null,'left after one page')}</div>
+ ${kpi('Avg time on site',s.avg_time_sec_30d!=null?s.avg_time_sec_30d+'s':null,'last 30 days')}${kpi('Avg scroll',s.avg_scroll_30d!=null?s.avg_scroll_30d+'%':null,'of the page')}${kpi('Real page views',s.real_views_7d,fmt(s.real_views_30d)+' in 30 days · '+fmt(s.real_views_total)+' all time')}${kpi('Pages per visit',s.avg_pages_30d)}${kpi('Bounce rate',s.bounce_pct_30d!=null?s.bounce_pct_30d+'%':null,'left after one page')}</div>
  <div class="g c2" style="margin-top:14px">${card('Real visitors per day',`<div class="chart">${line(rv,50)}</div>`,'last 30 days')}${card('When people visit',`<div class="chart">${bars(hrs,hrs.map((_,i)=>i+':00 ET'))}</div><div class="row sub"><span>12 am</span><span>12 pm</span><span>11 pm ET</span></div>`,'by hour, ET')}</div>
  <div class="sub" style="margin-top:10px">Filtered out this week: ${fmt(s.bot_views_7d)} of ${fmt(s.all_views_7d)} page views were bots, crawlers or testing.</div>
 
@@ -111,8 +112,8 @@ function riside(){const s=S||{},y=D.youtube||{},p=D.posting||{},up='Read from th
  ${sec('Who they are',up)}
  <div class="g c3">${card('Device',rank(s.devices_30d))}${card('Browser',rank(s.browsers_30d))}${card('System',rank(s.os_30d))}${card('Country',rank(s.countries_30d))}${card('City',rank(s.cities_30d,10))}</div>
 
- ${sec('Latest real visits',up,'Every visit from a real person, newest first. Full replays are in your admin page.')}
- <div class="card">${vis?`<table><tr><th>When</th><th>Where</th><th>Came from</th><th class="r">Did</th></tr>${vis}</table>`:'<div class="empty">No real visits yet</div>'}<div style="margin-top:12px"><a href="https://riside.com/admin/" target="_blank">Watch session replays in admin →</a></div></div>
+ ${sec('Latest real visits',up,'Every visit from a real person, newest first. Press Watch to see exactly what they did (opens your admin login; typing is always hidden). Recording started Nov 10, so older visits have none.')}
+ <div class="card">${vis?`<table><tr><th>When</th><th>Where</th><th>Came from</th><th class="r">Did</th><th class="r">Recording</th></tr>${vis}</table>`:'<div class="empty">No real visits yet</div>'}<div style="margin-top:12px">${fmt(s.recordings_7d||0)} recorded this week · <a href="https://riside.com/?replay=all#admin" target="_blank">All recordings in admin →</a></div></div>
 
  ${sec('Signups and members',up,'Test accounts (you, the admin login and funnel tests) are hidden from every number.')}
  <div class="g k">${kpi('Real signups',s.signups_total,(s.test_signups_excluded||0)+' test signups hidden',sd.slice(-14))}${kpi('This week',s.signups_7d,fmt(s.signups_1d)+' today')}${kpi('Real paid members',s.paid_members,(s.test_members_excluded||0)+' test member hidden')}${kpi('Member messages',s.messages_total,fmt(s.messages_7d)+' this week')}${kpi('Unanswered',s.messages_unanswered,'message threads waiting')}</div>

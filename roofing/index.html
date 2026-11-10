@@ -94,6 +94,7 @@ d.addEventListener('click',function(x){if(clicks>=60)return;clicks++;var el=x.ta
 d.addEventListener('visibilitychange',function(){if(d.visibilityState==='hidden'){if(vis){shown+=Date.now()-start;vis=false}leave();shown=0}else if(!vis){vis=true;start=Date.now()}});
 w.addEventListener('pagehide',flush);
 w.RT.ev=function(n){ev(n);flush()};
+setTimeout(function(){var r=d.createElement('script');r.src='/rec.js?v=1';r.async=true;d.head.appendChild(r)},600);
 function enter(g){measure();var e=base('view');e.src=src;e.ref_host=h.slice(0,100)||null;e.utm_medium=(q.get('utm_medium')||'').slice(0,100)||null;e.utm_campaign=(q.get('utm_campaign')||'').slice(0,100)||null;e.new_visitor=isNew;e.device=device;e.browser=browser;e.os=os;e.vw=w.innerWidth;e.vh=w.innerHeight;if(g){e.country=g.country;e.region=g.region;e.city=g.city}push(e)}
 var c=ss('s_geo');if(c){try{return enter(JSON.parse(c))}catch(e){}}
 var done=false,fin=function(g){if(!done){done=true;enter(g)}};setTimeout(function(){fin(null)},1500);

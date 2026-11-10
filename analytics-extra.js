@@ -183,9 +183,11 @@
     };
 
     // ================= REPLAYS =================
-    var R={filter:'all',open:null};
+    var R=window.__AAR||(window.__AAR={filter:'all',open:null});
     api.replays=function(ss,rerender){
       var out=[],list=ss.slice();
+      var RM=R.recs||{};if(!R.recs&&!R.loading){R.loading=1;recList().then(function(m){R.recs=m;R.loading=0;rerender()})}
+      if(R.filter==='rec')list=list.filter(function(s){return RM[s.sid]});
       if(R.filter==='signed')list=list.filter(function(s){return s.signed});
       else if(R.filter==='deep')list=list.filter(function(s){return s.pages>=3});
       else if(R.filter==='long')list=list.slice().sort(function(a,b){return b.dur-a.dur});
@@ -193,22 +195,62 @@
       else if(R.filter==='clicks')list=list.filter(function(s){return s.clicks>0});
       if(R.filter!=='long')list.sort(function(a,b){return b.t-a.t});
       var player=h('div',{class:'aa-player'});
-      var fl=[['all','All'],['clicks','With clicks'],['deep','3+ pages'],['signed','Signed up'],['long','Longest first'],['mobile','Phones']];
+      var fl=[['rec','Recorded'],['all','All'],['clicks','With clicks'],['deep','3+ pages'],['signed','Signed up'],['long','Longest first'],['mobile','Phones']];
       out.push(c.sec('Session replays',[
-        h('p',{class:'fine',text:'Watch what a visitor did: pages, scrolling and clicks, replayed on the real page. Built from the events already recorded, so nothing typed into a form is ever captured. Timing is approximate.'}),
+        h('p',{class:'fine',text:'Visits marked ● Recorded play back exactly as the person saw it (mouse, scrolling, taps). Typing is always hidden. Older visits without a recording show an approximate replay built from page views and clicks.'}),
         h('div',{class:'aa-ctl'},fl.map(function(f){return chip(f[1],R.filter===f[0],function(){R.filter=f[0];rerender()})})),
         player,
-        table(['When','Where','Device','Source','Pages','Clicks','Time','Result',''],list.slice(0,150).map(function(s){return [when(s.t),flag(s.country)+' '+loc(s),(s.device||'')+(s.browser?' · '+s.browser:''),s.src,String(s.pages),String(s.clicks),s.dur?fmtT(s.dur):'-',s.signed?'Reserved a class':s.joined?'Opened join':'',td('▶ Watch',function(){R.open=s.sid;openPlayer(s,player);player.scrollIntoView({behavior:'smooth',block:'start'})})]})),
+        table(['When','Rec','Where','Device','Source','Pages','Clicks','Time','Result',''],list.slice(0,150).map(function(s){return [when(s.t),RM[s.sid]?'●':'',flag(s.country)+' '+loc(s),(s.device||'')+(s.browser?' · '+s.browser:''),s.src,String(s.pages),String(s.clicks),s.dur?fmtT(s.dur):'-',s.signed?'Reserved a class':s.joined?'Opened join':'',td('▶ Watch',function(){R.open=s.sid;openPlayer(s,player);player.scrollIntoView({behavior:'smooth',block:'start'})})]})),
         h('p',{class:'fine',text:'Showing the latest '+Math.min(150,list.length)+' of '+list.length+' visits.'})
       ]));
-      if(R.open){var s0=ss.filter(function(s){return s.sid===R.open})[0];if(s0)openPlayer(s0,player)}
+      if(R.open){var s0=ss.filter(function(s){return s.sid===R.open})[0];openPlayer(s0||{sid:R.open},player);setTimeout(function(){player.scrollIntoView({block:'start'})},50)}
       return out;
     };
     api.openReplay=function(sid){R.open=sid};
 
     function route(path){return path.indexOf('/guides/')===0||path.indexOf('/ai-classes/')===0?path+'?notrack':'/?notrack#'+(path==='/'?'':path.slice(1))}
+    // Real recordings (rrweb). Falls back to the approximate replay when a visit has no recording.
+
+    function recList(){
+      if(window.__AARECS)return window.__AARECS;var RECS;
+      RECS=c.api('/rest/v1/replay_chunks?select=sid&order=id.desc&limit=5000',{token:c.tok}).then(function(r){return r.ok?r.json():[]}).then(function(rows){var m={};rows.forEach(function(x){m[x.sid]=1});return m}).catch(function(){return {}});
+      try{c.api('/rest/v1/rpc/replay_cleanup',{method:'POST',token:c.tok,body:{}}).catch(function(){})}catch(e){}
+      return (window.__AARECS=RECS);
+    }
+    api.recList=recList;
+    function loadFile(tag,src){return new Promise(function(ok,no){if(document.querySelector('[data-rr="'+src+'"]'))return ok();var e=document.createElement(tag);e.setAttribute('data-rr',src);if(tag==='link'){e.rel='stylesheet';e.href=src}else{e.src=src}e.onload=ok;e.onerror=no;document.head.appendChild(e)})}
+    function decode(rows){
+      // multi-part rows share a seq: join them in part order
+      var bySeq={};rows.forEach(function(r){if(r.parts>1){(bySeq[r.seq]=bySeq[r.seq]||[]).push(r)}});
+      var singles=rows.filter(function(r){return !(r.parts>1)}).map(function(r){return r.data});
+      Object.keys(bySeq).forEach(function(k){var a=bySeq[k].sort(function(x,y){return x.part-y.part});if(a.length===a[0].parts)singles.push(a.map(function(r){return r.data}).join(''))});
+      return Promise.all(singles.map(function(d){
+        if(d.slice(0,2)==='j:')return Promise.resolve(JSON.parse(d.slice(2)));
+        var bin=atob(d.slice(2)),u=new Uint8Array(bin.length);for(var i=0;i<bin.length;i++)u[i]=bin.charCodeAt(i);
+        return new Response(new Blob([u]).stream().pipeThrough(new DecompressionStream('gzip'))).text().then(JSON.parse);
+      })).then(function(parts){var ev=[].concat.apply([],parts);ev.sort(function(a,b){return a.timestamp-b.timestamp});return ev});
+    }
     function openPlayer(s,box){
       box.textContent='';
+      var wait=h('p',{class:'fine',text:'Loading recording.'});box.appendChild(wait);
+      c.api('/rest/v1/replay_chunks?select=id,seq,part,parts,data&sid=eq.'+encodeURIComponent(s.sid)+'&order=seq,part,id',{token:c.tok}).then(function(r){return r.ok?r.json():[]}).then(function(rows){
+        if(!rows.length){approxPlayer(s,box);return}
+        return Promise.all([loadFile('link','/vendor/rrweb/player.css'),loadFile('script','/vendor/rrweb/player.min.js')]).then(function(){return decode(rows)}).then(function(ev){
+          box.textContent='';
+          if(ev.length<2){approxPlayer(s,box);return}
+          var pw=Math.min(box.parentNode&&box.parentNode.clientWidth||900,900),ph=Math.round(pw*0.62);
+          var head=h('p',{class:'fine',text:'Real recording · '+(s.country?flag(s.country)+' '+loc(s)+' · ':'')+(s.device||'')+(s.browser?' · '+s.browser:'')+(s.t?' · '+when(s.t):'')+(s.src?' · came from '+s.src:'')+' · typing is hidden'});
+          var target=h('div');var close=h('button',{type:'button',class:'aa-b',text:'Close',onclick:function(){R.open=null;box.textContent=''}});
+          var approx=h('button',{type:'button',class:'aa-b',text:'Show step list instead',onclick:function(){approxPlayer(s,box)}});
+          box.appendChild(h('div',{style:'border:1px solid var(--line);border-radius:12px;padding:1rem;margin-bottom:1rem;background:var(--tint)'},[head,target,h('div',{class:'aa-ctl',style:'margin-top:.6rem'},[close].concat(s.ev?[approx]:[]))]));
+          var P=window.rrwebPlayer.Player||window.rrwebPlayer.default||window.rrwebPlayer;
+          new P({target:target,props:{events:ev,width:pw,height:ph,autoPlay:true,skipInactive:true,speedOption:[1,2,4,8],showController:true,mouseTail:{strokeStyle:'#E9A23B'}}});
+        });
+      }).catch(function(){approxPlayer(s,box)});
+    }
+    function approxPlayer(s,box){
+      box.textContent='';
+      if(!s.ev){box.appendChild(h('p',{class:'fine',text:'No recording for this visit.'}));return}
       // timeline: segments per view
       var ev=s.ev,t0=ev[0]?+new Date(ev[0].created_at):s.t,segs=[],cur=null;
       ev.forEach(function(e){
