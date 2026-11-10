@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T09:44:18.444105Z",
+ "generated_at": "2026-11-10T10:20:08.776197Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -77,14 +77,14 @@
    "2026-11-08": 4,
    "2026-11-09": 2
   },
-  "all_views_7d": 2205,
-  "bot_views_7d": 2190,
+  "all_views_7d": 2203,
+  "bot_views_7d": 2188,
   "browsers_30d": {
    "?": 1,
    "Chrome": 15,
    "Safari": 5
   },
-  "generated_at": "2026-11-10T09:44:18.673264+00:00",
+  "generated_at": "2026-11-10T10:20:09.026041+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -304,7 +304,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8505,
+  "total_views": 8512,
   "videos": 31,
   "likes": 32,
   "top": [
@@ -564,7 +564,7 @@
     "id": "O0v42Pppyxo",
     "title": "Decode any confusing letter with AI in 3 steps #Shorts",
     "url": "https://youtube.com/shorts/O0v42Pppyxo",
-    "views": 1,
+    "views": 4,
     "published": "2026-11-07",
     "exact": true
    },
@@ -588,7 +588,7 @@
     "id": "EqSk3xo9tTg",
     "title": "Grandma, he ghosted me? Gen Z slang translated #Shorts",
     "url": "https://youtube.com/shorts/EqSk3xo9tTg",
-    "views": 2,
+    "views": 4,
     "published": "2026-11-04",
     "exact": true
    },
@@ -636,7 +636,7 @@
     "id": "BUodsaR44Gw",
     "title": "Grandkid called you bestie? Translated #Shorts",
     "url": "https://youtube.com/shorts/BUodsaR44Gw",
-    "views": 460,
+    "views": 461,
     "published": "2026-11-01",
     "exact": true
    },
@@ -700,7 +700,7 @@
     "id": "lRXGM46vjpk",
     "title": "4 slang words your grandkids say, translated #Shorts",
     "url": "https://youtube.com/shorts/lRXGM46vjpk",
-    "views": 935,
+    "views": 936,
     "published": null,
     "exact": true
    },
@@ -729,18 +729,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-10T09:44:18.444105Z"
+  "checked_at": "2026-11-10T10:20:08.776197Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "31 videos on the channel, 29 with exact counts (rest from the channel page, rounded) = 8505 views"
+   "detail": "31 videos on the channel, 29 with exact counts (rest from the channel page, rounded) = 8512 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "15 real people this week; 2190 of 2205 page views were bots, crawlers or testing and are excluded"
+   "detail": "15 real people this week; 2188 of 2203 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -755,7 +755,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Ovoa",
@@ -765,17 +765,17 @@
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 11h ago"
+   "detail": "numbers last refreshed 12h ago"
   }
  ],
  "posting": {
   "date": "2026-11-10",
-  "now_et": "4:44 AM",
+  "now_et": "5:20 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1181,7 +1181,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/O0v42Pppyxo",
-      "views": 1
+      "views": 4
      }
     ]
    },
@@ -1335,7 +1335,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/EqSk3xo9tTg",
-      "views": 2
+      "views": 4
      }
     ]
    },
@@ -1495,5 +1495,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-10T09:44:18.444105Z"
+ "checked_at": "2026-11-10T10:20:08.776197Z"
 }
