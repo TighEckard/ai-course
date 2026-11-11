@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T03:27:30.484539Z",
+ "generated_at": "2026-11-11T03:44:10.548376Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -84,7 +84,7 @@
    "Chrome": 15,
    "Safari": 5
   },
-  "generated_at": "2026-11-11T03:27:30.614686+00:00",
+  "generated_at": "2026-11-11T03:44:10.970876+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -595,7 +595,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-11T03:27:30.484539Z"
+  "checked_at": "2026-11-11T03:44:10.548376Z"
  },
  "checks": [
   {
@@ -621,12 +621,12 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Roofing",
@@ -641,7 +641,7 @@
  ],
  "posting": {
   "date": "2026-11-10",
-  "now_et": "10:27 PM",
+  "now_et": "10:44 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -665,7 +665,7 @@
       "slot": "pm",
       "done": true,
       "verified": true,
-      "due": false
+      "due": true
      }
     ],
     "next": null
@@ -692,7 +692,7 @@
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": false
+      "due": true
      }
     ],
     "next": {
@@ -727,7 +727,7 @@
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": false
+      "due": true
      }
     ],
     "next": {
@@ -1355,5 +1355,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-11T03:27:30.484539Z"
+ "checked_at": "2026-11-11T03:44:10.548376Z"
 }
