@@ -1,11 +1,12 @@
 {
- "generated_at": "2026-11-11T14:28:06.883294Z",
+ "generated_at": "2026-11-11T15:06:36.255076Z",
  "errors": {},
  "site": {
   "os_30d": {
    "?": 1,
    "iOS": 7,
    "Linux": 1,
+   "macOS": 1,
    "Android": 3,
    "Windows": 10
   },
@@ -14,7 +15,7 @@
    "01": 2,
    "05": 1,
    "08": 1,
-   "09": 2,
+   "09": 4,
    "10": 2,
    "13": 2,
    "14": 1,
@@ -27,13 +28,13 @@
   "cities_30d": {
    "Miami, Florida": 2,
    "Portland, Maine": 1,
-   "Rockwall, Texas": 1,
    "Geneva, Illinois": 1,
    "Louisville, Kentucky": 1,
    "Milford, Connecticut": 1,
    "Nashville, Tennessee": 1,
    "New Castle, Delaware": 1,
    "Indianapolis, Indiana": 1,
+   "Jacksonville, Florida": 1,
    "New York City, New York": 1,
    "Burnaby, British Columbia": 1,
    "Washington, District of Columbia": 4
@@ -41,9 +42,9 @@
   "clicks_30d": {
    "a:stick": 1,
    "input:name": 1,
-   "a:Join the free class": 1,
-   "summary:What does it cost?": 3,
-   "summary:Do I need experience?": 3,
+   "a:Reserve a free seat": 1,
+   "summary:What does it cost?": 5,
+   "summary:Do I need experience?": 4,
    "summary:Are the classes in person in Utica?": 1,
    "summary:When are classes for people in Utica?": 1,
    "summary:Are the classes in person in Winchester?": 1,
@@ -52,8 +53,8 @@
   },
   "funnel_30d": {
    "paid": 0,
-   "engaged": 18,
-   "visitors": 22,
+   "engaged": 19,
+   "visitors": 23,
    "signed_up": 1,
    "opened_join": 0
   },
@@ -63,7 +64,7 @@
   "devices_30d": {
    "?": 1,
    "mobile": 10,
-   "desktop": 11
+   "desktop": 12
   },
   "messages_7d": 0,
   "real_by_day": {
@@ -76,25 +77,45 @@
    "2026-11-05": 3,
    "2026-11-08": 4,
    "2026-11-09": 2,
-   "2026-11-11": 1
+   "2026-11-11": 2
   },
-  "all_views_7d": 2175,
+  "all_views_7d": 2176,
   "bot_views_7d": 2161,
   "browsers_30d": {
    "?": 1,
    "Chrome": 16,
-   "Safari": 5
+   "Safari": 6
   },
-  "generated_at": "2026-11-11T14:28:07.675275+00:00",
+  "generated_at": "2026-11-11T15:06:36.661674+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
   "countries_30d": {
    "?": 1,
    "Canada": 1,
-   "United States": 20
+   "United States": 21
   },
   "recent_visits": [
+   {
+    "t": "2026-11-11T14:56:08.836176+00:00",
+    "dev": "desktop",
+    "src": "google",
+    "land": "/",
+    "secs": 56,
+    "pages": 1,
+    "place": "Jacksonville, Florida",
+    "scroll": 100
+   },
+   {
+    "t": "2026-11-11T14:52:12.311342+00:00",
+    "dev": "desktop",
+    "src": "google",
+    "land": "/",
+    "secs": 69,
+    "pages": 1,
+    "place": "Jacksonville, Florida",
+    "scroll": 96
+   },
    {
     "t": "2026-11-11T06:31:05.417936+00:00",
     "dev": "desktop",
@@ -224,41 +245,21 @@
     "pages": 1,
     "place": "Indianapolis, Indiana",
     "scroll": 96
-   },
-   {
-    "t": "2026-11-04T14:56:47.78322+00:00",
-    "dev": "desktop",
-    "src": "google",
-    "land": "/",
-    "secs": 28,
-    "pages": 1,
-    "place": "Rockwall, Texas",
-    "scroll": 58
-   },
-   {
-    "t": "2026-11-03T22:18:56.315598+00:00",
-    "dev": "desktop",
-    "src": "google",
-    "land": "/",
-    "secs": 48,
-    "pages": 1,
-    "place": "Billings, Montana",
-    "scroll": 31
    }
   ],
   "referrers_30d": {
    "(none)": 8,
-   "google.com": 9,
+   "google.com": 10,
    "facebook.com": 4,
    "pinterest.com": 1
   },
   "roofing_total": 0,
   "signups_total": 1,
-  "avg_scroll_30d": 68,
-  "bounce_pct_30d": 73,
+  "avg_scroll_30d": 71,
+  "bounce_pct_30d": 67,
   "messages_total": 0,
   "real_pages_30d": {
-   "/": 20,
+   "/": 22,
    "/roofing": 3
   },
   "recent_signups": [
@@ -278,34 +279,34 @@
    "Thursday, 7:00 PM": 1
   },
   "avg_time_sec_30d": 59,
-  "new_visitors_30d": 19,
-  "real_sessions_7d": 14,
+  "new_visitors_30d": 20,
+  "real_sessions_7d": 15,
   "real_sources_30d": {
    "direct": 8,
-   "google": 9,
+   "google": 10,
    "facebook": 4,
    "pinterest": 1
   },
-  "real_visitors_1d": 1,
+  "real_visitors_1d": 2,
   "real_visitors_7d": 14,
   "landing_pages_30d": {
-   "/": 18,
+   "/": 20,
    "?": 1,
    "/roofing": 3
   },
-  "real_visitors_30d": 22,
+  "real_visitors_30d": 23,
   "signups_by_source": {
    "ref:com.google.android.googlequicksearchbox": 1
   },
   "messages_unanswered": 0,
-  "real_visitors_total": 22,
+  "real_visitors_total": 23,
   "test_members_excluded": 1,
   "test_signups_excluded": 2,
-  "returning_visitors_30d": 3,
+  "returning_visitors_30d": 4,
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8518,
+  "total_views": 8516,
   "videos": 32,
   "likes": 27,
   "top": [
@@ -581,7 +582,7 @@
     "id": "Khk-oMwNaQQ",
     "title": "Stop typing on your phone. Just talk. #Shorts",
     "url": "https://youtube.com/shorts/Khk-oMwNaQQ",
-    "views": 337,
+    "views": 336,
     "published": "2026-11-05",
     "exact": true
    },
@@ -709,7 +710,7 @@
     "id": "lRXGM46vjpk",
     "title": "4 slang words your grandkids say, translated #Shorts",
     "url": "https://youtube.com/shorts/lRXGM46vjpk",
-    "views": 936,
+    "views": 935,
     "published": null,
     "exact": true
    },
@@ -738,18 +739,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-11T14:28:06.883294Z"
+  "checked_at": "2026-11-11T15:06:36.255076Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "32 videos on the channel, 30 with exact counts (rest from the channel page, rounded) = 8518 views"
+   "detail": "32 videos on the channel, 30 with exact counts (rest from the channel page, rounded) = 8516 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "14 real people this week; 2161 of 2175 page views were bots, crawlers or testing and are excluded"
+   "detail": "14 real people this week; 2161 of 2176 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -769,12 +770,12 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 3h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
@@ -784,7 +785,7 @@
  ],
  "posting": {
   "date": "2026-11-11",
-  "now_et": "9:28 AM",
+  "now_et": "10:07 AM",
   "today": {
    "youtube": {
     "planned": 1,
@@ -1311,7 +1312,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/Khk-oMwNaQQ",
-      "views": 337
+      "views": 336
      }
     ]
    },
@@ -1440,5 +1441,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-11T14:28:06.883294Z"
+ "checked_at": "2026-11-11T15:06:36.255076Z"
 }
