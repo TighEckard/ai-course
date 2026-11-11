@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T12:05:28.071314Z",
+ "generated_at": "2026-11-11T12:06:07.211054Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -85,7 +85,7 @@
    "Chrome": 16,
    "Safari": 5
   },
-  "generated_at": "2026-11-11T12:05:28.858379+00:00",
+  "generated_at": "2026-11-11T12:06:07.426522+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -418,7 +418,7 @@
     "title": "The email that could get you a $14k raise #Shorts",
     "url": "https://www.youtube.com/shorts/o-Cm_xmLloU",
     "published": "2026-11-08T03:37:08+00:00",
-    "views": 1,
+    "views": 2,
     "likes": 0
    },
    {
@@ -738,7 +738,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-11T12:05:28.071314Z"
+  "checked_at": "2026-11-11T12:06:07.211054Z"
  },
  "checks": [
   {
@@ -769,7 +769,7 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Roofing",
@@ -784,7 +784,7 @@
  ],
  "posting": {
   "date": "2026-11-11",
-  "now_et": "7:05 AM",
+  "now_et": "7:06 AM",
   "today": {
    "youtube": {
     "planned": 1,
@@ -1440,5 +1440,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-11T12:05:28.071314Z"
+ "checked_at": "2026-11-11T12:06:07.211054Z"
 }
