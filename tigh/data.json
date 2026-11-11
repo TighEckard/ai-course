@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T13:28:11.502817Z",
+ "generated_at": "2026-11-11T14:28:06.883294Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -85,7 +85,7 @@
    "Chrome": 16,
    "Safari": 5
   },
-  "generated_at": "2026-11-11T13:28:12.246619+00:00",
+  "generated_at": "2026-11-11T14:28:07.675275+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -353,7 +353,7 @@
     "title": "What to say when a scam caller pressures you",
     "url": "https://www.youtube.com/shorts/BMZBrj5YJGs",
     "published": "2026-11-10T02:37:27+00:00",
-    "views": 5,
+    "views": 6,
     "likes": 0
    },
    {
@@ -390,7 +390,7 @@
     "title": "What to say when a scam caller pressures you",
     "url": "https://www.youtube.com/shorts/BMZBrj5YJGs",
     "published": "2026-11-10T02:37:27+00:00",
-    "views": 5,
+    "views": 6,
     "likes": 0
    },
    {
@@ -738,7 +738,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-11T13:28:11.502817Z"
+  "checked_at": "2026-11-11T14:28:06.883294Z"
  },
  "checks": [
   {
@@ -764,12 +764,12 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Roofing",
@@ -779,12 +779,12 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 39h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 40h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-11",
-  "now_et": "8:28 AM",
+  "now_et": "9:28 AM",
   "today": {
    "youtube": {
     "planned": 1,
@@ -1440,5 +1440,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-11T13:28:11.502817Z"
+ "checked_at": "2026-11-11T14:28:06.883294Z"
 }
