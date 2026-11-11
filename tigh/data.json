@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T23:27:33.830543Z",
+ "generated_at": "2026-11-11T00:06:22.738360Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -84,7 +84,7 @@
    "Chrome": 15,
    "Safari": 5
   },
-  "generated_at": "2026-11-10T23:27:34.085914+00:00",
+  "generated_at": "2026-11-11T00:06:22.957022+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -304,7 +304,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8515,
+  "total_views": 8518,
   "videos": 32,
   "likes": 27,
   "top": [
@@ -500,7 +500,7 @@
     "id": "BMZBrj5YJGs",
     "title": "What to say when a scam caller pressures you",
     "url": "https://youtube.com/shorts/BMZBrj5YJGs",
-    "views": 4,
+    "views": 5,
     "published": "2026-11-10",
     "exact": true
    },
@@ -564,7 +564,7 @@
     "id": "wr1wnbtk9EM",
     "title": "Scam or safe? Can you spot it? #Shorts",
     "url": "https://youtube.com/shorts/wr1wnbtk9EM",
-    "views": 2,
+    "views": 0,
     "published": "2026-11-07",
     "exact": true
    },
@@ -572,7 +572,7 @@
     "id": "O0v42Pppyxo",
     "title": "Decode any confusing letter with AI in 3 steps #Shorts",
     "url": "https://youtube.com/shorts/O0v42Pppyxo",
-    "views": 1,
+    "views": 4,
     "published": "2026-11-07",
     "exact": true
    },
@@ -596,7 +596,7 @@
     "id": "EqSk3xo9tTg",
     "title": "Grandma, he ghosted me? Gen Z slang translated #Shorts",
     "url": "https://youtube.com/shorts/EqSk3xo9tTg",
-    "views": 3,
+    "views": 4,
     "published": "2026-11-04",
     "exact": true
    },
@@ -621,7 +621,7 @@
     "title": "Grandma almost forwarded a $500 gift card scam #Shorts",
     "url": "https://youtube.com/shorts/TGZoeTOM7mc",
     "views": 123,
-    "published": "2026-11-03T14:13:28-08:00",
+    "published": "2026-11-03",
     "exact": true
    },
    {
@@ -737,13 +737,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-10T23:27:33.830543Z"
+  "checked_at": "2026-11-11T00:06:22.738360Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "32 videos on the channel, 30 with exact counts (rest from the channel page, rounded) = 8515 views"
+   "detail": "32 videos on the channel, 30 with exact counts (rest from the channel page, rounded) = 8518 views"
   },
   {
    "name": "Website visitors",
@@ -768,12 +768,12 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
@@ -783,7 +783,7 @@
  ],
  "posting": {
   "date": "2026-11-10",
-  "now_et": "6:27 PM",
+  "now_et": "7:06 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1189,7 +1189,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/O0v42Pppyxo",
-      "views": 1
+      "views": 4
      }
     ]
    },
@@ -1221,7 +1221,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/wr1wnbtk9EM",
-      "views": 2
+      "views": 0
      }
     ]
    },
@@ -1343,7 +1343,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/EqSk3xo9tTg",
-      "views": 3
+      "views": 4
      }
     ]
    },
@@ -1503,5 +1503,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-10T23:27:33.830543Z"
+ "checked_at": "2026-11-11T00:06:22.738360Z"
 }
