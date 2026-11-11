@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T11:51:18.972554Z",
+ "generated_at": "2026-11-11T12:05:28.071314Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -85,7 +85,7 @@
    "Chrome": 16,
    "Safari": 5
   },
-  "generated_at": "2026-11-11T11:51:19.668696+00:00",
+  "generated_at": "2026-11-11T12:05:28.858379+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -305,7 +305,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8515,
+  "total_views": 8518,
   "videos": 32,
   "likes": 27,
   "top": [
@@ -501,7 +501,7 @@
     "id": "BMZBrj5YJGs",
     "title": "What to say when a scam caller pressures you",
     "url": "https://youtube.com/shorts/BMZBrj5YJGs",
-    "views": 5,
+    "views": 6,
     "published": "2026-11-10",
     "exact": true
    },
@@ -533,7 +533,7 @@
     "id": "o-Cm_xmLloU",
     "title": "The email that could get you a $14k raise #Shorts",
     "url": "https://youtube.com/shorts/o-Cm_xmLloU",
-    "views": 1,
+    "views": 2,
     "published": "2026-11-08",
     "exact": true
    },
@@ -701,7 +701,7 @@
     "id": "T80t5oERuVU",
     "title": "Grandma, you're such a vibe? Translated #Shorts",
     "url": "https://youtube.com/shorts/T80t5oERuVU",
-    "views": 64,
+    "views": 65,
     "published": "2026-10-31",
     "exact": true
    },
@@ -738,13 +738,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-11T11:51:18.972554Z"
+  "checked_at": "2026-11-11T12:05:28.071314Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "32 videos on the channel, 30 with exact counts (rest from the channel page, rounded) = 8515 views"
+   "detail": "32 videos on the channel, 30 with exact counts (rest from the channel page, rounded) = 8518 views"
   },
   {
    "name": "Website visitors",
@@ -774,7 +774,7 @@
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
@@ -784,7 +784,7 @@
  ],
  "posting": {
   "date": "2026-11-11",
-  "now_et": "6:51 AM",
+  "now_et": "7:05 AM",
   "today": {
    "youtube": {
     "planned": 1,
@@ -874,7 +874,7 @@
     "platforms": [
      {
       "p": "youtube",
-      "status": "scheduled",
+      "status": "missing",
       "url": null
      }
     ]
@@ -1440,5 +1440,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-11T11:51:18.972554Z"
+ "checked_at": "2026-11-11T12:05:28.071314Z"
 }
