@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T07:27:37.306075Z",
+ "generated_at": "2026-11-11T08:28:14.480816Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -85,7 +85,7 @@
    "Chrome": 16,
    "Safari": 5
   },
-  "generated_at": "2026-11-11T07:27:37.704933+00:00",
+  "generated_at": "2026-11-11T08:28:15.231601+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -307,7 +307,7 @@
  "youtube": {
   "total_views": 8515,
   "videos": 32,
-  "likes": 0,
+  "likes": 27,
   "top": [
    {
     "id": "9mRzsVeSNn4",
@@ -334,8 +334,150 @@
     "exact": true
    }
   ],
-  "recent": [],
-  "all": [],
+  "recent": [
+   {
+    "title": "What to say when a scam caller pressures you",
+    "url": "https://www.youtube.com/shorts/3Z-cVhpVI3c",
+    "published": "2026-11-10T12:37:54+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
+    "title": "Scam or safe? Can you tell?",
+    "url": "https://www.youtube.com/shorts/yf6HJrYj3ww",
+    "published": "2026-11-10T02:40:17+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
+    "title": "What to say when a scam caller pressures you",
+    "url": "https://www.youtube.com/shorts/BMZBrj5YJGs",
+    "published": "2026-11-10T02:37:27+00:00",
+    "views": 5,
+    "likes": 0
+   },
+   {
+    "title": "One phone setting that stops scam calls #Shorts",
+    "url": "https://www.youtube.com/shorts/1L9U100WIN0",
+    "published": "2026-11-09T20:59:54+00:00",
+    "views": 2,
+    "likes": 0
+   },
+   {
+    "title": "POV: everyone in the meeting is using AI #Shorts",
+    "url": "https://www.youtube.com/shorts/1Z8d6CqPQHU",
+    "published": "2026-11-09T20:56:29+00:00",
+    "views": 8,
+    "likes": 0
+   }
+  ],
+  "all": [
+   {
+    "title": "What to say when a scam caller pressures you",
+    "url": "https://www.youtube.com/shorts/3Z-cVhpVI3c",
+    "published": "2026-11-10T12:37:54+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
+    "title": "Scam or safe? Can you tell?",
+    "url": "https://www.youtube.com/shorts/yf6HJrYj3ww",
+    "published": "2026-11-10T02:40:17+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
+    "title": "What to say when a scam caller pressures you",
+    "url": "https://www.youtube.com/shorts/BMZBrj5YJGs",
+    "published": "2026-11-10T02:37:27+00:00",
+    "views": 5,
+    "likes": 0
+   },
+   {
+    "title": "One phone setting that stops scam calls #Shorts",
+    "url": "https://www.youtube.com/shorts/1L9U100WIN0",
+    "published": "2026-11-09T20:59:54+00:00",
+    "views": 2,
+    "likes": 0
+   },
+   {
+    "title": "POV: everyone in the meeting is using AI #Shorts",
+    "url": "https://www.youtube.com/shorts/1Z8d6CqPQHU",
+    "published": "2026-11-09T20:56:29+00:00",
+    "views": 8,
+    "likes": 0
+   },
+   {
+    "title": "The email that could get you a $14k raise #Shorts",
+    "url": "https://www.youtube.com/shorts/-4fKye0-VjE",
+    "published": "2026-11-08T04:28:34+00:00",
+    "views": 1,
+    "likes": 0
+   },
+   {
+    "title": "The email that could get you a $14k raise #Shorts",
+    "url": "https://www.youtube.com/shorts/o-Cm_xmLloU",
+    "published": "2026-11-08T03:37:08+00:00",
+    "views": 1,
+    "likes": 0
+   },
+   {
+    "title": "The intern got promoted. He's 22. #Shorts",
+    "url": "https://www.youtube.com/shorts/tCjX_vTzg9I",
+    "published": "2026-11-08T00:25:01+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
+    "title": "Insurance letter in plain English with AI #Shorts",
+    "url": "https://www.youtube.com/shorts/aHFCFhbCeZk",
+    "published": "2026-11-07T23:59:23+00:00",
+    "views": 2,
+    "likes": 0
+   },
+   {
+    "title": "Plan a whole trip with AI in a minute #Shorts",
+    "url": "https://www.youtube.com/shorts/O0DxIt_fQjA",
+    "published": "2026-11-07T23:55:33+00:00",
+    "views": 2,
+    "likes": 0
+   },
+   {
+    "title": "Scam or safe? Can you spot it? #Shorts",
+    "url": "https://www.youtube.com/shorts/wr1wnbtk9EM",
+    "published": "2026-11-07T23:36:24+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
+    "title": "Decode any confusing letter with AI in 3 steps #Shorts",
+    "url": "https://www.youtube.com/shorts/O0v42Pppyxo",
+    "published": "2026-11-07T19:11:32+00:00",
+    "views": 1,
+    "likes": 0
+   },
+   {
+    "title": "4 slang words your grandkids say, translated #Shorts",
+    "url": "https://www.youtube.com/shorts/lRXGM46vjpk",
+    "published": "2026-11-07T12:35:38+00:00",
+    "views": 936,
+    "likes": 16
+   },
+   {
+    "title": "Nana took an L? Grandma learns slang #Shorts",
+    "url": "https://www.youtube.com/shorts/B0h7mqzcssY",
+    "published": "2026-11-06T21:28:35+00:00",
+    "views": 475,
+    "likes": 7
+   },
+   {
+    "title": "Grandpa said it slaps?! Slang translated #Shorts",
+    "url": "https://www.youtube.com/shorts/QtHsxWyALPQ",
+    "published": "2026-11-06T05:12:00+00:00",
+    "views": 72,
+    "likes": 4
+   }
+  ],
   "catalog": true,
   "exact_videos": 30,
   "list": [
@@ -596,7 +738,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-11T07:27:37.306075Z"
+  "checked_at": "2026-11-11T08:28:14.480816Z"
  },
  "checks": [
   {
@@ -622,12 +764,12 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Roofing",
@@ -637,12 +779,12 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 33h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 34h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-11",
-  "now_et": "2:27 AM",
+  "now_et": "3:28 AM",
   "today": {
    "youtube": {
     "planned": 1,
@@ -1282,7 +1424,13 @@
     ]
    }
   ],
-  "yt_by_day": {},
+  "yt_by_day": {
+   "2026-11-10": 3,
+   "2026-11-09": 2,
+   "2026-11-08": 3,
+   "2026-11-07": 5,
+   "2026-11-06": 2
+  },
   "comments_by_day": {}
  },
  "social": {
@@ -1292,5 +1440,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-11T07:27:37.306075Z"
+ "checked_at": "2026-11-11T08:28:14.480816Z"
 }
