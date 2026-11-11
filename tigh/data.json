@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T05:28:06.750898Z",
+ "generated_at": "2026-11-11T06:05:57.158497Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -84,7 +84,7 @@
    "Chrome": 15,
    "Safari": 5
   },
-  "generated_at": "2026-11-11T05:28:07.204729+00:00",
+  "generated_at": "2026-11-11T06:05:57.397159+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -304,7 +304,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8514,
+  "total_views": 8515,
   "videos": 32,
   "likes": 0,
   "top": [
@@ -582,7 +582,7 @@
     "id": "QtHsxWyALPQ",
     "title": "Grandpa said it slaps?! Slang translated #Shorts",
     "url": "https://youtube.com/shorts/QtHsxWyALPQ",
-    "views": 71,
+    "views": 72,
     "published": null,
     "exact": true
    },
@@ -595,13 +595,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-11T05:28:06.750898Z"
+  "checked_at": "2026-11-11T06:05:57.158497Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "32 videos on the channel, 30 with exact counts (rest from the channel page, rounded) = 8514 views"
+   "detail": "32 videos on the channel, 30 with exact counts (rest from the channel page, rounded) = 8515 views"
   },
   {
    "name": "Website visitors",
@@ -626,12 +626,12 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
@@ -641,7 +641,7 @@
  ],
  "posting": {
   "date": "2026-11-11",
-  "now_et": "12:28 AM",
+  "now_et": "1:06 AM",
   "today": {
    "youtube": {
     "planned": 1,
@@ -1291,5 +1291,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-11T05:28:06.750898Z"
+ "checked_at": "2026-11-11T06:05:57.158497Z"
 }
