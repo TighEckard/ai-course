@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T04:27:30.081039Z",
+ "generated_at": "2026-11-11T05:28:06.750898Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -84,7 +84,7 @@
    "Chrome": 15,
    "Safari": 5
   },
-  "generated_at": "2026-11-11T04:27:30.327798+00:00",
+  "generated_at": "2026-11-11T05:28:07.204729+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -595,7 +595,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-11T04:27:30.081039Z"
+  "checked_at": "2026-11-11T05:28:06.750898Z"
  },
  "checks": [
   {
@@ -616,17 +616,17 @@
   {
    "name": "Posting",
    "ok": true,
-   "detail": "YouTube 2/2 planned posts found live on the channel today"
+   "detail": "YouTube 0/1 planned posts found live on the channel today"
   },
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Roofing",
@@ -636,112 +636,124 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 30h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 31h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
-  "date": "2026-11-10",
-  "now_et": "11:27 PM",
+  "date": "2026-11-11",
+  "now_et": "12:28 AM",
   "today": {
    "youtube": {
-    "planned": 2,
-    "done": 2,
+    "planned": 1,
+    "done": 0,
     "verified": true,
     "overdue": 0,
     "items": [
      {
-      "title": "What to say when a scam caller pressures you",
-      "id": "wbhangup",
-      "when": "2026-11-10T07:30:00-05:00",
+      "title": "Grandkid texted you 'that's lowkey sus'? Translated",
+      "id": "slang20a",
+      "when": "2026-11-11T07:30:00-05:00",
       "slot": "am",
-      "done": true,
+      "done": false,
       "verified": true,
-      "due": true
-     },
-     {
-      "title": "Scam or safe? Can you tell?",
-      "id": "quiz4",
-      "when": "2026-11-10T22:30:00-05:00",
-      "slot": "pm",
-      "done": true,
-      "verified": true,
-      "due": true
+      "due": false
      }
     ],
-    "next": null
+    "next": {
+     "title": "Grandkid texted you 'that's lowkey sus'? Translated",
+     "id": "slang20a",
+     "when": "2026-11-11T07:30:00-05:00",
+     "slot": "am",
+     "done": false,
+     "verified": true,
+     "due": false
+    }
    },
    "facebook": {
-    "planned": 2,
+    "planned": 1,
     "done": 0,
     "verified": false,
     "overdue": 0,
     "items": [
      {
-      "title": "Which version would you rather get in the mail? Tell us in the comment",
-      "id": "ba4",
-      "when": "2026-11-10T07:30:00-05:00",
-      "slot": "am",
-      "done": null,
-      "verified": false,
-      "due": true
-     },
-     {
-      "title": "A simple trick for understanding your pharmacy paperwork",
-      "id": "wbpharm",
-      "when": "2026-11-10T22:30:00-05:00",
+      "title": "Did you know what 'it's giving scam' means? Comment the slang word you",
+      "id": "slang20b",
+      "when": "2026-11-11T22:30:00-05:00",
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": true
+      "due": false
      }
     ],
     "next": {
-     "title": "Which version would you rather get in the mail? Tell us in the comment",
-     "id": "ba4",
-     "when": "2026-11-10T07:30:00-05:00",
-     "slot": "am",
+     "title": "Did you know what 'it's giving scam' means? Comment the slang word you",
+     "id": "slang20b",
+     "when": "2026-11-11T22:30:00-05:00",
+     "slot": "pm",
      "done": null,
      "verified": false,
-     "due": true
+     "due": false
     }
    },
    "instagram": {
-    "planned": 2,
+    "planned": 1,
     "done": 0,
     "verified": false,
     "overdue": 0,
     "items": [
      {
-      "title": "Which version would you rather get in the mail? Tell us in the comment",
-      "id": "ba4",
-      "when": "2026-11-10T07:30:00-05:00",
-      "slot": "am",
-      "done": null,
-      "verified": false,
-      "due": true
-     },
-     {
-      "title": "A simple trick for understanding your pharmacy paperwork",
-      "id": "wbpharm",
-      "when": "2026-11-10T22:30:00-05:00",
+      "title": "Did you know what 'it's giving scam' means? Comment the slang word you",
+      "id": "slang20b",
+      "when": "2026-11-11T22:30:00-05:00",
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": true
+      "due": false
      }
     ],
     "next": {
-     "title": "Which version would you rather get in the mail? Tell us in the comment",
-     "id": "ba4",
-     "when": "2026-11-10T07:30:00-05:00",
-     "slot": "am",
+     "title": "Did you know what 'it's giving scam' means? Comment the slang word you",
+     "id": "slang20b",
+     "when": "2026-11-11T22:30:00-05:00",
+     "slot": "pm",
      "done": null,
      "verified": false,
-     "due": true
+     "due": false
     }
    }
   },
   "history": [
+   {
+    "date": "2026-11-11",
+    "slot": "am",
+    "title": "Grandkid texted you 'that's lowkey sus'? Translated",
+    "format": "slang translator (problem angle)",
+    "platforms": [
+     {
+      "p": "youtube",
+      "status": "scheduled",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-11",
+    "slot": "pm",
+    "title": "Did you know what 'it's giving scam' means? Comment the slang word you",
+    "format": "slang translator (problem angle)",
+    "platforms": [
+     {
+      "p": "facebook",
+      "status": "unverified",
+      "url": null
+     },
+     {
+      "p": "instagram",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
    {
     "date": "2026-11-10",
     "slot": "am",
@@ -1267,82 +1279,6 @@
       "url": null
      }
     ]
-   },
-   {
-    "date": "2026-11-03",
-    "slot": "am",
-    "title": "Grandma, that's cap? Gen Z slang translated #Shorts",
-    "format": "slang translator",
-    "platforms": [
-     {
-      "p": "youtube",
-      "status": "missing",
-      "url": null
-     }
-    ]
-   },
-   {
-    "date": "2026-11-03",
-    "slot": "am",
-    "title": "My grandkid texted me this",
-    "format": "slang translator",
-    "platforms": [
-     {
-      "p": "facebook",
-      "status": "unverified",
-      "url": null
-     },
-     {
-      "p": "instagram",
-      "status": "unverified",
-      "url": null
-     }
-    ]
-   },
-   {
-    "date": "2026-11-03",
-    "slot": "pm",
-    "title": "Grandma almost forwarded a $500 gift card scam #Shorts",
-    "format": "skit factcheck (swipe: AI fact-checker)",
-    "platforms": [
-     {
-      "p": "youtube",
-      "status": "live",
-      "url": "https://youtube.com/shorts/TGZoeTOM7mc",
-      "views": 123
-     }
-    ]
-   },
-   {
-    "date": "2026-11-03",
-    "slot": "pm",
-    "title": "Has someone in your family ever forwarded one of these? Comment YES",
-    "format": "skit factcheck (swipe: AI fact-checker)",
-    "platforms": [
-     {
-      "p": "facebook",
-      "status": "unverified",
-      "url": null
-     },
-     {
-      "p": "instagram",
-      "status": "unverified",
-      "url": null
-     }
-    ]
-   },
-   {
-    "date": "2026-11-03",
-    "slot": "am",
-    "title": "5 Things to Ask AI This Week (Free Beginner Tips)",
-    "format": "pin tall tips graphic",
-    "platforms": [
-     {
-      "p": "pinterest",
-      "status": "unverified",
-      "url": null
-     }
-    ]
    }
   ],
   "yt_by_day": {},
@@ -1355,5 +1291,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-11T04:27:30.081039Z"
+ "checked_at": "2026-11-11T05:28:06.750898Z"
 }
