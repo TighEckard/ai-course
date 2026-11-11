@@ -1,0 +1,38 @@
+{
+ "videos": [
+  {
+   "id": "em02-voiceclone",
+   "file": "em02-voiceclone.mp4",
+   "format": "emojianim 50+",
+   "look": "emoji",
+   "slot": "am",
+   "platforms": [
+    "yt",
+    "meta"
+   ],
+   "yt_title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
+   "caption_yt": "Scammers can copy a voice from a few seconds of video. A family safe word stops them cold. Send this to someone you love. Free live AI safety class, link in bio. #Shorts",
+   "caption_meta": "Scammers can copy a voice from a few seconds of video. A family safe word stops them cold. Send this to someone you love. Free live AI safety class, link in bio.",
+   "pinned_comment": "Free live AI safety class: https://riside.com/?src=yt_em02",
+   "link": "https://riside.com/?src=yt_em02",
+   "board": "Riside"
+  },
+  {
+   "id": "bank24a",
+   "file": "bank24a.mp4",
+   "format": "slang v2 scam sting",
+   "look": "grandma-bubble",
+   "slot": "pm",
+   "platforms": [
+    "yt",
+    "meta"
+   ],
+   "yt_title": "It's your bank calling. Or is it?",
+   "caption_yt": "Real banks never rush you. Send this to someone who still presses 1. First class free at riside.com #Shorts #scam",
+   "caption_meta": "Real banks never rush you. Send this to someone who still presses 1. First class free at riside.com",
+   "pinned_comment": "Free live AI class, first one free: https://riside.com/?src=yt_bank24a",
+   "link": "https://riside.com/?src=yt_bank24a",
+   "board": "Riside"
+  }
+ ]
+}

@@ -1,11 +1,28 @@
 {
  "videos": [
   {
+   "id": "em03-letter",
+   "file": "em03-letter.mp4",
+   "format": "emojianim 50+",
+   "look": "emoji",
+   "slot": "am",
+   "platforms": [
+    "yt",
+    "meta"
+   ],
+   "yt_title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
+   "caption_yt": "Take a photo, ask AI to explain it like a friend: what do I do, and by when? Works on bills, insurance letters, tax notices. Free live AI class, link in bio. #Shorts",
+   "caption_meta": "Take a photo, ask AI to explain it like a friend: what do I do, and by when? Works on bills, insurance letters, tax notices. Free live AI class, link in bio.",
+   "pinned_comment": "Learn this live, first class free: https://riside.com/?src=yt_em03",
+   "link": "https://riside.com/?src=yt_em03",
+   "board": "Riside"
+  },
+  {
    "id": "scam22a",
    "file": "scam22a.mp4",
    "format": "slang v2 scam sting",
    "look": "grandma-bubble",
-   "slot": "am",
+   "slot": "pm",
    "platforms": [
     "yt",
     "meta"
@@ -14,7 +31,8 @@
    "caption_yt": "It sounds exactly like him. It isn't. Free live AI classes, first class free at riside.com #Shorts #scam #voiceclone",
    "caption_meta": "Would you have fallen for this? Send it to someone who might. First class free at riside.com",
    "link": "https://riside.com/?src=yt_scam22a",
-   "board": "Riside"
+   "board": "Riside",
+   "pinned_comment": "Free live AI safety class, first one free: https://riside.com/?src=yt_scam22a"
   }
  ]
 }

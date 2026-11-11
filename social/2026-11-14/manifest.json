@@ -1,0 +1,38 @@
+{
+ "videos": [
+  {
+   "id": "em01-banktext",
+   "file": "em01-banktext.mp4",
+   "format": "emojianim 50+",
+   "look": "emoji",
+   "slot": "am",
+   "platforms": [
+    "yt",
+    "meta"
+   ],
+   "yt_title": "Your bank texted that your account is locked? Do this first #Shorts",
+   "caption_yt": "That 'account locked' text is the #1 scam going around right now. Screenshot it, ask AI, then call the number on your card. Tag someone who needs this. Free live AI class, link in bio. #Shorts",
+   "caption_meta": "That 'account locked' text is the #1 scam going around right now. Screenshot it, ask AI, then call the number on your card. Tag someone who needs this. Free live AI class, link in bio.",
+   "pinned_comment": "Free live AI class (first one free): https://riside.com/?src=yt_em01",
+   "link": "https://riside.com/?src=yt_em01",
+   "board": "Riside"
+  },
+  {
+   "id": "pkg23b",
+   "file": "pkg23b.mp4",
+   "format": "slang v2 scam sting",
+   "look": "grandma-bubble",
+   "slot": "pm",
+   "platforms": [
+    "yt",
+    "meta"
+   ],
+   "yt_title": "You got this text and almost clicked it",
+   "caption_yt": "That $1.99 package text is a scam. Would you have clicked? First class free at riside.com #Shorts #scam",
+   "caption_meta": "That $1.99 package text is a scam. Would you have clicked? First class free at riside.com",
+   "pinned_comment": "Free live AI class, first one free: https://riside.com/?src=yt_pkg23b",
+   "link": "https://riside.com/?src=yt_pkg23b",
+   "board": "Riside"
+  }
+ ]
+}
