@@ -1,0 +1,31 @@
+{
+ "videos": [
+  {
+   "id": "slang21a",
+   "file": "slang21a.mp4",
+   "format": "slang translator (problem angle)",
+   "look": "grandma-bubble",
+   "slot": "am",
+   "platforms": [
+    "yt"
+   ],
+   "yt_title": "Grandkid texted 'it's giving fake'? Translated",
+   "caption_yt": "Know the slang, spot the scam. Free live AI classes in small groups at riside.com #Shorts #slang #scams",
+   "link": "https://riside.com/?src=yt_slang21a",
+   "board": "Riside"
+  },
+  {
+   "id": "slang21b",
+   "file": "slang21b.mp4",
+   "format": "slang translator (problem angle)",
+   "look": "grandma-bubble",
+   "slot": "pm",
+   "platforms": [
+    "meta"
+   ],
+   "caption_meta": "Which slang word do you never understand? Tell us below. Free live AI classes in small groups at riside.com",
+   "link": "https://riside.com/?src=meta_slang21b",
+   "board": "Riside"
+  }
+ ]
+}
