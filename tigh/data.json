@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T06:27:25.625564Z",
+ "generated_at": "2026-11-11T06:44:14.924427Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -7,11 +7,11 @@
    "iOS": 7,
    "Linux": 1,
    "Android": 3,
-   "Windows": 9
+   "Windows": 10
   },
   "real_rule": "real = scrolled 25%+, stayed 10s+, clicked or signed up; bots, crawlers, testing and the owner removed",
   "by_hour_et": {
-   "01": 1,
+   "01": 2,
    "05": 1,
    "08": 1,
    "09": 2,
@@ -36,7 +36,7 @@
    "Indianapolis, Indiana": 1,
    "New York City, New York": 1,
    "Burnaby, British Columbia": 1,
-   "Washington, District of Columbia": 3
+   "Washington, District of Columbia": 4
   },
   "clicks_30d": {
    "a:stick": 1,
@@ -53,7 +53,7 @@
   "funnel_30d": {
    "paid": 0,
    "engaged": 18,
-   "visitors": 21,
+   "visitors": 22,
    "signed_up": 1,
    "opened_join": 0
   },
@@ -63,7 +63,7 @@
   "devices_30d": {
    "?": 1,
    "mobile": 10,
-   "desktop": 10
+   "desktop": 11
   },
   "messages_7d": 0,
   "real_by_day": {
@@ -75,25 +75,36 @@
    "2026-11-04": 4,
    "2026-11-05": 3,
    "2026-11-08": 4,
-   "2026-11-09": 2
+   "2026-11-09": 2,
+   "2026-11-11": 1
   },
-  "all_views_7d": 2174,
+  "all_views_7d": 2175,
   "bot_views_7d": 2161,
   "browsers_30d": {
    "?": 1,
-   "Chrome": 15,
+   "Chrome": 16,
    "Safari": 5
   },
-  "generated_at": "2026-11-11T06:27:25.82995+00:00",
+  "generated_at": "2026-11-11T06:44:15.181947+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
   "countries_30d": {
    "?": 1,
    "Canada": 1,
-   "United States": 19
+   "United States": 20
   },
   "recent_visits": [
+   {
+    "t": "2026-11-11T06:31:05.417936+00:00",
+    "dev": "desktop",
+    "src": "facebook",
+    "land": "/",
+    "secs": 23,
+    "pages": 1,
+    "place": "Washington, District of Columbia",
+    "scroll": 27
+   },
    {
     "t": "2026-11-09T19:14:20.836202+00:00",
     "dev": "desktop",
@@ -233,31 +244,21 @@
     "pages": 1,
     "place": "Billings, Montana",
     "scroll": 31
-   },
-   {
-    "t": "2026-11-03T20:21:47.189983+00:00",
-    "dev": "mobile",
-    "src": "google",
-    "land": "/",
-    "secs": 212,
-    "pages": 1,
-    "place": "Louisville, Kentucky",
-    "scroll": 100
    }
   ],
   "referrers_30d": {
    "(none)": 8,
    "google.com": 9,
-   "facebook.com": 3,
+   "facebook.com": 4,
    "pinterest.com": 1
   },
   "roofing_total": 0,
   "signups_total": 1,
-  "avg_scroll_30d": 70,
-  "bounce_pct_30d": 71,
+  "avg_scroll_30d": 68,
+  "bounce_pct_30d": 73,
   "messages_total": 0,
   "real_pages_30d": {
-   "/": 19,
+   "/": 20,
    "/roofing": 3
   },
   "recent_signups": [
@@ -276,28 +277,28 @@
   "signups_by_slot": {
    "Thursday, 7:00 PM": 1
   },
-  "avg_time_sec_30d": 61,
-  "new_visitors_30d": 18,
-  "real_sessions_7d": 13,
+  "avg_time_sec_30d": 59,
+  "new_visitors_30d": 19,
+  "real_sessions_7d": 14,
   "real_sources_30d": {
    "direct": 8,
    "google": 9,
-   "facebook": 3,
+   "facebook": 4,
    "pinterest": 1
   },
-  "real_visitors_1d": 0,
-  "real_visitors_7d": 13,
+  "real_visitors_1d": 1,
+  "real_visitors_7d": 14,
   "landing_pages_30d": {
-   "/": 17,
+   "/": 18,
    "?": 1,
    "/roofing": 3
   },
-  "real_visitors_30d": 21,
+  "real_visitors_30d": 22,
   "signups_by_source": {
    "ref:com.google.android.googlequicksearchbox": 1
   },
   "messages_unanswered": 0,
-  "real_visitors_total": 21,
+  "real_visitors_total": 22,
   "test_members_excluded": 1,
   "test_signups_excluded": 2,
   "returning_visitors_30d": 3,
@@ -595,7 +596,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-11T06:27:25.625564Z"
+  "checked_at": "2026-11-11T06:44:14.924427Z"
  },
  "checks": [
   {
@@ -606,7 +607,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "13 real people this week; 2161 of 2174 page views were bots, crawlers or testing and are excluded"
+   "detail": "14 real people this week; 2161 of 2175 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -621,12 +622,12 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Roofing",
@@ -641,7 +642,7 @@
  ],
  "posting": {
   "date": "2026-11-11",
-  "now_et": "1:27 AM",
+  "now_et": "1:44 AM",
   "today": {
    "youtube": {
     "planned": 1,
@@ -1291,5 +1292,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-11T06:27:25.625564Z"
+ "checked_at": "2026-11-11T06:44:14.924427Z"
 }
