@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T19:27:40.115966Z",
+ "generated_at": "2026-11-11T21:06:19.885094Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -79,14 +79,14 @@
    "2026-11-09": 2,
    "2026-11-11": 2
   },
-  "all_views_7d": 2181,
-  "bot_views_7d": 2166,
+  "all_views_7d": 2180,
+  "bot_views_7d": 2165,
   "browsers_30d": {
    "?": 1,
    "Chrome": 16,
    "Safari": 6
   },
-  "generated_at": "2026-11-11T19:27:40.968109+00:00",
+  "generated_at": "2026-11-11T21:06:20.735917+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -306,9 +306,9 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8516,
-  "videos": 32,
-  "likes": 27,
+  "total_views": 8517,
+  "videos": 33,
+  "likes": 23,
   "top": [
    {
     "id": "9mRzsVeSNn4",
@@ -337,6 +337,13 @@
   ],
   "recent": [
    {
+    "title": "Grandkid texted you 'that's lowkey sus'? Translated",
+    "url": "https://www.youtube.com/shorts/SJzm0VJglpg",
+    "published": "2026-11-11T20:02:23+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
     "title": "What to say when a scam caller pressures you",
     "url": "https://www.youtube.com/shorts/3Z-cVhpVI3c",
     "published": "2026-11-10T12:37:54+00:00",
@@ -363,16 +370,16 @@
     "published": "2026-11-09T20:59:54+00:00",
     "views": 2,
     "likes": 0
-   },
-   {
-    "title": "POV: everyone in the meeting is using AI #Shorts",
-    "url": "https://www.youtube.com/shorts/1Z8d6CqPQHU",
-    "published": "2026-11-09T20:56:29+00:00",
-    "views": 8,
-    "likes": 0
    }
   ],
   "all": [
+   {
+    "title": "Grandkid texted you 'that's lowkey sus'? Translated",
+    "url": "https://www.youtube.com/shorts/SJzm0VJglpg",
+    "published": "2026-11-11T20:02:23+00:00",
+    "views": 0,
+    "likes": 0
+   },
    {
     "title": "What to say when a scam caller pressures you",
     "url": "https://www.youtube.com/shorts/3Z-cVhpVI3c",
@@ -470,18 +477,19 @@
     "published": "2026-11-06T21:28:35+00:00",
     "views": 475,
     "likes": 7
-   },
-   {
-    "title": "Grandpa said it slaps?! Slang translated #Shorts",
-    "url": "https://www.youtube.com/shorts/QtHsxWyALPQ",
-    "published": "2026-11-06T05:12:00+00:00",
-    "views": 72,
-    "likes": 4
    }
   ],
   "catalog": true,
-  "exact_videos": 30,
+  "exact_videos": 31,
   "list": [
+   {
+    "id": "SJzm0VJglpg",
+    "title": "Grandkid texted you 'that's lowkey sus'? Translated",
+    "url": "https://youtube.com/shorts/SJzm0VJglpg",
+    "views": 0,
+    "published": "2026-11-11",
+    "exact": true
+   },
    {
     "id": "3Z-cVhpVI3c",
     "title": "What to say when a scam caller pressures you",
@@ -590,7 +598,7 @@
     "id": "sF0OHgEgq9E",
     "title": "Grandma, it's a vibe? Gen Z slang translated #Shorts",
     "url": "https://youtube.com/shorts/sF0OHgEgq9E",
-    "views": 310,
+    "views": 311,
     "published": "2026-11-05",
     "exact": true
    },
@@ -739,18 +747,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-11T19:27:40.115966Z"
+  "checked_at": "2026-11-11T21:06:19.885094Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "32 videos on the channel, 30 with exact counts (rest from the channel page, rounded) = 8516 views"
+   "detail": "33 videos on the channel, 31 with exact counts (rest from the channel page, rounded) = 8517 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "14 real people this week; 2166 of 2181 page views were bots, crawlers or testing and are excluded"
+   "detail": "14 real people this week; 2165 of 2180 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -759,59 +767,51 @@
   },
   {
    "name": "Posting",
-   "ok": false,
-   "detail": "YouTube 0/1 planned posts found live on the channel today"
+   "ok": true,
+   "detail": "YouTube 1/1 planned posts found live on the channel today"
   },
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 7h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 45h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 46h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-11",
-  "now_et": "2:28 PM",
+  "now_et": "4:06 PM",
   "today": {
    "youtube": {
     "planned": 1,
-    "done": 0,
+    "done": 1,
     "verified": true,
-    "overdue": 1,
+    "overdue": 0,
     "items": [
      {
       "title": "Grandkid texted you 'that's lowkey sus'? Translated",
       "id": "slang20a",
       "when": "2026-11-11T07:30:00-05:00",
       "slot": "am",
-      "done": false,
+      "done": true,
       "verified": true,
       "due": true
      }
     ],
-    "next": {
-     "title": "Grandkid texted you 'that's lowkey sus'? Translated",
-     "id": "slang20a",
-     "when": "2026-11-11T07:30:00-05:00",
-     "slot": "am",
-     "done": false,
-     "verified": true,
-     "due": true
-    }
+    "next": null
    },
    "facebook": {
     "planned": 1,
@@ -875,8 +875,9 @@
     "platforms": [
      {
       "p": "youtube",
-      "status": "missing",
-      "url": null
+      "status": "live",
+      "url": "https://youtube.com/shorts/SJzm0VJglpg",
+      "views": 0
      }
     ]
    },
@@ -1280,7 +1281,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/sF0OHgEgq9E",
-      "views": 310
+      "views": 311
      }
     ]
    },
@@ -1426,11 +1427,12 @@
    }
   ],
   "yt_by_day": {
+   "2026-11-11": 1,
    "2026-11-10": 3,
    "2026-11-09": 2,
    "2026-11-08": 3,
    "2026-11-07": 5,
-   "2026-11-06": 2
+   "2026-11-06": 1
   },
   "comments_by_day": {}
  },
@@ -1441,5 +1443,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-11T19:27:40.115966Z"
+ "checked_at": "2026-11-11T21:06:19.885094Z"
 }
