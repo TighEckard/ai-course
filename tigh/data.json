@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T15:27:54.032597Z",
+ "generated_at": "2026-11-11T15:44:18.302320Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -86,7 +86,7 @@
    "Chrome": 16,
    "Safari": 6
   },
-  "generated_at": "2026-11-11T15:27:54.517795+00:00",
+  "generated_at": "2026-11-11T15:44:18.887729+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -306,7 +306,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8518,
+  "total_views": 8516,
   "videos": 32,
   "likes": 27,
   "top": [
@@ -582,7 +582,7 @@
     "id": "Khk-oMwNaQQ",
     "title": "Stop typing on your phone. Just talk. #Shorts",
     "url": "https://youtube.com/shorts/Khk-oMwNaQQ",
-    "views": 337,
+    "views": 336,
     "published": "2026-11-05",
     "exact": true
    },
@@ -710,7 +710,7 @@
     "id": "lRXGM46vjpk",
     "title": "4 slang words your grandkids say, translated #Shorts",
     "url": "https://youtube.com/shorts/lRXGM46vjpk",
-    "views": 936,
+    "views": 935,
     "published": null,
     "exact": true
    },
@@ -739,13 +739,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-11T15:27:54.032597Z"
+  "checked_at": "2026-11-11T15:44:18.302320Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "32 videos on the channel, 30 with exact counts (rest from the channel page, rounded) = 8518 views"
+   "detail": "32 videos on the channel, 30 with exact counts (rest from the channel page, rounded) = 8516 views"
   },
   {
    "name": "Website visitors",
@@ -765,12 +765,12 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 4h ago"
   },
   {
    "name": "Roofing",
@@ -785,7 +785,7 @@
  ],
  "posting": {
   "date": "2026-11-11",
-  "now_et": "10:28 AM",
+  "now_et": "10:44 AM",
   "today": {
    "youtube": {
     "planned": 1,
@@ -1312,7 +1312,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/Khk-oMwNaQQ",
-      "views": 337
+      "views": 336
      }
     ]
    },
@@ -1441,5 +1441,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-11T15:27:54.032597Z"
+ "checked_at": "2026-11-11T15:44:18.302320Z"
 }
