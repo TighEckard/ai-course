@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T12:28:16.965901Z",
+ "generated_at": "2026-11-11T12:44:25.373329Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -85,7 +85,7 @@
    "Chrome": 16,
    "Safari": 5
   },
-  "generated_at": "2026-11-11T12:28:17.688218+00:00",
+  "generated_at": "2026-11-11T12:44:25.864645+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -738,7 +738,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-11T12:28:16.965901Z"
+  "checked_at": "2026-11-11T12:44:25.373329Z"
  },
  "checks": [
   {
@@ -758,18 +758,18 @@
   },
   {
    "name": "Posting",
-   "ok": true,
+   "ok": false,
    "detail": "YouTube 0/1 planned posts found live on the channel today"
   },
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Roofing",
@@ -784,13 +784,13 @@
  ],
  "posting": {
   "date": "2026-11-11",
-  "now_et": "7:28 AM",
+  "now_et": "7:44 AM",
   "today": {
    "youtube": {
     "planned": 1,
     "done": 0,
     "verified": true,
-    "overdue": 0,
+    "overdue": 1,
     "items": [
      {
       "title": "Grandkid texted you 'that's lowkey sus'? Translated",
@@ -799,7 +799,7 @@
       "slot": "am",
       "done": false,
       "verified": true,
-      "due": false
+      "due": true
      }
     ],
     "next": {
@@ -809,7 +809,7 @@
      "slot": "am",
      "done": false,
      "verified": true,
-     "due": false
+     "due": true
     }
    },
    "facebook": {
@@ -1440,5 +1440,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-11T12:28:16.965901Z"
+ "checked_at": "2026-11-11T12:44:25.373329Z"
 }
