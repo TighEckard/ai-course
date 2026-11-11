@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T00:06:22.738360Z",
+ "generated_at": "2026-11-11T00:27:51.041180Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -84,7 +84,7 @@
    "Chrome": 15,
    "Safari": 5
   },
-  "generated_at": "2026-11-11T00:06:22.957022+00:00",
+  "generated_at": "2026-11-11T00:27:51.253198+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -304,7 +304,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8518,
+  "total_views": 8516,
   "videos": 32,
   "likes": 27,
   "top": [
@@ -352,7 +352,7 @@
     "title": "What to say when a scam caller pressures you",
     "url": "https://www.youtube.com/shorts/BMZBrj5YJGs",
     "published": "2026-11-10T02:37:27+00:00",
-    "views": 4,
+    "views": 5,
     "likes": 0
    },
    {
@@ -389,7 +389,7 @@
     "title": "What to say when a scam caller pressures you",
     "url": "https://www.youtube.com/shorts/BMZBrj5YJGs",
     "published": "2026-11-10T02:37:27+00:00",
-    "views": 4,
+    "views": 5,
     "likes": 0
    },
    {
@@ -445,14 +445,14 @@
     "title": "Scam or safe? Can you spot it? #Shorts",
     "url": "https://www.youtube.com/shorts/wr1wnbtk9EM",
     "published": "2026-11-07T23:36:24+00:00",
-    "views": 2,
+    "views": 0,
     "likes": 0
    },
    {
     "title": "Decode any confusing letter with AI in 3 steps #Shorts",
     "url": "https://www.youtube.com/shorts/O0v42Pppyxo",
     "published": "2026-11-07T19:11:32+00:00",
-    "views": 4,
+    "views": 1,
     "likes": 0
    },
    {
@@ -564,7 +564,7 @@
     "id": "wr1wnbtk9EM",
     "title": "Scam or safe? Can you spot it? #Shorts",
     "url": "https://youtube.com/shorts/wr1wnbtk9EM",
-    "views": 0,
+    "views": 2,
     "published": "2026-11-07",
     "exact": true
    },
@@ -572,7 +572,7 @@
     "id": "O0v42Pppyxo",
     "title": "Decode any confusing letter with AI in 3 steps #Shorts",
     "url": "https://youtube.com/shorts/O0v42Pppyxo",
-    "views": 4,
+    "views": 1,
     "published": "2026-11-07",
     "exact": true
    },
@@ -596,7 +596,7 @@
     "id": "EqSk3xo9tTg",
     "title": "Grandma, he ghosted me? Gen Z slang translated #Shorts",
     "url": "https://youtube.com/shorts/EqSk3xo9tTg",
-    "views": 4,
+    "views": 3,
     "published": "2026-11-04",
     "exact": true
    },
@@ -737,13 +737,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-11T00:06:22.738360Z"
+  "checked_at": "2026-11-11T00:27:51.041180Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "32 videos on the channel, 30 with exact counts (rest from the channel page, rounded) = 8518 views"
+   "detail": "32 videos on the channel, 30 with exact counts (rest from the channel page, rounded) = 8516 views"
   },
   {
    "name": "Website visitors",
@@ -763,7 +763,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 3h ago"
   },
   {
    "name": "Ovoa",
@@ -773,17 +773,17 @@
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 25h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 26h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-10",
-  "now_et": "7:06 PM",
+  "now_et": "7:28 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1189,7 +1189,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/O0v42Pppyxo",
-      "views": 4
+      "views": 1
      }
     ]
    },
@@ -1221,7 +1221,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/wr1wnbtk9EM",
-      "views": 0
+      "views": 2
      }
     ]
    },
@@ -1343,7 +1343,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/EqSk3xo9tTg",
-      "views": 4
+      "views": 3
      }
     ]
    },
@@ -1503,5 +1503,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-11T00:06:22.738360Z"
+ "checked_at": "2026-11-11T00:27:51.041180Z"
 }
