@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T01:28:01.362604Z",
+ "generated_at": "2026-11-12T02:27:47.000125Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -86,7 +86,7 @@
    "Chrome": 16,
    "Safari": 6
   },
-  "generated_at": "2026-11-12T01:28:02.190046+00:00",
+  "generated_at": "2026-11-12T02:27:47.503815+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -571,14 +571,6 @@
     "exact": true
    },
    {
-    "id": "lRXGM46vjpk",
-    "title": "4 slang words your grandkids say, translated #Shorts",
-    "url": "https://youtube.com/shorts/lRXGM46vjpk",
-    "views": 935,
-    "published": "2026-11-07T04:35:38-08:00",
-    "exact": true
-   },
-   {
     "id": "wr1wnbtk9EM",
     "title": "Scam or safe? Can you spot it? #Shorts",
     "url": "https://youtube.com/shorts/wr1wnbtk9EM",
@@ -723,6 +715,14 @@
     "exact": true
    },
    {
+    "id": "lRXGM46vjpk",
+    "title": "4 slang words your grandkids say, translated #Shorts",
+    "url": "https://youtube.com/shorts/lRXGM46vjpk",
+    "views": 935,
+    "published": null,
+    "exact": true
+   },
+   {
     "id": "B0h7mqzcssY",
     "title": "Nana took an L? Grandma learns slang #Shorts",
     "url": "https://youtube.com/shorts/B0h7mqzcssY",
@@ -747,7 +747,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-12T01:28:01.362604Z"
+  "checked_at": "2026-11-12T02:27:47.000125Z"
  },
  "checks": [
   {
@@ -773,12 +773,12 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Roofing",
@@ -788,12 +788,12 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 51h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 52h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-11",
-  "now_et": "8:28 PM",
+  "now_et": "9:28 PM",
   "today": {
    "youtube": {
     "planned": 1,
@@ -1443,5 +1443,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-12T01:28:01.362604Z"
+ "checked_at": "2026-11-12T02:27:47.000125Z"
 }
