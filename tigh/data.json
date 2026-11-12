@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T11:27:36.307745Z",
+ "generated_at": "2026-11-12T12:06:32.223189Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -86,7 +86,7 @@
    "Chrome": 16,
    "Safari": 6
   },
-  "generated_at": "2026-11-12T11:27:37.164903+00:00",
+  "generated_at": "2026-11-12T12:06:33.106609+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -331,8 +331,8 @@
     "title": "Grandkid said it's bussin? Translated #Shorts",
     "url": "https://youtube.com/shorts/hjJIzapOj24",
     "views": 963,
-    "published": "2026-11-01",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-01"
    }
   ],
   "recent": [
@@ -480,159 +480,175 @@
    }
   ],
   "catalog": true,
-  "exact_videos": 31,
+  "exact_videos": 0,
   "list": [
    {
     "id": "SJzm0VJglpg",
     "title": "Grandkid texted you 'that's lowkey sus'? Translated",
     "url": "https://youtube.com/shorts/SJzm0VJglpg",
     "views": 0,
-    "published": "2026-11-11",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-11T20:02:23+00:00"
    },
    {
     "id": "3Z-cVhpVI3c",
     "title": "What to say when a scam caller pressures you",
     "url": "https://youtube.com/shorts/3Z-cVhpVI3c",
     "views": 1,
-    "published": "2026-11-10",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-10T12:37:54+00:00"
    },
    {
     "id": "yf6HJrYj3ww",
     "title": "Scam or safe? Can you tell?",
     "url": "https://youtube.com/shorts/yf6HJrYj3ww",
     "views": 0,
-    "published": "2026-11-10",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-10T02:40:17+00:00"
    },
    {
     "id": "BMZBrj5YJGs",
     "title": "What to say when a scam caller pressures you",
     "url": "https://youtube.com/shorts/BMZBrj5YJGs",
     "views": 7,
-    "published": "2026-11-10",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-10T02:37:27+00:00"
    },
    {
     "id": "1L9U100WIN0",
     "title": "One phone setting that stops scam calls #Shorts",
     "url": "https://youtube.com/shorts/1L9U100WIN0",
     "views": 3,
-    "published": "2026-11-09",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-09T20:59:54+00:00"
    },
    {
     "id": "1Z8d6CqPQHU",
     "title": "POV: everyone in the meeting is using AI #Shorts",
     "url": "https://youtube.com/shorts/1Z8d6CqPQHU",
     "views": 8,
-    "published": "2026-11-09",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-09T20:56:29+00:00"
    },
    {
     "id": "-4fKye0-VjE",
     "title": "The email that could get you a $14k raise #Shorts",
     "url": "https://youtube.com/shorts/-4fKye0-VjE",
     "views": 1,
-    "published": "2026-11-08",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-08T04:28:34+00:00"
    },
    {
     "id": "o-Cm_xmLloU",
     "title": "The email that could get you a $14k raise #Shorts",
     "url": "https://youtube.com/shorts/o-Cm_xmLloU",
     "views": 2,
-    "published": "2026-11-08",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-08T03:37:08+00:00"
    },
    {
     "id": "tCjX_vTzg9I",
     "title": "The intern got promoted. He's 22. #Shorts",
     "url": "https://youtube.com/shorts/tCjX_vTzg9I",
     "views": 0,
-    "published": "2026-11-08",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-08T00:25:01+00:00"
    },
    {
     "id": "aHFCFhbCeZk",
     "title": "Insurance letter in plain English with AI #Shorts",
     "url": "https://youtube.com/shorts/aHFCFhbCeZk",
     "views": 2,
-    "published": "2026-11-08",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-07T23:59:23+00:00"
    },
    {
     "id": "O0DxIt_fQjA",
     "title": "Plan a whole trip with AI in a minute #Shorts",
     "url": "https://youtube.com/shorts/O0DxIt_fQjA",
     "views": 2,
-    "published": "2026-11-08",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-07T23:55:33+00:00"
    },
    {
     "id": "wr1wnbtk9EM",
     "title": "Scam or safe? Can you spot it? #Shorts",
     "url": "https://youtube.com/shorts/wr1wnbtk9EM",
     "views": 0,
-    "published": "2026-11-07",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-07T23:36:24+00:00"
    },
    {
     "id": "O0v42Pppyxo",
     "title": "Decode any confusing letter with AI in 3 steps #Shorts",
     "url": "https://youtube.com/shorts/O0v42Pppyxo",
     "views": 1,
-    "published": "2026-11-07",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-07T19:11:32+00:00"
+   },
+   {
+    "id": "lRXGM46vjpk",
+    "title": "4 slang words your grandkids say, translated #Shorts",
+    "url": "https://youtube.com/shorts/lRXGM46vjpk",
+    "views": 935,
+    "exact": false,
+    "published": "2026-11-07T12:35:38+00:00"
+   },
+   {
+    "id": "B0h7mqzcssY",
+    "title": "Nana took an L? Grandma learns slang #Shorts",
+    "url": "https://youtube.com/shorts/B0h7mqzcssY",
+    "views": 475,
+    "exact": false,
+    "published": "2026-11-06T21:28:35+00:00"
    },
    {
     "id": "Khk-oMwNaQQ",
     "title": "Stop typing on your phone. Just talk. #Shorts",
     "url": "https://youtube.com/shorts/Khk-oMwNaQQ",
     "views": 336,
-    "published": "2026-11-05",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-05"
    },
    {
     "id": "sF0OHgEgq9E",
     "title": "Grandma, it's a vibe? Gen Z slang translated #Shorts",
     "url": "https://youtube.com/shorts/sF0OHgEgq9E",
     "views": 311,
-    "published": "2026-11-05",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-05"
    },
    {
     "id": "EqSk3xo9tTg",
     "title": "Grandma, he ghosted me? Gen Z slang translated #Shorts",
     "url": "https://youtube.com/shorts/EqSk3xo9tTg",
     "views": 3,
-    "published": "2026-11-04",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-04"
    },
    {
     "id": "DuTUAAUjx7Q",
     "title": "Grandma asks AI what to cook (pirate chef) #Shorts",
     "url": "https://youtube.com/shorts/DuTUAAUjx7Q",
     "views": 78,
-    "published": "2026-11-04",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-04"
    },
    {
     "id": "vsjOK3cLpwo",
     "title": "Grandma, he ghosted me? Gen Z slang translated #Shorts",
     "url": "https://youtube.com/shorts/vsjOK3cLpwo",
     "views": 602,
-    "published": "2026-11-04",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-04"
    },
    {
     "id": "TGZoeTOM7mc",
     "title": "Grandma almost forwarded a $500 gift card scam #Shorts",
     "url": "https://youtube.com/shorts/TGZoeTOM7mc",
     "views": 123,
-    "published": "2026-11-03",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-03"
    },
    {
     "id": "9mRzsVeSNn4",
@@ -655,105 +671,89 @@
     "title": "Grandkid called you bestie? Translated #Shorts",
     "url": "https://youtube.com/shorts/BUodsaR44Gw",
     "views": 461,
-    "published": "2026-11-01",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-01"
    },
    {
     "id": "ku-cxkxCR98",
     "title": "Grandkid said you're giving legend? Translated #Shorts",
     "url": "https://youtube.com/shorts/ku-cxkxCR98",
     "views": 543,
-    "published": "2026-11-01",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-01"
    },
    {
     "id": "hjJIzapOj24",
     "title": "Grandkid said it's bussin? Translated #Shorts",
     "url": "https://youtube.com/shorts/hjJIzapOj24",
     "views": 963,
-    "published": "2026-11-01",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-01"
    },
    {
     "id": "FtxyGZ_771Q",
     "title": "Grandkid said that was clutch? Translated #Shorts",
     "url": "https://youtube.com/shorts/FtxyGZ_771Q",
     "views": 933,
-    "published": "2026-11-01",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-01"
    },
    {
     "id": "fb3EgepkM3w",
     "title": "Grandkid said you slayed? Translated #Shorts",
     "url": "https://youtube.com/shorts/fb3EgepkM3w",
     "views": 123,
-    "published": "2026-10-31",
-    "exact": true
+    "exact": false,
+    "published": "2026-10-31"
    },
    {
     "id": "eDt9NFCB3Gg",
     "title": "Grandkid said touch grass? Translated #Shorts",
     "url": "https://youtube.com/shorts/eDt9NFCB3Gg",
     "views": 135,
-    "published": "2026-10-31",
-    "exact": true
+    "exact": false,
+    "published": "2026-10-31"
    },
    {
     "id": "LG6Nfc2Bl5M",
     "title": "Is your grandkid calling you sus? Translated #Shorts",
     "url": "https://youtube.com/shorts/LG6Nfc2Bl5M",
     "views": 20,
-    "published": "2026-10-31",
-    "exact": true
+    "exact": false,
+    "published": "2026-10-31"
    },
    {
     "id": "T80t5oERuVU",
     "title": "Grandma, you're such a vibe? Translated #Shorts",
     "url": "https://youtube.com/shorts/T80t5oERuVU",
     "views": 65,
-    "published": "2026-10-31",
-    "exact": true
-   },
-   {
-    "id": "lRXGM46vjpk",
-    "title": "4 slang words your grandkids say, translated #Shorts",
-    "url": "https://youtube.com/shorts/lRXGM46vjpk",
-    "views": 935,
-    "published": null,
-    "exact": true
-   },
-   {
-    "id": "B0h7mqzcssY",
-    "title": "Nana took an L? Grandma learns slang #Shorts",
-    "url": "https://youtube.com/shorts/B0h7mqzcssY",
-    "views": 475,
-    "published": null,
-    "exact": true
+    "exact": false,
+    "published": "2026-10-31"
    },
    {
     "id": "QtHsxWyALPQ",
     "title": "Grandpa said it slaps?! Slang translated #Shorts",
     "url": "https://youtube.com/shorts/QtHsxWyALPQ",
     "views": 72,
-    "published": null,
-    "exact": true
+    "exact": false,
+    "published": null
    },
    {
     "id": "f8rEnPDi6cs",
     "title": "Now you speak fluent grandkid #shorts",
     "url": "https://youtube.com/shorts/f8rEnPDi6cs",
     "views": 15,
-    "published": null,
-    "exact": true
+    "exact": false,
+    "published": null
    }
   ],
-  "checked_at": "2026-11-12T11:27:36.307745Z"
+  "checked_at": "2026-11-12T12:06:32.223189Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "33 videos on the channel, 31 with exact counts (rest from the channel page, rounded) = 8520 views"
+   "detail": "33 videos on the channel, 0 with exact counts (rest from the channel page, rounded) = 8520 views"
   },
   {
    "name": "Website visitors",
@@ -778,12 +778,12 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
@@ -793,7 +793,7 @@
  ],
  "posting": {
   "date": "2026-11-12",
-  "now_et": "6:28 AM",
+  "now_et": "7:06 AM",
   "today": {
    "youtube": {
     "planned": 1,
@@ -883,7 +883,7 @@
     "platforms": [
      {
       "p": "youtube",
-      "status": "scheduled",
+      "status": "missing",
       "url": null
      }
     ]
@@ -1405,5 +1405,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-12T11:27:36.307745Z"
+ "checked_at": "2026-11-12T12:06:32.223189Z"
 }
