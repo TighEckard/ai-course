@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T09:06:33.529965Z",
+ "generated_at": "2026-11-12T09:27:25.809919Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -86,7 +86,7 @@
    "Chrome": 16,
    "Safari": 6
   },
-  "generated_at": "2026-11-12T09:06:34.170933+00:00",
+  "generated_at": "2026-11-12T09:27:26.534763+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -306,7 +306,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8520,
+  "total_views": 8519,
   "videos": 33,
   "likes": 24,
   "top": [
@@ -518,7 +518,7 @@
     "id": "1L9U100WIN0",
     "title": "One phone setting that stops scam calls #Shorts",
     "url": "https://youtube.com/shorts/1L9U100WIN0",
-    "views": 3,
+    "views": 2,
     "published": "2026-11-09",
     "exact": true
    },
@@ -747,13 +747,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-12T09:06:33.529965Z"
+  "checked_at": "2026-11-12T09:27:25.809919Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "33 videos on the channel, 31 with exact counts (rest from the channel page, rounded) = 8520 views"
+   "detail": "33 videos on the channel, 31 with exact counts (rest from the channel page, rounded) = 8519 views"
   },
   {
    "name": "Website visitors",
@@ -773,7 +773,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 3h ago"
   },
   {
    "name": "Ovoa",
@@ -783,17 +783,17 @@
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 58h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 59h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-12",
-  "now_et": "4:06 AM",
+  "now_et": "4:27 AM",
   "today": {
    "youtube": {
     "planned": 1,
@@ -1057,7 +1057,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/1L9U100WIN0",
-      "views": 3
+      "views": 2
      }
     ]
    },
@@ -1405,5 +1405,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-12T09:06:33.529965Z"
+ "checked_at": "2026-11-12T09:27:25.809919Z"
 }
