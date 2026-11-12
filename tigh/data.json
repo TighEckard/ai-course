@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T09:27:25.809919Z",
+ "generated_at": "2026-11-12T09:44:16.289366Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -86,7 +86,7 @@
    "Chrome": 16,
    "Safari": 6
   },
-  "generated_at": "2026-11-12T09:27:26.534763+00:00",
+  "generated_at": "2026-11-12T09:44:16.89862+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -306,7 +306,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8519,
+  "total_views": 8520,
   "videos": 33,
   "likes": 24,
   "top": [
@@ -518,7 +518,7 @@
     "id": "1L9U100WIN0",
     "title": "One phone setting that stops scam calls #Shorts",
     "url": "https://youtube.com/shorts/1L9U100WIN0",
-    "views": 2,
+    "views": 3,
     "published": "2026-11-09",
     "exact": true
    },
@@ -747,13 +747,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-12T09:27:25.809919Z"
+  "checked_at": "2026-11-12T09:44:16.289366Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "33 videos on the channel, 31 with exact counts (rest from the channel page, rounded) = 8519 views"
+   "detail": "33 videos on the channel, 31 with exact counts (rest from the channel page, rounded) = 8520 views"
   },
   {
    "name": "Website visitors",
@@ -773,12 +773,12 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Roofing",
@@ -793,7 +793,7 @@
  ],
  "posting": {
   "date": "2026-11-12",
-  "now_et": "4:27 AM",
+  "now_et": "4:44 AM",
   "today": {
    "youtube": {
     "planned": 1,
@@ -1057,7 +1057,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/1L9U100WIN0",
-      "views": 2
+      "views": 3
      }
     ]
    },
@@ -1405,5 +1405,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-12T09:27:25.809919Z"
+ "checked_at": "2026-11-12T09:44:16.289366Z"
 }
