@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T15:06:50.798940Z",
+ "generated_at": "2026-11-12T15:27:35.808312Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -79,14 +79,14 @@
    "2026-11-09": 2,
    "2026-11-11": 2
   },
-  "all_views_7d": 2178,
+  "all_views_7d": 2177,
   "bot_views_7d": 2166,
   "browsers_30d": {
    "?": 1,
    "Chrome": 16,
    "Safari": 6
   },
-  "generated_at": "2026-11-12T15:06:51.727519+00:00",
+  "generated_at": "2026-11-12T15:27:36.700171+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -280,7 +280,7 @@
   },
   "avg_time_sec_30d": 59,
   "new_visitors_30d": 20,
-  "real_sessions_7d": 12,
+  "real_sessions_7d": 11,
   "real_sources_30d": {
    "direct": 8,
    "google": 10,
@@ -288,7 +288,7 @@
    "pinterest": 1
   },
   "real_visitors_1d": 0,
-  "real_visitors_7d": 11,
+  "real_visitors_7d": 10,
   "landing_pages_30d": {
    "/": 20,
    "?": 1,
@@ -763,7 +763,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-12T15:06:50.798940Z"
+  "checked_at": "2026-11-12T15:27:35.808312Z"
  },
  "checks": [
   {
@@ -774,7 +774,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "11 real people this week; 2166 of 2178 page views were bots, crawlers or testing and are excluded"
+   "detail": "10 real people this week; 2166 of 2177 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -789,7 +789,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 3h ago"
   },
   {
    "name": "Ovoa",
@@ -799,17 +799,17 @@
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 64h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 65h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-12",
-  "now_et": "10:07 AM",
+  "now_et": "10:28 AM",
   "today": {
    "youtube": {
     "planned": 1,
@@ -1414,5 +1414,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-12T15:06:50.798940Z"
+ "checked_at": "2026-11-12T15:27:35.808312Z"
 }
