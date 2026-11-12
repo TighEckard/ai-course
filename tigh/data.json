@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T22:27:37.459833Z",
+ "generated_at": "2026-11-12T23:27:43.274418Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -60,7 +60,7 @@
   },
   "roofing_7d": 0,
   "signups_1d": 0,
-  "signups_7d": 1,
+  "signups_7d": 0,
   "devices_30d": {
    "?": 1,
    "mobile": 10,
@@ -79,14 +79,14 @@
    "2026-11-09": 2,
    "2026-11-11": 2
   },
-  "all_views_7d": 2260,
-  "bot_views_7d": 2250,
+  "all_views_7d": 2331,
+  "bot_views_7d": 2322,
   "browsers_30d": {
    "?": 1,
    "Chrome": 16,
    "Safari": 6
   },
-  "generated_at": "2026-11-12T22:27:37.701292+00:00",
+  "generated_at": "2026-11-12T23:27:43.604098+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -280,7 +280,7 @@
   },
   "avg_time_sec_30d": 59,
   "new_visitors_30d": 20,
-  "real_sessions_7d": 10,
+  "real_sessions_7d": 9,
   "real_sources_30d": {
    "direct": 8,
    "google": 10,
@@ -288,7 +288,7 @@
    "pinterest": 1
   },
   "real_visitors_1d": 0,
-  "real_visitors_7d": 9,
+  "real_visitors_7d": 8,
   "landing_pages_30d": {
    "/": 20,
    "?": 1,
@@ -763,7 +763,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-12T22:27:37.459833Z"
+  "checked_at": "2026-11-12T23:27:43.274418Z"
  },
  "checks": [
   {
@@ -774,7 +774,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "9 real people this week; 2250 of 2260 page views were bots, crawlers or testing and are excluded"
+   "detail": "8 real people this week; 2322 of 2331 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -789,12 +789,12 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Roofing",
@@ -804,12 +804,12 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 72h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 73h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-12",
-  "now_et": "5:28 PM",
+  "now_et": "6:28 PM",
   "today": {
    "youtube": {
     "planned": 1,
@@ -1414,5 +1414,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-12T22:27:37.459833Z"
+ "checked_at": "2026-11-12T23:27:43.274418Z"
 }
