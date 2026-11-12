@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T09:44:16.289366Z",
+ "generated_at": "2026-11-12T10:28:22.506198Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -86,7 +86,7 @@
    "Chrome": 16,
    "Safari": 6
   },
-  "generated_at": "2026-11-12T09:44:16.89862+00:00",
+  "generated_at": "2026-11-12T10:28:23.139657+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -368,7 +368,7 @@
     "title": "One phone setting that stops scam calls #Shorts",
     "url": "https://www.youtube.com/shorts/1L9U100WIN0",
     "published": "2026-11-09T20:59:54+00:00",
-    "views": 2,
+    "views": 3,
     "likes": 0
    }
   ],
@@ -405,7 +405,7 @@
     "title": "One phone setting that stops scam calls #Shorts",
     "url": "https://www.youtube.com/shorts/1L9U100WIN0",
     "published": "2026-11-09T20:59:54+00:00",
-    "views": 2,
+    "views": 3,
     "likes": 0
    },
    {
@@ -747,7 +747,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-12T09:44:16.289366Z"
+  "checked_at": "2026-11-12T10:28:22.506198Z"
  },
  "checks": [
   {
@@ -773,7 +773,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Ovoa",
@@ -788,12 +788,12 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 59h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 60h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-12",
-  "now_et": "4:44 AM",
+  "now_et": "5:28 AM",
   "today": {
    "youtube": {
     "planned": 1,
@@ -1405,5 +1405,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-12T09:44:16.289366Z"
+ "checked_at": "2026-11-12T10:28:22.506198Z"
 }
