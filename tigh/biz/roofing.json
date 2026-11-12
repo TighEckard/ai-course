@@ -1,6 +1,6 @@
 {
   "name": "Roofing",
-  "updated": "2026-11-12T18:28:08Z",
+  "updated": "2026-11-12T19:27:43Z",
   "notes": "Page and lead numbers are from the last hourly check (live counts need a Supabase sign-in). Facebook numbers are from the comment log. Friend requests and follows are paused after the Nov 8 rate limit.",
   "headline": [
     {
@@ -14,12 +14,12 @@
     },
     {
       "label": "FB comments posted",
-      "value": 16,
-      "sub": "1 today ET"
+      "value": 17,
+      "sub": "2 today ET"
     },
     {
       "label": "FB posts logged",
-      "value": 30
+      "value": 31
     },
     {
       "label": "FB warnings",
@@ -65,11 +65,11 @@
       "tiles": [
         {
           "label": "Posts logged",
-          "value": 30
+          "value": 31
         },
         {
           "label": "Commented",
-          "value": 16
+          "value": 17
         },
         {
           "label": "Skipped",
@@ -102,7 +102,7 @@
             "2026-11-09": 4,
             "2026-11-10": 0,
             "2026-11-11": 5,
-            "2026-11-12": 1
+            "2026-11-12": 2
           },
           "days": 14
         }
