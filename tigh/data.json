@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T00:44:44.218778Z",
+ "generated_at": "2026-11-12T01:28:01.362604Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -86,7 +86,7 @@
    "Chrome": 16,
    "Safari": 6
   },
-  "generated_at": "2026-11-12T00:44:44.839967+00:00",
+  "generated_at": "2026-11-12T01:28:02.190046+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -306,9 +306,9 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8517,
+  "total_views": 8518,
   "videos": 33,
-  "likes": 23,
+  "likes": 24,
   "top": [
    {
     "id": "9mRzsVeSNn4",
@@ -347,8 +347,8 @@
     "title": "What to say when a scam caller pressures you",
     "url": "https://www.youtube.com/shorts/3Z-cVhpVI3c",
     "published": "2026-11-10T12:37:54+00:00",
-    "views": 0,
-    "likes": 0
+    "views": 1,
+    "likes": 1
    },
    {
     "title": "Scam or safe? Can you tell?",
@@ -384,8 +384,8 @@
     "title": "What to say when a scam caller pressures you",
     "url": "https://www.youtube.com/shorts/3Z-cVhpVI3c",
     "published": "2026-11-10T12:37:54+00:00",
-    "views": 0,
-    "likes": 0
+    "views": 1,
+    "likes": 1
    },
    {
     "title": "Scam or safe? Can you tell?",
@@ -494,7 +494,7 @@
     "id": "3Z-cVhpVI3c",
     "title": "What to say when a scam caller pressures you",
     "url": "https://youtube.com/shorts/3Z-cVhpVI3c",
-    "views": 0,
+    "views": 1,
     "published": "2026-11-10",
     "exact": true
    },
@@ -568,6 +568,14 @@
     "url": "https://youtube.com/shorts/O0DxIt_fQjA",
     "views": 2,
     "published": "2026-11-08",
+    "exact": true
+   },
+   {
+    "id": "lRXGM46vjpk",
+    "title": "4 slang words your grandkids say, translated #Shorts",
+    "url": "https://youtube.com/shorts/lRXGM46vjpk",
+    "views": 935,
+    "published": "2026-11-07T04:35:38-08:00",
     "exact": true
    },
    {
@@ -715,14 +723,6 @@
     "exact": true
    },
    {
-    "id": "lRXGM46vjpk",
-    "title": "4 slang words your grandkids say, translated #Shorts",
-    "url": "https://youtube.com/shorts/lRXGM46vjpk",
-    "views": 935,
-    "published": null,
-    "exact": true
-   },
-   {
     "id": "B0h7mqzcssY",
     "title": "Nana took an L? Grandma learns slang #Shorts",
     "url": "https://youtube.com/shorts/B0h7mqzcssY",
@@ -747,13 +747,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-12T00:44:44.218778Z"
+  "checked_at": "2026-11-12T01:28:01.362604Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "33 videos on the channel, 31 with exact counts (rest from the channel page, rounded) = 8517 views"
+   "detail": "33 videos on the channel, 31 with exact counts (rest from the channel page, rounded) = 8518 views"
   },
   {
    "name": "Website visitors",
@@ -773,7 +773,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Ovoa",
@@ -788,12 +788,12 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 50h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 51h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-11",
-  "now_et": "7:45 PM",
+  "now_et": "8:28 PM",
   "today": {
    "youtube": {
     "planned": 1,
@@ -909,7 +909,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/3Z-cVhpVI3c",
-      "views": 0
+      "views": 1
      }
     ]
    },
@@ -1443,5 +1443,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-12T00:44:44.218778Z"
+ "checked_at": "2026-11-12T01:28:01.362604Z"
 }
