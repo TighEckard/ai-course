@@ -1,6 +1,8 @@
 {
- "generated_at": "2026-11-12T15:43:41.292776Z",
- "errors": {},
+ "generated_at": "2026-11-12T16:28:20.693694Z",
+ "errors": {
+  "youtube_catalog_shorts": "<urlopen error [Errno 104] Connection reset by peer>"
+ },
  "site": {
   "os_30d": {
    "?": 1,
@@ -86,7 +88,7 @@
    "Chrome": 16,
    "Safari": 6
   },
-  "generated_at": "2026-11-12T15:43:41.943106+00:00",
+  "generated_at": "2026-11-12T16:28:21.563523+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -480,7 +482,7 @@
    }
   ],
   "catalog": true,
-  "exact_videos": 33,
+  "exact_videos": 31,
   "list": [
    {
     "id": "gNvoRlgUQSg",
@@ -535,14 +537,6 @@
     "title": "One phone setting that stops scam calls #Shorts",
     "url": "https://youtube.com/shorts/1L9U100WIN0",
     "views": 3,
-    "published": "2026-11-09",
-    "exact": true
-   },
-   {
-    "id": "1Z8d6CqPQHU",
-    "title": "POV: everyone in the meeting is using AI #Shorts",
-    "url": "https://youtube.com/shorts/1Z8d6CqPQHU",
-    "views": 8,
     "published": "2026-11-09",
     "exact": true
    },
@@ -679,8 +673,8 @@
     "title": "Grandkid said you're giving legend? Translated #Shorts",
     "url": "https://youtube.com/shorts/ku-cxkxCR98",
     "views": 543,
-    "published": "2026-11-01",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-01"
    },
    {
     "id": "hjJIzapOj24",
@@ -731,6 +725,14 @@
     "exact": true
    },
    {
+    "id": "1Z8d6CqPQHU",
+    "title": "1Z8d6CqPQHU",
+    "url": "https://youtube.com/shorts/1Z8d6CqPQHU",
+    "views": 8,
+    "published": null,
+    "exact": true
+   },
+   {
     "id": "lRXGM46vjpk",
     "title": "4 slang words your grandkids say, translated #Shorts",
     "url": "https://youtube.com/shorts/lRXGM46vjpk",
@@ -743,8 +745,8 @@
     "title": "Nana took an L? Grandma learns slang #Shorts",
     "url": "https://youtube.com/shorts/B0h7mqzcssY",
     "views": 475,
-    "published": null,
-    "exact": true
+    "exact": false,
+    "published": null
    },
    {
     "id": "QtHsxWyALPQ",
@@ -756,20 +758,20 @@
    },
    {
     "id": "f8rEnPDi6cs",
-    "title": "Now you speak fluent grandkid #shorts",
+    "title": "f8rEnPDi6cs",
     "url": "https://youtube.com/shorts/f8rEnPDi6cs",
     "views": 15,
     "published": null,
     "exact": true
    }
   ],
-  "checked_at": "2026-11-12T15:43:41.292776Z"
+  "checked_at": "2026-11-12T16:28:20.693694Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "35 videos on the channel, 33 with exact counts (rest from the channel page, rounded) = 8521 views"
+   "detail": "35 videos on the channel, 31 with exact counts (rest from the channel page, rounded) = 8521 views"
   },
   {
    "name": "Website visitors",
@@ -789,7 +791,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Ovoa",
@@ -804,12 +806,12 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 65h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 66h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-12",
-  "now_et": "10:44 AM",
+  "now_et": "11:28 AM",
   "today": {
    "youtube": {
     "planned": 1,
@@ -1032,9 +1034,8 @@
     "platforms": [
      {
       "p": "youtube",
-      "status": "live",
-      "url": "https://youtube.com/shorts/1Z8d6CqPQHU",
-      "views": 8
+      "status": "missing",
+      "url": null
      }
     ]
    },
@@ -1414,5 +1415,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-12T15:43:41.292776Z"
+ "checked_at": "2026-11-12T16:28:20.693694Z"
 }
