@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T13:27:35.887004Z",
+ "generated_at": "2026-11-12T14:19:56.504887Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -86,7 +86,7 @@
    "Chrome": 16,
    "Safari": 6
   },
-  "generated_at": "2026-11-12T13:27:36.709374+00:00",
+  "generated_at": "2026-11-12T14:19:57.021536+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -306,7 +306,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8520,
+  "total_views": 8521,
   "videos": 35,
   "likes": 1,
   "top": [
@@ -502,7 +502,7 @@
     "id": "SJzm0VJglpg",
     "title": "Grandkid texted you 'that's lowkey sus'? Translated",
     "url": "https://youtube.com/shorts/SJzm0VJglpg",
-    "views": 0,
+    "views": 1,
     "published": "2026-11-11",
     "exact": true
    },
@@ -763,13 +763,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-12T13:27:35.887004Z"
+  "checked_at": "2026-11-12T14:19:56.504887Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "35 videos on the channel, 33 with exact counts (rest from the channel page, rounded) = 8520 views"
+   "detail": "35 videos on the channel, 33 with exact counts (rest from the channel page, rounded) = 8521 views"
   },
   {
    "name": "Website visitors",
@@ -789,27 +789,27 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 63h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 64h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-12",
-  "now_et": "8:28 AM",
+  "now_et": "9:20 AM",
   "today": {
    "youtube": {
     "planned": 1,
@@ -1414,5 +1414,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-12T13:27:35.887004Z"
+ "checked_at": "2026-11-12T14:19:56.504887Z"
 }
