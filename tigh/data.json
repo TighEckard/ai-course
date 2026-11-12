@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T12:27:39.409562Z",
+ "generated_at": "2026-11-12T12:44:23.558802Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -86,7 +86,7 @@
    "Chrome": 16,
    "Safari": 6
   },
-  "generated_at": "2026-11-12T12:27:40.017801+00:00",
+  "generated_at": "2026-11-12T12:44:24.228015+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -306,9 +306,9 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8521,
-  "videos": 33,
-  "likes": 24,
+  "total_views": 8520,
+  "videos": 35,
+  "likes": 1,
   "top": [
    {
     "id": "9mRzsVeSNn4",
@@ -337,6 +337,20 @@
   ],
   "recent": [
    {
+    "title": "Grandkid texted 'it's giving fake'? Translated",
+    "url": "https://www.youtube.com/shorts/gNvoRlgUQSg",
+    "published": "2026-11-12T12:37:56+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
+    "title": "Grandkid texted you 'that's lowkey sus'? Translated",
+    "url": "https://www.youtube.com/shorts/dVX1bZdId60",
+    "published": "2026-11-12T12:35:28+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
     "title": "Grandkid texted you 'that's lowkey sus'? Translated",
     "url": "https://www.youtube.com/shorts/SJzm0VJglpg",
     "published": "2026-11-11T20:02:23+00:00",
@@ -356,23 +370,23 @@
     "published": "2026-11-10T02:40:17+00:00",
     "views": 0,
     "likes": 0
-   },
-   {
-    "title": "What to say when a scam caller pressures you",
-    "url": "https://www.youtube.com/shorts/BMZBrj5YJGs",
-    "published": "2026-11-10T02:37:27+00:00",
-    "views": 7,
-    "likes": 0
-   },
-   {
-    "title": "One phone setting that stops scam calls #Shorts",
-    "url": "https://www.youtube.com/shorts/1L9U100WIN0",
-    "published": "2026-11-09T20:59:54+00:00",
-    "views": 3,
-    "likes": 0
    }
   ],
   "all": [
+   {
+    "title": "Grandkid texted 'it's giving fake'? Translated",
+    "url": "https://www.youtube.com/shorts/gNvoRlgUQSg",
+    "published": "2026-11-12T12:37:56+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
+    "title": "Grandkid texted you 'that's lowkey sus'? Translated",
+    "url": "https://www.youtube.com/shorts/dVX1bZdId60",
+    "published": "2026-11-12T12:35:28+00:00",
+    "views": 0,
+    "likes": 0
+   },
    {
     "title": "Grandkid texted you 'that's lowkey sus'? Translated",
     "url": "https://www.youtube.com/shorts/SJzm0VJglpg",
@@ -463,30 +477,32 @@
     "published": "2026-11-07T19:11:32+00:00",
     "views": 1,
     "likes": 0
-   },
-   {
-    "title": "4 slang words your grandkids say, translated #Shorts",
-    "url": "https://www.youtube.com/shorts/lRXGM46vjpk",
-    "published": "2026-11-07T12:35:38+00:00",
-    "views": 935,
-    "likes": 16
-   },
-   {
-    "title": "Nana took an L? Grandma learns slang #Shorts",
-    "url": "https://www.youtube.com/shorts/B0h7mqzcssY",
-    "published": "2026-11-06T21:28:35+00:00",
-    "views": 475,
-    "likes": 7
    }
   ],
   "catalog": true,
-  "exact_videos": 31,
+  "exact_videos": 33,
   "list": [
+   {
+    "id": "gNvoRlgUQSg",
+    "title": "Grandkid texted 'it's giving fake'? Translated",
+    "url": "https://youtube.com/shorts/gNvoRlgUQSg",
+    "views": 0,
+    "published": "2026-11-12",
+    "exact": true
+   },
+   {
+    "id": "dVX1bZdId60",
+    "title": "Grandkid texted you 'that's lowkey sus'? Translated",
+    "url": "https://youtube.com/shorts/dVX1bZdId60",
+    "views": 0,
+    "published": "2026-11-11",
+    "exact": true
+   },
    {
     "id": "SJzm0VJglpg",
     "title": "Grandkid texted you 'that's lowkey sus'? Translated",
     "url": "https://youtube.com/shorts/SJzm0VJglpg",
-    "views": 1,
+    "views": 0,
     "published": "2026-11-11",
     "exact": true
    },
@@ -747,13 +763,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-12T12:27:39.409562Z"
+  "checked_at": "2026-11-12T12:44:23.558802Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "33 videos on the channel, 31 with exact counts (rest from the channel page, rounded) = 8521 views"
+   "detail": "35 videos on the channel, 33 with exact counts (rest from the channel page, rounded) = 8520 views"
   },
   {
    "name": "Website visitors",
@@ -768,17 +784,17 @@
   {
    "name": "Posting",
    "ok": true,
-   "detail": "YouTube 0/1 planned posts found live on the channel today"
+   "detail": "YouTube 1/1 planned posts found live on the channel today"
   },
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Roofing",
@@ -793,11 +809,11 @@
  ],
  "posting": {
   "date": "2026-11-12",
-  "now_et": "7:28 AM",
+  "now_et": "7:44 AM",
   "today": {
    "youtube": {
     "planned": 1,
-    "done": 0,
+    "done": 1,
     "verified": true,
     "overdue": 0,
     "items": [
@@ -806,20 +822,12 @@
       "id": "slang21a",
       "when": "2026-11-12T07:30:00-05:00",
       "slot": "am",
-      "done": false,
+      "done": true,
       "verified": true,
-      "due": false
+      "due": true
      }
     ],
-    "next": {
-     "title": "Grandkid texted 'it's giving fake'? Translated",
-     "id": "slang21a",
-     "when": "2026-11-12T07:30:00-05:00",
-     "slot": "am",
-     "done": false,
-     "verified": true,
-     "due": false
-    }
+    "next": null
    },
    "facebook": {
     "planned": 1,
@@ -883,8 +891,9 @@
     "platforms": [
      {
       "p": "youtube",
-      "status": "missing",
-      "url": null
+      "status": "live",
+      "url": "https://youtube.com/shorts/gNvoRlgUQSg",
+      "views": 0
      }
     ]
    },
@@ -915,8 +924,8 @@
      {
       "p": "youtube",
       "status": "live",
-      "url": "https://youtube.com/shorts/SJzm0VJglpg",
-      "views": 1
+      "url": "https://youtube.com/shorts/dVX1bZdId60",
+      "views": 0
      }
     ]
    },
@@ -1389,12 +1398,12 @@
    }
   ],
   "yt_by_day": {
+   "2026-11-12": 2,
    "2026-11-11": 1,
    "2026-11-10": 3,
    "2026-11-09": 2,
    "2026-11-08": 3,
-   "2026-11-07": 5,
-   "2026-11-06": 1
+   "2026-11-07": 4
   },
   "comments_by_day": {}
  },
@@ -1405,5 +1414,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-12T12:27:39.409562Z"
+ "checked_at": "2026-11-12T12:44:23.558802Z"
 }
