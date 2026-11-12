@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T06:05:54.600298Z",
+ "generated_at": "2026-11-12T06:27:46.940120Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -86,7 +86,7 @@
    "Chrome": 16,
    "Safari": 6
   },
-  "generated_at": "2026-11-12T06:05:55.380655+00:00",
+  "generated_at": "2026-11-12T06:27:47.480959+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -306,7 +306,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8518,
+  "total_views": 8519,
   "videos": 33,
   "likes": 0,
   "top": [
@@ -368,7 +368,7 @@
     "id": "BMZBrj5YJGs",
     "title": "What to say when a scam caller pressures you",
     "url": "https://youtube.com/shorts/BMZBrj5YJGs",
-    "views": 6,
+    "views": 7,
     "published": "2026-11-10",
     "exact": true
    },
@@ -605,13 +605,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-12T06:05:54.600298Z"
+  "checked_at": "2026-11-12T06:27:46.940120Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "33 videos on the channel, 31 with exact counts (rest from the channel page, rounded) = 8518 views"
+   "detail": "33 videos on the channel, 31 with exact counts (rest from the channel page, rounded) = 8519 views"
   },
   {
    "name": "Website visitors",
@@ -631,7 +631,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 3h ago"
   },
   {
    "name": "Ovoa",
@@ -641,17 +641,17 @@
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 55h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 56h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-12",
-  "now_et": "1:06 AM",
+  "now_et": "1:28 AM",
   "today": {
    "youtube": {
     "planned": 1,
@@ -1256,5 +1256,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-12T06:05:54.600298Z"
+ "checked_at": "2026-11-12T06:27:46.940120Z"
 }
