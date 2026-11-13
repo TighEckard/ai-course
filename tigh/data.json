@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T15:18:50.445186Z",
+ "generated_at": "2026-11-13T15:27:46.899226Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -79,14 +79,14 @@
    "2026-11-09": 2,
    "2026-11-11": 2
   },
-  "all_views_7d": 2797,
-  "bot_views_7d": 2788,
+  "all_views_7d": 2802,
+  "bot_views_7d": 2793,
   "browsers_30d": {
    "?": 1,
    "Chrome": 16,
    "Safari": 6
   },
-  "generated_at": "2026-11-13T15:18:50.869553+00:00",
+  "generated_at": "2026-11-13T15:27:46.988755+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -480,7 +480,7 @@
    }
   ],
   "catalog": true,
-  "exact_videos": 33,
+  "exact_videos": 32,
   "list": [
    {
     "id": "gNvoRlgUQSg",
@@ -531,18 +531,18 @@
     "exact": true
    },
    {
-    "id": "1L9U100WIN0",
-    "title": "One phone setting that stops scam calls #Shorts",
-    "url": "https://youtube.com/shorts/1L9U100WIN0",
-    "views": 3,
-    "published": "2026-11-09",
-    "exact": true
-   },
-   {
     "id": "1Z8d6CqPQHU",
     "title": "POV: everyone in the meeting is using AI #Shorts",
     "url": "https://youtube.com/shorts/1Z8d6CqPQHU",
     "views": 8,
+    "exact": false,
+    "published": "2026-11-09T20:56:29+00:00"
+   },
+   {
+    "id": "1L9U100WIN0",
+    "title": "One phone setting that stops scam calls #Shorts",
+    "url": "https://youtube.com/shorts/1L9U100WIN0",
+    "views": 3,
     "published": "2026-11-09",
     "exact": true
    },
@@ -763,18 +763,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-13T15:18:50.445186Z"
+  "checked_at": "2026-11-13T15:27:46.899226Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "35 videos on the channel, 33 with exact counts (rest from the channel page, rounded) = 8522 views"
+   "detail": "35 videos on the channel, 32 with exact counts (rest from the channel page, rounded) = 8522 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "8 real people this week; 2788 of 2797 page views were bots, crawlers or testing and are excluded"
+   "detail": "8 real people this week; 2793 of 2802 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -799,17 +799,17 @@
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 88h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 89h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-13",
-  "now_et": "10:19 AM",
+  "now_et": "10:28 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1418,5 +1418,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-13T15:18:50.445186Z"
+ "checked_at": "2026-11-13T15:27:46.899226Z"
 }
