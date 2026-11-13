@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T03:27:49.197334Z",
+ "generated_at": "2026-11-13T03:44:41.372148Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -79,14 +79,14 @@
    "2026-11-09": 2,
    "2026-11-11": 2
   },
-  "all_views_7d": 2601,
-  "bot_views_7d": 2592,
+  "all_views_7d": 2605,
+  "bot_views_7d": 2596,
   "browsers_30d": {
    "?": 1,
    "Chrome": 16,
    "Safari": 6
   },
-  "generated_at": "2026-11-13T03:27:49.468718+00:00",
+  "generated_at": "2026-11-13T03:44:41.87622+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -621,7 +621,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-13T03:27:49.197334Z"
+  "checked_at": "2026-11-13T03:44:41.372148Z"
  },
  "checks": [
   {
@@ -632,7 +632,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "8 real people this week; 2592 of 2601 page views were bots, crawlers or testing and are excluded"
+   "detail": "8 real people this week; 2596 of 2605 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -647,12 +647,12 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Roofing",
@@ -667,7 +667,7 @@
  ],
  "posting": {
   "date": "2026-11-12",
-  "now_et": "10:28 PM",
+  "now_et": "10:45 PM",
   "today": {
    "youtube": {
     "planned": 1,
@@ -700,7 +700,7 @@
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": false
+      "due": true
      }
     ],
     "next": {
@@ -710,7 +710,7 @@
      "slot": "pm",
      "done": null,
      "verified": false,
-     "due": false
+     "due": true
     }
    },
    "instagram": {
@@ -726,7 +726,7 @@
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": false
+      "due": true
      }
     ],
     "next": {
@@ -736,7 +736,7 @@
      "slot": "pm",
      "done": null,
      "verified": false,
-     "due": false
+     "due": true
     }
    }
   },
@@ -1265,5 +1265,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-13T03:27:49.197334Z"
+ "checked_at": "2026-11-13T03:44:41.372148Z"
 }
