@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T00:27:41.735942Z",
+ "generated_at": "2026-11-13T00:43:58.250861Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -79,14 +79,14 @@
    "2026-11-09": 2,
    "2026-11-11": 2
   },
-  "all_views_7d": 2396,
-  "bot_views_7d": 2387,
+  "all_views_7d": 2416,
+  "bot_views_7d": 2407,
   "browsers_30d": {
    "?": 1,
    "Chrome": 16,
    "Safari": 6
   },
-  "generated_at": "2026-11-13T00:27:41.985891+00:00",
+  "generated_at": "2026-11-13T00:43:58.524236+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -621,7 +621,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-13T00:27:41.735942Z"
+  "checked_at": "2026-11-13T00:43:58.250861Z"
  },
  "checks": [
   {
@@ -632,7 +632,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "8 real people this week; 2387 of 2396 page views were bots, crawlers or testing and are excluded"
+   "detail": "8 real people this week; 2407 of 2416 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -647,12 +647,12 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Roofing",
@@ -667,7 +667,7 @@
  ],
  "posting": {
   "date": "2026-11-12",
-  "now_et": "7:28 PM",
+  "now_et": "7:44 PM",
   "today": {
    "youtube": {
     "planned": 1,
@@ -1265,5 +1265,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-13T00:27:41.735942Z"
+ "checked_at": "2026-11-13T00:43:58.250861Z"
 }
