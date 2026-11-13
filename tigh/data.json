@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T02:27:51.501331Z",
+ "generated_at": "2026-11-13T03:06:35.711088Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -79,14 +79,14 @@
    "2026-11-09": 2,
    "2026-11-11": 2
   },
-  "all_views_7d": 2517,
-  "bot_views_7d": 2508,
+  "all_views_7d": 2574,
+  "bot_views_7d": 2565,
   "browsers_30d": {
    "?": 1,
    "Chrome": 16,
    "Safari": 6
   },
-  "generated_at": "2026-11-13T02:27:51.60886+00:00",
+  "generated_at": "2026-11-13T03:06:36.058544+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -621,7 +621,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-13T02:27:51.501331Z"
+  "checked_at": "2026-11-13T03:06:35.711088Z"
  },
  "checks": [
   {
@@ -632,7 +632,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "8 real people this week; 2508 of 2517 page views were bots, crawlers or testing and are excluded"
+   "detail": "8 real people this week; 2565 of 2574 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -652,12 +652,12 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
@@ -667,7 +667,7 @@
  ],
  "posting": {
   "date": "2026-11-12",
-  "now_et": "9:28 PM",
+  "now_et": "10:07 PM",
   "today": {
    "youtube": {
     "planned": 1,
@@ -1265,5 +1265,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-13T02:27:51.501331Z"
+ "checked_at": "2026-11-13T03:06:35.711088Z"
 }
