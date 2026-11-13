@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T12:28:15.626505Z",
+ "generated_at": "2026-11-13T12:44:28.459524Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -79,14 +79,14 @@
    "2026-11-09": 2,
    "2026-11-11": 2
   },
-  "all_views_7d": 2737,
-  "bot_views_7d": 2728,
+  "all_views_7d": 2743,
+  "bot_views_7d": 2734,
   "browsers_30d": {
    "?": 1,
    "Chrome": 16,
    "Safari": 6
   },
-  "generated_at": "2026-11-13T12:28:15.964554+00:00",
+  "generated_at": "2026-11-13T12:44:28.804773+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -763,7 +763,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-13T12:28:15.626505Z"
+  "checked_at": "2026-11-13T12:44:28.459524Z"
  },
  "checks": [
   {
@@ -774,7 +774,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "8 real people this week; 2728 of 2737 page views were bots, crawlers or testing and are excluded"
+   "detail": "8 real people this week; 2734 of 2743 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -783,18 +783,18 @@
   },
   {
    "name": "Posting",
-   "ok": true,
+   "ok": false,
    "detail": "YouTube 0/2 planned posts found live on the channel today"
   },
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Roofing",
@@ -809,13 +809,13 @@
  ],
  "posting": {
   "date": "2026-11-13",
-  "now_et": "7:28 AM",
+  "now_et": "7:44 AM",
   "today": {
    "youtube": {
     "planned": 2,
     "done": 0,
     "verified": true,
-    "overdue": 0,
+    "overdue": 1,
     "items": [
      {
       "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
@@ -824,7 +824,7 @@
       "slot": "am",
       "done": false,
       "verified": true,
-      "due": false
+      "due": true
      },
      {
       "title": "Your grandson texts: send $2k, keep it secret",
@@ -843,7 +843,7 @@
      "slot": "am",
      "done": false,
      "verified": true,
-     "due": false
+     "due": true
     }
    },
    "facebook": {
@@ -859,7 +859,7 @@
       "slot": "am",
       "done": null,
       "verified": false,
-      "due": false
+      "due": true
      },
      {
       "title": "Your grandson texts: send $2k, keep it secret",
@@ -878,7 +878,7 @@
      "slot": "am",
      "done": null,
      "verified": false,
-     "due": false
+     "due": true
     }
    },
    "instagram": {
@@ -894,7 +894,7 @@
       "slot": "am",
       "done": null,
       "verified": false,
-      "due": false
+      "due": true
      },
      {
       "title": "Your grandson texts: send $2k, keep it secret",
@@ -913,7 +913,7 @@
      "slot": "am",
      "done": null,
      "verified": false,
-     "due": false
+     "due": true
     }
    }
   },
@@ -1418,5 +1418,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-13T12:28:15.626505Z"
+ "checked_at": "2026-11-13T12:44:28.459524Z"
 }
