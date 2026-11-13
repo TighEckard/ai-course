@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T07:28:09.510926Z",
+ "generated_at": "2026-11-13T08:27:55.729827Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -79,14 +79,14 @@
    "2026-11-09": 2,
    "2026-11-11": 2
   },
-  "all_views_7d": 2647,
-  "bot_views_7d": 2638,
+  "all_views_7d": 2662,
+  "bot_views_7d": 2653,
   "browsers_30d": {
    "?": 1,
    "Chrome": 16,
    "Safari": 6
   },
-  "generated_at": "2026-11-13T07:28:09.755241+00:00",
+  "generated_at": "2026-11-13T08:27:55.79013+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -308,7 +308,7 @@
  "youtube": {
   "total_views": 8522,
   "videos": 35,
-  "likes": 0,
+  "likes": 1,
   "top": [
    {
     "id": "9mRzsVeSNn4",
@@ -335,8 +335,150 @@
     "exact": true
    }
   ],
-  "recent": [],
-  "all": [],
+  "recent": [
+   {
+    "title": "Grandkid texted 'it's giving fake'? Translated",
+    "url": "https://www.youtube.com/shorts/gNvoRlgUQSg",
+    "published": "2026-11-12T12:37:56+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
+    "title": "Grandkid texted you 'that's lowkey sus'? Translated",
+    "url": "https://www.youtube.com/shorts/dVX1bZdId60",
+    "published": "2026-11-12T12:35:28+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
+    "title": "Grandkid texted you 'that's lowkey sus'? Translated",
+    "url": "https://www.youtube.com/shorts/SJzm0VJglpg",
+    "published": "2026-11-11T20:02:23+00:00",
+    "views": 1,
+    "likes": 0
+   },
+   {
+    "title": "What to say when a scam caller pressures you",
+    "url": "https://www.youtube.com/shorts/3Z-cVhpVI3c",
+    "published": "2026-11-10T12:37:54+00:00",
+    "views": 1,
+    "likes": 1
+   },
+   {
+    "title": "Scam or safe? Can you tell?",
+    "url": "https://www.youtube.com/shorts/yf6HJrYj3ww",
+    "published": "2026-11-10T02:40:17+00:00",
+    "views": 0,
+    "likes": 0
+   }
+  ],
+  "all": [
+   {
+    "title": "Grandkid texted 'it's giving fake'? Translated",
+    "url": "https://www.youtube.com/shorts/gNvoRlgUQSg",
+    "published": "2026-11-12T12:37:56+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
+    "title": "Grandkid texted you 'that's lowkey sus'? Translated",
+    "url": "https://www.youtube.com/shorts/dVX1bZdId60",
+    "published": "2026-11-12T12:35:28+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
+    "title": "Grandkid texted you 'that's lowkey sus'? Translated",
+    "url": "https://www.youtube.com/shorts/SJzm0VJglpg",
+    "published": "2026-11-11T20:02:23+00:00",
+    "views": 1,
+    "likes": 0
+   },
+   {
+    "title": "What to say when a scam caller pressures you",
+    "url": "https://www.youtube.com/shorts/3Z-cVhpVI3c",
+    "published": "2026-11-10T12:37:54+00:00",
+    "views": 1,
+    "likes": 1
+   },
+   {
+    "title": "Scam or safe? Can you tell?",
+    "url": "https://www.youtube.com/shorts/yf6HJrYj3ww",
+    "published": "2026-11-10T02:40:17+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
+    "title": "What to say when a scam caller pressures you",
+    "url": "https://www.youtube.com/shorts/BMZBrj5YJGs",
+    "published": "2026-11-10T02:37:27+00:00",
+    "views": 8,
+    "likes": 0
+   },
+   {
+    "title": "One phone setting that stops scam calls #Shorts",
+    "url": "https://www.youtube.com/shorts/1L9U100WIN0",
+    "published": "2026-11-09T20:59:54+00:00",
+    "views": 3,
+    "likes": 0
+   },
+   {
+    "title": "POV: everyone in the meeting is using AI #Shorts",
+    "url": "https://www.youtube.com/shorts/1Z8d6CqPQHU",
+    "published": "2026-11-09T20:56:29+00:00",
+    "views": 8,
+    "likes": 0
+   },
+   {
+    "title": "The email that could get you a $14k raise #Shorts",
+    "url": "https://www.youtube.com/shorts/-4fKye0-VjE",
+    "published": "2026-11-08T04:28:34+00:00",
+    "views": 1,
+    "likes": 0
+   },
+   {
+    "title": "The email that could get you a $14k raise #Shorts",
+    "url": "https://www.youtube.com/shorts/o-Cm_xmLloU",
+    "published": "2026-11-08T03:37:08+00:00",
+    "views": 2,
+    "likes": 0
+   },
+   {
+    "title": "The intern got promoted. He's 22. #Shorts",
+    "url": "https://www.youtube.com/shorts/tCjX_vTzg9I",
+    "published": "2026-11-08T00:25:01+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
+    "title": "Insurance letter in plain English with AI #Shorts",
+    "url": "https://www.youtube.com/shorts/aHFCFhbCeZk",
+    "published": "2026-11-07T23:59:23+00:00",
+    "views": 2,
+    "likes": 0
+   },
+   {
+    "title": "Plan a whole trip with AI in a minute #Shorts",
+    "url": "https://www.youtube.com/shorts/O0DxIt_fQjA",
+    "published": "2026-11-07T23:55:33+00:00",
+    "views": 2,
+    "likes": 0
+   },
+   {
+    "title": "Scam or safe? Can you spot it? #Shorts",
+    "url": "https://www.youtube.com/shorts/wr1wnbtk9EM",
+    "published": "2026-11-07T23:36:24+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
+    "title": "Decode any confusing letter with AI in 3 steps #Shorts",
+    "url": "https://www.youtube.com/shorts/O0v42Pppyxo",
+    "published": "2026-11-07T19:11:32+00:00",
+    "views": 1,
+    "likes": 0
+   }
+  ],
   "catalog": true,
   "exact_videos": 33,
   "list": [
@@ -621,7 +763,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-13T07:28:09.510926Z"
+  "checked_at": "2026-11-13T08:27:55.729827Z"
  },
  "checks": [
   {
@@ -632,7 +774,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "8 real people this week; 2638 of 2647 page views were bots, crawlers or testing and are excluded"
+   "detail": "8 real people this week; 2653 of 2662 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -647,12 +789,12 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Roofing",
@@ -662,12 +804,12 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 81h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 82h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-13",
-  "now_et": "2:28 AM",
+  "now_et": "3:28 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1259,7 +1401,14 @@
     ]
    }
   ],
-  "yt_by_day": {},
+  "yt_by_day": {
+   "2026-11-12": 2,
+   "2026-11-11": 1,
+   "2026-11-10": 3,
+   "2026-11-09": 2,
+   "2026-11-08": 3,
+   "2026-11-07": 4
+  },
   "comments_by_day": {}
  },
  "social": {
@@ -1269,5 +1418,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-13T07:28:09.510926Z"
+ "checked_at": "2026-11-13T08:27:55.729827Z"
 }
