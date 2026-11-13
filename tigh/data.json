@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T10:28:21.157301Z",
+ "generated_at": "2026-11-13T10:33:27.919410Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -79,14 +79,14 @@
    "2026-11-09": 2,
    "2026-11-11": 2
   },
-  "all_views_7d": 2690,
-  "bot_views_7d": 2681,
+  "all_views_7d": 2691,
+  "bot_views_7d": 2682,
   "browsers_30d": {
    "?": 1,
    "Chrome": 16,
    "Safari": 6
   },
-  "generated_at": "2026-11-13T10:28:21.429076+00:00",
+  "generated_at": "2026-11-13T10:33:28.414306+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -763,7 +763,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-13T10:28:21.157301Z"
+  "checked_at": "2026-11-13T10:33:27.919410Z"
  },
  "checks": [
   {
@@ -774,7 +774,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "8 real people this week; 2681 of 2690 page views were bots, crawlers or testing and are excluded"
+   "detail": "8 real people this week; 2682 of 2691 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -809,7 +809,7 @@
  ],
  "posting": {
   "date": "2026-11-13",
-  "now_et": "5:28 AM",
+  "now_et": "5:33 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1418,5 +1418,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-13T10:28:21.157301Z"
+ "checked_at": "2026-11-13T10:33:27.919410Z"
 }
