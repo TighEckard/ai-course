@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T10:22:01.438968Z",
+ "generated_at": "2026-11-14T10:28:21.600719Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -86,7 +86,7 @@
    "Chrome": 16,
    "Safari": 6
   },
-  "generated_at": "2026-11-14T10:22:01.728008+00:00",
+  "generated_at": "2026-11-14T10:28:21.97314+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -771,7 +771,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-14T10:22:01.438968Z"
+  "checked_at": "2026-11-14T10:28:21.600719Z"
  },
  "checks": [
   {
@@ -807,7 +807,7 @@
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Study creators",
@@ -817,7 +817,7 @@
  ],
  "posting": {
   "date": "2026-11-14",
-  "now_et": "5:22 AM",
+  "now_et": "5:28 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1461,5 +1461,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-14T10:22:01.438968Z"
+ "checked_at": "2026-11-14T10:28:21.600719Z"
 }
