@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-14T15:27:44.893756Z",
+ "generated_at": "2026-11-14T16:28:04.063496Z",
  "errors": {},
  "site": {
   "os_30d": {
-   "?": 1,
+   "?": 2,
    "iOS": 7,
    "Linux": 1,
    "macOS": 1,
@@ -18,7 +18,7 @@
    "06": 1,
    "08": 1,
    "09": 4,
-   "10": 2,
+   "10": 3,
    "13": 2,
    "14": 1,
    "15": 1,
@@ -28,10 +28,10 @@
    "21": 6
   },
   "cities_30d": {
+   "": 2,
    "Miami, Florida": 2,
-   "Portland, Maine": 1,
-   "Rockwall, Texas": 1,
-   "Geneva, Illinois": 1,
+   "Billings, Montana": 1,
+   "Westfield, Indiana": 1,
    "Louisville, Kentucky": 1,
    "Milford, Connecticut": 1,
    "Nashville, Tennessee": 2,
@@ -55,8 +55,8 @@
   },
   "funnel_30d": {
    "paid": 0,
-   "engaged": 20,
-   "visitors": 24,
+   "engaged": 21,
+   "visitors": 25,
    "signed_up": 2,
    "opened_join": 0
   },
@@ -64,7 +64,7 @@
   "signups_1d": 1,
   "signups_7d": 1,
   "devices_30d": {
-   "?": 1,
+   "?": 2,
    "mobile": 10,
    "desktop": 13
   },
@@ -80,25 +80,35 @@
    "2026-11-08": 4,
    "2026-11-09": 2,
    "2026-11-11": 2,
-   "2026-11-14": 1
+   "2026-11-14": 2
   },
-  "all_views_7d": 3210,
-  "bot_views_7d": 3197,
+  "all_views_7d": 3046,
+  "bot_views_7d": 3033,
   "browsers_30d": {
-   "?": 1,
+   "?": 2,
    "Chrome": 17,
    "Safari": 6
   },
-  "generated_at": "2026-11-14T15:27:45.61432+00:00",
+  "generated_at": "2026-11-14T16:28:04.53384+00:00",
   "paid_members": 0,
-  "avg_pages_30d": 1.2,
+  "avg_pages_30d": 1.1,
   "campaigns_30d": {},
   "countries_30d": {
-   "?": 1,
+   "?": 2,
    "Canada": 1,
    "United States": 22
   },
   "recent_visits": [
+   {
+    "t": "2026-11-14T15:47:02.735951+00:00",
+    "dev": null,
+    "src": "direct",
+    "land": null,
+    "secs": 61,
+    "pages": 0,
+    "place": "",
+    "scroll": 86
+   },
    {
     "t": "2026-11-14T11:37:23.696026+00:00",
     "dev": "desktop",
@@ -238,20 +248,10 @@
     "pages": 1,
     "place": "Milford, Connecticut",
     "scroll": 61
-   },
-   {
-    "t": "2026-11-05T02:42:28.01666+00:00",
-    "dev": "mobile",
-    "src": "direct",
-    "land": "/",
-    "secs": 113,
-    "pages": 1,
-    "place": "Westfield, Indiana",
-    "scroll": 100
    }
   ],
   "referrers_30d": {
-   "(none)": 9,
+   "(none)": 10,
    "google.com": 10,
    "facebook.com": 4,
    "pinterest.com": 1
@@ -259,7 +259,7 @@
   "roofing_total": 0,
   "signups_total": 2,
   "avg_scroll_30d": 72,
-  "bounce_pct_30d": 64,
+  "bounce_pct_30d": 65,
   "messages_total": 0,
   "real_pages_30d": {
    "/": 26,
@@ -291,37 +291,37 @@
    "Thursday, 7:00 PM": 1,
    "Saturday, 10:00 AM": 1
   },
-  "avg_time_sec_30d": 79,
+  "avg_time_sec_30d": 78,
   "new_visitors_30d": 21,
-  "real_sessions_7d": 10,
+  "real_sessions_7d": 11,
   "real_sources_30d": {
-   "direct": 8,
+   "direct": 9,
    "google": 10,
    "facebook": 4,
    "pinterest": 1,
    "chatgpt.com": 1
   },
-  "real_visitors_1d": 1,
-  "real_visitors_7d": 9,
+  "real_visitors_1d": 2,
+  "real_visitors_7d": 10,
   "landing_pages_30d": {
    "/": 21,
-   "?": 1,
+   "?": 2,
    "/roofing": 3
   },
-  "real_visitors_30d": 24,
+  "real_visitors_30d": 25,
   "signups_by_source": {
    "direct": 1,
    "ref:com.google.android.googlequicksearchbox": 1
   },
   "messages_unanswered": 0,
-  "real_visitors_total": 24,
+  "real_visitors_total": 25,
   "test_members_excluded": 1,
   "test_signups_excluded": 2,
-  "returning_visitors_30d": 4,
+  "returning_visitors_30d": 5,
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8684,
+  "total_views": 8673,
   "videos": 37,
   "likes": 3,
   "top": [
@@ -355,14 +355,14 @@
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://www.youtube.com/shorts/HsSq5MJ-juM",
     "published": "2026-11-14T12:36:00+00:00",
-    "views": 26,
+    "views": 30,
     "likes": 0
    },
    {
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://www.youtube.com/shorts/QSxj4gj4llM",
     "published": "2026-11-13T23:36:47+00:00",
-    "views": 135,
+    "views": 132,
     "likes": 2
    },
    {
@@ -392,14 +392,14 @@
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://www.youtube.com/shorts/HsSq5MJ-juM",
     "published": "2026-11-14T12:36:00+00:00",
-    "views": 26,
+    "views": 30,
     "likes": 0
    },
    {
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://www.youtube.com/shorts/QSxj4gj4llM",
     "published": "2026-11-13T23:36:47+00:00",
-    "views": 135,
+    "views": 132,
     "likes": 2
    },
    {
@@ -495,13 +495,13 @@
    }
   ],
   "catalog": true,
-  "exact_videos": 35,
+  "exact_videos": 34,
   "list": [
    {
     "id": "HsSq5MJ-juM",
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-    "views": 26,
+    "views": 15,
     "published": "2026-11-14",
     "exact": true
    },
@@ -602,20 +602,20 @@
     "exact": true
    },
    {
-    "id": "aHFCFhbCeZk",
-    "title": "Insurance letter in plain English with AI #Shorts",
-    "url": "https://youtube.com/shorts/aHFCFhbCeZk",
-    "views": 2,
-    "published": "2026-11-08",
-    "exact": true
-   },
-   {
     "id": "O0DxIt_fQjA",
     "title": "Plan a whole trip with AI in a minute #Shorts",
     "url": "https://youtube.com/shorts/O0DxIt_fQjA",
     "views": 2,
     "published": "2026-11-08",
     "exact": true
+   },
+   {
+    "id": "aHFCFhbCeZk",
+    "title": "Insurance letter in plain English with AI #Shorts",
+    "url": "https://youtube.com/shorts/aHFCFhbCeZk",
+    "views": 2,
+    "exact": false,
+    "published": "2026-11-07T23:59:23+00:00"
    },
    {
     "id": "wr1wnbtk9EM",
@@ -794,18 +794,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-14T15:27:44.893756Z"
+  "checked_at": "2026-11-14T16:28:04.063496Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "37 videos on the channel, 35 with exact counts (rest from the channel page, rounded) = 8684 views"
+   "detail": "37 videos on the channel, 34 with exact counts (rest from the channel page, rounded) = 8673 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "9 real people this week; 3197 of 3210 page views were bots, crawlers or testing and are excluded"
+   "detail": "10 real people this week; 3033 of 3046 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -820,12 +820,12 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Roofing",
@@ -835,12 +835,12 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 113h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 114h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-14",
-  "now_et": "10:28 AM",
+  "now_et": "11:28 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -959,7 +959,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-      "views": 26
+      "views": 15
      },
      {
       "p": "facebook",
@@ -1486,5 +1486,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-14T15:27:44.893756Z"
+ "checked_at": "2026-11-14T16:28:04.063496Z"
 }
