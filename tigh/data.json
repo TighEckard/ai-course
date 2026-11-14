@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T08:27:46.893485Z",
+ "generated_at": "2026-11-14T09:06:28.889346Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -79,14 +79,14 @@
    "2026-11-09": 2,
    "2026-11-11": 2
   },
-  "all_views_7d": 3201,
-  "bot_views_7d": 3192,
+  "all_views_7d": 3202,
+  "bot_views_7d": 3193,
   "browsers_30d": {
    "?": 1,
    "Chrome": 16,
    "Safari": 6
   },
-  "generated_at": "2026-11-14T08:27:47.820106+00:00",
+  "generated_at": "2026-11-14T09:06:29.129944+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -306,7 +306,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8651,
+  "total_views": 8623,
   "videos": 36,
   "likes": 3,
   "top": [
@@ -486,7 +486,7 @@
     "id": "QSxj4gj4llM",
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://youtube.com/shorts/QSxj4gj4llM",
-    "views": 128,
+    "views": 100,
     "published": "2026-11-13",
     "exact": true
    },
@@ -771,18 +771,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-14T08:27:46.893485Z"
+  "checked_at": "2026-11-14T09:06:28.889346Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "36 videos on the channel, 34 with exact counts (rest from the channel page, rounded) = 8651 views"
+   "detail": "36 videos on the channel, 34 with exact counts (rest from the channel page, rounded) = 8623 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "8 real people this week; 3192 of 3201 page views were bots, crawlers or testing and are excluded"
+   "detail": "8 real people this week; 3193 of 3202 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -802,12 +802,12 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
@@ -817,7 +817,7 @@
  ],
  "posting": {
   "date": "2026-11-14",
-  "now_et": "3:28 AM",
+  "now_et": "4:06 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -982,7 +982,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/QSxj4gj4llM",
-      "views": 128
+      "views": 100
      },
      {
       "p": "facebook",
@@ -1461,5 +1461,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-14T08:27:46.893485Z"
+ "checked_at": "2026-11-14T09:06:28.889346Z"
 }
