@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T04:27:50.998240Z",
+ "generated_at": "2026-11-14T05:28:21.879119Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -79,14 +79,14 @@
    "2026-11-09": 2,
    "2026-11-11": 2
   },
-  "all_views_7d": 3197,
-  "bot_views_7d": 3188,
+  "all_views_7d": 3200,
+  "bot_views_7d": 3191,
   "browsers_30d": {
    "?": 1,
    "Chrome": 16,
    "Safari": 6
   },
-  "generated_at": "2026-11-14T04:27:51.576001+00:00",
+  "generated_at": "2026-11-14T05:28:22.529584+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -629,7 +629,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-14T04:27:50.998240Z"
+  "checked_at": "2026-11-14T05:28:21.879119Z"
  },
  "checks": [
   {
@@ -640,7 +640,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "8 real people this week; 3188 of 3197 page views were bots, crawlers or testing and are excluded"
+   "detail": "8 real people this week; 3191 of 3200 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -649,18 +649,18 @@
   },
   {
    "name": "Posting",
-   "ok": false,
-   "detail": "YouTube 1/2 planned posts found live on the channel today"
+   "ok": true,
+   "detail": "YouTube 0/2 planned posts found live on the channel today"
   },
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Roofing",
@@ -670,46 +670,46 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 102h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 103h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
-  "date": "2026-11-13",
-  "now_et": "11:28 PM",
+  "date": "2026-11-14",
+  "now_et": "12:28 AM",
   "today": {
    "youtube": {
     "planned": 2,
-    "done": 1,
+    "done": 0,
     "verified": true,
-    "overdue": 1,
+    "overdue": 0,
     "items": [
      {
-      "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
-      "id": "em03-letter",
-      "when": "2026-11-13T07:30:00-05:00",
+      "title": "Your bank texted that your account is locked? Do this first #Shorts",
+      "id": "em01-banktext",
+      "when": "2026-11-14T07:30:00-05:00",
       "slot": "am",
-      "done": true,
+      "done": false,
       "verified": true,
-      "due": true
+      "due": false
      },
      {
-      "title": "Your grandson texts: send $2k, keep it secret",
-      "id": "scam22a",
-      "when": "2026-11-13T22:30:00-05:00",
+      "title": "You got this text and almost clicked it",
+      "id": "pkg23b",
+      "when": "2026-11-14T22:30:00-05:00",
       "slot": "pm",
       "done": false,
       "verified": true,
-      "due": true
+      "due": false
      }
     ],
     "next": {
-     "title": "Your grandson texts: send $2k, keep it secret",
-     "id": "scam22a",
-     "when": "2026-11-13T22:30:00-05:00",
-     "slot": "pm",
+     "title": "Your bank texted that your account is locked? Do this first #Shorts",
+     "id": "em01-banktext",
+     "when": "2026-11-14T07:30:00-05:00",
+     "slot": "am",
      "done": false,
      "verified": true,
-     "due": true
+     "due": false
     }
    },
    "facebook": {
@@ -719,32 +719,32 @@
     "overdue": 0,
     "items": [
      {
-      "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
-      "id": "em03-letter",
-      "when": "2026-11-13T07:30:00-05:00",
+      "title": "Your bank texted that your account is locked? Do this first #Shorts",
+      "id": "em01-banktext",
+      "when": "2026-11-14T07:30:00-05:00",
       "slot": "am",
       "done": null,
       "verified": false,
-      "due": true
+      "due": false
      },
      {
-      "title": "Your grandson texts: send $2k, keep it secret",
-      "id": "scam22a",
-      "when": "2026-11-13T22:30:00-05:00",
+      "title": "You got this text and almost clicked it",
+      "id": "pkg23b",
+      "when": "2026-11-14T22:30:00-05:00",
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": true
+      "due": false
      }
     ],
     "next": {
-     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
-     "id": "em03-letter",
-     "when": "2026-11-13T07:30:00-05:00",
+     "title": "Your bank texted that your account is locked? Do this first #Shorts",
+     "id": "em01-banktext",
+     "when": "2026-11-14T07:30:00-05:00",
      "slot": "am",
      "done": null,
      "verified": false,
-     "due": true
+     "due": false
     }
    },
    "instagram": {
@@ -754,36 +754,82 @@
     "overdue": 0,
     "items": [
      {
-      "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
-      "id": "em03-letter",
-      "when": "2026-11-13T07:30:00-05:00",
+      "title": "Your bank texted that your account is locked? Do this first #Shorts",
+      "id": "em01-banktext",
+      "when": "2026-11-14T07:30:00-05:00",
       "slot": "am",
       "done": null,
       "verified": false,
-      "due": true
+      "due": false
      },
      {
-      "title": "Your grandson texts: send $2k, keep it secret",
-      "id": "scam22a",
-      "when": "2026-11-13T22:30:00-05:00",
+      "title": "You got this text and almost clicked it",
+      "id": "pkg23b",
+      "when": "2026-11-14T22:30:00-05:00",
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": true
+      "due": false
      }
     ],
     "next": {
-     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
-     "id": "em03-letter",
-     "when": "2026-11-13T07:30:00-05:00",
+     "title": "Your bank texted that your account is locked? Do this first #Shorts",
+     "id": "em01-banktext",
+     "when": "2026-11-14T07:30:00-05:00",
      "slot": "am",
      "done": null,
      "verified": false,
-     "due": true
+     "due": false
     }
    }
   },
   "history": [
+   {
+    "date": "2026-11-14",
+    "slot": "am",
+    "title": "Your bank texted that your account is locked? Do this first #Shorts",
+    "format": "emojianim 50+",
+    "platforms": [
+     {
+      "p": "youtube",
+      "status": "scheduled",
+      "url": null
+     },
+     {
+      "p": "facebook",
+      "status": "unverified",
+      "url": null
+     },
+     {
+      "p": "instagram",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-14",
+    "slot": "pm",
+    "title": "You got this text and almost clicked it",
+    "format": "slang v2 scam sting",
+    "platforms": [
+     {
+      "p": "youtube",
+      "status": "scheduled",
+      "url": null
+     },
+     {
+      "p": "facebook",
+      "status": "unverified",
+      "url": null
+     },
+     {
+      "p": "instagram",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
    {
     "date": "2026-11-13",
     "slot": "am",
@@ -1253,19 +1299,6 @@
       "url": null
      }
     ]
-   },
-   {
-    "date": "2026-11-06",
-    "slot": "am",
-    "title": "How to Spot a Fake Email (5 Easy Warning Signs)",
-    "format": "pin tall tips graphic",
-    "platforms": [
-     {
-      "p": "pinterest",
-      "status": "unverified",
-      "url": null
-     }
-    ]
    }
   ],
   "yt_by_day": {},
@@ -1278,5 +1311,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-14T04:27:50.998240Z"
+ "checked_at": "2026-11-14T05:28:21.879119Z"
 }
