@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T21:27:44.168370Z",
+ "generated_at": "2026-11-14T21:44:25.606111Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -89,7 +89,7 @@
    "Chrome": 17,
    "Safari": 6
   },
-  "generated_at": "2026-11-14T21:27:44.35525+00:00",
+  "generated_at": "2026-11-14T21:44:26.146347+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.1,
   "campaigns_30d": {},
@@ -321,7 +321,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8695,
+  "total_views": 8687,
   "videos": 37,
   "likes": 0,
   "top": [
@@ -359,7 +359,7 @@
     "id": "HsSq5MJ-juM",
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-    "views": 38,
+    "views": 30,
     "published": "2026-11-14",
     "exact": true
    },
@@ -652,13 +652,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-14T21:27:44.168370Z"
+  "checked_at": "2026-11-14T21:44:25.606111Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "37 videos on the channel, 35 with exact counts (rest from the channel page, rounded) = 8695 views"
+   "detail": "37 videos on the channel, 35 with exact counts (rest from the channel page, rounded) = 8687 views"
   },
   {
    "name": "Website visitors",
@@ -678,12 +678,12 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 6h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Roofing",
@@ -698,7 +698,7 @@
  ],
  "posting": {
   "date": "2026-11-14",
-  "now_et": "4:28 PM",
+  "now_et": "4:44 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -817,7 +817,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-      "views": 38
+      "views": 30
      },
      {
       "p": "facebook",
@@ -1335,5 +1335,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-14T21:27:44.168370Z"
+ "checked_at": "2026-11-14T21:44:25.606111Z"
 }
