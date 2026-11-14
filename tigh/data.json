@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T09:44:35.498774Z",
+ "generated_at": "2026-11-14T10:14:03.328021Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -86,7 +86,7 @@
    "Chrome": 16,
    "Safari": 6
   },
-  "generated_at": "2026-11-14T09:44:36.253417+00:00",
+  "generated_at": "2026-11-14T10:14:03.891216+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -340,7 +340,7 @@
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://www.youtube.com/shorts/QSxj4gj4llM",
     "published": "2026-11-13T23:36:47+00:00",
-    "views": 120,
+    "views": 125,
     "likes": 2
    },
    {
@@ -377,7 +377,7 @@
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://www.youtube.com/shorts/QSxj4gj4llM",
     "published": "2026-11-13T23:36:47+00:00",
-    "views": 120,
+    "views": 125,
     "likes": 2
    },
    {
@@ -771,7 +771,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-14T09:44:35.498774Z"
+  "checked_at": "2026-11-14T10:14:03.328021Z"
  },
  "checks": [
   {
@@ -807,7 +807,7 @@
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
@@ -817,7 +817,7 @@
  ],
  "posting": {
   "date": "2026-11-14",
-  "now_et": "4:45 AM",
+  "now_et": "5:14 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1461,5 +1461,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-14T09:44:35.498774Z"
+ "checked_at": "2026-11-14T10:14:03.328021Z"
 }
