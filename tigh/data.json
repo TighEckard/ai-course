@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T16:28:04.063496Z",
+ "generated_at": "2026-11-14T17:01:26.854816Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -82,14 +82,14 @@
    "2026-11-11": 2,
    "2026-11-14": 2
   },
-  "all_views_7d": 3046,
-  "bot_views_7d": 3033,
+  "all_views_7d": 2836,
+  "bot_views_7d": 2823,
   "browsers_30d": {
    "?": 2,
    "Chrome": 17,
    "Safari": 6
   },
-  "generated_at": "2026-11-14T16:28:04.53384+00:00",
+  "generated_at": "2026-11-14T17:01:27.290913+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.1,
   "campaigns_30d": {},
@@ -362,7 +362,7 @@
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://www.youtube.com/shorts/QSxj4gj4llM",
     "published": "2026-11-13T23:36:47+00:00",
-    "views": 132,
+    "views": 135,
     "likes": 2
    },
    {
@@ -399,7 +399,7 @@
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://www.youtube.com/shorts/QSxj4gj4llM",
     "published": "2026-11-13T23:36:47+00:00",
-    "views": 132,
+    "views": 135,
     "likes": 2
    },
    {
@@ -495,7 +495,7 @@
    }
   ],
   "catalog": true,
-  "exact_videos": 34,
+  "exact_videos": 35,
   "list": [
    {
     "id": "HsSq5MJ-juM",
@@ -602,20 +602,20 @@
     "exact": true
    },
    {
+    "id": "aHFCFhbCeZk",
+    "title": "Insurance letter in plain English with AI #Shorts",
+    "url": "https://youtube.com/shorts/aHFCFhbCeZk",
+    "views": 2,
+    "published": "2026-11-08",
+    "exact": true
+   },
+   {
     "id": "O0DxIt_fQjA",
     "title": "Plan a whole trip with AI in a minute #Shorts",
     "url": "https://youtube.com/shorts/O0DxIt_fQjA",
     "views": 2,
     "published": "2026-11-08",
     "exact": true
-   },
-   {
-    "id": "aHFCFhbCeZk",
-    "title": "Insurance letter in plain English with AI #Shorts",
-    "url": "https://youtube.com/shorts/aHFCFhbCeZk",
-    "views": 2,
-    "exact": false,
-    "published": "2026-11-07T23:59:23+00:00"
    },
    {
     "id": "wr1wnbtk9EM",
@@ -698,6 +698,14 @@
     "published": "2026-11-02"
    },
    {
+    "id": "fb3EgepkM3w",
+    "title": "Grandkid said you slayed? Translated #Shorts",
+    "url": "https://youtube.com/shorts/fb3EgepkM3w",
+    "views": 124,
+    "published": "2026-11-01T20:13:49-08:00",
+    "exact": true
+   },
+   {
     "id": "BUodsaR44Gw",
     "title": "Grandkid called you bestie? Translated #Shorts",
     "url": "https://youtube.com/shorts/BUodsaR44Gw",
@@ -727,14 +735,6 @@
     "url": "https://youtube.com/shorts/FtxyGZ_771Q",
     "views": 933,
     "published": "2026-11-01",
-    "exact": true
-   },
-   {
-    "id": "fb3EgepkM3w",
-    "title": "Grandkid said you slayed? Translated #Shorts",
-    "url": "https://youtube.com/shorts/fb3EgepkM3w",
-    "views": 124,
-    "published": "2026-10-31",
     "exact": true
    },
    {
@@ -794,18 +794,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-14T16:28:04.063496Z"
+  "checked_at": "2026-11-14T17:01:26.854816Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "37 videos on the channel, 34 with exact counts (rest from the channel page, rounded) = 8673 views"
+   "detail": "37 videos on the channel, 35 with exact counts (rest from the channel page, rounded) = 8673 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "10 real people this week; 3033 of 3046 page views were bots, crawlers or testing and are excluded"
+   "detail": "10 real people this week; 2823 of 2836 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -820,17 +820,17 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
@@ -840,7 +840,7 @@
  ],
  "posting": {
   "date": "2026-11-14",
-  "now_et": "11:28 AM",
+  "now_et": "12:02 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1486,5 +1486,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-14T16:28:04.063496Z"
+ "checked_at": "2026-11-14T17:01:26.854816Z"
 }
