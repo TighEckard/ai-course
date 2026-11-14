@@ -39,7 +39,7 @@ button:hover{background:#1b355e}button:disabled{opacity:.6}
 footer{text-align:center;color:#9aa3b0;font-size:12px;padding:32px 16px}
 </style></head><body>
 <header><div class="brand">Riside <span>Roofing</span></div></header>
-<div class="hero"><div class="w"><h1>Need a new roof?</h1><p>Get a free, no-obligation inspection and written quote from a local roofer.</p></div></div>
+<div class="hero"><div class="w"><h1 id="hl">Need a new roof?</h1><p>Get a free, no-obligation inspection and written quote from a local roofer.</p></div></div>
 <div class="card">
 <form id="f" novalidate>
 <h2>Request your free inspection</h2><p class="lead">A local roofer will call or text you to schedule.</p>
@@ -113,4 +113,12 @@ var b=document.getElementById('b');b.disabled=true;b.textContent='Sending...';
 fetch(U,{method:'POST',headers:{apikey:K,'Content-Type':'application/json',Prefer:'return=minimal'},
 body:JSON.stringify({name:(v('n')+' | ZIP '+zip+(note?' | '+note:'')).slice(0,100),email:ph+'@roofing.lead',slot:'roofing',source:('roofing-'+RT.src+'|'+RT.vid.slice(0,12)).slice(0,79)})}).then(function(r){
 if(!r.ok)throw 0;if(RT.ev)RT.ev('form:submitted');document.getElementById('f').style.display='none';document.getElementById('ok').style.display='block'}).catch(function(){if(RT.ev)RT.ev('form:submit_failed');b.disabled=false;b.textContent='Request free inspection';alert('Something went wrong, please try again.')})};
-</script></body></html>
+</script><script>
+(function(){var h=document.getElementById('hl');if(!h)return;
+function set(c){if(c&&/^[\p{L}\s.'-]{2,40}$/u.test(c))h.textContent='Need a new roof in '+c+'?'}
+var c=null;try{c=sessionStorage.getItem('h_city')}catch(e){}
+if(c){set(c);return}
+try{fetch('https://ipwho.is/?fields=success,country_code,city').then(function(r){return r.json()}).then(function(j){if(j&&j.success&&j.country_code==='US'&&j.city){try{sessionStorage.setItem('h_city',j.city)}catch(e){}set(j.city)}}).catch(function(){})}catch(e){}
+})();
+</script>
+</body></html>
