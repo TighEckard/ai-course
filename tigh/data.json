@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T17:01:26.854816Z",
+ "generated_at": "2026-11-14T17:27:56.595608Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -82,14 +82,14 @@
    "2026-11-11": 2,
    "2026-11-14": 2
   },
-  "all_views_7d": 2836,
-  "bot_views_7d": 2823,
+  "all_views_7d": 2672,
+  "bot_views_7d": 2659,
   "browsers_30d": {
    "?": 2,
    "Chrome": 17,
    "Safari": 6
   },
-  "generated_at": "2026-11-14T17:01:27.290913+00:00",
+  "generated_at": "2026-11-14T17:27:57.103126+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.1,
   "campaigns_30d": {},
@@ -698,14 +698,6 @@
     "published": "2026-11-02"
    },
    {
-    "id": "fb3EgepkM3w",
-    "title": "Grandkid said you slayed? Translated #Shorts",
-    "url": "https://youtube.com/shorts/fb3EgepkM3w",
-    "views": 124,
-    "published": "2026-11-01T20:13:49-08:00",
-    "exact": true
-   },
-   {
     "id": "BUodsaR44Gw",
     "title": "Grandkid called you bestie? Translated #Shorts",
     "url": "https://youtube.com/shorts/BUodsaR44Gw",
@@ -735,6 +727,14 @@
     "url": "https://youtube.com/shorts/FtxyGZ_771Q",
     "views": 933,
     "published": "2026-11-01",
+    "exact": true
+   },
+   {
+    "id": "fb3EgepkM3w",
+    "title": "Grandkid said you slayed? Translated #Shorts",
+    "url": "https://youtube.com/shorts/fb3EgepkM3w",
+    "views": 124,
+    "published": "2026-10-31",
     "exact": true
    },
    {
@@ -794,7 +794,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-14T17:01:26.854816Z"
+  "checked_at": "2026-11-14T17:27:56.595608Z"
  },
  "checks": [
   {
@@ -805,7 +805,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "10 real people this week; 2823 of 2836 page views were bots, crawlers or testing and are excluded"
+   "detail": "10 real people this week; 2659 of 2672 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -830,17 +830,17 @@
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 114h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 115h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-14",
-  "now_et": "12:02 PM",
+  "now_et": "12:28 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1486,5 +1486,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-14T17:01:26.854816Z"
+ "checked_at": "2026-11-14T17:27:56.595608Z"
 }
