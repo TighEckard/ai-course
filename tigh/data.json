@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T10:28:21.600719Z",
+ "generated_at": "2026-11-14T11:27:56.968780Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -79,14 +79,14 @@
    "2026-11-09": 2,
    "2026-11-11": 2
   },
-  "all_views_7d": 3203,
-  "bot_views_7d": 3194,
+  "all_views_7d": 3204,
+  "bot_views_7d": 3195,
   "browsers_30d": {
    "?": 1,
    "Chrome": 16,
    "Safari": 6
   },
-  "generated_at": "2026-11-14T10:28:21.97314+00:00",
+  "generated_at": "2026-11-14T11:27:57.806427+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -306,7 +306,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8651,
+  "total_views": 8655,
   "videos": 36,
   "likes": 3,
   "top": [
@@ -340,7 +340,7 @@
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://www.youtube.com/shorts/QSxj4gj4llM",
     "published": "2026-11-13T23:36:47+00:00",
-    "views": 129,
+    "views": 125,
     "likes": 2
    },
    {
@@ -377,7 +377,7 @@
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://www.youtube.com/shorts/QSxj4gj4llM",
     "published": "2026-11-13T23:36:47+00:00",
-    "views": 129,
+    "views": 125,
     "likes": 2
    },
    {
@@ -486,7 +486,7 @@
     "id": "QSxj4gj4llM",
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://youtube.com/shorts/QSxj4gj4llM",
-    "views": 128,
+    "views": 132,
     "published": "2026-11-13",
     "exact": true
    },
@@ -771,18 +771,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-14T10:28:21.600719Z"
+  "checked_at": "2026-11-14T11:27:56.968780Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "36 videos on the channel, 34 with exact counts (rest from the channel page, rounded) = 8651 views"
+   "detail": "36 videos on the channel, 34 with exact counts (rest from the channel page, rounded) = 8655 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "8 real people this week; 3194 of 3203 page views were bots, crawlers or testing and are excluded"
+   "detail": "8 real people this week; 3195 of 3204 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -797,12 +797,12 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Roofing",
@@ -812,12 +812,12 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 108h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 109h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-14",
-  "now_et": "5:28 AM",
+  "now_et": "6:28 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -982,7 +982,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/QSxj4gj4llM",
-      "views": 128
+      "views": 132
      },
      {
       "p": "facebook",
@@ -1461,5 +1461,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-14T10:28:21.600719Z"
+ "checked_at": "2026-11-14T11:27:56.968780Z"
 }
