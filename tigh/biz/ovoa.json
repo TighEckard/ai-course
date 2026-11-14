@@ -1,7 +1,7 @@
 {
  "name": "Ovoa",
- "updated": "2026-11-13T21:06:09Z",
- "notes": "Sender is PAUSED in its settings. Sales, signups, app and site traffic need Stripe / admin.ovoa.ai / App Store logins (not connected yet). Replies are unique senders+subjects in the Sender inbox (unverified). PC was offline at 21:06 UTC, so the numbers below are from the last successful refresh.",
+ "updated": "2026-11-14T00:06:16Z",
+ "notes": "Sender is PAUSED in its settings. Sales, signups, app and site traffic need Stripe / admin.ovoa.ai / App Store logins (not connected yet). Replies are unique senders+subjects in the Sender inbox (unverified).",
  "headline": [
   {
    "label": "Creator emails sent",
@@ -26,7 +26,7 @@
   },
   {
    "label": "Replies",
-   "value": 257,
+   "value": 258,
    "sub": "11.6% of sent"
   },
   {
@@ -112,7 +112,7 @@
     },
     {
      "label": "Replied",
-     "value": 257
+     "value": 258
     }
    ],
    "tables": [
