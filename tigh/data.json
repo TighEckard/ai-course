@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T11:27:56.968780Z",
+ "generated_at": "2026-11-14T12:06:27.246044Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -8,12 +8,14 @@
    "Linux": 1,
    "macOS": 1,
    "Android": 3,
-   "Windows": 10
+   "Windows": 10,
+   "ChromeOS": 1
   },
   "real_rule": "real = scrolled 25%+, stayed 10s+, clicked or signed up; bots, crawlers, testing and the owner removed",
   "by_hour_et": {
    "01": 2,
    "05": 1,
+   "06": 1,
    "08": 1,
    "09": 4,
    "10": 2,
@@ -28,43 +30,43 @@
   "cities_30d": {
    "Miami, Florida": 2,
    "Portland, Maine": 1,
+   "Rockwall, Texas": 1,
    "Geneva, Illinois": 1,
    "Louisville, Kentucky": 1,
    "Milford, Connecticut": 1,
-   "Nashville, Tennessee": 1,
+   "Nashville, Tennessee": 2,
    "New Castle, Delaware": 1,
    "Indianapolis, Indiana": 1,
    "Jacksonville, Florida": 1,
    "New York City, New York": 1,
-   "Burnaby, British Columbia": 1,
    "Washington, District of Columbia": 4
   },
   "clicks_30d": {
+   "?": 3,
    "a:stick": 1,
-   "input:name": 1,
-   "a:Reserve a free seat": 1,
+   "input:name": 2,
+   "input:email": 1,
+   "a:Save my free seat": 1,
    "summary:What does it cost?": 5,
    "summary:Do I need experience?": 4,
    "summary:Are the classes in person in Utica?": 1,
-   "summary:When are classes for people in Utica?": 1,
    "summary:Are the classes in person in Winchester?": 1,
-   "summary:Are the classes in person in North Little Rock?": 1,
-   "summary:When are classes for people in North Little Rock?": 1
+   "summary:Are the classes in person in North Little Rock?": 1
   },
   "funnel_30d": {
    "paid": 0,
-   "engaged": 19,
-   "visitors": 23,
-   "signed_up": 1,
+   "engaged": 20,
+   "visitors": 24,
+   "signed_up": 2,
    "opened_join": 0
   },
   "roofing_7d": 0,
-  "signups_1d": 0,
-  "signups_7d": 0,
+  "signups_1d": 1,
+  "signups_7d": 1,
   "devices_30d": {
    "?": 1,
    "mobile": 10,
-   "desktop": 12
+   "desktop": 13
   },
   "messages_7d": 0,
   "real_by_day": {
@@ -77,25 +79,36 @@
    "2026-11-05": 3,
    "2026-11-08": 4,
    "2026-11-09": 2,
-   "2026-11-11": 2
+   "2026-11-11": 2,
+   "2026-11-14": 1
   },
-  "all_views_7d": 3204,
-  "bot_views_7d": 3195,
+  "all_views_7d": 3210,
+  "bot_views_7d": 3197,
   "browsers_30d": {
    "?": 1,
-   "Chrome": 16,
+   "Chrome": 17,
    "Safari": 6
   },
-  "generated_at": "2026-11-14T11:27:57.806427+00:00",
+  "generated_at": "2026-11-14T12:06:27.463402+00:00",
   "paid_members": 0,
-  "avg_pages_30d": 1.0,
+  "avg_pages_30d": 1.2,
   "campaigns_30d": {},
   "countries_30d": {
    "?": 1,
    "Canada": 1,
-   "United States": 21
+   "United States": 22
   },
   "recent_visits": [
+   {
+    "t": "2026-11-14T11:37:23.696026+00:00",
+    "dev": "desktop",
+    "src": "chatgpt.com",
+    "land": "/",
+    "secs": 544,
+    "pages": 4,
+    "place": "Nashville, Tennessee",
+    "scroll": 100
+   },
    {
     "t": "2026-11-11T14:56:08.836176+00:00",
     "dev": "desktop",
@@ -235,34 +248,32 @@
     "pages": 1,
     "place": "Westfield, Indiana",
     "scroll": 100
-   },
-   {
-    "t": "2026-11-05T02:42:00.233553+00:00",
-    "dev": "mobile",
-    "src": "direct",
-    "land": "/",
-    "secs": 159,
-    "pages": 1,
-    "place": "Indianapolis, Indiana",
-    "scroll": 96
    }
   ],
   "referrers_30d": {
-   "(none)": 8,
+   "(none)": 9,
    "google.com": 10,
    "facebook.com": 4,
    "pinterest.com": 1
   },
   "roofing_total": 0,
-  "signups_total": 1,
-  "avg_scroll_30d": 71,
-  "bounce_pct_30d": 67,
+  "signups_total": 2,
+  "avg_scroll_30d": 72,
+  "bounce_pct_30d": 64,
   "messages_total": 0,
   "real_pages_30d": {
-   "/": 22,
+   "/": 26,
    "/roofing": 3
   },
   "recent_signups": [
+   {
+    "slot": "Saturday, 10:00 AM",
+    "source": "direct",
+    "roofing": false,
+    "created_at": "2026-11-14T11:46:51.427626+00:00",
+    "first_name": "Stephanie",
+    "email_domain": "***@gmail.com"
+   },
    {
     "slot": "Thursday, 7:00 PM",
     "source": "ref:com.google.android.googlequicksearchbox",
@@ -273,40 +284,44 @@
    }
   ],
   "signups_by_day": {
-   "2026-11-05": 1
+   "2026-11-05": 1,
+   "2026-11-14": 1
   },
   "signups_by_slot": {
-   "Thursday, 7:00 PM": 1
+   "Thursday, 7:00 PM": 1,
+   "Saturday, 10:00 AM": 1
   },
-  "avg_time_sec_30d": 59,
-  "new_visitors_30d": 20,
-  "real_sessions_7d": 9,
+  "avg_time_sec_30d": 79,
+  "new_visitors_30d": 21,
+  "real_sessions_7d": 10,
   "real_sources_30d": {
    "direct": 8,
    "google": 10,
    "facebook": 4,
-   "pinterest": 1
+   "pinterest": 1,
+   "chatgpt.com": 1
   },
-  "real_visitors_1d": 0,
-  "real_visitors_7d": 8,
+  "real_visitors_1d": 1,
+  "real_visitors_7d": 9,
   "landing_pages_30d": {
-   "/": 20,
+   "/": 21,
    "?": 1,
    "/roofing": 3
   },
-  "real_visitors_30d": 23,
+  "real_visitors_30d": 24,
   "signups_by_source": {
+   "direct": 1,
    "ref:com.google.android.googlequicksearchbox": 1
   },
   "messages_unanswered": 0,
-  "real_visitors_total": 23,
+  "real_visitors_total": 24,
   "test_members_excluded": 1,
   "test_signups_excluded": 2,
   "returning_visitors_30d": 4,
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8655,
+  "total_views": 8647,
   "videos": 36,
   "likes": 3,
   "top": [
@@ -340,7 +355,7 @@
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://www.youtube.com/shorts/QSxj4gj4llM",
     "published": "2026-11-13T23:36:47+00:00",
-    "views": 125,
+    "views": 132,
     "likes": 2
    },
    {
@@ -377,7 +392,7 @@
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://www.youtube.com/shorts/QSxj4gj4llM",
     "published": "2026-11-13T23:36:47+00:00",
-    "views": 125,
+    "views": 132,
     "likes": 2
    },
    {
@@ -486,7 +501,7 @@
     "id": "QSxj4gj4llM",
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://youtube.com/shorts/QSxj4gj4llM",
-    "views": 132,
+    "views": 124,
     "published": "2026-11-13",
     "exact": true
    },
@@ -771,23 +786,23 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-14T11:27:56.968780Z"
+  "checked_at": "2026-11-14T12:06:27.246044Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "36 videos on the channel, 34 with exact counts (rest from the channel page, rounded) = 8655 views"
+   "detail": "36 videos on the channel, 34 with exact counts (rest from the channel page, rounded) = 8647 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "8 real people this week; 3195 of 3204 page views were bots, crawlers or testing and are excluded"
+   "detail": "9 real people this week; 3197 of 3210 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
    "ok": true,
-   "detail": "1 Riside signups and 0 roofing leads counted straight from the database"
+   "detail": "2 Riside signups and 0 roofing leads counted straight from the database"
   },
   {
    "name": "Posting",
@@ -802,12 +817,12 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
@@ -817,7 +832,7 @@
  ],
  "posting": {
   "date": "2026-11-14",
-  "now_et": "6:28 AM",
+  "now_et": "7:06 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -934,7 +949,7 @@
     "platforms": [
      {
       "p": "youtube",
-      "status": "scheduled",
+      "status": "missing",
       "url": null
      },
      {
@@ -982,7 +997,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/QSxj4gj4llM",
-      "views": 132
+      "views": 124
      },
      {
       "p": "facebook",
@@ -1461,5 +1476,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-14T11:27:56.968780Z"
+ "checked_at": "2026-11-14T12:06:27.246044Z"
 }
