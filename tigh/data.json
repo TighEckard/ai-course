@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T09:06:28.889346Z",
+ "generated_at": "2026-11-14T09:27:51.058079Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -86,7 +86,7 @@
    "Chrome": 16,
    "Safari": 6
   },
-  "generated_at": "2026-11-14T09:06:29.129944+00:00",
+  "generated_at": "2026-11-14T09:27:51.537956+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -306,7 +306,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8623,
+  "total_views": 8650,
   "videos": 36,
   "likes": 3,
   "top": [
@@ -340,7 +340,7 @@
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://www.youtube.com/shorts/QSxj4gj4llM",
     "published": "2026-11-13T23:36:47+00:00",
-    "views": 120,
+    "views": 125,
     "likes": 2
    },
    {
@@ -377,7 +377,7 @@
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://www.youtube.com/shorts/QSxj4gj4llM",
     "published": "2026-11-13T23:36:47+00:00",
-    "views": 120,
+    "views": 125,
     "likes": 2
    },
    {
@@ -486,7 +486,7 @@
     "id": "QSxj4gj4llM",
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://youtube.com/shorts/QSxj4gj4llM",
-    "views": 100,
+    "views": 128,
     "published": "2026-11-13",
     "exact": true
    },
@@ -710,7 +710,7 @@
     "id": "fb3EgepkM3w",
     "title": "Grandkid said you slayed? Translated #Shorts",
     "url": "https://youtube.com/shorts/fb3EgepkM3w",
-    "views": 124,
+    "views": 123,
     "published": "2026-10-31",
     "exact": true
    },
@@ -771,13 +771,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-14T09:06:28.889346Z"
+  "checked_at": "2026-11-14T09:27:51.058079Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "36 videos on the channel, 34 with exact counts (rest from the channel page, rounded) = 8623 views"
+   "detail": "36 videos on the channel, 34 with exact counts (rest from the channel page, rounded) = 8650 views"
   },
   {
    "name": "Website visitors",
@@ -797,7 +797,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 5h ago"
+   "detail": "numbers last refreshed 6h ago"
   },
   {
    "name": "Ovoa",
@@ -807,17 +807,17 @@
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 106h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 107h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-14",
-  "now_et": "4:06 AM",
+  "now_et": "4:28 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -982,7 +982,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/QSxj4gj4llM",
-      "views": 100
+      "views": 128
      },
      {
       "p": "facebook",
@@ -1461,5 +1461,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-14T09:06:28.889346Z"
+ "checked_at": "2026-11-14T09:27:51.058079Z"
 }
