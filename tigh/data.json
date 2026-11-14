@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T15:13:33.402354Z",
+ "generated_at": "2026-11-14T15:27:44.893756Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -89,7 +89,7 @@
    "Chrome": 17,
    "Safari": 6
   },
-  "generated_at": "2026-11-14T15:13:33.923212+00:00",
+  "generated_at": "2026-11-14T15:27:45.61432+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.2,
   "campaigns_30d": {},
@@ -321,7 +321,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8661,
+  "total_views": 8684,
   "videos": 37,
   "likes": 3,
   "top": [
@@ -355,14 +355,14 @@
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://www.youtube.com/shorts/HsSq5MJ-juM",
     "published": "2026-11-14T12:36:00+00:00",
-    "views": 11,
+    "views": 26,
     "likes": 0
    },
    {
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://www.youtube.com/shorts/QSxj4gj4llM",
     "published": "2026-11-13T23:36:47+00:00",
-    "views": 132,
+    "views": 135,
     "likes": 2
    },
    {
@@ -392,14 +392,14 @@
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://www.youtube.com/shorts/HsSq5MJ-juM",
     "published": "2026-11-14T12:36:00+00:00",
-    "views": 11,
+    "views": 26,
     "likes": 0
    },
    {
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://www.youtube.com/shorts/QSxj4gj4llM",
     "published": "2026-11-13T23:36:47+00:00",
-    "views": 132,
+    "views": 135,
     "likes": 2
    },
    {
@@ -501,7 +501,7 @@
     "id": "HsSq5MJ-juM",
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-    "views": 6,
+    "views": 26,
     "published": "2026-11-14",
     "exact": true
    },
@@ -509,7 +509,7 @@
     "id": "QSxj4gj4llM",
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://youtube.com/shorts/QSxj4gj4llM",
-    "views": 132,
+    "views": 135,
     "published": "2026-11-13",
     "exact": true
    },
@@ -794,13 +794,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-14T15:13:33.402354Z"
+  "checked_at": "2026-11-14T15:27:44.893756Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "37 videos on the channel, 35 with exact counts (rest from the channel page, rounded) = 8661 views"
+   "detail": "37 videos on the channel, 35 with exact counts (rest from the channel page, rounded) = 8684 views"
   },
   {
    "name": "Website visitors",
@@ -830,17 +830,17 @@
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 112h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 113h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-14",
-  "now_et": "10:14 AM",
+  "now_et": "10:28 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -959,7 +959,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-      "views": 6
+      "views": 26
      },
      {
       "p": "facebook",
@@ -1006,7 +1006,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/QSxj4gj4llM",
-      "views": 132
+      "views": 135
      },
      {
       "p": "facebook",
@@ -1486,5 +1486,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-14T15:13:33.402354Z"
+ "checked_at": "2026-11-14T15:27:44.893756Z"
 }
