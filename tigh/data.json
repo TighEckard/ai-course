@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T19:27:30.583199Z",
+ "generated_at": "2026-11-14T20:28:11.112610Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -82,14 +82,14 @@
    "2026-11-11": 2,
    "2026-11-14": 2
   },
-  "all_views_7d": 2236,
-  "bot_views_7d": 2223,
+  "all_views_7d": 2199,
+  "bot_views_7d": 2186,
   "browsers_30d": {
    "?": 2,
    "Chrome": 17,
    "Safari": 6
   },
-  "generated_at": "2026-11-14T19:27:31.128629+00:00",
+  "generated_at": "2026-11-14T20:28:11.76383+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.1,
   "campaigns_30d": {},
@@ -321,7 +321,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8688,
+  "total_views": 8696,
   "videos": 37,
   "likes": 3,
   "top": [
@@ -355,7 +355,7 @@
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://www.youtube.com/shorts/HsSq5MJ-juM",
     "published": "2026-11-14T12:36:00+00:00",
-    "views": 34,
+    "views": 32,
     "likes": 0
    },
    {
@@ -392,7 +392,7 @@
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://www.youtube.com/shorts/HsSq5MJ-juM",
     "published": "2026-11-14T12:36:00+00:00",
-    "views": 34,
+    "views": 32,
     "likes": 0
    },
    {
@@ -501,7 +501,7 @@
     "id": "HsSq5MJ-juM",
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-    "views": 30,
+    "views": 38,
     "published": "2026-11-14",
     "exact": true
    },
@@ -794,18 +794,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-14T19:27:30.583199Z"
+  "checked_at": "2026-11-14T20:28:11.112610Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "37 videos on the channel, 35 with exact counts (rest from the channel page, rounded) = 8688 views"
+   "detail": "37 videos on the channel, 35 with exact counts (rest from the channel page, rounded) = 8696 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "10 real people this week; 2223 of 2236 page views were bots, crawlers or testing and are excluded"
+   "detail": "10 real people this week; 2186 of 2199 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -820,12 +820,12 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 4h ago"
+   "detail": "numbers last refreshed 5h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Roofing",
@@ -835,12 +835,12 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 117h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 118h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-14",
-  "now_et": "2:28 PM",
+  "now_et": "3:28 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -959,7 +959,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-      "views": 30
+      "views": 38
      },
      {
       "p": "facebook",
@@ -1486,5 +1486,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-14T19:27:30.583199Z"
+ "checked_at": "2026-11-14T20:28:11.112610Z"
 }
