@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T00:44:16.630520Z",
+ "generated_at": "2026-11-14T01:27:31.831504Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -79,14 +79,14 @@
    "2026-11-09": 2,
    "2026-11-11": 2
   },
-  "all_views_7d": 3187,
-  "bot_views_7d": 3178,
+  "all_views_7d": 3188,
+  "bot_views_7d": 3179,
   "browsers_30d": {
    "?": 1,
    "Chrome": 16,
    "Safari": 6
   },
-  "generated_at": "2026-11-14T00:44:17.059964+00:00",
+  "generated_at": "2026-11-14T01:27:32.344171+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -306,7 +306,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8550,
+  "total_views": 8590,
   "videos": 36,
   "likes": 0,
   "top": [
@@ -344,7 +344,7 @@
     "id": "QSxj4gj4llM",
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://youtube.com/shorts/QSxj4gj4llM",
-    "views": 28,
+    "views": 68,
     "published": "2026-11-13",
     "exact": true
    },
@@ -629,18 +629,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-14T00:44:16.630520Z"
+  "checked_at": "2026-11-14T01:27:31.831504Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "36 videos on the channel, 34 with exact counts (rest from the channel page, rounded) = 8550 views"
+   "detail": "36 videos on the channel, 34 with exact counts (rest from the channel page, rounded) = 8590 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "8 real people this week; 3178 of 3187 page views were bots, crawlers or testing and are excluded"
+   "detail": "8 real people this week; 3179 of 3188 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -655,7 +655,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Ovoa",
@@ -670,12 +670,12 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 98h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 99h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-13",
-  "now_et": "7:44 PM",
+  "now_et": "8:28 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -794,7 +794,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/QSxj4gj4llM",
-      "views": 28
+      "views": 68
      },
      {
       "p": "facebook",
@@ -1278,5 +1278,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-14T00:44:16.630520Z"
+ "checked_at": "2026-11-14T01:27:31.831504Z"
 }
