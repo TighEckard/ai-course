@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T21:06:51.554007Z",
+ "generated_at": "2026-11-14T21:25:32.582139Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -89,7 +89,7 @@
    "Chrome": 17,
    "Safari": 6
   },
-  "generated_at": "2026-11-14T21:06:52.097314+00:00",
+  "generated_at": "2026-11-14T21:25:33.014531+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.1,
   "campaigns_30d": {},
@@ -652,7 +652,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-14T21:06:51.554007Z"
+  "checked_at": "2026-11-14T21:25:32.582139Z"
  },
  "checks": [
   {
@@ -693,12 +693,12 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 118h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 119h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-14",
-  "now_et": "4:07 PM",
+  "now_et": "4:26 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1335,5 +1335,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-14T21:06:51.554007Z"
+ "checked_at": "2026-11-14T21:25:32.582139Z"
 }
