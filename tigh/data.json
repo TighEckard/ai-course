@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T10:14:03.328021Z",
+ "generated_at": "2026-11-14T10:22:01.438968Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -86,7 +86,7 @@
    "Chrome": 16,
    "Safari": 6
   },
-  "generated_at": "2026-11-14T10:14:03.891216+00:00",
+  "generated_at": "2026-11-14T10:22:01.728008+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {},
@@ -340,7 +340,7 @@
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://www.youtube.com/shorts/QSxj4gj4llM",
     "published": "2026-11-13T23:36:47+00:00",
-    "views": 125,
+    "views": 129,
     "likes": 2
    },
    {
@@ -377,7 +377,7 @@
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://www.youtube.com/shorts/QSxj4gj4llM",
     "published": "2026-11-13T23:36:47+00:00",
-    "views": 125,
+    "views": 129,
     "likes": 2
    },
    {
@@ -771,7 +771,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-14T10:14:03.328021Z"
+  "checked_at": "2026-11-14T10:22:01.438968Z"
  },
  "checks": [
   {
@@ -797,7 +797,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Ovoa",
@@ -812,12 +812,12 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 107h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 108h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-14",
-  "now_et": "5:14 AM",
+  "now_et": "5:22 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1461,5 +1461,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-14T10:14:03.328021Z"
+ "checked_at": "2026-11-14T10:22:01.438968Z"
 }
