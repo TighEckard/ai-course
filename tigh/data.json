@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T03:44:26.277612Z",
+ "generated_at": "2026-11-15T04:27:39.920143Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -91,7 +91,7 @@
    "Chrome": 17,
    "Safari": 7
   },
-  "generated_at": "2026-11-15T03:44:26.65989+00:00",
+  "generated_at": "2026-11-15T04:27:40.152803+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.1,
   "campaigns_30d": {},
@@ -334,7 +334,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8704,
+  "total_views": 8702,
   "videos": 37,
   "likes": 0,
   "top": [
@@ -372,7 +372,7 @@
     "id": "HsSq5MJ-juM",
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-    "views": 47,
+    "views": 45,
     "published": "2026-11-14",
     "exact": true
    },
@@ -665,13 +665,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-15T03:44:26.277612Z"
+  "checked_at": "2026-11-15T04:27:39.920143Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "37 videos on the channel, 35 with exact counts (rest from the channel page, rounded) = 8704 views"
+   "detail": "37 videos on the channel, 35 with exact counts (rest from the channel page, rounded) = 8702 views"
   },
   {
    "name": "Website visitors",
@@ -691,7 +691,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Ovoa",
@@ -706,12 +706,12 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 125h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 126h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-14",
-  "now_et": "10:44 PM",
+  "now_et": "11:28 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -830,7 +830,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-      "views": 47
+      "views": 45
      },
      {
       "p": "facebook",
@@ -1348,5 +1348,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-15T03:44:26.277612Z"
+ "checked_at": "2026-11-15T04:27:39.920143Z"
 }
