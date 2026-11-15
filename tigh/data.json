@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T13:28:00.688645Z",
+ "generated_at": "2026-11-15T14:28:20.860294Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -84,14 +84,14 @@
    "2026-11-11": 2,
    "2026-11-14": 3
   },
-  "all_views_7d": 2148,
-  "bot_views_7d": 2134,
+  "all_views_7d": 2147,
+  "bot_views_7d": 2133,
   "browsers_30d": {
    "?": 2,
    "Chrome": 17,
    "Safari": 7
   },
-  "generated_at": "2026-11-15T13:28:01.301459+00:00",
+  "generated_at": "2026-11-15T14:28:21.514997+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.1,
   "campaigns_30d": {},
@@ -334,7 +334,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8734,
+  "total_views": 8776,
   "videos": 38,
   "likes": 4,
   "top": [
@@ -368,21 +368,21 @@
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://www.youtube.com/shorts/TObzq6YBBiw",
     "published": "2026-11-15T12:35:24+00:00",
-    "views": 21,
+    "views": 52,
     "likes": 0
    },
    {
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://www.youtube.com/shorts/HsSq5MJ-juM",
     "published": "2026-11-14T12:36:00+00:00",
-    "views": 62,
+    "views": 66,
     "likes": 1
    },
    {
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://www.youtube.com/shorts/QSxj4gj4llM",
     "published": "2026-11-13T23:36:47+00:00",
-    "views": 136,
+    "views": 138,
     "likes": 2
    },
    {
@@ -405,21 +405,21 @@
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://www.youtube.com/shorts/TObzq6YBBiw",
     "published": "2026-11-15T12:35:24+00:00",
-    "views": 21,
+    "views": 52,
     "likes": 0
    },
    {
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://www.youtube.com/shorts/HsSq5MJ-juM",
     "published": "2026-11-14T12:36:00+00:00",
-    "views": 62,
+    "views": 66,
     "likes": 1
    },
    {
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://www.youtube.com/shorts/QSxj4gj4llM",
     "published": "2026-11-13T23:36:47+00:00",
-    "views": 136,
+    "views": 138,
     "likes": 2
    },
    {
@@ -514,7 +514,7 @@
     "id": "TObzq6YBBiw",
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://youtube.com/shorts/TObzq6YBBiw",
-    "views": 12,
+    "views": 52,
     "published": "2026-11-15",
     "exact": true
    },
@@ -530,7 +530,7 @@
     "id": "QSxj4gj4llM",
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://youtube.com/shorts/QSxj4gj4llM",
-    "views": 136,
+    "views": 138,
     "published": "2026-11-13",
     "exact": true
    },
@@ -815,18 +815,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-15T13:28:00.688645Z"
+  "checked_at": "2026-11-15T14:28:20.860294Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "38 videos on the channel, 36 with exact counts (rest from the channel page, rounded) = 8734 views"
+   "detail": "38 videos on the channel, 36 with exact counts (rest from the channel page, rounded) = 8776 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "11 real people this week; 2134 of 2148 page views were bots, crawlers or testing and are excluded"
+   "detail": "11 real people this week; 2133 of 2147 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -841,12 +841,12 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 7h ago"
+   "detail": "numbers last refreshed 8h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Roofing",
@@ -856,12 +856,12 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 135h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 136h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-15",
-  "now_et": "8:28 AM",
+  "now_et": "9:28 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -980,7 +980,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/TObzq6YBBiw",
-      "views": 12
+      "views": 52
      },
      {
       "p": "facebook",
@@ -1074,7 +1074,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/QSxj4gj4llM",
-      "views": 136
+      "views": 138
      },
      {
       "p": "facebook",
@@ -1478,5 +1478,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-15T13:28:00.688645Z"
+ "checked_at": "2026-11-15T14:28:20.860294Z"
 }
