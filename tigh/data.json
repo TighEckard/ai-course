@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T21:28:11.488585Z",
+ "generated_at": "2026-11-15T21:44:11.569650Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -85,14 +85,14 @@
    "2026-11-14": 3,
    "2026-11-15": 1
   },
-  "all_views_7d": 2146,
-  "bot_views_7d": 2133,
+  "all_views_7d": 2147,
+  "bot_views_7d": 2134,
   "browsers_30d": {
    "?": 2,
    "Chrome": 18,
    "Safari": 7
   },
-  "generated_at": "2026-11-15T21:28:12.115049+00:00",
+  "generated_at": "2026-11-15T21:44:12.225312+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.1,
   "campaigns_30d": {
@@ -338,7 +338,7 @@
   "roofing_real_visitors_7d": 4
  },
  "youtube": {
-  "total_views": 8860,
+  "total_views": 8875,
   "videos": 38,
   "likes": 6,
   "top": [
@@ -518,7 +518,7 @@
     "id": "TObzq6YBBiw",
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://youtube.com/shorts/TObzq6YBBiw",
-    "views": 120,
+    "views": 134,
     "published": "2026-11-15",
     "exact": true
    },
@@ -534,7 +534,7 @@
     "id": "QSxj4gj4llM",
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://youtube.com/shorts/QSxj4gj4llM",
-    "views": 142,
+    "views": 143,
     "published": "2026-11-13",
     "exact": true
    },
@@ -819,18 +819,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-15T21:28:11.488585Z"
+  "checked_at": "2026-11-15T21:44:11.569650Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "38 videos on the channel, 36 with exact counts (rest from the channel page, rounded) = 8860 views"
+   "detail": "38 videos on the channel, 36 with exact counts (rest from the channel page, rounded) = 8875 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "11 real people this week; 2133 of 2146 page views were bots, crawlers or testing and are excluded"
+   "detail": "11 real people this week; 2134 of 2147 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -850,7 +850,7 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Roofing",
@@ -865,7 +865,7 @@
  ],
  "posting": {
   "date": "2026-11-15",
-  "now_et": "4:28 PM",
+  "now_et": "4:44 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -984,7 +984,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/TObzq6YBBiw",
-      "views": 120
+      "views": 134
      },
      {
       "p": "facebook",
@@ -1078,7 +1078,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/QSxj4gj4llM",
-      "views": 142
+      "views": 143
      },
      {
       "p": "facebook",
@@ -1482,5 +1482,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-15T21:28:11.488585Z"
+ "checked_at": "2026-11-15T21:44:11.569650Z"
 }
