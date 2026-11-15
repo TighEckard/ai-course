@@ -57,7 +57,7 @@ nav{display:flex;gap:1.6rem;align-items:center}
 nav a{color:var(--soft);text-decoration:none;font-weight:500;font-size:.95rem}
 nav a:hover{color:var(--ink)}
 nav .btn{min-height:2.6rem;padding:.4rem 1.1rem;font-size:.95rem;color:#fff}
-.hero{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start;padding-block:2rem 3.5rem}
+.hero{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:stretch;padding-block:2rem 3rem}.hero>.photo{height:100%;min-height:22rem;object-fit:cover}
 .sub{font-size:1.15rem;color:var(--soft);margin-top:1rem;max-width:30rem}
 form{display:grid;gap:.75rem;margin-top:1.2rem;max-width:30rem}
 label{display:grid;gap:.3rem;font-weight:700;font-size:.95rem}
@@ -192,7 +192,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
   html{font-size:17px}
   nav a:not(.btn){display:none}
   .hero,.split,.price,.steps,.team,.promise,.learn,.people{grid-template-columns:1fr}
-  .hero{gap:2rem;padding-block:2rem 3rem}
+  .hero{gap:2rem;padding-block:2rem 3rem}.hero>.photo{height:auto;min-height:0}
   .facts{grid-template-columns:1fr 1fr}
   section{padding-block:3.5rem}
   .split,.price{gap:2rem}
@@ -228,7 +228,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
           <button type="submit" id="sbtn">Reserve a free seat</button>
           <p class="err" id="err" role="alert" hidden>Please enter your name and a full email address.</p>
           <p class="fine" id="fsmall">No credit card. We only use your email to send class details.</p>
-        <div class="by"><img src="/images/holden-eckard.jpg?v=2" width="44" height="44" alt="" loading="lazy"><span><b>Taught live by Holden Eckard.</b> Your first class is free, no card needed.</span></div>
+        <div class="by"><img src="/images/holden-eckard.jpg?v=2" width="44" height="44" alt="" loading="lazy"><span><b>Taught live by Holden Eckard.</b></span></div>
         </form>
         <div class="done" id="done" role="status" hidden>
           <b id="done-h"></b>
@@ -249,7 +249,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
       <li><b>Cancel any time</b><span>one email, no fees</span></li>
     </ul>
 
-    <section id="freehour" style="padding-block:2rem 0">
+    <section id="freehour" style="padding-block:2.5rem 0">
       <h2>What happens in your free hour</h2>
       <ol class="steps hour">
         <li><h3>First 10 minutes</h3><p>Say hello and get ChatGPT open on your own phone, tablet or computer. Holden helps anyone who is stuck.</p></li>
@@ -260,17 +260,6 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
       <p style="margin-top:1.2rem"><a class="btn" href="#reserve">Save my free seat</a></p>
     </section>
 
-    <section id="why" style="padding-block:2.5rem 0">
-      <h2>Why not just watch a video?</h2>
-      <p>Videos are great when you already know what to ask. Most people get stuck on their own screen, with their own question, and a video cannot see that.</p>
-      <ul>
-        <li><b>Ask your own question.</b> Holden answers it live, using your example.</li>
-        <li><b>Get unstuck in the moment.</b> If your screen looks different, we sort it out together.</li>
-        <li><b>A clear path.</b> One topic a week, in order, so you are never guessing what to learn next.</li>
-        <li><b>A small group.</b> 12 people at most, so there is time for everyone.</li>
-      </ul>
-      <p class="fine">Try one class free and see if live help is worth it to you.</p>
-    </section>
 
     <section id="how">
       <h2>How it works</h2>
@@ -299,11 +288,6 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
       </div>
     </section>
 
-    <section id="people" style="padding-block:1rem 0">
-      <h2>For adults of every age</h2>
-      <p class="intro">Classes are made for adults of every age and every level of experience. If you can join a video call, you can take a class.</p>
-      <div class="people"><img class="ph" src="https://images.unsplash.com/photo-1573878741117-1653384427db?w=960&q=80&auto=format&fit=crop" srcset="https://images.unsplash.com/photo-1573878741117-1653384427db?w=640&q=80&auto=format&fit=crop 640w, https://images.unsplash.com/photo-1573878741117-1653384427db?w=960&q=80&auto=format&fit=crop 960w, https://images.unsplash.com/photo-1573878741117-1653384427db?w=1400&q=80&auto=format&fit=crop 1400w" sizes="(max-width:800px) 100vw, 520px" width="1600" height="1067" loading="lazy" decoding="async" alt="A smiling woman typing on her laptop"><img class="ph" src="https://images.unsplash.com/photo-1603575448878-868a20723f5d?w=960&q=80&auto=format&fit=crop" srcset="https://images.unsplash.com/photo-1603575448878-868a20723f5d?w=640&q=80&auto=format&fit=crop 640w, https://images.unsplash.com/photo-1603575448878-868a20723f5d?w=960&q=80&auto=format&fit=crop 960w, https://images.unsplash.com/photo-1603575448878-868a20723f5d?w=1400&q=80&auto=format&fit=crop 1400w" sizes="(max-width:800px) 100vw, 520px" width="1600" height="1067" loading="lazy" decoding="async" alt="A man in his thirties working on a laptop at a table"><img class="ph" src="https://images.unsplash.com/photo-1713865473216-b48201bb40ce?w=960&q=80&auto=format&fit=crop" srcset="https://images.unsplash.com/photo-1713865473216-b48201bb40ce?w=640&q=80&auto=format&fit=crop 640w, https://images.unsplash.com/photo-1713865473216-b48201bb40ce?w=960&q=80&auto=format&fit=crop 960w, https://images.unsplash.com/photo-1713865473216-b48201bb40ce?w=1400&q=80&auto=format&fit=crop 1400w" sizes="(max-width:800px) 100vw, 520px" width="1600" height="1067" loading="lazy" decoding="async" alt="A woman in a green blouse working on a laptop"></div>
-    </section>
 
     <section id="schedule">
       <h2>Schedule</h2>
@@ -338,8 +322,6 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
       </div>
       <div class="promise">
         <p><b>We never ask for your passwords</b>Or bank details, in class or by email. Your own member log in is the only password you set with us.</p>
-        <p><b>Free means free</b>Your first class has no card and no catch.</p>
-        <p><b>Cancel in one step</b>Email us and it is done, with no fees.</p>
         <p><b>A real person replies</b>Every email is read and answered by a human.</p>
       </div>
     </section>
