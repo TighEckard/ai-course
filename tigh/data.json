@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T00:06:24.387929Z",
+ "generated_at": "2026-11-15T00:28:01.699134Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -82,14 +82,14 @@
    "2026-11-11": 2,
    "2026-11-14": 2
   },
-  "all_views_7d": 2162,
-  "bot_views_7d": 2149,
+  "all_views_7d": 2160,
+  "bot_views_7d": 2147,
   "browsers_30d": {
    "?": 2,
    "Chrome": 17,
    "Safari": 6
   },
-  "generated_at": "2026-11-15T00:06:24.692849+00:00",
+  "generated_at": "2026-11-15T00:28:02.227447+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.1,
   "campaigns_30d": {},
@@ -321,7 +321,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8696,
+  "total_views": 8699,
   "videos": 37,
   "likes": 0,
   "top": [
@@ -359,7 +359,7 @@
     "id": "HsSq5MJ-juM",
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-    "views": 39,
+    "views": 42,
     "published": "2026-11-14",
     "exact": true
    },
@@ -652,18 +652,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-15T00:06:24.387929Z"
+  "checked_at": "2026-11-15T00:28:01.699134Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "37 videos on the channel, 35 with exact counts (rest from the channel page, rounded) = 8696 views"
+   "detail": "37 videos on the channel, 35 with exact counts (rest from the channel page, rounded) = 8699 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "10 real people this week; 2149 of 2162 page views were bots, crawlers or testing and are excluded"
+   "detail": "10 real people this week; 2147 of 2160 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -678,7 +678,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 3h ago"
   },
   {
    "name": "Ovoa",
@@ -688,17 +688,17 @@
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 121h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 122h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-14",
-  "now_et": "7:06 PM",
+  "now_et": "7:28 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -817,7 +817,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-      "views": 39
+      "views": 42
      },
      {
       "p": "facebook",
@@ -1335,5 +1335,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-15T00:06:24.387929Z"
+ "checked_at": "2026-11-15T00:28:01.699134Z"
 }
