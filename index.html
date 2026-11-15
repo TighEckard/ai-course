@@ -218,20 +218,15 @@ section{padding-block:3.5rem}
   .promise{grid-template-columns:1fr}
 }
 
-/* centered layout */
-.hero{grid-template-columns:1fr!important;text-align:center;justify-items:center;gap:2rem;padding-block:1.5rem 2rem}
-.hero #reserve{width:100%;display:flex;flex-direction:column;align-items:center}
-.sub{margin-inline:auto}
-form{width:100%;max-width:30rem;margin-inline:auto;text-align:left}
-.hero>.photo{max-width:44rem;width:100%;aspect-ratio:16/8;max-height:none;height:auto}
+/* layout */
+.hero{grid-template-columns:1fr 1fr!important;text-align:left;gap:3.5rem;align-items:center;padding-block:1rem 2.5rem}
+.hero>.photo{aspect-ratio:4/5;max-height:34rem;height:auto;width:100%}
 section h2,.intro{text-align:center;margin-inline:auto}
 .steps{justify-items:center;text-align:center}.steps li{display:grid;justify-items:center}
 .spec,.faq{max-width:30rem;margin-inline:auto}
-.by{justify-content:center;text-align:left;margin-inline:auto!important}
-.pcard{margin-inline:auto}.pcard .amount,.pcard .btn{text-align:center}.ticks{justify-content:center;justify-items:start;width:max-content;margin-inline:auto}
-footer{justify-content:center;text-align:center}
-@media(max-width:760px){.hero>.photo{display:none}}
-.fine{text-align:center}form .fine{text-align:center}@media(max-width:760px){.by{flex-direction:column;text-align:center}}
+.pcard{margin-inline:auto}.ticks{justify-content:center;justify-items:start;width:max-content;margin-inline:auto}
+footer{justify-content:center;text-align:center}.pcard .amount{text-align:center}#teachers .by{justify-content:center}
+@media(max-width:760px){.hero{grid-template-columns:1fr!important}.hero>.photo{display:none}.by{flex-direction:column;text-align:center}}
 </style>
 <style>.guide h2{margin-top:2rem}.guide h3{margin:1.2rem 0 .2rem;font-size:1.1em}.guide blockquote{border-left:4px solid var(--amber,#e8a33d);margin:1rem 0;padding:.4rem 1rem;background:#fbf6ee}.card-print{border:2px dashed #999;padding:1rem 1.2rem;margin:1rem 0}@media print{header,.back,.noprint,#guideform,footer,#stick{display:none!important}.guide{font-size:12pt}.guide h2{break-after:avoid}.card-print{break-inside:avoid}}</style>
 </head>
