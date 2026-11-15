@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T04:27:39.920143Z",
+ "generated_at": "2026-11-15T05:28:05.644320Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -84,14 +84,14 @@
    "2026-11-11": 2,
    "2026-11-14": 3
   },
-  "all_views_7d": 2158,
-  "bot_views_7d": 2144,
+  "all_views_7d": 2157,
+  "bot_views_7d": 2143,
   "browsers_30d": {
    "?": 2,
    "Chrome": 17,
    "Safari": 7
   },
-  "generated_at": "2026-11-15T04:27:40.152803+00:00",
+  "generated_at": "2026-11-15T05:28:05.904045+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.1,
   "campaigns_30d": {},
@@ -665,7 +665,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-15T04:27:39.920143Z"
+  "checked_at": "2026-11-15T05:28:05.644320Z"
  },
  "checks": [
   {
@@ -676,7 +676,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "11 real people this week; 2144 of 2158 page views were bots, crawlers or testing and are excluded"
+   "detail": "11 real people this week; 2143 of 2157 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -685,18 +685,18 @@
   },
   {
    "name": "Posting",
-   "ok": false,
-   "detail": "YouTube 1/2 planned posts found live on the channel today"
+   "ok": true,
+   "detail": "YouTube 0/2 planned posts found live on the channel today"
   },
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Roofing",
@@ -706,46 +706,46 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 126h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 127h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
-  "date": "2026-11-14",
-  "now_et": "11:28 PM",
+  "date": "2026-11-15",
+  "now_et": "12:28 AM",
   "today": {
    "youtube": {
     "planned": 2,
-    "done": 1,
+    "done": 0,
     "verified": true,
-    "overdue": 1,
+    "overdue": 0,
     "items": [
      {
-      "title": "Your bank texted that your account is locked? Do this first #Shorts",
-      "id": "em01-banktext",
-      "when": "2026-11-14T07:30:00-05:00",
+      "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
+      "id": "em02-voiceclone",
+      "when": "2026-11-15T07:30:00-05:00",
       "slot": "am",
-      "done": true,
+      "done": false,
       "verified": true,
-      "due": true
+      "due": false
      },
      {
-      "title": "You got this text and almost clicked it",
-      "id": "pkg23b",
-      "when": "2026-11-14T22:30:00-05:00",
+      "title": "It's your bank calling. Or is it?",
+      "id": "bank24a",
+      "when": "2026-11-15T22:30:00-05:00",
       "slot": "pm",
       "done": false,
       "verified": true,
-      "due": true
+      "due": false
      }
     ],
     "next": {
-     "title": "You got this text and almost clicked it",
-     "id": "pkg23b",
-     "when": "2026-11-14T22:30:00-05:00",
-     "slot": "pm",
+     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
+     "id": "em02-voiceclone",
+     "when": "2026-11-15T07:30:00-05:00",
+     "slot": "am",
      "done": false,
      "verified": true,
-     "due": true
+     "due": false
     }
    },
    "facebook": {
@@ -755,32 +755,32 @@
     "overdue": 0,
     "items": [
      {
-      "title": "Your bank texted that your account is locked? Do this first #Shorts",
-      "id": "em01-banktext",
-      "when": "2026-11-14T07:30:00-05:00",
+      "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
+      "id": "em02-voiceclone",
+      "when": "2026-11-15T07:30:00-05:00",
       "slot": "am",
       "done": null,
       "verified": false,
-      "due": true
+      "due": false
      },
      {
-      "title": "You got this text and almost clicked it",
-      "id": "pkg23b",
-      "when": "2026-11-14T22:30:00-05:00",
+      "title": "It's your bank calling. Or is it?",
+      "id": "bank24a",
+      "when": "2026-11-15T22:30:00-05:00",
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": true
+      "due": false
      }
     ],
     "next": {
-     "title": "Your bank texted that your account is locked? Do this first #Shorts",
-     "id": "em01-banktext",
-     "when": "2026-11-14T07:30:00-05:00",
+     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
+     "id": "em02-voiceclone",
+     "when": "2026-11-15T07:30:00-05:00",
      "slot": "am",
      "done": null,
      "verified": false,
-     "due": true
+     "due": false
     }
    },
    "instagram": {
@@ -790,36 +790,82 @@
     "overdue": 0,
     "items": [
      {
-      "title": "Your bank texted that your account is locked? Do this first #Shorts",
-      "id": "em01-banktext",
-      "when": "2026-11-14T07:30:00-05:00",
+      "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
+      "id": "em02-voiceclone",
+      "when": "2026-11-15T07:30:00-05:00",
       "slot": "am",
       "done": null,
       "verified": false,
-      "due": true
+      "due": false
      },
      {
-      "title": "You got this text and almost clicked it",
-      "id": "pkg23b",
-      "when": "2026-11-14T22:30:00-05:00",
+      "title": "It's your bank calling. Or is it?",
+      "id": "bank24a",
+      "when": "2026-11-15T22:30:00-05:00",
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": true
+      "due": false
      }
     ],
     "next": {
-     "title": "Your bank texted that your account is locked? Do this first #Shorts",
-     "id": "em01-banktext",
-     "when": "2026-11-14T07:30:00-05:00",
+     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
+     "id": "em02-voiceclone",
+     "when": "2026-11-15T07:30:00-05:00",
      "slot": "am",
      "done": null,
      "verified": false,
-     "due": true
+     "due": false
     }
    }
   },
   "history": [
+   {
+    "date": "2026-11-15",
+    "slot": "am",
+    "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
+    "format": "emojianim 50+",
+    "platforms": [
+     {
+      "p": "youtube",
+      "status": "scheduled",
+      "url": null
+     },
+     {
+      "p": "facebook",
+      "status": "unverified",
+      "url": null
+     },
+     {
+      "p": "instagram",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-15",
+    "slot": "pm",
+    "title": "It's your bank calling. Or is it?",
+    "format": "slang v2 scam sting",
+    "platforms": [
+     {
+      "p": "youtube",
+      "status": "scheduled",
+      "url": null
+     },
+     {
+      "p": "facebook",
+      "status": "unverified",
+      "url": null
+     },
+     {
+      "p": "instagram",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
    {
     "date": "2026-11-14",
     "slot": "am",
@@ -1259,83 +1305,6 @@
       "url": null
      }
     ]
-   },
-   {
-    "date": "2026-11-07",
-    "slot": "am",
-    "title": "5 Easy Things to Ask AI About Health (Plain-English Tips)",
-    "format": "pin tall tips graphic",
-    "platforms": [
-     {
-      "p": "pinterest",
-      "status": "unverified",
-      "url": null
-     }
-    ]
-   },
-   {
-    "date": "2026-11-07",
-    "slot": "am",
-    "title": "Decode any confusing letter with AI in 3 steps #Shorts",
-    "format": "whiteboard doodle",
-    "platforms": [
-     {
-      "p": "youtube",
-      "status": "live",
-      "url": "https://youtube.com/shorts/O0v42Pppyxo",
-      "views": 1
-     }
-    ]
-   },
-   {
-    "date": "2026-11-07",
-    "slot": "am",
-    "title": "Bills should not read like this",
-    "format": "before-after",
-    "platforms": [
-     {
-      "p": "facebook",
-      "status": "unverified",
-      "url": null
-     },
-     {
-      "p": "instagram",
-      "status": "unverified",
-      "url": null
-     }
-    ]
-   },
-   {
-    "date": "2026-11-07",
-    "slot": "pm",
-    "title": "Scam or safe? Can you spot it? #Shorts",
-    "format": "scam-or-safe quiz",
-    "platforms": [
-     {
-      "p": "youtube",
-      "status": "live",
-      "url": "https://youtube.com/shorts/wr1wnbtk9EM",
-      "views": 0
-     }
-    ]
-   },
-   {
-    "date": "2026-11-07",
-    "slot": "pm",
-    "title": "Tiny medicine print? Here is how AI can help (and always confirm with ",
-    "format": "whiteboard doodle",
-    "platforms": [
-     {
-      "p": "facebook",
-      "status": "unverified",
-      "url": null
-     },
-     {
-      "p": "instagram",
-      "status": "unverified",
-      "url": null
-     }
-    ]
    }
   ],
   "yt_by_day": {},
@@ -1348,5 +1317,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-15T04:27:39.920143Z"
+ "checked_at": "2026-11-15T05:28:05.644320Z"
 }
