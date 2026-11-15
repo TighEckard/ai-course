@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T09:15:35.518487Z",
+ "generated_at": "2026-11-15T09:27:53.210916Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -91,7 +91,7 @@
    "Chrome": 17,
    "Safari": 7
   },
-  "generated_at": "2026-11-15T09:15:36.101681+00:00",
+  "generated_at": "2026-11-15T09:27:53.95208+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.1,
   "campaigns_30d": {},
@@ -334,7 +334,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8708,
+  "total_views": 8709,
   "videos": 37,
   "likes": 4,
   "top": [
@@ -514,7 +514,7 @@
     "id": "HsSq5MJ-juM",
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-    "views": 51,
+    "views": 53,
     "published": "2026-11-14",
     "exact": true
    },
@@ -546,7 +546,7 @@
     "id": "SJzm0VJglpg",
     "title": "Grandkid texted you 'that's lowkey sus'? Translated",
     "url": "https://youtube.com/shorts/SJzm0VJglpg",
-    "views": 1,
+    "views": 0,
     "published": "2026-11-11",
     "exact": true
    },
@@ -807,13 +807,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-15T09:15:35.518487Z"
+  "checked_at": "2026-11-15T09:27:53.210916Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "37 videos on the channel, 35 with exact counts (rest from the channel page, rounded) = 8708 views"
+   "detail": "37 videos on the channel, 35 with exact counts (rest from the channel page, rounded) = 8709 views"
   },
   {
    "name": "Website visitors",
@@ -843,17 +843,17 @@
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 130h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 131h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-15",
-  "now_et": "4:16 AM",
+  "now_et": "4:28 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1018,7 +1018,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-      "views": 51
+      "views": 53
      },
      {
       "p": "facebook",
@@ -1468,5 +1468,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-15T09:15:35.518487Z"
+ "checked_at": "2026-11-15T09:27:53.210916Z"
 }
