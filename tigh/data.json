@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T11:28:16.824956Z",
+ "generated_at": "2026-11-15T12:06:33.478034Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -62,7 +62,7 @@
    "opened_join": 0
   },
   "roofing_7d": 0,
-  "signups_1d": 2,
+  "signups_1d": 1,
   "signups_7d": 2,
   "devices_30d": {
    "?": 2,
@@ -84,14 +84,14 @@
    "2026-11-11": 2,
    "2026-11-14": 3
   },
-  "all_views_7d": 2149,
-  "bot_views_7d": 2135,
+  "all_views_7d": 2150,
+  "bot_views_7d": 2136,
   "browsers_30d": {
    "?": 2,
    "Chrome": 17,
    "Safari": 7
   },
-  "generated_at": "2026-11-15T11:28:17.590082+00:00",
+  "generated_at": "2026-11-15T12:06:34.044344+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.1,
   "campaigns_30d": {},
@@ -313,7 +313,7 @@
    "pinterest": 1,
    "chatgpt.com": 1
   },
-  "real_visitors_1d": 3,
+  "real_visitors_1d": 2,
   "real_visitors_7d": 11,
   "landing_pages_30d": {
    "/": 22,
@@ -334,7 +334,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8716,
+  "total_views": 8719,
   "videos": 37,
   "likes": 4,
   "top": [
@@ -368,7 +368,7 @@
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://www.youtube.com/shorts/HsSq5MJ-juM",
     "published": "2026-11-14T12:36:00+00:00",
-    "views": 53,
+    "views": 62,
     "likes": 1
    },
    {
@@ -405,7 +405,7 @@
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://www.youtube.com/shorts/HsSq5MJ-juM",
     "published": "2026-11-14T12:36:00+00:00",
-    "views": 53,
+    "views": 62,
     "likes": 1
    },
    {
@@ -514,7 +514,7 @@
     "id": "HsSq5MJ-juM",
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-    "views": 60,
+    "views": 62,
     "published": "2026-11-14",
     "exact": true
    },
@@ -522,7 +522,7 @@
     "id": "QSxj4gj4llM",
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://youtube.com/shorts/QSxj4gj4llM",
-    "views": 135,
+    "views": 136,
     "published": "2026-11-13",
     "exact": true
    },
@@ -807,18 +807,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-15T11:28:16.824956Z"
+  "checked_at": "2026-11-15T12:06:33.478034Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "37 videos on the channel, 35 with exact counts (rest from the channel page, rounded) = 8716 views"
+   "detail": "37 videos on the channel, 35 with exact counts (rest from the channel page, rounded) = 8719 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "11 real people this week; 2135 of 2149 page views were bots, crawlers or testing and are excluded"
+   "detail": "11 real people this week; 2136 of 2150 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -838,12 +838,12 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
@@ -853,7 +853,7 @@
  ],
  "posting": {
   "date": "2026-11-15",
-  "now_et": "6:28 AM",
+  "now_et": "7:06 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -970,7 +970,7 @@
     "platforms": [
      {
       "p": "youtube",
-      "status": "scheduled",
+      "status": "missing",
       "url": null
      },
      {
@@ -1018,7 +1018,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-      "views": 60
+      "views": 62
      },
      {
       "p": "facebook",
@@ -1065,7 +1065,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/QSxj4gj4llM",
-      "views": 135
+      "views": 136
      },
      {
       "p": "facebook",
@@ -1468,5 +1468,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-15T11:28:16.824956Z"
+ "checked_at": "2026-11-15T12:06:33.478034Z"
 }
