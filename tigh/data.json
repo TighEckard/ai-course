@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T18:27:51.531099Z",
+ "generated_at": "2026-11-15T19:28:17.582205Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -91,7 +91,7 @@
    "Chrome": 17,
    "Safari": 7
   },
-  "generated_at": "2026-11-15T18:27:52.197016+00:00",
+  "generated_at": "2026-11-15T19:28:18.131335+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.1,
   "campaigns_30d": {},
@@ -334,7 +334,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8809,
+  "total_views": 8823,
   "videos": 38,
   "likes": 6,
   "top": [
@@ -375,14 +375,14 @@
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://www.youtube.com/shorts/HsSq5MJ-juM",
     "published": "2026-11-14T12:36:00+00:00",
-    "views": 68,
+    "views": 74,
     "likes": 1
    },
    {
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://www.youtube.com/shorts/QSxj4gj4llM",
     "published": "2026-11-13T23:36:47+00:00",
-    "views": 140,
+    "views": 141,
     "likes": 2
    },
    {
@@ -412,14 +412,14 @@
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://www.youtube.com/shorts/HsSq5MJ-juM",
     "published": "2026-11-14T12:36:00+00:00",
-    "views": 68,
+    "views": 74,
     "likes": 1
    },
    {
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://www.youtube.com/shorts/QSxj4gj4llM",
     "published": "2026-11-13T23:36:47+00:00",
-    "views": 140,
+    "views": 141,
     "likes": 2
    },
    {
@@ -514,7 +514,7 @@
     "id": "TObzq6YBBiw",
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://youtube.com/shorts/TObzq6YBBiw",
-    "views": 78,
+    "views": 92,
     "published": "2026-11-15",
     "exact": true
    },
@@ -815,13 +815,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-15T18:27:51.531099Z"
+  "checked_at": "2026-11-15T19:28:17.582205Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "38 videos on the channel, 36 with exact counts (rest from the channel page, rounded) = 8809 views"
+   "detail": "38 videos on the channel, 36 with exact counts (rest from the channel page, rounded) = 8823 views"
   },
   {
    "name": "Website visitors",
@@ -840,13 +840,13 @@
   },
   {
    "name": "Cozy Crochet Club",
-   "ok": true,
-   "detail": "numbers last refreshed 12h ago"
+   "ok": false,
+   "detail": "numbers last refreshed 13h ago (older than 12h, flagged stale)"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Roofing",
@@ -856,12 +856,12 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 140h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 141h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-15",
-  "now_et": "1:28 PM",
+  "now_et": "2:28 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -980,7 +980,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/TObzq6YBBiw",
-      "views": 78
+      "views": 92
      },
      {
       "p": "facebook",
@@ -1478,5 +1478,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-15T18:27:51.531099Z"
+ "checked_at": "2026-11-15T19:28:17.582205Z"
 }
