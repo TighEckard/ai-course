@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-15T00:44:14.256196Z",
+ "generated_at": "2026-11-15T01:28:10.075881Z",
  "errors": {},
  "site": {
   "os_30d": {
    "?": 2,
-   "iOS": 7,
+   "iOS": 8,
    "Linux": 1,
    "macOS": 1,
    "Android": 3,
@@ -25,10 +25,12 @@
    "16": 1,
    "17": 2,
    "18": 1,
+   "20": 1,
    "21": 6
   },
   "cities_30d": {
    "": 2,
+   "Houston, Texas": 1,
    "Miami, Florida": 2,
    "Billings, Montana": 1,
    "Westfield, Indiana": 1,
@@ -38,34 +40,34 @@
    "New Castle, Delaware": 1,
    "Indianapolis, Indiana": 1,
    "Jacksonville, Florida": 1,
-   "New York City, New York": 1,
    "Washington, District of Columbia": 4
   },
   "clicks_30d": {
    "?": 3,
    "a:stick": 1,
    "input:name": 2,
+   "input:rs1m": 1,
+   "input:rs1n": 1,
    "input:email": 1,
    "a:Save my free seat": 1,
    "summary:What does it cost?": 5,
    "summary:Do I need experience?": 4,
-   "summary:Are the classes in person in Utica?": 1,
-   "summary:Are the classes in person in Winchester?": 1,
-   "summary:Are the classes in person in North Little Rock?": 1
+   "summary:Are the classes in person in Beaumont?": 1
   },
   "funnel_30d": {
    "paid": 0,
-   "engaged": 21,
-   "visitors": 25,
-   "signed_up": 2,
+   "engaged": 22,
+   "visitors": 26,
+   "signed_up": 3,
    "opened_join": 0
   },
   "roofing_7d": 0,
-  "signups_1d": 1,
-  "signups_7d": 1,
+  "signups_1d": 2,
+  "signups_7d": 2,
   "devices_30d": {
    "?": 2,
    "mobile": 10,
+   "tablet": 1,
    "desktop": 13
   },
   "messages_7d": 0,
@@ -80,25 +82,35 @@
    "2026-11-08": 4,
    "2026-11-09": 2,
    "2026-11-11": 2,
-   "2026-11-14": 2
+   "2026-11-14": 3
   },
-  "all_views_7d": 2160,
+  "all_views_7d": 2161,
   "bot_views_7d": 2147,
   "browsers_30d": {
    "?": 2,
    "Chrome": 17,
-   "Safari": 6
+   "Safari": 7
   },
-  "generated_at": "2026-11-15T00:44:14.683662+00:00",
+  "generated_at": "2026-11-15T01:28:10.421894+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.1,
   "campaigns_30d": {},
   "countries_30d": {
    "?": 2,
    "Canada": 1,
-   "United States": 22
+   "United States": 23
   },
   "recent_visits": [
+   {
+    "t": "2026-11-15T01:20:03.583112+00:00",
+    "dev": "tablet",
+    "src": "google",
+    "land": "/",
+    "secs": 59,
+    "pages": 1,
+    "place": "Houston, Texas",
+    "scroll": 98
+   },
    {
     "t": "2026-11-14T15:47:02.735951+00:00",
     "dev": null,
@@ -238,34 +250,32 @@
     "pages": 1,
     "place": "New Castle, Delaware",
     "scroll": 100
-   },
-   {
-    "t": "2026-11-05T02:55:34.456149+00:00",
-    "dev": "desktop",
-    "src": "google",
-    "land": "/",
-    "secs": 17,
-    "pages": 1,
-    "place": "Milford, Connecticut",
-    "scroll": 61
    }
   ],
   "referrers_30d": {
    "(none)": 10,
-   "google.com": 10,
+   "google.com": 11,
    "facebook.com": 4,
    "pinterest.com": 1
   },
   "roofing_total": 0,
-  "signups_total": 2,
-  "avg_scroll_30d": 72,
-  "bounce_pct_30d": 65,
+  "signups_total": 3,
+  "avg_scroll_30d": 73,
+  "bounce_pct_30d": 63,
   "messages_total": 0,
   "real_pages_30d": {
-   "/": 26,
+   "/": 27,
    "/roofing": 3
   },
   "recent_signups": [
+   {
+    "slot": "Tuesday, 7:00 PM",
+    "source": "city-beaumont-tx",
+    "roofing": false,
+    "created_at": "2026-11-15T01:20:27.816241+00:00",
+    "first_name": "Brittany",
+    "email_domain": "***@yahoo.com"
+   },
    {
     "slot": "Saturday, 10:00 AM",
     "source": "direct",
@@ -285,36 +295,39 @@
   ],
   "signups_by_day": {
    "2026-11-05": 1,
-   "2026-11-14": 1
+   "2026-11-14": 1,
+   "2026-11-15": 1
   },
   "signups_by_slot": {
+   "Tuesday, 7:00 PM": 1,
    "Thursday, 7:00 PM": 1,
    "Saturday, 10:00 AM": 1
   },
-  "avg_time_sec_30d": 78,
-  "new_visitors_30d": 21,
-  "real_sessions_7d": 11,
+  "avg_time_sec_30d": 77,
+  "new_visitors_30d": 22,
+  "real_sessions_7d": 12,
   "real_sources_30d": {
    "direct": 9,
-   "google": 10,
+   "google": 11,
    "facebook": 4,
    "pinterest": 1,
    "chatgpt.com": 1
   },
-  "real_visitors_1d": 2,
-  "real_visitors_7d": 10,
+  "real_visitors_1d": 3,
+  "real_visitors_7d": 11,
   "landing_pages_30d": {
-   "/": 21,
+   "/": 22,
    "?": 2,
    "/roofing": 3
   },
-  "real_visitors_30d": 25,
+  "real_visitors_30d": 26,
   "signups_by_source": {
    "direct": 1,
+   "city-beaumont-tx": 1,
    "ref:com.google.android.googlequicksearchbox": 1
   },
   "messages_unanswered": 0,
-  "real_visitors_total": 25,
+  "real_visitors_total": 26,
   "test_members_excluded": 1,
   "test_signups_excluded": 2,
   "returning_visitors_30d": 5,
@@ -652,7 +665,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-15T00:44:14.256196Z"
+  "checked_at": "2026-11-15T01:28:10.075881Z"
  },
  "checks": [
   {
@@ -663,12 +676,12 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "10 real people this week; 2147 of 2160 page views were bots, crawlers or testing and are excluded"
+   "detail": "11 real people this week; 2147 of 2161 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
    "ok": true,
-   "detail": "2 Riside signups and 0 roofing leads counted straight from the database"
+   "detail": "3 Riside signups and 0 roofing leads counted straight from the database"
   },
   {
    "name": "Posting",
@@ -678,7 +691,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Ovoa",
@@ -693,12 +706,12 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 122h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 123h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-14",
-  "now_et": "7:44 PM",
+  "now_et": "8:28 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1335,5 +1348,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-15T00:44:14.256196Z"
+ "checked_at": "2026-11-15T01:28:10.075881Z"
 }
