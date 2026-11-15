@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T02:27:51.104240Z",
+ "generated_at": "2026-11-15T03:06:04.516846Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -91,7 +91,7 @@
    "Chrome": 17,
    "Safari": 7
   },
-  "generated_at": "2026-11-15T02:27:51.377223+00:00",
+  "generated_at": "2026-11-15T03:06:04.804493+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.1,
   "campaigns_30d": {},
@@ -665,7 +665,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-15T02:27:51.104240Z"
+  "checked_at": "2026-11-15T03:06:04.516846Z"
  },
  "checks": [
   {
@@ -696,12 +696,12 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
@@ -711,7 +711,7 @@
  ],
  "posting": {
   "date": "2026-11-14",
-  "now_et": "9:28 PM",
+  "now_et": "10:06 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -852,7 +852,7 @@
     "platforms": [
      {
       "p": "youtube",
-      "status": "scheduled",
+      "status": "missing",
       "url": null
      },
      {
@@ -1348,5 +1348,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-15T02:27:51.104240Z"
+ "checked_at": "2026-11-15T03:06:04.516846Z"
 }
