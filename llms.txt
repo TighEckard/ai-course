@@ -2,12 +2,16 @@
 
 > Riside AI Classes (also called Riside Learning) teaches adults to use ChatGPT, Claude and Gemini in small live Zoom classes of 12 or fewer. No experience needed. Your first class is free, then membership is $46 a month, cancel any time by email.
 
-Founded 2026. Taught live by Holden Eckard. Classes run Tuesday and Thursday at 7 pm Eastern, with a Saturday 10 am Eastern backup. Every class is recorded for members. A free Scam Check class runs Saturday November 7, 2026 at 10 am Eastern. Contact: admin@ovoa.ai
+Founded 2026. Taught live by Holden Eckard. Classes run Tuesday and Thursday at 7 pm Eastern, with a Saturday 10 am Eastern backup. Every class is recorded for members. Contact: admin@ovoa.ai
 
 ## Key pages
 - [Home, classes and signup](https://riside.com/): what the classes are, price, schedule, FAQ
 - [Plain-English AI guides](https://riside.com/guides/): 40+ free beginner guides (what is ChatGPT, is AI safe, spotting scams, health paperwork, travel, money)
-- [AI classes by city](https://riside.com/ai-classes/): live online classes for adults in 1,000 US cities
+- [AI classes by city](https://riside.com/ai-classes/): live online classes for adults, with a page for each of 1,000 US cities and 49 state pages (https://riside.com/ai-classes/state/texas/ for example)
+- [AI classes for seniors](https://riside.com/guides/ai-classes-for-seniors/): how to choose a good beginner AI class
+- [Free AI classes for beginners](https://riside.com/guides/free-ai-classes-for-beginners-online/): six free ways to start
+- [What to expect in your first live AI class](https://riside.com/guides/what-to-expect-in-your-first-live-ai-class/)
+- [How to learn ChatGPT for beginners](https://riside.com/guides/how-to-learn-chatgpt-for-beginners/)
 - [Gift a class](https://riside.com/gift/): gift memberships
 - [Partners](https://riside.com/partners/): libraries, senior centers, employers and teachers who want to offer classes
 
