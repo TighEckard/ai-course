@@ -1,14 +1,13 @@
 {
  "name": "Ovoa",
- "updated": "2026-11-15T03:05:57Z",
+ "updated": "2026-11-15T06:06:27Z",
  "notes": "Sender is PAUSED in its settings. Sales, signups, app and site traffic need Stripe / admin.ovoa.ai / App Store logins (not connected yet). Replies are unique senders+subjects in the Sender inbox (unverified).",
  "headline": [
   {
    "label": "Creator emails sent",
    "value": 2234,
-   "sub": "17 today, 62 in 7d",
+   "sub": "0 today, 38 in 7d",
    "trend": [
-    8,
     7,
     0,
     0,
@@ -21,7 +20,8 @@
     0,
     0,
     0,
-    17
+    17,
+    0
    ]
   },
   {
@@ -31,7 +31,7 @@
   },
   {
    "label": "Leads in Sender",
-   "value": 4629,
+   "value": 4637,
    "sub": "loaded, includes already sent"
   },
   {
@@ -60,7 +60,7 @@
     },
     {
      "label": "Sent last 7 days",
-     "value": 62
+     "value": 38
     },
     {
      "label": "Sender status",
@@ -71,7 +71,6 @@
     {
      "title": "Emails sent per day",
      "data": {
-      "2026-10-16": 120,
       "2026-10-17": 5,
       "2026-10-18": 1,
       "2026-10-19": 16,
@@ -100,7 +99,8 @@
       "2026-11-11": 0,
       "2026-11-12": 0,
       "2026-11-13": 0,
-      "2026-11-14": 17
+      "2026-11-14": 17,
+      "2026-11-15": 0
      },
      "days": 30
     }
