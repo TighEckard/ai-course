@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T06:44:05.236254Z",
+ "generated_at": "2026-11-15T07:27:55.366964Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -84,14 +84,14 @@
    "2026-11-11": 2,
    "2026-11-14": 3
   },
-  "all_views_7d": 2155,
-  "bot_views_7d": 2141,
+  "all_views_7d": 2154,
+  "bot_views_7d": 2140,
   "browsers_30d": {
    "?": 2,
    "Chrome": 17,
    "Safari": 7
   },
-  "generated_at": "2026-11-15T06:44:05.395175+00:00",
+  "generated_at": "2026-11-15T07:27:55.9649+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.1,
   "campaigns_30d": {},
@@ -334,7 +334,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 8707,
+  "total_views": 8708,
   "videos": 37,
   "likes": 0,
   "top": [
@@ -372,7 +372,7 @@
     "id": "HsSq5MJ-juM",
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-    "views": 50,
+    "views": 51,
     "published": "2026-11-14",
     "exact": true
    },
@@ -665,18 +665,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-15T06:44:05.236254Z"
+  "checked_at": "2026-11-15T07:27:55.366964Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "37 videos on the channel, 35 with exact counts (rest from the channel page, rounded) = 8707 views"
+   "detail": "37 videos on the channel, 35 with exact counts (rest from the channel page, rounded) = 8708 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "11 real people this week; 2141 of 2155 page views were bots, crawlers or testing and are excluded"
+   "detail": "11 real people this week; 2140 of 2154 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -691,7 +691,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Ovoa",
@@ -706,12 +706,12 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 128h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 129h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-15",
-  "now_et": "1:44 AM",
+  "now_et": "2:28 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -876,7 +876,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-      "views": 50
+      "views": 51
      },
      {
       "p": "facebook",
@@ -1317,5 +1317,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-15T06:44:05.236254Z"
+ "checked_at": "2026-11-15T07:27:55.366964Z"
 }
