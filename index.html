@@ -198,6 +198,25 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
   .split,.price{gap:2rem}
   button,.btn{width:100%}
 }
+
+/* minimal pass */
+.next{display:none!important}
+h1{font-size:clamp(1.9rem,3.6vw,2.6rem)}
+.sub{font-size:1.05rem;margin-top:.8rem}
+form{margin-top:1.2rem;gap:.7rem}
+.fhead h2{font-size:1.05rem}
+.hero{gap:3.5rem;padding-block:1rem 2.5rem;align-items:center}
+.hero>.photo{height:auto;min-height:0;aspect-ratio:4/5;max-height:34rem}
+section{padding-block:3.5rem}
+.facts{padding:1rem 0}
+.tint{padding-block:3rem}
+@media(max-width:760px){
+  .hero>.photo{display:none}
+  .hero{padding-block:.5rem 2rem}
+  section{padding-block:2.5rem}
+  .facts{grid-template-columns:1fr 1fr;gap:.8rem}
+  .promise{grid-template-columns:1fr}
+}
 </style>
 <style>.guide h2{margin-top:2rem}.guide h3{margin:1.2rem 0 .2rem;font-size:1.1em}.guide blockquote{border-left:4px solid var(--amber,#e8a33d);margin:1rem 0;padding:.4rem 1rem;background:#fbf6ee}.card-print{border:2px dashed #999;padding:1rem 1.2rem;margin:1rem 0}@media print{header,.back,.noprint,#guideform,footer,#stick{display:none!important}.guide{font-size:12pt}.guide h2{break-after:avoid}.card-print{break-inside:avoid}}</style>
 </head>
@@ -249,8 +268,8 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
       <li><b>Cancel any time</b><span>one email, no fees</span></li>
     </ul>
 
-    <section id="freehour" style="padding-block:2.5rem 0">
-      <h2>What happens in your free hour</h2>
+    <section id="how" style="padding-block:3rem 0">
+      <h2>How your free class works</h2>
       <ol class="steps hour">
         <li><h3>First 10 minutes</h3><p>Say hello and get ChatGPT open on your own phone, tablet or computer. Holden helps anyone who is stuck.</p></li>
         <li><h3>Next 20 minutes</h3><p>Try three real things together: rewrite a tricky email, check a suspicious text, and plan something you care about.</p></li>
@@ -261,18 +280,9 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     </section>
 
 
-    <section id="how">
-      <h2>How it works</h2>
-      <p class="intro">No experience needed. If you can join a video call, you can take a class.</p>
-      <ol class="steps">
-        <li><h3>Reserve a free seat</h3><p>Pick a time and enter your email. We send you the Zoom link and a reminder.</p></li>
-        <li><h3>Join the class</h3><p>Your teacher shares their screen and shows each step. Ask questions as you go.</p></li>
-        <li><h3>Keep going if you like it</h3><p>Members get a class every week and every recording. $46 a month, cancel any time.</p></li>
-      </ol>
-    </section>
 
     <section class="tint">
-      <div class="split">
+      <div>
         <div>
           <h2>Your first six weeks</h2>
           <ul class="learn">
@@ -283,9 +293,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
             <li><b>5. Trips, money and shopping</b><span>Plan, compare and find savings.</span></li>
             <li><b>6. Photos, work and your toolkit</b><span>Leave with five prompts you will keep using.</span></li>
           </ul>
-        </div>
-        <img class="photo" src="https://images.unsplash.com/photo-1714974529399-309f647e6dc5?w=960&q=80&auto=format&fit=crop" srcset="https://images.unsplash.com/photo-1714974529399-309f647e6dc5?w=640&q=80&auto=format&fit=crop 640w, https://images.unsplash.com/photo-1714974529399-309f647e6dc5?w=960&q=80&auto=format&fit=crop 960w, https://images.unsplash.com/photo-1714974529399-309f647e6dc5?w=1400&q=80&auto=format&fit=crop 1400w" sizes="(max-width:800px) 100vw, 520px" width="1600" height="900" loading="lazy" decoding="async" alt="A woman in her forties typing on a laptop at a table with a cup of coffee">
-      </div>
+        </div></div>
     </section>
 
 
@@ -1048,7 +1056,7 @@ textarea{font:inherit;font-size:1.05rem;padding:.75rem .9rem;border:1.5px solid 
     else{set('hh','Ask it to plan a trip, draft a letter, or check a strange email.');set('hs','Try AI yourself, live on Zoom, with Holden and up to 12 people. No jargon, no experience needed. Your first class is free.');set('hbtn','See it in a free class')}
     var fh=document.getElementById('fhead');
     if(VAR.form==='a1'){fh.innerHTML='<h2>Save your free seat</h2><p>Takes 20 seconds. No card, nothing to pay today.</p>';set('sbtn','Save my free seat');set('fsmall','Try the class. Decide afterwards. If you like it, it is $46 a month.')}
-    else{fh.innerHTML='<h2>Never touched this before? Good. That is who the class is for.</h2><details><summary>Do I need to know anything first?</summary><p>No. We start from the very beginning.</p></details><details><summary>What if I fall behind?</summary><p>Only 12 people, and Holden slows down for questions.</p></details><details><summary>What do I need?</summary><p>A computer, tablet or phone, and the Zoom link we email you.</p></details>';set('sbtn','Save my free seat')}
+    else{fh.innerHTML='<h2>Never touched this before? Good. That is who the class is for.</h2>';set('sbtn','Save my free seat')}
   })();
   var SRC=(function(){try{var q=new URLSearchParams(location.search).get('src');if(q)return q.slice(0,60);var r=document.referrer;if(r){var h=new URL(r).hostname.replace(/^www\./,'');if(h&&h!=='riside.com')return ('ref:'+h).slice(0,60)}}catch(e){}return 'direct'})();
 
