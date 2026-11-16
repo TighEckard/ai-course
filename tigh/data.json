@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T20:27:52.731753Z",
+ "generated_at": "2026-11-16T21:06:06.515980Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -93,7 +93,7 @@
    "Chrome": 19,
    "Safari": 7
   },
-  "generated_at": "2026-11-16T20:27:53.585889+00:00",
+  "generated_at": "2026-11-16T21:06:07.102699+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -339,7 +339,7 @@
   "roofing_real_visitors_7d": 2
  },
  "youtube": {
-  "total_views": 9085,
+  "total_views": 9075,
   "videos": 39,
   "likes": 7,
   "top": [
@@ -380,7 +380,7 @@
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://www.youtube.com/shorts/TObzq6YBBiw",
     "published": "2026-11-15T12:35:24+00:00",
-    "views": 289,
+    "views": 298,
     "likes": 2
    },
    {
@@ -417,7 +417,7 @@
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://www.youtube.com/shorts/TObzq6YBBiw",
     "published": "2026-11-15T12:35:24+00:00",
-    "views": 289,
+    "views": 298,
     "likes": 2
    },
    {
@@ -527,7 +527,7 @@
     "id": "TObzq6YBBiw",
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://youtube.com/shorts/TObzq6YBBiw",
-    "views": 303,
+    "views": 293,
     "published": "2026-11-15",
     "exact": true
    },
@@ -828,13 +828,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-16T20:27:52.731753Z"
+  "checked_at": "2026-11-16T21:06:06.515980Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "39 videos on the channel, 37 with exact counts (rest from the channel page, rounded) = 9085 views"
+   "detail": "39 videos on the channel, 37 with exact counts (rest from the channel page, rounded) = 9075 views"
   },
   {
    "name": "Website visitors",
@@ -859,12 +859,12 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
@@ -874,7 +874,7 @@
  ],
  "posting": {
   "date": "2026-11-16",
-  "now_et": "3:28 PM",
+  "now_et": "4:06 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1040,7 +1040,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/TObzq6YBBiw",
-      "views": 303
+      "views": 293
      },
      {
       "p": "facebook",
@@ -1397,5 +1397,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-16T20:27:52.731753Z"
+ "checked_at": "2026-11-16T21:06:06.515980Z"
 }
