@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T10:27:34.782548Z",
+ "generated_at": "2026-11-16T11:27:44.889723Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -86,14 +86,14 @@
    "2026-11-14": 3,
    "2026-11-15": 5
   },
-  "all_views_7d": 2126,
-  "bot_views_7d": 2115,
+  "all_views_7d": 1880,
+  "bot_views_7d": 1869,
   "browsers_30d": {
    "?": 5,
    "Chrome": 19,
    "Safari": 7
   },
-  "generated_at": "2026-11-16T10:27:35.226397+00:00",
+  "generated_at": "2026-11-16T11:27:45.517131+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -339,9 +339,9 @@
   "roofing_real_visitors_7d": 2
  },
  "youtube": {
-  "total_views": 9008,
+  "total_views": 9009,
   "videos": 39,
-  "likes": 7,
+  "likes": 8,
   "top": [
    {
     "id": "9mRzsVeSNn4",
@@ -373,21 +373,21 @@
     "title": "Medicare is texting you? Don't reply #Shorts",
     "url": "https://www.youtube.com/shorts/GTcoR5hC3is",
     "published": "2026-11-16T09:25:28+00:00",
-    "views": 1,
+    "views": 4,
     "likes": 0
    },
    {
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://www.youtube.com/shorts/TObzq6YBBiw",
     "published": "2026-11-15T12:35:24+00:00",
-    "views": 247,
-    "likes": 2
+    "views": 240,
+    "likes": 3
    },
    {
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://www.youtube.com/shorts/HsSq5MJ-juM",
     "published": "2026-11-14T12:36:00+00:00",
-    "views": 91,
+    "views": 92,
     "likes": 2
    },
    {
@@ -410,21 +410,21 @@
     "title": "Medicare is texting you? Don't reply #Shorts",
     "url": "https://www.youtube.com/shorts/GTcoR5hC3is",
     "published": "2026-11-16T09:25:28+00:00",
-    "views": 1,
+    "views": 4,
     "likes": 0
    },
    {
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://www.youtube.com/shorts/TObzq6YBBiw",
     "published": "2026-11-15T12:35:24+00:00",
-    "views": 247,
-    "likes": 2
+    "views": 240,
+    "likes": 3
    },
    {
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://www.youtube.com/shorts/HsSq5MJ-juM",
     "published": "2026-11-14T12:36:00+00:00",
-    "views": 91,
+    "views": 92,
     "likes": 2
    },
    {
@@ -519,7 +519,7 @@
     "id": "GTcoR5hC3is",
     "title": "Medicare is texting you? Don't reply #Shorts",
     "url": "https://youtube.com/shorts/GTcoR5hC3is",
-    "views": 0,
+    "views": 1,
     "published": "2026-11-16",
     "exact": true
    },
@@ -828,18 +828,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-16T10:27:34.782548Z"
+  "checked_at": "2026-11-16T11:27:44.889723Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "39 videos on the channel, 37 with exact counts (rest from the channel page, rounded) = 9008 views"
+   "detail": "39 videos on the channel, 37 with exact counts (rest from the channel page, rounded) = 9009 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "12 real people this week; 2115 of 2126 page views were bots, crawlers or testing and are excluded"
+   "detail": "12 real people this week; 1869 of 1880 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -854,12 +854,12 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Roofing",
@@ -869,12 +869,12 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 156h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 157h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-16",
-  "now_et": "5:28 AM",
+  "now_et": "6:28 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -993,7 +993,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/GTcoR5hC3is",
-      "views": 0
+      "views": 1
      },
      {
       "p": "facebook",
@@ -1397,5 +1397,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-16T10:27:34.782548Z"
+ "checked_at": "2026-11-16T11:27:44.889723Z"
 }
