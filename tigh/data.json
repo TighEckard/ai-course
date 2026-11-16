@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T06:28:04.237789Z",
+ "generated_at": "2026-11-16T06:44:23.032632Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -93,7 +93,7 @@
    "Chrome": 19,
    "Safari": 7
   },
-  "generated_at": "2026-11-16T06:28:04.670348+00:00",
+  "generated_at": "2026-11-16T06:44:23.881593+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -339,7 +339,7 @@
   "roofing_real_visitors_7d": 2
  },
  "youtube": {
-  "total_views": 8959,
+  "total_views": 8991,
   "videos": 38,
   "likes": 0,
   "top": [
@@ -377,7 +377,7 @@
     "id": "TObzq6YBBiw",
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://youtube.com/shorts/TObzq6YBBiw",
-    "views": 201,
+    "views": 236,
     "published": "2026-11-15",
     "exact": true
    },
@@ -385,7 +385,7 @@
     "id": "HsSq5MJ-juM",
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-    "views": 89,
+    "views": 86,
     "published": "2026-11-14",
     "exact": true
    },
@@ -678,13 +678,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-16T06:28:04.237789Z"
+  "checked_at": "2026-11-16T06:44:23.032632Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "38 videos on the channel, 36 with exact counts (rest from the channel page, rounded) = 8959 views"
+   "detail": "38 videos on the channel, 36 with exact counts (rest from the channel page, rounded) = 8991 views"
   },
   {
    "name": "Website visitors",
@@ -704,12 +704,12 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Roofing",
@@ -724,7 +724,7 @@
  ],
  "posting": {
   "date": "2026-11-16",
-  "now_et": "1:28 AM",
+  "now_et": "1:44 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -889,7 +889,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/TObzq6YBBiw",
-      "views": 201
+      "views": 236
      },
      {
       "p": "facebook",
@@ -936,7 +936,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-      "views": 89
+      "views": 86
      },
      {
       "p": "facebook",
@@ -1236,5 +1236,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-16T06:28:04.237789Z"
+ "checked_at": "2026-11-16T06:44:23.032632Z"
 }
