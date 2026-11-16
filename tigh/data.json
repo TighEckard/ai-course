@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-16T03:27:56.169486Z",
+ "generated_at": "2026-11-16T03:44:40.092259Z",
  "errors": {},
  "site": {
   "os_30d": {
-   "?": 2,
-   "iOS": 8,
+   "?": 5,
+   "iOS": 9,
    "Linux": 2,
    "macOS": 1,
    "Android": 3,
@@ -26,20 +26,21 @@
    "17": 2,
    "18": 1,
    "20": 1,
-   "21": 6
+   "21": 6,
+   "22": 4
   },
   "cities_30d": {
-   "": 2,
+   "": 5,
    "Houston, Texas": 1,
    "Miami, Florida": 2,
-   "Billings, Montana": 1,
-   "Westfield, Indiana": 1,
    "Louisville, Kentucky": 1,
    "Milford, Connecticut": 1,
    "Nashville, Tennessee": 2,
    "New Castle, Delaware": 1,
    "Indianapolis, Indiana": 1,
    "Jacksonville, Florida": 1,
+   "New York City, New York": 1,
+   "Philadelphia, Pennsylvania": 1,
    "Washington, District of Columbia": 4
   },
   "clicks_30d": {
@@ -56,8 +57,8 @@
   },
   "funnel_30d": {
    "paid": 0,
-   "engaged": 22,
-   "visitors": 27,
+   "engaged": 23,
+   "visitors": 31,
    "signed_up": 3,
    "opened_join": 0
   },
@@ -65,8 +66,8 @@
   "signups_1d": 0,
   "signups_7d": 2,
   "devices_30d": {
-   "?": 2,
-   "mobile": 10,
+   "?": 5,
+   "mobile": 11,
    "tablet": 1,
    "desktop": 14
   },
@@ -83,27 +84,67 @@
    "2026-11-09": 2,
    "2026-11-11": 2,
    "2026-11-14": 3,
-   "2026-11-15": 1
+   "2026-11-15": 5
   },
-  "all_views_7d": 2179,
-  "bot_views_7d": 2169,
+  "all_views_7d": 2185,
+  "bot_views_7d": 2174,
   "browsers_30d": {
-   "?": 2,
-   "Chrome": 18,
+   "?": 5,
+   "Chrome": 19,
    "Safari": 7
   },
-  "generated_at": "2026-11-16T03:27:56.256762+00:00",
+  "generated_at": "2026-11-16T03:44:40.484463+00:00",
   "paid_members": 0,
-  "avg_pages_30d": 1.1,
+  "avg_pages_30d": 1.0,
   "campaigns_30d": {
-   "page:/": 1
+   "page:/": 2
   },
   "countries_30d": {
-   "?": 2,
+   "?": 5,
    "Canada": 2,
-   "United States": 23
+   "United States": 24
   },
   "recent_visits": [
+   {
+    "t": "2026-11-16T03:32:08.280792+00:00",
+    "dev": null,
+    "src": "direct",
+    "land": null,
+    "secs": 162,
+    "pages": 0,
+    "place": "",
+    "scroll": 12
+   },
+   {
+    "t": "2026-11-16T03:30:02.265088+00:00",
+    "dev": null,
+    "src": "direct",
+    "land": null,
+    "secs": 15,
+    "pages": 0,
+    "place": "",
+    "scroll": 12
+   },
+   {
+    "t": "2026-11-16T03:29:24.054479+00:00",
+    "dev": null,
+    "src": "direct",
+    "land": null,
+    "secs": 18,
+    "pages": 0,
+    "place": "",
+    "scroll": 29
+   },
+   {
+    "t": "2026-11-16T03:29:19.577943+00:00",
+    "dev": "mobile",
+    "src": "bedrock-direct",
+    "land": "/roofing",
+    "secs": 15,
+    "pages": 1,
+    "place": "Philadelphia, Pennsylvania",
+    "scroll": 12
+   },
    {
     "t": "2026-11-15T21:06:52.620497+00:00",
     "dev": "desktop",
@@ -213,62 +254,22 @@
     "pages": 1,
     "place": "Washington, District of Columbia",
     "scroll": 95
-   },
-   {
-    "t": "2026-11-09T02:16:20.723868+00:00",
-    "dev": "desktop",
-    "src": "facebook",
-    "land": "/roofing",
-    "secs": 32,
-    "pages": 1,
-    "place": "Washington, District of Columbia",
-    "scroll": 95
-   },
-   {
-    "t": "2026-11-08T18:04:22.629568+00:00",
-    "dev": "mobile",
-    "src": "google",
-    "land": "/",
-    "secs": 87,
-    "pages": 2,
-    "place": "Portland, Maine",
-    "scroll": 100
-   },
-   {
-    "t": "2026-11-05T23:00:00.977251+00:00",
-    "dev": "mobile",
-    "src": "direct",
-    "land": "/",
-    "secs": 0,
-    "pages": 1,
-    "place": "New York City, New York",
-    "scroll": 0
-   },
-   {
-    "t": "2026-11-05T18:05:56.717591+00:00",
-    "dev": "mobile",
-    "src": "google",
-    "land": "/",
-    "secs": 116,
-    "pages": 1,
-    "place": "Geneva, Illinois",
-    "scroll": 65
    }
   ],
   "referrers_30d": {
-   "(none)": 11,
+   "(none)": 15,
    "google.com": 11,
    "facebook.com": 4,
    "pinterest.com": 1
   },
   "roofing_total": 0,
   "signups_total": 3,
-  "avg_scroll_30d": 72,
-  "bounce_pct_30d": 64,
+  "avg_scroll_30d": 65,
+  "bounce_pct_30d": 69,
   "messages_total": 0,
   "real_pages_30d": {
    "/": 27,
-   "/roofing": 4
+   "/roofing": 5
   },
   "recent_signups": [
    {
@@ -306,39 +307,39 @@
    "Thursday, 7:00 PM": 1,
    "Saturday, 10:00 AM": 1
   },
-  "avg_time_sec_30d": 75,
-  "new_visitors_30d": 23,
-  "real_sessions_7d": 9,
+  "avg_time_sec_30d": 72,
+  "new_visitors_30d": 24,
+  "real_sessions_7d": 13,
   "real_sources_30d": {
-   "direct": 9,
+   "direct": 12,
    "google": 11,
    "facebook": 4,
    "pinterest": 1,
    "chatgpt.com": 1,
-   "bedrock-direct": 1
+   "bedrock-direct": 2
   },
-  "real_visitors_1d": 1,
-  "real_visitors_7d": 8,
+  "real_visitors_1d": 5,
+  "real_visitors_7d": 12,
   "landing_pages_30d": {
    "/": 22,
-   "?": 2,
-   "/roofing": 4
+   "?": 5,
+   "/roofing": 5
   },
-  "real_visitors_30d": 27,
+  "real_visitors_30d": 31,
   "signups_by_source": {
    "direct": 1,
    "city-beaumont-tx": 1,
    "ref:com.google.android.googlequicksearchbox": 1
   },
   "messages_unanswered": 0,
-  "real_visitors_total": 27,
+  "real_visitors_total": 31,
   "test_members_excluded": 1,
   "test_signups_excluded": 2,
-  "returning_visitors_30d": 5,
-  "roofing_real_visitors_7d": 1
+  "returning_visitors_30d": 8,
+  "roofing_real_visitors_7d": 2
  },
  "youtube": {
-  "total_views": 8946,
+  "total_views": 8945,
   "videos": 38,
   "likes": 0,
   "top": [
@@ -392,7 +393,7 @@
     "id": "QSxj4gj4llM",
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://youtube.com/shorts/QSxj4gj4llM",
-    "views": 144,
+    "views": 143,
     "published": "2026-11-13",
     "exact": true
    },
@@ -677,18 +678,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-16T03:27:56.169486Z"
+  "checked_at": "2026-11-16T03:44:40.092259Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "38 videos on the channel, 36 with exact counts (rest from the channel page, rounded) = 8946 views"
+   "detail": "38 videos on the channel, 36 with exact counts (rest from the channel page, rounded) = 8945 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "8 real people this week; 2169 of 2179 page views were bots, crawlers or testing and are excluded"
+   "detail": "12 real people this week; 2174 of 2185 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -697,18 +698,18 @@
   },
   {
    "name": "Posting",
-   "ok": true,
+   "ok": false,
    "detail": "YouTube 1/2 planned posts found live on the channel today"
   },
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Roofing",
@@ -723,13 +724,13 @@
  ],
  "posting": {
   "date": "2026-11-15",
-  "now_et": "10:28 PM",
+  "now_et": "10:45 PM",
   "today": {
    "youtube": {
     "planned": 2,
     "done": 1,
     "verified": true,
-    "overdue": 0,
+    "overdue": 1,
     "items": [
      {
       "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
@@ -747,7 +748,7 @@
       "slot": "pm",
       "done": false,
       "verified": true,
-      "due": false
+      "due": true
      }
     ],
     "next": {
@@ -757,7 +758,7 @@
      "slot": "pm",
      "done": false,
      "verified": true,
-     "due": false
+     "due": true
     }
    },
    "facebook": {
@@ -782,7 +783,7 @@
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": false
+      "due": true
      }
     ],
     "next": {
@@ -817,7 +818,7 @@
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": false
+      "due": true
      }
     ],
     "next": {
@@ -936,7 +937,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/QSxj4gj4llM",
-      "views": 144
+      "views": 143
      },
      {
       "p": "facebook",
@@ -1330,5 +1331,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-16T03:27:56.169486Z"
+ "checked_at": "2026-11-16T03:44:40.092259Z"
 }
