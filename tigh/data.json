@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T22:28:04.630330Z",
+ "generated_at": "2026-11-16T23:28:14.235146Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -93,7 +93,7 @@
    "Chrome": 19,
    "Safari": 7
   },
-  "generated_at": "2026-11-16T22:28:05.370661+00:00",
+  "generated_at": "2026-11-16T23:28:15.033607+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -339,7 +339,7 @@
   "roofing_real_visitors_7d": 2
  },
  "youtube": {
-  "total_views": 9085,
+  "total_views": 9093,
   "videos": 39,
   "likes": 7,
   "top": [
@@ -380,7 +380,7 @@
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://www.youtube.com/shorts/TObzq6YBBiw",
     "published": "2026-11-15T12:35:24+00:00",
-    "views": 298,
+    "views": 307,
     "likes": 2
    },
    {
@@ -417,7 +417,7 @@
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://www.youtube.com/shorts/TObzq6YBBiw",
     "published": "2026-11-15T12:35:24+00:00",
-    "views": 298,
+    "views": 307,
     "likes": 2
    },
    {
@@ -527,7 +527,7 @@
     "id": "TObzq6YBBiw",
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://youtube.com/shorts/TObzq6YBBiw",
-    "views": 303,
+    "views": 311,
     "published": "2026-11-15",
     "exact": true
    },
@@ -828,13 +828,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-16T22:28:04.630330Z"
+  "checked_at": "2026-11-16T23:28:14.235146Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "39 videos on the channel, 37 with exact counts (rest from the channel page, rounded) = 9085 views"
+   "detail": "39 videos on the channel, 37 with exact counts (rest from the channel page, rounded) = 9093 views"
   },
   {
    "name": "Website visitors",
@@ -854,12 +854,12 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Roofing",
@@ -869,12 +869,12 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 168h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 169h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-16",
-  "now_et": "5:28 PM",
+  "now_et": "6:28 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1040,7 +1040,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/TObzq6YBBiw",
-      "views": 303
+      "views": 311
      },
      {
       "p": "facebook",
@@ -1397,5 +1397,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-16T22:28:04.630330Z"
+ "checked_at": "2026-11-16T23:28:14.235146Z"
 }
