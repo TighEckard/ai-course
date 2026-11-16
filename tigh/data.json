@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T15:44:26.378195Z",
+ "generated_at": "2026-11-16T16:28:15.123259Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -86,14 +86,14 @@
    "2026-11-14": 3,
    "2026-11-15": 5
   },
-  "all_views_7d": 1143,
-  "bot_views_7d": 1132,
+  "all_views_7d": 1147,
+  "bot_views_7d": 1136,
   "browsers_30d": {
    "?": 5,
    "Chrome": 19,
    "Safari": 7
   },
-  "generated_at": "2026-11-16T15:44:27.080429+00:00",
+  "generated_at": "2026-11-16T16:28:15.206261+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -339,7 +339,7 @@
   "roofing_real_visitors_7d": 2
  },
  "youtube": {
-  "total_views": 9057,
+  "total_views": 9059,
   "videos": 39,
   "likes": 7,
   "top": [
@@ -380,7 +380,7 @@
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://www.youtube.com/shorts/TObzq6YBBiw",
     "published": "2026-11-15T12:35:24+00:00",
-    "views": 259,
+    "views": 280,
     "likes": 2
    },
    {
@@ -417,7 +417,7 @@
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://www.youtube.com/shorts/TObzq6YBBiw",
     "published": "2026-11-15T12:35:24+00:00",
-    "views": 259,
+    "views": 280,
     "likes": 2
    },
    {
@@ -535,7 +535,7 @@
     "id": "HsSq5MJ-juM",
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-    "views": 95,
+    "views": 96,
     "published": "2026-11-14",
     "exact": true
    },
@@ -639,7 +639,7 @@
     "id": "aHFCFhbCeZk",
     "title": "Insurance letter in plain English with AI #Shorts",
     "url": "https://youtube.com/shorts/aHFCFhbCeZk",
-    "views": 3,
+    "views": 4,
     "published": "2026-11-08",
     "exact": true
    },
@@ -828,18 +828,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-16T15:44:26.378195Z"
+  "checked_at": "2026-11-16T16:28:15.123259Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "39 videos on the channel, 37 with exact counts (rest from the channel page, rounded) = 9057 views"
+   "detail": "39 videos on the channel, 37 with exact counts (rest from the channel page, rounded) = 9059 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "11 real people this week; 1132 of 1143 page views were bots, crawlers or testing and are excluded"
+   "detail": "11 real people this week; 1136 of 1147 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -854,7 +854,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Ovoa",
@@ -869,12 +869,12 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 161h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 162h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-16",
-  "now_et": "10:44 AM",
+  "now_et": "11:28 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1087,7 +1087,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-      "views": 95
+      "views": 96
      },
      {
       "p": "facebook",
@@ -1397,5 +1397,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-16T15:44:26.378195Z"
+ "checked_at": "2026-11-16T16:28:15.123259Z"
 }
