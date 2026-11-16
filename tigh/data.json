@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T01:57:20.590525Z",
+ "generated_at": "2026-11-16T02:28:05.988107Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -85,14 +85,14 @@
    "2026-11-14": 3,
    "2026-11-15": 1
   },
-  "all_views_7d": 2151,
-  "bot_views_7d": 2138,
+  "all_views_7d": 2158,
+  "bot_views_7d": 2148,
   "browsers_30d": {
    "?": 2,
    "Chrome": 18,
    "Safari": 7
   },
-  "generated_at": "2026-11-16T01:57:21.284723+00:00",
+  "generated_at": "2026-11-16T02:28:06.067301+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.1,
   "campaigns_30d": {
@@ -308,7 +308,7 @@
   },
   "avg_time_sec_30d": 75,
   "new_visitors_30d": 23,
-  "real_sessions_7d": 12,
+  "real_sessions_7d": 9,
   "real_sources_30d": {
    "direct": 9,
    "google": 11,
@@ -318,7 +318,7 @@
    "bedrock-direct": 1
   },
   "real_visitors_1d": 1,
-  "real_visitors_7d": 11,
+  "real_visitors_7d": 8,
   "landing_pages_30d": {
    "/": 22,
    "?": 2,
@@ -335,10 +335,10 @@
   "test_members_excluded": 1,
   "test_signups_excluded": 2,
   "returning_visitors_30d": 5,
-  "roofing_real_visitors_7d": 4
+  "roofing_real_visitors_7d": 1
  },
  "youtube": {
-  "total_views": 8904,
+  "total_views": 8906,
   "videos": 38,
   "likes": 0,
   "top": [
@@ -376,7 +376,7 @@
     "id": "TObzq6YBBiw",
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://youtube.com/shorts/TObzq6YBBiw",
-    "views": 159,
+    "views": 161,
     "published": "2026-11-15",
     "exact": true
    },
@@ -677,18 +677,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-16T01:57:20.590525Z"
+  "checked_at": "2026-11-16T02:28:05.988107Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "38 videos on the channel, 36 with exact counts (rest from the channel page, rounded) = 8904 views"
+   "detail": "38 videos on the channel, 36 with exact counts (rest from the channel page, rounded) = 8906 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "11 real people this week; 2138 of 2151 page views were bots, crawlers or testing and are excluded"
+   "detail": "8 real people this week; 2148 of 2158 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -703,7 +703,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Ovoa",
@@ -713,17 +713,17 @@
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 147h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 148h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-15",
-  "now_et": "8:58 PM",
+  "now_et": "9:28 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -842,7 +842,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/TObzq6YBBiw",
-      "views": 159
+      "views": 161
      },
      {
       "p": "facebook",
@@ -1330,5 +1330,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-16T01:57:20.590525Z"
+ "checked_at": "2026-11-16T02:28:05.988107Z"
 }
