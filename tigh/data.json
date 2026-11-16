@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T18:06:28.702446Z",
+ "generated_at": "2026-11-16T18:27:43.949209Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -86,14 +86,14 @@
    "2026-11-14": 3,
    "2026-11-15": 5
   },
-  "all_views_7d": 1178,
-  "bot_views_7d": 1167,
+  "all_views_7d": 1182,
+  "bot_views_7d": 1171,
   "browsers_30d": {
    "?": 5,
    "Chrome": 19,
    "Safari": 7
   },
-  "generated_at": "2026-11-16T18:06:29.119088+00:00",
+  "generated_at": "2026-11-16T18:27:44.354122+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -339,7 +339,7 @@
   "roofing_real_visitors_7d": 2
  },
  "youtube": {
-  "total_views": 9040,
+  "total_views": 9071,
   "videos": 39,
   "likes": 7,
   "top": [
@@ -527,7 +527,7 @@
     "id": "TObzq6YBBiw",
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://youtube.com/shorts/TObzq6YBBiw",
-    "views": 259,
+    "views": 289,
     "published": "2026-11-15",
     "exact": true
    },
@@ -535,7 +535,7 @@
     "id": "HsSq5MJ-juM",
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-    "views": 95,
+    "views": 96,
     "published": "2026-11-14",
     "exact": true
    },
@@ -828,18 +828,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-16T18:06:28.702446Z"
+  "checked_at": "2026-11-16T18:27:43.949209Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "39 videos on the channel, 37 with exact counts (rest from the channel page, rounded) = 9040 views"
+   "detail": "39 videos on the channel, 37 with exact counts (rest from the channel page, rounded) = 9071 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "11 real people this week; 1167 of 1178 page views were bots, crawlers or testing and are excluded"
+   "detail": "11 real people this week; 1171 of 1182 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -854,7 +854,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 3h ago"
   },
   {
    "name": "Ovoa",
@@ -864,17 +864,17 @@
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 163h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 164h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-16",
-  "now_et": "1:07 PM",
+  "now_et": "1:28 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1040,7 +1040,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/TObzq6YBBiw",
-      "views": 259
+      "views": 289
      },
      {
       "p": "facebook",
@@ -1087,7 +1087,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-      "views": 95
+      "views": 96
      },
      {
       "p": "facebook",
@@ -1397,5 +1397,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-16T18:06:28.702446Z"
+ "checked_at": "2026-11-16T18:27:43.949209Z"
 }
