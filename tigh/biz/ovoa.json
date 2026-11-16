@@ -1,12 +1,12 @@
 {
  "name": "Ovoa",
- "updated": "2026-11-16T18:06:17Z",
- "notes": "Sender is PAUSED in its settings. Sales, signups, app and site traffic need Stripe / admin.ovoa.ai / App Store logins (not connected yet). Replies are unique senders+subjects in the Sender inbox (unverified). PC was offline at 18:06 UTC, so the numbers below are from the last successful refresh.",
+ "updated": "2026-11-16T21:05:57Z",
+ "notes": "Sender is PAUSED in its settings. Sales, signups, app and site traffic need Stripe / admin.ovoa.ai / App Store logins (not connected yet). Replies are unique senders+subjects in the Sender inbox (unverified).",
  "headline": [
   {
    "label": "Creator emails sent",
-   "value": 2234,
-   "sub": "0 today, 17 in 7d",
+   "value": 2238,
+   "sub": "4 today, 21 in 7d",
    "trend": [
     0,
     0,
@@ -21,7 +21,7 @@
     0,
     17,
     0,
-    0
+    4
    ]
   },
   {
@@ -31,7 +31,7 @@
   },
   {
    "label": "Leads in Sender",
-   "value": 4669,
+   "value": 4693,
    "sub": "loaded, includes already sent"
   },
   {
@@ -56,11 +56,11 @@
    "tiles": [
     {
      "label": "Sent all time",
-     "value": 2234
+     "value": 2238
     },
     {
      "label": "Sent last 7 days",
-     "value": 17
+     "value": 21
     },
     {
      "label": "Sender status",
@@ -100,7 +100,7 @@
       "2026-11-13": 0,
       "2026-11-14": 17,
       "2026-11-15": 0,
-      "2026-11-16": 0
+      "2026-11-16": 4
      },
      "days": 30
     }
@@ -108,7 +108,7 @@
    "funnel": [
     {
      "label": "Sent",
-     "value": 2234
+     "value": 2238
     },
     {
      "label": "Replied",
@@ -121,7 +121,7 @@
      "rows": [
       [
        "tryovoa.com",
-       2031
+       2035
       ],
       [
        "ovoateam.com",
