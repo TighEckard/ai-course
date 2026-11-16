@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T11:27:44.889723Z",
+ "generated_at": "2026-11-16T12:06:37.762380Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -86,14 +86,14 @@
    "2026-11-14": 3,
    "2026-11-15": 5
   },
-  "all_views_7d": 1880,
-  "bot_views_7d": 1869,
+  "all_views_7d": 1725,
+  "bot_views_7d": 1714,
   "browsers_30d": {
    "?": 5,
    "Chrome": 19,
    "Safari": 7
   },
-  "generated_at": "2026-11-16T11:27:45.517131+00:00",
+  "generated_at": "2026-11-16T12:06:38.687448+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -339,9 +339,9 @@
   "roofing_real_visitors_7d": 2
  },
  "youtube": {
-  "total_views": 9009,
+  "total_views": 9021,
   "videos": 39,
-  "likes": 8,
+  "likes": 7,
   "top": [
    {
     "id": "9mRzsVeSNn4",
@@ -380,14 +380,14 @@
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://www.youtube.com/shorts/TObzq6YBBiw",
     "published": "2026-11-15T12:35:24+00:00",
-    "views": 240,
-    "likes": 3
+    "views": 247,
+    "likes": 2
    },
    {
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://www.youtube.com/shorts/HsSq5MJ-juM",
     "published": "2026-11-14T12:36:00+00:00",
-    "views": 92,
+    "views": 91,
     "likes": 2
    },
    {
@@ -417,14 +417,14 @@
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://www.youtube.com/shorts/TObzq6YBBiw",
     "published": "2026-11-15T12:35:24+00:00",
-    "views": 240,
-    "likes": 3
+    "views": 247,
+    "likes": 2
    },
    {
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://www.youtube.com/shorts/HsSq5MJ-juM",
     "published": "2026-11-14T12:36:00+00:00",
-    "views": 92,
+    "views": 91,
     "likes": 2
    },
    {
@@ -519,7 +519,7 @@
     "id": "GTcoR5hC3is",
     "title": "Medicare is texting you? Don't reply #Shorts",
     "url": "https://youtube.com/shorts/GTcoR5hC3is",
-    "views": 1,
+    "views": 0,
     "published": "2026-11-16",
     "exact": true
    },
@@ -527,7 +527,7 @@
     "id": "TObzq6YBBiw",
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://youtube.com/shorts/TObzq6YBBiw",
-    "views": 247,
+    "views": 258,
     "published": "2026-11-15",
     "exact": true
    },
@@ -535,7 +535,7 @@
     "id": "HsSq5MJ-juM",
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-    "views": 92,
+    "views": 94,
     "published": "2026-11-14",
     "exact": true
    },
@@ -828,18 +828,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-16T11:27:44.889723Z"
+  "checked_at": "2026-11-16T12:06:37.762380Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "39 videos on the channel, 37 with exact counts (rest from the channel page, rounded) = 9009 views"
+   "detail": "39 videos on the channel, 37 with exact counts (rest from the channel page, rounded) = 9021 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "12 real people this week; 1869 of 1880 page views were bots, crawlers or testing and are excluded"
+   "detail": "12 real people this week; 1714 of 1725 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -859,12 +859,12 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
@@ -874,7 +874,7 @@
  ],
  "posting": {
   "date": "2026-11-16",
-  "now_et": "6:28 AM",
+  "now_et": "7:07 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -993,7 +993,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/GTcoR5hC3is",
-      "views": 1
+      "views": 0
      },
      {
       "p": "facebook",
@@ -1040,7 +1040,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/TObzq6YBBiw",
-      "views": 247
+      "views": 258
      },
      {
       "p": "facebook",
@@ -1087,7 +1087,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-      "views": 92
+      "views": 94
      },
      {
       "p": "facebook",
@@ -1397,5 +1397,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-16T11:27:44.889723Z"
+ "checked_at": "2026-11-16T12:06:37.762380Z"
 }
