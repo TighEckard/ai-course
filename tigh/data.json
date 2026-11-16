@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T03:44:40.092259Z",
+ "generated_at": "2026-11-16T04:27:51.531639Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -86,14 +86,14 @@
    "2026-11-14": 3,
    "2026-11-15": 5
   },
-  "all_views_7d": 2185,
-  "bot_views_7d": 2174,
+  "all_views_7d": 2197,
+  "bot_views_7d": 2186,
   "browsers_30d": {
    "?": 5,
    "Chrome": 19,
    "Safari": 7
   },
-  "generated_at": "2026-11-16T03:44:40.484463+00:00",
+  "generated_at": "2026-11-16T04:27:51.959203+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -339,7 +339,7 @@
   "roofing_real_visitors_7d": 2
  },
  "youtube": {
-  "total_views": 8945,
+  "total_views": 8942,
   "videos": 38,
   "likes": 0,
   "top": [
@@ -377,7 +377,7 @@
     "id": "TObzq6YBBiw",
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://youtube.com/shorts/TObzq6YBBiw",
-    "views": 201,
+    "views": 196,
     "published": "2026-11-15",
     "exact": true
    },
@@ -393,7 +393,7 @@
     "id": "QSxj4gj4llM",
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://youtube.com/shorts/QSxj4gj4llM",
-    "views": 143,
+    "views": 144,
     "published": "2026-11-13",
     "exact": true
    },
@@ -489,7 +489,7 @@
     "id": "aHFCFhbCeZk",
     "title": "Insurance letter in plain English with AI #Shorts",
     "url": "https://youtube.com/shorts/aHFCFhbCeZk",
-    "views": 2,
+    "views": 3,
     "published": "2026-11-08",
     "exact": true
    },
@@ -678,18 +678,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-16T03:44:40.092259Z"
+  "checked_at": "2026-11-16T04:27:51.531639Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "38 videos on the channel, 36 with exact counts (rest from the channel page, rounded) = 8945 views"
+   "detail": "38 videos on the channel, 36 with exact counts (rest from the channel page, rounded) = 8942 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "12 real people this week; 2174 of 2185 page views were bots, crawlers or testing and are excluded"
+   "detail": "12 real people this week; 2186 of 2197 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -704,7 +704,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Ovoa",
@@ -719,12 +719,12 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 149h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 150h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-15",
-  "now_et": "10:45 PM",
+  "now_et": "11:28 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -843,7 +843,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/TObzq6YBBiw",
-      "views": 201
+      "views": 196
      },
      {
       "p": "facebook",
@@ -937,7 +937,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/QSxj4gj4llM",
-      "views": 143
+      "views": 144
      },
      {
       "p": "facebook",
@@ -1234,7 +1234,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/aHFCFhbCeZk",
-      "views": 2
+      "views": 3
      }
     ]
    },
@@ -1331,5 +1331,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-16T03:44:40.092259Z"
+ "checked_at": "2026-11-16T04:27:51.531639Z"
 }
