@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T04:27:51.531639Z",
+ "generated_at": "2026-11-16T05:27:45.941242Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -86,14 +86,14 @@
    "2026-11-14": 3,
    "2026-11-15": 5
   },
-  "all_views_7d": 2197,
-  "bot_views_7d": 2186,
+  "all_views_7d": 2200,
+  "bot_views_7d": 2189,
   "browsers_30d": {
    "?": 5,
    "Chrome": 19,
    "Safari": 7
   },
-  "generated_at": "2026-11-16T04:27:51.959203+00:00",
+  "generated_at": "2026-11-16T05:27:46.674084+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -339,7 +339,7 @@
   "roofing_real_visitors_7d": 2
  },
  "youtube": {
-  "total_views": 8942,
+  "total_views": 8953,
   "videos": 38,
   "likes": 0,
   "top": [
@@ -377,7 +377,7 @@
     "id": "TObzq6YBBiw",
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://youtube.com/shorts/TObzq6YBBiw",
-    "views": 196,
+    "views": 201,
     "published": "2026-11-15",
     "exact": true
    },
@@ -385,7 +385,7 @@
     "id": "HsSq5MJ-juM",
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-    "views": 80,
+    "views": 86,
     "published": "2026-11-14",
     "exact": true
    },
@@ -678,18 +678,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-16T04:27:51.531639Z"
+  "checked_at": "2026-11-16T05:27:45.941242Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "38 videos on the channel, 36 with exact counts (rest from the channel page, rounded) = 8942 views"
+   "detail": "38 videos on the channel, 36 with exact counts (rest from the channel page, rounded) = 8953 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "12 real people this week; 2186 of 2197 page views were bots, crawlers or testing and are excluded"
+   "detail": "12 real people this week; 2189 of 2200 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -698,18 +698,18 @@
   },
   {
    "name": "Posting",
-   "ok": false,
-   "detail": "YouTube 1/2 planned posts found live on the channel today"
+   "ok": true,
+   "detail": "YouTube 0/2 planned posts found live on the channel today"
   },
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Roofing",
@@ -719,46 +719,46 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 150h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 151h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
-  "date": "2026-11-15",
-  "now_et": "11:28 PM",
+  "date": "2026-11-16",
+  "now_et": "12:28 AM",
   "today": {
    "youtube": {
     "planned": 2,
-    "done": 1,
+    "done": 0,
     "verified": true,
-    "overdue": 1,
+    "overdue": 0,
     "items": [
      {
-      "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
-      "id": "em02-voiceclone",
-      "when": "2026-11-15T07:30:00-05:00",
+      "title": "Medicare is texting you? Don't reply #Shorts",
+      "id": "med27a",
+      "when": "2026-11-16T07:30:00-05:00",
       "slot": "am",
-      "done": true,
+      "done": false,
       "verified": true,
-      "due": true
+      "due": false
      },
      {
-      "title": "It's your bank calling. Or is it?",
-      "id": "bank24a",
-      "when": "2026-11-15T22:30:00-05:00",
+      "title": "The call that sounds just like your grandson",
+      "id": "jail27b",
+      "when": "2026-11-16T22:30:00-05:00",
       "slot": "pm",
       "done": false,
       "verified": true,
-      "due": true
+      "due": false
      }
     ],
     "next": {
-     "title": "It's your bank calling. Or is it?",
-     "id": "bank24a",
-     "when": "2026-11-15T22:30:00-05:00",
-     "slot": "pm",
+     "title": "Medicare is texting you? Don't reply #Shorts",
+     "id": "med27a",
+     "when": "2026-11-16T07:30:00-05:00",
+     "slot": "am",
      "done": false,
      "verified": true,
-     "due": true
+     "due": false
     }
    },
    "facebook": {
@@ -768,32 +768,32 @@
     "overdue": 0,
     "items": [
      {
-      "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
-      "id": "em02-voiceclone",
-      "when": "2026-11-15T07:30:00-05:00",
+      "title": "Medicare is texting you? Don't reply #Shorts",
+      "id": "med27a",
+      "when": "2026-11-16T07:30:00-05:00",
       "slot": "am",
       "done": null,
       "verified": false,
-      "due": true
+      "due": false
      },
      {
-      "title": "It's your bank calling. Or is it?",
-      "id": "bank24a",
-      "when": "2026-11-15T22:30:00-05:00",
+      "title": "The call that sounds just like your grandson",
+      "id": "jail27b",
+      "when": "2026-11-16T22:30:00-05:00",
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": true
+      "due": false
      }
     ],
     "next": {
-     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
-     "id": "em02-voiceclone",
-     "when": "2026-11-15T07:30:00-05:00",
+     "title": "Medicare is texting you? Don't reply #Shorts",
+     "id": "med27a",
+     "when": "2026-11-16T07:30:00-05:00",
      "slot": "am",
      "done": null,
      "verified": false,
-     "due": true
+     "due": false
     }
    },
    "instagram": {
@@ -803,36 +803,82 @@
     "overdue": 0,
     "items": [
      {
-      "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
-      "id": "em02-voiceclone",
-      "when": "2026-11-15T07:30:00-05:00",
+      "title": "Medicare is texting you? Don't reply #Shorts",
+      "id": "med27a",
+      "when": "2026-11-16T07:30:00-05:00",
       "slot": "am",
       "done": null,
       "verified": false,
-      "due": true
+      "due": false
      },
      {
-      "title": "It's your bank calling. Or is it?",
-      "id": "bank24a",
-      "when": "2026-11-15T22:30:00-05:00",
+      "title": "The call that sounds just like your grandson",
+      "id": "jail27b",
+      "when": "2026-11-16T22:30:00-05:00",
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": true
+      "due": false
      }
     ],
     "next": {
-     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
-     "id": "em02-voiceclone",
-     "when": "2026-11-15T07:30:00-05:00",
+     "title": "Medicare is texting you? Don't reply #Shorts",
+     "id": "med27a",
+     "when": "2026-11-16T07:30:00-05:00",
      "slot": "am",
      "done": null,
      "verified": false,
-     "due": true
+     "due": false
     }
    }
   },
   "history": [
+   {
+    "date": "2026-11-16",
+    "slot": "am",
+    "title": "Medicare is texting you? Don't reply #Shorts",
+    "format": "slang v2 scam sting",
+    "platforms": [
+     {
+      "p": "youtube",
+      "status": "scheduled",
+      "url": null
+     },
+     {
+      "p": "facebook",
+      "status": "unverified",
+      "url": null
+     },
+     {
+      "p": "instagram",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-16",
+    "slot": "pm",
+    "title": "The call that sounds just like your grandson",
+    "format": "slang v2 scam sting",
+    "platforms": [
+     {
+      "p": "youtube",
+      "status": "scheduled",
+      "url": null
+     },
+     {
+      "p": "facebook",
+      "status": "unverified",
+      "url": null
+     },
+     {
+      "p": "instagram",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
    {
     "date": "2026-11-15",
     "slot": "am",
@@ -843,7 +889,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/TObzq6YBBiw",
-      "views": 196
+      "views": 201
      },
      {
       "p": "facebook",
@@ -890,7 +936,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-      "views": 80
+      "views": 86
      },
      {
       "p": "facebook",
@@ -1178,147 +1224,6 @@
       "url": null
      }
     ]
-   },
-   {
-    "date": "2026-11-08",
-    "slot": "am",
-    "title": "7 Easy Ways to Spot a Scam Text (Plain-English Tips)",
-    "format": "pin tall tips graphic",
-    "platforms": [
-     {
-      "p": "pinterest",
-      "status": "unverified",
-      "url": null
-     }
-    ]
-   },
-   {
-    "date": "2026-11-08",
-    "slot": "am",
-    "title": "Plan a whole trip with AI in a minute #Shorts",
-    "format": "whiteboard doodle",
-    "platforms": [
-     {
-      "p": "youtube",
-      "status": "live",
-      "url": "https://youtube.com/shorts/O0DxIt_fQjA",
-      "views": 1
-     }
-    ]
-   },
-   {
-    "date": "2026-11-08",
-    "slot": "am",
-    "title": "Your grandson calls from jail and needs money",
-    "format": "scam-or-safe quiz",
-    "platforms": [
-     {
-      "p": "facebook",
-      "status": "unverified",
-      "url": null
-     },
-     {
-      "p": "instagram",
-      "status": "unverified",
-      "url": null
-     }
-    ]
-   },
-   {
-    "date": "2026-11-08",
-    "slot": "pm",
-    "title": "Insurance letter in plain English with AI #Shorts",
-    "format": "before-after",
-    "platforms": [
-     {
-      "p": "youtube",
-      "status": "live",
-      "url": "https://youtube.com/shorts/aHFCFhbCeZk",
-      "views": 3
-     }
-    ]
-   },
-   {
-    "date": "2026-11-08",
-    "slot": "pm",
-    "title": "Nothing for dinner? Tell AI what is in your fridge",
-    "format": "whiteboard doodle",
-    "platforms": [
-     {
-      "p": "facebook",
-      "status": "unverified",
-      "url": null
-     },
-     {
-      "p": "instagram",
-      "status": "unverified",
-      "url": null
-     }
-    ]
-   },
-   {
-    "date": "2026-11-08",
-    "slot": "am",
-    "title": "The intern got promoted. He's 22. #Shorts",
-    "format": "personal-hook story",
-    "platforms": [
-     {
-      "p": "youtube",
-      "status": "live",
-      "url": "https://youtube.com/shorts/tCjX_vTzg9I",
-      "views": 0
-     }
-    ]
-   },
-   {
-    "date": "2026-11-08",
-    "slot": "am",
-    "title": "POV: you find out the dentist's receptionist is not a person",
-    "format": "personal-hook story",
-    "platforms": [
-     {
-      "p": "facebook",
-      "status": "unverified",
-      "url": null
-     },
-     {
-      "p": "instagram",
-      "status": "unverified",
-      "url": null
-     }
-    ]
-   },
-   {
-    "date": "2026-11-08",
-    "slot": "pm",
-    "title": "The email that could get you a $14k raise #Shorts",
-    "format": "personal-hook story",
-    "platforms": [
-     {
-      "p": "youtube",
-      "status": "live",
-      "url": "https://youtube.com/shorts/-4fKye0-VjE",
-      "views": 1
-     }
-    ]
-   },
-   {
-    "date": "2026-11-08",
-    "slot": "pm",
-    "title": "Stop",
-    "format": "personal-hook story",
-    "platforms": [
-     {
-      "p": "facebook",
-      "status": "unverified",
-      "url": null
-     },
-     {
-      "p": "instagram",
-      "status": "unverified",
-      "url": null
-     }
-    ]
    }
   ],
   "yt_by_day": {},
@@ -1331,5 +1236,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-16T04:27:51.531639Z"
+ "checked_at": "2026-11-16T05:27:45.941242Z"
 }
