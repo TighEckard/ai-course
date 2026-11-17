@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T03:06:05.771469Z",
+ "generated_at": "2026-11-17T03:27:55.393376Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -93,7 +93,7 @@
    "Chrome": 19,
    "Safari": 7
   },
-  "generated_at": "2026-11-17T03:06:06.515878+00:00",
+  "generated_at": "2026-11-17T03:27:56.019796+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -339,7 +339,7 @@
   "roofing_real_visitors_7d": 2
  },
  "youtube": {
-  "total_views": 9109,
+  "total_views": 9100,
   "videos": 39,
   "likes": 7,
   "top": [
@@ -380,7 +380,7 @@
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://www.youtube.com/shorts/TObzq6YBBiw",
     "published": "2026-11-15T12:35:24+00:00",
-    "views": 317,
+    "views": 318,
     "likes": 2
    },
    {
@@ -417,7 +417,7 @@
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://www.youtube.com/shorts/TObzq6YBBiw",
     "published": "2026-11-15T12:35:24+00:00",
-    "views": 317,
+    "views": 318,
     "likes": 2
    },
    {
@@ -473,7 +473,7 @@
     "title": "What to say when a scam caller pressures you",
     "url": "https://www.youtube.com/shorts/BMZBrj5YJGs",
     "published": "2026-11-10T02:37:27+00:00",
-    "views": 8,
+    "views": 14,
     "likes": 0
    },
    {
@@ -527,7 +527,7 @@
     "id": "TObzq6YBBiw",
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://youtube.com/shorts/TObzq6YBBiw",
-    "views": 321,
+    "views": 318,
     "published": "2026-11-15",
     "exact": true
    },
@@ -591,7 +591,7 @@
     "id": "BMZBrj5YJGs",
     "title": "What to say when a scam caller pressures you",
     "url": "https://youtube.com/shorts/BMZBrj5YJGs",
-    "views": 14,
+    "views": 8,
     "published": "2026-11-10",
     "exact": true
    },
@@ -828,13 +828,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-17T03:06:05.771469Z"
+  "checked_at": "2026-11-17T03:27:55.393376Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "39 videos on the channel, 37 with exact counts (rest from the channel page, rounded) = 9109 views"
+   "detail": "39 videos on the channel, 37 with exact counts (rest from the channel page, rounded) = 9100 views"
   },
   {
    "name": "Website visitors",
@@ -854,7 +854,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 3h ago"
   },
   {
    "name": "Ovoa",
@@ -864,17 +864,17 @@
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 172h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 173h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-16",
-  "now_et": "10:06 PM",
+  "now_et": "10:28 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1040,7 +1040,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/TObzq6YBBiw",
-      "views": 321
+      "views": 318
      },
      {
       "p": "facebook",
@@ -1397,5 +1397,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-17T03:06:05.771469Z"
+ "checked_at": "2026-11-17T03:27:55.393376Z"
 }
