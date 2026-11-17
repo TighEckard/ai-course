@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T12:28:26.353069Z",
+ "generated_at": "2026-11-17T12:44:41.628136Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -97,7 +97,7 @@
    "Chrome": 21,
    "Safari": 7
   },
-  "generated_at": "2026-11-17T12:28:26.631082+00:00",
+  "generated_at": "2026-11-17T12:44:42.129625+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -344,7 +344,7 @@
  },
  "youtube": {
   "total_views": 9139,
-  "videos": 39,
+  "videos": 41,
   "likes": 7,
   "top": [
    {
@@ -374,6 +374,20 @@
   ],
   "recent": [
    {
+    "title": "Your Amazon account is locked? Read this first #Shorts",
+    "url": "https://www.youtube.com/shorts/m0W4dx-Yyq4",
+    "published": "2026-11-17T12:41:33+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
+    "title": "Your Amazon account is locked? Read this first #Shorts",
+    "url": "https://www.youtube.com/shorts/YQsRiuD4170",
+    "published": "2026-11-17T12:35:30+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
     "title": "Medicare is texting you? Don't reply #Shorts",
     "url": "https://www.youtube.com/shorts/GTcoR5hC3is",
     "published": "2026-11-16T09:25:28+00:00",
@@ -393,23 +407,23 @@
     "published": "2026-11-14T12:36:00+00:00",
     "views": 97,
     "likes": 2
-   },
-   {
-    "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
-    "url": "https://www.youtube.com/shorts/QSxj4gj4llM",
-    "published": "2026-11-13T23:36:47+00:00",
-    "views": 147,
-    "likes": 2
-   },
-   {
-    "title": "Grandkid texted 'it's giving fake'? Translated",
-    "url": "https://www.youtube.com/shorts/gNvoRlgUQSg",
-    "published": "2026-11-12T12:37:56+00:00",
-    "views": 0,
-    "likes": 0
    }
   ],
   "all": [
+   {
+    "title": "Your Amazon account is locked? Read this first #Shorts",
+    "url": "https://www.youtube.com/shorts/m0W4dx-Yyq4",
+    "published": "2026-11-17T12:41:33+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
+    "title": "Your Amazon account is locked? Read this first #Shorts",
+    "url": "https://www.youtube.com/shorts/YQsRiuD4170",
+    "published": "2026-11-17T12:35:30+00:00",
+    "views": 0,
+    "likes": 0
+   },
    {
     "title": "Medicare is texting you? Don't reply #Shorts",
     "url": "https://www.youtube.com/shorts/GTcoR5hC3is",
@@ -500,25 +514,27 @@
     "published": "2026-11-08T04:28:34+00:00",
     "views": 1,
     "likes": 0
-   },
-   {
-    "title": "The email that could get you a $14k raise #Shorts",
-    "url": "https://www.youtube.com/shorts/o-Cm_xmLloU",
-    "published": "2026-11-08T03:37:08+00:00",
-    "views": 2,
-    "likes": 0
-   },
-   {
-    "title": "The intern got promoted. He's 22. #Shorts",
-    "url": "https://www.youtube.com/shorts/tCjX_vTzg9I",
-    "published": "2026-11-08T00:25:01+00:00",
-    "views": 0,
-    "likes": 0
    }
   ],
   "catalog": true,
-  "exact_videos": 37,
+  "exact_videos": 39,
   "list": [
+   {
+    "id": "m0W4dx-Yyq4",
+    "title": "Your Amazon account is locked? Read this first #Shorts",
+    "url": "https://youtube.com/shorts/m0W4dx-Yyq4",
+    "views": 0,
+    "published": "2026-11-17",
+    "exact": true
+   },
+   {
+    "id": "YQsRiuD4170",
+    "title": "Your Amazon account is locked? Read this first #Shorts",
+    "url": "https://youtube.com/shorts/YQsRiuD4170",
+    "views": 0,
+    "published": "2026-11-17",
+    "exact": true
+   },
    {
     "id": "GTcoR5hC3is",
     "title": "Medicare is texting you? Don't reply #Shorts",
@@ -624,6 +640,14 @@
     "exact": true
    },
    {
+    "id": "o-Cm_xmLloU",
+    "title": "The email that could get you a $14k raise #Shorts",
+    "url": "https://youtube.com/shorts/o-Cm_xmLloU",
+    "views": 2,
+    "published": "2026-11-08",
+    "exact": true
+   },
+   {
     "id": "tCjX_vTzg9I",
     "title": "The intern got promoted. He's 22. #Shorts",
     "url": "https://youtube.com/shorts/tCjX_vTzg9I",
@@ -645,14 +669,6 @@
     "url": "https://youtube.com/shorts/O0DxIt_fQjA",
     "views": 2,
     "published": "2026-11-08",
-    "exact": true
-   },
-   {
-    "id": "o-Cm_xmLloU",
-    "title": "The email that could get you a $14k raise #Shorts",
-    "url": "https://youtube.com/shorts/o-Cm_xmLloU",
-    "views": 2,
-    "published": "2026-11-07T19:37:08-08:00",
     "exact": true
    },
    {
@@ -832,13 +848,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-17T12:28:26.353069Z"
+  "checked_at": "2026-11-17T12:44:41.628136Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "39 videos on the channel, 37 with exact counts (rest from the channel page, rounded) = 9139 views"
+   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9139 views"
   },
   {
    "name": "Website visitors",
@@ -853,12 +869,12 @@
   {
    "name": "Posting",
    "ok": true,
-   "detail": "YouTube 0/2 planned posts found live on the channel today"
+   "detail": "YouTube 1/2 planned posts found live on the channel today"
   },
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Footy",
@@ -868,7 +884,7 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Roofing",
@@ -878,16 +894,16 @@
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   }
  ],
  "posting": {
   "date": "2026-11-17",
-  "now_et": "7:28 AM",
+  "now_et": "7:45 AM",
   "today": {
    "youtube": {
     "planned": 2,
-    "done": 0,
+    "done": 1,
     "verified": true,
     "overdue": 0,
     "items": [
@@ -896,9 +912,9 @@
       "id": "amz28a",
       "when": "2026-11-17T07:30:00-05:00",
       "slot": "am",
-      "done": false,
+      "done": true,
       "verified": true,
-      "due": false
+      "due": true
      },
      {
       "title": "The IRS will never ask you for gift cards",
@@ -911,10 +927,10 @@
      }
     ],
     "next": {
-     "title": "Your Amazon account is locked? Read this first #Shorts",
-     "id": "amz28a",
-     "when": "2026-11-17T07:30:00-05:00",
-     "slot": "am",
+     "title": "The IRS will never ask you for gift cards",
+     "id": "irs28b",
+     "when": "2026-11-17T22:30:00-05:00",
+     "slot": "pm",
      "done": false,
      "verified": true,
      "due": false
@@ -933,7 +949,7 @@
       "slot": "am",
       "done": null,
       "verified": false,
-      "due": false
+      "due": true
      },
      {
       "title": "The IRS will never ask you for gift cards",
@@ -952,7 +968,7 @@
      "slot": "am",
      "done": null,
      "verified": false,
-     "due": false
+     "due": true
     }
    },
    "instagram": {
@@ -968,7 +984,7 @@
       "slot": "am",
       "done": null,
       "verified": false,
-      "due": false
+      "due": true
      },
      {
       "title": "The IRS will never ask you for gift cards",
@@ -987,7 +1003,7 @@
      "slot": "am",
      "done": null,
      "verified": false,
-     "due": false
+     "due": true
     }
    }
   },
@@ -1000,8 +1016,9 @@
     "platforms": [
      {
       "p": "youtube",
-      "status": "missing",
-      "url": null
+      "status": "live",
+      "url": "https://youtube.com/shorts/m0W4dx-Yyq4",
+      "views": 0
      },
      {
       "p": "facebook",
@@ -1356,6 +1373,7 @@
    }
   ],
   "yt_by_day": {
+   "2026-11-17": 2,
    "2026-11-16": 1,
    "2026-11-15": 1,
    "2026-11-14": 1,
@@ -1364,7 +1382,7 @@
    "2026-11-11": 1,
    "2026-11-10": 3,
    "2026-11-09": 2,
-   "2026-11-08": 3
+   "2026-11-08": 1
   },
   "comments_by_day": {}
  },
@@ -1375,5 +1393,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-17T12:28:26.353069Z"
+ "checked_at": "2026-11-17T12:44:41.628136Z"
 }

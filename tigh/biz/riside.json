@@ -1,6 +1,6 @@
 {
  "name": "Riside",
- "updated": "2026-11-17T12:28:26.353069Z",
+ "updated": "2026-11-17T12:44:41.628136Z",
  "notes": "Written by the dashboard job (every 3 hours). Search Console clicks are not available (needs a Google login). Facebook, Instagram and Pinterest follower/view numbers need the PC collector.",
  "headline": [
   {
@@ -21,7 +21,7 @@
   {
    "label": "YouTube views",
    "value": 9139,
-   "sub": "39 Shorts"
+   "sub": "41 Shorts"
   },
   {
    "label": "Roofing leads",
@@ -30,7 +30,7 @@
   },
   {
    "label": "Posts today",
-   "value": "YO 0/2, FA ?/2, IN ?/2"
+   "value": "YO 1/2, FA ?/2, IN ?/2"
   }
  ],
  "sections": [
