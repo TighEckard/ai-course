@@ -1,7 +1,7 @@
 {
  "name": "Footy",
- "updated": "2026-11-17T07:35:00Z",
- "notes": "Footy. Counts come from Firebase, Play installed audience and Cloudflare. iOS downloads and revenue are not included yet.",
+ "updated": "2026-11-17T12:00:00Z",
+ "notes": "Footy. Counts come from Firebase, Play installed audience and Cloudflare. iOS downloads/Plus subs/revenue: n/a, needs login (App Store Connect signed out).",
  "headline": [
   {
    "label": "Accounts (Firebase)",
@@ -11,7 +11,7 @@
   {
    "label": "Android installs (active)",
    "value": 2,
-   "sub": "Play installed audience, Nov 14"
+   "sub": "Play installed audience, Nov 16"
   },
   {
    "label": "joinfooty.com visits",
@@ -26,7 +26,7 @@
     {
      "label": "iOS",
      "value": "Live",
-     "sub": "v1.2.1"
+     "sub": "v1.2.1; downloads/revenue n/a, needs login"
     },
     {
      "label": "Android",
