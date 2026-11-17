@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T07:28:02.369489Z",
+ "generated_at": "2026-11-17T07:28:44.965144Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -97,7 +97,7 @@
    "Chrome": 21,
    "Safari": 7
   },
-  "generated_at": "2026-11-17T07:28:02.5595+00:00",
+  "generated_at": "2026-11-17T07:28:45.174079+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -384,7 +384,7 @@
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://www.youtube.com/shorts/TObzq6YBBiw",
     "published": "2026-11-15T12:35:24+00:00",
-    "views": 331,
+    "views": 339,
     "likes": 2
    },
    {
@@ -421,7 +421,7 @@
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://www.youtube.com/shorts/TObzq6YBBiw",
     "published": "2026-11-15T12:35:24+00:00",
-    "views": 331,
+    "views": 339,
     "likes": 2
    },
    {
@@ -832,7 +832,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-17T07:28:02.369489Z"
+  "checked_at": "2026-11-17T07:28:44.965144Z"
  },
  "checks": [
   {
@@ -883,7 +883,7 @@
  ],
  "posting": {
   "date": "2026-11-17",
-  "now_et": "2:28 AM",
+  "now_et": "2:29 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1375,5 +1375,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-17T07:28:02.369489Z"
+ "checked_at": "2026-11-17T07:28:44.965144Z"
 }
