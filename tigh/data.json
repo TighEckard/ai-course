@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T22:27:42.262236Z",
+ "generated_at": "2026-11-17T23:22:06.681668Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -90,14 +90,14 @@
    "2026-11-16": 1,
    "2026-11-17": 2
   },
-  "all_views_7d": 1218,
-  "bot_views_7d": 1205,
+  "all_views_7d": 1320,
+  "bot_views_7d": 1307,
   "browsers_30d": {
    "?": 6,
    "Chrome": 21,
    "Safari": 7
   },
-  "generated_at": "2026-11-17T22:27:42.645939+00:00",
+  "generated_at": "2026-11-17T23:22:07.017363+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -550,7 +550,7 @@
     "title": "Medicare is texting you? Don't reply #Shorts",
     "url": "https://youtube.com/shorts/GTcoR5hC3is",
     "views": 16,
-    "published": "2026-11-16T01:25:28-08:00",
+    "published": "2026-11-16",
     "exact": true
    },
    {
@@ -858,7 +858,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-17T22:27:42.262236Z"
+  "checked_at": "2026-11-17T23:22:06.681668Z"
  },
  "checks": [
   {
@@ -869,7 +869,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "13 real people this week; 1205 of 1218 page views were bots, crawlers or testing and are excluded"
+   "detail": "13 real people this week; 1307 of 1320 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -884,7 +884,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Footy",
@@ -894,22 +894,22 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 7h ago"
+   "detail": "numbers last refreshed 8h ago"
   }
  ],
  "posting": {
   "date": "2026-11-17",
-  "now_et": "5:28 PM",
+  "now_et": "6:22 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1403,5 +1403,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-17T22:27:42.262236Z"
+ "checked_at": "2026-11-17T23:22:06.681668Z"
 }
