@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T02:28:29.602946Z",
+ "generated_at": "2026-11-17T03:06:05.771469Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -93,7 +93,7 @@
    "Chrome": 19,
    "Safari": 7
   },
-  "generated_at": "2026-11-17T02:28:30.589628+00:00",
+  "generated_at": "2026-11-17T03:06:06.515878+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -339,7 +339,7 @@
   "roofing_real_visitors_7d": 2
  },
  "youtube": {
-  "total_views": 9099,
+  "total_views": 9109,
   "videos": 39,
   "likes": 7,
   "top": [
@@ -380,7 +380,7 @@
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://www.youtube.com/shorts/TObzq6YBBiw",
     "published": "2026-11-15T12:35:24+00:00",
-    "views": 318,
+    "views": 317,
     "likes": 2
    },
    {
@@ -417,7 +417,7 @@
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://www.youtube.com/shorts/TObzq6YBBiw",
     "published": "2026-11-15T12:35:24+00:00",
-    "views": 318,
+    "views": 317,
     "likes": 2
    },
    {
@@ -473,7 +473,7 @@
     "title": "What to say when a scam caller pressures you",
     "url": "https://www.youtube.com/shorts/BMZBrj5YJGs",
     "published": "2026-11-10T02:37:27+00:00",
-    "views": 14,
+    "views": 8,
     "likes": 0
    },
    {
@@ -527,7 +527,7 @@
     "id": "TObzq6YBBiw",
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://youtube.com/shorts/TObzq6YBBiw",
-    "views": 311,
+    "views": 321,
     "published": "2026-11-15",
     "exact": true
    },
@@ -828,13 +828,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-17T02:28:29.602946Z"
+  "checked_at": "2026-11-17T03:06:05.771469Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "39 videos on the channel, 37 with exact counts (rest from the channel page, rounded) = 9099 views"
+   "detail": "39 videos on the channel, 37 with exact counts (rest from the channel page, rounded) = 9109 views"
   },
   {
    "name": "Website visitors",
@@ -859,12 +859,12 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
@@ -874,7 +874,7 @@
  ],
  "posting": {
   "date": "2026-11-16",
-  "now_et": "9:29 PM",
+  "now_et": "10:06 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1015,7 +1015,7 @@
     "platforms": [
      {
       "p": "youtube",
-      "status": "scheduled",
+      "status": "missing",
       "url": null
      },
      {
@@ -1040,7 +1040,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/TObzq6YBBiw",
-      "views": 311
+      "views": 321
      },
      {
       "p": "facebook",
@@ -1397,5 +1397,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-17T02:28:29.602946Z"
+ "checked_at": "2026-11-17T03:06:05.771469Z"
 }
