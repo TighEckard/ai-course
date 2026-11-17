@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T10:28:18.736200Z",
+ "generated_at": "2026-11-17T11:23:41.124259Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -90,14 +90,14 @@
    "2026-11-16": 1,
    "2026-11-17": 1
   },
-  "all_views_7d": 1192,
-  "bot_views_7d": 1179,
+  "all_views_7d": 1193,
+  "bot_views_7d": 1180,
   "browsers_30d": {
    "?": 5,
    "Chrome": 21,
    "Safari": 7
   },
-  "generated_at": "2026-11-17T10:28:19.014049+00:00",
+  "generated_at": "2026-11-17T11:23:41.83782+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -343,7 +343,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 9128,
+  "total_views": 9132,
   "videos": 39,
   "likes": 7,
   "top": [
@@ -531,7 +531,7 @@
     "id": "TObzq6YBBiw",
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://youtube.com/shorts/TObzq6YBBiw",
-    "views": 339,
+    "views": 342,
     "published": "2026-11-15",
     "exact": true
    },
@@ -651,7 +651,7 @@
     "id": "O0DxIt_fQjA",
     "title": "Plan a whole trip with AI in a minute #Shorts",
     "url": "https://youtube.com/shorts/O0DxIt_fQjA",
-    "views": 1,
+    "views": 2,
     "published": "2026-11-08",
     "exact": true
    },
@@ -832,18 +832,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-17T10:28:18.736200Z"
+  "checked_at": "2026-11-17T11:23:41.124259Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "39 videos on the channel, 37 with exact counts (rest from the channel page, rounded) = 9128 views"
+   "detail": "39 videos on the channel, 37 with exact counts (rest from the channel page, rounded) = 9132 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "12 real people this week; 1179 of 1192 page views were bots, crawlers or testing and are excluded"
+   "detail": "12 real people this week; 1180 of 1193 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -858,7 +858,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Footy",
@@ -868,22 +868,22 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   }
  ],
  "posting": {
   "date": "2026-11-17",
-  "now_et": "5:28 AM",
+  "now_et": "6:24 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1095,7 +1095,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/TObzq6YBBiw",
-      "views": 339
+      "views": 342
      },
      {
       "p": "facebook",
@@ -1375,5 +1375,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-17T10:28:18.736200Z"
+ "checked_at": "2026-11-17T11:23:41.124259Z"
 }
