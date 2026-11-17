@@ -215,7 +215,7 @@ try:
     riside = {
         'name': 'Riside',
         'updated': d['generated_at'],
-        'notes': 'Written by the hourly dashboard job. Search Console clicks are not available (needs a Google login). Facebook, Instagram and Pinterest follower/view numbers need the PC collector.',
+        'notes': 'Written by the dashboard job (every 3 hours). Search Console clicks are not available (needs a Google login). Facebook, Instagram and Pinterest follower/view numbers need the PC collector.',
         'headline': [
             tl('Real signups', st.get('signups_total'), '%s this week, %s test hidden' % (st.get('signups_7d'), st.get('test_signups_excluded'))),
             tl('Paid members', st.get('paid_members'), '%s test hidden' % st.get('test_members_excluded')),

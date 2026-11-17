@@ -3,7 +3,7 @@ on:
   push:
     branches: [main]
     paths: [dash/feed/refresh.txt, scripts/dash_build.py, .github/workflows/dash.yml, dash/feed/social.json, dash/feed/schedule.json, 'tigh/biz/*.json', 'social/*/manifest.json']
-  schedule: [{cron: '7 * * * *'}]
+  schedule: [{cron: '7 */3 * * *'}]
   workflow_dispatch:
 permissions:
   contents: write
