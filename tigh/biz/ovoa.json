@@ -1,7 +1,7 @@
 {
  "name": "Ovoa",
  "updated": "2026-11-17T06:06:24Z",
- "notes": "Sender is PAUSED in its settings. Sales, signups, app and site traffic need Stripe / admin.ovoa.ai / App Store logins (not connected yet). Replies are unique senders+subjects in the Sender inbox (unverified).",
+ "notes": "Cold email via the Sender. Last send was around Nov 9 (sender paused), so counts are accurate but unchanged. Replies are unique senders and subjects in the Sender inbox.",
  "headline": [
   {
    "label": "Creator emails sent",
@@ -33,21 +33,6 @@
    "label": "Leads in Sender",
    "value": 4701,
    "sub": "loaded, includes already sent"
-  },
-  {
-   "label": "Sales",
-   "value": "n/a",
-   "sub": "needs Stripe login"
-  },
-  {
-   "label": "Text OVOA trials",
-   "value": "n/a",
-   "sub": "needs admin.ovoa.ai login"
-  },
-  {
-   "label": "Site visitors",
-   "value": "n/a",
-   "sub": "needs admin.ovoa.ai login"
   }
  ],
  "sections": [

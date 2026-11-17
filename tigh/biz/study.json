@@ -1,7 +1,7 @@
 {
  "name": "Study creators",
  "updated": "2026-11-17T07:19:37Z",
- "notes": "Study-creator emails go out from Ovoa inboxes (tryovoa.com). Counts from the Sender lead list tagged riside. Creator pipeline list has 21 creators.",
+ "notes": "Study-creator emails go out from Ovoa inboxes. Counts come from the Sender lead list tagged riside. Last send was around Nov 9. Creator pipeline list has 21 creators.",
  "headline": [
   {
    "label": "Study leads loaded",
@@ -14,11 +14,6 @@
   {
    "label": "Still queued",
    "value": 2
-  },
-  {
-   "label": "Replies",
-   "value": "n/a",
-   "sub": "not separated from other mail"
   },
   {
    "label": "Cofounder pipeline",
