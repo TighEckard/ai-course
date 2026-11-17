@@ -1,22 +1,22 @@
 {
  "name": "Footy",
- "updated": "2026-11-17T20:00:00Z",
- "notes": "Footy. Counts come from Firebase, Play Console and Cloudflare. iOS downloads/Plus subs/revenue: n/a, needs login (App Store Connect signed out). Play installed audience: n/a, needs login/readable chart; old value kept.",
+ "updated": "2026-11-17T21:00:00Z",
+ "notes": "Footy. Chrome (eckartig0) not connected this run: all numbers n/a, needs login; old values kept (Firebase users, Play installs, joinfooty.com visits and page views from the previous run). iOS downloads/Plus subs/revenue: n/a, needs login.",
  "headline": [
   {
    "label": "Accounts (Firebase)",
    "value": 3,
-   "sub": "cross-platform sign-ups"
+   "sub": "cross-platform sign-ups; n/a, needs login (old value kept)"
   },
   {
    "label": "Android installs (active)",
    "value": 2,
-   "sub": "Play installed audience, Nov 14 (old value kept; Play shows 4 installs in last 28 days)"
+   "sub": "Play installed audience; n/a, needs login (old value kept)"
   },
   {
    "label": "joinfooty.com visits",
    "value": 2,
-   "sub": "last 24h (Cloudflare)"
+   "sub": "last 24h (Cloudflare); n/a, needs login (old value kept)"
   }
  ],
  "sections": [
@@ -40,11 +40,13 @@
    "tiles": [
     {
      "label": "Page views, 24h",
-     "value": 2
+     "value": 2,
+     "sub": "n/a, needs login (old value kept)"
     },
     {
      "label": "Visits, 24h",
-     "value": 2
+     "value": 2,
+     "sub": "n/a, needs login (old value kept)"
     }
    ]
   },
@@ -54,7 +56,7 @@
     {
      "label": "Firebase users",
      "value": 3,
-     "sub": "latest sign-up Nov 15"
+     "sub": "latest sign-up Nov 15; n/a, needs login (old value kept)"
     }
    ]
   }
