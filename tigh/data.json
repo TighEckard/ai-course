@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T09:28:28.534160Z",
+ "generated_at": "2026-11-17T09:44:23.514407Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -97,7 +97,7 @@
    "Chrome": 21,
    "Safari": 7
   },
-  "generated_at": "2026-11-17T09:28:28.79315+00:00",
+  "generated_at": "2026-11-17T09:44:24.124345+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -343,7 +343,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 9127,
+  "total_views": 9121,
   "videos": 39,
   "likes": 7,
   "top": [
@@ -531,7 +531,7 @@
     "id": "TObzq6YBBiw",
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://youtube.com/shorts/TObzq6YBBiw",
-    "views": 339,
+    "views": 332,
     "published": "2026-11-15",
     "exact": true
    },
@@ -651,7 +651,7 @@
     "id": "O0DxIt_fQjA",
     "title": "Plan a whole trip with AI in a minute #Shorts",
     "url": "https://youtube.com/shorts/O0DxIt_fQjA",
-    "views": 1,
+    "views": 2,
     "published": "2026-11-08",
     "exact": true
    },
@@ -832,13 +832,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-17T09:28:28.534160Z"
+  "checked_at": "2026-11-17T09:44:23.514407Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "39 videos on the channel, 37 with exact counts (rest from the channel page, rounded) = 9127 views"
+   "detail": "39 videos on the channel, 37 with exact counts (rest from the channel page, rounded) = 9121 views"
   },
   {
    "name": "Website visitors",
@@ -858,7 +858,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 6h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Footy",
@@ -868,7 +868,7 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Roofing",
@@ -878,12 +878,12 @@
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   }
  ],
  "posting": {
   "date": "2026-11-17",
-  "now_et": "4:28 AM",
+  "now_et": "4:44 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1095,7 +1095,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/TObzq6YBBiw",
-      "views": 339
+      "views": 332
      },
      {
       "p": "facebook",
@@ -1375,5 +1375,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-17T09:28:28.534160Z"
+ "checked_at": "2026-11-17T09:44:23.514407Z"
 }
