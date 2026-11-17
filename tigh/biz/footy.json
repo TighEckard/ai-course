@@ -1,0 +1,35 @@
+{
+ "name": "Footy",
+ "updated": "2026-11-17T07:35:00Z",
+ "notes": "iOS downloads and Plus subs/revenue need an App Store Connect login (not signed in). Android and Plus revenue need Play Console reports (only installed audience read so far).",
+ "headline": [
+  {"label": "Accounts (Firebase)", "value": 3, "sub": "cross-platform sign-ups"},
+  {"label": "Android installs (active)", "value": 2, "sub": "Play installed audience, Nov 14"},
+  {"label": "iOS downloads", "value": "n/a", "sub": "needs App Store Connect login"},
+  {"label": "Footy Plus subs/trials", "value": "n/a", "sub": "needs App Store Connect / Play login"},
+  {"label": "Revenue", "value": "n/a", "sub": "needs App Store Connect / Play login"},
+  {"label": "joinfooty.com visits", "value": 1, "sub": "last 24h (Cloudflare)"}
+ ],
+ "sections": [
+  {
+   "title": "App stores",
+   "tiles": [
+    {"label": "iOS", "value": "Live", "sub": "v1.2.1"},
+    {"label": "Android", "value": "Live", "sub": "v1.1.0 on Google Play"}
+   ]
+  },
+  {
+   "title": "Website (joinfooty.com)",
+   "tiles": [
+    {"label": "Page views, 24h", "value": 1},
+    {"label": "Visits, 24h", "value": 1}
+   ]
+  },
+  {
+   "title": "Accounts",
+   "tiles": [
+    {"label": "Firebase users", "value": 3, "sub": "latest sign-up Nov 15"}
+   ]
+  }
+ ]
+}
