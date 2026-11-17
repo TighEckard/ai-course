@@ -1,12 +1,12 @@
 {
  "name": "Ovoa",
- "updated": "2026-11-17T12:06:33Z",
- "notes": "Cold email via the Sender. Last send was around Nov 9 (sender paused), so counts are accurate but unchanged. Replies are unique senders and subjects in the Sender inbox.",
+ "updated": "2026-11-17T15:06:35Z",
+ "notes": "Cold email via the Sender. Replies are unique senders and subjects in the Sender inbox.",
  "headline": [
   {
    "label": "Creator emails sent",
-   "value": 2238,
-   "sub": "0 today, 21 in 7d",
+   "value": 2242,
+   "sub": "4 today, 25 in 7d",
    "trend": [
     0,
     0,
@@ -21,7 +21,7 @@
     17,
     0,
     4,
-    0
+    4
    ]
   },
   {
@@ -31,7 +31,7 @@
   },
   {
    "label": "Leads in Sender",
-   "value": 4701,
+   "value": 4713,
    "sub": "loaded, includes already sent"
   }
  ],
@@ -41,11 +41,11 @@
    "tiles": [
     {
      "label": "Sent all time",
-     "value": 2238
+     "value": 2242
     },
     {
      "label": "Sent last 7 days",
-     "value": 21
+     "value": 25
     },
     {
      "label": "Sender status",
@@ -85,7 +85,7 @@
       "2026-11-14": 17,
       "2026-11-15": 0,
       "2026-11-16": 4,
-      "2026-11-17": 0
+      "2026-11-17": 4
      },
      "days": 30
     }
@@ -93,7 +93,7 @@
    "funnel": [
     {
      "label": "Sent",
-     "value": 2238
+     "value": 2242
     },
     {
      "label": "Replied",
@@ -106,7 +106,7 @@
      "rows": [
       [
        "tryovoa.com",
-       2035
+       2039
       ],
       [
        "ovoateam.com",
