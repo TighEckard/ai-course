@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T04:28:12.179484Z",
+ "generated_at": "2026-11-17T05:27:48.374198Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -7,7 +7,7 @@
    "iOS": 9,
    "Linux": 2,
    "macOS": 1,
-   "Android": 3,
+   "Android": 4,
    "Windows": 10,
    "ChromeOS": 1
   },
@@ -27,7 +27,8 @@
    "18": 1,
    "20": 1,
    "21": 6,
-   "22": 4
+   "22": 4,
+   "23": 2
   },
   "cities_30d": {
    "": 5,
@@ -50,15 +51,15 @@
    "input:rs1m": 1,
    "input:rs1n": 1,
    "input:email": 1,
+   "select:rs1w": 1,
    "a:Save my free seat": 1,
    "summary:What does it cost?": 5,
-   "summary:Do I need experience?": 4,
-   "summary:Are the classes in person in Beaumont?": 1
+   "summary:Do I need experience?": 4
   },
   "funnel_30d": {
    "paid": 0,
-   "engaged": 23,
-   "visitors": 31,
+   "engaged": 24,
+   "visitors": 32,
    "signed_up": 3,
    "opened_join": 0
   },
@@ -67,7 +68,7 @@
   "signups_7d": 2,
   "devices_30d": {
    "?": 5,
-   "mobile": 11,
+   "mobile": 12,
    "tablet": 1,
    "desktop": 14
   },
@@ -84,16 +85,17 @@
    "2026-11-09": 2,
    "2026-11-11": 2,
    "2026-11-14": 3,
-   "2026-11-15": 5
+   "2026-11-15": 5,
+   "2026-11-16": 1
   },
-  "all_views_7d": 1185,
-  "bot_views_7d": 1175,
+  "all_views_7d": 1188,
+  "bot_views_7d": 1176,
   "browsers_30d": {
    "?": 5,
-   "Chrome": 19,
+   "Chrome": 20,
    "Safari": 7
   },
-  "generated_at": "2026-11-17T04:28:12.888229+00:00",
+  "generated_at": "2026-11-17T05:27:49.212891+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -102,9 +104,29 @@
   "countries_30d": {
    "?": 5,
    "Canada": 2,
-   "United States": 24
+   "United States": 25
   },
   "recent_visits": [
+   {
+    "t": "2026-11-17T04:50:39.018354+00:00",
+    "dev": "mobile",
+    "src": "google",
+    "land": "/",
+    "secs": 7,
+    "pages": 1,
+    "place": "Sedalia, Colorado",
+    "scroll": 33
+   },
+   {
+    "t": "2026-11-17T04:49:45.828578+00:00",
+    "dev": "mobile",
+    "src": "google",
+    "land": "/",
+    "secs": 36,
+    "pages": 1,
+    "place": "Sedalia, Colorado",
+    "scroll": 69
+   },
    {
     "t": "2026-11-16T03:32:08.280792+00:00",
     "dev": null,
@@ -234,41 +256,21 @@
     "pages": 0,
     "place": "",
     "scroll": 100
-   },
-   {
-    "t": "2026-11-09T02:16:23.452058+00:00",
-    "dev": "desktop",
-    "src": "facebook",
-    "land": "/roofing",
-    "secs": 31,
-    "pages": 1,
-    "place": "Washington, District of Columbia",
-    "scroll": 95
-   },
-   {
-    "t": "2026-11-09T02:16:20.809855+00:00",
-    "dev": "desktop",
-    "src": "facebook",
-    "land": "/roofing",
-    "secs": 29,
-    "pages": 1,
-    "place": "Washington, District of Columbia",
-    "scroll": 95
    }
   ],
   "referrers_30d": {
    "(none)": 15,
-   "google.com": 11,
+   "google.com": 12,
    "facebook.com": 4,
    "pinterest.com": 1
   },
   "roofing_total": 0,
   "signups_total": 3,
   "avg_scroll_30d": 65,
-  "bounce_pct_30d": 69,
+  "bounce_pct_30d": 68,
   "messages_total": 0,
   "real_pages_30d": {
-   "/": 27,
+   "/": 29,
    "/roofing": 5
   },
   "recent_signups": [
@@ -307,39 +309,39 @@
    "Thursday, 7:00 PM": 1,
    "Saturday, 10:00 AM": 1
   },
-  "avg_time_sec_30d": 72,
-  "new_visitors_30d": 24,
-  "real_sessions_7d": 11,
+  "avg_time_sec_30d": 69,
+  "new_visitors_30d": 25,
+  "real_sessions_7d": 13,
   "real_sources_30d": {
    "direct": 12,
-   "google": 11,
+   "google": 12,
    "facebook": 4,
    "pinterest": 1,
    "chatgpt.com": 1,
    "bedrock-direct": 2
   },
-  "real_visitors_1d": 0,
-  "real_visitors_7d": 10,
+  "real_visitors_1d": 1,
+  "real_visitors_7d": 11,
   "landing_pages_30d": {
-   "/": 22,
+   "/": 24,
    "?": 5,
    "/roofing": 5
   },
-  "real_visitors_30d": 31,
+  "real_visitors_30d": 32,
   "signups_by_source": {
    "direct": 1,
    "city-beaumont-tx": 1,
    "ref:com.google.android.googlequicksearchbox": 1
   },
   "messages_unanswered": 0,
-  "real_visitors_total": 31,
+  "real_visitors_total": 32,
   "test_members_excluded": 1,
   "test_signups_excluded": 2,
-  "returning_visitors_30d": 8,
+  "returning_visitors_30d": 9,
   "roofing_real_visitors_7d": 2
  },
  "youtube": {
-  "total_views": 9109,
+  "total_views": 9107,
   "videos": 39,
   "likes": 7,
   "top": [
@@ -380,7 +382,7 @@
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://www.youtube.com/shorts/TObzq6YBBiw",
     "published": "2026-11-15T12:35:24+00:00",
-    "views": 318,
+    "views": 331,
     "likes": 2
    },
    {
@@ -417,7 +419,7 @@
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://www.youtube.com/shorts/TObzq6YBBiw",
     "published": "2026-11-15T12:35:24+00:00",
-    "views": 318,
+    "views": 331,
     "likes": 2
    },
    {
@@ -527,7 +529,7 @@
     "id": "TObzq6YBBiw",
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://youtube.com/shorts/TObzq6YBBiw",
-    "views": 321,
+    "views": 319,
     "published": "2026-11-15",
     "exact": true
    },
@@ -828,18 +830,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-17T04:28:12.179484Z"
+  "checked_at": "2026-11-17T05:27:48.374198Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "39 videos on the channel, 37 with exact counts (rest from the channel page, rounded) = 9109 views"
+   "detail": "39 videos on the channel, 37 with exact counts (rest from the channel page, rounded) = 9107 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "10 real people this week; 1175 of 1185 page views were bots, crawlers or testing and are excluded"
+   "detail": "11 real people this week; 1176 of 1188 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -848,18 +850,18 @@
   },
   {
    "name": "Posting",
-   "ok": false,
-   "detail": "YouTube 1/2 planned posts found live on the channel today"
+   "ok": true,
+   "detail": "YouTube 0/2 planned posts found live on the channel today"
   },
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Roofing",
@@ -869,46 +871,46 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 174h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 175h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
-  "date": "2026-11-16",
-  "now_et": "11:28 PM",
+  "date": "2026-11-17",
+  "now_et": "12:28 AM",
   "today": {
    "youtube": {
     "planned": 2,
-    "done": 1,
+    "done": 0,
     "verified": true,
-    "overdue": 1,
+    "overdue": 0,
     "items": [
      {
-      "title": "Medicare is texting you? Don't reply #Shorts",
-      "id": "med27a",
-      "when": "2026-11-16T07:30:00-05:00",
+      "title": "Your Amazon account is locked? Read this first #Shorts",
+      "id": "amz28a",
+      "when": "2026-11-17T07:30:00-05:00",
       "slot": "am",
-      "done": true,
+      "done": false,
       "verified": true,
-      "due": true
+      "due": false
      },
      {
-      "title": "The call that sounds just like your grandson",
-      "id": "jail27b",
-      "when": "2026-11-16T22:30:00-05:00",
+      "title": "The IRS will never ask you for gift cards",
+      "id": "irs28b",
+      "when": "2026-11-17T22:30:00-05:00",
       "slot": "pm",
       "done": false,
       "verified": true,
-      "due": true
+      "due": false
      }
     ],
     "next": {
-     "title": "The call that sounds just like your grandson",
-     "id": "jail27b",
-     "when": "2026-11-16T22:30:00-05:00",
-     "slot": "pm",
+     "title": "Your Amazon account is locked? Read this first #Shorts",
+     "id": "amz28a",
+     "when": "2026-11-17T07:30:00-05:00",
+     "slot": "am",
      "done": false,
      "verified": true,
-     "due": true
+     "due": false
     }
    },
    "facebook": {
@@ -918,32 +920,32 @@
     "overdue": 0,
     "items": [
      {
-      "title": "Medicare is texting you? Don't reply #Shorts",
-      "id": "med27a",
-      "when": "2026-11-16T07:30:00-05:00",
+      "title": "Your Amazon account is locked? Read this first #Shorts",
+      "id": "amz28a",
+      "when": "2026-11-17T07:30:00-05:00",
       "slot": "am",
       "done": null,
       "verified": false,
-      "due": true
+      "due": false
      },
      {
-      "title": "The call that sounds just like your grandson",
-      "id": "jail27b",
-      "when": "2026-11-16T22:30:00-05:00",
+      "title": "The IRS will never ask you for gift cards",
+      "id": "irs28b",
+      "when": "2026-11-17T22:30:00-05:00",
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": true
+      "due": false
      }
     ],
     "next": {
-     "title": "Medicare is texting you? Don't reply #Shorts",
-     "id": "med27a",
-     "when": "2026-11-16T07:30:00-05:00",
+     "title": "Your Amazon account is locked? Read this first #Shorts",
+     "id": "amz28a",
+     "when": "2026-11-17T07:30:00-05:00",
      "slot": "am",
      "done": null,
      "verified": false,
-     "due": true
+     "due": false
     }
    },
    "instagram": {
@@ -953,36 +955,82 @@
     "overdue": 0,
     "items": [
      {
-      "title": "Medicare is texting you? Don't reply #Shorts",
-      "id": "med27a",
-      "when": "2026-11-16T07:30:00-05:00",
+      "title": "Your Amazon account is locked? Read this first #Shorts",
+      "id": "amz28a",
+      "when": "2026-11-17T07:30:00-05:00",
       "slot": "am",
       "done": null,
       "verified": false,
-      "due": true
+      "due": false
      },
      {
-      "title": "The call that sounds just like your grandson",
-      "id": "jail27b",
-      "when": "2026-11-16T22:30:00-05:00",
+      "title": "The IRS will never ask you for gift cards",
+      "id": "irs28b",
+      "when": "2026-11-17T22:30:00-05:00",
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": true
+      "due": false
      }
     ],
     "next": {
-     "title": "Medicare is texting you? Don't reply #Shorts",
-     "id": "med27a",
-     "when": "2026-11-16T07:30:00-05:00",
+     "title": "Your Amazon account is locked? Read this first #Shorts",
+     "id": "amz28a",
+     "when": "2026-11-17T07:30:00-05:00",
      "slot": "am",
      "done": null,
      "verified": false,
-     "due": true
+     "due": false
     }
    }
   },
   "history": [
+   {
+    "date": "2026-11-17",
+    "slot": "am",
+    "title": "Your Amazon account is locked? Read this first #Shorts",
+    "format": "slang v2 scam sting",
+    "platforms": [
+     {
+      "p": "youtube",
+      "status": "scheduled",
+      "url": null
+     },
+     {
+      "p": "facebook",
+      "status": "unverified",
+      "url": null
+     },
+     {
+      "p": "instagram",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-17",
+    "slot": "pm",
+    "title": "The IRS will never ask you for gift cards",
+    "format": "slang v2 scam sting",
+    "platforms": [
+     {
+      "p": "youtube",
+      "status": "scheduled",
+      "url": null
+     },
+     {
+      "p": "facebook",
+      "status": "unverified",
+      "url": null
+     },
+     {
+      "p": "instagram",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
    {
     "date": "2026-11-16",
     "slot": "am",
@@ -1040,7 +1088,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/TObzq6YBBiw",
-      "views": 321
+      "views": 319
      },
      {
       "p": "facebook",
@@ -1298,83 +1346,6 @@
       "url": null
      }
     ]
-   },
-   {
-    "date": "2026-11-09",
-    "slot": "am",
-    "title": "6 Things to Ask AI Before Bed (Easy Ideas)",
-    "format": "pin tall tips graphic",
-    "platforms": [
-     {
-      "p": "pinterest",
-      "status": "unverified",
-      "url": null
-     }
-    ]
-   },
-   {
-    "date": "2026-11-09",
-    "slot": "am",
-    "title": "POV: everyone in the meeting is using AI #Shorts",
-    "format": "viral-hook story",
-    "platforms": [
-     {
-      "p": "youtube",
-      "status": "live",
-      "url": "https://youtube.com/shorts/1Z8d6CqPQHU",
-      "views": 8
-     }
-    ]
-   },
-   {
-    "date": "2026-11-09",
-    "slot": "am",
-    "title": "POV: you are 58 and just found out you never had to type",
-    "format": "viral-hook story",
-    "platforms": [
-     {
-      "p": "facebook",
-      "status": "unverified",
-      "url": null
-     },
-     {
-      "p": "instagram",
-      "status": "unverified",
-      "url": null
-     }
-    ]
-   },
-   {
-    "date": "2026-11-09",
-    "slot": "pm",
-    "title": "One phone setting that stops scam calls #Shorts",
-    "format": "viral-hook story",
-    "platforms": [
-     {
-      "p": "youtube",
-      "status": "live",
-      "url": "https://youtube.com/shorts/1L9U100WIN0",
-      "views": 3
-     }
-    ]
-   },
-   {
-    "date": "2026-11-09",
-    "slot": "pm",
-    "title": "That is not your grandson on the phone",
-    "format": "viral-hook story",
-    "platforms": [
-     {
-      "p": "facebook",
-      "status": "unverified",
-      "url": null
-     },
-     {
-      "p": "instagram",
-      "status": "unverified",
-      "url": null
-     }
-    ]
    }
   ],
   "yt_by_day": {
@@ -1397,5 +1368,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-17T04:28:12.179484Z"
+ "checked_at": "2026-11-17T05:27:48.374198Z"
 }
