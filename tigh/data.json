@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T03:27:55.393376Z",
+ "generated_at": "2026-11-17T03:44:27.904155Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -93,7 +93,7 @@
    "Chrome": 19,
    "Safari": 7
   },
-  "generated_at": "2026-11-17T03:27:56.019796+00:00",
+  "generated_at": "2026-11-17T03:44:28.501474+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -318,7 +318,7 @@
    "chatgpt.com": 1,
    "bedrock-direct": 2
   },
-  "real_visitors_1d": 4,
+  "real_visitors_1d": 0,
   "real_visitors_7d": 10,
   "landing_pages_30d": {
    "/": 22,
@@ -828,7 +828,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-17T03:27:55.393376Z"
+  "checked_at": "2026-11-17T03:44:27.904155Z"
  },
  "checks": [
   {
@@ -848,18 +848,18 @@
   },
   {
    "name": "Posting",
-   "ok": true,
+   "ok": false,
    "detail": "YouTube 1/2 planned posts found live on the channel today"
   },
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Roofing",
@@ -874,13 +874,13 @@
  ],
  "posting": {
   "date": "2026-11-16",
-  "now_et": "10:28 PM",
+  "now_et": "10:44 PM",
   "today": {
    "youtube": {
     "planned": 2,
     "done": 1,
     "verified": true,
-    "overdue": 0,
+    "overdue": 1,
     "items": [
      {
       "title": "Medicare is texting you? Don't reply #Shorts",
@@ -898,7 +898,7 @@
       "slot": "pm",
       "done": false,
       "verified": true,
-      "due": false
+      "due": true
      }
     ],
     "next": {
@@ -908,7 +908,7 @@
      "slot": "pm",
      "done": false,
      "verified": true,
-     "due": false
+     "due": true
     }
    },
    "facebook": {
@@ -933,7 +933,7 @@
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": false
+      "due": true
      }
     ],
     "next": {
@@ -968,7 +968,7 @@
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": false
+      "due": true
      }
     ],
     "next": {
@@ -1397,5 +1397,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-17T03:27:55.393376Z"
+ "checked_at": "2026-11-17T03:44:27.904155Z"
 }
