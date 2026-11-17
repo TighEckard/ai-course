@@ -195,9 +195,49 @@ pt = (d.get('posting') or {}).get('today', {}).get('youtube')
 if pt: ck.append({'name': 'Posting', 'ok': not pt['overdue'], 'detail': 'YouTube %d/%d planned posts found live on the channel today' % (pt['done'], pt['planned'])})
 d['checked_at'] = d['generated_at']
 json.dump(d, open(os.path.join(out_dir, 'data.json'), 'w'), indent=1)
+# Riside's own plug-in file (same schema as the other businesses) so any project/agent can read Riside's numbers.
+# Riside has its own full tab on the page, so it is not listed in biz/index.json (no duplicate tab).
+try:
+    st = d.get('site') or {}; yt = d.get('youtube') or {}; sc = d.get('social') or {}
+    pt = (d.get('posting') or {}).get('today') or {}
+    def tl(label, value, sub=None):
+        t = {'label': label, 'value': value if value is not None else 'n/a'}
+        if sub: t['sub'] = sub
+        return t
+    soc_tiles = []
+    for plat, nm in (('facebook', 'Facebook'), ('instagram', 'Instagram'), ('pinterest', 'Pinterest')):
+        x = sc.get(plat) or {}
+        if x.get('followers') is not None or x.get('views_7d') is not None:
+            soc_tiles.append(tl(nm + ' followers', x.get('followers'), '%s views 7d, %s comments 7d' % (x.get('views_7d'), x.get('comments_7d'))))
+        else:
+            soc_tiles.append(tl(nm, 'n/a', 'needs PC collector (dash/feed/social.json)'))
+    posts_today = ', '.join('%s %s/%s' % (k[:2].upper(), v['done'] if v.get('verified') else '?', v['planned']) for k, v in pt.items())
+    riside = {
+        'name': 'Riside',
+        'updated': d['generated_at'],
+        'notes': 'Written by the hourly dashboard job. Search Console clicks are not available (needs a Google login). Facebook, Instagram and Pinterest follower/view numbers need the PC collector.',
+        'headline': [
+            tl('Real signups', st.get('signups_total'), '%s this week, %s test hidden' % (st.get('signups_7d'), st.get('test_signups_excluded'))),
+            tl('Paid members', st.get('paid_members'), '%s test hidden' % st.get('test_members_excluded')),
+            tl('Real visitors (7d)', st.get('real_visitors_7d'), '%s today, %s in 30d' % (st.get('real_visitors_1d'), st.get('real_visitors_30d'))),
+            tl('YouTube views', yt.get('total_views'), '%s Shorts' % yt.get('videos')),
+            tl('Roofing leads', st.get('roofing_total'), '%s this week' % st.get('roofing_7d')),
+            tl('Posts today', posts_today or 'n/a'),
+        ],
+        'sections': [
+            {'title': 'Website', 'tiles': [tl('Real visitors today', st.get('real_visitors_1d')), tl('Real visitors 7d', st.get('real_visitors_7d')), tl('Real visitors all time', st.get('real_visitors_total')),
+                                              tl('Bot/test views filtered (7d)', st.get('bot_views_7d'), 'of %s page views' % st.get('all_views_7d')), tl('Member messages', st.get('messages_total'), '%s unanswered' % st.get('messages_unanswered'))],
+             'series': [{'title': 'Real visitors per day', 'data': st.get('real_by_day') or {}, 'days': 30}],
+             'funnel': [{'label': k, 'value': v} for k, v in (st.get('funnel_30d') or {}).items()]},
+            {'title': 'Social', 'tiles': soc_tiles},
+        ],
+    }
+    json.dump(riside, open(os.path.join(out_dir, 'biz', 'riside.json'), 'w'), indent=1)
+except Exception as e:
+    print('riside biz file failed', e)
 biz = []
 for f in sorted(glob.glob(os.path.join(out_dir, 'biz', '*.json'))):
-    if f.endswith('index.json'): continue
+    if f.endswith('index.json') or f.endswith('riside.json'): continue
     try:
         b = json.load(open(f)); biz.append({'slug': os.path.basename(f)[:-5], 'name': b.get('name') or os.path.basename(f)[:-5], 'updated': b.get('updated')})
         try: age = (datetime.datetime.now(datetime.timezone.utc) - datetime.datetime.fromisoformat(b['updated'].replace('Z', '+00:00'))).total_seconds() / 3600
