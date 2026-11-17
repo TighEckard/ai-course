@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T21:28:27.929069Z",
+ "generated_at": "2026-11-17T21:44:31.193900Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -97,7 +97,7 @@
    "Chrome": 21,
    "Safari": 7
   },
-  "generated_at": "2026-11-17T21:28:28.216848+00:00",
+  "generated_at": "2026-11-17T21:44:31.76495+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -394,7 +394,7 @@
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://www.youtube.com/shorts/YQsRiuD4170",
     "published": "2026-11-17T12:35:30+00:00",
-    "views": 16,
+    "views": 20,
     "likes": 0
    },
    {
@@ -431,7 +431,7 @@
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://www.youtube.com/shorts/YQsRiuD4170",
     "published": "2026-11-17T12:35:30+00:00",
-    "views": 16,
+    "views": 20,
     "likes": 0
    },
    {
@@ -858,7 +858,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-17T21:28:27.929069Z"
+  "checked_at": "2026-11-17T21:44:31.193900Z"
  },
  "checks": [
   {
@@ -884,7 +884,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Footy",
@@ -894,7 +894,7 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Roofing",
@@ -904,12 +904,12 @@
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 6h ago"
+   "detail": "numbers last refreshed 7h ago"
   }
  ],
  "posting": {
   "date": "2026-11-17",
-  "now_et": "4:29 PM",
+  "now_et": "4:45 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1403,5 +1403,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-17T21:28:27.929069Z"
+ "checked_at": "2026-11-17T21:44:31.193900Z"
 }
