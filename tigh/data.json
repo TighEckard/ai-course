@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T17:28:05.426576Z",
+ "generated_at": "2026-11-18T18:06:31.239187Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -93,15 +93,15 @@
    "2026-11-17": 2,
    "2026-11-18": 3
   },
-  "all_views_7d": 1648,
-  "bot_views_7d": 1634,
+  "all_views_7d": 1697,
+  "bot_views_7d": 1683,
   "browsers_30d": {
    "?": 6,
    "Edge": 1,
    "Chrome": 23,
    "Safari": 7
   },
-  "generated_at": "2026-11-18T17:28:05.481644+00:00",
+  "generated_at": "2026-11-18T18:06:31.791797+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -359,7 +359,7 @@
   "roofing_real_visitors_7d": 5
  },
  "youtube": {
-  "total_views": 9171,
+  "total_views": 9170,
   "videos": 41,
   "likes": 7,
   "top": [
@@ -539,7 +539,7 @@
     "id": "m0W4dx-Yyq4",
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://youtube.com/shorts/m0W4dx-Yyq4",
-    "views": 8,
+    "views": 7,
     "published": "2026-11-17",
     "exact": true
    },
@@ -864,18 +864,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-18T17:28:05.426576Z"
+  "checked_at": "2026-11-18T18:06:31.239187Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9171 views"
+   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9170 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "14 real people this week; 1634 of 1648 page views were bots, crawlers or testing and are excluded"
+   "detail": "14 real people this week; 1683 of 1697 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -895,32 +895,32 @@
   {
    "name": "Footy",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Robotics",
    "ok": true,
-   "detail": "numbers last refreshed 8h ago"
+   "detail": "numbers last refreshed 9h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 8h ago"
+   "detail": "numbers last refreshed 9h ago"
   }
  ],
  "posting": {
   "date": "2026-11-18",
-  "now_et": "12:28 PM",
+  "now_et": "1:07 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1085,7 +1085,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/m0W4dx-Yyq4",
-      "views": 8
+      "views": 7
      },
      {
       "p": "facebook",
@@ -1396,5 +1396,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-18T17:28:05.426576Z"
+ "checked_at": "2026-11-18T18:06:31.239187Z"
 }
