@@ -1,7 +1,7 @@
 {
  "name": "Footy",
- "updated": "2026-11-18T03:22:00Z",
- "notes": "Footy. Chrome (eckartig0) not connected this run: all numbers n/a, needs login; old values kept (Firebase users, Play installs, joinfooty.com visits and page views from the previous run). iOS downloads/Plus subs/revenue: n/a, needs login.",
+ "updated": "2026-11-18T12:00:00Z",
+ "notes": "Footy. Chrome (eckartig0) is signed out of Google this run: all numbers n/a, needs login; old values kept (Firebase users, Play installs, joinfooty.com visits and page views). iOS downloads/Plus subs/revenue: n/a, needs login.",
  "headline": [
   {
    "label": "Accounts (Firebase)",
