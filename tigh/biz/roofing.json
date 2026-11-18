@@ -1,6 +1,6 @@
 {
   "name": "Roofing",
-  "updated": "2026-11-18T04:27:48Z",
+  "updated": "2026-11-18T05:27:29Z",
   "notes": "Facebook numbers come from the comment log. Last comment logged Nov 16. Friend requests and follows are paused after the Nov 8 rate limit.",
   "headline": [
     {
@@ -89,7 +89,6 @@
         {
           "title": "Facebook comments posted per day (ET, includes today)",
           "data": {
-            "2026-11-04": 0,
             "2026-11-05": 0,
             "2026-11-06": 0,
             "2026-11-07": 0,
@@ -102,7 +101,8 @@
             "2026-11-14": 8,
             "2026-11-15": 1,
             "2026-11-16": 4,
-            "2026-11-17": 0
+            "2026-11-17": 0,
+            "2026-11-18": 0
           },
           "days": 14
         }
