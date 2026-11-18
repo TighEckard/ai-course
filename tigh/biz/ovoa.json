@@ -1,7 +1,7 @@
 {
  "name": "Ovoa",
- "updated": "2026-11-18T00:06:04Z",
- "notes": "Cold email via the Sender. Replies are unique senders and subjects in the Sender inbox. PC was offline at 00:06 UTC, so numbers are from the last successful refresh.",
+ "updated": "2026-11-18T01:24:24Z",
+ "notes": "Cold email via the Sender. Replies are unique senders and subjects in the Sender inbox.",
  "headline": [
   {
    "label": "Creator emails sent",
@@ -31,7 +31,7 @@
   },
   {
    "label": "Leads in Sender",
-   "value": 4713,
+   "value": 4817,
    "sub": "loaded, includes already sent"
   }
  ],
