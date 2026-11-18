@@ -1,0 +1,168 @@
+{
+ "name": "Robotics",
+ "updated": "2026-11-18T01:27:56Z",
+ "notes": "Pre-company. Numbers come from robotics items on the calendar plus a status file; nothing is registered unless marked.",
+ "headline": [
+  {
+   "label": "Next event",
+   "value": "14d",
+   "sub": "Humanoids Summit, day 1 (San Mateo)"
+  },
+  {
+   "label": "Next deadline",
+   "value": "48d",
+   "sub": "Pear Prime 2027 application"
+  },
+  {
+   "label": "Upcoming events",
+   "value": 10,
+   "sub": "0 registered"
+  },
+  {
+   "label": "Deadlines ahead",
+   "value": 2
+  },
+  {
+   "label": "Memberships joined",
+   "value": 0,
+   "sub": "of 6 on the list"
+  },
+  {
+   "label": "Hardware cofounder",
+   "value": "Searching",
+   "sub": "Pre-formation"
+  }
+ ],
+ "sections": [
+  {
+   "title": "Events",
+   "tables": [
+    {
+     "title": "Upcoming robotics events",
+     "rows": [
+      [
+       "Humanoids Summit, day 1 (San Mateo)",
+       "Dec 1, 2026",
+       "14 days"
+      ],
+      [
+       "Humanoids Summit, day 2 (San Mateo)",
+       "Dec 2, 2026",
+       "15 days"
+      ],
+      [
+       "IEEE Humanoids 2026 (Santa Clara)",
+       "Dec 6, 2026",
+       "19 days"
+      ],
+      [
+       "Silicon Valley Physical AI Builders meetup",
+       "Dec 17, 2026",
+       "30 days"
+      ],
+      [
+       "Silicon Valley Physical AI Builders meetup",
+       "Jan 21, 2027",
+       "65 days"
+      ],
+      [
+       "Silicon Valley Physical AI Builders meetup",
+       "Feb 18, 2027",
+       "93 days"
+      ],
+      [
+       "eMerge Americas (Miami Beach)",
+       "Mar 2, 2027",
+       "105 days"
+      ],
+      [
+       "ProMat 2027 (Chicago)",
+       "Apr 19, 2027",
+       "153 days"
+      ],
+      [
+       "Automate 2027 (Las Vegas)",
+       "May 10, 2027",
+       "174 days"
+      ],
+      [
+       "Robotics Summit and Expo (Boston)",
+       "Jun 2, 2027",
+       "197 days"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Programs and deadlines",
+   "tables": [
+    {
+     "title": "Applications",
+     "rows": [
+      [
+       "Pear Prime 2027 application",
+       "Jan 4, 2027",
+       "48 days"
+      ],
+      [
+       "YC Spring 2027 application",
+       "Feb 8, 2027",
+       "83 days"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Memberships and communities",
+   "tiles": [
+    {
+     "label": "Joined",
+     "value": 0
+    },
+    {
+     "label": "Paid options",
+     "value": 2
+    }
+   ],
+   "tables": [
+    {
+     "title": "Status",
+     "rows": [
+      [
+       "Silicon Valley Robotics (startup tier)",
+       "~$500/yr, confirm",
+       "not joined"
+      ],
+      [
+       "Bay Area Robotics Association",
+       "not published",
+       "after company forms"
+      ],
+      [
+       "AI Tinkerers Miami",
+       "free",
+       "not joined"
+      ],
+      [
+       "Refresh Miami",
+       "free",
+       "not joined"
+      ],
+      [
+       "LeRobot Discord",
+       "free",
+       "not joined"
+      ],
+      [
+       "Viam Discord",
+       "free",
+       "not joined"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}
