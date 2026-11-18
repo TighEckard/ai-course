@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T11:27:52.534038Z",
+ "generated_at": "2026-11-18T11:29:18.663719Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -100,7 +100,7 @@
    "Chrome": 23,
    "Safari": 7
   },
-  "generated_at": "2026-11-18T11:27:53.041658+00:00",
+  "generated_at": "2026-11-18T11:29:18.820234+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -358,7 +358,7 @@
   "roofing_real_visitors_7d": 5
  },
  "youtube": {
-  "total_views": 9169,
+  "total_views": 9170,
   "videos": 41,
   "likes": 7,
   "top": [
@@ -570,7 +570,7 @@
     "id": "HsSq5MJ-juM",
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-    "views": 96,
+    "views": 97,
     "published": "2026-11-14",
     "exact": true
    },
@@ -863,13 +863,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-18T11:27:52.534038Z"
+  "checked_at": "2026-11-18T11:29:18.663719Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9169 views"
+   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9170 views"
   },
   {
    "name": "Website visitors",
@@ -919,7 +919,7 @@
  ],
  "posting": {
   "date": "2026-11-18",
-  "now_et": "6:28 AM",
+  "now_et": "6:29 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1225,7 +1225,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-      "views": 96
+      "views": 97
      },
      {
       "p": "facebook",
@@ -1395,5 +1395,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-18T11:27:52.534038Z"
+ "checked_at": "2026-11-18T11:29:18.663719Z"
 }
