@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T06:28:15.235131Z",
+ "generated_at": "2026-11-18T06:44:23.732588Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -90,14 +90,14 @@
    "2026-11-16": 1,
    "2026-11-17": 2
   },
-  "all_views_7d": 1603,
-  "bot_views_7d": 1590,
+  "all_views_7d": 1604,
+  "bot_views_7d": 1592,
   "browsers_30d": {
    "?": 6,
    "Chrome": 21,
    "Safari": 7
   },
-  "generated_at": "2026-11-18T06:28:15.875996+00:00",
+  "generated_at": "2026-11-18T06:44:24.393608+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -322,7 +322,7 @@
   },
   "avg_time_sec_30d": 67,
   "new_visitors_30d": 26,
-  "real_sessions_7d": 15,
+  "real_sessions_7d": 14,
   "real_sources_30d": {
    "direct": 13,
    "google": 12,
@@ -332,7 +332,7 @@
    "bedrock-direct": 3
   },
   "real_visitors_1d": 1,
-  "real_visitors_7d": 13,
+  "real_visitors_7d": 12,
   "landing_pages_30d": {
    "/": 24,
    "?": 6,
@@ -387,7 +387,7 @@
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://www.youtube.com/shorts/m0W4dx-Yyq4",
     "published": "2026-11-17T12:41:33+00:00",
-    "views": 4,
+    "views": 6,
     "likes": 0
    },
    {
@@ -424,7 +424,7 @@
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://www.youtube.com/shorts/m0W4dx-Yyq4",
     "published": "2026-11-17T12:41:33+00:00",
-    "views": 4,
+    "views": 6,
     "likes": 0
    },
    {
@@ -858,7 +858,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-18T06:28:15.235131Z"
+  "checked_at": "2026-11-18T06:44:23.732588Z"
  },
  "checks": [
   {
@@ -869,7 +869,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "13 real people this week; 1590 of 1603 page views were bots, crawlers or testing and are excluded"
+   "detail": "12 real people this week; 1592 of 1604 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -884,7 +884,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Footy",
@@ -894,12 +894,12 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Robotics",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 3h ago"
   },
   {
    "name": "Roofing",
@@ -909,12 +909,12 @@
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   }
  ],
  "posting": {
   "date": "2026-11-18",
-  "now_et": "1:28 AM",
+  "now_et": "1:44 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1390,5 +1390,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-18T06:28:15.235131Z"
+ "checked_at": "2026-11-18T06:44:23.732588Z"
 }
