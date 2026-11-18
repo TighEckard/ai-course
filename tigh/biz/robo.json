@@ -1,16 +1,16 @@
 {
  "name": "Robotics",
- "updated": "2026-11-18T04:00:58Z",
+ "updated": "2026-11-18T09:28:02Z",
  "notes": "Pre-company. Numbers come from robotics items on the calendar plus a status file; nothing is registered unless marked.",
  "headline": [
   {
    "label": "Next event",
-   "value": "14d",
+   "value": "13d",
    "sub": "Humanoids Summit, day 1 (San Mateo)"
   },
   {
    "label": "Next deadline",
-   "value": "48d",
+   "value": "47d",
    "sub": "Pear Prime 2027 application"
   },
   {
@@ -43,37 +43,37 @@
       [
        "Humanoids Summit, day 1 (San Mateo)",
        "Dec 1, 2026",
-       "14 days"
+       "13 days"
       ],
       [
        "Humanoids Summit, day 2 (San Mateo)",
        "Dec 2, 2026",
-       "15 days"
+       "14 days"
       ],
       [
        "IEEE Humanoids 2026 (Santa Clara)",
        "Dec 6, 2026",
-       "19 days"
+       "18 days"
       ],
       [
        "Silicon Valley Physical AI Builders meetup",
        "Dec 17, 2026",
-       "30 days"
+       "29 days"
       ],
       [
        "Silicon Valley Physical AI Builders meetup",
        "Jan 21, 2027",
-       "65 days"
+       "64 days"
       ],
       [
        "Silicon Valley Physical AI Builders meetup",
        "Feb 18, 2027",
-       "93 days"
+       "92 days"
       ],
       [
        "eMerge Americas (Miami Beach)",
        "Mar 2, 2027",
-       "105 days"
+       "104 days"
       ],
       [
        "ProMat 2027 (Chicago)",
@@ -103,12 +103,12 @@
       [
        "Pear Prime 2027 application",
        "Jan 4, 2027",
-       "48 days"
+       "47 days"
       ],
       [
        "YC Spring 2027 application",
        "Feb 8, 2027",
-       "83 days"
+       "82 days"
       ]
      ]
     }
