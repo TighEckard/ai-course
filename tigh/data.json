@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T04:27:56.684951Z",
+ "generated_at": "2026-11-18T05:23:23.701178Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -97,7 +97,7 @@
    "Chrome": 21,
    "Safari": 7
   },
-  "generated_at": "2026-11-18T04:27:56.946123+00:00",
+  "generated_at": "2026-11-18T05:23:24.495624+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -331,7 +331,7 @@
    "chatgpt.com": 1,
    "bedrock-direct": 3
   },
-  "real_visitors_1d": 3,
+  "real_visitors_1d": 2,
   "real_visitors_7d": 13,
   "landing_pages_30d": {
    "/": 24,
@@ -353,7 +353,7 @@
   "roofing_real_visitors_7d": 3
  },
  "youtube": {
-  "total_views": 9168,
+  "total_views": 9166,
   "videos": 41,
   "likes": 7,
   "top": [
@@ -557,7 +557,7 @@
     "id": "TObzq6YBBiw",
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://youtube.com/shorts/TObzq6YBBiw",
-    "views": 353,
+    "views": 351,
     "published": "2026-11-15",
     "exact": true
    },
@@ -858,13 +858,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-18T04:27:56.684951Z"
+  "checked_at": "2026-11-18T05:23:23.701178Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9168 views"
+   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9166 views"
   },
   {
    "name": "Website visitors",
@@ -878,13 +878,13 @@
   },
   {
    "name": "Posting",
-   "ok": false,
-   "detail": "YouTube 1/2 planned posts found live on the channel today"
+   "ok": true,
+   "detail": "YouTube 0/2 planned posts found live on the channel today"
   },
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Footy",
@@ -894,61 +894,61 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Robotics",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 4h ago"
   }
  ],
  "posting": {
-  "date": "2026-11-17",
-  "now_et": "11:28 PM",
+  "date": "2026-11-18",
+  "now_et": "12:23 AM",
   "today": {
    "youtube": {
     "planned": 2,
-    "done": 1,
+    "done": 0,
     "verified": true,
-    "overdue": 1,
+    "overdue": 0,
     "items": [
      {
-      "title": "Your Amazon account is locked? Read this first #Shorts",
-      "id": "amz28a",
-      "when": "2026-11-17T07:30:00-05:00",
+      "title": "That scary virus pop-up? Do this instead #Shorts",
+      "id": "virus29a",
+      "when": "2026-11-18T07:30:00-05:00",
       "slot": "am",
-      "done": true,
+      "done": false,
       "verified": true,
-      "due": true
+      "due": false
      },
      {
-      "title": "The IRS will never ask you for gift cards",
-      "id": "irs28b",
-      "when": "2026-11-17T22:30:00-05:00",
+      "title": "Hi Grandma, this is my new number",
+      "id": "newnum29b",
+      "when": "2026-11-18T22:30:00-05:00",
       "slot": "pm",
       "done": false,
       "verified": true,
-      "due": true
+      "due": false
      }
     ],
     "next": {
-     "title": "The IRS will never ask you for gift cards",
-     "id": "irs28b",
-     "when": "2026-11-17T22:30:00-05:00",
-     "slot": "pm",
+     "title": "That scary virus pop-up? Do this instead #Shorts",
+     "id": "virus29a",
+     "when": "2026-11-18T07:30:00-05:00",
+     "slot": "am",
      "done": false,
      "verified": true,
-     "due": true
+     "due": false
     }
    },
    "facebook": {
@@ -958,32 +958,32 @@
     "overdue": 0,
     "items": [
      {
-      "title": "Your Amazon account is locked? Read this first #Shorts",
-      "id": "amz28a",
-      "when": "2026-11-17T07:30:00-05:00",
+      "title": "That scary virus pop-up? Do this instead #Shorts",
+      "id": "virus29a",
+      "when": "2026-11-18T07:30:00-05:00",
       "slot": "am",
       "done": null,
       "verified": false,
-      "due": true
+      "due": false
      },
      {
-      "title": "The IRS will never ask you for gift cards",
-      "id": "irs28b",
-      "when": "2026-11-17T22:30:00-05:00",
+      "title": "Hi Grandma, this is my new number",
+      "id": "newnum29b",
+      "when": "2026-11-18T22:30:00-05:00",
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": true
+      "due": false
      }
     ],
     "next": {
-     "title": "Your Amazon account is locked? Read this first #Shorts",
-     "id": "amz28a",
-     "when": "2026-11-17T07:30:00-05:00",
+     "title": "That scary virus pop-up? Do this instead #Shorts",
+     "id": "virus29a",
+     "when": "2026-11-18T07:30:00-05:00",
      "slot": "am",
      "done": null,
      "verified": false,
-     "due": true
+     "due": false
     }
    },
    "instagram": {
@@ -993,36 +993,82 @@
     "overdue": 0,
     "items": [
      {
-      "title": "Your Amazon account is locked? Read this first #Shorts",
-      "id": "amz28a",
-      "when": "2026-11-17T07:30:00-05:00",
+      "title": "That scary virus pop-up? Do this instead #Shorts",
+      "id": "virus29a",
+      "when": "2026-11-18T07:30:00-05:00",
       "slot": "am",
       "done": null,
       "verified": false,
-      "due": true
+      "due": false
      },
      {
-      "title": "The IRS will never ask you for gift cards",
-      "id": "irs28b",
-      "when": "2026-11-17T22:30:00-05:00",
+      "title": "Hi Grandma, this is my new number",
+      "id": "newnum29b",
+      "when": "2026-11-18T22:30:00-05:00",
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": true
+      "due": false
      }
     ],
     "next": {
-     "title": "Your Amazon account is locked? Read this first #Shorts",
-     "id": "amz28a",
-     "when": "2026-11-17T07:30:00-05:00",
+     "title": "That scary virus pop-up? Do this instead #Shorts",
+     "id": "virus29a",
+     "when": "2026-11-18T07:30:00-05:00",
      "slot": "am",
      "done": null,
      "verified": false,
-     "due": true
+     "due": false
     }
    }
   },
   "history": [
+   {
+    "date": "2026-11-18",
+    "slot": "am",
+    "title": "That scary virus pop-up? Do this instead #Shorts",
+    "format": "slang v2 scam sting",
+    "platforms": [
+     {
+      "p": "youtube",
+      "status": "scheduled",
+      "url": null
+     },
+     {
+      "p": "facebook",
+      "status": "unverified",
+      "url": null
+     },
+     {
+      "p": "instagram",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-18",
+    "slot": "pm",
+    "title": "Hi Grandma, this is my new number",
+    "format": "slang v2 scam sting",
+    "platforms": [
+     {
+      "p": "youtube",
+      "status": "scheduled",
+      "url": null
+     },
+     {
+      "p": "facebook",
+      "status": "unverified",
+      "url": null
+     },
+     {
+      "p": "instagram",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
    {
     "date": "2026-11-17",
     "slot": "am",
@@ -1127,7 +1173,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/TObzq6YBBiw",
-      "views": 353
+      "views": 351
      },
      {
       "p": "facebook",
@@ -1321,70 +1367,6 @@
       "url": null
      }
     ]
-   },
-   {
-    "date": "2026-11-10",
-    "slot": "am",
-    "title": "What to say when a scam caller pressures you",
-    "format": "whiteboard how-to",
-    "platforms": [
-     {
-      "p": "youtube",
-      "status": "live",
-      "url": "https://youtube.com/shorts/3Z-cVhpVI3c",
-      "views": 1
-     }
-    ]
-   },
-   {
-    "date": "2026-11-10",
-    "slot": "am",
-    "title": "Which version would you rather get in the mail? Tell us in the comment",
-    "format": "before/after plain English",
-    "platforms": [
-     {
-      "p": "facebook",
-      "status": "unverified",
-      "url": null
-     },
-     {
-      "p": "instagram",
-      "status": "unverified",
-      "url": null
-     }
-    ]
-   },
-   {
-    "date": "2026-11-10",
-    "slot": "pm",
-    "title": "Scam or safe? Can you tell?",
-    "format": "scam or safe quiz",
-    "platforms": [
-     {
-      "p": "youtube",
-      "status": "live",
-      "url": "https://youtube.com/shorts/yf6HJrYj3ww",
-      "views": 0
-     }
-    ]
-   },
-   {
-    "date": "2026-11-10",
-    "slot": "pm",
-    "title": "A simple trick for understanding your pharmacy paperwork",
-    "format": "whiteboard how-to",
-    "platforms": [
-     {
-      "p": "facebook",
-      "status": "unverified",
-      "url": null
-     },
-     {
-      "p": "instagram",
-      "status": "unverified",
-      "url": null
-     }
-    ]
    }
   ],
   "yt_by_day": {
@@ -1408,5 +1390,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-18T04:27:56.684951Z"
+ "checked_at": "2026-11-18T05:23:23.701178Z"
 }
