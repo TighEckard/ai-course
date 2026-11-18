@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T09:24:02.417437Z",
+ "generated_at": "2026-11-18T09:27:39.377328Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -100,7 +100,7 @@
    "Chrome": 23,
    "Safari": 7
   },
-  "generated_at": "2026-11-18T09:24:03.06661+00:00",
+  "generated_at": "2026-11-18T09:27:39.673556+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -358,9 +358,9 @@
   "roofing_real_visitors_7d": 5
  },
  "youtube": {
-  "total_views": 9170,
+  "total_views": 9167,
   "videos": 41,
-  "likes": 7,
+  "likes": 0,
   "top": [
    {
     "id": "9mRzsVeSNn4",
@@ -387,150 +387,8 @@
     "exact": true
    }
   ],
-  "recent": [
-   {
-    "title": "Your Amazon account is locked? Read this first #Shorts",
-    "url": "https://www.youtube.com/shorts/m0W4dx-Yyq4",
-    "published": "2026-11-17T12:41:33+00:00",
-    "views": 6,
-    "likes": 0
-   },
-   {
-    "title": "Your Amazon account is locked? Read this first #Shorts",
-    "url": "https://www.youtube.com/shorts/YQsRiuD4170",
-    "published": "2026-11-17T12:35:30+00:00",
-    "views": 21,
-    "likes": 0
-   },
-   {
-    "title": "Medicare is texting you? Don't reply #Shorts",
-    "url": "https://www.youtube.com/shorts/GTcoR5hC3is",
-    "published": "2026-11-16T09:25:28+00:00",
-    "views": 16,
-    "likes": 0
-   },
-   {
-    "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
-    "url": "https://www.youtube.com/shorts/TObzq6YBBiw",
-    "published": "2026-11-15T12:35:24+00:00",
-    "views": 353,
-    "likes": 2
-   },
-   {
-    "title": "Your bank texted that your account is locked? Do this first #Shorts",
-    "url": "https://www.youtube.com/shorts/HsSq5MJ-juM",
-    "published": "2026-11-14T12:36:00+00:00",
-    "views": 97,
-    "likes": 2
-   }
-  ],
-  "all": [
-   {
-    "title": "Your Amazon account is locked? Read this first #Shorts",
-    "url": "https://www.youtube.com/shorts/m0W4dx-Yyq4",
-    "published": "2026-11-17T12:41:33+00:00",
-    "views": 6,
-    "likes": 0
-   },
-   {
-    "title": "Your Amazon account is locked? Read this first #Shorts",
-    "url": "https://www.youtube.com/shorts/YQsRiuD4170",
-    "published": "2026-11-17T12:35:30+00:00",
-    "views": 21,
-    "likes": 0
-   },
-   {
-    "title": "Medicare is texting you? Don't reply #Shorts",
-    "url": "https://www.youtube.com/shorts/GTcoR5hC3is",
-    "published": "2026-11-16T09:25:28+00:00",
-    "views": 16,
-    "likes": 0
-   },
-   {
-    "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
-    "url": "https://www.youtube.com/shorts/TObzq6YBBiw",
-    "published": "2026-11-15T12:35:24+00:00",
-    "views": 353,
-    "likes": 2
-   },
-   {
-    "title": "Your bank texted that your account is locked? Do this first #Shorts",
-    "url": "https://www.youtube.com/shorts/HsSq5MJ-juM",
-    "published": "2026-11-14T12:36:00+00:00",
-    "views": 97,
-    "likes": 2
-   },
-   {
-    "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
-    "url": "https://www.youtube.com/shorts/QSxj4gj4llM",
-    "published": "2026-11-13T23:36:47+00:00",
-    "views": 147,
-    "likes": 2
-   },
-   {
-    "title": "Grandkid texted 'it's giving fake'? Translated",
-    "url": "https://www.youtube.com/shorts/gNvoRlgUQSg",
-    "published": "2026-11-12T12:37:56+00:00",
-    "views": 0,
-    "likes": 0
-   },
-   {
-    "title": "Grandkid texted you 'that's lowkey sus'? Translated",
-    "url": "https://www.youtube.com/shorts/dVX1bZdId60",
-    "published": "2026-11-12T12:35:28+00:00",
-    "views": 0,
-    "likes": 0
-   },
-   {
-    "title": "Grandkid texted you 'that's lowkey sus'? Translated",
-    "url": "https://www.youtube.com/shorts/SJzm0VJglpg",
-    "published": "2026-11-11T20:02:23+00:00",
-    "views": 0,
-    "likes": 0
-   },
-   {
-    "title": "What to say when a scam caller pressures you",
-    "url": "https://www.youtube.com/shorts/3Z-cVhpVI3c",
-    "published": "2026-11-10T12:37:54+00:00",
-    "views": 1,
-    "likes": 1
-   },
-   {
-    "title": "Scam or safe? Can you tell?",
-    "url": "https://www.youtube.com/shorts/yf6HJrYj3ww",
-    "published": "2026-11-10T02:40:17+00:00",
-    "views": 0,
-    "likes": 0
-   },
-   {
-    "title": "What to say when a scam caller pressures you",
-    "url": "https://www.youtube.com/shorts/BMZBrj5YJGs",
-    "published": "2026-11-10T02:37:27+00:00",
-    "views": 14,
-    "likes": 0
-   },
-   {
-    "title": "One phone setting that stops scam calls #Shorts",
-    "url": "https://www.youtube.com/shorts/1L9U100WIN0",
-    "published": "2026-11-09T20:59:54+00:00",
-    "views": 3,
-    "likes": 0
-   },
-   {
-    "title": "POV: everyone in the meeting is using AI #Shorts",
-    "url": "https://www.youtube.com/shorts/1Z8d6CqPQHU",
-    "published": "2026-11-09T20:56:29+00:00",
-    "views": 8,
-    "likes": 0
-   },
-   {
-    "title": "The email that could get you a $14k raise #Shorts",
-    "url": "https://www.youtube.com/shorts/-4fKye0-VjE",
-    "published": "2026-11-08T04:28:34+00:00",
-    "views": 1,
-    "likes": 0
-   }
-  ],
+  "recent": [],
+  "all": [],
   "catalog": true,
   "exact_videos": 39,
   "list": [
@@ -538,7 +396,7 @@
     "id": "m0W4dx-Yyq4",
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://youtube.com/shorts/m0W4dx-Yyq4",
-    "views": 6,
+    "views": 4,
     "published": "2026-11-17",
     "exact": true
    },
@@ -570,7 +428,7 @@
     "id": "HsSq5MJ-juM",
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-    "views": 97,
+    "views": 96,
     "published": "2026-11-14",
     "exact": true
    },
@@ -863,13 +721,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-18T09:24:02.417437Z"
+  "checked_at": "2026-11-18T09:27:39.377328Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9170 views"
+   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9167 views"
   },
   {
    "name": "Website visitors",
@@ -909,7 +767,7 @@
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Study creators",
@@ -919,7 +777,7 @@
  ],
  "posting": {
   "date": "2026-11-18",
-  "now_et": "4:24 AM",
+  "now_et": "4:28 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1084,7 +942,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/m0W4dx-Yyq4",
-      "views": 6
+      "views": 4
      },
      {
       "p": "facebook",
@@ -1225,7 +1083,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-      "views": 97
+      "views": 96
      },
      {
       "p": "facebook",
@@ -1374,18 +1232,7 @@
     ]
    }
   ],
-  "yt_by_day": {
-   "2026-11-17": 2,
-   "2026-11-16": 1,
-   "2026-11-15": 1,
-   "2026-11-14": 1,
-   "2026-11-13": 1,
-   "2026-11-12": 2,
-   "2026-11-11": 1,
-   "2026-11-10": 3,
-   "2026-11-09": 2,
-   "2026-11-08": 1
-  },
+  "yt_by_day": {},
   "comments_by_day": {}
  },
  "social": {
@@ -1395,5 +1242,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-18T09:24:02.417437Z"
+ "checked_at": "2026-11-18T09:27:39.377328Z"
 }
