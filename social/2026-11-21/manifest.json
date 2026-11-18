@@ -1,0 +1,38 @@
+{
+ "videos": [
+  {
+   "id": "hosp32a",
+   "file": "hosp32a.mp4",
+   "format": "slang v2 scam sting",
+   "look": "grandma-bubble",
+   "slot": "am",
+   "platforms": [
+    "yt",
+    "meta"
+   ],
+   "yt_title": "Your grandson is in the hospital? Hang up #Shorts",
+   "caption_yt": "Scammers count on panic. Hang up and call him directly. Send this to every grandparent you love. First class free at riside.com #Shorts #scam",
+   "caption_meta": "Scammers count on panic. Hang up and call him directly. Send this to every grandparent you love. First class free at riside.com",
+   "pinned_comment": "Free live AI class, first one free: https://riside.com/?src=yt_hosp32a",
+   "link": "https://riside.com/?src=yt_hosp32a",
+   "board": "Riside"
+  },
+  {
+   "id": "gift32b",
+   "file": "gift32b.mp4",
+   "format": "slang v2 scam sting",
+   "look": "grandma-bubble",
+   "slot": "pm",
+   "platforms": [
+    "yt",
+    "meta"
+   ],
+   "yt_title": "A free gift card that needs your bank login",
+   "caption_yt": "Nothing free ever needs your password. Send this to someone who loves a freebie. First class free at riside.com #Shorts #scam",
+   "caption_meta": "Nothing free ever needs your password. Send this to someone who loves a freebie. First class free at riside.com",
+   "pinned_comment": "Free live AI class, first one free: https://riside.com/?src=yt_gift32b",
+   "link": "https://riside.com/?src=yt_gift32b",
+   "board": "Riside"
+  }
+ ]
+}
