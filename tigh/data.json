@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T12:28:02.744907Z",
+ "generated_at": "2026-11-18T12:43:56.322085Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -100,7 +100,7 @@
    "Chrome": 23,
    "Safari": 7
   },
-  "generated_at": "2026-11-18T12:28:03.211168+00:00",
+  "generated_at": "2026-11-18T12:43:56.833916+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -863,7 +863,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-18T12:28:02.744907Z"
+  "checked_at": "2026-11-18T12:43:56.322085Z"
  },
  "checks": [
   {
@@ -883,13 +883,13 @@
   },
   {
    "name": "Posting",
-   "ok": true,
+   "ok": false,
    "detail": "YouTube 0/2 planned posts found live on the channel today"
   },
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Footy",
@@ -899,7 +899,7 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Robotics",
@@ -914,18 +914,18 @@
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 4h ago"
   }
  ],
  "posting": {
   "date": "2026-11-18",
-  "now_et": "7:28 AM",
+  "now_et": "7:44 AM",
   "today": {
    "youtube": {
     "planned": 2,
     "done": 0,
     "verified": true,
-    "overdue": 0,
+    "overdue": 1,
     "items": [
      {
       "title": "That scary virus pop-up? Do this instead #Shorts",
@@ -934,7 +934,7 @@
       "slot": "am",
       "done": false,
       "verified": true,
-      "due": false
+      "due": true
      },
      {
       "title": "Hi Grandma, this is my new number",
@@ -953,7 +953,7 @@
      "slot": "am",
      "done": false,
      "verified": true,
-     "due": false
+     "due": true
     }
    },
    "facebook": {
@@ -969,7 +969,7 @@
       "slot": "am",
       "done": null,
       "verified": false,
-      "due": false
+      "due": true
      },
      {
       "title": "Hi Grandma, this is my new number",
@@ -988,7 +988,7 @@
      "slot": "am",
      "done": null,
      "verified": false,
-     "due": false
+     "due": true
     }
    },
    "instagram": {
@@ -1004,7 +1004,7 @@
       "slot": "am",
       "done": null,
       "verified": false,
-      "due": false
+      "due": true
      },
      {
       "title": "Hi Grandma, this is my new number",
@@ -1023,7 +1023,7 @@
      "slot": "am",
      "done": null,
      "verified": false,
-     "due": false
+     "due": true
     }
    }
   },
@@ -1395,5 +1395,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-18T12:28:02.744907Z"
+ "checked_at": "2026-11-18T12:43:56.322085Z"
 }
