@@ -1,22 +1,22 @@
 {
  "name": "Footy",
- "updated": "2026-11-18T09:23:00Z",
- "notes": "Footy. Firebase and Cloudflare are fresh. Play installs are the last known value (Play data lags; latest daily installed audience 2 on Nov 14). iOS downloads/revenue: n/a, needs login (App Store Connect signed out).",
+ "updated": "2026-11-18T10:22:00Z",
+ "notes": "Footy. Tigh's Chrome (eckartig0) was not connected this run, so all numbers are the last known values: Firebase, Play, Cloudflare and iOS are n/a, needs login (as of 2026-11-18 10:22 UTC).",
  "headline": [
   {
    "label": "Accounts (Firebase)",
    "value": 3,
-   "sub": "latest sign-up Nov 15"
+   "sub": "n/a, needs login; last known, latest sign-up Nov 15"
   },
   {
    "label": "Android installs (active)",
    "value": 4,
-   "sub": "last known (Play, last 28 days); daily audience 2 on Nov 14"
+   "sub": "n/a, needs login; last known (Play, last 28 days)"
   },
   {
    "label": "joinfooty.com visits",
    "value": 6,
-   "sub": "24h, Cloudflare"
+   "sub": "n/a, needs login; last known 24h, Cloudflare"
   }
  ],
  "sections": [
@@ -41,12 +41,12 @@
     {
      "label": "Page views, 24h",
      "value": 6,
-     "sub": "Cloudflare, bots excluded"
+     "sub": "n/a, needs login; last known, Cloudflare"
     },
     {
      "label": "Visits, 24h",
      "value": 6,
-     "sub": "Cloudflare, bots excluded"
+     "sub": "n/a, needs login; last known, Cloudflare"
     }
    ]
   },
@@ -56,7 +56,7 @@
     {
      "label": "Firebase users",
      "value": 3,
-     "sub": "latest sign-up Nov 15"
+     "sub": "n/a, needs login; last known, latest sign-up Nov 15"
     }
    ]
   }
