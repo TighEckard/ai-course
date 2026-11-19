@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T09:28:16.614474Z",
+ "generated_at": "2026-11-19T09:44:39.191578Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -93,15 +93,15 @@
    "2026-11-17": 2,
    "2026-11-18": 5
   },
-  "all_views_7d": 1877,
-  "bot_views_7d": 1861,
+  "all_views_7d": 1879,
+  "bot_views_7d": 1863,
   "browsers_30d": {
    "?": 6,
    "Edge": 1,
    "Chrome": 25,
    "Safari": 7
   },
-  "generated_at": "2026-11-19T09:28:16.835692+00:00",
+  "generated_at": "2026-11-19T09:44:39.590236+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -864,7 +864,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-19T09:28:16.614474Z"
+  "checked_at": "2026-11-19T09:44:39.191578Z"
  },
  "checks": [
   {
@@ -875,7 +875,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "16 real people this week; 1861 of 1877 page views were bots, crawlers or testing and are excluded"
+   "detail": "16 real people this week; 1863 of 1879 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -900,7 +900,7 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Robotics",
@@ -915,12 +915,12 @@
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 4h ago"
   }
  ],
  "posting": {
   "date": "2026-11-19",
-  "now_et": "4:28 AM",
+  "now_et": "4:45 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1410,5 +1410,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-19T09:28:16.614474Z"
+ "checked_at": "2026-11-19T09:44:39.191578Z"
 }
