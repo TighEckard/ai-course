@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T04:27:48.804015Z",
+ "generated_at": "2026-11-19T04:51:48.884788Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -93,15 +93,15 @@
    "2026-11-17": 2,
    "2026-11-18": 5
   },
-  "all_views_7d": 1865,
-  "bot_views_7d": 1849,
+  "all_views_7d": 1867,
+  "bot_views_7d": 1851,
   "browsers_30d": {
    "?": 6,
    "Edge": 1,
    "Chrome": 25,
    "Safari": 7
   },
-  "generated_at": "2026-11-19T04:27:49.178295+00:00",
+  "generated_at": "2026-11-19T04:51:49.143333+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -359,7 +359,7 @@
   "roofing_real_visitors_7d": 7
  },
  "youtube": {
-  "total_views": 9177,
+  "total_views": 9175,
   "videos": 41,
   "likes": 7,
   "top": [
@@ -547,7 +547,7 @@
     "id": "YQsRiuD4170",
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://youtube.com/shorts/YQsRiuD4170",
-    "views": 23,
+    "views": 21,
     "published": "2026-11-17",
     "exact": true
    },
@@ -864,18 +864,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-19T04:27:48.804015Z"
+  "checked_at": "2026-11-19T04:51:48.884788Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9177 views"
+   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9175 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "16 real people this week; 1849 of 1865 page views were bots, crawlers or testing and are excluded"
+   "detail": "16 real people this week; 1851 of 1867 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -890,7 +890,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Footy",
@@ -900,7 +900,7 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Robotics",
@@ -915,12 +915,12 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 19h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 20h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-18",
-  "now_et": "11:28 PM",
+  "now_et": "11:52 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1396,5 +1396,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-19T04:27:48.804015Z"
+ "checked_at": "2026-11-19T04:51:48.884788Z"
 }
