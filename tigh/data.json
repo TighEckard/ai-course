@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T06:27:49.836939Z",
+ "generated_at": "2026-11-19T06:44:32.057023Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -93,15 +93,15 @@
    "2026-11-17": 2,
    "2026-11-18": 5
   },
-  "all_views_7d": 1870,
-  "bot_views_7d": 1854,
+  "all_views_7d": 1871,
+  "bot_views_7d": 1855,
   "browsers_30d": {
    "?": 6,
    "Edge": 1,
    "Chrome": 25,
    "Safari": 7
   },
-  "generated_at": "2026-11-19T06:27:50.294168+00:00",
+  "generated_at": "2026-11-19T06:44:32.468589+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -400,7 +400,7 @@
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://www.youtube.com/shorts/YQsRiuD4170",
     "published": "2026-11-17T12:35:30+00:00",
-    "views": 23,
+    "views": 21,
     "likes": 0
    },
    {
@@ -414,7 +414,7 @@
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://www.youtube.com/shorts/TObzq6YBBiw",
     "published": "2026-11-15T12:35:24+00:00",
-    "views": 353,
+    "views": 349,
     "likes": 2
    },
    {
@@ -437,7 +437,7 @@
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://www.youtube.com/shorts/YQsRiuD4170",
     "published": "2026-11-17T12:35:30+00:00",
-    "views": 23,
+    "views": 21,
     "likes": 0
    },
    {
@@ -451,7 +451,7 @@
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://www.youtube.com/shorts/TObzq6YBBiw",
     "published": "2026-11-15T12:35:24+00:00",
-    "views": 353,
+    "views": 349,
     "likes": 2
    },
    {
@@ -864,7 +864,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-19T06:27:49.836939Z"
+  "checked_at": "2026-11-19T06:44:32.057023Z"
  },
  "checks": [
   {
@@ -875,7 +875,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "16 real people this week; 1854 of 1870 page views were bots, crawlers or testing and are excluded"
+   "detail": "16 real people this week; 1855 of 1871 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -890,7 +890,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Footy",
@@ -900,7 +900,7 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Robotics",
@@ -915,12 +915,12 @@
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   }
  ],
  "posting": {
   "date": "2026-11-19",
-  "now_et": "1:28 AM",
+  "now_et": "1:44 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1410,5 +1410,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-19T06:27:49.836939Z"
+ "checked_at": "2026-11-19T06:44:32.057023Z"
 }
