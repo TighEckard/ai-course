@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T20:27:53.206190Z",
+ "generated_at": "2026-11-19T21:06:20.933009Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -103,7 +103,7 @@
    "Chrome": 27,
    "Safari": 7
   },
-  "generated_at": "2026-11-19T20:27:53.732067+00:00",
+  "generated_at": "2026-11-19T21:06:21.92406+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -339,7 +339,7 @@
    "bedrock-direct": 7,
    "bedrock-youtube": 1
   },
-  "real_visitors_1d": 4,
+  "real_visitors_1d": 3,
   "real_visitors_7d": 18,
   "landing_pages_30d": {
    "/": 25,
@@ -361,7 +361,7 @@
   "roofing_real_visitors_7d": 9
  },
  "youtube": {
-  "total_views": 9183,
+  "total_views": 9184,
   "videos": 41,
   "likes": 7,
   "top": [
@@ -541,7 +541,7 @@
     "id": "m0W4dx-Yyq4",
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://youtube.com/shorts/m0W4dx-Yyq4",
-    "views": 15,
+    "views": 16,
     "published": "2026-11-17",
     "exact": true
    },
@@ -866,13 +866,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-19T20:27:53.206190Z"
+  "checked_at": "2026-11-19T21:06:20.933009Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9183 views"
+   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9184 views"
   },
   {
    "name": "Website visitors",
@@ -897,17 +897,17 @@
   {
    "name": "Footy",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Robotics",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Roofing",
@@ -916,13 +916,13 @@
   },
   {
    "name": "Study creators",
-   "ok": false,
-   "detail": "numbers last refreshed 14h ago (older than 12h, flagged stale)"
+   "ok": true,
+   "detail": "numbers last refreshed 0h ago"
   }
  ],
  "posting": {
   "date": "2026-11-19",
-  "now_et": "3:28 PM",
+  "now_et": "4:06 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1133,7 +1133,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/m0W4dx-Yyq4",
-      "views": 15
+      "views": 16
      },
      {
       "p": "facebook",
@@ -1412,5 +1412,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-19T20:27:53.206190Z"
+ "checked_at": "2026-11-19T21:06:20.933009Z"
 }
