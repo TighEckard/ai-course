@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T14:28:00.745166Z",
+ "generated_at": "2026-11-19T15:07:13.238066Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -95,15 +95,15 @@
    "2026-11-18": 5,
    "2026-11-19": 2
   },
-  "all_views_7d": 1888,
-  "bot_views_7d": 1870,
+  "all_views_7d": 1891,
+  "bot_views_7d": 1873,
   "browsers_30d": {
    "?": 6,
    "Edge": 1,
    "Chrome": 27,
    "Safari": 7
   },
-  "generated_at": "2026-11-19T14:28:01.273036+00:00",
+  "generated_at": "2026-11-19T15:07:14.057688+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -402,7 +402,7 @@
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://www.youtube.com/shorts/YQsRiuD4170",
     "published": "2026-11-17T12:35:30+00:00",
-    "views": 27,
+    "views": 29,
     "likes": 0
    },
    {
@@ -439,7 +439,7 @@
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://www.youtube.com/shorts/YQsRiuD4170",
     "published": "2026-11-17T12:35:30+00:00",
-    "views": 27,
+    "views": 29,
     "likes": 0
    },
    {
@@ -866,7 +866,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-19T14:28:00.745166Z"
+  "checked_at": "2026-11-19T15:07:13.238066Z"
  },
  "checks": [
   {
@@ -877,7 +877,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "18 real people this week; 1870 of 1888 page views were bots, crawlers or testing and are excluded"
+   "detail": "18 real people this week; 1873 of 1891 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -897,32 +897,32 @@
   {
    "name": "Footy",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Robotics",
    "ok": true,
-   "detail": "numbers last refreshed 9h ago"
+   "detail": "numbers last refreshed 10h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 8h ago"
+   "detail": "numbers last refreshed 9h ago"
   }
  ],
  "posting": {
   "date": "2026-11-19",
-  "now_et": "9:28 AM",
+  "now_et": "10:07 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1412,5 +1412,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-19T14:28:00.745166Z"
+ "checked_at": "2026-11-19T15:07:13.238066Z"
 }
