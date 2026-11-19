@@ -1,22 +1,22 @@
 {
  "name": "Footy",
- "updated": "2026-11-19T06:30:00Z",
- "notes": "Footy. Firebase and Cloudflare refreshed from Tigh's Chrome. Android installs kept at last value (Play chart not readable). iOS downloads/revenue: n/a, needs login (App Store Connect signed out).",
+ "updated": "2026-11-19T12:00:00Z",
+ "notes": "Footy. Tigh's Chrome not connected this run, so all numbers are kept at last values: Firebase, Play, Cloudflare and iOS are n/a, needs login.",
  "headline": [
   {
    "label": "Accounts (Firebase)",
    "value": 3,
-   "sub": "latest sign-up Nov 15"
+   "sub": "n/a, needs login; last value, latest sign-up Nov 15"
   },
   {
    "label": "Android installs (active)",
    "value": 2,
-   "sub": "Play installed audience, latest data Nov 18"
+   "sub": "n/a, needs login; last value, Play data Nov 18"
   },
   {
    "label": "joinfooty.com visits",
    "value": 3,
-   "sub": "last 24h, Cloudflare"
+   "sub": "n/a, needs login; last value, Cloudflare"
   }
  ],
  "sections": [
@@ -41,12 +41,12 @@
     {
      "label": "Page views, 24h",
      "value": 3,
-     "sub": "Cloudflare"
+     "sub": "n/a, needs login; last value"
     },
     {
      "label": "Visits, 24h",
      "value": 3,
-     "sub": "Cloudflare"
+     "sub": "n/a, needs login; last value"
     }
    ]
   },
@@ -56,7 +56,7 @@
     {
      "label": "Firebase users",
      "value": 3,
-     "sub": "latest sign-up Nov 15"
+     "sub": "n/a, needs login; last value, latest sign-up Nov 15"
     }
    ]
   }
