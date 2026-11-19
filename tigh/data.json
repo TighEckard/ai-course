@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T23:23:27.292999Z",
+ "generated_at": "2026-11-19T23:28:14.218078Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -95,15 +95,15 @@
    "2026-11-18": 5,
    "2026-11-19": 2
   },
-  "all_views_7d": 1749,
-  "bot_views_7d": 1731,
+  "all_views_7d": 1743,
+  "bot_views_7d": 1725,
   "browsers_30d": {
    "?": 6,
    "Edge": 1,
    "Chrome": 27,
    "Safari": 7
   },
-  "generated_at": "2026-11-19T23:23:27.6156+00:00",
+  "generated_at": "2026-11-19T23:28:14.787309+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -361,7 +361,7 @@
   "roofing_real_visitors_7d": 9
  },
  "youtube": {
-  "total_views": 9187,
+  "total_views": 9186,
   "videos": 41,
   "likes": 7,
   "top": [
@@ -541,7 +541,7 @@
     "id": "m0W4dx-Yyq4",
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://youtube.com/shorts/m0W4dx-Yyq4",
-    "views": 19,
+    "views": 18,
     "published": "2026-11-17",
     "exact": true
    },
@@ -866,18 +866,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-19T23:23:27.292999Z"
+  "checked_at": "2026-11-19T23:28:14.218078Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9187 views"
+   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9186 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "18 real people this week; 1731 of 1749 page views were bots, crawlers or testing and are excluded"
+   "detail": "18 real people this week; 1725 of 1743 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -907,7 +907,7 @@
   {
    "name": "Robotics",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Roofing",
@@ -922,7 +922,7 @@
  ],
  "posting": {
   "date": "2026-11-19",
-  "now_et": "6:24 PM",
+  "now_et": "6:28 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1133,7 +1133,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/m0W4dx-Yyq4",
-      "views": 19
+      "views": 18
      },
      {
       "p": "facebook",
@@ -1412,5 +1412,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-19T23:23:27.292999Z"
+ "checked_at": "2026-11-19T23:28:14.218078Z"
 }
