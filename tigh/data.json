@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T19:22:31.360456Z",
+ "generated_at": "2026-11-19T19:27:46.909960Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -103,7 +103,7 @@
    "Chrome": 27,
    "Safari": 7
   },
-  "generated_at": "2026-11-19T19:22:32.206229+00:00",
+  "generated_at": "2026-11-19T19:27:47.611929+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -361,7 +361,7 @@
   "roofing_real_visitors_7d": 9
  },
  "youtube": {
-  "total_views": 9184,
+  "total_views": 9185,
   "videos": 41,
   "likes": 7,
   "top": [
@@ -541,7 +541,7 @@
     "id": "m0W4dx-Yyq4",
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://youtube.com/shorts/m0W4dx-Yyq4",
-    "views": 16,
+    "views": 17,
     "published": "2026-11-17",
     "exact": true
    },
@@ -866,13 +866,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-19T19:22:31.360456Z"
+  "checked_at": "2026-11-19T19:27:46.909960Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9184 views"
+   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9185 views"
   },
   {
    "name": "Website visitors",
@@ -912,7 +912,7 @@
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Study creators",
@@ -922,7 +922,7 @@
  ],
  "posting": {
   "date": "2026-11-19",
-  "now_et": "2:23 PM",
+  "now_et": "2:28 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1133,7 +1133,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/m0W4dx-Yyq4",
-      "views": 16
+      "views": 17
      },
      {
       "p": "facebook",
@@ -1412,5 +1412,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-19T19:22:31.360456Z"
+ "checked_at": "2026-11-19T19:27:46.909960Z"
 }
