@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T03:06:22.885280Z",
+ "generated_at": "2026-11-19T03:22:33.093933Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -93,15 +93,15 @@
    "2026-11-17": 2,
    "2026-11-18": 5
   },
-  "all_views_7d": 1842,
-  "bot_views_7d": 1826,
+  "all_views_7d": 1848,
+  "bot_views_7d": 1832,
   "browsers_30d": {
    "?": 6,
    "Edge": 1,
    "Chrome": 25,
    "Safari": 7
   },
-  "generated_at": "2026-11-19T03:06:23.236578+00:00",
+  "generated_at": "2026-11-19T03:22:33.607774+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -359,7 +359,7 @@
   "roofing_real_visitors_7d": 7
  },
  "youtube": {
-  "total_views": 9174,
+  "total_views": 9178,
   "videos": 41,
   "likes": 7,
   "top": [
@@ -539,7 +539,7 @@
     "id": "m0W4dx-Yyq4",
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://youtube.com/shorts/m0W4dx-Yyq4",
-    "views": 10,
+    "views": 12,
     "published": "2026-11-17",
     "exact": true
    },
@@ -547,7 +547,7 @@
     "id": "YQsRiuD4170",
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://youtube.com/shorts/YQsRiuD4170",
-    "views": 21,
+    "views": 23,
     "published": "2026-11-17",
     "exact": true
    },
@@ -864,18 +864,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-19T03:06:22.885280Z"
+  "checked_at": "2026-11-19T03:22:33.093933Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9174 views"
+   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9178 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "16 real people this week; 1826 of 1842 page views were bots, crawlers or testing and are excluded"
+   "detail": "16 real people this week; 1832 of 1848 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -895,7 +895,7 @@
   {
    "name": "Footy",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Ovoa",
@@ -920,7 +920,7 @@
  ],
  "posting": {
   "date": "2026-11-18",
-  "now_et": "10:06 PM",
+  "now_et": "10:23 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1085,7 +1085,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/m0W4dx-Yyq4",
-      "views": 10
+      "views": 12
      },
      {
       "p": "facebook",
@@ -1396,5 +1396,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-19T03:06:22.885280Z"
+ "checked_at": "2026-11-19T03:22:33.093933Z"
 }
