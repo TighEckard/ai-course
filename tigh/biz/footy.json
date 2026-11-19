@@ -1,7 +1,7 @@
 {
  "name": "Footy",
- "updated": "2026-11-19T19:25:00Z",
- "notes": "Footy. Tigh's Chrome (eckartig0) not connected this run, so all numbers are kept at last values: Firebase, Play, Cloudflare and iOS are n/a, needs login.",
+ "updated": "2026-11-19T20:30:00Z",
+ "notes": "Footy. Tigh's Chrome (eckartig0) connected but pages were unreadable this run (Firebase user list empty without owner permission, Play Console stats and Cloudflare did not render), so all numbers are kept at last values: Firebase, Play, Cloudflare and iOS are n/a, needs login.",
  "headline": [
   {
    "label": "Accounts (Firebase)",
