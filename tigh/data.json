@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T17:22:26.811583Z",
+ "generated_at": "2026-11-19T17:28:35.183326Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -103,7 +103,7 @@
    "Chrome": 27,
    "Safari": 7
   },
-  "generated_at": "2026-11-19T17:22:27.7034+00:00",
+  "generated_at": "2026-11-19T17:28:35.768989+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -361,7 +361,7 @@
   "roofing_real_visitors_7d": 9
  },
  "youtube": {
-  "total_views": 9180,
+  "total_views": 9182,
   "videos": 41,
   "likes": 7,
   "top": [
@@ -541,7 +541,7 @@
     "id": "m0W4dx-Yyq4",
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://youtube.com/shorts/m0W4dx-Yyq4",
-    "views": 12,
+    "views": 15,
     "published": "2026-11-17",
     "exact": true
    },
@@ -837,7 +837,7 @@
     "id": "lRXGM46vjpk",
     "title": "4 slang words your grandkids say, translated #Shorts",
     "url": "https://youtube.com/shorts/lRXGM46vjpk",
-    "views": 936,
+    "views": 935,
     "published": null,
     "exact": true
    },
@@ -866,13 +866,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-19T17:22:26.811583Z"
+  "checked_at": "2026-11-19T17:28:35.183326Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9180 views"
+   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9182 views"
   },
   {
    "name": "Website visitors",
@@ -906,13 +906,13 @@
   },
   {
    "name": "Robotics",
-   "ok": true,
-   "detail": "numbers last refreshed 12h ago"
+   "ok": false,
+   "detail": "numbers last refreshed 12h ago (older than 12h, flagged stale)"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Study creators",
@@ -922,7 +922,7 @@
  ],
  "posting": {
   "date": "2026-11-19",
-  "now_et": "12:23 PM",
+  "now_et": "12:29 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1133,7 +1133,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/m0W4dx-Yyq4",
-      "views": 12
+      "views": 15
      },
      {
       "p": "facebook",
@@ -1412,5 +1412,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-19T17:22:26.811583Z"
+ "checked_at": "2026-11-19T17:28:35.183326Z"
 }
