@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T12:07:16.319229Z",
+ "generated_at": "2026-11-19T12:22:22.451707Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -101,7 +101,7 @@
    "Chrome": 25,
    "Safari": 7
   },
-  "generated_at": "2026-11-19T12:07:16.818634+00:00",
+  "generated_at": "2026-11-19T12:22:23.345644+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -359,7 +359,7 @@
   "roofing_real_visitors_7d": 7
  },
  "youtube": {
-  "total_views": 9175,
+  "total_views": 9177,
   "videos": 41,
   "likes": 7,
   "top": [
@@ -400,7 +400,7 @@
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://www.youtube.com/shorts/YQsRiuD4170",
     "published": "2026-11-17T12:35:30+00:00",
-    "views": 27,
+    "views": 28,
     "likes": 0
    },
    {
@@ -437,7 +437,7 @@
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://www.youtube.com/shorts/YQsRiuD4170",
     "published": "2026-11-17T12:35:30+00:00",
-    "views": 27,
+    "views": 28,
     "likes": 0
    },
    {
@@ -547,7 +547,7 @@
     "id": "YQsRiuD4170",
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://youtube.com/shorts/YQsRiuD4170",
-    "views": 25,
+    "views": 27,
     "published": "2026-11-17",
     "exact": true
    },
@@ -864,13 +864,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-19T12:07:16.319229Z"
+  "checked_at": "2026-11-19T12:22:22.451707Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9175 views"
+   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9177 views"
   },
   {
    "name": "Website visitors",
@@ -890,12 +890,12 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 3h ago"
   },
   {
    "name": "Footy",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Ovoa",
@@ -920,7 +920,7 @@
  ],
  "posting": {
   "date": "2026-11-19",
-  "now_et": "7:07 AM",
+  "now_et": "7:22 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1410,5 +1410,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-19T12:07:16.319229Z"
+ "checked_at": "2026-11-19T12:22:22.451707Z"
 }
