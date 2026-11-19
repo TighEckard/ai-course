@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T10:20:48.558183Z",
+ "generated_at": "2026-11-19T10:22:40.121431Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -101,7 +101,7 @@
    "Chrome": 25,
    "Safari": 7
   },
-  "generated_at": "2026-11-19T10:20:49.280269+00:00",
+  "generated_at": "2026-11-19T10:22:40.20255+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -864,7 +864,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-19T10:20:48.558183Z"
+  "checked_at": "2026-11-19T10:22:40.121431Z"
  },
  "checks": [
   {
@@ -895,7 +895,7 @@
   {
    "name": "Footy",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Ovoa",
@@ -920,7 +920,7 @@
  ],
  "posting": {
   "date": "2026-11-19",
-  "now_et": "5:21 AM",
+  "now_et": "5:23 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1410,5 +1410,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-19T10:20:48.558183Z"
+ "checked_at": "2026-11-19T10:22:40.121431Z"
 }
