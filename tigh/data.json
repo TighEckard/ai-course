@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T03:27:45.067036Z",
+ "generated_at": "2026-11-19T03:44:27.680710Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -93,15 +93,15 @@
    "2026-11-17": 2,
    "2026-11-18": 5
   },
-  "all_views_7d": 1848,
-  "bot_views_7d": 1832,
+  "all_views_7d": 1857,
+  "bot_views_7d": 1841,
   "browsers_30d": {
    "?": 6,
    "Edge": 1,
    "Chrome": 25,
    "Safari": 7
   },
-  "generated_at": "2026-11-19T03:27:45.378233+00:00",
+  "generated_at": "2026-11-19T03:44:28.404658+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -359,7 +359,7 @@
   "roofing_real_visitors_7d": 7
  },
  "youtube": {
-  "total_views": 9175,
+  "total_views": 9178,
   "videos": 41,
   "likes": 7,
   "top": [
@@ -393,7 +393,7 @@
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://www.youtube.com/shorts/m0W4dx-Yyq4",
     "published": "2026-11-17T12:41:33+00:00",
-    "views": 12,
+    "views": 10,
     "likes": 0
    },
    {
@@ -421,7 +421,7 @@
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://www.youtube.com/shorts/HsSq5MJ-juM",
     "published": "2026-11-14T12:36:00+00:00",
-    "views": 97,
+    "views": 96,
     "likes": 2
    }
   ],
@@ -430,7 +430,7 @@
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://www.youtube.com/shorts/m0W4dx-Yyq4",
     "published": "2026-11-17T12:41:33+00:00",
-    "views": 12,
+    "views": 10,
     "likes": 0
    },
    {
@@ -458,7 +458,7 @@
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://www.youtube.com/shorts/HsSq5MJ-juM",
     "published": "2026-11-14T12:36:00+00:00",
-    "views": 97,
+    "views": 96,
     "likes": 2
    },
    {
@@ -547,7 +547,7 @@
     "id": "YQsRiuD4170",
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://youtube.com/shorts/YQsRiuD4170",
-    "views": 21,
+    "views": 23,
     "published": "2026-11-17",
     "exact": true
    },
@@ -571,7 +571,7 @@
     "id": "HsSq5MJ-juM",
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-    "views": 96,
+    "views": 97,
     "published": "2026-11-14",
     "exact": true
    },
@@ -864,18 +864,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-19T03:27:45.067036Z"
+  "checked_at": "2026-11-19T03:44:27.680710Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9175 views"
+   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9178 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "16 real people this week; 1832 of 1848 page views were bots, crawlers or testing and are excluded"
+   "detail": "16 real people this week; 1841 of 1857 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -900,7 +900,7 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Robotics",
@@ -915,18 +915,18 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 18h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 19h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-18",
-  "now_et": "10:28 PM",
+  "now_et": "10:45 PM",
   "today": {
    "youtube": {
     "planned": 2,
     "done": 0,
     "verified": true,
-    "overdue": 1,
+    "overdue": 2,
     "items": [
      {
       "title": "That scary virus pop-up? Do this instead #Shorts",
@@ -944,7 +944,7 @@
       "slot": "pm",
       "done": false,
       "verified": true,
-      "due": false
+      "due": true
      }
     ],
     "next": {
@@ -979,7 +979,7 @@
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": false
+      "due": true
      }
     ],
     "next": {
@@ -1014,7 +1014,7 @@
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": false
+      "due": true
      }
     ],
     "next": {
@@ -1226,7 +1226,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-      "views": 96
+      "views": 97
      },
      {
       "p": "facebook",
@@ -1396,5 +1396,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-19T03:27:45.067036Z"
+ "checked_at": "2026-11-19T03:44:27.680710Z"
 }
