@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T10:28:06.239370Z",
+ "generated_at": "2026-11-19T11:22:25.808861Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -101,7 +101,7 @@
    "Chrome": 25,
    "Safari": 7
   },
-  "generated_at": "2026-11-19T10:28:06.645047+00:00",
+  "generated_at": "2026-11-19T11:22:26.574028+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -400,7 +400,7 @@
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://www.youtube.com/shorts/YQsRiuD4170",
     "published": "2026-11-17T12:35:30+00:00",
-    "views": 25,
+    "views": 27,
     "likes": 0
    },
    {
@@ -437,7 +437,7 @@
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://www.youtube.com/shorts/YQsRiuD4170",
     "published": "2026-11-17T12:35:30+00:00",
-    "views": 25,
+    "views": 27,
     "likes": 0
    },
    {
@@ -864,7 +864,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-19T10:28:06.239370Z"
+  "checked_at": "2026-11-19T11:22:25.808861Z"
  },
  "checks": [
   {
@@ -890,7 +890,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Footy",
@@ -900,27 +900,27 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Robotics",
    "ok": true,
-   "detail": "numbers last refreshed 5h ago"
+   "detail": "numbers last refreshed 6h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 4h ago"
+   "detail": "numbers last refreshed 5h ago"
   }
  ],
  "posting": {
   "date": "2026-11-19",
-  "now_et": "5:28 AM",
+  "now_et": "6:22 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1410,5 +1410,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-19T10:28:06.239370Z"
+ "checked_at": "2026-11-19T11:22:25.808861Z"
 }
