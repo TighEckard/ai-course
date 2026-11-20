@@ -1,6 +1,6 @@
 {
  "name": "Footy",
- "updated": "2026-11-20T09:30:00Z",
+ "updated": "2026-11-20T10:30:00Z",
  "notes": "Footy. Firebase, Play and website numbers are live. iOS downloads/Plus/revenue: n/a, needs login (App Store Connect signed out).",
  "headline": [
   {
@@ -15,7 +15,7 @@
   },
   {
    "label": "joinfooty.com visits",
-   "value": 6,
+   "value": 5,
    "sub": "last 24h"
   }
  ],
@@ -40,12 +40,12 @@
    "tiles": [
     {
      "label": "Page views, 24h",
-     "value": 6,
+     "value": 5,
      "sub": "Cloudflare Web Analytics"
     },
     {
      "label": "Visits, 24h",
-     "value": 6,
+     "value": 5,
      "sub": "Cloudflare Web Analytics"
     }
    ]
