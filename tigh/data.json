@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T20:24:55.220255Z",
+ "generated_at": "2026-11-20T20:27:55.736923Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -96,15 +96,15 @@
    "2026-11-19": 5,
    "2026-11-20": 7
   },
-  "all_views_7d": 1289,
-  "bot_views_7d": 1260,
+  "all_views_7d": 1287,
+  "bot_views_7d": 1258,
   "browsers_30d": {
    "?": 6,
    "Edge": 1,
    "Chrome": 35,
    "Safari": 8
   },
-  "generated_at": "2026-11-20T20:24:55.913415+00:00",
+  "generated_at": "2026-11-20T20:27:55.967854+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -404,7 +404,7 @@
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://www.youtube.com/shorts/m0W4dx-Yyq4",
     "published": "2026-11-17T12:41:33+00:00",
-    "views": 27,
+    "views": 28,
     "likes": 0
    },
    {
@@ -441,7 +441,7 @@
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://www.youtube.com/shorts/m0W4dx-Yyq4",
     "published": "2026-11-17T12:41:33+00:00",
-    "views": 27,
+    "views": 28,
     "likes": 0
    },
    {
@@ -544,23 +544,23 @@
    }
   ],
   "catalog": true,
-  "exact_videos": 15,
+  "exact_videos": 39,
   "list": [
    {
     "id": "m0W4dx-Yyq4",
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://youtube.com/shorts/m0W4dx-Yyq4",
     "views": 27,
-    "exact": false,
-    "published": "2026-11-17T12:41:33+00:00"
+    "published": "2026-11-17",
+    "exact": true
    },
    {
     "id": "YQsRiuD4170",
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://youtube.com/shorts/YQsRiuD4170",
     "views": 28,
-    "exact": false,
-    "published": "2026-11-17T12:35:30+00:00"
+    "published": "2026-11-17",
+    "exact": true
    },
    {
     "id": "GTcoR5hC3is",
@@ -591,16 +591,8 @@
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://youtube.com/shorts/QSxj4gj4llM",
     "views": 148,
-    "exact": false,
-    "published": "2026-11-13T23:36:47+00:00"
-   },
-   {
-    "id": "dVX1bZdId60",
-    "title": "Grandkid texted you 'that's lowkey sus'? Translated",
-    "url": "https://youtube.com/shorts/dVX1bZdId60",
-    "views": 0,
-    "exact": false,
-    "published": "2026-11-12T12:35:28+00:00"
+    "published": "2026-11-13",
+    "exact": true
    },
    {
     "id": "gNvoRlgUQSg",
@@ -611,44 +603,44 @@
     "exact": true
    },
    {
+    "id": "dVX1bZdId60",
+    "title": "Grandkid texted you 'that's lowkey sus'? Translated",
+    "url": "https://youtube.com/shorts/dVX1bZdId60",
+    "views": 0,
+    "published": "2026-11-11",
+    "exact": true
+   },
+   {
     "id": "SJzm0VJglpg",
     "title": "Grandkid texted you 'that's lowkey sus'? Translated",
     "url": "https://youtube.com/shorts/SJzm0VJglpg",
     "views": 0,
-    "exact": false,
-    "published": "2026-11-11T20:02:23+00:00"
+    "published": "2026-11-11",
+    "exact": true
    },
    {
     "id": "3Z-cVhpVI3c",
     "title": "What to say when a scam caller pressures you",
     "url": "https://youtube.com/shorts/3Z-cVhpVI3c",
     "views": 1,
-    "exact": false,
-    "published": "2026-11-10T12:37:54+00:00"
+    "published": "2026-11-10",
+    "exact": true
    },
    {
     "id": "yf6HJrYj3ww",
     "title": "Scam or safe? Can you tell?",
     "url": "https://youtube.com/shorts/yf6HJrYj3ww",
     "views": 0,
-    "exact": false,
-    "published": "2026-11-10T02:40:17+00:00"
+    "published": "2026-11-10",
+    "exact": true
    },
    {
     "id": "BMZBrj5YJGs",
     "title": "What to say when a scam caller pressures you",
     "url": "https://youtube.com/shorts/BMZBrj5YJGs",
     "views": 14,
-    "exact": false,
-    "published": "2026-11-10T02:37:27+00:00"
-   },
-   {
-    "id": "1Z8d6CqPQHU",
-    "title": "POV: everyone in the meeting is using AI #Shorts",
-    "url": "https://youtube.com/shorts/1Z8d6CqPQHU",
-    "views": 8,
-    "exact": false,
-    "published": "2026-11-09T20:56:29+00:00"
+    "published": "2026-11-10",
+    "exact": true
    },
    {
     "id": "1L9U100WIN0",
@@ -659,20 +651,28 @@
     "exact": true
    },
    {
+    "id": "1Z8d6CqPQHU",
+    "title": "POV: everyone in the meeting is using AI #Shorts",
+    "url": "https://youtube.com/shorts/1Z8d6CqPQHU",
+    "views": 8,
+    "published": "2026-11-09",
+    "exact": true
+   },
+   {
     "id": "-4fKye0-VjE",
     "title": "The email that could get you a $14k raise #Shorts",
     "url": "https://youtube.com/shorts/-4fKye0-VjE",
     "views": 1,
-    "exact": false,
-    "published": "2026-11-08T04:28:34+00:00"
+    "published": "2026-11-08",
+    "exact": true
    },
    {
     "id": "o-Cm_xmLloU",
     "title": "The email that could get you a $14k raise #Shorts",
     "url": "https://youtube.com/shorts/o-Cm_xmLloU",
     "views": 2,
-    "exact": false,
-    "published": "2026-11-08"
+    "published": "2026-11-08",
+    "exact": true
    },
    {
     "id": "tCjX_vTzg9I",
@@ -687,64 +687,64 @@
     "title": "Insurance letter in plain English with AI #Shorts",
     "url": "https://youtube.com/shorts/aHFCFhbCeZk",
     "views": 4,
-    "exact": false,
-    "published": "2026-11-08"
+    "published": "2026-11-08",
+    "exact": true
    },
    {
     "id": "O0DxIt_fQjA",
     "title": "Plan a whole trip with AI in a minute #Shorts",
     "url": "https://youtube.com/shorts/O0DxIt_fQjA",
     "views": 2,
-    "exact": false,
-    "published": "2026-11-08"
+    "published": "2026-11-08",
+    "exact": true
    },
    {
     "id": "wr1wnbtk9EM",
     "title": "Scam or safe? Can you spot it? #Shorts",
     "url": "https://youtube.com/shorts/wr1wnbtk9EM",
     "views": 0,
-    "exact": false,
-    "published": "2026-11-07"
+    "published": "2026-11-07",
+    "exact": true
    },
    {
     "id": "O0v42Pppyxo",
     "title": "Decode any confusing letter with AI in 3 steps #Shorts",
     "url": "https://youtube.com/shorts/O0v42Pppyxo",
     "views": 1,
-    "exact": false,
-    "published": "2026-11-07"
+    "published": "2026-11-07",
+    "exact": true
    },
    {
     "id": "Khk-oMwNaQQ",
     "title": "Stop typing on your phone. Just talk. #Shorts",
     "url": "https://youtube.com/shorts/Khk-oMwNaQQ",
     "views": 336,
-    "exact": false,
-    "published": "2026-11-05"
+    "published": "2026-11-05",
+    "exact": true
    },
    {
     "id": "sF0OHgEgq9E",
     "title": "Grandma, it's a vibe? Gen Z slang translated #Shorts",
     "url": "https://youtube.com/shorts/sF0OHgEgq9E",
     "views": 311,
-    "exact": false,
-    "published": "2026-11-05"
+    "published": "2026-11-05",
+    "exact": true
    },
    {
     "id": "EqSk3xo9tTg",
     "title": "Grandma, he ghosted me? Gen Z slang translated #Shorts",
     "url": "https://youtube.com/shorts/EqSk3xo9tTg",
     "views": 3,
-    "exact": false,
-    "published": "2026-11-04"
+    "published": "2026-11-04",
+    "exact": true
    },
    {
     "id": "DuTUAAUjx7Q",
     "title": "Grandma asks AI what to cook (pirate chef) #Shorts",
     "url": "https://youtube.com/shorts/DuTUAAUjx7Q",
     "views": 78,
-    "exact": false,
-    "published": "2026-11-04"
+    "published": "2026-11-04",
+    "exact": true
    },
    {
     "id": "vsjOK3cLpwo",
@@ -783,8 +783,8 @@
     "title": "Grandkid called you bestie? Translated #Shorts",
     "url": "https://youtube.com/shorts/BUodsaR44Gw",
     "views": 461,
-    "exact": false,
-    "published": "2026-11-01"
+    "published": "2026-11-01",
+    "exact": true
    },
    {
     "id": "ku-cxkxCR98",
@@ -807,8 +807,8 @@
     "title": "Grandkid said that was clutch? Translated #Shorts",
     "url": "https://youtube.com/shorts/FtxyGZ_771Q",
     "views": 933,
-    "exact": false,
-    "published": "2026-11-01"
+    "published": "2026-11-01",
+    "exact": true
    },
    {
     "id": "fb3EgepkM3w",
@@ -831,16 +831,16 @@
     "title": "Is your grandkid calling you sus? Translated #Shorts",
     "url": "https://youtube.com/shorts/LG6Nfc2Bl5M",
     "views": 20,
-    "exact": false,
-    "published": "2026-10-31"
+    "published": "2026-10-31",
+    "exact": true
    },
    {
     "id": "T80t5oERuVU",
     "title": "Grandma, you're such a vibe? Translated #Shorts",
     "url": "https://youtube.com/shorts/T80t5oERuVU",
     "views": 65,
-    "exact": false,
-    "published": "2026-10-31"
+    "published": "2026-10-31",
+    "exact": true
    },
    {
     "id": "lRXGM46vjpk",
@@ -855,8 +855,8 @@
     "title": "Nana took an L? Grandma learns slang #Shorts",
     "url": "https://youtube.com/shorts/B0h7mqzcssY",
     "views": 475,
-    "exact": false,
-    "published": null
+    "published": null,
+    "exact": true
    },
    {
     "id": "QtHsxWyALPQ",
@@ -875,18 +875,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-20T20:24:55.220255Z"
+  "checked_at": "2026-11-20T20:27:55.736923Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "41 videos on the channel, 15 with exact counts (rest from the channel page, rounded) = 9196 views"
+   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9196 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "27 real people this week; 1260 of 1289 page views were bots, crawlers or testing and are excluded"
+   "detail": "27 real people this week; 1258 of 1287 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -916,7 +916,7 @@
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Study creators",
@@ -926,7 +926,7 @@
  ],
  "posting": {
   "date": "2026-11-20",
-  "now_et": "3:25 PM",
+  "now_et": "3:28 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1430,5 +1430,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-20T20:24:55.220255Z"
+ "checked_at": "2026-11-20T20:27:55.736923Z"
 }
