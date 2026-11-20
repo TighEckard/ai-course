@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T03:27:48.066956Z",
+ "generated_at": "2026-11-20T03:44:20.094979Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -95,15 +95,15 @@
    "2026-11-18": 5,
    "2026-11-19": 5
   },
-  "all_views_7d": 1508,
-  "bot_views_7d": 1486,
+  "all_views_7d": 1504,
+  "bot_views_7d": 1482,
   "browsers_30d": {
    "?": 6,
    "Edge": 1,
    "Chrome": 28,
    "Safari": 8
   },
-  "generated_at": "2026-11-20T03:27:48.386236+00:00",
+  "generated_at": "2026-11-20T03:44:20.513647+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -868,7 +868,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-20T03:27:48.066956Z"
+  "checked_at": "2026-11-20T03:44:20.094979Z"
  },
  "checks": [
   {
@@ -879,7 +879,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "20 real people this week; 1486 of 1508 page views were bots, crawlers or testing and are excluded"
+   "detail": "20 real people this week; 1482 of 1504 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -894,7 +894,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Footy",
@@ -904,7 +904,7 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Robotics",
@@ -919,18 +919,18 @@
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 4h ago"
   }
  ],
  "posting": {
   "date": "2026-11-19",
-  "now_et": "10:28 PM",
+  "now_et": "10:44 PM",
   "today": {
    "youtube": {
     "planned": 2,
     "done": 0,
     "verified": true,
-    "overdue": 1,
+    "overdue": 2,
     "items": [
      {
       "title": "You won a million dollars? Read this #Shorts",
@@ -948,7 +948,7 @@
       "slot": "pm",
       "done": false,
       "verified": true,
-      "due": false
+      "due": true
      }
     ],
     "next": {
@@ -983,7 +983,7 @@
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": false
+      "due": true
      }
     ],
     "next": {
@@ -1018,7 +1018,7 @@
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": false
+      "due": true
      }
     ],
     "next": {
@@ -1414,5 +1414,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-20T03:27:48.066956Z"
+ "checked_at": "2026-11-20T03:44:20.094979Z"
 }
