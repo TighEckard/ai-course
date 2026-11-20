@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T15:28:21.458117Z",
+ "generated_at": "2026-11-20T15:44:43.832369Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -96,15 +96,15 @@
    "2026-11-19": 5,
    "2026-11-20": 7
   },
-  "all_views_7d": 1522,
-  "bot_views_7d": 1493,
+  "all_views_7d": 1513,
+  "bot_views_7d": 1484,
   "browsers_30d": {
    "?": 6,
    "Edge": 1,
    "Chrome": 35,
    "Safari": 8
   },
-  "generated_at": "2026-11-20T15:28:21.839387+00:00",
+  "generated_at": "2026-11-20T15:44:44.17936+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -132,7 +132,7 @@
    {
     "t": "2026-11-20T14:41:55.022575+00:00",
     "dev": "desktop",
-    "src": "direct",
+    "src": "g2-p-lifelong-ll3",
     "land": "/",
     "secs": 1,
     "pages": 1,
@@ -336,7 +336,7 @@
   "real_sources_30d": {
    "g1-a": 2,
    "g1-c": 1,
-   "direct": 15,
+   "direct": 14,
    "google": 13,
    "facebook": 4,
    "pinterest": 1,
@@ -344,6 +344,7 @@
    "bedrock-direct": 9,
    "bedrock-google": 1,
    "bedrock-youtube": 1,
+   "g2-p-lifelong-ll3": 1,
    "t5-c-yvafybat-446": 1,
    "t5-c-yvafybat-yy6": 1
   },
@@ -874,7 +875,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-20T15:28:21.458117Z"
+  "checked_at": "2026-11-20T15:44:43.832369Z"
  },
  "checks": [
   {
@@ -885,7 +886,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "27 real people this week; 1493 of 1522 page views were bots, crawlers or testing and are excluded"
+   "detail": "27 real people this week; 1484 of 1513 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -900,7 +901,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Footy",
@@ -910,7 +911,7 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Robotics",
@@ -925,12 +926,12 @@
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 6h ago"
+   "detail": "numbers last refreshed 7h ago"
   }
  ],
  "posting": {
   "date": "2026-11-20",
-  "now_et": "10:28 AM",
+  "now_et": "10:45 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1434,5 +1435,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-20T15:28:21.458117Z"
+ "checked_at": "2026-11-20T15:44:43.832369Z"
 }
