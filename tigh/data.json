@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T06:28:23.934610Z",
+ "generated_at": "2026-11-20T06:44:23.249705Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -95,15 +95,15 @@
    "2026-11-18": 5,
    "2026-11-19": 5
   },
-  "all_views_7d": 1494,
-  "bot_views_7d": 1472,
+  "all_views_7d": 1495,
+  "bot_views_7d": 1473,
   "browsers_30d": {
    "?": 6,
    "Edge": 1,
    "Chrome": 28,
    "Safari": 8
   },
-  "generated_at": "2026-11-20T06:28:24.03185+00:00",
+  "generated_at": "2026-11-20T06:44:23.726071+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -575,7 +575,7 @@
     "id": "HsSq5MJ-juM",
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-    "views": 97,
+    "views": 96,
     "published": "2026-11-14",
     "exact": true
    },
@@ -583,7 +583,7 @@
     "id": "QSxj4gj4llM",
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://youtube.com/shorts/QSxj4gj4llM",
-    "views": 147,
+    "views": 148,
     "published": "2026-11-13",
     "exact": true
    },
@@ -868,7 +868,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-20T06:28:23.934610Z"
+  "checked_at": "2026-11-20T06:44:23.249705Z"
  },
  "checks": [
   {
@@ -879,7 +879,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "20 real people this week; 1472 of 1494 page views were bots, crawlers or testing and are excluded"
+   "detail": "20 real people this week; 1473 of 1495 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -894,7 +894,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Footy",
@@ -904,7 +904,7 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Robotics",
@@ -919,12 +919,12 @@
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 6h ago"
+   "detail": "numbers last refreshed 7h ago"
   }
  ],
  "posting": {
   "date": "2026-11-20",
-  "now_et": "1:28 AM",
+  "now_et": "1:44 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1322,7 +1322,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-      "views": 97
+      "views": 96
      },
      {
       "p": "facebook",
@@ -1369,7 +1369,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/QSxj4gj4llM",
-      "views": 147
+      "views": 148
      },
      {
       "p": "facebook",
@@ -1428,5 +1428,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-20T06:28:23.934610Z"
+ "checked_at": "2026-11-20T06:44:23.249705Z"
 }
