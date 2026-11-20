@@ -1,6 +1,6 @@
 {
  "name": "Footy",
- "updated": "2026-11-20T20:00:00Z",
+ "updated": "2026-11-20T21:00:00Z",
  "notes": "Footy. Firebase, Play and Cloudflare numbers are live this run. n/a, needs login: App Store Connect (signed out), so iOS downloads/Plus subs/revenue are not available.",
  "headline": [
   {
@@ -58,6 +58,7 @@
      "value": 3,
      "sub": "Firebase Auth"
     }
-  ]
+   ]
+  }
  ]
 }
