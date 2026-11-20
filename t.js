@@ -72,5 +72,7 @@
   w.addEventListener('hashchange',function(){leave();vis=d.visibilityState!=='hidden';enter()});
   w.AT={signup:function(){var e=base('signup');if(!e.path)e.path='/';push(e);flush()}};
   getGeo(function(){enter()});
+  /* Microsoft Clarity (recordings with mouse movement, heatmaps). Same gating as above; never on members/login/admin/thanks pages. */
+  if(!/^#(members|login|reset|admin|thanks)|access_token=/.test(location.hash))(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y)})(w,d,'clarity','script','zgczdoogv0');
   setTimeout(function(){var r=d.createElement('script');r.src='/rec.js?v=1';r.async=true;d.head.appendChild(r)},600);
 })();
