@@ -1,6 +1,8 @@
 {
- "generated_at": "2026-11-20T21:27:50.370488Z",
- "errors": {},
+ "generated_at": "2026-11-20T21:44:44.680698Z",
+ "errors": {
+  "youtube": "YouTube did not answer this hour; showing the last good numbers"
+ },
  "site": {
   "os_30d": {
    "?": 6,
@@ -96,15 +98,15 @@
    "2026-11-19": 5,
    "2026-11-20": 7
   },
-  "all_views_7d": 1248,
-  "bot_views_7d": 1219,
+  "all_views_7d": 1237,
+  "bot_views_7d": 1208,
   "browsers_30d": {
    "?": 6,
    "Edge": 1,
    "Chrome": 35,
    "Safari": 8
   },
-  "generated_at": "2026-11-20T21:27:50.810474+00:00",
+  "generated_at": "2026-11-20T21:44:45.253528+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -874,63 +876,12 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-20T21:27:50.370488Z"
+  "checked_at": "2026-11-20T21:27:50.370488Z",
+  "stale_from": "2026-11-20T21:27:50.370488Z"
  },
- "checks": [
-  {
-   "name": "YouTube views",
-   "ok": true,
-   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9196 views"
-  },
-  {
-   "name": "Website visitors",
-   "ok": true,
-   "detail": "27 real people this week; 1219 of 1248 page views were bots, crawlers or testing and are excluded"
-  },
-  {
-   "name": "Signups",
-   "ok": true,
-   "detail": "4 Riside signups and 0 roofing leads counted straight from the database"
-  },
-  {
-   "name": "Posting",
-   "ok": false,
-   "detail": "YouTube 0/2 planned posts found live on the channel today"
-  },
-  {
-   "name": "Cozy Crochet Club",
-   "ok": true,
-   "detail": "numbers last refreshed 3h ago"
-  },
-  {
-   "name": "Footy",
-   "ok": true,
-   "detail": "numbers last refreshed 0h ago"
-  },
-  {
-   "name": "Ovoa",
-   "ok": true,
-   "detail": "numbers last refreshed 0h ago"
-  },
-  {
-   "name": "Robotics",
-   "ok": true,
-   "detail": "numbers last refreshed 2h ago"
-  },
-  {
-   "name": "Roofing",
-   "ok": true,
-   "detail": "numbers last refreshed 0h ago"
-  },
-  {
-   "name": "Study creators",
-   "ok": true,
-   "detail": "numbers last refreshed 0h ago"
-  }
- ],
  "posting": {
   "date": "2026-11-20",
-  "now_et": "4:28 PM",
+  "now_et": "4:45 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1434,5 +1385,52 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-20T21:27:50.370488Z"
+ "checks": [
+  {
+   "name": "Website visitors",
+   "ok": true,
+   "detail": "27 real people this week; 1208 of 1237 page views were bots, crawlers or testing and are excluded"
+  },
+  {
+   "name": "Signups",
+   "ok": true,
+   "detail": "4 Riside signups and 0 roofing leads counted straight from the database"
+  },
+  {
+   "name": "Posting",
+   "ok": false,
+   "detail": "YouTube 0/2 planned posts found live on the channel today"
+  },
+  {
+   "name": "Cozy Crochet Club",
+   "ok": true,
+   "detail": "numbers last refreshed 0h ago"
+  },
+  {
+   "name": "Footy",
+   "ok": true,
+   "detail": "numbers last refreshed 1h ago"
+  },
+  {
+   "name": "Ovoa",
+   "ok": true,
+   "detail": "numbers last refreshed 1h ago"
+  },
+  {
+   "name": "Robotics",
+   "ok": true,
+   "detail": "numbers last refreshed 0h ago"
+  },
+  {
+   "name": "Roofing",
+   "ok": true,
+   "detail": "numbers last refreshed 0h ago"
+  },
+  {
+   "name": "Study creators",
+   "ok": true,
+   "detail": "numbers last refreshed 1h ago"
+  }
+ ],
+ "checked_at": "2026-11-20T21:44:44.680698Z"
 }
