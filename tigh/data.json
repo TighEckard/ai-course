@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T05:28:11.756113Z",
+ "generated_at": "2026-11-20T06:06:56.289139Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -95,15 +95,15 @@
    "2026-11-18": 5,
    "2026-11-19": 5
   },
-  "all_views_7d": 1487,
-  "bot_views_7d": 1465,
+  "all_views_7d": 1494,
+  "bot_views_7d": 1472,
   "browsers_30d": {
    "?": 6,
    "Edge": 1,
    "Chrome": 28,
    "Safari": 8
   },
-  "generated_at": "2026-11-20T05:28:11.929467+00:00",
+  "generated_at": "2026-11-20T06:06:56.949413+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -363,7 +363,7 @@
   "roofing_real_visitors_7d": 11
  },
  "youtube": {
-  "total_views": 9189,
+  "total_views": 9188,
   "videos": 41,
   "likes": 7,
   "top": [
@@ -397,7 +397,7 @@
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://www.youtube.com/shorts/m0W4dx-Yyq4",
     "published": "2026-11-17T12:41:33+00:00",
-    "views": 20,
+    "views": 22,
     "likes": 0
    },
    {
@@ -434,7 +434,7 @@
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://www.youtube.com/shorts/m0W4dx-Yyq4",
     "published": "2026-11-17T12:41:33+00:00",
-    "views": 20,
+    "views": 22,
     "likes": 0
    },
    {
@@ -543,7 +543,7 @@
     "id": "m0W4dx-Yyq4",
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://youtube.com/shorts/m0W4dx-Yyq4",
-    "views": 22,
+    "views": 20,
     "published": "2026-11-17",
     "exact": true
    },
@@ -575,7 +575,7 @@
     "id": "HsSq5MJ-juM",
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-    "views": 96,
+    "views": 97,
     "published": "2026-11-14",
     "exact": true
    },
@@ -868,18 +868,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-20T05:28:11.756113Z"
+  "checked_at": "2026-11-20T06:06:56.289139Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9189 views"
+   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9188 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "20 real people this week; 1465 of 1487 page views were bots, crawlers or testing and are excluded"
+   "detail": "20 real people this week; 1472 of 1494 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -899,17 +899,17 @@
   {
    "name": "Footy",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Robotics",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Roofing",
@@ -919,12 +919,12 @@
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 5h ago"
+   "detail": "numbers last refreshed 6h ago"
   }
  ],
  "posting": {
   "date": "2026-11-20",
-  "now_et": "12:28 AM",
+  "now_et": "1:07 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1181,7 +1181,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/m0W4dx-Yyq4",
-      "views": 22
+      "views": 20
      },
      {
       "p": "facebook",
@@ -1322,7 +1322,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-      "views": 96
+      "views": 97
      },
      {
       "p": "facebook",
@@ -1428,5 +1428,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-20T05:28:11.756113Z"
+ "checked_at": "2026-11-20T06:06:56.289139Z"
 }
