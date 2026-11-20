@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-11-20T00:43:57.289277Z",
+ "generated_at": "2026-11-20T01:23:53.486805Z",
  "errors": {},
  "site": {
   "os_30d": {
    "?": 6,
-   "iOS": 11,
+   "iOS": 12,
    "Linux": 2,
    "macOS": 1,
-   "Android": 4,
+   "Android": 5,
    "Windows": 16,
    "ChromeOS": 1
   },
@@ -29,7 +29,7 @@
    "16": 2,
    "17": 2,
    "18": 1,
-   "20": 1,
+   "20": 4,
    "21": 7,
    "22": 4,
    "23": 2
@@ -39,11 +39,11 @@
    "Houston, Texas": 1,
    "Miami, Florida": 3,
    "Geneva, Illinois": 1,
-   "Louisville, Kentucky": 1,
+   "Pagedale, Missouri": 2,
    "Milford, Connecticut": 1,
    "Nashville, Tennessee": 2,
    "San Jose, California": 3,
-   "Indianapolis, Indiana": 1,
+   "Indianapolis, Indiana": 2,
    "Burnaby, British Columbia": 1,
    "Philadelphia, Pennsylvania": 2,
    "Washington, District of Columbia": 4
@@ -51,9 +51,9 @@
   "clicks_30d": {
    "?": 11,
    "a:gcal": 2,
-   "a:stick": 1,
    "input:name": 2,
-   "input:email": 1,
+   "form:filled qa": 1,
+   "form:filled qn": 1,
    "a:Save my free seat": 1,
    "a:Join the free class": 1,
    "a:Reserve a free seat": 1,
@@ -62,8 +62,8 @@
   },
   "funnel_30d": {
    "paid": 0,
-   "engaged": 27,
-   "visitors": 41,
+   "engaged": 29,
+   "visitors": 43,
    "signed_up": 4,
    "opened_join": 0
   },
@@ -72,7 +72,7 @@
   "signups_7d": 3,
   "devices_30d": {
    "?": 6,
-   "mobile": 14,
+   "mobile": 16,
    "tablet": 1,
    "desktop": 20
   },
@@ -93,29 +93,60 @@
    "2026-11-16": 1,
    "2026-11-17": 2,
    "2026-11-18": 5,
-   "2026-11-19": 2
+   "2026-11-19": 5
   },
-  "all_views_7d": 1658,
-  "bot_views_7d": 1640,
+  "all_views_7d": 1609,
+  "bot_views_7d": 1587,
   "browsers_30d": {
    "?": 6,
    "Edge": 1,
-   "Chrome": 27,
-   "Safari": 7
+   "Chrome": 28,
+   "Safari": 8
   },
-  "generated_at": "2026-11-20T00:43:57.979325+00:00",
+  "generated_at": "2026-11-20T01:23:54.191597+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
-   "page:/": 8,
-   "page:/get-quotes/": 1
+   "page:/": 9,
+   "page:/get-quotes/": 1,
+   "page:/roofers/st-louis-mo/": 1
   },
   "countries_30d": {
    "?": 8,
    "Canada": 2,
-   "United States": 31
+   "United States": 33
   },
   "recent_visits": [
+   {
+    "t": "2026-11-20T01:10:35.709381+00:00",
+    "dev": "mobile",
+    "src": "bedrock-direct",
+    "land": "/roofing",
+    "secs": 21,
+    "pages": 1,
+    "place": "Pagedale, Missouri",
+    "scroll": 100
+   },
+   {
+    "t": "2026-11-20T01:09:34.241923+00:00",
+    "dev": "mobile",
+    "src": "bedrock-google",
+    "land": "/roofing",
+    "secs": 23,
+    "pages": 2,
+    "place": "Pagedale, Missouri",
+    "scroll": 85
+   },
+   {
+    "t": "2026-11-20T01:05:47.542332+00:00",
+    "dev": "desktop",
+    "src": "bedrock-direct",
+    "land": "/roofing",
+    "secs": 334,
+    "pages": 1,
+    "place": "Indianapolis, Indiana",
+    "scroll": 28
+   },
    {
     "t": "2026-11-19T13:12:11.834849+00:00",
     "dev": "mobile",
@@ -235,52 +266,22 @@
     "pages": 0,
     "place": "",
     "scroll": 12
-   },
-   {
-    "t": "2026-11-16T03:30:02.265088+00:00",
-    "dev": null,
-    "src": "direct",
-    "land": null,
-    "secs": 15,
-    "pages": 0,
-    "place": "",
-    "scroll": 12
-   },
-   {
-    "t": "2026-11-16T03:29:24.054479+00:00",
-    "dev": null,
-    "src": "direct",
-    "land": null,
-    "secs": 18,
-    "pages": 0,
-    "place": "",
-    "scroll": 29
-   },
-   {
-    "t": "2026-11-16T03:29:19.577943+00:00",
-    "dev": "mobile",
-    "src": "bedrock-direct",
-    "land": "/roofing",
-    "secs": 15,
-    "pages": 1,
-    "place": "Philadelphia, Pennsylvania",
-    "scroll": 12
    }
   ],
   "referrers_30d": {
-   "(none)": 23,
-   "google.com": 13,
+   "(none)": 24,
+   "google.com": 14,
    "facebook.com": 4,
    "pinterest.com": 1
   },
   "roofing_total": 0,
   "signups_total": 4,
-  "avg_scroll_30d": 57,
-  "bounce_pct_30d": 63,
+  "avg_scroll_30d": 58,
+  "bounce_pct_30d": 61,
   "messages_total": 0,
   "real_pages_30d": {
    "/": 30,
-   "/roofing": 13
+   "/roofing": 17
   },
   "recent_signups": [
    {
@@ -327,26 +328,27 @@
    "Thursday, 7:00 PM": 1,
    "Saturday, 10:00 AM": 1
   },
-  "avg_time_sec_30d": 60,
-  "new_visitors_30d": 33,
-  "real_sessions_7d": 19,
+  "avg_time_sec_30d": 64,
+  "new_visitors_30d": 35,
+  "real_sessions_7d": 22,
   "real_sources_30d": {
    "direct": 14,
    "google": 13,
    "facebook": 4,
    "pinterest": 1,
    "chatgpt.com": 1,
-   "bedrock-direct": 7,
+   "bedrock-direct": 8,
+   "bedrock-google": 1,
    "bedrock-youtube": 1
   },
-  "real_visitors_1d": 3,
-  "real_visitors_7d": 18,
+  "real_visitors_1d": 6,
+  "real_visitors_7d": 20,
   "landing_pages_30d": {
    "/": 25,
    "?": 6,
-   "/roofing": 12
+   "/roofing": 15
   },
-  "real_visitors_30d": 41,
+  "real_visitors_30d": 43,
   "signups_by_source": {
    "direct": 1,
    "pinterest": 1,
@@ -354,14 +356,14 @@
    "ref:com.google.android.googlequicksearchbox": 1
   },
   "messages_unanswered": 0,
-  "real_visitors_total": 41,
+  "real_visitors_total": 43,
   "test_members_excluded": 1,
   "test_signups_excluded": 2,
-  "returning_visitors_30d": 10,
-  "roofing_real_visitors_7d": 9
+  "returning_visitors_30d": 11,
+  "roofing_real_visitors_7d": 11
  },
  "youtube": {
-  "total_views": 9185,
+  "total_views": 9186,
   "videos": 41,
   "likes": 7,
   "top": [
@@ -541,7 +543,7 @@
     "id": "m0W4dx-Yyq4",
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://youtube.com/shorts/m0W4dx-Yyq4",
-    "views": 17,
+    "views": 18,
     "published": "2026-11-17",
     "exact": true
    },
@@ -866,18 +868,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-20T00:43:57.289277Z"
+  "checked_at": "2026-11-20T01:23:53.486805Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9185 views"
+   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9186 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "18 real people this week; 1640 of 1658 page views were bots, crawlers or testing and are excluded"
+   "detail": "20 real people this week; 1587 of 1609 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -892,12 +894,12 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Footy",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Ovoa",
@@ -907,12 +909,12 @@
   {
    "name": "Robotics",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
@@ -922,7 +924,7 @@
  ],
  "posting": {
   "date": "2026-11-19",
-  "now_et": "7:44 PM",
+  "now_et": "8:24 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1133,7 +1135,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/m0W4dx-Yyq4",
-      "views": 17
+      "views": 18
      },
      {
       "p": "facebook",
@@ -1412,5 +1414,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-20T00:43:57.289277Z"
+ "checked_at": "2026-11-20T01:23:53.486805Z"
 }
