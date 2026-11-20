@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T12:28:03.798332Z",
+ "generated_at": "2026-11-20T12:44:16.717777Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -95,15 +95,15 @@
    "2026-11-18": 5,
    "2026-11-19": 5
   },
-  "all_views_7d": 1545,
-  "bot_views_7d": 1523,
+  "all_views_7d": 1542,
+  "bot_views_7d": 1520,
   "browsers_30d": {
    "?": 6,
    "Edge": 1,
    "Chrome": 28,
    "Safari": 8
   },
-  "generated_at": "2026-11-20T12:28:04.082383+00:00",
+  "generated_at": "2026-11-20T12:44:16.90716+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -397,7 +397,7 @@
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://www.youtube.com/shorts/m0W4dx-Yyq4",
     "published": "2026-11-17T12:41:33+00:00",
-    "views": 25,
+    "views": 26,
     "likes": 0
    },
    {
@@ -434,7 +434,7 @@
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://www.youtube.com/shorts/m0W4dx-Yyq4",
     "published": "2026-11-17T12:41:33+00:00",
-    "views": 25,
+    "views": 26,
     "likes": 0
    },
    {
@@ -868,7 +868,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-20T12:28:03.798332Z"
+  "checked_at": "2026-11-20T12:44:16.717777Z"
  },
  "checks": [
   {
@@ -879,7 +879,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "20 real people this week; 1523 of 1545 page views were bots, crawlers or testing and are excluded"
+   "detail": "20 real people this week; 1520 of 1542 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -888,13 +888,13 @@
   },
   {
    "name": "Posting",
-   "ok": true,
+   "ok": false,
    "detail": "YouTube 0/2 planned posts found live on the channel today"
   },
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Footy",
@@ -904,7 +904,7 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Robotics",
@@ -919,18 +919,18 @@
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 4h ago"
   }
  ],
  "posting": {
   "date": "2026-11-20",
-  "now_et": "7:28 AM",
+  "now_et": "7:44 AM",
   "today": {
    "youtube": {
     "planned": 2,
     "done": 0,
     "verified": true,
-    "overdue": 0,
+    "overdue": 1,
     "items": [
      {
       "title": "Your Social Security number is NOT suspended #Shorts",
@@ -939,7 +939,7 @@
       "slot": "am",
       "done": false,
       "verified": true,
-      "due": false
+      "due": true
      },
      {
       "title": "The $1.99 package fee text is a trap",
@@ -958,7 +958,7 @@
      "slot": "am",
      "done": false,
      "verified": true,
-     "due": false
+     "due": true
     }
    },
    "facebook": {
@@ -974,7 +974,7 @@
       "slot": "am",
       "done": null,
       "verified": false,
-      "due": false
+      "due": true
      },
      {
       "title": "The $1.99 package fee text is a trap",
@@ -993,7 +993,7 @@
      "slot": "am",
      "done": null,
      "verified": false,
-     "due": false
+     "due": true
     }
    },
    "instagram": {
@@ -1009,7 +1009,7 @@
       "slot": "am",
       "done": null,
       "verified": false,
-      "due": false
+      "due": true
      },
      {
       "title": "The $1.99 package fee text is a trap",
@@ -1028,7 +1028,7 @@
      "slot": "am",
      "done": null,
      "verified": false,
-     "due": false
+     "due": true
     }
    }
   },
@@ -1428,5 +1428,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-20T12:28:03.798332Z"
+ "checked_at": "2026-11-20T12:44:16.717777Z"
 }
