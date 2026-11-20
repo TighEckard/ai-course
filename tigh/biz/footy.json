@@ -1,6 +1,6 @@
 {
  "name": "Footy",
- "updated": "2026-11-20T01:23:39Z",
+ "updated": "2026-11-20T02:30:00Z",
  "notes": "Footy. Firebase, Play and Cloudflare read live this run. iOS downloads/Plus subs/revenue are n/a, needs login (App Store Connect sign-in failed).",
  "headline": [
   {
@@ -11,7 +11,7 @@
   {
    "label": "Android installs (active)",
    "value": 2,
-   "sub": "Play installs, live Nov 20"
+   "sub": "Play installed audience, latest data Nov 17"
   },
   {
    "label": "joinfooty.com visits",
