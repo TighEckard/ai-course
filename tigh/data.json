@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T10:28:09.516813Z",
+ "generated_at": "2026-11-20T11:23:09.335769Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -95,15 +95,15 @@
    "2026-11-18": 5,
    "2026-11-19": 5
   },
-  "all_views_7d": 1561,
-  "bot_views_7d": 1539,
+  "all_views_7d": 1553,
+  "bot_views_7d": 1531,
   "browsers_30d": {
    "?": 6,
    "Edge": 1,
    "Chrome": 28,
    "Safari": 8
   },
-  "generated_at": "2026-11-20T10:28:09.753945+00:00",
+  "generated_at": "2026-11-20T11:23:09.835306+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -363,7 +363,7 @@
   "roofing_real_visitors_7d": 11
  },
  "youtube": {
-  "total_views": 9194,
+  "total_views": 9193,
   "videos": 41,
   "likes": 7,
   "top": [
@@ -397,7 +397,7 @@
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://www.youtube.com/shorts/m0W4dx-Yyq4",
     "published": "2026-11-17T12:41:33+00:00",
-    "views": 24,
+    "views": 25,
     "likes": 0
    },
    {
@@ -434,7 +434,7 @@
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://www.youtube.com/shorts/m0W4dx-Yyq4",
     "published": "2026-11-17T12:41:33+00:00",
-    "views": 24,
+    "views": 25,
     "likes": 0
    },
    {
@@ -543,7 +543,7 @@
     "id": "m0W4dx-Yyq4",
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://youtube.com/shorts/m0W4dx-Yyq4",
-    "views": 25,
+    "views": 24,
     "published": "2026-11-17",
     "exact": true
    },
@@ -868,18 +868,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-20T10:28:09.516813Z"
+  "checked_at": "2026-11-20T11:23:09.335769Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9194 views"
+   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9193 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "20 real people this week; 1539 of 1561 page views were bots, crawlers or testing and are excluded"
+   "detail": "20 real people this week; 1531 of 1553 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -894,37 +894,37 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Footy",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Robotics",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   }
  ],
  "posting": {
   "date": "2026-11-20",
-  "now_et": "5:28 AM",
+  "now_et": "6:23 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1181,7 +1181,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/m0W4dx-Yyq4",
-      "views": 25
+      "views": 24
      },
      {
       "p": "facebook",
@@ -1428,5 +1428,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-20T10:28:09.516813Z"
+ "checked_at": "2026-11-20T11:23:09.335769Z"
 }
