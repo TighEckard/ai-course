@@ -1,11 +1,11 @@
 {
  "name": "Study creators",
- "updated": "2026-11-20T00:06:08Z",
+ "updated": "2026-11-20T09:06:35Z",
  "notes": "Study-creator emails go out from Ovoa inboxes. Counts come from the Sender lead list tagged riside. Creator pipeline list has 21 creators.",
  "headline": [
   {
    "label": "Study leads loaded",
-   "value": 70
+   "value": 4630
   },
   {
    "label": "Emailed",
@@ -13,7 +13,7 @@
   },
   {
    "label": "Still queued",
-   "value": 0
+   "value": 4560
   },
   {
    "label": "Cofounder pipeline",
@@ -27,7 +27,7 @@
    "tiles": [
     {
      "label": "Loaded",
-     "value": 70
+     "value": 4630
     },
     {
      "label": "Sent",
@@ -35,7 +35,7 @@
     },
     {
      "label": "Queued",
-     "value": 0
+     "value": 4560
     },
     {
      "label": "Daily target",
@@ -45,7 +45,7 @@
    "funnel": [
     {
      "label": "Loaded",
-     "value": 70
+     "value": 4630
     },
     {
      "label": "Emailed",
