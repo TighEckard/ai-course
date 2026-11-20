@@ -1,6 +1,6 @@
 {
  "name": "Footy",
- "updated": "2026-11-20T00:00:00Z",
+ "updated": "2026-11-20T01:23:39Z",
  "notes": "Footy. Firebase, Play and Cloudflare read live this run. iOS downloads/Plus subs/revenue are n/a, needs login (App Store Connect sign-in failed).",
  "headline": [
   {
