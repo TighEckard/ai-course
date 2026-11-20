@@ -1,0 +1,38 @@
+{
+ "videos": [
+  {
+   "id": "netflix34a",
+   "file": "netflix34a.mp4",
+   "format": "slang v2 scam sting",
+   "look": "grandma-bubble",
+   "slot": "am",
+   "platforms": [
+    "yt",
+    "meta"
+   ],
+   "yt_title": "Your Netflix is on hold? Don't tap it #Shorts",
+   "caption_yt": "Netflix never texts you a link. Send this to someone who streams a lot. First class free at riside.com #Shorts #scam",
+   "caption_meta": "Netflix never texts you a link. Send this to someone who streams a lot. First class free at riside.com",
+   "pinned_comment": "Free live AI class, first one free: https://riside.com/?src=yt_netflix34a",
+   "link": "https://riside.com/?src=yt_netflix34a",
+   "board": "Riside"
+  },
+  {
+   "id": "lockpc34b",
+   "file": "lockpc34b.mp4",
+   "format": "slang v2 scam sting",
+   "look": "grandma-bubble",
+   "slot": "pm",
+   "platforms": [
+    "yt",
+    "meta"
+   ],
+   "yt_title": "Computer locked, call this number? It's a scam",
+   "caption_yt": "Real warnings never ask you to call. Send this to someone who uses a computer. First class free at riside.com #Shorts #scam",
+   "caption_meta": "Real warnings never ask you to call. Send this to someone who uses a computer. First class free at riside.com",
+   "pinned_comment": "Free live AI class, first one free: https://riside.com/?src=yt_lockpc34b",
+   "link": "https://riside.com/?src=yt_lockpc34b",
+   "board": "Riside"
+  }
+ ]
+}
