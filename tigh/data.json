@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T16:03:10.398771Z",
+ "generated_at": "2026-11-21T16:23:55.505028Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -8,7 +8,7 @@
    "Linux": 2,
    "macOS": 1,
    "Android": 5,
-   "Windows": 23,
+   "Windows": 30,
    "ChromeOS": 1
   },
   "real_rule": "real = scrolled 25%+, stayed 10s+, clicked or signed up; bots, crawlers, testing and the owner removed",
@@ -23,6 +23,7 @@
    "08": 3,
    "09": 11,
    "10": 4,
+   "11": 8,
    "13": 2,
    "14": 1,
    "15": 2,
@@ -38,10 +39,10 @@
    "": 8,
    "Houston, Texas": 1,
    "Miami, Florida": 3,
+   "Phoenix, Arizona": 4,
    "Pagedale, Missouri": 2,
-   "Quincy, Washington": 2,
-   "Chase City, Virginia": 2,
-   "Milford, Connecticut": 1,
+   "Quincy, Washington": 4,
+   "Chase City, Virginia": 4,
    "Nashville, Tennessee": 2,
    "San Jose, California": 3,
    "Indianapolis, Indiana": 3,
@@ -63,7 +64,7 @@
   "funnel_30d": {
    "paid": 0,
    "engaged": 30,
-   "visitors": 50,
+   "visitors": 57,
    "signed_up": 4,
    "opened_join": 0
   },
@@ -74,7 +75,7 @@
    "?": 6,
    "mobile": 16,
    "tablet": 1,
-   "desktop": 27
+   "desktop": 34
   },
   "messages_7d": 0,
   "real_by_day": {
@@ -94,17 +95,18 @@
    "2026-11-17": 2,
    "2026-11-18": 5,
    "2026-11-19": 5,
-   "2026-11-20": 7
+   "2026-11-20": 7,
+   "2026-11-21": 7
   },
-  "all_views_7d": 1158,
+  "all_views_7d": 1166,
   "bot_views_7d": 1133,
   "browsers_30d": {
    "?": 6,
    "Edge": 1,
-   "Chrome": 35,
+   "Chrome": 42,
    "Safari": 8
   },
-  "generated_at": "2026-11-21T16:03:10.883932+00:00",
+  "generated_at": "2026-11-21T16:23:56.084196+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -116,9 +118,89 @@
   "countries_30d": {
    "?": 8,
    "Canada": 2,
-   "United States": 40
+   "United States": 47
   },
   "recent_visits": [
+   {
+    "t": "2026-11-21T16:13:33.022783+00:00",
+    "dev": "desktop",
+    "src": "g1-a",
+    "land": "/",
+    "secs": 4,
+    "pages": 1,
+    "place": "Phoenix, Arizona",
+    "scroll": 38
+   },
+   {
+    "t": "2026-11-21T16:12:32.589698+00:00",
+    "dev": "desktop",
+    "src": "t5-c-yvafybat-446",
+    "land": "/",
+    "secs": 5,
+    "pages": 1,
+    "place": "Quincy, Washington",
+    "scroll": 38
+   },
+   {
+    "t": "2026-11-21T16:12:32.589697+00:00",
+    "dev": "desktop",
+    "src": "t5-c-yvafybat-yy6",
+    "land": "/",
+    "secs": 5,
+    "pages": 1,
+    "place": "Quincy, Washington",
+    "scroll": 38
+   },
+   {
+    "t": "2026-11-21T16:08:36.83333+00:00",
+    "dev": "desktop",
+    "src": "g1-a",
+    "land": "/",
+    "secs": 4,
+    "pages": 1,
+    "place": "Quincy, Washington",
+    "scroll": 38
+   },
+   {
+    "t": "2026-11-21T16:07:55.98049+00:00",
+    "dev": "desktop",
+    "src": "g1-c",
+    "land": "/",
+    "secs": 4,
+    "pages": 1,
+    "place": "Chase City, Virginia",
+    "scroll": 38
+   },
+   {
+    "t": "2026-11-21T16:07:52.646838+00:00",
+    "dev": "desktop",
+    "src": "g1-c",
+    "land": "/",
+    "secs": 5,
+    "pages": 1,
+    "place": "Chase City, Virginia",
+    "scroll": 38
+   },
+   {
+    "t": "2026-11-21T16:07:51.692459+00:00",
+    "dev": "desktop",
+    "src": "g1-b",
+    "land": "/",
+    "secs": 5,
+    "pages": 1,
+    "place": "Phoenix, Arizona",
+    "scroll": 38
+   },
+   {
+    "t": "2026-11-21T16:07:50.808356+00:00",
+    "dev": "desktop",
+    "src": "g1-b",
+    "land": "/",
+    "secs": 5,
+    "pages": 1,
+    "place": "Phoenix, Arizona",
+    "scroll": 38
+   },
    {
     "t": "2026-11-20T14:46:31.263149+00:00",
     "dev": "desktop",
@@ -132,7 +214,7 @@
    {
     "t": "2026-11-20T14:41:55.022575+00:00",
     "dev": "desktop",
-    "src": "direct",
+    "src": "g2-p-lifelong-ll3",
     "land": "/",
     "secs": 1,
     "pages": 1,
@@ -188,101 +270,21 @@
     "pages": 1,
     "place": "Indianapolis, Indiana",
     "scroll": 18
-   },
-   {
-    "t": "2026-11-20T01:10:35.709381+00:00",
-    "dev": "mobile",
-    "src": "bedrock-direct",
-    "land": "/roofing",
-    "secs": 21,
-    "pages": 1,
-    "place": "Pagedale, Missouri",
-    "scroll": 100
-   },
-   {
-    "t": "2026-11-20T01:09:34.241923+00:00",
-    "dev": "mobile",
-    "src": "bedrock-google",
-    "land": "/roofing",
-    "secs": 23,
-    "pages": 2,
-    "place": "Pagedale, Missouri",
-    "scroll": 85
-   },
-   {
-    "t": "2026-11-20T01:05:47.542332+00:00",
-    "dev": "desktop",
-    "src": "bedrock-direct",
-    "land": "/roofing",
-    "secs": 334,
-    "pages": 1,
-    "place": "Indianapolis, Indiana",
-    "scroll": 28
-   },
-   {
-    "t": "2026-11-19T13:12:11.834849+00:00",
-    "dev": "mobile",
-    "src": "bedrock-direct",
-    "land": "/roofing",
-    "secs": 89,
-    "pages": 1,
-    "place": "Philadelphia, Pennsylvania",
-    "scroll": 11
-   },
-   {
-    "t": "2026-11-19T12:25:15.956998+00:00",
-    "dev": "mobile",
-    "src": "direct",
-    "land": "/roofing",
-    "secs": 0,
-    "pages": 1,
-    "place": "",
-    "scroll": 0
-   },
-   {
-    "t": "2026-11-19T02:25:19.256676+00:00",
-    "dev": "desktop",
-    "src": "bedrock-direct",
-    "land": "/roofing",
-    "secs": 13,
-    "pages": 1,
-    "place": "San Jose, California",
-    "scroll": 26
-   },
-   {
-    "t": "2026-11-18T20:42:45.989771+00:00",
-    "dev": "desktop",
-    "src": "bedrock-direct",
-    "land": "/roofing",
-    "secs": 10,
-    "pages": 1,
-    "place": "",
-    "scroll": 20
-   },
-   {
-    "t": "2026-11-18T15:47:55.545497+00:00",
-    "dev": "desktop",
-    "src": "google",
-    "land": "/",
-    "secs": 16,
-    "pages": 1,
-    "place": "Southwest Arapahoe, Colorado",
-    "scroll": 28
    }
   ],
   "referrers_30d": {
-   "(none)": 31,
+   "(none)": 38,
    "google.com": 14,
    "facebook.com": 4,
    "pinterest.com": 1
   },
   "roofing_total": 0,
   "signups_total": 4,
-  "avg_scroll_30d": 55,
-  "bounce_pct_30d": 66,
+  "avg_scroll_30d": 53,
+  "bounce_pct_30d": 70,
   "messages_total": 0,
   "real_pages_30d": {
-   "/": 36,
+   "/": 44,
    "/roofing": 18
   },
   "recent_signups": [
@@ -330,13 +332,14 @@
    "Thursday, 7:00 PM": 1,
    "Saturday, 10:00 AM": 1
   },
-  "avg_time_sec_30d": 57,
-  "new_visitors_30d": 42,
-  "real_sessions_7d": 27,
+  "avg_time_sec_30d": 50,
+  "new_visitors_30d": 49,
+  "real_sessions_7d": 35,
   "real_sources_30d": {
-   "g1-a": 2,
-   "g1-c": 1,
-   "direct": 15,
+   "g1-a": 4,
+   "g1-b": 2,
+   "g1-c": 3,
+   "direct": 14,
    "google": 13,
    "facebook": 4,
    "pinterest": 1,
@@ -344,17 +347,18 @@
    "bedrock-direct": 9,
    "bedrock-google": 1,
    "bedrock-youtube": 1,
-   "t5-c-yvafybat-446": 1,
-   "t5-c-yvafybat-yy6": 1
+   "g2-p-lifelong-ll3": 1,
+   "t5-c-yvafybat-446": 2,
+   "t5-c-yvafybat-yy6": 2
   },
-  "real_visitors_1d": 0,
-  "real_visitors_7d": 25,
+  "real_visitors_1d": 7,
+  "real_visitors_7d": 32,
   "landing_pages_30d": {
-   "/": 31,
+   "/": 39,
    "?": 6,
    "/roofing": 16
   },
-  "real_visitors_30d": 50,
+  "real_visitors_30d": 57,
   "signups_by_source": {
    "direct": 1,
    "pinterest": 1,
@@ -362,10 +366,10 @@
    "ref:com.google.android.googlequicksearchbox": 1
   },
   "messages_unanswered": 0,
-  "real_visitors_total": 50,
+  "real_visitors_total": 57,
   "test_members_excluded": 1,
   "test_signups_excluded": 2,
-  "returning_visitors_30d": 11,
+  "returning_visitors_30d": 12,
   "roofing_real_visitors_7d": 12
  },
  "youtube": {
@@ -475,7 +479,7 @@
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://www.youtube.com/shorts/QSxj4gj4llM",
     "published": "2026-11-13T23:36:47+00:00",
-    "views": 148,
+    "views": 147,
     "likes": 2
    },
    {
@@ -874,7 +878,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-21T16:03:10.398771Z"
+  "checked_at": "2026-11-21T16:23:55.505028Z"
  },
  "checks": [
   {
@@ -885,7 +889,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "25 real people this week; 1133 of 1158 page views were bots, crawlers or testing and are excluded"
+   "detail": "32 real people this week; 1133 of 1166 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -900,12 +904,12 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Footy",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Ovoa",
@@ -930,7 +934,7 @@
  ],
  "posting": {
   "date": "2026-11-21",
-  "now_et": "11:03 AM",
+  "now_et": "11:24 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1433,5 +1437,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-21T16:03:10.398771Z"
+ "checked_at": "2026-11-21T16:23:55.505028Z"
 }
