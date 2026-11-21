@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T19:05:26.328454Z",
+ "generated_at": "2026-11-21T19:24:34.295311Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -106,7 +106,7 @@
    "Chrome": 42,
    "Safari": 8
   },
-  "generated_at": "2026-11-21T19:05:26.862902+00:00",
+  "generated_at": "2026-11-21T19:24:34.785001+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -878,7 +878,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-21T19:05:26.328454Z"
+  "checked_at": "2026-11-21T19:24:34.295311Z"
  },
  "checks": [
   {
@@ -904,12 +904,12 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Footy",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Ovoa",
@@ -934,7 +934,7 @@
  ],
  "posting": {
   "date": "2026-11-21",
-  "now_et": "2:06 PM",
+  "now_et": "2:25 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1437,5 +1437,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-21T19:05:26.328454Z"
+ "checked_at": "2026-11-21T19:24:34.295311Z"
 }
