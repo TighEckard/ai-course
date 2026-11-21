@@ -1,27 +1,27 @@
 {
  "name": "Footy",
- "updated": "2026-11-21T17:30:00Z",
- "notes": "Footy. All numbers read live this run from the eckartig0 Chrome. iOS Plus subs and revenue: App Store Connect shows Not Enough Data (none yet).",
+ "updated": "2026-11-21T18:22:00Z",
+ "notes": "Footy. n/a, needs login: eckartig0 Chrome was not connected this run, so all numbers are kept from the last read (2026-11-21 17:30 UTC). iOS Plus subs and revenue: none yet as of that read.",
  "headline": [
   {
    "label": "Accounts (Firebase)",
    "value": 3,
-   "sub": "total users"
+   "sub": "total users (n/a, needs login; last read)"
   },
   {
    "label": "iOS downloads",
    "value": 78,
-   "sub": "first-time, last 30 days (App Store Connect)"
+   "sub": "first-time, last 30 days (n/a, needs login; last read)"
   },
   {
    "label": "Android installs",
    "value": 3,
-   "sub": "Play Console installs"
+   "sub": "Play Console installs (n/a, needs login; last read)"
   },
   {
    "label": "joinfooty.com visits",
    "value": 4,
-   "sub": "last 24h (Cloudflare)"
+   "sub": "last 24h (n/a, needs login; last read)"
   }
  ],
  "sections": [
@@ -31,12 +31,12 @@
     {
      "label": "iOS",
      "value": "Live",
-     "sub": "v1.2.1; 78 first-time downloads, 9 redownloads (30d); Plus subs and revenue: none yet"
+     "sub": "v1.2.1; 78 first-time downloads, 9 redownloads (30d); Plus subs and revenue: none yet (n/a, needs login; last read)"
     },
     {
      "label": "Android",
      "value": "Live",
-     "sub": "v1.1.0 on Google Play; 3 installs"
+     "sub": "v1.1.0 on Google Play; 3 installs (n/a, needs login; last read)"
     }
    ]
   },
@@ -46,12 +46,12 @@
     {
      "label": "Page views, 24h",
      "value": 4,
-     "sub": "Cloudflare Web Analytics"
+     "sub": "Cloudflare Web Analytics (n/a, needs login; last read)"
     },
     {
      "label": "Visits, 24h",
      "value": 4,
-     "sub": "Cloudflare Web Analytics"
+     "sub": "Cloudflare Web Analytics (n/a, needs login; last read)"
     }
    ]
   },
@@ -61,7 +61,7 @@
     {
      "label": "Firebase users",
      "value": 3,
-     "sub": "Firebase Auth"
+     "sub": "Firebase Auth (n/a, needs login; last read)"
     }
    ]
   }
