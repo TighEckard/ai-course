@@ -1,14 +1,13 @@
 {
  "name": "Ovoa",
- "updated": "2026-11-21T03:06:25Z",
- "notes": "Cold email via the Sender. Replies are unique senders and subjects in the Sender inbox. PC was offline at 03:06 UTC, so numbers are from the last successful refresh.",
+ "updated": "2026-11-21T06:06:15Z",
+ "notes": "Cold email via the Sender. Replies are unique senders and subjects in the Sender inbox.",
  "headline": [
   {
    "label": "Creator emails sent",
    "value": 2273,
-   "sub": "30 today, 56 in 7d",
+   "sub": "0 today, 39 in 7d",
    "trend": [
-    0,
     24,
     21,
     0,
@@ -21,7 +20,8 @@
     4,
     0,
     1,
-    30
+    30,
+    0
    ]
   },
   {
@@ -45,7 +45,7 @@
     },
     {
      "label": "Sent last 7 days",
-     "value": 56
+     "value": 39
     },
     {
      "label": "Sender status",
@@ -56,7 +56,6 @@
     {
      "title": "Emails sent per day",
      "data": {
-      "2026-10-22": 21,
       "2026-10-23": 9,
       "2026-10-24": 5,
       "2026-10-25": 3,
@@ -85,7 +84,8 @@
       "2026-11-17": 4,
       "2026-11-18": 0,
       "2026-11-19": 1,
-      "2026-11-20": 30
+      "2026-11-20": 30,
+      "2026-11-21": 0
      },
      "days": 30
     }
