@@ -1,7 +1,7 @@
 {
  "name": "Footy",
- "updated": "2026-11-21T12:00:00Z",
- "notes": "Footy. n/a, needs login: the eckartig0 Chrome was not connected this run (only a different Google account's Chrome was), so Firebase, Play, Cloudflare and App Store Connect numbers are old values kept from the last read.",
+ "updated": "2026-11-21T10:22:23Z",
+ "notes": "Footy. n/a, needs login: the eckartig0 Chrome was not connected this run (only two other Chromes were), so Firebase, Play, Cloudflare and App Store Connect numbers are old values kept from the last read.",
  "headline": [
   {
    "label": "Accounts (Firebase)",
