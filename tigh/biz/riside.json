@@ -1,6 +1,6 @@
 {
  "name": "Riside",
- "updated": "2026-11-21T15:43:52.884181Z",
+ "updated": "2026-11-21T16:03:10.398771Z",
  "notes": "Written by the dashboard job (every 3 hours). Search Console clicks are not available (needs a Google login). Facebook, Instagram and Pinterest follower/view numbers need the PC collector.",
  "headline": [
   {
@@ -15,7 +15,7 @@
   },
   {
    "label": "Real visitors (7d)",
-   "value": 26,
+   "value": 25,
    "sub": "0 today, 50 in 30d"
   },
   {
@@ -43,7 +43,7 @@
     },
     {
      "label": "Real visitors 7d",
-     "value": 26
+     "value": 25
     },
     {
      "label": "Real visitors all time",
