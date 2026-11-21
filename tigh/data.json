@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T12:28:05.873393Z",
+ "generated_at": "2026-11-21T12:44:28.995731Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -104,7 +104,7 @@
    "Chrome": 35,
    "Safari": 8
   },
-  "generated_at": "2026-11-21T12:28:06.151586+00:00",
+  "generated_at": "2026-11-21T12:44:29.524132+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -875,7 +875,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-21T12:28:05.873393Z"
+  "checked_at": "2026-11-21T12:44:28.995731Z"
  },
  "checks": [
   {
@@ -895,13 +895,13 @@
   },
   {
    "name": "Posting",
-   "ok": true,
+   "ok": false,
    "detail": "YouTube 0/2 planned posts found live on the channel today"
   },
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Footy",
@@ -911,7 +911,7 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Robotics",
@@ -926,18 +926,18 @@
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 6h ago"
+   "detail": "numbers last refreshed 7h ago"
   }
  ],
  "posting": {
   "date": "2026-11-21",
-  "now_et": "7:28 AM",
+  "now_et": "7:45 AM",
   "today": {
    "youtube": {
     "planned": 2,
     "done": 0,
     "verified": true,
-    "overdue": 0,
+    "overdue": 1,
     "items": [
      {
       "title": "Your grandson is in the hospital? Hang up #Shorts",
@@ -946,7 +946,7 @@
       "slot": "am",
       "done": false,
       "verified": true,
-      "due": false
+      "due": true
      },
      {
       "title": "A free gift card that needs your bank login",
@@ -965,7 +965,7 @@
      "slot": "am",
      "done": false,
      "verified": true,
-     "due": false
+     "due": true
     }
    },
    "facebook": {
@@ -981,7 +981,7 @@
       "slot": "am",
       "done": null,
       "verified": false,
-      "due": false
+      "due": true
      },
      {
       "title": "A free gift card that needs your bank login",
@@ -1000,7 +1000,7 @@
      "slot": "am",
      "done": null,
      "verified": false,
-     "due": false
+     "due": true
     }
    },
    "instagram": {
@@ -1016,7 +1016,7 @@
       "slot": "am",
       "done": null,
       "verified": false,
-      "due": false
+      "due": true
      },
      {
       "title": "A free gift card that needs your bank login",
@@ -1035,7 +1035,7 @@
      "slot": "am",
      "done": null,
      "verified": false,
-     "due": false
+     "due": true
     }
    }
   },
@@ -1434,5 +1434,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-21T12:28:05.873393Z"
+ "checked_at": "2026-11-21T12:44:28.995731Z"
 }
