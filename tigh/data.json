@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T01:27:57.009734Z",
+ "generated_at": "2026-11-21T02:06:57.932974Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -96,15 +96,15 @@
    "2026-11-19": 5,
    "2026-11-20": 7
   },
-  "all_views_7d": 1143,
-  "bot_views_7d": 1114,
+  "all_views_7d": 1141,
+  "bot_views_7d": 1112,
   "browsers_30d": {
    "?": 6,
    "Edge": 1,
    "Chrome": 35,
    "Safari": 8
   },
-  "generated_at": "2026-11-21T01:27:57.665542+00:00",
+  "generated_at": "2026-11-21T02:06:58.739081+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -874,7 +874,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-21T01:27:57.009734Z"
+  "checked_at": "2026-11-21T02:06:57.932974Z"
  },
  "checks": [
   {
@@ -885,7 +885,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "27 real people this week; 1114 of 1143 page views were bots, crawlers or testing and are excluded"
+   "detail": "27 real people this week; 1112 of 1141 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -905,32 +905,32 @@
   {
    "name": "Footy",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Robotics",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 3h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 4h ago"
+   "detail": "numbers last refreshed 5h ago"
   }
  ],
  "posting": {
   "date": "2026-11-20",
-  "now_et": "8:28 PM",
+  "now_et": "9:07 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1434,5 +1434,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-21T01:27:57.009734Z"
+ "checked_at": "2026-11-21T02:06:57.932974Z"
 }
