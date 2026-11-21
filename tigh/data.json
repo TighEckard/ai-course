@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T17:24:21.233092Z",
+ "generated_at": "2026-11-21T17:28:12.909202Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -106,7 +106,7 @@
    "Chrome": 42,
    "Safari": 8
   },
-  "generated_at": "2026-11-21T17:24:21.667746+00:00",
+  "generated_at": "2026-11-21T17:28:13.511753+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -373,7 +373,7 @@
   "roofing_real_visitors_7d": 12
  },
  "youtube": {
-  "total_views": 9199,
+  "total_views": 9200,
   "videos": 41,
   "likes": 7,
   "top": [
@@ -593,7 +593,7 @@
     "id": "QSxj4gj4llM",
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://youtube.com/shorts/QSxj4gj4llM",
-    "views": 147,
+    "views": 148,
     "published": "2026-11-13",
     "exact": true
    },
@@ -878,13 +878,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-21T17:24:21.233092Z"
+  "checked_at": "2026-11-21T17:28:12.909202Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9199 views"
+   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9200 views"
   },
   {
    "name": "Website visitors",
@@ -924,7 +924,7 @@
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Study creators",
@@ -934,7 +934,7 @@
  ],
  "posting": {
   "date": "2026-11-21",
-  "now_et": "12:24 PM",
+  "now_et": "12:28 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1437,5 +1437,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-21T17:24:21.233092Z"
+ "checked_at": "2026-11-21T17:28:12.909202Z"
 }
