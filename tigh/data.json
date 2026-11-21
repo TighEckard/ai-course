@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T10:21:47.582959Z",
+ "generated_at": "2026-11-21T10:22:38.894335Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -104,7 +104,7 @@
    "Chrome": 35,
    "Safari": 8
   },
-  "generated_at": "2026-11-21T10:21:48.186978+00:00",
+  "generated_at": "2026-11-21T10:22:39.195198+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -874,7 +874,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-21T10:21:47.582959Z"
+  "checked_at": "2026-11-21T10:22:38.894335Z"
  },
  "checks": [
   {
@@ -930,7 +930,7 @@
  ],
  "posting": {
   "date": "2026-11-21",
-  "now_et": "5:22 AM",
+  "now_et": "5:23 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1433,5 +1433,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-21T10:21:47.582959Z"
+ "checked_at": "2026-11-21T10:22:38.894335Z"
 }
