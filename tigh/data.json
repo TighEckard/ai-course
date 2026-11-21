@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T03:29:07.031188Z",
+ "generated_at": "2026-11-21T03:44:26.426260Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -96,15 +96,15 @@
    "2026-11-19": 5,
    "2026-11-20": 7
   },
-  "all_views_7d": 1138,
-  "bot_views_7d": 1109,
+  "all_views_7d": 1136,
+  "bot_views_7d": 1107,
   "browsers_30d": {
    "?": 6,
    "Edge": 1,
    "Chrome": 35,
    "Safari": 8
   },
-  "generated_at": "2026-11-21T03:29:07.527062+00:00",
+  "generated_at": "2026-11-21T03:44:27.217837+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -874,7 +874,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-21T03:29:07.031188Z"
+  "checked_at": "2026-11-21T03:44:26.426260Z"
  },
  "checks": [
   {
@@ -885,7 +885,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "27 real people this week; 1109 of 1138 page views were bots, crawlers or testing and are excluded"
+   "detail": "27 real people this week; 1107 of 1136 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -900,7 +900,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Footy",
@@ -910,7 +910,7 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Robotics",
@@ -925,18 +925,18 @@
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 6h ago"
+   "detail": "numbers last refreshed 7h ago"
   }
  ],
  "posting": {
   "date": "2026-11-20",
-  "now_et": "10:29 PM",
+  "now_et": "10:44 PM",
   "today": {
    "youtube": {
     "planned": 2,
     "done": 0,
     "verified": true,
-    "overdue": 1,
+    "overdue": 2,
     "items": [
      {
       "title": "Your Social Security number is NOT suspended #Shorts",
@@ -954,7 +954,7 @@
       "slot": "pm",
       "done": false,
       "verified": true,
-      "due": false
+      "due": true
      }
     ],
     "next": {
@@ -989,7 +989,7 @@
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": false
+      "due": true
      }
     ],
     "next": {
@@ -1024,7 +1024,7 @@
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": false
+      "due": true
      }
     ],
     "next": {
@@ -1434,5 +1434,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-21T03:29:07.031188Z"
+ "checked_at": "2026-11-21T03:44:26.426260Z"
 }
