@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T16:28:10.510986Z",
+ "generated_at": "2026-11-21T17:24:21.233092Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -98,15 +98,15 @@
    "2026-11-20": 7,
    "2026-11-21": 7
   },
-  "all_views_7d": 1166,
-  "bot_views_7d": 1133,
+  "all_views_7d": 1170,
+  "bot_views_7d": 1137,
   "browsers_30d": {
    "?": 6,
    "Edge": 1,
    "Chrome": 42,
    "Safari": 8
   },
-  "generated_at": "2026-11-21T16:28:10.726846+00:00",
+  "generated_at": "2026-11-21T17:24:21.667746+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -373,7 +373,7 @@
   "roofing_real_visitors_7d": 12
  },
  "youtube": {
-  "total_views": 9200,
+  "total_views": 9199,
   "videos": 41,
   "likes": 7,
   "top": [
@@ -593,7 +593,7 @@
     "id": "QSxj4gj4llM",
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://youtube.com/shorts/QSxj4gj4llM",
-    "views": 148,
+    "views": 147,
     "published": "2026-11-13",
     "exact": true
    },
@@ -878,18 +878,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-21T16:28:10.510986Z"
+  "checked_at": "2026-11-21T17:24:21.233092Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9200 views"
+   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9199 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "32 real people this week; 1133 of 1166 page views were bots, crawlers or testing and are excluded"
+   "detail": "32 real people this week; 1137 of 1170 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -904,7 +904,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Footy",
@@ -914,27 +914,27 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Robotics",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 10h ago"
+   "detail": "numbers last refreshed 11h ago"
   }
  ],
  "posting": {
   "date": "2026-11-21",
-  "now_et": "11:28 AM",
+  "now_et": "12:24 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1437,5 +1437,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-21T16:28:10.510986Z"
+ "checked_at": "2026-11-21T17:24:21.233092Z"
 }
