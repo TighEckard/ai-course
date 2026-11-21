@@ -1,6 +1,6 @@
 {
  "name": "Footy",
- "updated": "2026-11-21T16:30:00Z",
+ "updated": "2026-11-21T17:30:00Z",
  "notes": "Footy. All numbers read live this run from the eckartig0 Chrome. iOS Plus subs and revenue: App Store Connect shows Not Enough Data (none yet).",
  "headline": [
   {
@@ -20,7 +20,7 @@
   },
   {
    "label": "joinfooty.com visits",
-   "value": 5,
+   "value": 4,
    "sub": "last 24h (Cloudflare)"
   }
  ],
@@ -45,12 +45,12 @@
    "tiles": [
     {
      "label": "Page views, 24h",
-     "value": 5,
+     "value": 4,
      "sub": "Cloudflare Web Analytics"
     },
     {
      "label": "Visits, 24h",
-     "value": 5,
+     "value": 4,
      "sub": "Cloudflare Web Analytics"
     }
    ]
