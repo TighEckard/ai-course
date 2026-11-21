@@ -1,7 +1,7 @@
 {
  "name": "Footy",
- "updated": "2026-11-21T02:22:19Z",
- "notes": "Footy. n/a, needs login: the eckartig0 Chrome was not connected this run, so Firebase, Play, Cloudflare and App Store Connect numbers are kept from the last successful read.",
+ "updated": "2026-11-21T12:00:00Z",
+ "notes": "Footy. n/a, needs login: the eckartig0 Chrome was not connected this run (only a different Chrome was), so Firebase, Play, Cloudflare and App Store Connect numbers are kept from the last successful read.",
  "headline": [
   {
    "label": "Accounts (Firebase)",
