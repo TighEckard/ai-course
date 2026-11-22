@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T21:06:39.096406Z",
+ "generated_at": "2026-11-22T21:22:20.363603Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -100,7 +100,7 @@
    "2026-11-21": 7,
    "2026-11-22": 2
   },
-  "all_views_7d": 1177,
+  "all_views_7d": 1176,
   "bot_views_7d": 1144,
   "browsers_30d": {
    "?": 7,
@@ -108,7 +108,7 @@
    "Chrome": 43,
    "Safari": 8
   },
-  "generated_at": "2026-11-22T21:06:39.932977+00:00",
+  "generated_at": "2026-11-22T21:22:21.119918+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -336,7 +336,7 @@
   },
   "avg_time_sec_30d": 49,
   "new_visitors_30d": 50,
-  "real_sessions_7d": 36,
+  "real_sessions_7d": 35,
   "real_sources_30d": {
    "g1-a": 4,
    "g1-b": 2,
@@ -354,7 +354,7 @@
    "t5-c-yvafybat-yy6": 2
   },
   "real_visitors_1d": 2,
-  "real_visitors_7d": 33,
+  "real_visitors_7d": 32,
   "landing_pages_30d": {
    "/": 39,
    "?": 7,
@@ -372,10 +372,10 @@
   "test_members_excluded": 1,
   "test_signups_excluded": 2,
   "returning_visitors_30d": 13,
-  "roofing_real_visitors_7d": 13
+  "roofing_real_visitors_7d": 12
  },
  "youtube": {
-  "total_views": 9200,
+  "total_views": 9202,
   "videos": 41,
   "likes": 7,
   "top": [
@@ -409,7 +409,7 @@
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://www.youtube.com/shorts/m0W4dx-Yyq4",
     "published": "2026-11-17T12:41:33+00:00",
-    "views": 28,
+    "views": 29,
     "likes": 0
    },
    {
@@ -446,7 +446,7 @@
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://www.youtube.com/shorts/m0W4dx-Yyq4",
     "published": "2026-11-17T12:41:33+00:00",
-    "views": 28,
+    "views": 29,
     "likes": 0
    },
    {
@@ -555,7 +555,7 @@
     "id": "m0W4dx-Yyq4",
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://youtube.com/shorts/m0W4dx-Yyq4",
-    "views": 28,
+    "views": 29,
     "published": "2026-11-17",
     "exact": true
    },
@@ -563,7 +563,7 @@
     "id": "YQsRiuD4170",
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://youtube.com/shorts/YQsRiuD4170",
-    "views": 29,
+    "views": 30,
     "published": "2026-11-17",
     "exact": true
    },
@@ -880,18 +880,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-22T21:06:39.096406Z"
+  "checked_at": "2026-11-22T21:22:20.363603Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9200 views"
+   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9202 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "33 real people this week; 1144 of 1177 page views were bots, crawlers or testing and are excluded"
+   "detail": "32 real people this week; 1144 of 1176 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -906,12 +906,12 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 3h ago"
   },
   {
    "name": "Footy",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Ovoa",
@@ -921,7 +921,7 @@
   {
    "name": "Robotics",
    "ok": false,
-   "detail": "numbers last refreshed 25h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 26h ago (older than 12h, flagged stale)"
   },
   {
    "name": "Roofing",
@@ -936,7 +936,7 @@
  ],
  "posting": {
   "date": "2026-11-22",
-  "now_et": "4:07 PM",
+  "now_et": "4:22 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1285,7 +1285,7 @@
       "p": "youtube",
       "status": "live",
       "url": "https://youtube.com/shorts/m0W4dx-Yyq4",
-      "views": 28
+      "views": 29
      },
      {
       "p": "facebook",
@@ -1438,5 +1438,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-22T21:06:39.096406Z"
+ "checked_at": "2026-11-22T21:22:20.363603Z"
 }
