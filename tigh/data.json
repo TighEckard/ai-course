@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T03:28:02.506487Z",
+ "generated_at": "2026-11-22T03:44:36.305151Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -106,7 +106,7 @@
    "Chrome": 42,
    "Safari": 8
   },
-  "generated_at": "2026-11-22T03:28:02.995841+00:00",
+  "generated_at": "2026-11-22T03:44:36.991556+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -877,7 +877,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-22T03:28:02.506487Z"
+  "checked_at": "2026-11-22T03:44:36.305151Z"
  },
  "checks": [
   {
@@ -903,7 +903,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Footy",
@@ -913,7 +913,7 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Robotics",
@@ -928,18 +928,18 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 21h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 22h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-21",
-  "now_et": "10:28 PM",
+  "now_et": "10:45 PM",
   "today": {
    "youtube": {
     "planned": 2,
     "done": 0,
     "verified": true,
-    "overdue": 1,
+    "overdue": 2,
     "items": [
      {
       "title": "Your grandson is in the hospital? Hang up #Shorts",
@@ -957,7 +957,7 @@
       "slot": "pm",
       "done": false,
       "verified": true,
-      "due": false
+      "due": true
      }
     ],
     "next": {
@@ -992,7 +992,7 @@
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": false
+      "due": true
      }
     ],
     "next": {
@@ -1027,7 +1027,7 @@
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": false
+      "due": true
      }
     ],
     "next": {
@@ -1436,5 +1436,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-22T03:28:02.506487Z"
+ "checked_at": "2026-11-22T03:44:36.305151Z"
 }
