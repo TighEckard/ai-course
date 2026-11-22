@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T15:06:31.750117Z",
+ "generated_at": "2026-11-22T15:22:06.496019Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -106,7 +106,7 @@
    "Chrome": 42,
    "Safari": 8
   },
-  "generated_at": "2026-11-22T15:06:32.62403+00:00",
+  "generated_at": "2026-11-22T15:22:06.944589+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -878,7 +878,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-22T15:06:31.750117Z"
+  "checked_at": "2026-11-22T15:22:06.496019Z"
  },
  "checks": [
   {
@@ -909,7 +909,7 @@
   {
    "name": "Footy",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Ovoa",
@@ -919,7 +919,7 @@
   {
    "name": "Robotics",
    "ok": false,
-   "detail": "numbers last refreshed 19h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 20h ago (older than 12h, flagged stale)"
   },
   {
    "name": "Roofing",
@@ -934,7 +934,7 @@
  ],
  "posting": {
   "date": "2026-11-22",
-  "now_et": "10:07 AM",
+  "now_et": "10:22 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1436,5 +1436,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-22T15:06:31.750117Z"
+ "checked_at": "2026-11-22T15:22:06.496019Z"
 }
