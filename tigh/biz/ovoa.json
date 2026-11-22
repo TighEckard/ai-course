@@ -1,14 +1,13 @@
 {
  "name": "Ovoa",
- "updated": "2026-11-22T21:06:30Z",
- "notes": "Cold email via the Sender. Replies are unique senders and subjects in the Sender inbox. PC was offline at 21:06 UTC, so numbers are from the last successful refresh.",
+ "updated": "2026-11-22T23:27:57Z",
+ "notes": "Cold email via the Sender. Replies are unique senders and subjects in the Sender inbox.",
  "headline": [
   {
    "label": "Creator emails sent",
-   "value": 2273,
-   "sub": "0 today, 39 in 7d",
+   "value": 2328,
+   "sub": "25 today, 94 in 7d",
    "trend": [
-    24,
     21,
     0,
     0,
@@ -21,17 +20,18 @@
     0,
     1,
     30,
-    0
+    30,
+    25
    ]
   },
   {
    "label": "Replies",
-   "value": 259,
-   "sub": "11.4% of sent"
+   "value": 261,
+   "sub": "11.2% of sent"
   },
   {
    "label": "Leads in Sender",
-   "value": 7279,
+   "value": 7282,
    "sub": "loaded, includes already sent"
   }
  ],
@@ -41,11 +41,11 @@
    "tiles": [
     {
      "label": "Sent all time",
-     "value": 2273
+     "value": 2328
     },
     {
      "label": "Sent last 7 days",
-     "value": 39
+     "value": 94
     },
     {
      "label": "Sender status",
@@ -56,7 +56,6 @@
     {
      "title": "Emails sent per day",
      "data": {
-      "2026-10-23": 9,
       "2026-10-24": 5,
       "2026-10-25": 3,
       "2026-10-26": 10,
@@ -85,7 +84,8 @@
       "2026-11-18": 0,
       "2026-11-19": 1,
       "2026-11-20": 30,
-      "2026-11-21": 0
+      "2026-11-21": 30,
+      "2026-11-22": 25
      },
      "days": 30
     }
@@ -93,11 +93,11 @@
    "funnel": [
     {
      "label": "Sent",
-     "value": 2273
+     "value": 2328
     },
     {
      "label": "Replied",
-     "value": 259
+     "value": 261
     }
    ],
    "tables": [
@@ -106,7 +106,7 @@
      "rows": [
       [
        "tryovoa.com",
-       2070
+       2125
       ],
       [
        "ovoateam.com",
