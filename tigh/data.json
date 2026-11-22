@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T01:09:36.884712Z",
+ "generated_at": "2026-11-22T01:22:05.772941Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -70,7 +70,7 @@
   },
   "roofing_7d": 0,
   "signups_1d": 0,
-  "signups_7d": 2,
+  "signups_7d": 1,
   "devices_30d": {
    "?": 6,
    "mobile": 16,
@@ -98,7 +98,7 @@
    "2026-11-20": 7,
    "2026-11-21": 7
   },
-  "all_views_7d": 1175,
+  "all_views_7d": 1174,
   "bot_views_7d": 1142,
   "browsers_30d": {
    "?": 6,
@@ -106,7 +106,7 @@
    "Chrome": 42,
    "Safari": 8
   },
-  "generated_at": "2026-11-22T01:09:37.533625+00:00",
+  "generated_at": "2026-11-22T01:22:06.189665+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -334,7 +334,7 @@
   },
   "avg_time_sec_30d": 50,
   "new_visitors_30d": 49,
-  "real_sessions_7d": 35,
+  "real_sessions_7d": 34,
   "real_sources_30d": {
    "g1-a": 4,
    "g1-b": 2,
@@ -351,7 +351,7 @@
    "t5-c-yvafybat-yy6": 2
   },
   "real_visitors_1d": 7,
-  "real_visitors_7d": 32,
+  "real_visitors_7d": 31,
   "landing_pages_30d": {
    "/": 39,
    "?": 6,
@@ -765,6 +765,14 @@
     "exact": true
    },
    {
+    "id": "BUodsaR44Gw",
+    "title": "Grandkid called you bestie? Translated #Shorts",
+    "url": "https://youtube.com/shorts/BUodsaR44Gw",
+    "views": 461,
+    "published": "2026-11-02T01:39:41-08:00",
+    "exact": true
+   },
+   {
     "id": "9mRzsVeSNn4",
     "title": "Grandpa, you ate that? Translated #Shorts",
     "url": "https://youtube.com/shorts/9mRzsVeSNn4",
@@ -779,14 +787,6 @@
     "views": 1100,
     "exact": false,
     "published": "2026-11-02"
-   },
-   {
-    "id": "BUodsaR44Gw",
-    "title": "Grandkid called you bestie? Translated #Shorts",
-    "url": "https://youtube.com/shorts/BUodsaR44Gw",
-    "views": 461,
-    "published": "2026-11-01",
-    "exact": true
    },
    {
     "id": "ku-cxkxCR98",
@@ -877,7 +877,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-22T01:09:36.884712Z"
+  "checked_at": "2026-11-22T01:22:05.772941Z"
  },
  "checks": [
   {
@@ -888,7 +888,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "32 real people this week; 1142 of 1175 page views were bots, crawlers or testing and are excluded"
+   "detail": "31 real people this week; 1142 of 1174 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -903,12 +903,12 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Footy",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Ovoa",
@@ -933,7 +933,7 @@
  ],
  "posting": {
   "date": "2026-11-21",
-  "now_et": "8:10 PM",
+  "now_et": "8:22 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1436,5 +1436,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-22T01:09:36.884712Z"
+ "checked_at": "2026-11-22T01:22:05.772941Z"
 }
