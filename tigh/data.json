@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T04:27:28.273194Z",
+ "generated_at": "2026-11-22T05:21:59.796227Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -106,7 +106,7 @@
    "Chrome": 42,
    "Safari": 8
   },
-  "generated_at": "2026-11-22T04:27:28.790259+00:00",
+  "generated_at": "2026-11-22T05:22:00.575669+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -877,7 +877,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-22T04:27:28.273194Z"
+  "checked_at": "2026-11-22T05:21:59.796227Z"
  },
  "checks": [
   {
@@ -897,13 +897,13 @@
   },
   {
    "name": "Posting",
-   "ok": false,
+   "ok": true,
    "detail": "YouTube 0/2 planned posts found live on the channel today"
   },
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Footy",
@@ -913,61 +913,61 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Robotics",
    "ok": true,
-   "detail": "numbers last refreshed 9h ago"
+   "detail": "numbers last refreshed 10h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 22h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 23h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
-  "date": "2026-11-21",
-  "now_et": "11:27 PM",
+  "date": "2026-11-22",
+  "now_et": "12:22 AM",
   "today": {
    "youtube": {
     "planned": 2,
     "done": 0,
     "verified": true,
-    "overdue": 2,
+    "overdue": 0,
     "items": [
      {
-      "title": "Your grandson is in the hospital? Hang up #Shorts",
-      "id": "hosp32a",
-      "when": "2026-11-21T07:30:00-05:00",
+      "title": "Press 1 to keep your Medicare? Don't #Shorts",
+      "id": "mcare33a",
+      "when": "2026-11-22T07:30:00-05:00",
       "slot": "am",
       "done": false,
       "verified": true,
-      "due": true
+      "due": false
      },
      {
-      "title": "A free gift card that needs your bank login",
-      "id": "gift32b",
-      "when": "2026-11-21T22:30:00-05:00",
+      "title": "Dad, I lost my phone. Can you send money?",
+      "id": "lostphone33b",
+      "when": "2026-11-22T22:30:00-05:00",
       "slot": "pm",
       "done": false,
       "verified": true,
-      "due": true
+      "due": false
      }
     ],
     "next": {
-     "title": "Your grandson is in the hospital? Hang up #Shorts",
-     "id": "hosp32a",
-     "when": "2026-11-21T07:30:00-05:00",
+     "title": "Press 1 to keep your Medicare? Don't #Shorts",
+     "id": "mcare33a",
+     "when": "2026-11-22T07:30:00-05:00",
      "slot": "am",
      "done": false,
      "verified": true,
-     "due": true
+     "due": false
     }
    },
    "facebook": {
@@ -977,32 +977,32 @@
     "overdue": 0,
     "items": [
      {
-      "title": "Your grandson is in the hospital? Hang up #Shorts",
-      "id": "hosp32a",
-      "when": "2026-11-21T07:30:00-05:00",
+      "title": "Press 1 to keep your Medicare? Don't #Shorts",
+      "id": "mcare33a",
+      "when": "2026-11-22T07:30:00-05:00",
       "slot": "am",
       "done": null,
       "verified": false,
-      "due": true
+      "due": false
      },
      {
-      "title": "A free gift card that needs your bank login",
-      "id": "gift32b",
-      "when": "2026-11-21T22:30:00-05:00",
+      "title": "Dad, I lost my phone. Can you send money?",
+      "id": "lostphone33b",
+      "when": "2026-11-22T22:30:00-05:00",
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": true
+      "due": false
      }
     ],
     "next": {
-     "title": "Your grandson is in the hospital? Hang up #Shorts",
-     "id": "hosp32a",
-     "when": "2026-11-21T07:30:00-05:00",
+     "title": "Press 1 to keep your Medicare? Don't #Shorts",
+     "id": "mcare33a",
+     "when": "2026-11-22T07:30:00-05:00",
      "slot": "am",
      "done": null,
      "verified": false,
-     "due": true
+     "due": false
     }
    },
    "instagram": {
@@ -1012,36 +1012,82 @@
     "overdue": 0,
     "items": [
      {
-      "title": "Your grandson is in the hospital? Hang up #Shorts",
-      "id": "hosp32a",
-      "when": "2026-11-21T07:30:00-05:00",
+      "title": "Press 1 to keep your Medicare? Don't #Shorts",
+      "id": "mcare33a",
+      "when": "2026-11-22T07:30:00-05:00",
       "slot": "am",
       "done": null,
       "verified": false,
-      "due": true
+      "due": false
      },
      {
-      "title": "A free gift card that needs your bank login",
-      "id": "gift32b",
-      "when": "2026-11-21T22:30:00-05:00",
+      "title": "Dad, I lost my phone. Can you send money?",
+      "id": "lostphone33b",
+      "when": "2026-11-22T22:30:00-05:00",
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": true
+      "due": false
      }
     ],
     "next": {
-     "title": "Your grandson is in the hospital? Hang up #Shorts",
-     "id": "hosp32a",
-     "when": "2026-11-21T07:30:00-05:00",
+     "title": "Press 1 to keep your Medicare? Don't #Shorts",
+     "id": "mcare33a",
+     "when": "2026-11-22T07:30:00-05:00",
      "slot": "am",
      "done": null,
      "verified": false,
-     "due": true
+     "due": false
     }
    }
   },
   "history": [
+   {
+    "date": "2026-11-22",
+    "slot": "am",
+    "title": "Press 1 to keep your Medicare? Don't #Shorts",
+    "format": "slang v2 scam sting",
+    "platforms": [
+     {
+      "p": "youtube",
+      "status": "scheduled",
+      "url": null
+     },
+     {
+      "p": "facebook",
+      "status": "unverified",
+      "url": null
+     },
+     {
+      "p": "instagram",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-22",
+    "slot": "pm",
+    "title": "Dad, I lost my phone. Can you send money?",
+    "format": "slang v2 scam sting",
+    "platforms": [
+     {
+      "p": "youtube",
+      "status": "scheduled",
+      "url": null
+     },
+     {
+      "p": "facebook",
+      "status": "unverified",
+      "url": null
+     },
+     {
+      "p": "instagram",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
    {
     "date": "2026-11-21",
     "slot": "am",
@@ -1366,53 +1412,6 @@
       "url": null
      }
     ]
-   },
-   {
-    "date": "2026-11-14",
-    "slot": "am",
-    "title": "Your bank texted that your account is locked? Do this first #Shorts",
-    "format": "emojianim 50+",
-    "platforms": [
-     {
-      "p": "youtube",
-      "status": "live",
-      "url": "https://youtube.com/shorts/HsSq5MJ-juM",
-      "views": 97
-     },
-     {
-      "p": "facebook",
-      "status": "unverified",
-      "url": null
-     },
-     {
-      "p": "instagram",
-      "status": "unverified",
-      "url": null
-     }
-    ]
-   },
-   {
-    "date": "2026-11-14",
-    "slot": "pm",
-    "title": "You got this text and almost clicked it",
-    "format": "slang v2 scam sting",
-    "platforms": [
-     {
-      "p": "youtube",
-      "status": "missing",
-      "url": null
-     },
-     {
-      "p": "facebook",
-      "status": "unverified",
-      "url": null
-     },
-     {
-      "p": "instagram",
-      "status": "unverified",
-      "url": null
-     }
-    ]
    }
   ],
   "yt_by_day": {
@@ -1436,5 +1435,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-22T04:27:28.273194Z"
+ "checked_at": "2026-11-22T05:21:59.796227Z"
 }
