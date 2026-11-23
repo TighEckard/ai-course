@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T09:22:34.169640Z",
+ "generated_at": "2026-11-23T09:28:22.365451Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -108,7 +108,7 @@
    "Chrome": 43,
    "Safari": 8
   },
-  "generated_at": "2026-11-23T09:22:34.960866+00:00",
+  "generated_at": "2026-11-23T09:28:22.829805+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -699,7 +699,7 @@
     "title": "Plan a whole trip with AI in a minute #Shorts",
     "url": "https://youtube.com/shorts/O0DxIt_fQjA",
     "views": 2,
-    "published": "2026-11-08",
+    "published": "2026-11-07T15:55:33-08:00",
     "exact": true
    },
    {
@@ -879,7 +879,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-23T09:22:34.169640Z"
+  "checked_at": "2026-11-23T09:28:22.365451Z"
  },
  "checks": [
   {
@@ -919,13 +919,13 @@
   },
   {
    "name": "Robotics",
-   "ok": true,
-   "detail": "numbers last refreshed 12h ago"
+   "ok": false,
+   "detail": "numbers last refreshed 12h ago (older than 12h, flagged stale)"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Study creators",
@@ -935,7 +935,7 @@
  ],
  "posting": {
   "date": "2026-11-23",
-  "now_et": "4:23 AM",
+  "now_et": "4:28 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1436,5 +1436,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-23T09:22:34.169640Z"
+ "checked_at": "2026-11-23T09:28:22.365451Z"
 }
