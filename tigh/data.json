@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T09:28:22.365451Z",
+ "generated_at": "2026-11-23T09:44:12.097719Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -108,7 +108,7 @@
    "Chrome": 43,
    "Safari": 8
   },
-  "generated_at": "2026-11-23T09:28:22.829805+00:00",
+  "generated_at": "2026-11-23T09:44:12.791721+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -699,7 +699,7 @@
     "title": "Plan a whole trip with AI in a minute #Shorts",
     "url": "https://youtube.com/shorts/O0DxIt_fQjA",
     "views": 2,
-    "published": "2026-11-07T15:55:33-08:00",
+    "published": "2026-11-08",
     "exact": true
    },
    {
@@ -879,7 +879,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-23T09:28:22.365451Z"
+  "checked_at": "2026-11-23T09:44:12.097719Z"
  },
  "checks": [
   {
@@ -905,7 +905,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Footy",
@@ -915,7 +915,7 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Robotics",
@@ -930,12 +930,12 @@
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 9h ago"
+   "detail": "numbers last refreshed 10h ago"
   }
  ],
  "posting": {
   "date": "2026-11-23",
-  "now_et": "4:28 AM",
+  "now_et": "4:44 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1436,5 +1436,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-23T09:28:22.365451Z"
+ "checked_at": "2026-11-23T09:44:12.097719Z"
 }
