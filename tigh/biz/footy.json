@@ -1,7 +1,7 @@
 {
  "name": "Footy",
- "updated": "2026-11-23T18:30:00Z",
- "notes": "Footy. The eckartig0 Chrome was not connected at this refresh (only other Chromes were), so every number is n/a, needs login and kept from the last read (Firebase, Play and website read 2026-11-23 UTC; iOS read 2026-11-21 17:30 UTC). UTC",
+ "updated": "2026-11-23T19:30:00Z",
+ "notes": "Footy. The eckartig0 Chrome was not connected at this refresh (only two other Chromes were), so every number is n/a, needs login and kept from the last read (Firebase, Play and website read 2026-11-23 UTC; iOS read 2026-11-21 17:30 UTC). UTC",
  "headline": [
   {
    "label": "Accounts (Firebase)",
