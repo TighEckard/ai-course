@@ -1,7 +1,7 @@
 {
  "name": "Footy",
- "updated": "2026-11-23T01:23:00Z",
- "notes": "Footy. Firebase users, Play installs and website visits read live 2026-11-23 01:23 UTC. App Store Connect needs login (n/a), so iOS numbers are kept from the last read (2026-11-21 17:30 UTC). UTC",
+ "updated": "2026-11-23T12:00:00Z",
+ "notes": "Footy. Firebase users, Play installs (latest day shown, 2026-11-21) and website visits read live 2026-11-23 UTC. App Store Connect needs login (n/a), so iOS numbers are kept from the last read (2026-11-21 17:30 UTC). UTC",
  "headline": [
   {
    "label": "Accounts (Firebase)",
@@ -15,7 +15,7 @@
   },
   {
    "label": "Android installs",
-   "value": 3,
+   "value": 5,
    "sub": "Play Console installed audience"
   },
   {
@@ -36,7 +36,7 @@
     {
      "label": "Android",
      "value": "Live",
-     "sub": "v1.1.0 on Google Play; 3 installed audience"
+     "sub": "v1.1.0 on Google Play; 5 installed audience"
     }
    ]
   },
