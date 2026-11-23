@@ -1,7 +1,7 @@
 {
  "name": "Footy",
- "updated": "2026-11-22T23:22:00Z",
- "notes": "Footy. Firebase users, Play installs and website visits read live 2026-11-22 23:20 UTC. App Store Connect needs login (n/a), so iOS numbers are kept from the last read (2026-11-21 17:30 UTC). UTC",
+ "updated": "2026-11-23T12:00:00Z",
+ "notes": "Footy. Firebase users, Play installs and website visits read live 2026-11-23. App Store Connect needs login (n/a), so iOS numbers are kept from the last read (2026-11-21 17:30 UTC). UTC",
  "headline": [
   {
    "label": "Accounts (Firebase)",
@@ -20,7 +20,7 @@
   },
   {
    "label": "joinfooty.com visits",
-   "value": 1,
+   "value": 3,
    "sub": "last 24h"
   }
  ],
@@ -45,12 +45,12 @@
    "tiles": [
     {
      "label": "Page views, 24h",
-     "value": 1,
+     "value": 3,
      "sub": "Cloudflare Web Analytics"
     },
     {
      "label": "Visits, 24h",
-     "value": 1,
+     "value": 3,
      "sub": "Cloudflare Web Analytics"
     }
    ]
