@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T03:28:31.288847Z",
+ "generated_at": "2026-11-23T03:44:08.041481Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -100,15 +100,15 @@
    "2026-11-21": 7,
    "2026-11-22": 2
   },
-  "all_views_7d": 1144,
-  "bot_views_7d": 1112,
+  "all_views_7d": 1138,
+  "bot_views_7d": 1107,
   "browsers_30d": {
    "?": 7,
    "Edge": 1,
    "Chrome": 43,
    "Safari": 8
   },
-  "generated_at": "2026-11-23T03:28:31.715826+00:00",
+  "generated_at": "2026-11-23T03:44:08.533305+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -336,7 +336,7 @@
   },
   "avg_time_sec_30d": 49,
   "new_visitors_30d": 50,
-  "real_sessions_7d": 35,
+  "real_sessions_7d": 31,
   "real_sources_30d": {
    "g1-a": 4,
    "g1-b": 2,
@@ -353,7 +353,7 @@
    "t5-c-yvafybat-yy6": 2
   },
   "real_visitors_1d": 2,
-  "real_visitors_7d": 32,
+  "real_visitors_7d": 28,
   "landing_pages_30d": {
    "/": 39,
    "?": 7,
@@ -371,7 +371,7 @@
   "test_members_excluded": 1,
   "test_signups_excluded": 2,
   "returning_visitors_30d": 13,
-  "roofing_real_visitors_7d": 12
+  "roofing_real_visitors_7d": 11
  },
  "youtube": {
   "total_views": 9203,
@@ -879,7 +879,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-23T03:28:31.288847Z"
+  "checked_at": "2026-11-23T03:44:08.041481Z"
  },
  "checks": [
   {
@@ -890,7 +890,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "32 real people this week; 1112 of 1144 page views were bots, crawlers or testing and are excluded"
+   "detail": "28 real people this week; 1107 of 1138 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -905,7 +905,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Footy",
@@ -915,7 +915,7 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Robotics",
@@ -930,18 +930,18 @@
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 4h ago"
   }
  ],
  "posting": {
   "date": "2026-11-22",
-  "now_et": "10:28 PM",
+  "now_et": "10:44 PM",
   "today": {
    "youtube": {
     "planned": 2,
     "done": 0,
     "verified": true,
-    "overdue": 1,
+    "overdue": 2,
     "items": [
      {
       "title": "Press 1 to keep your Medicare? Don't #Shorts",
@@ -959,7 +959,7 @@
       "slot": "pm",
       "done": false,
       "verified": true,
-      "due": false
+      "due": true
      }
     ],
     "next": {
@@ -994,7 +994,7 @@
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": false
+      "due": true
      }
     ],
     "next": {
@@ -1029,7 +1029,7 @@
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": false
+      "due": true
      }
     ],
     "next": {
@@ -1437,5 +1437,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-23T03:28:31.288847Z"
+ "checked_at": "2026-11-23T03:44:08.041481Z"
 }
