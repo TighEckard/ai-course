@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T02:27:53.153950Z",
+ "generated_at": "2026-11-23T03:06:25.996056Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -100,15 +100,15 @@
    "2026-11-21": 7,
    "2026-11-22": 2
   },
-  "all_views_7d": 1165,
-  "bot_views_7d": 1133,
+  "all_views_7d": 1151,
+  "bot_views_7d": 1119,
   "browsers_30d": {
    "?": 7,
    "Edge": 1,
    "Chrome": 43,
    "Safari": 8
   },
-  "generated_at": "2026-11-23T02:27:53.652366+00:00",
+  "generated_at": "2026-11-23T03:06:26.818542+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -879,7 +879,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-23T02:27:53.153950Z"
+  "checked_at": "2026-11-23T03:06:25.996056Z"
  },
  "checks": [
   {
@@ -890,7 +890,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "32 real people this week; 1133 of 1165 page views were bots, crawlers or testing and are excluded"
+   "detail": "32 real people this week; 1119 of 1151 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -915,27 +915,27 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Robotics",
    "ok": true,
-   "detail": "numbers last refreshed 5h ago"
+   "detail": "numbers last refreshed 6h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 3h ago"
   }
  ],
  "posting": {
   "date": "2026-11-22",
-  "now_et": "9:28 PM",
+  "now_et": "10:06 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1075,7 +1075,7 @@
     "platforms": [
      {
       "p": "youtube",
-      "status": "scheduled",
+      "status": "missing",
       "url": null
      },
      {
@@ -1437,5 +1437,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-23T02:27:53.153950Z"
+ "checked_at": "2026-11-23T03:06:25.996056Z"
 }
