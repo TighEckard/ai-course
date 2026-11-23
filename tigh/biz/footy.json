@@ -1,12 +1,12 @@
 {
  "name": "Footy",
- "updated": "2026-11-23T20:22:00Z",
- "notes": "Footy. The eckartig0 Chrome was not connected at this refresh (only two other Chromes were), so every number is n/a, needs login and kept from the last read (Firebase, Play and website read 2026-11-23 UTC; iOS read 2026-11-21 17:30 UTC). UTC",
+ "updated": "2026-11-23T21:23:00Z",
+ "notes": "Footy. Firebase, Play and website read live 2026-11-23 21:20 UTC. iOS numbers are n/a, needs login (App Store Connect signed out), kept from the 2026-11-21 17:30 UTC read. UTC",
  "headline": [
   {
    "label": "Accounts (Firebase)",
    "value": 3,
-   "sub": "total users (n/a, needs login; last read)"
+   "sub": "total users"
   },
   {
    "label": "iOS downloads",
@@ -16,12 +16,12 @@
   {
    "label": "Android installs",
    "value": 5,
-   "sub": "Play Console installed audience (n/a, needs login; last read)"
+   "sub": "Play Console installed audience"
   },
   {
    "label": "joinfooty.com visits",
-   "value": 4,
-   "sub": "last 24h (n/a, needs login; last read)"
+   "value": 3,
+   "sub": "last 24h"
   }
  ],
  "sections": [
@@ -36,7 +36,7 @@
     {
      "label": "Android",
      "value": "Live",
-     "sub": "v1.1.0 on Google Play; 5 installed audience (n/a, needs login; last read)"
+     "sub": "v1.1.0 on Google Play; 5 installed audience"
     }
    ]
   },
@@ -45,13 +45,13 @@
    "tiles": [
     {
      "label": "Page views, 24h",
-     "value": 4,
-     "sub": "Cloudflare Web Analytics (n/a, needs login; last read)"
+     "value": 3,
+     "sub": "Cloudflare Web Analytics"
     },
     {
      "label": "Visits, 24h",
-     "value": 4,
-     "sub": "Cloudflare Web Analytics (n/a, needs login; last read)"
+     "value": 3,
+     "sub": "Cloudflare Web Analytics"
     }
    ]
   },
@@ -61,7 +61,7 @@
     {
      "label": "Firebase users",
      "value": 3,
-     "sub": "Firebase Auth (n/a, needs login; last read)"
+     "sub": "Firebase Auth"
     }
    ]
   }
