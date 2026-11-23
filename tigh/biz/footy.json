@@ -1,7 +1,7 @@
 {
  "name": "Footy",
- "updated": "2026-11-23T12:00:00Z",
- "notes": "Footy. Firebase users, Play installs and website visits read live 2026-11-23. App Store Connect needs login (n/a), so iOS numbers are kept from the last read (2026-11-21 17:30 UTC). UTC",
+ "updated": "2026-11-23T00:25:00Z",
+ "notes": "Footy. Firebase users, Play installs and website visits read live 2026-11-23 00:25 UTC. App Store Connect needs login (n/a), so iOS numbers are kept from the last read (2026-11-21 17:30 UTC). UTC",
  "headline": [
   {
    "label": "Accounts (Firebase)",
