@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T18:28:17.912648Z",
+ "generated_at": "2026-11-24T18:44:16.224610Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -110,7 +110,7 @@
    "Chrome": 45,
    "Safari": 10
   },
-  "generated_at": "2026-11-24T18:28:18.649875+00:00",
+  "generated_at": "2026-11-24T18:44:16.902993+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -770,6 +770,14 @@
     "exact": true
    },
    {
+    "id": "ku-cxkxCR98",
+    "title": "Grandkid said you're giving legend? Translated #Shorts",
+    "url": "https://youtube.com/shorts/ku-cxkxCR98",
+    "views": 543,
+    "published": "2026-11-02T01:35:18-08:00",
+    "exact": true
+   },
+   {
     "id": "9mRzsVeSNn4",
     "title": "Grandpa, you ate that? Translated #Shorts",
     "url": "https://youtube.com/shorts/9mRzsVeSNn4",
@@ -790,14 +798,6 @@
     "title": "Grandkid called you bestie? Translated #Shorts",
     "url": "https://youtube.com/shorts/BUodsaR44Gw",
     "views": 461,
-    "published": "2026-11-01",
-    "exact": true
-   },
-   {
-    "id": "ku-cxkxCR98",
-    "title": "Grandkid said you're giving legend? Translated #Shorts",
-    "url": "https://youtube.com/shorts/ku-cxkxCR98",
-    "views": 543,
     "published": "2026-11-01",
     "exact": true
    },
@@ -882,7 +882,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-24T18:28:17.912648Z"
+  "checked_at": "2026-11-24T18:44:16.224610Z"
  },
  "checks": [
   {
@@ -908,7 +908,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Footy",
@@ -918,7 +918,7 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Robotics",
@@ -933,12 +933,12 @@
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 9h ago"
+   "detail": "numbers last refreshed 10h ago"
   }
  ],
  "posting": {
   "date": "2026-11-24",
-  "now_et": "1:28 PM",
+  "now_et": "1:44 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1438,5 +1438,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-24T18:28:17.912648Z"
+ "checked_at": "2026-11-24T18:44:16.224610Z"
 }
