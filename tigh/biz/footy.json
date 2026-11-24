@@ -1,27 +1,27 @@
 {
  "name": "Footy",
- "updated": "2026-11-24T10:25:00Z",
- "notes": "Footy. All sources read live 2026-11-24 (Play and App Store Connect data through 2026-11-22; iOS 90-day view; iOS 1.3.0 is in Prepare for Submission). No change since last refresh. UTC",
+ "updated": "2026-11-24T11:22:00Z",
+ "notes": "Footy. n/a, needs login: the eckartig0 Chrome was not connected this run, so all numbers are the old values from 2026-11-24 10:25 UTC (Play and App Store Connect data through 2026-11-22). UTC",
  "headline": [
   {
    "label": "Accounts (Firebase)",
    "value": 3,
-   "sub": "total users"
+   "sub": "total users (n/a, needs login)"
   },
   {
    "label": "iOS downloads",
    "value": 88,
-   "sub": "first-time, since launch (App Store Connect)"
+   "sub": "first-time, since launch (n/a, needs login; old value)"
   },
   {
    "label": "Android installs",
    "value": 6,
-   "sub": "Play Console installed audience"
+   "sub": "Play Console installed audience (n/a, needs login; old value)"
   },
   {
    "label": "joinfooty.com visits",
    "value": 0,
-   "sub": "last 24h"
+   "sub": "last 24h (n/a, needs login; old value)"
   }
  ],
  "sections": [
@@ -31,12 +31,12 @@
     {
      "label": "iOS",
      "value": "Live",
-     "sub": "v1.2.1 live, 1.3.0 in prep; 88 first-time downloads, 9 redownloads; Plus subs and revenue: none yet"
+     "sub": "v1.2.1 live, 1.3.0 in prep; 88 first-time downloads, 9 redownloads; Plus subs and revenue: none yet (n/a, needs login; old values)"
     },
     {
      "label": "Android",
      "value": "Live",
-     "sub": "v1.1.0 on Google Play; 6 installed audience"
+     "sub": "v1.1.0 on Google Play; 6 installed audience (n/a, needs login; old value)"
     }
    ]
   },
@@ -46,12 +46,12 @@
     {
      "label": "Page views, 24h",
      "value": 0,
-     "sub": "Cloudflare Web Analytics"
+     "sub": "Cloudflare Web Analytics (n/a, needs login; old value)"
     },
     {
      "label": "Visits, 24h",
      "value": 0,
-     "sub": "Cloudflare Web Analytics"
+     "sub": "Cloudflare Web Analytics (n/a, needs login; old value)"
     }
    ]
   },
@@ -61,7 +61,7 @@
     {
      "label": "Firebase users",
      "value": 3,
-     "sub": "Firebase Auth"
+     "sub": "Firebase Auth (n/a, needs login; old value)"
     }
    ]
   }
