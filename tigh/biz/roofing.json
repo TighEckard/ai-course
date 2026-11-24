@@ -1,6 +1,6 @@
 {
   "name": "Roofing",
-  "updated": "2026-11-23T23:28:02Z",
+  "updated": "2026-11-24T00:27:40Z",
   "notes": "Facebook numbers come from the comment log. Last comment logged Nov 16. Friend requests and follows are paused after the Nov 8 rate limit.",
   "headline": [
     {
@@ -19,7 +19,7 @@
     },
     {
       "label": "FB posts logged",
-      "value": 67
+      "value": 68
     },
     {
       "label": "FB warnings",
@@ -65,7 +65,7 @@
       "tiles": [
         {
           "label": "Posts logged",
-          "value": 67
+          "value": 68
         },
         {
           "label": "Commented",
