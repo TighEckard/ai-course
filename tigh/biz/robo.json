@@ -1,16 +1,16 @@
 {
  "name": "Robotics",
- "updated": "2026-11-24T01:28:02Z",
+ "updated": "2026-11-24T06:59:01Z",
  "notes": "Pre-company. Numbers come from robotics items on the calendar plus a status file; nothing is registered unless marked.",
  "headline": [
   {
    "label": "Next event",
-   "value": "8d",
+   "value": "7d",
    "sub": "Humanoids Summit, day 1 (San Mateo)"
   },
   {
    "label": "Next deadline",
-   "value": "42d",
+   "value": "41d",
    "sub": "Pear Prime 2027 application"
   },
   {
@@ -43,52 +43,52 @@
       [
        "Humanoids Summit, day 1 (San Mateo)",
        "Dec 1, 2026",
-       "8 days"
+       "7 days"
       ],
       [
        "Humanoids Summit, day 2 (San Mateo)",
        "Dec 2, 2026",
-       "9 days"
+       "8 days"
       ],
       [
        "IEEE Humanoids 2026 (Santa Clara)",
        "Dec 6, 2026",
-       "13 days"
+       "12 days"
       ],
       [
        "Silicon Valley Physical AI Builders meetup",
        "Dec 17, 2026",
-       "24 days"
+       "23 days"
       ],
       [
        "Silicon Valley Physical AI Builders meetup",
        "Jan 21, 2027",
-       "59 days"
+       "58 days"
       ],
       [
        "Silicon Valley Physical AI Builders meetup",
        "Feb 18, 2027",
-       "87 days"
+       "86 days"
       ],
       [
        "eMerge Americas (Miami Beach)",
        "Mar 2, 2027",
-       "99 days"
+       "98 days"
       ],
       [
        "ProMat 2027 (Chicago)",
        "Apr 19, 2027",
-       "147 days"
+       "146 days"
       ],
       [
        "Automate 2027 (Las Vegas)",
        "May 10, 2027",
-       "168 days"
+       "167 days"
       ],
       [
        "Robotics Summit and Expo (Boston)",
        "Jun 2, 2027",
-       "191 days"
+       "190 days"
       ]
      ]
     }
@@ -103,12 +103,12 @@
       [
        "Pear Prime 2027 application",
        "Jan 4, 2027",
-       "42 days"
+       "41 days"
       ],
       [
        "YC Spring 2027 application",
        "Feb 8, 2027",
-       "77 days"
+       "76 days"
       ]
      ]
     }
