@@ -1,7 +1,7 @@
 {
  "name": "Footy",
- "updated": "2026-11-24T04:22:00Z",
- "notes": "Footy. Firebase, Play (data through 2026-11-22) and website read live 2026-11-24 04:20 UTC. iOS numbers are n/a, needs login (App Store Connect signed out), kept from the 2026-11-21 17:30 UTC read. UTC",
+ "updated": "2026-11-24T05:23:00Z",
+ "notes": "Footy. All sources read live 2026-11-24 05:20 UTC (Play data through 2026-11-22; iOS from App Store Connect analytics, 90-day view). UTC",
  "headline": [
   {
    "label": "Accounts (Firebase)",
@@ -10,8 +10,8 @@
   },
   {
    "label": "iOS downloads",
-   "value": 78,
-   "sub": "first-time, last 30 days (n/a, needs login; last read)"
+   "value": 88,
+   "sub": "first-time, since launch (App Store Connect)"
   },
   {
    "label": "Android installs",
@@ -31,7 +31,7 @@
     {
      "label": "iOS",
      "value": "Live",
-     "sub": "v1.2.1; 78 first-time downloads, 9 redownloads (30d); Plus subs and revenue: none yet (n/a, needs login; last read)"
+     "sub": "v1.2.1; 88 first-time downloads, 9 redownloads; Plus subs and revenue: none yet"
     },
     {
      "label": "Android",
