@@ -1,7 +1,7 @@
 {
  "name": "Footy",
- "updated": "2026-11-24T05:23:00Z",
- "notes": "Footy. All sources read live 2026-11-24 05:20 UTC (Play data through 2026-11-22; iOS from App Store Connect analytics, 90-day view). UTC",
+ "updated": "2026-11-24T14:00:00Z",
+ "notes": "Footy. All sources read live 2026-11-24 (Play and App Store Connect data through 2026-11-22; iOS 90-day view; iOS 1.3.0 is in Prepare for Submission). UTC",
  "headline": [
   {
    "label": "Accounts (Firebase)",
@@ -31,7 +31,7 @@
     {
      "label": "iOS",
      "value": "Live",
-     "sub": "v1.2.1; 88 first-time downloads, 9 redownloads; Plus subs and revenue: none yet"
+     "sub": "v1.2.1 live, 1.3.0 in prep; 88 first-time downloads, 9 redownloads; Plus subs and revenue: none yet"
     },
     {
      "label": "Android",
