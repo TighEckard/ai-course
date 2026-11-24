@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T13:32:00.253848Z",
+ "generated_at": "2026-11-24T14:22:17.737054Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -71,7 +71,7 @@
   },
   "roofing_7d": 0,
   "signups_1d": 0,
-  "signups_7d": 1,
+  "signups_7d": 0,
   "devices_30d": {
    "?": 9,
    "mobile": 19,
@@ -109,7 +109,7 @@
    "Chrome": 45,
    "Safari": 9
   },
-  "generated_at": "2026-11-24T13:32:00.672774+00:00",
+  "generated_at": "2026-11-24T14:22:18.420147+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -337,7 +337,7 @@
   },
   "avg_time_sec_30d": 47,
   "new_visitors_30d": 53,
-  "real_sessions_7d": 33,
+  "real_sessions_7d": 32,
   "real_sources_30d": {
    "g1-a": 4,
    "g1-b": 2,
@@ -355,7 +355,7 @@
    "t5-c-yvafybat-yy6": 2
   },
   "real_visitors_1d": 4,
-  "real_visitors_7d": 31,
+  "real_visitors_7d": 30,
   "landing_pages_30d": {
    "/": 41,
    "?": 9,
@@ -881,7 +881,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-24T13:32:00.253848Z"
+  "checked_at": "2026-11-24T14:22:17.737054Z"
  },
  "checks": [
   {
@@ -892,7 +892,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "31 real people this week; 1039 of 1070 page views were bots, crawlers or testing and are excluded"
+   "detail": "30 real people this week; 1039 of 1070 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -907,37 +907,37 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Footy",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Robotics",
    "ok": true,
-   "detail": "numbers last refreshed 6h ago"
+   "detail": "numbers last refreshed 7h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 4h ago"
+   "detail": "numbers last refreshed 5h ago"
   }
  ],
  "posting": {
   "date": "2026-11-24",
-  "now_et": "8:32 AM",
+  "now_et": "9:22 AM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1437,5 +1437,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-24T13:32:00.253848Z"
+ "checked_at": "2026-11-24T14:22:17.737054Z"
 }
