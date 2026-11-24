@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T02:28:01.193951Z",
+ "generated_at": "2026-11-24T03:06:27.242781Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -101,15 +101,15 @@
    "2026-11-22": 2,
    "2026-11-23": 5
   },
-  "all_views_7d": 1062,
-  "bot_views_7d": 1028,
+  "all_views_7d": 1076,
+  "bot_views_7d": 1042,
   "browsers_30d": {
    "?": 9,
    "Edge": 1,
    "Chrome": 45,
    "Safari": 9
   },
-  "generated_at": "2026-11-24T02:28:01.658351+00:00",
+  "generated_at": "2026-11-24T03:06:27.540122+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -343,7 +343,7 @@
    "g1-b": 2,
    "g1-c": 3,
    "pod5": 1,
-   "direct": 20,
+   "direct": 19,
    "google": 13,
    "facebook": 4,
    "pinterest": 1,
@@ -351,6 +351,7 @@
    "bedrock-direct": 10,
    "bedrock-google": 1,
    "bedrock-youtube": 1,
+   "g2-p-lifelong-ll3": 1,
    "t5-c-yvafybat-446": 2,
    "t5-c-yvafybat-yy6": 2
   },
@@ -881,7 +882,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-24T02:28:01.193951Z"
+  "checked_at": "2026-11-24T03:06:27.242781Z"
  },
  "checks": [
   {
@@ -892,7 +893,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "33 real people this week; 1028 of 1062 page views were bots, crawlers or testing and are excluded"
+   "detail": "33 real people this week; 1042 of 1076 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -912,32 +913,32 @@
   {
    "name": "Footy",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Robotics",
    "ok": true,
-   "detail": "numbers last refreshed 5h ago"
+   "detail": "numbers last refreshed 6h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 0h ago"
   }
  ],
  "posting": {
   "date": "2026-11-23",
-  "now_et": "9:28 PM",
+  "now_et": "10:06 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1077,7 +1078,7 @@
     "platforms": [
      {
       "p": "youtube",
-      "status": "scheduled",
+      "status": "missing",
       "url": null
      },
      {
@@ -1438,5 +1439,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-24T02:28:01.193951Z"
+ "checked_at": "2026-11-24T03:06:27.242781Z"
 }
