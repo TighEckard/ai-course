@@ -1,0 +1,277 @@
+Nashville|TN
+Franklin|TN
+Clarksville|TN
+Johnson City|TN
+Hendersonville|TN
+Smyrna|TN
+Brentwood|TN
+Cleveland|TN
+Jackson|TN
+Bartlett|TN
+Gallatin|TN
+Lebanon|TN
+Spring Hill|TN
+Mount Juliet|TN
+Birmingham|AL
+Hoover|AL
+Decatur|AL
+Madison|AL
+Florence|AL
+Vestavia Hills|AL
+Phenix City|AL
+Lexington|KY
+Louisville|KY
+Richmond|KY
+Georgetown|KY
+Florence|KY
+Elizabethtown|KY
+Clinton|MS
+Madison|MS
+Oxford|MS
+Rogers|AR
+Hot Springs|AR
+Benton|AR
+Jacksonville|AR
+Sioux City|IA
+Iowa City|IA
+Waterloo|IA
+Marion|IA
+Mason City|IA
+Clinton|IA
+Kansas City|KS
+Manhattan|KS
+Dodge City|KS
+Garden City|KS
+Bellevue|NE
+Fremont|NE
+Norfolk|NE
+Hastings|NE
+Columbus|NE
+Oklahoma City|OK
+Moore|OK
+Midwest City|OK
+Shawnee|OK
+Yukon|OK
+Ardmore|OK
+Saint Paul|MN
+Rochester|MN
+Bloomington|MN
+Brooklyn Park|MN
+Plymouth|MN
+Maple Grove|MN
+Woodbury|MN
+Saint Cloud|MN
+Eagan|MN
+Blaine|MN
+Apple Valley|MN
+Edina|MN
+West Allis|WI
+Wauwatosa|WI
+Menomonee Falls|WI
+Warren|MI
+Flint|MI
+Farmington Hills|MI
+Wyoming|MI
+Rochester Hills|MI
+Taylor|MI
+Pontiac|MI
+Kentwood|MI
+Portage|MI
+Bay City|MI
+Jackson|MI
+Traverse City|MI
+Parma|OH
+Canton|OH
+Youngstown|OH
+Hamilton|OH
+Springfield|OH
+Kettering|OH
+Lakewood|OH
+Middletown|OH
+Newark|OH
+Beavercreek|OH
+Fairfield|OH
+Dublin|OH
+Warren|OH
+Lancaster|OH
+Lima|OH
+Huber Heights|OH
+Marion|OH
+Grove City|OH
+Lafayette|IN
+Anderson|IN
+Greenwood|IN
+Lawrence|IN
+Columbus|IN
+Richmond|IN
+Westfield|IN
+Valparaiso|IN
+Aurora|IL
+Bloomington|IL
+Arlington Heights|IL
+Schaumburg|IL
+Bolingbrook|IL
+Palatine|IL
+Skokie|IL
+Orland Park|IL
+Oak Lawn|IL
+Mount Prospect|IL
+Downers Grove|IL
+Glenview|IL
+Lombard|IL
+Buffalo Grove|IL
+Streamwood|IL
+Romeoville|IL
+Hanover Park|IL
+Carpentersville|IL
+Addison|IL
+Calumet City|IL
+Saint Louis|MO
+Kansas City|MO
+Springfield|MO
+Columbia|MO
+Independence|MO
+Lee's Summit|MO
+O'Fallon|MO
+Saint Joseph|MO
+Saint Charles|MO
+Saint Peters|MO
+Chesterfield|MO
+Jefferson City|MO
+Wildwood|MO
+University City|MO
+Raytown|MO
+Liberty|MO
+Kirkwood|MO
+Gladstone|MO
+Grandview|MO
+Belton|MO
+Webster Groves|MO
+Sedalia|MO
+Ozark|MO
+Bossier City|LA
+Monroe|LA
+Alexandria|LA
+Marrero|LA
+Laplace|LA
+Central|LA
+Ruston|LA
+Sulphur|LA
+Hammond|LA
+Natchitoches|LA
+Gretna|LA
+Opelousas|LA
+Zachary|LA
+Thibodaux|LA
+Pineville|LA
+Mandeville|LA
+Covington|LA
+Carlsbad|NM
+Gallup|NM
+Deming|NM
+Los Lunas|NM
+Sunland Park|NM
+Las Vegas|NM
+Salt Lake City|UT
+West Valley City|UT
+Saint George|UT
+Millcreek|UT
+Taylorsville|UT
+Logan|UT
+Murray|UT
+Riverton|UT
+Cedar City|UT
+Eagle Mountain|UT
+Herriman|UT
+Clearfield|UT
+Holladay|UT
+Meridian|ID
+Caldwell|ID
+Coeur d'Alene|ID
+Lewiston|ID
+Eagle|ID
+Moscow|ID
+Kuna|ID
+Ammon|ID
+Butte|MT
+Kalispell|MT
+Havre|MT
+Anaconda|MT
+Rock Springs|WY
+Sheridan|WY
+Green River|WY
+Evanston|WY
+Williston|ND
+Dickinson|ND
+Mandan|ND
+Rapid City|SD
+Aberdeen|SD
+Brookings|SD
+Watertown|SD
+Mitchell|SD
+Yankton|SD
+Anchorage|AK
+Fairbanks|AK
+Juneau|AK
+Wasilla|AK
+Honolulu|HI
+Hilo|HI
+Kailua|HI
+Pearl City|HI
+Waipahu|HI
+Rutland|VT
+Manchester|NH
+Dover|NH
+Rochester|NH
+Keene|NH
+Portland|ME
+Auburn|ME
+Warwick|RI
+Newport|RI
+Newark|DE
+Hagerstown|MD
+Salisbury|MD
+Columbia|MD
+Germantown|MD
+Silver Spring|MD
+Waldorf|MD
+Glen Burnie|MD
+Ellicott City|MD
+Charleston|WV
+Morgantown|WV
+Wheeling|WV
+Martinsburg|WV
+Fairmont|WV
+Beckley|WV
+Jersey City|NJ
+Clifton|NJ
+Camden|NJ
+Union City|NJ
+Bayonne|NJ
+New Brunswick|NJ
+Plainfield|NJ
+Kearny|NJ
+Linden|NJ
+Atlantic City|NJ
+Edison|NJ
+Woodbridge|NJ
+Lakewood|NJ
+Toms River|NJ
+Hamilton|NJ
+Brick|NJ
+Cherry Hill|NJ
+Gloucester Township|NJ
+Union|NJ
+Old Bridge|NJ
+Middletown|NJ
+Bridgewater|NJ
+Piscataway|NJ
+Franklin Township|NJ
+Bristol|CT
+Middletown|CT
+Norwich|CT
+Trumbull|CT
+Glastonbury|CT
+Newington|CT
+Cheshire|CT
+Vernon|CT
