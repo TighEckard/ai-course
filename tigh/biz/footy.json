@@ -1,7 +1,7 @@
 {
  "name": "Footy",
- "updated": "2026-11-24T09:24:00Z",
- "notes": "Footy. All sources read live 2026-11-24 (Play and App Store Connect data through 2026-11-22; iOS 90-day view; iOS 1.3.0 is in Prepare for Submission). UTC",
+ "updated": "2026-11-24T12:00:00Z",
+ "notes": "Footy. All sources read live 2026-11-24 (Play and App Store Connect data through 2026-11-22; iOS 90-day view; iOS 1.3.0 is in Prepare for Submission). No change since last refresh. UTC",
  "headline": [
   {
    "label": "Accounts (Firebase)",
