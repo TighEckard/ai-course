@@ -1,7 +1,7 @@
 {
  "name": "Footy",
- "updated": "2026-11-24T03:25:00Z",
- "notes": "Footy. Firebase, Play (data through 2026-11-22) and website read live 2026-11-24 03:20 UTC. iOS numbers are n/a, needs login (App Store Connect signed out), kept from the 2026-11-21 17:30 UTC read. UTC",
+ "updated": "2026-11-24T04:22:00Z",
+ "notes": "Footy. Firebase, Play (data through 2026-11-22) and website read live 2026-11-24 04:20 UTC. iOS numbers are n/a, needs login (App Store Connect signed out), kept from the 2026-11-21 17:30 UTC read. UTC",
  "headline": [
   {
    "label": "Accounts (Firebase)",
