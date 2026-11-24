@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T04:28:07.367102Z",
+ "generated_at": "2026-11-24T05:23:48.185556Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -101,15 +101,15 @@
    "2026-11-22": 2,
    "2026-11-23": 5
   },
-  "all_views_7d": 1077,
-  "bot_views_7d": 1043,
+  "all_views_7d": 1074,
+  "bot_views_7d": 1042,
   "browsers_30d": {
    "?": 9,
    "Edge": 1,
    "Chrome": 45,
    "Safari": 9
   },
-  "generated_at": "2026-11-24T04:28:07.817813+00:00",
+  "generated_at": "2026-11-24T05:23:49.028041+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -337,7 +337,7 @@
   },
   "avg_time_sec_30d": 47,
   "new_visitors_30d": 53,
-  "real_sessions_7d": 36,
+  "real_sessions_7d": 34,
   "real_sources_30d": {
    "g1-a": 4,
    "g1-b": 2,
@@ -356,7 +356,7 @@
    "t5-c-yvafybat-yy6": 2
   },
   "real_visitors_1d": 5,
-  "real_visitors_7d": 33,
+  "real_visitors_7d": 32,
   "landing_pages_30d": {
    "/": 41,
    "?": 9,
@@ -882,7 +882,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-24T04:28:07.367102Z"
+  "checked_at": "2026-11-24T05:23:48.185556Z"
  },
  "checks": [
   {
@@ -893,7 +893,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "33 real people this week; 1043 of 1077 page views were bots, crawlers or testing and are excluded"
+   "detail": "32 real people this week; 1042 of 1074 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -902,13 +902,13 @@
   },
   {
    "name": "Posting",
-   "ok": false,
+   "ok": true,
    "detail": "YouTube 0/2 planned posts found live on the channel today"
   },
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Footy",
@@ -918,61 +918,61 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Robotics",
    "ok": true,
-   "detail": "numbers last refreshed 5h ago"
+   "detail": "numbers last refreshed 6h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   }
  ],
  "posting": {
-  "date": "2026-11-23",
-  "now_et": "11:28 PM",
+  "date": "2026-11-24",
+  "now_et": "12:24 AM",
   "today": {
    "youtube": {
     "planned": 2,
     "done": 0,
     "verified": true,
-    "overdue": 2,
+    "overdue": 0,
     "items": [
      {
-      "title": "Your Netflix is on hold? Don't tap it #Shorts",
-      "id": "netflix34a",
-      "when": "2026-11-23T07:30:00-05:00",
+      "title": "Your Social Security is suspended? Hang up #Shorts",
+      "id": "ssn35a",
+      "when": "2026-11-24T07:30:00-05:00",
       "slot": "am",
       "done": false,
       "verified": true,
-      "due": true
+      "due": false
      },
      {
-      "title": "Computer locked, call this number? It's a scam",
-      "id": "lockpc34b",
-      "when": "2026-11-23T22:30:00-05:00",
+      "title": "Grandma, it's me, I need bail money. Is it real?",
+      "id": "bail35b",
+      "when": "2026-11-24T22:30:00-05:00",
       "slot": "pm",
       "done": false,
       "verified": true,
-      "due": true
+      "due": false
      }
     ],
     "next": {
-     "title": "Your Netflix is on hold? Don't tap it #Shorts",
-     "id": "netflix34a",
-     "when": "2026-11-23T07:30:00-05:00",
+     "title": "Your Social Security is suspended? Hang up #Shorts",
+     "id": "ssn35a",
+     "when": "2026-11-24T07:30:00-05:00",
      "slot": "am",
      "done": false,
      "verified": true,
-     "due": true
+     "due": false
     }
    },
    "facebook": {
@@ -982,32 +982,32 @@
     "overdue": 0,
     "items": [
      {
-      "title": "Your Netflix is on hold? Don't tap it #Shorts",
-      "id": "netflix34a",
-      "when": "2026-11-23T07:30:00-05:00",
+      "title": "Your Social Security is suspended? Hang up #Shorts",
+      "id": "ssn35a",
+      "when": "2026-11-24T07:30:00-05:00",
       "slot": "am",
       "done": null,
       "verified": false,
-      "due": true
+      "due": false
      },
      {
-      "title": "Computer locked, call this number? It's a scam",
-      "id": "lockpc34b",
-      "when": "2026-11-23T22:30:00-05:00",
+      "title": "Grandma, it's me, I need bail money. Is it real?",
+      "id": "bail35b",
+      "when": "2026-11-24T22:30:00-05:00",
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": true
+      "due": false
      }
     ],
     "next": {
-     "title": "Your Netflix is on hold? Don't tap it #Shorts",
-     "id": "netflix34a",
-     "when": "2026-11-23T07:30:00-05:00",
+     "title": "Your Social Security is suspended? Hang up #Shorts",
+     "id": "ssn35a",
+     "when": "2026-11-24T07:30:00-05:00",
      "slot": "am",
      "done": null,
      "verified": false,
-     "due": true
+     "due": false
     }
    },
    "instagram": {
@@ -1017,36 +1017,82 @@
     "overdue": 0,
     "items": [
      {
-      "title": "Your Netflix is on hold? Don't tap it #Shorts",
-      "id": "netflix34a",
-      "when": "2026-11-23T07:30:00-05:00",
+      "title": "Your Social Security is suspended? Hang up #Shorts",
+      "id": "ssn35a",
+      "when": "2026-11-24T07:30:00-05:00",
       "slot": "am",
       "done": null,
       "verified": false,
-      "due": true
+      "due": false
      },
      {
-      "title": "Computer locked, call this number? It's a scam",
-      "id": "lockpc34b",
-      "when": "2026-11-23T22:30:00-05:00",
+      "title": "Grandma, it's me, I need bail money. Is it real?",
+      "id": "bail35b",
+      "when": "2026-11-24T22:30:00-05:00",
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": true
+      "due": false
      }
     ],
     "next": {
-     "title": "Your Netflix is on hold? Don't tap it #Shorts",
-     "id": "netflix34a",
-     "when": "2026-11-23T07:30:00-05:00",
+     "title": "Your Social Security is suspended? Hang up #Shorts",
+     "id": "ssn35a",
+     "when": "2026-11-24T07:30:00-05:00",
      "slot": "am",
      "done": null,
      "verified": false,
-     "due": true
+     "due": false
     }
    }
   },
   "history": [
+   {
+    "date": "2026-11-24",
+    "slot": "am",
+    "title": "Your Social Security is suspended? Hang up #Shorts",
+    "format": "slang v2 scam sting",
+    "platforms": [
+     {
+      "p": "youtube",
+      "status": "scheduled",
+      "url": null
+     },
+     {
+      "p": "facebook",
+      "status": "unverified",
+      "url": null
+     },
+     {
+      "p": "instagram",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
+   {
+    "date": "2026-11-24",
+    "slot": "pm",
+    "title": "Grandma, it's me, I need bail money. Is it real?",
+    "format": "slang v2 scam sting",
+    "platforms": [
+     {
+      "p": "youtube",
+      "status": "scheduled",
+      "url": null
+     },
+     {
+      "p": "facebook",
+      "status": "unverified",
+      "url": null
+     },
+     {
+      "p": "instagram",
+      "status": "unverified",
+      "url": null
+     }
+    ]
+   },
    {
     "date": "2026-11-23",
     "slot": "am",
@@ -1369,53 +1415,6 @@
       "url": null
      }
     ]
-   },
-   {
-    "date": "2026-11-16",
-    "slot": "am",
-    "title": "Medicare is texting you? Don't reply #Shorts",
-    "format": "slang v2 scam sting",
-    "platforms": [
-     {
-      "p": "youtube",
-      "status": "live",
-      "url": "https://youtube.com/shorts/GTcoR5hC3is",
-      "views": 16
-     },
-     {
-      "p": "facebook",
-      "status": "unverified",
-      "url": null
-     },
-     {
-      "p": "instagram",
-      "status": "unverified",
-      "url": null
-     }
-    ]
-   },
-   {
-    "date": "2026-11-16",
-    "slot": "pm",
-    "title": "The call that sounds just like your grandson",
-    "format": "slang v2 scam sting",
-    "platforms": [
-     {
-      "p": "youtube",
-      "status": "missing",
-      "url": null
-     },
-     {
-      "p": "facebook",
-      "status": "unverified",
-      "url": null
-     },
-     {
-      "p": "instagram",
-      "status": "unverified",
-      "url": null
-     }
-    ]
    }
   ],
   "yt_by_day": {
@@ -1439,5 +1438,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-24T04:28:07.367102Z"
+ "checked_at": "2026-11-24T05:23:48.185556Z"
 }
