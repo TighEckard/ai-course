@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T16:28:24.264235Z",
+ "generated_at": "2026-11-24T17:22:43.938873Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -102,15 +102,15 @@
    "2026-11-23": 5,
    "2026-11-24": 1
   },
-  "all_views_7d": 1071,
-  "bot_views_7d": 1039,
+  "all_views_7d": 1057,
+  "bot_views_7d": 1025,
   "browsers_30d": {
    "?": 9,
    "Edge": 1,
    "Chrome": 45,
    "Safari": 10
   },
-  "generated_at": "2026-11-24T16:28:24.751066+00:00",
+  "generated_at": "2026-11-24T17:22:44.942909+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -882,7 +882,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-24T16:28:24.264235Z"
+  "checked_at": "2026-11-24T17:22:43.938873Z"
  },
  "checks": [
   {
@@ -893,7 +893,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "31 real people this week; 1039 of 1071 page views were bots, crawlers or testing and are excluded"
+   "detail": "31 real people this week; 1025 of 1057 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -908,7 +908,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Footy",
@@ -918,27 +918,27 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Robotics",
    "ok": true,
-   "detail": "numbers last refreshed 9h ago"
+   "detail": "numbers last refreshed 10h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 7h ago"
+   "detail": "numbers last refreshed 8h ago"
   }
  ],
  "posting": {
   "date": "2026-11-24",
-  "now_et": "11:28 AM",
+  "now_et": "12:23 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1438,5 +1438,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-24T16:28:24.264235Z"
+ "checked_at": "2026-11-24T17:22:43.938873Z"
 }
