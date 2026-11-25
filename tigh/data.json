@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T05:27:48.451372Z",
+ "generated_at": "2026-11-25T06:06:44.778990Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -102,15 +102,15 @@
    "2026-11-23": 5,
    "2026-11-24": 1
   },
-  "all_views_7d": 658,
-  "bot_views_7d": 626,
+  "all_views_7d": 657,
+  "bot_views_7d": 625,
   "browsers_30d": {
    "?": 9,
    "Edge": 1,
    "Chrome": 45,
    "Safari": 10
   },
-  "generated_at": "2026-11-25T05:27:48.802152+00:00",
+  "generated_at": "2026-11-25T06:06:45.489021+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -882,7 +882,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-25T05:27:48.451372Z"
+  "checked_at": "2026-11-25T06:06:44.778990Z"
  },
  "checks": [
   {
@@ -893,7 +893,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "31 real people this week; 626 of 658 page views were bots, crawlers or testing and are excluded"
+   "detail": "31 real people this week; 625 of 657 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -908,32 +908,32 @@
   {
    "name": "Footy",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Robotics",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 5h ago"
+   "detail": "numbers last refreshed 6h ago"
   }
  ],
  "posting": {
   "date": "2026-11-25",
-  "now_et": "12:28 AM",
+  "now_et": "1:07 AM",
   "today": {},
   "history": [
    {
@@ -1280,5 +1280,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-25T05:27:48.451372Z"
+ "checked_at": "2026-11-25T06:06:44.778990Z"
 }
