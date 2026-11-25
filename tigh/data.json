@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T16:22:06.895223Z",
+ "generated_at": "2026-11-25T16:28:16.053072Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -102,15 +102,15 @@
    "2026-11-23": 5,
    "2026-11-24": 1
   },
-  "all_views_7d": 640,
-  "bot_views_7d": 612,
+  "all_views_7d": 641,
+  "bot_views_7d": 613,
   "browsers_30d": {
    "?": 9,
    "Edge": 1,
    "Chrome": 45,
    "Safari": 10
   },
-  "generated_at": "2026-11-25T16:22:07.671188+00:00",
+  "generated_at": "2026-11-25T16:28:16.516759+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -344,7 +344,7 @@
    "g1-b": 2,
    "g1-c": 3,
    "pod5": 1,
-   "direct": 21,
+   "direct": 20,
    "google": 13,
    "facebook": 4,
    "pinterest": 1,
@@ -352,6 +352,7 @@
    "bedrock-direct": 10,
    "bedrock-google": 1,
    "bedrock-youtube": 1,
+   "g2-p-lifelong-ll3": 1,
    "t5-c-yvafybat-446": 2,
    "t5-c-yvafybat-yy6": 2
   },
@@ -882,7 +883,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-25T16:22:06.895223Z"
+  "checked_at": "2026-11-25T16:28:16.053072Z"
  },
  "checks": [
   {
@@ -893,7 +894,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "29 real people this week; 612 of 640 page views were bots, crawlers or testing and are excluded"
+   "detail": "29 real people this week; 613 of 641 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -923,7 +924,7 @@
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Study creators",
@@ -933,7 +934,7 @@
  ],
  "posting": {
   "date": "2026-11-25",
-  "now_et": "11:22 AM",
+  "now_et": "11:28 AM",
   "today": {},
   "history": [
    {
@@ -1280,5 +1281,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-25T16:22:06.895223Z"
+ "checked_at": "2026-11-25T16:28:16.053072Z"
 }
