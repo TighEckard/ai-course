@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T08:28:35.561240Z",
+ "generated_at": "2026-11-25T09:06:32.058246Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -102,15 +102,15 @@
    "2026-11-23": 5,
    "2026-11-24": 1
   },
-  "all_views_7d": 655,
-  "bot_views_7d": 623,
+  "all_views_7d": 649,
+  "bot_views_7d": 620,
   "browsers_30d": {
    "?": 9,
    "Edge": 1,
    "Chrome": 45,
    "Safari": 10
   },
-  "generated_at": "2026-11-25T08:28:35.970114+00:00",
+  "generated_at": "2026-11-25T09:06:32.801724+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -338,7 +338,7 @@
   },
   "avg_time_sec_30d": 46,
   "new_visitors_30d": 54,
-  "real_sessions_7d": 33,
+  "real_sessions_7d": 31,
   "real_sources_30d": {
    "g1-a": 4,
    "g1-b": 2,
@@ -356,7 +356,7 @@
    "t5-c-yvafybat-yy6": 2
   },
   "real_visitors_1d": 1,
-  "real_visitors_7d": 31,
+  "real_visitors_7d": 30,
   "landing_pages_30d": {
    "/": 42,
    "?": 9,
@@ -374,7 +374,7 @@
   "test_members_excluded": 1,
   "test_signups_excluded": 2,
   "returning_visitors_30d": 15,
-  "roofing_real_visitors_7d": 11
+  "roofing_real_visitors_7d": 10
  },
  "youtube": {
   "total_views": 9206,
@@ -882,7 +882,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-25T08:28:35.561240Z"
+  "checked_at": "2026-11-25T09:06:32.058246Z"
  },
  "checks": [
   {
@@ -893,7 +893,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "31 real people this week; 623 of 655 page views were bots, crawlers or testing and are excluded"
+   "detail": "30 real people this week; 620 of 649 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -908,32 +908,32 @@
   {
    "name": "Footy",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Robotics",
    "ok": true,
-   "detail": "numbers last refreshed 4h ago"
+   "detail": "numbers last refreshed 5h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 8h ago"
+   "detail": "numbers last refreshed 9h ago"
   }
  ],
  "posting": {
   "date": "2026-11-25",
-  "now_et": "3:29 AM",
+  "now_et": "4:07 AM",
   "today": {},
   "history": [
    {
@@ -1280,5 +1280,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-25T08:28:35.561240Z"
+ "checked_at": "2026-11-25T09:06:32.058246Z"
 }
