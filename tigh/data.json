@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T04:28:36.351290Z",
+ "generated_at": "2026-11-25T05:22:29.028259Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -110,7 +110,7 @@
    "Chrome": 45,
    "Safari": 10
   },
-  "generated_at": "2026-11-25T04:28:37.00907+00:00",
+  "generated_at": "2026-11-25T05:22:29.816445+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -882,7 +882,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-25T04:28:36.351290Z"
+  "checked_at": "2026-11-25T05:22:29.028259Z"
  },
  "checks": [
   {
@@ -901,14 +901,9 @@
    "detail": "4 Riside signups and 0 roofing leads counted straight from the database"
   },
   {
-   "name": "Posting",
-   "ok": false,
-   "detail": "YouTube 0/2 planned posts found live on the channel today"
-  },
-  {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 4h ago"
+   "detail": "numbers last refreshed 5h ago"
   },
   {
    "name": "Footy",
@@ -918,134 +913,28 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Robotics",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 4h ago"
+   "detail": "numbers last refreshed 5h ago"
   }
  ],
  "posting": {
-  "date": "2026-11-24",
-  "now_et": "11:29 PM",
-  "today": {
-   "youtube": {
-    "planned": 2,
-    "done": 0,
-    "verified": true,
-    "overdue": 2,
-    "items": [
-     {
-      "title": "Your Social Security is suspended? Hang up #Shorts",
-      "id": "ssn35a",
-      "when": "2026-11-24T07:30:00-05:00",
-      "slot": "am",
-      "done": false,
-      "verified": true,
-      "due": true
-     },
-     {
-      "title": "Grandma, it's me, I need bail money. Is it real?",
-      "id": "bail35b",
-      "when": "2026-11-24T22:30:00-05:00",
-      "slot": "pm",
-      "done": false,
-      "verified": true,
-      "due": true
-     }
-    ],
-    "next": {
-     "title": "Your Social Security is suspended? Hang up #Shorts",
-     "id": "ssn35a",
-     "when": "2026-11-24T07:30:00-05:00",
-     "slot": "am",
-     "done": false,
-     "verified": true,
-     "due": true
-    }
-   },
-   "facebook": {
-    "planned": 2,
-    "done": 0,
-    "verified": false,
-    "overdue": 0,
-    "items": [
-     {
-      "title": "Your Social Security is suspended? Hang up #Shorts",
-      "id": "ssn35a",
-      "when": "2026-11-24T07:30:00-05:00",
-      "slot": "am",
-      "done": null,
-      "verified": false,
-      "due": true
-     },
-     {
-      "title": "Grandma, it's me, I need bail money. Is it real?",
-      "id": "bail35b",
-      "when": "2026-11-24T22:30:00-05:00",
-      "slot": "pm",
-      "done": null,
-      "verified": false,
-      "due": true
-     }
-    ],
-    "next": {
-     "title": "Your Social Security is suspended? Hang up #Shorts",
-     "id": "ssn35a",
-     "when": "2026-11-24T07:30:00-05:00",
-     "slot": "am",
-     "done": null,
-     "verified": false,
-     "due": true
-    }
-   },
-   "instagram": {
-    "planned": 2,
-    "done": 0,
-    "verified": false,
-    "overdue": 0,
-    "items": [
-     {
-      "title": "Your Social Security is suspended? Hang up #Shorts",
-      "id": "ssn35a",
-      "when": "2026-11-24T07:30:00-05:00",
-      "slot": "am",
-      "done": null,
-      "verified": false,
-      "due": true
-     },
-     {
-      "title": "Grandma, it's me, I need bail money. Is it real?",
-      "id": "bail35b",
-      "when": "2026-11-24T22:30:00-05:00",
-      "slot": "pm",
-      "done": null,
-      "verified": false,
-      "due": true
-     }
-    ],
-    "next": {
-     "title": "Your Social Security is suspended? Hang up #Shorts",
-     "id": "ssn35a",
-     "when": "2026-11-24T07:30:00-05:00",
-     "slot": "am",
-     "done": null,
-     "verified": false,
-     "due": true
-    }
-   }
-  },
+  "date": "2026-11-25",
+  "now_et": "12:23 AM",
+  "today": {},
   "history": [
    {
     "date": "2026-11-24",
@@ -1368,53 +1257,6 @@
       "url": null
      }
     ]
-   },
-   {
-    "date": "2026-11-17",
-    "slot": "am",
-    "title": "Your Amazon account is locked? Read this first #Shorts",
-    "format": "slang v2 scam sting",
-    "platforms": [
-     {
-      "p": "youtube",
-      "status": "live",
-      "url": "https://youtube.com/shorts/m0W4dx-Yyq4",
-      "views": 29
-     },
-     {
-      "p": "facebook",
-      "status": "unverified",
-      "url": null
-     },
-     {
-      "p": "instagram",
-      "status": "unverified",
-      "url": null
-     }
-    ]
-   },
-   {
-    "date": "2026-11-17",
-    "slot": "pm",
-    "title": "The IRS will never ask you for gift cards",
-    "format": "slang v2 scam sting",
-    "platforms": [
-     {
-      "p": "youtube",
-      "status": "missing",
-      "url": null
-     },
-     {
-      "p": "facebook",
-      "status": "unverified",
-      "url": null
-     },
-     {
-      "p": "instagram",
-      "status": "unverified",
-      "url": null
-     }
-    ]
    }
   ],
   "yt_by_day": {
@@ -1438,5 +1280,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-25T04:28:36.351290Z"
+ "checked_at": "2026-11-25T05:22:29.028259Z"
 }
