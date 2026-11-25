@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T22:27:46.882706Z",
+ "generated_at": "2026-11-25T23:26:36.685176Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -103,15 +103,15 @@
    "2026-11-24": 1,
    "2026-11-25": 2
   },
-  "all_views_7d": 480,
-  "bot_views_7d": 448,
+  "all_views_7d": 470,
+  "bot_views_7d": 438,
   "browsers_30d": {
    "?": 9,
    "Edge": 1,
    "Chrome": 47,
    "Safari": 10
   },
-  "generated_at": "2026-11-25T22:27:47.17853+00:00",
+  "generated_at": "2026-11-25T23:26:37.658928+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -883,7 +883,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-25T22:27:46.882706Z"
+  "checked_at": "2026-11-25T23:26:36.685176Z"
  },
  "checks": [
   {
@@ -894,7 +894,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "30 real people this week; 448 of 480 page views were bots, crawlers or testing and are excluded"
+   "detail": "30 real people this week; 438 of 470 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -904,37 +904,37 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 4h ago"
   },
   {
    "name": "Footy",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Robotics",
    "ok": false,
-   "detail": "numbers last refreshed 18h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 19h ago (older than 12h, flagged stale)"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 22h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 23h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-25",
-  "now_et": "5:28 PM",
+  "now_et": "6:27 PM",
   "today": {},
   "history": [
    {
@@ -1281,5 +1281,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-25T22:27:46.882706Z"
+ "checked_at": "2026-11-25T23:26:36.685176Z"
 }
