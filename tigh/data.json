@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T17:28:01.751661Z",
+ "generated_at": "2026-11-25T18:06:59.351075Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -8,7 +8,7 @@
    "Linux": 2,
    "macOS": 1,
    "Android": 5,
-   "Windows": 31,
+   "Windows": 32,
    "ChromeOS": 1
   },
   "real_rule": "real = scrolled 25%+, stayed 10s+, clicked or signed up; bots, crawlers, testing and the owner removed",
@@ -24,7 +24,7 @@
    "09": 11,
    "10": 5,
    "11": 8,
-   "12": 1,
+   "12": 2,
    "13": 2,
    "14": 1,
    "15": 6,
@@ -53,19 +53,19 @@
   "clicks_30d": {
    "?": 11,
    "a:gcal": 2,
+   "a:hbtn": 1,
    "input:name": 2,
-   "form:filled qa": 1,
-   "form:filled qn": 1,
+   "a:California": 1,
+   "a:How it works": 1,
    "a:Save my free seat": 1,
-   "a:Join the free class": 1,
    "a:Reserve a free seat": 1,
    "summary:What does it cost?": 5,
-   "summary:Do I need experience?": 4
+   "summary:Do I need experience?": 5
   },
   "funnel_30d": {
    "paid": 0,
-   "engaged": 34,
-   "visitors": 65,
+   "engaged": 35,
+   "visitors": 66,
    "signed_up": 4,
    "opened_join": 0
   },
@@ -76,7 +76,7 @@
    "?": 9,
    "mobile": 20,
    "tablet": 1,
-   "desktop": 35
+   "desktop": 36
   },
   "messages_7d": 0,
   "real_by_day": {
@@ -100,17 +100,18 @@
    "2026-11-21": 7,
    "2026-11-22": 2,
    "2026-11-23": 5,
-   "2026-11-24": 1
+   "2026-11-24": 1,
+   "2026-11-25": 1
   },
-  "all_views_7d": 610,
-  "bot_views_7d": 582,
+  "all_views_7d": 565,
+  "bot_views_7d": 533,
   "browsers_30d": {
    "?": 9,
    "Edge": 1,
-   "Chrome": 45,
+   "Chrome": 46,
    "Safari": 10
   },
-  "generated_at": "2026-11-25T17:28:02.287394+00:00",
+  "generated_at": "2026-11-25T18:07:00.106582+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -122,9 +123,19 @@
   "countries_30d": {
    "?": 12,
    "Canada": 3,
-   "United States": 50
+   "United States": 51
   },
   "recent_visits": [
+   {
+    "t": "2026-11-25T17:55:13.276056+00:00",
+    "dev": "desktop",
+    "src": "chatgpt.com",
+    "land": "/",
+    "secs": 62,
+    "pages": 4,
+    "place": "San Francisco, California",
+    "scroll": 100
+   },
    {
     "t": "2026-11-24T15:13:43.939005+00:00",
     "dev": "mobile",
@@ -264,31 +275,21 @@
     "pages": 1,
     "place": "Chase City, Virginia",
     "scroll": 38
-   },
-   {
-    "t": "2026-11-21T16:07:51.692459+00:00",
-    "dev": "desktop",
-    "src": "g1-b",
-    "land": "/",
-    "secs": 5,
-    "pages": 1,
-    "place": "Phoenix, Arizona",
-    "scroll": 38
    }
   ],
   "referrers_30d": {
-   "(none)": 46,
+   "(none)": 47,
    "google.com": 14,
    "facebook.com": 4,
    "pinterest.com": 1
   },
   "roofing_total": 0,
   "signups_total": 4,
-  "avg_scroll_30d": 52,
-  "bounce_pct_30d": 74,
+  "avg_scroll_30d": 53,
+  "bounce_pct_30d": 73,
   "messages_total": 0,
   "real_pages_30d": {
-   "/": 47,
+   "/": 51,
    "/roofing": 20
   },
   "recent_signups": [
@@ -336,33 +337,34 @@
    "Thursday, 7:00 PM": 1,
    "Saturday, 10:00 AM": 1
   },
-  "avg_time_sec_30d": 46,
-  "new_visitors_30d": 54,
-  "real_sessions_7d": 30,
+  "avg_time_sec_30d": 47,
+  "new_visitors_30d": 55,
+  "real_sessions_7d": 31,
   "real_sources_30d": {
    "g1-a": 4,
    "g1-b": 2,
    "g1-c": 3,
    "pod5": 1,
-   "direct": 21,
+   "direct": 20,
    "google": 13,
    "facebook": 4,
    "pinterest": 1,
-   "chatgpt.com": 1,
+   "chatgpt.com": 2,
    "bedrock-direct": 10,
    "bedrock-google": 1,
    "bedrock-youtube": 1,
+   "g2-p-lifelong-ll3": 1,
    "t5-c-yvafybat-446": 2,
    "t5-c-yvafybat-yy6": 2
   },
-  "real_visitors_1d": 0,
-  "real_visitors_7d": 29,
+  "real_visitors_1d": 1,
+  "real_visitors_7d": 30,
   "landing_pages_30d": {
-   "/": 42,
+   "/": 43,
    "?": 9,
    "/roofing": 18
   },
-  "real_visitors_30d": 65,
+  "real_visitors_30d": 66,
   "signups_by_source": {
    "direct": 1,
    "pinterest": 1,
@@ -370,7 +372,7 @@
    "ref:com.google.android.googlequicksearchbox": 1
   },
   "messages_unanswered": 0,
-  "real_visitors_total": 65,
+  "real_visitors_total": 66,
   "test_members_excluded": 1,
   "test_signups_excluded": 2,
   "returning_visitors_30d": 15,
@@ -402,8 +404,8 @@
     "title": "Grandkid said it's bussin? Translated #Shorts",
     "url": "https://youtube.com/shorts/hjJIzapOj24",
     "views": 963,
-    "exact": false,
-    "published": "2026-11-01"
+    "published": "2026-11-01",
+    "exact": true
    }
   ],
   "recent": [
@@ -551,223 +553,223 @@
    }
   ],
   "catalog": true,
-  "exact_videos": 0,
+  "exact_videos": 39,
   "list": [
    {
     "id": "m0W4dx-Yyq4",
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://youtube.com/shorts/m0W4dx-Yyq4",
     "views": 29,
-    "exact": false,
-    "published": "2026-11-17T12:41:33+00:00"
+    "published": "2026-11-17",
+    "exact": true
    },
    {
     "id": "YQsRiuD4170",
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://youtube.com/shorts/YQsRiuD4170",
     "views": 33,
-    "exact": false,
-    "published": "2026-11-17T12:35:30+00:00"
+    "published": "2026-11-17",
+    "exact": true
    },
    {
     "id": "GTcoR5hC3is",
     "title": "Medicare is texting you? Don't reply #Shorts",
     "url": "https://youtube.com/shorts/GTcoR5hC3is",
     "views": 16,
-    "exact": false,
-    "published": "2026-11-16T09:25:28+00:00"
+    "published": "2026-11-16",
+    "exact": true
    },
    {
     "id": "TObzq6YBBiw",
     "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
     "url": "https://youtube.com/shorts/TObzq6YBBiw",
     "views": 349,
-    "exact": false,
-    "published": "2026-11-15T12:35:24+00:00"
+    "published": "2026-11-15",
+    "exact": true
    },
    {
     "id": "HsSq5MJ-juM",
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://youtube.com/shorts/HsSq5MJ-juM",
     "views": 98,
-    "exact": false,
-    "published": "2026-11-14T12:36:00+00:00"
+    "published": "2026-11-14",
+    "exact": true
    },
    {
     "id": "QSxj4gj4llM",
     "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
     "url": "https://youtube.com/shorts/QSxj4gj4llM",
     "views": 147,
-    "exact": false,
-    "published": "2026-11-13T23:36:47+00:00"
+    "published": "2026-11-13",
+    "exact": true
    },
    {
     "id": "gNvoRlgUQSg",
     "title": "Grandkid texted 'it's giving fake'? Translated",
     "url": "https://youtube.com/shorts/gNvoRlgUQSg",
     "views": 0,
-    "exact": false,
-    "published": "2026-11-12T12:37:56+00:00"
+    "published": "2026-11-12",
+    "exact": true
    },
    {
     "id": "dVX1bZdId60",
     "title": "Grandkid texted you 'that's lowkey sus'? Translated",
     "url": "https://youtube.com/shorts/dVX1bZdId60",
     "views": 0,
-    "exact": false,
-    "published": "2026-11-12T12:35:28+00:00"
+    "published": "2026-11-11",
+    "exact": true
    },
    {
     "id": "SJzm0VJglpg",
     "title": "Grandkid texted you 'that's lowkey sus'? Translated",
     "url": "https://youtube.com/shorts/SJzm0VJglpg",
     "views": 0,
-    "exact": false,
-    "published": "2026-11-11T20:02:23+00:00"
+    "published": "2026-11-11",
+    "exact": true
    },
    {
     "id": "3Z-cVhpVI3c",
     "title": "What to say when a scam caller pressures you",
     "url": "https://youtube.com/shorts/3Z-cVhpVI3c",
     "views": 1,
-    "exact": false,
-    "published": "2026-11-10T12:37:54+00:00"
+    "published": "2026-11-10",
+    "exact": true
    },
    {
     "id": "yf6HJrYj3ww",
     "title": "Scam or safe? Can you tell?",
     "url": "https://youtube.com/shorts/yf6HJrYj3ww",
     "views": 0,
-    "exact": false,
-    "published": "2026-11-10T02:40:17+00:00"
+    "published": "2026-11-10",
+    "exact": true
    },
    {
     "id": "BMZBrj5YJGs",
     "title": "What to say when a scam caller pressures you",
     "url": "https://youtube.com/shorts/BMZBrj5YJGs",
     "views": 14,
-    "exact": false,
-    "published": "2026-11-10T02:37:27+00:00"
+    "published": "2026-11-10",
+    "exact": true
    },
    {
     "id": "1L9U100WIN0",
     "title": "One phone setting that stops scam calls #Shorts",
     "url": "https://youtube.com/shorts/1L9U100WIN0",
     "views": 3,
-    "exact": false,
-    "published": "2026-11-09T20:59:54+00:00"
+    "published": "2026-11-09",
+    "exact": true
    },
    {
     "id": "1Z8d6CqPQHU",
     "title": "POV: everyone in the meeting is using AI #Shorts",
     "url": "https://youtube.com/shorts/1Z8d6CqPQHU",
     "views": 8,
-    "exact": false,
-    "published": "2026-11-09T20:56:29+00:00"
+    "published": "2026-11-09",
+    "exact": true
    },
    {
     "id": "-4fKye0-VjE",
     "title": "The email that could get you a $14k raise #Shorts",
     "url": "https://youtube.com/shorts/-4fKye0-VjE",
     "views": 1,
-    "exact": false,
-    "published": "2026-11-08T04:28:34+00:00"
+    "published": "2026-11-08",
+    "exact": true
    },
    {
     "id": "o-Cm_xmLloU",
     "title": "The email that could get you a $14k raise #Shorts",
     "url": "https://youtube.com/shorts/o-Cm_xmLloU",
     "views": 2,
-    "exact": false,
-    "published": "2026-11-08"
+    "published": "2026-11-08",
+    "exact": true
    },
    {
     "id": "tCjX_vTzg9I",
     "title": "The intern got promoted. He's 22. #Shorts",
     "url": "https://youtube.com/shorts/tCjX_vTzg9I",
     "views": 0,
-    "exact": false,
-    "published": "2026-11-08"
+    "published": "2026-11-08",
+    "exact": true
    },
    {
     "id": "aHFCFhbCeZk",
     "title": "Insurance letter in plain English with AI #Shorts",
     "url": "https://youtube.com/shorts/aHFCFhbCeZk",
     "views": 4,
-    "exact": false,
-    "published": "2026-11-08"
+    "published": "2026-11-08",
+    "exact": true
    },
    {
     "id": "O0DxIt_fQjA",
     "title": "Plan a whole trip with AI in a minute #Shorts",
     "url": "https://youtube.com/shorts/O0DxIt_fQjA",
     "views": 2,
-    "exact": false,
-    "published": "2026-11-08"
+    "published": "2026-11-08",
+    "exact": true
    },
    {
     "id": "wr1wnbtk9EM",
     "title": "Scam or safe? Can you spot it? #Shorts",
     "url": "https://youtube.com/shorts/wr1wnbtk9EM",
     "views": 0,
-    "exact": false,
-    "published": "2026-11-07"
+    "published": "2026-11-07",
+    "exact": true
    },
    {
     "id": "O0v42Pppyxo",
     "title": "Decode any confusing letter with AI in 3 steps #Shorts",
     "url": "https://youtube.com/shorts/O0v42Pppyxo",
     "views": 1,
-    "exact": false,
-    "published": "2026-11-07"
+    "published": "2026-11-07",
+    "exact": true
    },
    {
     "id": "Khk-oMwNaQQ",
     "title": "Stop typing on your phone. Just talk. #Shorts",
     "url": "https://youtube.com/shorts/Khk-oMwNaQQ",
     "views": 336,
-    "exact": false,
-    "published": "2026-11-05"
+    "published": "2026-11-05",
+    "exact": true
    },
    {
     "id": "sF0OHgEgq9E",
     "title": "Grandma, it's a vibe? Gen Z slang translated #Shorts",
     "url": "https://youtube.com/shorts/sF0OHgEgq9E",
     "views": 311,
-    "exact": false,
-    "published": "2026-11-05"
+    "published": "2026-11-05",
+    "exact": true
    },
    {
     "id": "EqSk3xo9tTg",
     "title": "Grandma, he ghosted me? Gen Z slang translated #Shorts",
     "url": "https://youtube.com/shorts/EqSk3xo9tTg",
     "views": 3,
-    "exact": false,
-    "published": "2026-11-04"
+    "published": "2026-11-04",
+    "exact": true
    },
    {
     "id": "DuTUAAUjx7Q",
     "title": "Grandma asks AI what to cook (pirate chef) #Shorts",
     "url": "https://youtube.com/shorts/DuTUAAUjx7Q",
     "views": 78,
-    "exact": false,
-    "published": "2026-11-04"
+    "published": "2026-11-04",
+    "exact": true
    },
    {
     "id": "vsjOK3cLpwo",
     "title": "Grandma, he ghosted me? Gen Z slang translated #Shorts",
     "url": "https://youtube.com/shorts/vsjOK3cLpwo",
     "views": 602,
-    "exact": false,
-    "published": "2026-11-04"
+    "published": "2026-11-04",
+    "exact": true
    },
    {
     "id": "TGZoeTOM7mc",
     "title": "Grandma almost forwarded a $500 gift card scam #Shorts",
     "url": "https://youtube.com/shorts/TGZoeTOM7mc",
     "views": 123,
-    "exact": false,
-    "published": "2026-11-03"
+    "published": "2026-11-03",
+    "exact": true
    },
    {
     "id": "9mRzsVeSNn4",
@@ -790,110 +792,110 @@
     "title": "Grandkid called you bestie? Translated #Shorts",
     "url": "https://youtube.com/shorts/BUodsaR44Gw",
     "views": 461,
-    "exact": false,
-    "published": "2026-11-01"
+    "published": "2026-11-01",
+    "exact": true
    },
    {
     "id": "ku-cxkxCR98",
     "title": "Grandkid said you're giving legend? Translated #Shorts",
     "url": "https://youtube.com/shorts/ku-cxkxCR98",
     "views": 543,
-    "exact": false,
-    "published": "2026-11-01"
+    "published": "2026-11-01",
+    "exact": true
    },
    {
     "id": "hjJIzapOj24",
     "title": "Grandkid said it's bussin? Translated #Shorts",
     "url": "https://youtube.com/shorts/hjJIzapOj24",
     "views": 963,
-    "exact": false,
-    "published": "2026-11-01"
+    "published": "2026-11-01",
+    "exact": true
    },
    {
     "id": "FtxyGZ_771Q",
     "title": "Grandkid said that was clutch? Translated #Shorts",
     "url": "https://youtube.com/shorts/FtxyGZ_771Q",
     "views": 933,
-    "exact": false,
-    "published": "2026-11-01"
+    "published": "2026-11-01",
+    "exact": true
    },
    {
     "id": "fb3EgepkM3w",
     "title": "Grandkid said you slayed? Translated #Shorts",
     "url": "https://youtube.com/shorts/fb3EgepkM3w",
     "views": 124,
-    "exact": false,
-    "published": "2026-10-31"
+    "published": "2026-10-31",
+    "exact": true
    },
    {
     "id": "eDt9NFCB3Gg",
     "title": "Grandkid said touch grass? Translated #Shorts",
     "url": "https://youtube.com/shorts/eDt9NFCB3Gg",
     "views": 138,
-    "exact": false,
-    "published": "2026-10-31"
+    "published": "2026-10-31",
+    "exact": true
    },
    {
     "id": "LG6Nfc2Bl5M",
     "title": "Is your grandkid calling you sus? Translated #Shorts",
     "url": "https://youtube.com/shorts/LG6Nfc2Bl5M",
     "views": 20,
-    "exact": false,
-    "published": "2026-10-31"
+    "published": "2026-10-31",
+    "exact": true
    },
    {
     "id": "T80t5oERuVU",
     "title": "Grandma, you're such a vibe? Translated #Shorts",
     "url": "https://youtube.com/shorts/T80t5oERuVU",
     "views": 65,
-    "exact": false,
-    "published": "2026-10-31"
+    "published": "2026-10-31",
+    "exact": true
    },
    {
     "id": "lRXGM46vjpk",
     "title": "4 slang words your grandkids say, translated #Shorts",
     "url": "https://youtube.com/shorts/lRXGM46vjpk",
     "views": 936,
-    "exact": false,
-    "published": null
+    "published": null,
+    "exact": true
    },
    {
     "id": "B0h7mqzcssY",
     "title": "Nana took an L? Grandma learns slang #Shorts",
     "url": "https://youtube.com/shorts/B0h7mqzcssY",
     "views": 475,
-    "exact": false,
-    "published": null
+    "published": null,
+    "exact": true
    },
    {
     "id": "QtHsxWyALPQ",
     "title": "Grandpa said it slaps?! Slang translated #Shorts",
     "url": "https://youtube.com/shorts/QtHsxWyALPQ",
     "views": 72,
-    "exact": false,
-    "published": null
+    "published": null,
+    "exact": true
    },
    {
     "id": "f8rEnPDi6cs",
     "title": "Now you speak fluent grandkid #shorts",
     "url": "https://youtube.com/shorts/f8rEnPDi6cs",
     "views": 15,
-    "exact": false,
-    "published": null
+    "published": null,
+    "exact": true
    }
   ],
-  "checked_at": "2026-11-25T17:28:01.751661Z"
+  "checked_at": "2026-11-25T18:06:59.351075Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "41 videos on the channel, 0 with exact counts (rest from the channel page, rounded) = 9206 views"
+   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9206 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "29 real people this week; 582 of 610 page views were bots, crawlers or testing and are excluded"
+   "detail": "30 real people this week; 533 of 565 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -908,32 +910,32 @@
   {
    "name": "Footy",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Robotics",
    "ok": false,
-   "detail": "numbers last refreshed 13h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 14h ago (older than 12h, flagged stale)"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 17h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 18h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-25",
-  "now_et": "12:28 PM",
+  "now_et": "1:07 PM",
   "today": {},
   "history": [
    {
@@ -1280,5 +1282,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-25T17:28:01.751661Z"
+ "checked_at": "2026-11-25T18:06:59.351075Z"
 }
