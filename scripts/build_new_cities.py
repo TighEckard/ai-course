@@ -35,7 +35,7 @@ for n,st in want:
     # nearby -> other cities in state
     others=[x for x in sorted(bystate[st],key=lambda x:hashlib.md5((x+d+'n').encode()).hexdigest()) if x!=tpl][:6]
     li=''.join('<li><a href="/ai-classes/%s/">%s, %s</a></li>'%(x,pages[x][0][0],st) for x in others)
-    s=re.sub(r'(<h2>)Nearby cities(</h2>.*?<ul class="related">).*?(</ul>)',lambda m:m.group(1)+'More cities in '+sn+m.group(2)+li+m.group(3),s,1,re.S)
+    s=re.sub(r'(<h2>)Nearby cities(</h2>.*?<ul class="related">).*?(</ul>)',lambda m:m.group(1)+'More cities in '+sn+m.group(2)+li+m.group(3),s,count=1,flags=re.S)
     os.makedirs('ai-classes/'+d); open('ai-classes/%s/index.html'%d,'w').write(s); added+=1
     sitemap_add+='  <url><loc>https://riside.com/ai-classes/%s/</loc><lastmod>%s</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>\n'%(d,today)
 if sitemap_add: open('sitemap.xml','w').write(sm.replace('</urlset>',sitemap_add+'</urlset>'))

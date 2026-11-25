@@ -275,3 +275,150 @@ Glastonbury|CT
 Newington|CT
 Cheshire|CT
 Vernon|CT
+Frisco|TX
+Carrollton|TX
+Allen|TX
+Mansfield|TX
+Georgetown|TX
+Killeen|TX
+Odessa|TX
+Midland|TX
+Edinburg|TX
+Victoria|TX
+League City|TX
+Missouri City|TX
+Baytown|TX
+The Woodlands|TX
+Katy|TX
+Spring|TX
+Cypress|TX
+Kyle|TX
+Texarkana|TX
+Paris|TX
+Huntsville|TX
+Santa Rosa|CA
+Concord|CA
+Santa Maria|CA
+Ventura|CA
+Lancaster|CA
+Corona|CA
+Ontario|CA
+San Marcos|CA
+Panama City|FL
+Melbourne|FL
+Port Saint Lucie|FL
+Naples|FL
+Saint Petersburg|FL
+Sanford|FL
+Hollywood|FL
+Miramar|FL
+Coral Springs|FL
+Plantation|FL
+Sunrise|FL
+Brandon|FL
+Fort Walton Beach|FL
+Augusta|GA
+Columbus|GA
+Macon|GA
+Albany|GA
+Roswell|GA
+Johns Creek|GA
+Smyrna|GA
+Sandy Springs|GA
+Dunwoody|GA
+Peachtree City|GA
+Duluth|GA
+Gainesville|GA
+Rome|GA
+Brunswick|GA
+Durham|NC
+Winston-Salem|NC
+Fayetteville|NC
+Wilmington|NC
+Concord|NC
+Greenville|NC
+Jacksonville|NC
+Burlington|NC
+Salisbury|NC
+Monroe|NC
+Columbia|SC
+Sumter|SC
+Florence|SC
+Anderson|SC
+Greer|SC
+Easley|SC
+Lexington|SC
+Fort Mill|SC
+Beaufort|SC
+Norfolk|VA
+Alexandria|VA
+Hampton|VA
+Portsmouth|VA
+Suffolk|VA
+Danville|VA
+Williamsburg|VA
+Allentown|PA
+Reading|PA
+York|PA
+Wilkes-Barre|PA
+Chester|PA
+Norristown|PA
+Lebanon|PA
+New Castle|PA
+Johnstown|PA
+West Chester|PA
+Pottstown|PA
+Levittown|PA
+Troy|NY
+Mount Vernon|NY
+Watertown|NY
+Jamestown|NY
+Kingston|NY
+Hempstead|NY
+Worcester|MA
+Springfield|MA
+Cambridge|MA
+Quincy|MA
+Fall River|MA
+Framingham|MA
+Medford|MA
+Taunton|MA
+Weymouth|MA
+Revere|MA
+Salem|MA
+Vancouver|WA
+Kent|WA
+Spokane Valley|WA
+Auburn|WA
+Pasco|WA
+Marysville|WA
+Lakewood|WA
+Richland|WA
+Springfield|OR
+Albany|OR
+Tigard|OR
+Oregon City|OR
+Redmond|OR
+Aurora|CO
+Lakewood|CO
+Thornton|CO
+Westminster|CO
+Centennial|CO
+Commerce City|CO
+Northglenn|CO
+Brighton|CO
+Englewood|CO
+Durango|CO
+Glendale|AZ
+Peoria|AZ
+Buckeye|AZ
+Lake Havasu City|AZ
+Oro Valley|AZ
+Bullhead City|AZ
+Henderson|NV
+Reno|NV
+Carson City|NV
+Fernley|NV
+Elko|NV
+Mesquite|NV
+Boulder City|NV
