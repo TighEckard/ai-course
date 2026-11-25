@@ -1,12 +1,12 @@
 {
  "name": "Ovoa",
- "updated": "2026-11-24T21:06:29Z",
- "notes": "Cold email via the Sender. Replies are unique senders and subjects in the Sender inbox. PC was offline at 21:06 UTC, so numbers are from the last successful refresh.",
+ "updated": "2026-11-25T00:06:49Z",
+ "notes": "Cold email via the Sender. Replies are unique senders and subjects in the Sender inbox.",
  "headline": [
   {
    "label": "Creator emails sent",
-   "value": 2357,
-   "sub": "0 today, 115 in 7d",
+   "value": 2361,
+   "sub": "4 today, 119 in 7d",
    "trend": [
     0,
     0,
@@ -21,12 +21,12 @@
     30,
     30,
     24,
-    0
+    4
    ]
   },
   {
    "label": "Replies",
-   "value": 262,
+   "value": 263,
    "sub": "11.1% of sent"
   },
   {
@@ -41,11 +41,11 @@
    "tiles": [
     {
      "label": "Sent all time",
-     "value": 2357
+     "value": 2361
     },
     {
      "label": "Sent last 7 days",
-     "value": 115
+     "value": 119
     },
     {
      "label": "Sender status",
@@ -85,7 +85,7 @@
       "2026-11-21": 30,
       "2026-11-22": 30,
       "2026-11-23": 24,
-      "2026-11-24": 0
+      "2026-11-24": 4
      },
      "days": 30
     }
@@ -93,11 +93,11 @@
    "funnel": [
     {
      "label": "Sent",
-     "value": 2357
+     "value": 2361
     },
     {
      "label": "Replied",
-     "value": 262
+     "value": 263
     }
    ],
    "tables": [
@@ -106,7 +106,7 @@
      "rows": [
       [
        "tryovoa.com",
-       2154
+       2158
       ],
       [
        "ovoateam.com",
