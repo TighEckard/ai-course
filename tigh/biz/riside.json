@@ -1,6 +1,6 @@
 {
  "name": "Riside",
- "updated": "2026-11-25T23:26:36.685176Z",
+ "updated": "2026-11-25T23:28:19.457358Z",
  "notes": "Written by the dashboard job (every 3 hours). Search Console clicks are not available (needs a Google login). Facebook, Instagram and Pinterest follower/view numbers need the PC collector.",
  "headline": [
   {
@@ -51,8 +51,8 @@
     },
     {
      "label": "Bot/test views filtered (7d)",
-     "value": 438,
-     "sub": "of 470 page views"
+     "value": 436,
+     "sub": "of 468 page views"
     },
     {
      "label": "Member messages",
