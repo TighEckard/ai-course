@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T18:28:26.670105Z",
+ "generated_at": "2026-11-25T18:44:19.395742Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -111,7 +111,7 @@
    "Chrome": 46,
    "Safari": 10
   },
-  "generated_at": "2026-11-25T18:28:27.245492+00:00",
+  "generated_at": "2026-11-25T18:44:19.888727+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -379,7 +379,7 @@
   "roofing_real_visitors_7d": 10
  },
  "youtube": {
-  "total_views": 9206,
+  "total_views": 9207,
   "videos": 41,
   "likes": 7,
   "top": [
@@ -567,7 +567,7 @@
     "id": "YQsRiuD4170",
     "title": "Your Amazon account is locked? Read this first #Shorts",
     "url": "https://youtube.com/shorts/YQsRiuD4170",
-    "views": 33,
+    "views": 34,
     "published": "2026-11-17",
     "exact": true
    },
@@ -884,13 +884,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-25T18:28:26.670105Z"
+  "checked_at": "2026-11-25T18:44:19.395742Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9206 views"
+   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9207 views"
   },
   {
    "name": "Website visitors",
@@ -905,7 +905,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Footy",
@@ -915,12 +915,12 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Robotics",
    "ok": false,
-   "detail": "numbers last refreshed 14h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 15h ago (older than 12h, flagged stale)"
   },
   {
    "name": "Roofing",
@@ -930,12 +930,12 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 18h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 19h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-25",
-  "now_et": "1:29 PM",
+  "now_et": "1:44 PM",
   "today": {},
   "history": [
    {
@@ -1282,5 +1282,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-25T18:28:26.670105Z"
+ "checked_at": "2026-11-25T18:44:19.395742Z"
 }
