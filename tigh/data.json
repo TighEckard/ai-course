@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T03:28:11.791490Z",
+ "generated_at": "2026-11-25T04:03:32.701951Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -110,7 +110,7 @@
    "Chrome": 45,
    "Safari": 10
   },
-  "generated_at": "2026-11-25T03:28:12.574066+00:00",
+  "generated_at": "2026-11-25T04:03:33.762612+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -882,7 +882,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-25T03:28:11.791490Z"
+  "checked_at": "2026-11-25T04:03:32.701951Z"
  },
  "checks": [
   {
@@ -918,33 +918,33 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Robotics",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 4h ago"
   }
  ],
  "posting": {
   "date": "2026-11-24",
-  "now_et": "10:28 PM",
+  "now_et": "11:04 PM",
   "today": {
    "youtube": {
     "planned": 2,
     "done": 0,
     "verified": true,
-    "overdue": 1,
+    "overdue": 2,
     "items": [
      {
       "title": "Your Social Security is suspended? Hang up #Shorts",
@@ -962,7 +962,7 @@
       "slot": "pm",
       "done": false,
       "verified": true,
-      "due": false
+      "due": true
      }
     ],
     "next": {
@@ -997,7 +997,7 @@
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": false
+      "due": true
      }
     ],
     "next": {
@@ -1032,7 +1032,7 @@
       "slot": "pm",
       "done": null,
       "verified": false,
-      "due": false
+      "due": true
      }
     ],
     "next": {
@@ -1438,5 +1438,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-25T03:28:11.791490Z"
+ "checked_at": "2026-11-25T04:03:32.701951Z"
 }
