@@ -1,22 +1,22 @@
 {
  "name": "Footy",
- "updated": "2026-11-25T22:22:14Z",
- "notes": "Footy. n/a, needs login: the eckartig0 Chrome (1226a35e) was not connected this run (only one other Chrome was online, not used), so Firebase users, Play installed audience, Cloudflare Web Analytics and App Store Connect numbers are old values. UTC",
+ "updated": "2026-11-25T22:45:00Z",
+ "notes": "Footy. Firebase, Play and App Store Connect refreshed this run. Cloudflare Web Analytics: n/a, needs login (old values kept). UTC",
  "headline": [
   {
    "label": "Accounts (Firebase)",
    "value": 5,
-   "sub": "total users (n/a, needs login; old value)"
+   "sub": "total users"
   },
   {
    "label": "iOS downloads",
-   "value": 88,
-   "sub": "first-time, since launch (n/a, needs login; old value)"
+   "value": 94,
+   "sub": "first-time, last 30 days through Nov 24"
   },
   {
    "label": "Android installs",
-   "value": 6,
-   "sub": "Play Console installed audience (n/a, needs login; old value, through Nov 22)"
+   "value": 7,
+   "sub": "Play Console installed audience, through Nov 23"
   },
   {
    "label": "joinfooty.com visits",
@@ -31,12 +31,12 @@
     {
      "label": "iOS",
      "value": "Live",
-     "sub": "v1.2.1 live, 1.3.0 in prep; 88 first-time downloads, 9 redownloads; Plus subs and revenue: none yet (n/a, needs login; old values)"
+     "sub": "v1.2.1 live, 1.3.0 ready for review; 94 first-time downloads (30 days), 9 redownloads; Plus subs and revenue: none yet"
     },
     {
      "label": "Android",
      "value": "Live",
-     "sub": "v1.1.0 on Google Play; 6 installed audience (n/a, needs login; old value, through Nov 22)"
+     "sub": "v1.1.0 on Google Play; 7 installed audience (through Nov 23)"
     }
    ]
   },
@@ -61,7 +61,7 @@
     {
      "label": "Firebase users",
      "value": 5,
-     "sub": "Firebase Auth (n/a, needs login; old value)"
+     "sub": "Firebase Auth"
     }
    ]
   }
