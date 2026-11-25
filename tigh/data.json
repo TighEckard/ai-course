@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T15:27:58.869866Z",
+ "generated_at": "2026-11-25T16:22:06.895223Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -102,7 +102,7 @@
    "2026-11-23": 5,
    "2026-11-24": 1
   },
-  "all_views_7d": 641,
+  "all_views_7d": 640,
   "bot_views_7d": 612,
   "browsers_30d": {
    "?": 9,
@@ -110,7 +110,7 @@
    "Chrome": 45,
    "Safari": 10
   },
-  "generated_at": "2026-11-25T15:27:59.538959+00:00",
+  "generated_at": "2026-11-25T16:22:07.671188+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -338,7 +338,7 @@
   },
   "avg_time_sec_30d": 46,
   "new_visitors_30d": 54,
-  "real_sessions_7d": 31,
+  "real_sessions_7d": 30,
   "real_sources_30d": {
    "g1-a": 4,
    "g1-b": 2,
@@ -356,7 +356,7 @@
    "t5-c-yvafybat-yy6": 2
   },
   "real_visitors_1d": 0,
-  "real_visitors_7d": 30,
+  "real_visitors_7d": 29,
   "landing_pages_30d": {
    "/": 42,
    "?": 9,
@@ -882,7 +882,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-25T15:27:58.869866Z"
+  "checked_at": "2026-11-25T16:22:06.895223Z"
  },
  "checks": [
   {
@@ -893,7 +893,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "30 real people this week; 612 of 641 page views were bots, crawlers or testing and are excluded"
+   "detail": "29 real people this week; 612 of 640 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -903,7 +903,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Footy",
@@ -913,27 +913,27 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Robotics",
-   "ok": true,
-   "detail": "numbers last refreshed 11h ago"
+   "ok": false,
+   "detail": "numbers last refreshed 12h ago (older than 12h, flagged stale)"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 15h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 16h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-25",
-  "now_et": "10:28 AM",
+  "now_et": "11:22 AM",
   "today": {},
   "history": [
    {
@@ -1280,5 +1280,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-25T15:27:58.869866Z"
+ "checked_at": "2026-11-25T16:22:06.895223Z"
 }
