@@ -1,7 +1,7 @@
 {
  "name": "Footy",
- "updated": "2026-11-25T08:22:00Z",
- "notes": "Footy. n/a, needs login: no Chrome was connected this run (the eckartig0 Chrome was offline), so Firebase users, Play installed audience, Cloudflare Web Analytics and App Store Connect numbers are all old values. UTC",
+ "updated": "2026-11-25T09:22:00Z",
+ "notes": "Footy. n/a, needs login: the eckartig0 Chrome was offline this run (only an unrelated browser was connected), so Firebase users, Play installed audience, Cloudflare Web Analytics and App Store Connect numbers are all old values. UTC",
  "headline": [
   {
    "label": "Accounts (Firebase)",
