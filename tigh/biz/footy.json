@@ -1,12 +1,12 @@
 {
  "name": "Footy",
- "updated": "2026-11-25T15:00:00Z",
- "notes": "Footy. Firebase users and Play installed audience are live (Play data through 2026-11-22). n/a, needs login: App Store Connect and Cloudflare Web Analytics showed login pages in the eckartig0 Chrome, so iOS and website numbers are old values. UTC",
+ "updated": "2026-11-25T04:22:01Z",
+ "notes": "Footy. n/a, needs login: the eckartig0 Chrome was not connected this run, so Firebase users, Play installed audience, Cloudflare Web Analytics and App Store Connect numbers are all old values. UTC",
  "headline": [
   {
    "label": "Accounts (Firebase)",
    "value": 5,
-   "sub": "total users"
+   "sub": "total users (n/a, needs login; old value)"
   },
   {
    "label": "iOS downloads",
@@ -16,7 +16,7 @@
   {
    "label": "Android installs",
    "value": 6,
-   "sub": "Play Console installed audience (through Nov 22)"
+   "sub": "Play Console installed audience (n/a, needs login; old value, through Nov 22)"
   },
   {
    "label": "joinfooty.com visits",
@@ -36,7 +36,7 @@
     {
      "label": "Android",
      "value": "Live",
-     "sub": "v1.1.0 on Google Play; 6 installed audience (through Nov 22)"
+     "sub": "v1.1.0 on Google Play; 6 installed audience (n/a, needs login; old value, through Nov 22)"
     }
    ]
   },
@@ -61,7 +61,7 @@
     {
      "label": "Firebase users",
      "value": 5,
-     "sub": "Firebase Auth"
+     "sub": "Firebase Auth (n/a, needs login; old value)"
     }
    ]
   }
