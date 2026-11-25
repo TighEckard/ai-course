@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T04:03:32.701951Z",
+ "generated_at": "2026-11-25T04:22:16.526136Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -110,7 +110,7 @@
    "Chrome": 45,
    "Safari": 10
   },
-  "generated_at": "2026-11-25T04:03:33.762612+00:00",
+  "generated_at": "2026-11-25T04:22:17.261733+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -882,7 +882,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-25T04:03:32.701951Z"
+  "checked_at": "2026-11-25T04:22:16.526136Z"
  },
  "checks": [
   {
@@ -908,7 +908,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 4h ago"
   },
   {
    "name": "Footy",
@@ -938,7 +938,7 @@
  ],
  "posting": {
   "date": "2026-11-24",
-  "now_et": "11:04 PM",
+  "now_et": "11:22 PM",
   "today": {
    "youtube": {
     "planned": 2,
@@ -1438,5 +1438,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-25T04:03:32.701951Z"
+ "checked_at": "2026-11-25T04:22:16.526136Z"
 }
