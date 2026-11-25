@@ -42,6 +42,7 @@ a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
 .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:middle}
 @media(max-width:560px){h1{font-size:28px}.val{font-size:28px}.c2{grid-template-columns:1fr}}
 .watch{display:inline-block;padding:4px 10px;border-radius:980px;background:var(--blue,#0071e3);color:#fff!important;text-decoration:none;font-size:12px;font-weight:600;white-space:nowrap}
+.h{grid-template-columns:repeat(auto-fill,minmax(300px,1fr));margin-top:20px}.home{display:block;color:inherit;text-decoration:none!important}.home .ct{font-size:17px;margin-bottom:14px}.big{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.big .v{font:700 44px/1 -apple-system,BlinkMacSystemFont,"SF Pro Display",Inter,sans-serif;letter-spacing:-.03em;font-variant-numeric:tabular-nums}.big .l{font-size:13px;color:var(--mut);margin-top:6px}@media(max-width:560px){.big .v{font-size:32px}.big .l{font-size:12px}}
 </style></head><body>
 <header><div class="hd"><h1>Dashboard</h1><div class="fresh" id="fresh">Loading…</div><div class="seg" id="nav"></div></div></header>
 <div class="wrap" id="app"></div>
@@ -66,17 +67,18 @@ const srcName=k=>({direct:'Direct / typed in',yt:'YouTube',fb:'Facebook',ig:'Ins
 const NAMES={youtube:'YouTube',facebook:'Facebook',instagram:'Instagram',pinterest:'Pinterest'},COL={youtube:'#ff0000',facebook:'#1877f2',instagram:'#d6249f',pinterest:'#e60023'};
 let D={},S=null,SAT=null,BIZ=[],cur=location.hash.slice(1)||'all';
 
-function overview(){const s=S||{},y=D.youtube||{},t=(D.posting||{}).today||{};
- const n=(l,v,sub)=>`<div class="n"><div class="l">${l}</div><div class="v">${fmt(v)}</div>${sub?`<div class="s">${sub}</div>`:''}</div>`;
- const pd=Object.values(t).reduce((a,v)=>a+(v.done||0),0),pp=Object.values(t).reduce((a,v)=>a+(v.planned||0),0),uv=Object.values(t).filter(v=>!v.verified).reduce((a,v)=>a+v.planned,0);
- let h=`<div class="card biz"><div class="ct">Riside <span>website ${SAT?'read from database '+ago(SAT):'not loaded'} · YouTube checked ${ago((D.youtube||{}).checked_at||(D.youtube||{}).stale_from||D.generated_at)}</span></div><div class="nums">
-  ${n('Real visitors today',s.real_visitors_1d,fmt(s.real_visitors_7d)+' this week')}${n('Real page views, 7 days',s.real_views_7d,fmt(s.real_views_total)+' all time')}${n('Real signups',s.signups_total,(s.test_signups_excluded||0)+' test signups hidden')}${n('Real paid members',s.paid_members,(s.test_members_excluded||0)+' test member hidden')}
-  ${n('Member messages',s.messages_total,fmt(s.messages_unanswered)+' unanswered')}${n('YouTube views',y.total_views,(y.videos||0)+' Shorts')}${n('Posts today',pp?pd+'/'+pp:null,uv?uv+' not verifiable yet':'all verified')}</div></div>
-  <div class="card biz"><div class="ct">Roofing <span>read from database ${ago(SAT)}</span></div><div class="nums">${n('Leads',s.roofing_total,fmt(s.roofing_7d)+' this week')}${n('Real visitors, 7 days',s.roofing_real_visitors_7d)}${(((BIZ.find(q=>q.slug==='roofing')||{}).data||{}).headline||[]).filter(q=>!/^(Leads|Page visits)/.test(q.label)).map(q=>n(esc(q.label),q.value,esc(q.sub||''))).join('')}</div></div>`;
- BIZ.filter(b=>b.slug!=='roofing').forEach(b=>{const x=b.data||{},all=[...(x.headline||[]),...(x.sections||[]).flatMap(q=>q.tiles||[])];
-  h+=`<div class="card biz"><div class="ct">${esc(b.name)} <span>${x.updated?'updated '+ago(x.updated):'waiting for data'}</span></div>${all.length?'<div class="nums">'+all.map(q=>n(esc(q.label),q.value,esc(q.sub||''))).join('')+'</div>':'<div class="empty">No numbers yet</div>'}</div>`});
- const ck=D.checks||[];h+=card('Data checks',ck.map(c=>`<div class="row" style="padding:8px 0;border-top:1px solid var(--line)"><span><span class="pill ${c.ok?'ok':'warn'}">${c.ok?'OK':'Check'}</span> <b style="font-weight:500">${esc(c.name)}</b></span><span class="sub" style="text-align:right">${esc(c.detail)}</span></div>`).join('')||'<div class="empty">No checks yet</div>','last run '+ago(D.checked_at));
- return h}
+function overview(){const s=S||{},t=(D.posting||{}).today||{};
+ const stale=u=>u&&(Date.now()-new Date(u))>432e5;
+ const home=(name,slug,nums,upd)=>`<a class="card home" href="#${slug}"><div class="ct">${esc(name)}${stale(upd)?'<span class="pill warn">Stale</span>':''}</div><div class="big">${nums.filter(q=>q.value!=null).slice(0,3).map(q=>`<div><div class="v">${fmt(q.value)}</div><div class="l">${esc(q.label)}</div></div>`).join('')||'<div class="empty">No numbers yet</div>'}</div></a>`;
+ const pick=(b,n)=>{const x=(b&&b.data)||{};return [...(x.headline||[]),...(x.sections||[]).flatMap(q=>q.tiles||[])].slice(0,n)};
+ let h='<div class="g h">'+home('Riside','riside',[{label:'Visitors today',value:s.real_visitors_1d},{label:'Signups',value:s.signups_total},{label:'Paid members',value:s.paid_members}],SAT);
+ BIZ.forEach(b=>{const x=b.data||{};
+  const nums=b.slug==='roofing'?[{label:'Leads',value:s.roofing_total},{label:'Visitors, 7 days',value:s.roofing_real_visitors_7d}]:pick(b,3);
+  h+=home(b.name,'b_'+b.slug,nums,x.updated)});
+ return h+'</div>'}
+
+function checks(){const ck=D.checks||[];
+ return card('Data checks',ck.map(c=>`<div class="row" style="padding:8px 0;border-top:1px solid var(--line)"><span><span class="pill ${c.ok?'ok':'warn'}">${c.ok?'OK':'Check'}</span> <b style="font-weight:500">${esc(c.name)}</b></span><span class="sub" style="text-align:right">${esc(c.detail)}</span></div>`).join('')||'<div class="empty">No checks yet</div>','last run '+ago(D.checked_at))}
 
 function riside(){const s=S||{},y=D.youtube||{},p=D.posting||{},up='Read from the database '+ago(SAT)+(SAT?' ('+clock(SAT)+')':''),yup='Views checked '+ago(y.checked_at||y.stale_from||D.generated_at)+(y.stale_from?' (YouTube did not answer the last check)':', refreshes hourly');
  if(!S)return '<div class="note">Website numbers could not be loaded from the database right now.</div>';
@@ -141,12 +143,12 @@ function bizHtml(b){const x=b.data||{},stale=x.updated&&(Date.now()-new Date(x.u
   if((q.tables||[]).length)h+='<div class="g c2" style="margin-top:14px">'+q.tables.map(t=>card(esc(t.title),`<table>${t.rows.map(r=>'<tr>'+r.map((c,i)=>`<td class="${i==r.length-1&&r.length>1?'r':''}">${esc(c)}</td>`).join('')+'</tr>').join('')}</table>`)).join('')+'</div>'});
  return h}
 
-function render(){const tabs=[['all','Overview'],['riside','Riside'],...BIZ.map(b=>['b_'+b.slug,b.name])];
+function render(){const tabs=[['all','Home'],['riside','Riside'],...BIZ.map(b=>['b_'+b.slug,b.name]),['checks','Checks']];
  if(!tabs.some(t=>t[0]===cur))cur='all';
  $('#nav').innerHTML=tabs.map(([k,l])=>`<button data-t="${k}" class="${k===cur?'on':''}">${esc(l)}</button>`).join('');
- $('#fresh').innerHTML=`Website ${SAT?'read from database '+ago(SAT):'not loaded'} · YouTube and posting checked ${ago(D.generated_at)} · refreshes automatically`;
+ $('#fresh').innerHTML=`Updated ${ago(SAT||D.generated_at)}`;
  const b=BIZ.find(x=>'b_'+x.slug===cur);
- $('#app').innerHTML=cur==='all'?sec('Everything','Hard numbers across every business')+overview():cur==='riside'?riside():b?bizHtml(b):''}
+ $('#app').innerHTML=cur==='all'?overview():cur==='checks'?checks():cur==='riside'?riside():b?bizHtml(b):''}
 $('#nav').onclick=e=>{const t=e.target.dataset&&e.target.dataset.t;if(t){cur=t;location.hash=t;render();scrollTo(0,0)}};
 async function load(){
  const [d,biz]=await Promise.all([fetch('data.json?'+Date.now()).then(r=>r.json()).catch(()=>({})),fetch('biz/index.json?'+Date.now()).then(r=>r.json()).catch(()=>[])]);
@@ -155,5 +157,5 @@ async function load(){
  if(!S&&D.site){S=D.site;SAT=D.generated_at}
  render()}
 addEventListener('hashchange',()=>{cur=location.hash.slice(1)||'all';render()});
-load();setInterval(load,120000);setInterval(()=>{$('#fresh').innerHTML=`Website ${SAT?'read from database '+ago(SAT):'not loaded'} · YouTube and posting checked ${ago(D.generated_at)} · refreshes automatically`},30000);
+load();setInterval(load,120000);setInterval(()=>{$('#fresh').innerHTML=`Updated ${ago(SAT||D.generated_at)}`},30000);
 </script></body></html>
