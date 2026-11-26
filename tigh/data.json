@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T04:28:40.914175Z",
+ "generated_at": "2026-11-26T05:28:21.341702Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -103,15 +103,15 @@
    "2026-11-24": 1,
    "2026-11-25": 2
   },
-  "all_views_7d": 396,
-  "bot_views_7d": 365,
+  "all_views_7d": 391,
+  "bot_views_7d": 360,
   "browsers_30d": {
    "?": 9,
    "Edge": 1,
    "Chrome": 47,
    "Safari": 10
   },
-  "generated_at": "2026-11-26T04:28:41.823546+00:00",
+  "generated_at": "2026-11-26T05:28:22.187926+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -884,7 +884,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-26T04:28:40.914175Z"
+  "checked_at": "2026-11-26T05:28:21.341702Z"
  },
  "checks": [
   {
@@ -895,7 +895,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "29 real people this week; 365 of 396 page views were bots, crawlers or testing and are excluded"
+   "detail": "29 real people this week; 360 of 391 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -905,22 +905,22 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 4h ago"
+   "detail": "numbers last refreshed 5h ago"
   },
   {
    "name": "Footy",
    "ok": true,
-   "detail": "numbers last refreshed 6h ago"
+   "detail": "numbers last refreshed 7h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Robotics",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 4h ago"
   },
   {
    "name": "Roofing",
@@ -930,12 +930,12 @@
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 4h ago"
+   "detail": "numbers last refreshed 5h ago"
   }
  ],
  "posting": {
-  "date": "2026-11-25",
-  "now_et": "11:29 PM",
+  "date": "2026-11-26",
+  "now_et": "12:28 AM",
   "today": {},
   "history": [
    {
@@ -1213,52 +1213,6 @@
       "url": null
      }
     ]
-   },
-   {
-    "date": "2026-11-18",
-    "slot": "am",
-    "title": "That scary virus pop-up? Do this instead #Shorts",
-    "format": "slang v2 scam sting",
-    "platforms": [
-     {
-      "p": "youtube",
-      "status": "missing",
-      "url": null
-     },
-     {
-      "p": "facebook",
-      "status": "unverified",
-      "url": null
-     },
-     {
-      "p": "instagram",
-      "status": "unverified",
-      "url": null
-     }
-    ]
-   },
-   {
-    "date": "2026-11-18",
-    "slot": "pm",
-    "title": "Hi Grandma, this is my new number",
-    "format": "slang v2 scam sting",
-    "platforms": [
-     {
-      "p": "youtube",
-      "status": "missing",
-      "url": null
-     },
-     {
-      "p": "facebook",
-      "status": "unverified",
-      "url": null
-     },
-     {
-      "p": "instagram",
-      "status": "unverified",
-      "url": null
-     }
-    ]
    }
   ],
   "yt_by_day": {
@@ -1282,5 +1236,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-26T04:28:40.914175Z"
+ "checked_at": "2026-11-26T05:28:21.341702Z"
 }
