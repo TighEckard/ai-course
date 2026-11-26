@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-26T22:28:08.708452Z",
+ "generated_at": "2026-11-26T23:22:32.563830Z",
  "errors": {},
  "site": {
   "os_30d": {
    "?": 9,
-   "iOS": 17,
+   "iOS": 18,
    "Linux": 2,
    "macOS": 1,
    "Android": 5,
@@ -29,7 +29,7 @@
    "14": 1,
    "15": 7,
    "16": 2,
-   "17": 2,
+   "17": 3,
    "18": 1,
    "20": 5,
    "21": 7,
@@ -64,8 +64,8 @@
   },
   "funnel_30d": {
    "paid": 0,
-   "engaged": 36,
-   "visitors": 68,
+   "engaged": 37,
+   "visitors": 69,
    "signed_up": 4,
    "opened_join": 0
   },
@@ -74,7 +74,7 @@
   "signups_7d": 0,
   "devices_30d": {
    "?": 9,
-   "mobile": 21,
+   "mobile": 22,
    "tablet": 1,
    "desktop": 37
   },
@@ -102,17 +102,17 @@
    "2026-11-23": 5,
    "2026-11-24": 1,
    "2026-11-25": 2,
-   "2026-11-26": 1
+   "2026-11-26": 2
   },
   "all_views_7d": 370,
-  "bot_views_7d": 340,
+  "bot_views_7d": 339,
   "browsers_30d": {
    "?": 9,
    "Edge": 1,
    "Chrome": 48,
-   "Safari": 10
+   "Safari": 11
   },
-  "generated_at": "2026-11-26T22:28:09.589301+00:00",
+  "generated_at": "2026-11-26T23:22:33.769625+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -124,9 +124,19 @@
   "countries_30d": {
    "?": 12,
    "Canada": 3,
-   "United States": 53
+   "United States": 54
   },
   "recent_visits": [
+   {
+    "t": "2026-11-26T22:33:22.707805+00:00",
+    "dev": "mobile",
+    "src": "direct",
+    "land": "/",
+    "secs": 24,
+    "pages": 1,
+    "place": "Atlanta, Georgia",
+    "scroll": 95
+   },
    {
     "t": "2026-11-26T18:26:42.394569+00:00",
     "dev": "desktop",
@@ -266,31 +276,21 @@
     "pages": 1,
     "place": "Quincy, Washington",
     "scroll": 38
-   },
-   {
-    "t": "2026-11-21T16:08:36.83333+00:00",
-    "dev": "desktop",
-    "src": "g1-a",
-    "land": "/",
-    "secs": 4,
-    "pages": 1,
-    "place": "Quincy, Washington",
-    "scroll": 38
    }
   ],
   "referrers_30d": {
-   "(none)": 49,
+   "(none)": 50,
    "google.com": 14,
    "facebook.com": 4,
    "pinterest.com": 1
   },
   "roofing_total": 0,
   "signups_total": 4,
-  "avg_scroll_30d": 51,
+  "avg_scroll_30d": 52,
   "bounce_pct_30d": 74,
   "messages_total": 0,
   "real_pages_30d": {
-   "/": 51,
+   "/": 52,
    "/roofing": 22
   },
   "recent_signups": [
@@ -339,14 +339,14 @@
    "Saturday, 10:00 AM": 1
   },
   "avg_time_sec_30d": 48,
-  "new_visitors_30d": 57,
-  "real_sessions_7d": 29,
+  "new_visitors_30d": 58,
+  "real_sessions_7d": 30,
   "real_sources_30d": {
    "g1-a": 4,
    "g1-b": 2,
    "g1-c": 3,
    "pod5": 1,
-   "direct": 21,
+   "direct": 22,
    "google": 13,
    "facebook": 4,
    "pinterest": 1,
@@ -357,14 +357,14 @@
    "t5-c-yvafybat-446": 2,
    "t5-c-yvafybat-yy6": 2
   },
-  "real_visitors_1d": 1,
-  "real_visitors_7d": 28,
+  "real_visitors_1d": 2,
+  "real_visitors_7d": 29,
   "landing_pages_30d": {
-   "/": 43,
+   "/": 44,
    "?": 9,
    "/roofing": 20
   },
-  "real_visitors_30d": 68,
+  "real_visitors_30d": 69,
   "signups_by_source": {
    "direct": 1,
    "pinterest": 1,
@@ -372,7 +372,7 @@
    "ref:com.google.android.googlequicksearchbox": 1
   },
   "messages_unanswered": 0,
-  "real_visitors_total": 68,
+  "real_visitors_total": 69,
   "test_members_excluded": 1,
   "test_signups_excluded": 2,
   "returning_visitors_30d": 15,
@@ -884,7 +884,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-26T22:28:08.708452Z"
+  "checked_at": "2026-11-26T23:22:32.563830Z"
  },
  "checks": [
   {
@@ -895,7 +895,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "28 real people this week; 340 of 370 page views were bots, crawlers or testing and are excluded"
+   "detail": "29 real people this week; 339 of 370 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -905,37 +905,37 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 4h ago"
   },
   {
    "name": "Footy",
    "ok": true,
-   "detail": "numbers last refreshed 9h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Robotics",
    "ok": false,
-   "detail": "numbers last refreshed 21h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 22h ago (older than 12h, flagged stale)"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 22h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 23h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-26",
-  "now_et": "5:28 PM",
+  "now_et": "6:23 PM",
   "today": {},
   "history": [
    {
@@ -1236,5 +1236,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-26T22:28:08.708452Z"
+ "checked_at": "2026-11-26T23:22:32.563830Z"
 }
