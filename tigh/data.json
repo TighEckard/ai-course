@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T07:27:45.682183Z",
+ "generated_at": "2026-11-26T08:28:15.947095Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -103,15 +103,15 @@
    "2026-11-24": 1,
    "2026-11-25": 2
   },
-  "all_views_7d": 389,
-  "bot_views_7d": 358,
+  "all_views_7d": 385,
+  "bot_views_7d": 354,
   "browsers_30d": {
    "?": 9,
    "Edge": 1,
    "Chrome": 47,
    "Safari": 10
   },
-  "generated_at": "2026-11-26T07:27:46.640707+00:00",
+  "generated_at": "2026-11-26T08:28:16.763192+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -884,7 +884,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-26T07:27:45.682183Z"
+  "checked_at": "2026-11-26T08:28:15.947095Z"
  },
  "checks": [
   {
@@ -895,7 +895,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "29 real people this week; 358 of 389 page views were bots, crawlers or testing and are excluded"
+   "detail": "29 real people this week; 354 of 385 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -905,22 +905,22 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 7h ago"
+   "detail": "numbers last refreshed 8h ago"
   },
   {
    "name": "Footy",
    "ok": true,
-   "detail": "numbers last refreshed 9h ago"
+   "detail": "numbers last refreshed 10h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Robotics",
    "ok": true,
-   "detail": "numbers last refreshed 6h ago"
+   "detail": "numbers last refreshed 7h ago"
   },
   {
    "name": "Roofing",
@@ -930,12 +930,12 @@
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 7h ago"
+   "detail": "numbers last refreshed 8h ago"
   }
  ],
  "posting": {
   "date": "2026-11-26",
-  "now_et": "2:28 AM",
+  "now_et": "3:28 AM",
   "today": {},
   "history": [
    {
@@ -1236,5 +1236,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-26T07:27:45.682183Z"
+ "checked_at": "2026-11-26T08:28:15.947095Z"
 }
