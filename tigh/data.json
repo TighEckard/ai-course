@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T23:28:19.457358Z",
+ "generated_at": "2026-11-26T00:07:04.764523Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -103,15 +103,15 @@
    "2026-11-24": 1,
    "2026-11-25": 2
   },
-  "all_views_7d": 468,
-  "bot_views_7d": 436,
+  "all_views_7d": 465,
+  "bot_views_7d": 433,
   "browsers_30d": {
    "?": 9,
    "Edge": 1,
    "Chrome": 47,
    "Safari": 10
   },
-  "generated_at": "2026-11-25T23:28:19.910983+00:00",
+  "generated_at": "2026-11-26T00:07:05.558153+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -883,7 +883,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-25T23:28:19.457358Z"
+  "checked_at": "2026-11-26T00:07:04.764523Z"
  },
  "checks": [
   {
@@ -894,7 +894,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "30 real people this week; 436 of 468 page views were bots, crawlers or testing and are excluded"
+   "detail": "30 real people this week; 433 of 465 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -904,7 +904,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 4h ago"
+   "detail": "numbers last refreshed 5h ago"
   },
   {
    "name": "Footy",
@@ -914,12 +914,12 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Robotics",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Roofing",
@@ -928,13 +928,13 @@
   },
   {
    "name": "Study creators",
-   "ok": false,
-   "detail": "numbers last refreshed 23h ago (older than 12h, flagged stale)"
+   "ok": true,
+   "detail": "numbers last refreshed 0h ago"
   }
  ],
  "posting": {
   "date": "2026-11-25",
-  "now_et": "6:28 PM",
+  "now_et": "7:07 PM",
   "today": {},
   "history": [
    {
@@ -1281,5 +1281,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-25T23:28:19.457358Z"
+ "checked_at": "2026-11-26T00:07:04.764523Z"
 }
