@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T13:28:29.361459Z",
+ "generated_at": "2026-11-26T14:27:52.301457Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -103,15 +103,15 @@
    "2026-11-24": 1,
    "2026-11-25": 2
   },
-  "all_views_7d": 378,
-  "bot_views_7d": 349,
+  "all_views_7d": 373,
+  "bot_views_7d": 344,
   "browsers_30d": {
    "?": 9,
    "Edge": 1,
    "Chrome": 47,
    "Safari": 10
   },
-  "generated_at": "2026-11-26T13:28:29.888972+00:00",
+  "generated_at": "2026-11-26T14:27:53.249263+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -884,7 +884,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-26T13:28:29.361459Z"
+  "checked_at": "2026-11-26T14:27:52.301457Z"
  },
  "checks": [
   {
@@ -895,7 +895,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "27 real people this week; 349 of 378 page views were bots, crawlers or testing and are excluded"
+   "detail": "27 real people this week; 344 of 373 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -905,22 +905,22 @@
   {
    "name": "Cozy Crochet Club",
    "ok": false,
-   "detail": "numbers last refreshed 13h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 14h ago (older than 12h, flagged stale)"
   },
   {
    "name": "Footy",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Robotics",
    "ok": false,
-   "detail": "numbers last refreshed 12h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 13h ago (older than 12h, flagged stale)"
   },
   {
    "name": "Roofing",
@@ -930,12 +930,12 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 13h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 14h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-26",
-  "now_et": "8:28 AM",
+  "now_et": "9:28 AM",
   "today": {},
   "history": [
    {
@@ -1236,5 +1236,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-26T13:28:29.361459Z"
+ "checked_at": "2026-11-26T14:27:52.301457Z"
 }
