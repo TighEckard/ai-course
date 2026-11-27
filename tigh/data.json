@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T21:05:07.819557Z",
+ "generated_at": "2026-11-27T21:06:30.276954Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -111,7 +111,7 @@
    "Chrome": 47,
    "Safari": 11
   },
-  "generated_at": "2026-11-27T21:05:08.587931+00:00",
+  "generated_at": "2026-11-27T21:06:30.432177+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -552,7 +552,7 @@
    }
   ],
   "catalog": true,
-  "exact_videos": 39,
+  "exact_videos": 38,
   "list": [
    {
     "id": "m0W4dx-Yyq4",
@@ -591,8 +591,8 @@
     "title": "Your bank texted that your account is locked? Do this first #Shorts",
     "url": "https://youtube.com/shorts/HsSq5MJ-juM",
     "views": 98,
-    "published": "2026-11-14",
-    "exact": true
+    "exact": false,
+    "published": "2026-11-14T12:36:00+00:00"
    },
    {
     "id": "QSxj4gj4llM",
@@ -883,13 +883,13 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-27T21:05:07.819557Z"
+  "checked_at": "2026-11-27T21:06:30.276954Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9207 views"
+   "detail": "41 videos on the channel, 38 with exact counts (rest from the channel page, rounded) = 9207 views"
   },
   {
    "name": "Website visitors",
@@ -914,7 +914,7 @@
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Robotics",
@@ -934,7 +934,7 @@
  ],
  "posting": {
   "date": "2026-11-27",
-  "now_et": "4:05 PM",
+  "now_et": "4:07 PM",
   "today": {},
   "history": [
    {
@@ -1189,5 +1189,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-27T21:05:07.819557Z"
+ "checked_at": "2026-11-27T21:06:30.276954Z"
 }
