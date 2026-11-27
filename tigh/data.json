@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T00:44:44.107935Z",
+ "generated_at": "2026-11-27T01:27:53.797686Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -104,7 +104,7 @@
    "2026-11-25": 2,
    "2026-11-26": 2
   },
-  "all_views_7d": 370,
+  "all_views_7d": 366,
   "bot_views_7d": 339,
   "browsers_30d": {
    "?": 9,
@@ -112,7 +112,7 @@
    "Chrome": 48,
    "Safari": 11
   },
-  "generated_at": "2026-11-27T00:44:44.833117+00:00",
+  "generated_at": "2026-11-27T01:27:54.461539+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -340,7 +340,7 @@
   },
   "avg_time_sec_30d": 48,
   "new_visitors_30d": 58,
-  "real_sessions_7d": 30,
+  "real_sessions_7d": 27,
   "real_sources_30d": {
    "g1-a": 4,
    "g1-b": 2,
@@ -358,7 +358,7 @@
    "t5-c-yvafybat-yy6": 2
   },
   "real_visitors_1d": 2,
-  "real_visitors_7d": 29,
+  "real_visitors_7d": 26,
   "landing_pages_30d": {
    "/": 44,
    "?": 9,
@@ -376,7 +376,7 @@
   "test_members_excluded": 1,
   "test_signups_excluded": 2,
   "returning_visitors_30d": 15,
-  "roofing_real_visitors_7d": 8
+  "roofing_real_visitors_7d": 5
  },
  "youtube": {
   "total_views": 9207,
@@ -884,7 +884,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-27T00:44:44.107935Z"
+  "checked_at": "2026-11-27T01:27:53.797686Z"
  },
  "checks": [
   {
@@ -895,7 +895,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "29 real people this week; 339 of 370 page views were bots, crawlers or testing and are excluded"
+   "detail": "26 real people this week; 339 of 366 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -905,12 +905,12 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Footy",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Ovoa",
@@ -920,7 +920,7 @@
   {
    "name": "Robotics",
    "ok": false,
-   "detail": "numbers last refreshed 23h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 24h ago (older than 12h, flagged stale)"
   },
   {
    "name": "Roofing",
@@ -935,7 +935,7 @@
  ],
  "posting": {
   "date": "2026-11-26",
-  "now_et": "7:45 PM",
+  "now_et": "8:28 PM",
   "today": {},
   "history": [
    {
@@ -1236,5 +1236,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-27T00:44:44.107935Z"
+ "checked_at": "2026-11-27T01:27:53.797686Z"
 }
