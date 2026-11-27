@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T07:27:45.283798Z",
+ "generated_at": "2026-11-27T08:27:59.193708Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -104,15 +104,15 @@
    "2026-11-25": 2,
    "2026-11-26": 2
   },
-  "all_views_7d": 295,
-  "bot_views_7d": 268,
+  "all_views_7d": 231,
+  "bot_views_7d": 204,
   "browsers_30d": {
    "?": 9,
    "Edge": 1,
    "Chrome": 48,
    "Safari": 11
   },
-  "generated_at": "2026-11-27T07:27:45.996739+00:00",
+  "generated_at": "2026-11-27T08:28:00.239326+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -381,7 +381,7 @@
  "youtube": {
   "total_views": 9207,
   "videos": 41,
-  "likes": 0,
+  "likes": 7,
   "top": [
    {
     "id": "9mRzsVeSNn4",
@@ -408,8 +408,150 @@
     "published": "2026-11-01"
    }
   ],
-  "recent": [],
-  "all": [],
+  "recent": [
+   {
+    "title": "Your Amazon account is locked? Read this first #Shorts",
+    "url": "https://www.youtube.com/shorts/m0W4dx-Yyq4",
+    "published": "2026-11-17T12:41:33+00:00",
+    "views": 29,
+    "likes": 0
+   },
+   {
+    "title": "Your Amazon account is locked? Read this first #Shorts",
+    "url": "https://www.youtube.com/shorts/YQsRiuD4170",
+    "published": "2026-11-17T12:35:30+00:00",
+    "views": 34,
+    "likes": 0
+   },
+   {
+    "title": "Medicare is texting you? Don't reply #Shorts",
+    "url": "https://www.youtube.com/shorts/GTcoR5hC3is",
+    "published": "2026-11-16T09:25:28+00:00",
+    "views": 16,
+    "likes": 0
+   },
+   {
+    "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
+    "url": "https://www.youtube.com/shorts/TObzq6YBBiw",
+    "published": "2026-11-15T12:35:24+00:00",
+    "views": 349,
+    "likes": 2
+   },
+   {
+    "title": "Your bank texted that your account is locked? Do this first #Shorts",
+    "url": "https://www.youtube.com/shorts/HsSq5MJ-juM",
+    "published": "2026-11-14T12:36:00+00:00",
+    "views": 98,
+    "likes": 2
+   }
+  ],
+  "all": [
+   {
+    "title": "Your Amazon account is locked? Read this first #Shorts",
+    "url": "https://www.youtube.com/shorts/m0W4dx-Yyq4",
+    "published": "2026-11-17T12:41:33+00:00",
+    "views": 29,
+    "likes": 0
+   },
+   {
+    "title": "Your Amazon account is locked? Read this first #Shorts",
+    "url": "https://www.youtube.com/shorts/YQsRiuD4170",
+    "published": "2026-11-17T12:35:30+00:00",
+    "views": 34,
+    "likes": 0
+   },
+   {
+    "title": "Medicare is texting you? Don't reply #Shorts",
+    "url": "https://www.youtube.com/shorts/GTcoR5hC3is",
+    "published": "2026-11-16T09:25:28+00:00",
+    "views": 16,
+    "likes": 0
+   },
+   {
+    "title": "The call sounds exactly like your son. Here's the 1-minute fix #Shorts",
+    "url": "https://www.youtube.com/shorts/TObzq6YBBiw",
+    "published": "2026-11-15T12:35:24+00:00",
+    "views": 349,
+    "likes": 2
+   },
+   {
+    "title": "Your bank texted that your account is locked? Do this first #Shorts",
+    "url": "https://www.youtube.com/shorts/HsSq5MJ-juM",
+    "published": "2026-11-14T12:36:00+00:00",
+    "views": 98,
+    "likes": 2
+   },
+   {
+    "title": "Got a confusing 'FINAL NOTICE' letter? Ask AI this #Shorts",
+    "url": "https://www.youtube.com/shorts/QSxj4gj4llM",
+    "published": "2026-11-13T23:36:47+00:00",
+    "views": 147,
+    "likes": 2
+   },
+   {
+    "title": "Grandkid texted 'it's giving fake'? Translated",
+    "url": "https://www.youtube.com/shorts/gNvoRlgUQSg",
+    "published": "2026-11-12T12:37:56+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
+    "title": "Grandkid texted you 'that's lowkey sus'? Translated",
+    "url": "https://www.youtube.com/shorts/dVX1bZdId60",
+    "published": "2026-11-12T12:35:28+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
+    "title": "Grandkid texted you 'that's lowkey sus'? Translated",
+    "url": "https://www.youtube.com/shorts/SJzm0VJglpg",
+    "published": "2026-11-11T20:02:23+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
+    "title": "What to say when a scam caller pressures you",
+    "url": "https://www.youtube.com/shorts/3Z-cVhpVI3c",
+    "published": "2026-11-10T12:37:54+00:00",
+    "views": 1,
+    "likes": 1
+   },
+   {
+    "title": "Scam or safe? Can you tell?",
+    "url": "https://www.youtube.com/shorts/yf6HJrYj3ww",
+    "published": "2026-11-10T02:40:17+00:00",
+    "views": 0,
+    "likes": 0
+   },
+   {
+    "title": "What to say when a scam caller pressures you",
+    "url": "https://www.youtube.com/shorts/BMZBrj5YJGs",
+    "published": "2026-11-10T02:37:27+00:00",
+    "views": 14,
+    "likes": 0
+   },
+   {
+    "title": "One phone setting that stops scam calls #Shorts",
+    "url": "https://www.youtube.com/shorts/1L9U100WIN0",
+    "published": "2026-11-09T20:59:54+00:00",
+    "views": 3,
+    "likes": 0
+   },
+   {
+    "title": "POV: everyone in the meeting is using AI #Shorts",
+    "url": "https://www.youtube.com/shorts/1Z8d6CqPQHU",
+    "published": "2026-11-09T20:56:29+00:00",
+    "views": 8,
+    "likes": 0
+   },
+   {
+    "title": "The email that could get you a $14k raise #Shorts",
+    "url": "https://www.youtube.com/shorts/-4fKye0-VjE",
+    "published": "2026-11-08T04:28:34+00:00",
+    "views": 1,
+    "likes": 0
+   }
+  ],
   "catalog": true,
   "exact_videos": 0,
   "list": [
@@ -419,7 +561,7 @@
     "url": "https://youtube.com/shorts/m0W4dx-Yyq4",
     "views": 29,
     "exact": false,
-    "published": "2026-11-17"
+    "published": "2026-11-17T12:41:33+00:00"
    },
    {
     "id": "YQsRiuD4170",
@@ -427,7 +569,7 @@
     "url": "https://youtube.com/shorts/YQsRiuD4170",
     "views": 34,
     "exact": false,
-    "published": "2026-11-17"
+    "published": "2026-11-17T12:35:30+00:00"
    },
    {
     "id": "GTcoR5hC3is",
@@ -435,7 +577,7 @@
     "url": "https://youtube.com/shorts/GTcoR5hC3is",
     "views": 16,
     "exact": false,
-    "published": "2026-11-16"
+    "published": "2026-11-16T09:25:28+00:00"
    },
    {
     "id": "TObzq6YBBiw",
@@ -443,7 +585,7 @@
     "url": "https://youtube.com/shorts/TObzq6YBBiw",
     "views": 349,
     "exact": false,
-    "published": "2026-11-15"
+    "published": "2026-11-15T12:35:24+00:00"
    },
    {
     "id": "HsSq5MJ-juM",
@@ -451,7 +593,7 @@
     "url": "https://youtube.com/shorts/HsSq5MJ-juM",
     "views": 98,
     "exact": false,
-    "published": "2026-11-14"
+    "published": "2026-11-14T12:36:00+00:00"
    },
    {
     "id": "QSxj4gj4llM",
@@ -459,7 +601,7 @@
     "url": "https://youtube.com/shorts/QSxj4gj4llM",
     "views": 147,
     "exact": false,
-    "published": "2026-11-13"
+    "published": "2026-11-13T23:36:47+00:00"
    },
    {
     "id": "gNvoRlgUQSg",
@@ -467,7 +609,7 @@
     "url": "https://youtube.com/shorts/gNvoRlgUQSg",
     "views": 0,
     "exact": false,
-    "published": "2026-11-12"
+    "published": "2026-11-12T12:37:56+00:00"
    },
    {
     "id": "dVX1bZdId60",
@@ -475,7 +617,7 @@
     "url": "https://youtube.com/shorts/dVX1bZdId60",
     "views": 0,
     "exact": false,
-    "published": "2026-11-11"
+    "published": "2026-11-12T12:35:28+00:00"
    },
    {
     "id": "SJzm0VJglpg",
@@ -483,7 +625,7 @@
     "url": "https://youtube.com/shorts/SJzm0VJglpg",
     "views": 0,
     "exact": false,
-    "published": "2026-11-11"
+    "published": "2026-11-11T20:02:23+00:00"
    },
    {
     "id": "3Z-cVhpVI3c",
@@ -491,7 +633,7 @@
     "url": "https://youtube.com/shorts/3Z-cVhpVI3c",
     "views": 1,
     "exact": false,
-    "published": "2026-11-10"
+    "published": "2026-11-10T12:37:54+00:00"
    },
    {
     "id": "yf6HJrYj3ww",
@@ -499,7 +641,7 @@
     "url": "https://youtube.com/shorts/yf6HJrYj3ww",
     "views": 0,
     "exact": false,
-    "published": "2026-11-10"
+    "published": "2026-11-10T02:40:17+00:00"
    },
    {
     "id": "BMZBrj5YJGs",
@@ -507,7 +649,7 @@
     "url": "https://youtube.com/shorts/BMZBrj5YJGs",
     "views": 14,
     "exact": false,
-    "published": "2026-11-10"
+    "published": "2026-11-10T02:37:27+00:00"
    },
    {
     "id": "1L9U100WIN0",
@@ -515,7 +657,7 @@
     "url": "https://youtube.com/shorts/1L9U100WIN0",
     "views": 3,
     "exact": false,
-    "published": "2026-11-09"
+    "published": "2026-11-09T20:59:54+00:00"
    },
    {
     "id": "1Z8d6CqPQHU",
@@ -523,7 +665,7 @@
     "url": "https://youtube.com/shorts/1Z8d6CqPQHU",
     "views": 8,
     "exact": false,
-    "published": "2026-11-09"
+    "published": "2026-11-09T20:56:29+00:00"
    },
    {
     "id": "-4fKye0-VjE",
@@ -531,7 +673,7 @@
     "url": "https://youtube.com/shorts/-4fKye0-VjE",
     "views": 1,
     "exact": false,
-    "published": "2026-11-08"
+    "published": "2026-11-08T04:28:34+00:00"
    },
    {
     "id": "o-Cm_xmLloU",
@@ -742,7 +884,7 @@
     "published": null
    }
   ],
-  "checked_at": "2026-11-27T07:27:45.283798Z"
+  "checked_at": "2026-11-27T08:27:59.193708Z"
  },
  "checks": [
   {
@@ -753,7 +895,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "26 real people this week; 268 of 295 page views were bots, crawlers or testing and are excluded"
+   "detail": "26 real people this week; 204 of 231 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -763,22 +905,22 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 7h ago"
+   "detail": "numbers last refreshed 8h ago"
   },
   {
    "name": "Footy",
    "ok": true,
-   "detail": "numbers last refreshed 8h ago"
+   "detail": "numbers last refreshed 9h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Robotics",
    "ok": false,
-   "detail": "numbers last refreshed 30h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 31h ago (older than 12h, flagged stale)"
   },
   {
    "name": "Roofing",
@@ -788,12 +930,12 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 31h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 32h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-27",
-  "now_et": "2:28 AM",
+  "now_et": "3:28 AM",
   "today": {},
   "history": [
    {
@@ -1027,7 +1169,18 @@
     ]
    }
   ],
-  "yt_by_day": {},
+  "yt_by_day": {
+   "2026-11-17": 2,
+   "2026-11-16": 1,
+   "2026-11-15": 1,
+   "2026-11-14": 1,
+   "2026-11-13": 1,
+   "2026-11-12": 2,
+   "2026-11-11": 1,
+   "2026-11-10": 3,
+   "2026-11-09": 2,
+   "2026-11-08": 1
+  },
   "comments_by_day": {}
  },
  "social": {
@@ -1037,5 +1190,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-27T07:27:45.283798Z"
+ "checked_at": "2026-11-27T08:27:59.193708Z"
 }
