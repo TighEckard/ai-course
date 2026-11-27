@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T22:33:05.916412Z",
+ "generated_at": "2026-11-27T23:22:29.727692Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -111,7 +111,7 @@
    "Chrome": 47,
    "Safari": 11
   },
-  "generated_at": "2026-11-27T22:33:06.493666+00:00",
+  "generated_at": "2026-11-27T23:22:30.535054+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -356,7 +356,7 @@
    "t5-c-yvafybat-446": 2,
    "t5-c-yvafybat-yy6": 2
   },
-  "real_visitors_1d": 1,
+  "real_visitors_1d": 0,
   "real_visitors_7d": 19,
   "landing_pages_30d": {
    "/": 43,
@@ -883,7 +883,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-27T22:33:05.916412Z"
+  "checked_at": "2026-11-27T23:22:29.727692Z"
  },
  "checks": [
   {
@@ -904,37 +904,37 @@
   {
    "name": "Cozy Crochet Club",
    "ok": false,
-   "detail": "numbers last refreshed 22h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 23h ago (older than 12h, flagged stale)"
   },
   {
    "name": "Footy",
    "ok": true,
-   "detail": "numbers last refreshed 11h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Robotics",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 46h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 47h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-27",
-  "now_et": "5:33 PM",
+  "now_et": "6:23 PM",
   "today": {},
   "history": [
    {
@@ -1189,5 +1189,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-27T22:33:05.916412Z"
+ "checked_at": "2026-11-27T23:22:29.727692Z"
 }
