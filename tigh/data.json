@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T04:27:44.020924Z",
+ "generated_at": "2026-11-27T05:27:32.520327Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -104,15 +104,15 @@
    "2026-11-25": 2,
    "2026-11-26": 2
   },
-  "all_views_7d": 332,
-  "bot_views_7d": 305,
+  "all_views_7d": 326,
+  "bot_views_7d": 299,
   "browsers_30d": {
    "?": 9,
    "Edge": 1,
    "Chrome": 48,
    "Safari": 11
   },
-  "generated_at": "2026-11-27T04:27:44.846104+00:00",
+  "generated_at": "2026-11-27T05:27:33.328293+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -884,7 +884,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-27T04:27:44.020924Z"
+  "checked_at": "2026-11-27T05:27:32.520327Z"
  },
  "checks": [
   {
@@ -895,7 +895,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "26 real people this week; 305 of 332 page views were bots, crawlers or testing and are excluded"
+   "detail": "26 real people this week; 299 of 326 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -905,22 +905,22 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 4h ago"
+   "detail": "numbers last refreshed 5h ago"
   },
   {
    "name": "Footy",
    "ok": true,
-   "detail": "numbers last refreshed 5h ago"
+   "detail": "numbers last refreshed 6h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 2h ago"
   },
   {
    "name": "Robotics",
    "ok": false,
-   "detail": "numbers last refreshed 27h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 28h ago (older than 12h, flagged stale)"
   },
   {
    "name": "Roofing",
@@ -930,12 +930,12 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 28h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 29h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
-  "date": "2026-11-26",
-  "now_et": "11:28 PM",
+  "date": "2026-11-27",
+  "now_et": "12:28 AM",
   "today": {},
   "history": [
    {
@@ -1167,52 +1167,6 @@
       "url": null
      }
     ]
-   },
-   {
-    "date": "2026-11-19",
-    "slot": "am",
-    "title": "You won a million dollars? Read this #Shorts",
-    "format": "slang v2 scam sting",
-    "platforms": [
-     {
-      "p": "youtube",
-      "status": "missing",
-      "url": null
-     },
-     {
-      "p": "facebook",
-      "status": "unverified",
-      "url": null
-     },
-     {
-      "p": "instagram",
-      "status": "unverified",
-      "url": null
-     }
-    ]
-   },
-   {
-    "date": "2026-11-19",
-    "slot": "pm",
-    "title": "He says he loves you but needs money",
-    "format": "slang v2 scam sting",
-    "platforms": [
-     {
-      "p": "youtube",
-      "status": "missing",
-      "url": null
-     },
-     {
-      "p": "facebook",
-      "status": "unverified",
-      "url": null
-     },
-     {
-      "p": "instagram",
-      "status": "unverified",
-      "url": null
-     }
-    ]
    }
   ],
   "yt_by_day": {
@@ -1236,5 +1190,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-27T04:27:44.020924Z"
+ "checked_at": "2026-11-27T05:27:32.520327Z"
 }
