@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T03:28:41.998421Z",
+ "generated_at": "2026-11-27T04:27:44.020924Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -104,15 +104,15 @@
    "2026-11-25": 2,
    "2026-11-26": 2
   },
-  "all_views_7d": 335,
-  "bot_views_7d": 308,
+  "all_views_7d": 332,
+  "bot_views_7d": 305,
   "browsers_30d": {
    "?": 9,
    "Edge": 1,
    "Chrome": 48,
    "Safari": 11
   },
-  "generated_at": "2026-11-27T03:28:42.837297+00:00",
+  "generated_at": "2026-11-27T04:27:44.846104+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -884,7 +884,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-27T03:28:41.998421Z"
+  "checked_at": "2026-11-27T04:27:44.020924Z"
  },
  "checks": [
   {
@@ -895,7 +895,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "26 real people this week; 308 of 335 page views were bots, crawlers or testing and are excluded"
+   "detail": "26 real people this week; 305 of 332 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -905,22 +905,22 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 3h ago"
+   "detail": "numbers last refreshed 4h ago"
   },
   {
    "name": "Footy",
    "ok": true,
-   "detail": "numbers last refreshed 4h ago"
+   "detail": "numbers last refreshed 5h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Robotics",
    "ok": false,
-   "detail": "numbers last refreshed 26h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 27h ago (older than 12h, flagged stale)"
   },
   {
    "name": "Roofing",
@@ -930,12 +930,12 @@
   {
    "name": "Study creators",
    "ok": false,
-   "detail": "numbers last refreshed 27h ago (older than 12h, flagged stale)"
+   "detail": "numbers last refreshed 28h ago (older than 12h, flagged stale)"
   }
  ],
  "posting": {
   "date": "2026-11-26",
-  "now_et": "10:29 PM",
+  "now_et": "11:28 PM",
   "today": {},
   "history": [
    {
@@ -1236,5 +1236,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-27T03:28:41.998421Z"
+ "checked_at": "2026-11-27T04:27:44.020924Z"
 }
