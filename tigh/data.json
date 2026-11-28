@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T09:27:53.042884Z",
+ "generated_at": "2026-11-28T10:27:57.057327Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -103,15 +103,15 @@
    "2026-11-26": 2,
    "2026-11-27": 1
   },
-  "all_views_7d": 96,
-  "bot_views_7d": 74,
+  "all_views_7d": 93,
+  "bot_views_7d": 71,
   "browsers_30d": {
    "?": 9,
    "Edge": 1,
    "Chrome": 47,
    "Safari": 10
   },
-  "generated_at": "2026-11-28T09:27:53.852532+00:00",
+  "generated_at": "2026-11-28T10:27:57.986123+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -884,7 +884,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-28T09:27:53.042884Z"
+  "checked_at": "2026-11-28T10:27:57.057327Z"
  },
  "checks": [
   {
@@ -895,7 +895,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "20 real people this week; 74 of 96 page views were bots, crawlers or testing and are excluded"
+   "detail": "20 real people this week; 71 of 93 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -905,22 +905,22 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 9h ago"
+   "detail": "numbers last refreshed 10h ago"
   },
   {
    "name": "Footy",
    "ok": true,
-   "detail": "numbers last refreshed 10h ago"
+   "detail": "numbers last refreshed 11h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Robotics",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 3h ago"
   },
   {
    "name": "Roofing",
@@ -930,12 +930,12 @@
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   }
  ],
  "posting": {
   "date": "2026-11-28",
-  "now_et": "4:28 AM",
+  "now_et": "5:28 AM",
   "today": {},
   "history": [
    {
@@ -1144,5 +1144,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-28T09:27:53.042884Z"
+ "checked_at": "2026-11-28T10:27:57.057327Z"
 }
