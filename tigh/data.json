@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T01:27:48.906066Z",
+ "generated_at": "2026-11-28T01:29:11.728167Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -111,7 +111,7 @@
    "Chrome": 47,
    "Safari": 11
   },
-  "generated_at": "2026-11-28T01:27:49.825096+00:00",
+  "generated_at": "2026-11-28T01:29:11.871347+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -883,7 +883,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-28T01:27:48.906066Z"
+  "checked_at": "2026-11-28T01:29:11.728167Z"
  },
  "checks": [
   {
@@ -919,7 +919,7 @@
   {
    "name": "Robotics",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Roofing",
@@ -934,7 +934,7 @@
  ],
  "posting": {
   "date": "2026-11-27",
-  "now_et": "8:28 PM",
+  "now_et": "8:29 PM",
   "today": {},
   "history": [
    {
@@ -1189,5 +1189,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-28T01:27:48.906066Z"
+ "checked_at": "2026-11-28T01:29:11.728167Z"
 }
