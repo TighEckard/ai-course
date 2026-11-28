@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T09:06:05.737594Z",
+ "generated_at": "2026-11-28T09:27:53.042884Z",
  "errors": {},
  "site": {
   "os_30d": {
@@ -103,15 +103,15 @@
    "2026-11-26": 2,
    "2026-11-27": 1
   },
-  "all_views_7d": 98,
-  "bot_views_7d": 76,
+  "all_views_7d": 96,
+  "bot_views_7d": 74,
   "browsers_30d": {
    "?": 9,
    "Edge": 1,
    "Chrome": 47,
    "Safari": 10
   },
-  "generated_at": "2026-11-28T09:06:06.400869+00:00",
+  "generated_at": "2026-11-28T09:27:53.852532+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -379,7 +379,7 @@
   "roofing_real_visitors_7d": 5
  },
  "youtube": {
-  "total_views": 9207,
+  "total_views": 9208,
   "videos": 41,
   "likes": 7,
   "top": [
@@ -791,7 +791,7 @@
     "id": "BUodsaR44Gw",
     "title": "Grandkid called you bestie? Translated #Shorts",
     "url": "https://youtube.com/shorts/BUodsaR44Gw",
-    "views": 461,
+    "views": 462,
     "published": "2026-11-01",
     "exact": true
    },
@@ -884,18 +884,18 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-28T09:06:05.737594Z"
+  "checked_at": "2026-11-28T09:27:53.042884Z"
  },
  "checks": [
   {
    "name": "YouTube views",
    "ok": true,
-   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9207 views"
+   "detail": "41 videos on the channel, 39 with exact counts (rest from the channel page, rounded) = 9208 views"
   },
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "20 real people this week; 76 of 98 page views were bots, crawlers or testing and are excluded"
+   "detail": "20 real people this week; 74 of 96 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -905,7 +905,7 @@
   {
    "name": "Cozy Crochet Club",
    "ok": true,
-   "detail": "numbers last refreshed 8h ago"
+   "detail": "numbers last refreshed 9h ago"
   },
   {
    "name": "Footy",
@@ -925,7 +925,7 @@
   {
    "name": "Roofing",
    "ok": true,
-   "detail": "numbers last refreshed 1h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Study creators",
@@ -935,7 +935,7 @@
  ],
  "posting": {
   "date": "2026-11-28",
-  "now_et": "4:06 AM",
+  "now_et": "4:28 AM",
   "today": {},
   "history": [
    {
@@ -1144,5 +1144,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-28T09:06:05.737594Z"
+ "checked_at": "2026-11-28T09:27:53.042884Z"
 }
