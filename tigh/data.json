@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-28T05:28:08.544511Z",
+ "generated_at": "2026-11-28T06:06:42.639210Z",
  "errors": {},
  "site": {
   "os_30d": {
    "?": 9,
-   "iOS": 18,
+   "iOS": 17,
    "Linux": 2,
    "macOS": 1,
    "Android": 5,
@@ -14,7 +14,7 @@
   "real_rule": "real = scrolled 25%+, stayed 10s+, clicked or signed up; bots, crawlers, testing and the owner removed",
   "by_hour_et": {
    "00": 1,
-   "01": 2,
+   "01": 1,
    "03": 1,
    "04": 1,
    "05": 2,
@@ -45,7 +45,7 @@
    "Quincy, Washington": 4,
    "Chase City, Virginia": 4,
    "Nashville, Tennessee": 2,
-   "San Jose, California": 3,
+   "San Jose, California": 2,
    "Indianapolis, Indiana": 3,
    "Philadelphia, Pennsylvania": 2,
    "Washington, District of Columbia": 6
@@ -64,8 +64,8 @@
   },
   "funnel_30d": {
    "paid": 0,
-   "engaged": 36,
-   "visitors": 68,
+   "engaged": 35,
+   "visitors": 67,
    "signed_up": 4,
    "opened_join": 0
   },
@@ -74,13 +74,12 @@
   "signups_7d": 0,
   "devices_30d": {
    "?": 9,
-   "mobile": 22,
+   "mobile": 21,
    "tablet": 1,
    "desktop": 36
   },
   "messages_7d": 0,
   "real_by_day": {
-   "2026-10-29": 1,
    "2026-11-01": 2,
    "2026-11-02": 2,
    "2026-11-03": 2,
@@ -104,15 +103,15 @@
    "2026-11-26": 2,
    "2026-11-27": 1
   },
-  "all_views_7d": 110,
-  "bot_views_7d": 88,
+  "all_views_7d": 108,
+  "bot_views_7d": 86,
   "browsers_30d": {
    "?": 9,
    "Edge": 1,
    "Chrome": 47,
-   "Safari": 11
+   "Safari": 10
   },
-  "generated_at": "2026-11-28T05:28:09.332412+00:00",
+  "generated_at": "2026-11-28T06:06:43.401226+00:00",
   "paid_members": 0,
   "avg_pages_30d": 1.0,
   "campaigns_30d": {
@@ -125,7 +124,7 @@
   "countries_30d": {
    "?": 12,
    "Canada": 3,
-   "United States": 53
+   "United States": 52
   },
   "recent_visits": [
    {
@@ -280,18 +279,18 @@
    }
   ],
   "referrers_30d": {
-   "(none)": 49,
+   "(none)": 48,
    "google.com": 14,
    "facebook.com": 4,
    "pinterest.com": 1
   },
   "roofing_total": 0,
   "signups_total": 4,
-  "avg_scroll_30d": 52,
+  "avg_scroll_30d": 51,
   "bounce_pct_30d": 74,
   "messages_total": 0,
   "real_pages_30d": {
-   "/": 50,
+   "/": 49,
    "/roofing": 24
   },
   "recent_signups": [
@@ -340,14 +339,14 @@
    "Saturday, 10:00 AM": 1
   },
   "avg_time_sec_30d": 48,
-  "new_visitors_30d": 58,
+  "new_visitors_30d": 57,
   "real_sessions_7d": 21,
   "real_sources_30d": {
    "g1-a": 4,
    "g1-b": 2,
    "g1-c": 3,
    "pod5": 1,
-   "direct": 21,
+   "direct": 20,
    "google": 13,
    "facebook": 4,
    "pinterest": 1,
@@ -361,11 +360,11 @@
   "real_visitors_1d": 1,
   "real_visitors_7d": 20,
   "landing_pages_30d": {
-   "/": 43,
+   "/": 42,
    "?": 9,
    "/roofing": 21
   },
-  "real_visitors_30d": 68,
+  "real_visitors_30d": 67,
   "signups_by_source": {
    "direct": 1,
    "pinterest": 1,
@@ -885,7 +884,7 @@
     "exact": true
    }
   ],
-  "checked_at": "2026-11-28T05:28:08.544511Z"
+  "checked_at": "2026-11-28T06:06:42.639210Z"
  },
  "checks": [
   {
@@ -896,7 +895,7 @@
   {
    "name": "Website visitors",
    "ok": true,
-   "detail": "20 real people this week; 88 of 110 page views were bots, crawlers or testing and are excluded"
+   "detail": "20 real people this week; 86 of 108 page views were bots, crawlers or testing and are excluded"
   },
   {
    "name": "Signups",
@@ -911,17 +910,17 @@
   {
    "name": "Footy",
    "ok": true,
-   "detail": "numbers last refreshed 6h ago"
+   "detail": "numbers last refreshed 7h ago"
   },
   {
    "name": "Ovoa",
    "ok": true,
-   "detail": "numbers last refreshed 2h ago"
+   "detail": "numbers last refreshed 0h ago"
   },
   {
    "name": "Robotics",
    "ok": true,
-   "detail": "numbers last refreshed 0h ago"
+   "detail": "numbers last refreshed 1h ago"
   },
   {
    "name": "Roofing",
@@ -931,12 +930,12 @@
   {
    "name": "Study creators",
    "ok": true,
-   "detail": "numbers last refreshed 5h ago"
+   "detail": "numbers last refreshed 6h ago"
   }
  ],
  "posting": {
   "date": "2026-11-28",
-  "now_et": "12:28 AM",
+  "now_et": "1:07 AM",
   "today": {},
   "history": [
    {
@@ -1145,5 +1144,5 @@
   "instagram": {},
   "pinterest": {}
  },
- "checked_at": "2026-11-28T05:28:08.544511Z"
+ "checked_at": "2026-11-28T06:06:42.639210Z"
 }
